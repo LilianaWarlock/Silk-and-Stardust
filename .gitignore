@@ -32,3 +32,5 @@ minecraft/config/sodium-fingerprint.json
 minecraft/config/fml.toml
 minecraft/config/fabric/indigo-renderer.properties
 minecraft/config/iris.properties
+/minecraft/config/roughlyenoughitems
+
