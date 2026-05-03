@@ -1,0 +1,53 @@
+filename = 'selling_bin-1.4.1-NEOFORGE-1.21.1.jar'
+name = "wd's Selling Bin"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.4.1-NEOFORGE-1.21.1'
+
+[download]
+hash = '369c412a748c477af311f6c54e9afb4b633871bf96dcaf8deeecc85678de1930de8638a4e323f53828cc00cd38067b26b29ea3d7197d53dd9c86356281f691b6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/niDbB1Li/versions/nrGOzmNu/selling_bin-1.4.1-NEOFORGE-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'niDbB1Li'
+version = 'nrGOzmNu'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'b7NV2plI'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'h2jXvxNR'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1DWmBJVA'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Ahdn1OE0'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Ynklgl8X'
+type = 'EMBEDDED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'wvMc8AJt'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fRiHVvU7'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Jdbbtt0i'
+type = 'OPTIONAL'

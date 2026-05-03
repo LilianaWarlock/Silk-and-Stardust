@@ -1,0 +1,16 @@
+#Chance (0.0 to 1.0) for a Pillager to drop the jar
+# Default: 0.05
+# Range: 0.0 ~ 1.0
+pillagerChance = 0.05
+#Chance (0.0 to 1.0) for a Vindicator to drop the jar
+# Default: 0.1
+# Range: 0.0 ~ 1.0
+vindicatorChance = 0.1
+#Chance (0.0 to 1.0) for an Evoker to drop the jar
+# Default: 0.25
+# Range: 0.0 ~ 1.0
+evokerChance = 0.25
+#Chance (0.0 to 1.0) for an Illusioner to drop the jar
+# Default: 0.1
+# Range: 0.0 ~ 1.0
+illusionerChance = 0.1

@@ -1,0 +1,21 @@
+filename = 'cropcritters-neoforge-1.21.1-1.3.5.jar'
+name = 'Crop Critters'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.5'
+
+[download]
+hash = 'f134cde23200917c22eb8e999ab28c1514b0286507fb0aef79a552d6209eb41dd03a003a657a9d960987d2c4159b58b50f769023bc8bec1874f689f826e2ba9e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5u8twXEK/versions/F2K6mSeu/cropcritters-neoforge-1.21.1-1.3.5.jar'
+
+[update.modrinth]
+mod-id = '5u8twXEK'
+version = 'F2K6mSeu'
+
+[[x-prismlauncher-dependencies]]
+addonId = '8BmcQJ2H'
+type = 'REQUIRED'

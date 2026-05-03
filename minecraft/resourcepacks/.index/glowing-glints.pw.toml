@@ -1,0 +1,21 @@
+filename = 'Enchantment Outlines.zip'
+name = 'Enchantment Outlines'
+side = 'client'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21.4', '1.21.5', '1.21.6', '1.21.7', '1.21.8', '1.21.9', '1.21.10', '1.21.11', '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.10.4'
+
+[download]
+hash = '1505d796ceb353b5fb19a56401f1d3250666d5c658148095aef528e90df70132845334bdbbe1d2478f96379e5b05230a154a62ccdc5f2dfe29519a74149a8a88'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/A32gwfe8/versions/BNPmzlk9/Enchantment Outlines.zip'
+
+[update.modrinth]
+mod-id = 'A32gwfe8'
+version = 'BNPmzlk9'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'TiF5QWZY'
+type = 'OPTIONAL'

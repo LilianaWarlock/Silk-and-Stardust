@@ -1,0 +1,29 @@
+filename = 'active_enchantments_lib-1.1.1.jar'
+name = 'ActiveEnchantmentsLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.1.1'
+
+[download]
+hash = '51045c798f3223d6f4d5683d5897dc06277e6734c69f0ee083a97a596ecf3d5a31ae41ecbd6b41a19d7b9a106701a34deb45598a436b6f44ad5610fd23d5f5f8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/R9EJWXPo/versions/DaO2uaTp/active_enchantments_lib-1.1.1.jar'
+
+[update.modrinth]
+mod-id = 'R9EJWXPo'
+version = 'DaO2uaTp'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Aqlf1Shp'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u58R1TMW'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

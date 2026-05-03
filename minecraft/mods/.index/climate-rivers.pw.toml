@@ -1,0 +1,29 @@
+filename = 'ClimateRivers-v21.1.3-1.21.1-NeoForge.jar'
+name = 'Climate Rivers'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v21.1.3-1.21.1-NeoForge'
+
+[download]
+hash = '7d4d2c76b90149dfac47ce755efe2d809e42aefc4f43cfc8a42a777805ed75936d1adb215c15a3c08fd3b6662da05f38fe68a1cab78024d46970901fff034766'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DzZWws4q/versions/qHngFoBS/ClimateRivers-v21.1.3-1.21.1-NeoForge.jar'
+
+[update.modrinth]
+mod-id = 'DzZWws4q'
+version = 'qHngFoBS'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'QAGBst4M'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '5WeWGLoJ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'kkmrDlKT'
+type = 'REQUIRED'

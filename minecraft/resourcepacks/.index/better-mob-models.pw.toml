@@ -1,0 +1,25 @@
+filename = 'Better Mob Models [V1.2].zip'
+name = 'Better Mob Models'
+side = 'client'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4', '1.21.5', '1.21.6', '1.21.7', '1.21.8' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2'
+
+[download]
+hash = 'aa26cf08963f348676d1737fd401c135325c307a52dc866073e1d46e30110f0a0a79c50e16d27ffb5ba1ce0e7ba6de8821943c65e200e94858edfe5226596e96'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fa06JGLx/versions/EMsW9nQI/Better Mob Models %5BV1.2%5D.zip'
+
+[update.modrinth]
+mod-id = 'fa06JGLx'
+version = 'EMsW9nQI'
+
+[[x-prismlauncher-dependencies]]
+addonId = '4I1XuqiY'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'BVzZfTc1'
+type = 'REQUIRED'

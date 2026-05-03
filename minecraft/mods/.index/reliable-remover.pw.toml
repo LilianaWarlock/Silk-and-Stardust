@@ -1,0 +1,29 @@
+filename = 'reliable_remover-neoforge-1.21.1-2.2.4.jar'
+name = 'Reliable Remover'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.2.4-1.21.1-neoforge'
+
+[download]
+hash = '42985199f6afb0b0ac2645ca2ad87d8b80fde53cf8a46ce1f707c35a38de3c03582dc4830c454cad6d4ce45d6ee08306c6e3adc865872031d5d251f212984fa5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pLxsKvNt/versions/eR9oK4Fo/reliable_remover-neoforge-1.21.1-2.2.4.jar'
+
+[update.modrinth]
+mod-id = 'pLxsKvNt'
+version = 'eR9oK4Fo'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fRiHVvU7'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'

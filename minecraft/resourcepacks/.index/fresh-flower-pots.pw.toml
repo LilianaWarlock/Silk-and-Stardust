@@ -1,0 +1,44 @@
+filename = '§3Fresh §bFlower Pots.zip'
+name = 'Fresh Flower Pots'
+side = 'client'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11',
+    '26.1',
+    '26.1.1',
+    '26.1.2'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.5.2'
+
+[download]
+hash = '7548f249fab8caba76d18947620d54729a849107126f2de8a14c3ee31036aaa9dc8806d28968abf8544fe836fc6a15e3bd19bf2ef85eadd92da9ae94d961dc54'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/CmEN0T1m/versions/8QUNaupx/§3Fresh §bFlower Pots.zip'
+
+[update.modrinth]
+mod-id = 'CmEN0T1m'
+version = '8QUNaupx'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'BrcYkHFu'
+type = 'OPTIONAL'

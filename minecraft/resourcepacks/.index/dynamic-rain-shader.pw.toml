@@ -1,0 +1,18 @@
+filename = 'dynamic-rain-shader_0.1.2_1.21.4.zip'
+name = 'Dynamic Rain Shader'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.1.2_1.21.4'
+
+[download]
+hash = '6ecdc4ee74296720e3cc5b46e608bc152168a83eea264539cfdd25924f6325a3a7a81bbcffce6a577bdcd5b4848a982b38d422c95874973c4f314de13a6ecf8a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/h1XaRPDH/versions/9vWDGhLQ/dynamic-rain-shader_0.1.2_1.21.4.zip'
+
+[update.modrinth]
+mod-id = 'h1XaRPDH'
+version = '9vWDGhLQ'

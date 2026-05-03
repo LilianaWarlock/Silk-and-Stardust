@@ -1,0 +1,18 @@
+filename = 'oddaccessories-1.0.7-neoforge-1.21.1.jar'
+name = 'Odd Accessories'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.7'
+
+[download]
+hash = '893f479b80b21e0d5f8b33d456bd28982f77d58d1dea01a1632ce89457a066a6ae259cc0c60de14cbe09db8a82f17c0b09b03a8a12f431428daf4477d31df665'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/iQsDXuWY/versions/3G7xWq6j/oddaccessories-1.0.7-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'iQsDXuWY'
+version = '3G7xWq6j'

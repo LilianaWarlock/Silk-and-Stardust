@@ -1,15 +1,28 @@
-# We only want specific things to be shared in the repo, 
-# so we're disabling everything by default.
-minecraft/
-
+# We don't need to share these, so we won't!
 .packignore
 instance.cfg
 mmc-pack.json
 
-# These are the important things we're going to be working in. 
-# The handy thing about doing it like this is that we can expand it later as we need.
 
-!minecraft/config/*
-!minecraft/global_packs/*
-!minecraft/mods/*
-!minecraft/resourcepacks/*
+
+/minecraft/cache
+/minecraft/.mixin.out
+/minecraft/.spyglass_astronomy
+minecraft/command_history.txt
+minecraft/.qmenu_opened.marker
+/minecraft/data
+/minecraft/datapacks
+/minecraft/debug
+/minecraft/downloads
+/minecraft/defaultconfigs
+/minecraft/dynamic-resource-pack-cache
+/minecraft/ESM
+minecraft/fabricloader.log
+/minecraft/fieldguide_exports
+/minecraft/logs
+minecraft/options.txt
+/minecraft/saves
+/minecraft/screenshots
+minecraft/TrashSlotSaveState.json
+minecraft/usercache.json
+minecraft/usernamecache.json

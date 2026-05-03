@@ -1,0 +1,21 @@
+filename = 'dracolotl-1.0.3-neoforge-1.21.jar'
+name = 'Dracolotl'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.3_neoforge_1.21'
+
+[download]
+hash = 'ce8f7e1955aad7f43a194b70d913dd4924dfbbe76855762be3374f9c3f2f8028b4edd8c5ea2cab9b62d5a1a6ef291aa7655d266bfb96ac6a8a42c11ba5380132'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/s8dABaWE/versions/qtBEk2XT/dracolotl-1.0.3-neoforge-1.21.jar'
+
+[update.modrinth]
+mod-id = 's8dABaWE'
+version = 'qtBEk2XT'
+
+[[x-prismlauncher-dependencies]]
+addonId = '8BmcQJ2H'
+type = 'REQUIRED'

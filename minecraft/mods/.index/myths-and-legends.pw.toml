@@ -1,0 +1,33 @@
+filename = 'mythsandlegends-0.0.8.5.jar'
+name = 'Myths & Legends'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.0.8.5'
+
+[download]
+hash = 'e444f446da326f85087076e3053ca1e2519b14489bdd58204211ca72e65ae4b82ce6633199e1c454cc28cd663cef89d89fb4aec8de86e1db7d1f43f06e902694'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/JzgNbcKE/versions/ySVw80up/mythsandlegends-0.0.8.5.jar'
+
+[update.modrinth]
+mod-id = 'JzgNbcKE'
+version = 'ySVw80up'
+
+[[x-prismlauncher-dependencies]]
+addonId = '5sy6g3kz'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '8BmcQJ2H'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vvuO3ImH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'

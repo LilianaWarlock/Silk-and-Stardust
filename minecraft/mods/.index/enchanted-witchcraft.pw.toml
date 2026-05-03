@@ -1,0 +1,29 @@
+filename = 'enchanted-neoforge-1.21.1-4.2.3.jar'
+name = 'Enchanted: Witchcraft'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '4.2.3'
+
+[download]
+hash = '84b966b7312db57538f3408372711f80546595f06dbb202fd9587f5477b154a82f19f44aa27fbd3eecff7b11ce4f8a2c952c528d23ca972034879601f1f33184'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HsbpdVo9/versions/KBD213cN/enchanted-neoforge-1.21.1-4.2.3.jar'
+
+[update.modrinth]
+mod-id = 'HsbpdVo9'
+version = 'KBD213cN'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'D1lhcTKz'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '8BmcQJ2H'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'SYrakyVL'
+type = 'REQUIRED'

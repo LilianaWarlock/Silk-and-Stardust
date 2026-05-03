@@ -1,0 +1,21 @@
+filename = 'immersiveoverlays-1.6.3+1.21.1-neoforge.jar'
+name = 'Immersive Overlays'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.6.3+1.21.1-neoforge'
+
+[download]
+hash = '21d762cfb3918292b1df7def6706ca0115630045d4c9fd39c2113c6573d8fb2911d7c9a65980d69187844068fa6eba39c27465d4584c877ca06ed000626fb7d6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/PKoLkD98/versions/5vAr2ETE/immersiveoverlays-1.6.3%2B1.21.1-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'PKoLkD98'
+version = '5vAr2ETE'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'OPTIONAL'
