@@ -1,0 +1,15 @@
+# We only want specific things to be shared in the repo, 
+# so we're disabling everything by default.
+minecraft/
+
+.packignore
+instance.cfg
+mmc-pack.json
+
+# These are the important things we're going to be working in. 
+# The handy thing about doing it like this is that we can expand it later as we need.
+
+!minecraft/config/*
+!minecraft/global_packs/*
+!minecraft/mods/*
+!minecraft/resourcepacks/*
