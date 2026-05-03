@@ -37,3 +37,7 @@ minecraft/config/iris.properties
 minecraft/config/travelerstitles-neoforge-1_21.toml
 minecraft/config/keymap-keys.json
 minecraft/config/keymap.json
+minecraft/config/textureeditor.json
+minecraft/mods/.connector/textureeditor-1.4_mapped_moj_1.21.1.jar.input
+/minecraft/fieldguide_cache
+
