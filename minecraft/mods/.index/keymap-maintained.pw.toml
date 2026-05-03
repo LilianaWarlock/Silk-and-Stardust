@@ -1,0 +1,29 @@
+filename = 'keymap-NeoForge-0.10.1-beta.1+1.21.1.jar'
+name = 'Keymap [Maintained]'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'beta.1+1.21.1'
+
+[download]
+hash = 'd0546cceef907f61b8b8ed4bf07d51eae2ae07b4e7d6e607cf5824addb55f47429e5d746a866b6b18b821d0d50ecc63d16ca665644c696170caa5e925559e6bb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8b8sY7tn/versions/FuykJxwH/keymap-NeoForge-0.10.1-beta.1%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = '8b8sY7tn'
+version = 'FuykJxwH'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Ha28R6CL'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'REQUIRED'
