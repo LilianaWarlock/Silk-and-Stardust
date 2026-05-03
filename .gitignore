@@ -35,3 +35,5 @@ minecraft/config/iris.properties
 /minecraft/config/roughlyenoughitems
 
 minecraft/config/travelerstitles-neoforge-1_21.toml
+minecraft/config/keymap-keys.json
+minecraft/config/keymap.json
