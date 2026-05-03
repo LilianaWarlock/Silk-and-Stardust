@@ -1,0 +1,14 @@
+{
+  "tooltip.nameless_trinkets.lucky_rock_lore": "We're rich!",
+  "tooltip.nameless_trinkets.ethereal_wings_lore": "I will conquer the sky. Slowly.",
+  "tooltip.nameless_trinkets.fractured_nullstone_lore": "Huh? Magic isn't real, you idiot.",
+  "tooltip.nameless_trinkets.pocket_lightning_rod_1": "You're in for a shock.",
+  "item.nameless_trinkets.wooden_stick": "Mimikyu Keychain",
+  "tooltip.nameless_trinkets.wooden_stick_lore": "Tougher times no more.",
+  "tooltip.nameless_trinkets.wooden_stick_1": "Blocks incoming damage once.",
+  "tooltip.nameless_trinkets.wooden_stick_2": "Recharges after %1$s seconds.",
+  "item.nameless_trinkets.creeper_sense": "Club of Drunkards",
+  "tooltip.nameless_trinkets.creeper_sense_lore": "A sober person would throw it...",
+  "tooltip.nameless_trinkets.creeper_sense_1": "Crouching will cause a non-destructive explosion.",
+  "tooltip.nameless_trinkets.creeper_sense_2": "This WILL hurt."
+}
