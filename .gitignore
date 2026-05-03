@@ -26,3 +26,9 @@ minecraft/options.txt
 minecraft/TrashSlotSaveState.json
 minecraft/usercache.json
 minecraft/usernamecache.json
+*.bak
+minecraft/config/screenshot_viewer-client.toml
+minecraft/config/sodium-fingerprint.json
+minecraft/config/fml.toml
+minecraft/config/fabric/indigo-renderer.properties
+minecraft/config/iris.properties
