@@ -1,0 +1,18 @@
+filename = 'tower_of_chambers-42.55 Release-neoforge-1.21.1.jar'
+name = 'Towers of Chambers'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '42.55'
+
+[download]
+hash = 'daed7cea82cf91181595ea7a716c580ce65f3a0368fb804b94cdd443033f7493b9788a1583d8d955c13278d011e23c06186e036a65fea417f34eb15a3223fc92'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/V07wser6/versions/7VAs7kFC/tower_of_chambers-42.55 Release-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'V07wser6'
+version = '7VAs7kFC'
