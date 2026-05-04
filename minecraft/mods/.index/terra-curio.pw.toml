@@ -1,0 +1,21 @@
+filename = 'terra_curio-1.1.1.jar'
+name = 'Terra Curio'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.1'
+
+[download]
+hash = 'f8e687bcb35aa84107535b18b7463b32cdf26f8197eec52a74aaa6be10696136c4a6df30ff68ae08011d814708292fce6452e41c742850f00f627d01a66b2045'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/cylFY5iL/versions/mCth2g0T/terra_curio-1.1.1.jar'
+
+[update.modrinth]
+mod-id = 'cylFY5iL'
+version = 'mCth2g0T'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vvuO3ImH'
+type = 'REQUIRED'
