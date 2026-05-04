@@ -1,0 +1,43 @@
+{
+  "item": "titans_mark",
+  "chance": 0.01,
+  "loot_tables": [
+   
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/nether_bridge"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/stronghold_library"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/stronghold_crossing"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/stronghold_corridor"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/bastion_treasure"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/bastion_bridge"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/bastion_hoglin_stable"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/ancient_city"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/ruined_portal"
+    }
+  ]
+}

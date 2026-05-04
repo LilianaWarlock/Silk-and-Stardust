@@ -1,0 +1,10 @@
+{
+  "item": "shrinking_veil",
+  "chance": 0.01,
+  "loot_tables": [
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/end_city_treasure"
+    }
+  ]
+}

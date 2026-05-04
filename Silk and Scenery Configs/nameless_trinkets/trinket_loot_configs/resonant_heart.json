@@ -1,0 +1,22 @@
+{
+  "item": "resonant_heart",
+  "chance": 0.005,
+  "loot_tables": [
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/stronghold_library"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/stronghold_crossing"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/stronghold_corridor"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/ancient_city"
+    }
+  ]
+}

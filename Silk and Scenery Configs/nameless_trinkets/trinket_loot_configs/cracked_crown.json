@@ -1,0 +1,106 @@
+{
+  "item": "cracked_crown",
+  "chance": 0.0025,
+  "loot_tables": [
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/spawn_bonus_chest"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/end_city_treasure"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/simple_dungeon"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/village/village_weaponsmith"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/village/village_toolsmith"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/village/village_armorer"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/abandoned_mineshaft"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/nether_bridge"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/stronghold_library"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/stronghold_crossing"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/stronghold_corridor"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/desert_pyramid"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/jungle_temple"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/igloo_chest"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/woodland_mansion"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/underwater_ruin_big"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/buried_treasure"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/shipwreck_treasure"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/pillager_outpost"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/bastion_treasure"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/bastion_bridge"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/bastion_hoglin_stable"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/ancient_city"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/ruined_portal"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "gameplay/cat_morning_gift"
+    }
+  ]
+}

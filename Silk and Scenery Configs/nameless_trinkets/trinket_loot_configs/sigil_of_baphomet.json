@@ -1,0 +1,10 @@
+{
+  "item": "sigil_of_baphomet",
+  "chance": 0.0025,
+  "loot_tables": [
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/end_city_treasure"
+    }
+  ]
+}

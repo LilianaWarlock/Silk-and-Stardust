@@ -1,0 +1,7 @@
+{
+  "config": {
+    "effectIntervalInTicks": 120,
+    "isEnable": true,
+    "debugLogging": true
+  }
+}

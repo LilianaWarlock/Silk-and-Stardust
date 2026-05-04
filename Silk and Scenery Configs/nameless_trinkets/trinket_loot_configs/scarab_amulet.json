@@ -1,0 +1,18 @@
+{
+  "item": "scarab_amulet",
+  "chance": 0.005,
+  "loot_tables": [
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/desert_pyramid"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/buried_treasure"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "chests/shipwreck_treasure"
+    }
+  ]
+}
