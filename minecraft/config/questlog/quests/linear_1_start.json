@@ -1,15 +1,15 @@
 {
-  "title": "Welcome to the Journey!",
-  "description": "Your adventure begins here. Mine some stone to get started.",
+  "title": "Welcome to the Dreamscape! - Vol. 1",
+  "description": "Your journey begins! Did you wake up here? Did you even wake up? You can't tell... Make sure to find your footing!",
   "icon": {
-    "item": "minecraft:cobblestone"
+    "item": "minecraft:grass_block"
   },
   "objectives": [
     {
-      "type": "questlog:block_mine",
-      "block": "minecraft:stone",
-      "required_amount": 16,
-      "name": "Mine 16 Stone"
+      "type": "questlog:stat",
+      "stat": "minecraft:walk_one_cm",
+      "required_amount": "1000",
+      "name": "Walk 100 blocks."
     }
   ],
   "rewards": [
@@ -20,7 +20,7 @@
     },
     {
       "type": "questlog:experience",
-      "experience": 50
+      "experience": 25
     }
   ],
   "toast_on_unlock": true,

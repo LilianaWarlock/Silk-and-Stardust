@@ -758,7 +758,7 @@
 	"Ancient Wood" = false
 	"Azalea Wood" = false
 	"Big Stone Clusters" = false
-	"Blossom Trees" = true
+	"Blossom Trees" = false
 	"Cherry Grove Water Petals" = true
 	"Chorus Vegetation" = false
 	Corundum = false
