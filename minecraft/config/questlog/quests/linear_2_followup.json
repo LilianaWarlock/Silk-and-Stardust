@@ -1,8 +1,8 @@
 {
-  "title": "Cooking with Gas",
-  "description": "Now that you have a furnace, it's time to smelt some iron. You'll need it for better tools!",
+  "title": "Welcome to the Dreamscape! - Vol. 2",
+  "description": "Now that you've found your footing, maybe you should make a friend! There are plenty of creatures in this world who would adore a loving home!",
   "icon": {
-    "item": "minecraft:iron_ingot"
+    "item": "minecraft:bone"
   },
   "requirements": [
     {

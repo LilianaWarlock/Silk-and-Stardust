@@ -1,0 +1,24 @@
+{
+  // The display name of the chapter.
+  // If omitted, it defaults to: questlog.chapter.<namespace>.<path>
+  "name": "Companionship",
+
+  // Whether the name is a translatable string key.
+  "translatable": "false",
+
+  // The icon to display for the chapter tab in the Questlog UI.
+  // Uses standard Renderable formatting (Texture or Item).
+  "icon": {
+    "item": "minecraft:bone"
+  },
+
+  // Specifies the display order of the chapter tabs.
+  // Lower numbers appear first. Defaults to 0 if not provided.
+  "order": 1,
+
+  // Whether this chapter should be treated as the default main chapter.
+  "default_chapter": false,
+
+  // Completely hides the chapter from the UI.
+  "hidden": false
+}

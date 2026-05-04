@@ -946,10 +946,10 @@
 					"Is Blacklist" = false
 
 	[world.blossom_trees]
-		"Drop Leaf Particles" = true
+		"Drop Leaf Particles" = false
 
 		[world.blossom_trees.blue]
-			Rarity = 200
+			Rarity = 0
 
 			[world.blossom_trees.blue.dimensions]
 				"Is Blacklist" = false
@@ -966,7 +966,7 @@
 					"Is Blacklist" = true
 
 		[world.blossom_trees.lavender]
-			Rarity = 100
+			Rarity = 0
 
 			[world.blossom_trees.lavender.dimensions]
 				"Is Blacklist" = false
@@ -983,7 +983,7 @@
 					"Is Blacklist" = true
 
 		[world.blossom_trees.orange]
-			Rarity = 100
+			Rarity = 0
 
 			[world.blossom_trees.orange.dimensions]
 				"Is Blacklist" = false
@@ -1000,7 +1000,7 @@
 					"Is Blacklist" = true
 
 		[world.blossom_trees.yellow]
-			Rarity = 200
+			Rarity = 0
 
 			[world.blossom_trees.yellow.dimensions]
 				"Is Blacklist" = false
@@ -1017,7 +1017,7 @@
 					"Is Blacklist" = true
 
 		[world.blossom_trees.red]
-			Rarity = 30
+			Rarity = 0
 
 			[world.blossom_trees.red.dimensions]
 				"Is Blacklist" = false
