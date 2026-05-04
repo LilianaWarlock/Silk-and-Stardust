@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.22",
-  "config_datetime": "2026-05-04_14-26-42",
+  "config_datetime": "2026-05-04_14-25-04",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -227,22 +227,6 @@
       "blacklisted_biomes": [],
       "step": "surface_structures",
       "terrain_adaptation": "beard_box"
-    },
-    {
-      "name": "structory:boat",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "raw_generation",
-      "terrain_adaptation": "none"
-    },
-    {
-      "name": "structory:firetower",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "raw_generation",
-      "terrain_adaptation": "beard_thin"
     },
     {
       "name": "trek:overworld/medium/ice_fort",
