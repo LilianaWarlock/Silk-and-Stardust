@@ -42,3 +42,7 @@ minecraft/mods/.connector/textureeditor-1.4_mapped_moj_1.21.1.jar.input
 /minecraft/fieldguide_cache
 
 minecraft/config/multiplayerbosses-client.toml
+minecraft/config/jade/jade.json
+/minecraft/config/jade
+minecraft/resourcepacks/.index/baby-animals-and-rabbit-model-backport.pw.toml
+minecraft/resourcepacks/BabyAnimalBackportV2.0.zip
