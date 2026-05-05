@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.22",
-  "config_datetime": "2026-05-04_20-31-05",
+  "config_datetime": "2026-05-04_20-22-16",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -52,14 +52,6 @@
       ],
       "step": "raw_generation",
       "terrain_adaptation": "beard_thin"
-    },
-    {
-      "name": "trek:end/medium/end_city",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "none"
     },
     {
       "name": "trek:nether/common/nether_pillar",

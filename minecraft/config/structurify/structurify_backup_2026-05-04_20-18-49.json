@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.22",
-  "config_datetime": "2026-05-04_20-31-05",
+  "config_datetime": "2026-05-04_20-18-03",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -51,38 +51,6 @@
         "minecraft:sparse_jungle"
       ],
       "step": "raw_generation",
-      "terrain_adaptation": "beard_thin"
-    },
-    {
-      "name": "trek:end/medium/end_city",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "none"
-    },
-    {
-      "name": "trek:nether/common/nether_pillar",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "underground_structures",
-      "terrain_adaptation": "beard_thin"
-    },
-    {
-      "name": "trek:nether/medium/overworld_leak_1",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "beard_thin"
-    },
-    {
-      "name": "trek:nether/medium/overworld_leak_2",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
       "terrain_adaptation": "beard_thin"
     },
     {
@@ -882,23 +850,7 @@
       "terrain_adaptation": "none"
     },
     {
-      "name": "trek:village/cherry",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "beard_thin"
-    },
-    {
       "name": "trek:village/desert",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "beard_thin"
-    },
-    {
-      "name": "trek:village/mushroom",
       "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
@@ -914,28 +866,12 @@
       "terrain_adaptation": "beard_thin"
     },
     {
-      "name": "trek:village/savanna",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "beard_thin"
-    },
-    {
       "name": "trek:village/snowy",
       "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
       "terrain_adaptation": "beard_thin"
-    },
-    {
-      "name": "trek:village/swamp_vanilla",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "none"
     },
     {
       "name": "trek:village/taiga",
