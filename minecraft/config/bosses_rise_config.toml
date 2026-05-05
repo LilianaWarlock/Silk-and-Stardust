@@ -20,7 +20,7 @@
 	"Knight Damage" = 13.0
 
 ["Gameplay Changes"]
-	"Can players use the Roll ability" = true
-	"How many roll charges does the player have by default?" = 2
+	"Can players use the Roll ability" = false
+	"How many roll charges does the player have by default?" = 0
 	"How many ticks does it take for a roll to cooldown? (20 ticks is 1 second)" = 40
 	"How many additional ticks should each roll above 1 take to cooldown? (20 ticks is 1 second)" = 20
