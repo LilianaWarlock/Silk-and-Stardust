@@ -10,6 +10,217 @@
   "structure_namespaces": [],
   "structures": [
     {
+      "name": "minecraft:fortress",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_decoration",
+      "terrain_adaptation": "none",
+      "max_distance_from_center": 9,
+      "max_horizontal_distance_from_center": 127,
+      "max_vertical_distance_from_center": 127
+    },
+    {
+      "name": "nova_structures:bunker",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:firewatch_tower_birch",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:firewatch_tower_cherry",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:firewatch_tower_dark_oak",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:firewatch_tower_forest",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:firewatch_tower_mangrove",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:firewatch_tower_savanna",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:firewatch_tower_swamp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:firewatch_tower_taiga",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:remnant_bridge_remnant",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:shrine_combat_tier_1",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:shrine_combat_tier_2",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:shrine_combat_tier_3",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:shrine_combat_tier_4",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:shrine_combat_tier_5",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:shrine_tower",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:village_birch",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "nova_structures:village_jungle",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "nova_structures:village_swamp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "nova_structures:well_birch",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:well_dark_oak",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:well_jungle",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:well_oak",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:well_savana",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:well_spruce",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
       "name": "companions:companions_factory",
       "is_disabled": false,
       "whitelisted_biomes": [],
@@ -252,10 +463,7 @@
       "name": "trek:overworld/medium/beehive_house",
       "is_disabled": false,
       "whitelisted_biomes": [],
-      "blacklisted_biomes": [
-        "minecraft:meadow",
-        "minecraft:sunflower_plains"
-      ],
+      "blacklisted_biomes": ["minecraft:meadow", "minecraft:sunflower_plains"],
       "step": "surface_structures",
       "terrain_adaptation": "beard_thin"
     },
@@ -334,9 +542,7 @@
     {
       "name": "trek:overworld/medium/claw_pillager",
       "is_disabled": false,
-      "whitelisted_biomes": [
-        "minecraft:badlands"
-      ],
+      "whitelisted_biomes": ["minecraft:badlands"],
       "blacklisted_biomes": [
         "minecraft:dark_forest",
         "minecraft:forest",
@@ -476,13 +682,8 @@
     {
       "name": "trek:overworld/medium/ice_fort",
       "is_disabled": true,
-      "whitelisted_biomes": [
-        "minecraft:ice_spikes"
-      ],
-      "blacklisted_biomes": [
-        "minecraft:snowy_taiga",
-        "minecraft:grove"
-      ],
+      "whitelisted_biomes": ["minecraft:ice_spikes"],
+      "blacklisted_biomes": ["minecraft:snowy_taiga", "minecraft:grove"],
       "step": "surface_structures",
       "terrain_adaptation": "beard_thin"
     },
@@ -1148,9 +1349,7 @@
     {
       "name": "wabi_sabi_structures:infested_castle_stony",
       "is_disabled": false,
-      "whitelisted_biomes": [
-        "#c:is_mountain"
-      ],
+      "whitelisted_biomes": ["#c:is_mountain"],
       "blacklisted_biomes": [
         "minecraft:windswept_forest",
         "minecraft:windswept_hills",
@@ -1168,5 +1367,107 @@
       "terrain_adaptation": "beard_box"
     }
   ],
-  "structure_sets": []
+  "structure_sets": [
+    {
+      "spacing": 50,
+      "separation": 15,
+      "name": "nova_structures:firewatch_towers",
+      "is_disabled": true,
+      "salt": 123,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "nova_structures:firewatch_tower_cherry": 1,
+        "nova_structures:firewatch_tower_mangrove": 1,
+        "nova_structures:firewatch_tower_dark_oak": 1,
+        "nova_structures:firewatch_tower_forest": 1,
+        "nova_structures:firewatch_tower_birch": 1,
+        "nova_structures:firewatch_tower_taiga": 1,
+        "nova_structures:firewatch_tower_jungle": 1,
+        "nova_structures:firewatch_tower_savanna": 1,
+        "nova_structures:firewatch_tower_swamp": 1
+      }
+    },
+    {
+      "spacing": 600,
+      "separation": 312,
+      "name": "nova_structures:shrine_tower",
+      "is_disabled": true,
+      "salt": 78409300,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "nova_structures:shrine_tower": 1
+      }
+    },
+    {
+      "spacing": 50,
+      "separation": 26,
+      "name": "nova_structures:shrines",
+      "is_disabled": true,
+      "salt": 78409300,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "nova_structures:shrine_combat_tier_1": 20,
+        "nova_structures:shrine_combat_tier_2": 20,
+        "nova_structures:shrine_combat_tier_3": 50,
+        "nova_structures:shrine_combat_tier_4": 40,
+        "nova_structures:shrine_combat_tier_5": 30
+      }
+    },
+    {
+      "spacing": 34,
+      "separation": 8,
+      "name": "nova_structures:villages_birch",
+      "is_disabled": true,
+      "salt": 10387312,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "nova_structures:village_birch": 1
+      }
+    },
+    {
+      "spacing": 34,
+      "separation": 8,
+      "name": "nova_structures:villages_jungle",
+      "is_disabled": true,
+      "salt": 10387312,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "nova_structures:village_jungle": 1
+      }
+    },
+    {
+      "spacing": 34,
+      "separation": 8,
+      "name": "nova_structures:villages_swamp",
+      "is_disabled": true,
+      "salt": 10387312,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "nova_structures:village_swamp": 1
+      }
+    },
+    {
+      "spacing": 40,
+      "separation": 15,
+      "name": "nova_structures:wells",
+      "is_disabled": true,
+      "salt": 430930,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "nova_structures:well_birch": 1,
+        "nova_structures:well_dark_oak": 1,
+        "nova_structures:well_savana": 1,
+        "nova_structures:well_spruce": 1,
+        "nova_structures:well_oak": 1,
+        "nova_structures:well_jungle": 1
+      }
+    }
+  ]
 }
