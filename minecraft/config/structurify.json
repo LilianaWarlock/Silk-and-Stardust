@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.22",
-  "config_datetime": "2026-05-04_20-31-05",
+  "config_datetime": "2026-05-04_20-48-56",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -21,6 +21,46 @@
       "flatness_check_allow_non_solid_blocks": false
     },
     {
+      "name": "structory:abandoned_camp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "raw_generation",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "structory:abandoned_chapel",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "raw_generation",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "structory:boat",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "raw_generation",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "structory:firetower",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "raw_generation",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "structory:graveyard",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "raw_generation",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
       "name": "structory:jungle_ruin",
       "is_disabled": false,
       "whitelisted_biomes": [],
@@ -29,6 +69,14 @@
         "hybrid_beta:rainforest"
       ],
       "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "structory:northern_ruin",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "raw_generation",
       "terrain_adaptation": "beard_thin"
     },
     {
@@ -41,7 +89,7 @@
     },
     {
       "name": "structory:outcast_villager_grassy",
-      "is_disabled": true,
+      "is_disabled": false,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [
         "minecraft:plains",
@@ -50,6 +98,22 @@
         "minecraft:forest",
         "minecraft:sparse_jungle"
       ],
+      "step": "raw_generation",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "structory:ruin_grassy",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "raw_generation",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "structory:taiga_ruin_surface",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
       "step": "raw_generation",
       "terrain_adaptation": "beard_thin"
     },
