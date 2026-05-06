@@ -1,6 +1,6 @@
 {
   "title": "Welcome to the Dreamscape! - Vol. 1",
-  "description": "Your journey begins! Did you wake up here? Did you even wake up? You can't tell... Make sure to find your footing!",
+  "description": "Your journey begins! Did you wake up here? Did you even wake up? You can't tell... All you can do is try to understand where you've ended up.",
   "icon": {
     "item": "minecraft:grass_block"
   },
@@ -13,11 +13,6 @@
     }
   ],
   "rewards": [
-    {
-      "type": "questlog:item",
-      "item": "minecraft:furnace",
-      "count": 1
-    },
     {
       "type": "questlog:experience",
       "experience": 25
