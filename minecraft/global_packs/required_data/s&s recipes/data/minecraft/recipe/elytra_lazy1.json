@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABA"],
+  "key": {
+    "A": { "item": "jaizmobs:tattered_wing" },
+    "B": { "item": "knightlib:great_essence" }
+  },
+  "result": { "id": "minecraft:elytra" }
+}

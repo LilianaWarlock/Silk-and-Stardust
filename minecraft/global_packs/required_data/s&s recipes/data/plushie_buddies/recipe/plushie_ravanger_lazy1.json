@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:compass"
+  },
+  "base": {
+    "tag": "minecraft:wool"
+  },
+  "result": {
+    "count": 1,
+    "id": "plushie_buddies:plushie_ravanger"
+  },
+  "template": {
+    "item": "minecraft:emerald_block"
+  }
+}

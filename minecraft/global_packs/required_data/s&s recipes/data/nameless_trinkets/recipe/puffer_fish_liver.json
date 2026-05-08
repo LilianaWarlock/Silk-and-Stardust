@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "show_notification": true,
+  "category": "equipment",
+  "ingredients": [
+    { "item": "minecraft:pufferfish" },
+    { "item": "undergroundworlds:antidote_flask" },
+    { "item": "basicweapons:iron_dagger" }
+  ],
+  "result": { "id": "nameless_trinkets:puffer_fish_liver" }
+}

@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [{ "item": "minecraft:nether_star" }],
+  "result": { "id": "knightlib:great_essence", "count": 3 }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "vc_gliders:reinforced_paper"
+  },
+  "base": {
+    "item": "vc_gliders:paraglider_gold"
+  },
+  "result": {
+    "components": { "vc_gliders:nether_upgrade": true },
+    "count": 1,
+    "id": "vc_gliders:paraglider_gold"
+  },
+  "template": {
+    "item": "vc_gliders:nether_upgrade"
+  }
+}

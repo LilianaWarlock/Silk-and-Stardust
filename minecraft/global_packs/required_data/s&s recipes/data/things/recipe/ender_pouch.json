@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABA", "CDC", "CCC"],
+  "key": {
+    "A": { "item": "crittersandcompanions:silk" },
+    "B": { "item": "knightlib:small_essence" },
+    "C": { "item": "minecraft:leather" },
+    "D": { "item": "minecraft:ender_chest" }
+  },
+  "result": { "id": "things:ender_pouch" }
+}

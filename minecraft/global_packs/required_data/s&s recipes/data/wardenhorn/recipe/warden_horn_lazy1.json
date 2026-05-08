@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["AB ", "BCD", " BB"],
+  "key": {
+    "A": { "item": "minecraft:sculk_shrieker" },
+    "B": { "item": "minecraft:echo_shard" },
+    "C": { "item": "minecraft:goat_horn" },
+    "D": { "item": "jewelry:tanzanite" }
+  },
+  "result": { "id": "wardenhorn:warden_horn" }
+}

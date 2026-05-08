@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABA", "CDC", "DFD"],
+  "key": {
+    "A": { "item": "vc_gliders:reinforced_paper_gold" },
+    "B": { "item": "vc_gliders:reinforced_paper_netherite" },
+    "C": { "item": "minecraft:string" },
+	"D": { "item": "minecraft:stick" },
+	"F": { "item": "minecraft:feather" }
+  },
+  "result": { "id": "vc_gliders:paraglider_netherite" }
+}

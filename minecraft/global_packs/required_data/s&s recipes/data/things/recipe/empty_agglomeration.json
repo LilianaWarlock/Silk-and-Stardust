@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABA", "BCB", "ABA"],
+  "key": {
+    "A": { "item": "jaizmobs:void_husk" },
+    "B": { "item": "things:gleaming_compound" },
+    "C": { "item": "minecraft:netherite_ingot" }
+  },
+  "result": { "id": "things:empty_agglomeration" }
+}

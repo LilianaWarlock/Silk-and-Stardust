@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["A A", "B B", "C C"],
+  "key": {
+    "A": { "item": "knightlib:small_essence" },
+    "B": { "item": "minecraft:white_wool" },
+    "C": { "item": "minecraft:red_wool" }
+  },
+  "result": { "id": "things:socks" }
+}

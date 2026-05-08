@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:bone"
+  },
+  "base": {
+    "tag": "minecraft:wool"
+  },
+  "result": {
+    "count": 1,
+    "id": "plushie_buddies:plushie_wolf"
+  },
+  "template": {
+    "item": "minecraft:emerald_block"
+  }
+}

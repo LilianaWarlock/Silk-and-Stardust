@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [" A ", "A A", " B "],
+  "key": {
+    "A": { "item": "tide:golden_line" },
+    "B": { "item": "aether:zanite_gemstone" }
+  },
+  "result": { "id": "aether:zanite_pendant" }
+}

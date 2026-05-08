@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABA", "CDC"],
+  "key": {
+    "A": { "item": "jewelry:sapphire" },
+    "B": { "item": "tide:golden_line" },
+    "C": { "item": "waystones:warp_dust" },
+    "D": { "item": "aether:white_cape" }
+  },
+  "result": { "id": "nameless_trinkets:shrinking_veil" }
+}

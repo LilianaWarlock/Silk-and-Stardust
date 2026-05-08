@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "pattern": [" A ", "ABA", " A "],
+  "key": {
+    "A": { "item": "aether:zanite_gemstone" },
+    "B": { "item": "sleepy_hollows:luminous_essence" }
+  },
+  "result": { "id": "jewelry:tanzanite", "count": 4 }
+}

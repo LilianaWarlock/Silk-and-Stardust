@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [" A ", "BCA", " B "],
+  "key": {
+    "A": { "item": "minecraft:magma_block" },
+    "B": { "item": "jewelry:gold_ring" },
+    "C": { "item": "artifacts:power_glove" }
+  },
+  "result": { "id": "artifacts:fire_gauntlet" }
+}

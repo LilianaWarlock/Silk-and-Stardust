@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["A A", "B B", " C "],
+  "key": {
+    "A": { "item": "minecraft:experience_bottle" },
+    "B": { "item": "cinderscapes:smoky_quartz" },
+    "C": { "item": "things:item_magnet" }
+  },
+  "result": { "id": "nameless_trinkets:experience_magnet" }
+}

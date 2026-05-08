@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:totem_of_undying"
+  },
+  "base": {
+    "tag": "minecraft:wool"
+  },
+  "result": {
+    "count": 1,
+    "id": "plushie_buddies:plushie_evoker"
+  },
+  "template": {
+    "item": "minecraft:emerald_block"
+  }
+}

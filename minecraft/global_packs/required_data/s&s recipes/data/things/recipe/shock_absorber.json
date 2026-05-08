@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABA", "CDC", "E E"],
+  "key": {
+    "A": { "item": "minecraft:feather" },
+    "B": { "item": "knightlib:small_essence" },
+    "C": { "item": "minecraft:hay_block" },
+    "D": { "item": "minecraft:leather_boots" },
+    "E": { "tag": "minecraft:wool" }
+  },
+  "result": { "id": "things:shock_absorber" }
+}

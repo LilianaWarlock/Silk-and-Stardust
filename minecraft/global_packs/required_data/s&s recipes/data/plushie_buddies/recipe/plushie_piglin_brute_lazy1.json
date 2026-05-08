@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_scrap"
+  },
+  "base": {
+    "tag": "minecraft:wool"
+  },
+  "result": {
+    "count": 1,
+    "id": "plushie_buddies:plushie_piglin_brute"
+  },
+  "template": {
+    "item": "minecraft:emerald_block"
+  }
+}

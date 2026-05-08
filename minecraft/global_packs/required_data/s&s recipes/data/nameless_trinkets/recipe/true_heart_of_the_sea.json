@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [" A ", "BCD", " E "],
+  "key": {
+    "A": { "item": "minecraft:heart_of_the_sea" },
+    "B": { "item": "nameless_trinkets:gills" },
+    "C": { "item": "knightlib:great_essence" },
+    "D": { "item": "nameless_trinkets:tear_of_the_sea" },
+    "E": { "item": "nameless_trinkets:amphibious_hands" }
+  },
+  "result": { "id": "nameless_trinkets:true_heart_of_the_sea" }
+}

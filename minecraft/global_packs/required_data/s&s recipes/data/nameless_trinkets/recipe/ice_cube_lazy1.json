@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [" A ", "ABA", " A "],
+  "key": {
+    "A": { "item": "minecraft:packed_ice" },
+    "B": { "item": "undergroundworlds:frozen_core" }
+  },
+  "result": { "id": "nameless_trinkets:ice_cube" }
+}

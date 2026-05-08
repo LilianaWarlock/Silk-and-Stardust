@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "nameless_trinkets:resonant_heart"
+  },
+  "base": {
+    "tag": "minecraft:wool"
+  },
+  "result": {
+    "count": 1,
+    "id": "plushie_buddies:plushie_warden"
+  },
+  "template": {
+    "item": "minecraft:emerald_block"
+  }
+}

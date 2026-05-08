@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABC", "DEF", "CGH"],
+  "key": {
+    "A": { "item": "minecraft:sugar" },
+    "B": { "item": "minecraft:nether_wart" },
+    "C": { "item": "knightlib:small_essence" },
+    "D": { "item": "minecraft:glistering_melon_slice" },
+    "E": { "item": "terrarianmight:life_shard" },
+    "F": { "item": "minecraft:ghast_tear" },
+    "G": { "item": "minecraft:magma_cream" },
+    "H": { "item": "minecraft:phantom_membrane" }
+  },
+  "result": { "id": "things:placebo" }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "show_notification": true,
+  "category": "misc",
+  "ingredients": [
+    { "item": "cropcritters:puffbomb_slice" },
+    { "item": "cropcritters:puffbomb_slice" },
+    { "item": "cropcritters:puffbomb_slice" },
+    { "item": "cropcritters:puffbomb_slice" },
+    { "item": "basicweapons:stone_dagger" },
+    { "item": "cropcritters:puffbomb_slice" },
+    { "item": "cropcritters:puffbomb_slice" },
+    { "item": "cropcritters:puffbomb_slice" },
+    { "item": "cropcritters:puffbomb_slice" }
+  ],
+  "result": { "id": "cropcritters:puffbomb_mushroom", "count": 4 }
+}

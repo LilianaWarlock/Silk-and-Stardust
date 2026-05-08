@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "pattern": ["AAA", "ABA", "AAA"],
+  "key": {
+    "A": { "item": "waystones:warp_dust" },
+    "B": { "item": "minecraft:end_stone" }
+  },
+  "result": { "id": "aether:holystone" }
+}

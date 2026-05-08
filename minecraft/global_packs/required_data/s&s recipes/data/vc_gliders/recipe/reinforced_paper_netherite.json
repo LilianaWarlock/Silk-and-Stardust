@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABA", "BAB", "ABA"],
+  "key": {
+    "A": { "item": "vc_gliders:reinforced_paper" },
+    "B": { "item": "minecraft:netherite_scrap" }
+
+  },
+  "result": { "id": "vc_gliders:reinforced_paper_netherite" }
+}

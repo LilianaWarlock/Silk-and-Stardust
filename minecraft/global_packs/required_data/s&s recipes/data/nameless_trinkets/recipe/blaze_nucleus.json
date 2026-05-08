@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [" AB", "ACA", "BA "],
+  "key": {
+    "A": { "item": "minecraft:blaze_rod" },
+    "B": { "item": "jewelry:topaz" },
+    "C": { "item": "friendsandfoes:wildfire_crown_fragment" }
+  },
+  "result": { "id": "nameless_trinkets:blaze_nucleus" }
+}

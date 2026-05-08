@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABA", "A A"],
+  "key": {
+    "A": { "item": "friendsandfoes:wildfire_crown_fragment" },
+    "B": { "item": "jewelry:ruby" }
+  },
+  "result": { "id": "friendsandfoes:wildfire_crown" }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "pattern": [" A ", "AAA"],
+  "key": { "A": { "item": "jaizmobs:dripstone_shard" } },
+  "result": { "id": "minecraft:pointed_dripstone" }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [" AB", "ACA", "BA "],
+  "key": {
+    "A": { "item": "minecraft:nether_brick" },
+    "B": { "item": "jewelry:topaz" },
+    "C": { "tag": "minecraft:trim_templates" }
+  },
+  "result": { "id": "nameless_trinkets:titans_mark" }
+}

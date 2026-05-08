@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["  A", "BCD", "C C"],
+  "key": {
+    "A": { "item": "minecraft:red_dye" },
+    "B": { "item": "tide:iron_fishing_hook" },
+    "C": { "item": "minecraft:leather" },
+    "D": { "item": "minecraft:feather" }
+  },
+  "result": { "id": "artifacts:anglers_hat" }
+}

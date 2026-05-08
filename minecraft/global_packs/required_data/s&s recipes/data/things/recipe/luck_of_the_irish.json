@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["A A", " B ", "ACA"],
+  "key": {
+    "A": { "tag": "minecraft:leaves" },
+    "B": { "item": "minecraft:enchanted_golden_apple" },
+    "C": { "item": "knightlib:great_essence" }
+  },
+  "result": { "id": "things:luck_of_the_irish" }
+}

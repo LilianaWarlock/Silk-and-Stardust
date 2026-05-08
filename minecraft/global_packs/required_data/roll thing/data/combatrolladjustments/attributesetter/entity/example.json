@@ -1,0 +1,9 @@
+{
+  "minecraft:player": [
+    {
+      "attribute": "combat_roll:count",
+      "value": 0,
+      "operation": "BASE"
+    }
+  ]
+}

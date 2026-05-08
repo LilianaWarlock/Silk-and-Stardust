@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABC", "BAD", " DD"],
+  "key": {
+    "A": { "tag": "minecraft:planks" },
+    "B": { "item": "minecraft:repeater" },
+    "C": { "item": "minecraft:lever" },
+    "D": { "item": "minecraft:iron_trapdoor" }
+  },
+  "result": { "id": "nameless_trinkets:electric_paddle" }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["A A", "BCB", "B B"],
+  "key": {
+    "A": { "item": "minecraft:phantom_membrane" },
+    "B": { "item": "minecraft:glass_pane" },
+    "C": { "item": "bosses_of_mass_destruction:ancient_anima" }
+  },
+  "result": { "id": "nameless_trinkets:ethereal_wings" }
+}

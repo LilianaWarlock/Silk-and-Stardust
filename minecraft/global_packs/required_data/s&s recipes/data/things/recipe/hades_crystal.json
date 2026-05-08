@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABA", "CDC", "ABA"],
+  "key": {
+    "A": { "item": "aether:golden_amber" },
+    "B": { "item": "knightlib:great_essence" },
+    "C": { "item": "jewelry:topaz" },
+    "D": { "item": "artifacts:obsidian_skull" }
+  },
+  "result": { "id": "things:hades_crystal" }
+}

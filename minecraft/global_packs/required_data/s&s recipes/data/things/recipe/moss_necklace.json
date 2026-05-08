@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABA", "ACA", " A "],
+  "key": {
+    "A": { "item": "sporelight:moss_ball" },
+    "B": { "item": "knightlib:great_essence" },
+    "C": { "item": "aether:golden_pendant" }
+  },
+  "result": { "id": "things:moss_necklace" }
+}

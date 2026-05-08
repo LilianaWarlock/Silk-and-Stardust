@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "crittersandcompanions:koi_fish"
+  },
+  "base": {
+    "tag": "minecraft:wool"
+  },
+  "result": {
+    "count": 1,
+    "id": "plushie_buddies:plushie_cat"
+  },
+  "template": {
+    "item": "minecraft:emerald_block"
+  }
+}

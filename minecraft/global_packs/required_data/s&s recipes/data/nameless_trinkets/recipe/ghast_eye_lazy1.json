@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABA"],
+  "key": {
+    "A": { "item": "minecraft:crying_obsidian" },
+    "B": { "item": "bosses_of_mass_destruction:blazing_eye" }
+  },
+  "result": { "id": "nameless_trinkets:ghast_eye" }
+}

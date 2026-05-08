@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "show_notification": true,
+  "category": "equipment",
+  "ingredients": [
+    { "item": "basicweapons:diamond_hammer" },
+    { "item": "knightlib:great_essence" },
+    { "item": "aether:holystone_button" }
+  ],
+  "result": { "id": "nameless_trinkets:fractured_nullstone" }
+}

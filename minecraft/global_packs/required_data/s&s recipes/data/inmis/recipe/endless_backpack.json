@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABA", "BCB", "BBB"],
+  "key": {
+    "A": { "item": "dragonscale:ender_dragon_scale" },
+    "B": { "item": "minecraft:end_stone" },
+    "C": { "item": "inmis:withered_backpack" }
+  },
+  "result": { "id": "inmis:endless_backpack" }
+}

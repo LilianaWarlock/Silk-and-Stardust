@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABA", "BCB", "DDD"],
+  "key": {
+    "A": { "item": "minecraft:nether_wart" },
+    "B": { "item": "minecraft:nether_wart_block" },
+    "C": { "item": "knightlib:small_essence" },
+    "D": { "item": "minecraft:rotten_flesh" }
+  },
+  "result": { "id": "nameless_trinkets:callus" }
+}

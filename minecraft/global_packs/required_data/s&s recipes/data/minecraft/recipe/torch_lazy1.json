@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "building",
+  "pattern": ["A  ", "B  "],
+  "key": {
+    "A": { "item": "jaizmobs:glow_tool" },
+    "B": { "item": "minecraft:stick" }
+  },
+  "result": { "id": "minecraft:torch", "count": 8 }
+}

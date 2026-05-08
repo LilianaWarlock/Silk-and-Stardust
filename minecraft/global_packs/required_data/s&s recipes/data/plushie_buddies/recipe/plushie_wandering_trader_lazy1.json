@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "cozyhome:trader_cushion"
+  },
+  "base": {
+    "tag": "minecraft:wool"
+  },
+  "result": {
+    "count": 1,
+    "id": "plushie_buddies:plushie_wandering_trader"
+  },
+  "template": {
+    "item": "minecraft:emerald_block"
+  }
+}

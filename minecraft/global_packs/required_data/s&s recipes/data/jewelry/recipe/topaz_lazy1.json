@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "show_notification": true,
+  "category": "misc",
+  "ingredients": [
+    { "item": "waystones:warp_dust" },
+    { "tag": "jewelry:gems" },
+    { "item": "minecraft:orange_dye" }
+  ],
+  "result": { "id": "jewelry:topaz" }
+}

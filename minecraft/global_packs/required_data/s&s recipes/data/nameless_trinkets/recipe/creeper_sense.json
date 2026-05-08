@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["AAA", "BCB", "AAA"],
+  "key": {
+    "A": { "item": "minecraft:gunpowder" },
+    "B": { "item": "minecraft:tnt" },
+    "C": { "item": "knightlib:small_essence" }
+  },
+  "result": { "id": "nameless_trinkets:creeper_sense" }
+}

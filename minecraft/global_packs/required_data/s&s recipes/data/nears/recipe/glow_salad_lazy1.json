@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "show_notification": true,
+  "category": "misc",
+  "ingredients": [
+    { "item": "nears:soul_berries" },
+    { "item": "minecraft:bowl" },
+    { "item": "jaizmobs:glow_tool" }
+  ],
+  "result": { "id": "nears:glow_salad" }
+}

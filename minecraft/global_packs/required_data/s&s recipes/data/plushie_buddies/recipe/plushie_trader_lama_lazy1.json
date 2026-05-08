@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "cozyhome:trader_cushion" },
+    { "item": "plushie_buddies:plushie_llama" }
+  ],
+  "result": { "id": "plushie_buddies:plushie_trader_lama" }
+}

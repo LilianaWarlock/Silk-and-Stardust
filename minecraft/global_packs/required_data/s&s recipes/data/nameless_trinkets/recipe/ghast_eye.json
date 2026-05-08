@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [" AA", " BC", "DAA"],
+  "key": {
+    "A": { "item": "minecraft:crying_obsidian" },
+    "B": { "item": "jewelry:ruby" },
+    "C": { "item": "knightlib:great_essence" },
+    "D": { "item": "minecraft:ghast_tear" }
+  },
+  "result": { "id": "nameless_trinkets:ghast_eye" }
+}

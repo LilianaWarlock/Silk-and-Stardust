@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABA", "BCB", "ABA"],
+  "key": {
+    "A": { "item": "friendsandfoes:wildfire_crown_fragment" },
+    "B": { "item": "minecraft:magma_block" },
+    "C": { "item": "inmis:bejeweled_backpack" }
+  },
+  "result": { "id": "inmis:blazing_backpack" }
+}

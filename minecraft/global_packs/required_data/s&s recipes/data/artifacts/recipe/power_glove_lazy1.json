@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [" A ", "BCA", " B "],
+  "key": {
+    "A": { "item": "companions:relic_gold" },
+    "B": { "item": "jewelry:iron_ring" },
+    "C": { "item": "aether:leather_gloves" }
+  },
+  "result": { "id": "artifacts:power_glove" }
+}

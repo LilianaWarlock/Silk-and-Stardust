@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "pattern": ["CAC", "ABA", "CAC"],
+  "key": {
+    "A": { "item": "waystones:warp_dust" },
+    "B": { "item": "minecraft:yellow_wool" },
+    "C": { "item": "additionaladditions:yellow_suspicious_dye" }
+  },
+  "result": { "id": "minecraft:sponge" }
+}

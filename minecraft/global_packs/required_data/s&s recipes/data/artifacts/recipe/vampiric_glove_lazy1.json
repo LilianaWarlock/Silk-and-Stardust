@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABA"],
+  "key": {
+    "A": { "item": "sleepy_hollows:spectral_essence" },
+    "B": { "item": "aether:leather_gloves" }
+  },
+  "result": { "id": "artifacts:vampiric_glove" }
+}

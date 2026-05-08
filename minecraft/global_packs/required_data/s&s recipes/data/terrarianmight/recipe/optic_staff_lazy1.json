@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABA", " C ", " D "],
+  "key": {
+    "A": { "item": "dragonscale:ender_dragon_scale" },
+    "B": { "item": "minecraft:ender_eye" },
+    "C": { "item": "jewelry:jade" },
+    "D": { "item": "basicweapons:iron_quarterstaff" }
+  },
+  "result": { "id": "terrarianmight:optic_staff" }
+}

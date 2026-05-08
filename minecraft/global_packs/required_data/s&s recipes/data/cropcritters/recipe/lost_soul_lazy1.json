@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "pattern": [" A ", "ABA", " A "],
+  "key": {
+    "A": { "item": "minecraft:soul_sand" },
+    "B": { "item": "knightlib:small_essence" }
+  },
+  "result": { "id": "cropcritters:lost_soul", "count": 5 }
+}

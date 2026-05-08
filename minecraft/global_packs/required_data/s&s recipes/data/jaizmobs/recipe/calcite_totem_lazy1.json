@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["AAA", "BCB", "AAA"],
+  "key": {
+    "A": { "item": "minecraft:calcite" },
+    "B": { "item": "minecraft:amethyst_shard" },
+    "C": { "item": "jaizmobs:cracked_calcite_totem" }
+  },
+  "result": { "id": "jaizmobs:calcite_totem" }
+}

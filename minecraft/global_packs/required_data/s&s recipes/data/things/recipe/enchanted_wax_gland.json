@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABC", "BDB", "CBA"],
+  "key": {
+    "A": { "item": "knightlib:small_essence" },
+    "B": { "item": "minecraft:honeycomb" },
+    "C": { "item": "minecraft:pufferfish" },
+    "D": { "item": "jewelry:sapphire" }
+  },
+  "result": { "id": "things:enchanted_wax_gland" }
+}

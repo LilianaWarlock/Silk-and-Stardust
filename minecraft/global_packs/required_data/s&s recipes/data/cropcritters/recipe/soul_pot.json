@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "building",
+  "pattern": ["ABA", "BCB", " B "],
+  "key": {
+    "A": { "item": "cropcritters:lost_soul" },
+    "B": { "item": "minecraft:brick" },
+    "C": { "item": "minecraft:soul_soil" }
+  },
+  "result": { "id": "cropcritters:soul_pot" }
+}

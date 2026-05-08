@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [" A ", "BCB", " D "],
+  "key": {
+    "A": { "item": "minecraft:piston" },
+    "B": { "item": "crittersandcompanions:silk" },
+    "C": { "tag": "c:slime_balls" },
+    "D": { "item": "aether:leather_gloves" }
+  },
+  "result": { "id": "artifacts:pocket_piston" }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "show_notification": true,
+  "category": "misc",
+  "ingredients": [{ "item": "jaizmobs:hardened_bone_fragment" }],
+  "result": { "id": "minecraft:bone_meal", "count": 18 }
+}

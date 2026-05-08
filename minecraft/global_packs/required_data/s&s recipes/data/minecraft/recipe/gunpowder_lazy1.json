@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "show_notification": true,
+  "category": "misc",
+  "ingredients": [
+    { "item": "jaizmobs:sulfuric_remnant" },
+    { "item": "minecraft:coal" },
+    { "item": "minecraft:bone_meal" }
+  ],
+  "result": { "id": "minecraft:gunpowder" }
+}

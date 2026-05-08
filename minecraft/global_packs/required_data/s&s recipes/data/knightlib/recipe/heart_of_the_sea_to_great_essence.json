@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "show_notification": true,
+  "category": "misc",
+  "ingredients": [{ "item": "minecraft:heart_of_the_sea" }],
+  "result": { "id": "knightlib:small_essence", "count": 2 }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "pattern": [" A ", "A A", "BCB"],
+  "key": {
+    "A": { "item": "minecraft:leather" },
+    "B": { "item": "minecraft:gold_nugget" },
+    "C": { "item": "jewelry:citrine" }
+  },
+  "result": { "id": "friendsforlife:collar" }
+}

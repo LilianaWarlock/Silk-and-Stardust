@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["A  ", " B ", "CDC"],
+  "key": {
+    "A": { "item": "basicweapons:stone_hammer" },
+    "B": { "item": "sleepy_hollows:essence_of_undead" },
+    "C": { "item": "minecraft:leather" },
+    "D": { "item": "minecraft:clock" }
+  },
+  "result": { "id": "things:broken_watch" }
+}

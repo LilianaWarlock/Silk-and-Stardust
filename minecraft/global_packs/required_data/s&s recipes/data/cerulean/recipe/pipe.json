@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "pattern": ["AAA", "BCB", "AAA"],
+  "key": {
+    "A": { "item": "minecraft:copper_ingot" },
+    "B": { "item": "minecraft:glass_pane" },
+    "C": { "item": "cerulean:halite" }
+  },
+  "result": { "id": "cerulean:pipe", "count": 6 }
+}

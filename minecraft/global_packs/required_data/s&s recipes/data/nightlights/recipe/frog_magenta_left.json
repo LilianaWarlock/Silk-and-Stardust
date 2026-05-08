@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "nightlights:frog_white" },
+    { "item": "minecraft:magenta_dye" }
+  ],
+  "result": { "id": "nightlights:frog_magenta" }
+}

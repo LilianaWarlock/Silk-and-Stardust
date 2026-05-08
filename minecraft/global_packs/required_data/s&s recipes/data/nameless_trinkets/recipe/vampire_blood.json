@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "show_notification": true,
+  "category": "equipment",
+  "ingredients": [
+    { "item": "knightlib:small_essence" },
+    { "item": "terrarianmight:life_shard" },
+    { "item": "undergroundworlds:spider_fang" },
+    { "item": "minecraft:beetroot_soup" }
+  ],
+  "result": { "id": "nameless_trinkets:vampire_blood" }
+}

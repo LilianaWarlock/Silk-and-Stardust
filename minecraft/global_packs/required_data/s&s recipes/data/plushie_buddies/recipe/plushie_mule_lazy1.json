@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "plushie_buddies:plushie_horse" },
+    { "item": "plushie_buddies:plushie_donkey" }
+  ],
+  "result": { "id": "plushie_buddies:plushie_mule" }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "pattern": ["ABA", "BCB", "ABA"],
+  "key": {
+    "A": { "item": "cinderscapes:rose_quartz" },
+    "B": { "item": "knightlib:small_essence" },
+    "C": { "item": "terrarianmight:life_crystal" }
+  },
+  "result": { "id": "knightlib:great_essence" }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "plushie_buddies:plushie_villager" },
+    { "item": "plushie_buddies:plushie_zombie" }
+  ],
+  "result": { "id": "plushie_buddies:plushie_zombie_villager" }
+}

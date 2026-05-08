@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["A A", "ABA", " A "],
+  "key": {
+    "A": { "item": "minecraft:echo_shard" },
+    "B": { "item": "terrarianmight:life_crystal" }
+  },
+  "result": { "id": "nameless_trinkets:resonant_heart" }
+}

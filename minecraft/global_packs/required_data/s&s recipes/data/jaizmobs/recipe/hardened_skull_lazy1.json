@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABA", "BCB"],
+  "key": {
+    "A": { "item": "minecraft:phantom_membrane" },
+    "B": { "item": "jaizmobs:hardened_bone_fragment" },
+    "C": { "item": "minecraft:skeleton_skull" }
+  },
+  "result": { "id": "jaizmobs:hardened_skull" }
+}

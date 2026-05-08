@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [" A ", " B ", " C "],
+  "key": {
+    "A": { "item": "knightlib:great_essence" },
+    "B": { "item": "nameless_trinkets:fragile_cloud" },
+    "C": { "item": "minecraft:glass_bottle" }
+  },
+  "result": { "id": "artifacts:cloud_in_a_bottle" }
+}

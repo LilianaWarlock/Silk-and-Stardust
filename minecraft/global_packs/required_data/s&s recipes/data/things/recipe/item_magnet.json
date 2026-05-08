@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["A B", "CDC", " C "],
+  "key": {
+    "A": { "item": "jewelry:sapphire" },
+    "B": { "item": "jewelry:ruby" },
+    "C": { "item": "minecraft:iron_ingot" },
+    "D": { "item": "knightlib:small_essence" }
+  },
+  "result": { "id": "things:item_magnet" }
+}

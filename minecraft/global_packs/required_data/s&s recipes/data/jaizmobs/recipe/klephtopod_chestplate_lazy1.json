@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["A A", "BAB", "ABA"],
+  "key": {
+    "A": { "item": "jaizmobs:klephtopod_scute" },
+    "B": { "item": "minecraft:phantom_membrane" }
+  },
+  "result": { "id": "jaizmobs:klephtopod_chestplate" }
+}

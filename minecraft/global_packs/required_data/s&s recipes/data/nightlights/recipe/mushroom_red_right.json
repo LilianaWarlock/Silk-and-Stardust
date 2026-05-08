@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "nightlights:mushroom_white" },
+    { "item": "minecraft:red_dye" }
+  ],
+  "result": { "id": "nightlights:mushroom_red" }
+}

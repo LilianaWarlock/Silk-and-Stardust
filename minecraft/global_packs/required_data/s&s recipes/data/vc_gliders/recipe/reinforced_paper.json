@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["AB", "BA"],
+  "key": {
+    "A": { "item": "minecraft:leather" },
+    "B": { "item": "minecraft:paper" }
+  },
+  "result": { "id": "vc_gliders:reinforced_paper" }
+}

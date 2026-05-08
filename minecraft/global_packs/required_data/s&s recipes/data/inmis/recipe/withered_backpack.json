@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABA", "ACA", "AAA"],
+  "key": {
+    "A": { "item": "minecraft:soul_sand" },
+    "B": { "item": "minecraft:wither_skeleton_skull" },
+    "C": { "item": "inmis:blazing_backpack" }
+  },
+  "result": { "id": "inmis:withered_backpack" }
+}

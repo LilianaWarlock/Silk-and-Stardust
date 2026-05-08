@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [" A ", "ABA", " A "],
+  "key": {
+    "A": { "item": "jewelry:jade" },
+    "B": { "item": "undergroundworlds:desert_charm" }
+  },
+  "result": { "id": "nameless_trinkets:scarab_amulet" }
+}

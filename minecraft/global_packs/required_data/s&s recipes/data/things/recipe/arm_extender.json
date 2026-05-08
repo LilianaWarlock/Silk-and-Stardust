@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": ["ABC", "DED", "CBA"],
+  "key": {
+    "A": { "item": "minecraft:redstone_block" },
+    "B": { "item": "friendsandfoes:crab_claw" },
+    "C": { "item": "minecraft:piston" },
+    "D": { "item": "minecraft:iron_ingot" },
+    "E": { "item": "things:gleaming_compound" }
+  },
+  "result": { "id": "things:arm_extender" }
+}

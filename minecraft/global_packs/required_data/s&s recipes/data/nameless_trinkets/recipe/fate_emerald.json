@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [{ "item": "nameless_trinkets:fate_emerald" }],
+  "result": { "id": "minecraft:air" }
+}

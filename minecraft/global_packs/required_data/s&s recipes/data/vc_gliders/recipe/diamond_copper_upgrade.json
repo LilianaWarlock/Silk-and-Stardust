@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "vc_gliders:reinforced_paper"
+  },
+  "base": {
+    "item": "vc_gliders:paraglider_diamond"
+  },
+  "result": {
+    "components": { "vc_gliders:copper_upgrade": true },
+    "count": 1,
+    "id": "vc_gliders:paraglider_diamond"
+  },
+  "template": {
+    "item": "vc_gliders:copper_upgrade"
+  }
+}
