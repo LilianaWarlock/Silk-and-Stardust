@@ -1,0 +1,18 @@
+filename = 'GarlicsSnails-1.21.1-neoforge-1.0.0.jar'
+name = "Garlic's Snails"
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = 'b35190d37ceca1e4d957d7454ecb1545cf7470744ff00613c4508fe762d7c7da1349a637f06fa7e440d12f6a0e1650d9d658b8d485db66c32428da0617c5097c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lZw3YqDu/versions/YE8rRcDz/GarlicsSnails-1.21.1-neoforge-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'lZw3YqDu'
+version = 'YE8rRcDz'
