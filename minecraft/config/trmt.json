@@ -3,12 +3,12 @@
     "grassEnabled": true,
     "dirtEnabled": true,
     "sandEnabled": true,
-    "leavesEnabled": true,
+    "leavesEnabled": false,
     "vegetationEnabled": true
   },
   "erosionMultipliers": {
-    "player": 0.5,
-    "mounted": 1.5
+    "player": 0.15,
+    "mounted": 0.7
   },
   "erosionThresholds": {
     "grass": {
