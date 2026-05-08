@@ -1,0 +1,43 @@
+{
+  "mode": "strict",
+  "stages": [
+    {
+      "id": "nether_entry",
+      "trigger": {
+        "type": "dimension",
+        "target": "minecraft:the_nether"
+      },
+      "triggerMessage": "PLACEHOLDER NETHER DIFFICULTY INCREASE MESSAGE - PLEASE PRETTIFY IT SKY",
+      "blacklist": [],
+      "modifiers": {
+        "healthMultiplier": 1.5,
+        "healthAddition": 0.0,
+        "armorMultiplier": 2.0,
+        "armorAddition": 5.0,
+        "toughnessMultiplier": 2.0,
+        "toughnessAddition": 5.0,
+        "attackMultiplier": 2.0,
+        "attackAddition": 0.0
+      }
+    },
+    {
+      "id": "dragon_kill",
+      "trigger": {
+        "type": "kill",
+        "target": "minecraft:ender_dragon"
+      },
+      "triggerMessage": "PLACEHOLDER END DIFFICULTY INCREASE MESSAGE - PLEASE PRETTIFY IT SKY",
+      "blacklist": [],
+      "modifiers": {
+        "healthMultiplier": 2.0,
+        "healthAddition": 0.0,
+        "armorMultiplier": 2.0,
+        "armorAddition": 5.0,
+        "toughnessMultiplier": 2.0,
+        "toughnessAddition": 5.0,
+        "attackMultiplier": 2.0,
+        "attackAddition": 0.0
+      }
+    }
+  ]
+}
