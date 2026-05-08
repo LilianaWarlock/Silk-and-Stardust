@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.22",
-  "config_datetime": "2026-05-05_15-00-01",
+  "config_datetime": "2026-05-07_15-55-28",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -34,6 +34,16 @@
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "local_modifications",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "mushroomquest:witch_cottage_redone",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:forest"
+      ],
+      "step": "surface_structures",
       "terrain_adaptation": "none"
     },
     {
