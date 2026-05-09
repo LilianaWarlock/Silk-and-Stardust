@@ -211,7 +211,7 @@
 	#A value too low will result in worse performance overall as chunks will repeatedly have to be revisited as baking has not completed.
 	# Default: 2500
 	# Range: > 500
-	heat_bake_budget = 2500
+	heat_bake_budget = 1500
 	#Disable baking heatable blocks (not recommended!)
 	#Blocks such as Darkslate will not generate with the correct stages and will not be updated to be correct heat values upon generation if true.
 	#Baking does require additional resources, so disabling should improve world gen performance.
