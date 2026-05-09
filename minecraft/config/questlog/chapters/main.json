@@ -1,7 +1,8 @@
 {
+  "name": "Silk & Stardust",
   "icon": {
-    "item": "minecraft:knowledge_book"
+    "item": "minecraft:spyglass"
   },
-  "default_chapter": true,
-  "hidden": false
+  "order": 1,
+  "default_chapter": true
 }

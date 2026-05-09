@@ -1,0 +1,22 @@
+{
+  "title": "The Clouds Part - Vol 2.",
+  "sort_order": 2,
+  "description": "Now that you're oriented, it would be wise to acquire some Stone. Can I trust that you know how to get there?",
+  "icon": {
+    "item": "minecraft:cobblestone"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questmain1"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Obtain 10 Cobblestone",
+      "required_amount": 10,
+      "item": "minecraft:cobblestone"
+    }
+  ]
+}

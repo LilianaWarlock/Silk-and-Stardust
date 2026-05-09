@@ -1,0 +1,27 @@
+{
+  "title": "The Clouds Part - Vol 3.",
+  "sort_order": 3,
+  "description": "Iron will be essential for the journey ahead.",
+  "icon": {
+    "item": "minecraft:iron_ingot"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questmain2"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Obtain 10 Iron",
+      "required_amount": 10,
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "name": "Obtain an Iron Pickaxe",
+      "item": "minecraft:iron_pickaxe"
+    }
+  ]
+}

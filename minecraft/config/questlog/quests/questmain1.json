@@ -1,0 +1,30 @@
+{
+  "title": "The Clouds Part - Vol 1.",
+  "sort_order": 1,
+  "description": "You find yourself in an unfamiliar place with a hazy mind as the clouds above you reveal a brilliant sun. Did you wake up here? Did you even wake up? You can't seem to remember. Either way, the sun  won't be out forever. You should explore your surroundings.",
+  "description_completed": "Now that you've explored a bit, you've found a map of the land. Press [M] to view the Atlas.",
+  "icon": {
+    "item": "minecraft:map"
+  },
+  "objectives": [
+    {
+      "type": "questlog:stat",
+      "name": "Walk 100 Blocks",
+      "required_amount": 10000,
+      "stat": "minecraft:walk_one_cm",
+      "retroactive": false
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 1,
+      "level": true
+    },
+    {
+      "type": "questlog:item",
+      "name": "Antique Atlas",
+      "item": "minecraft:book"
+    }
+  ]
+}

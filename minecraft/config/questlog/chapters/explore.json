@@ -1,7 +1,7 @@
 {
   "name": "Exploration",
   "icon": {
-    "item": "minecraft:grass_block"
+    "item": "minecraft:filled_map"
   },
   "order": 2
 }

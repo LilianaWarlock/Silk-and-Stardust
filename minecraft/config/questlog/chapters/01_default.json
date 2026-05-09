@@ -1,8 +1,0 @@
-{
-  "name": "Silk & Stardust",
-  "order": 1,
-  "default_chapter": true,
-  "icon": {
-    "item": "minecraft:spyglass"
-  }
-}

@@ -1,0 +1,32 @@
+{
+  "title": "Learning to Fight - Vol 1.",
+  "sort_order": 1,
+  "chapter": "questlog:combat",
+  "description": "There are foul monsters and beasts around every corner here. Defend yourself adequately, and I will bestow a mobility technique upon you.",
+  "description_completed": "You can now roll using [R].",
+  "icon": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questmain1"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:stat",
+      "name": "Defeat 10 Mobs",
+      "required_amount": 10,
+      "stat": "minecraft:mob_kills",
+      "retroactive": false
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:command",
+      "name": "Gain a Combat Roll",
+      "command": "/attribute @s combat_roll:count base set 1"
+    }
+  ]
+}
