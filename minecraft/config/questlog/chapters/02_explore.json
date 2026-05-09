@@ -1,0 +1,7 @@
+{
+  "name": "Exploration",
+  "icon": {
+    "item": "minecraft:grass_block"
+  },
+  "order": 2
+}

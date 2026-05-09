@@ -1,0 +1,18 @@
+{
+  "title": "Kill",
+  "sort_order": 1,
+  "chapter": "questlog:04_fight",
+  "description": "Kill",
+  "icon": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "name": "Kill 10 Zombies",
+      "icon": "minecraft:rotten_flesh",
+      "required_amount": 10,
+      "entity": "minecraft:zombie"
+    }
+  ]
+}

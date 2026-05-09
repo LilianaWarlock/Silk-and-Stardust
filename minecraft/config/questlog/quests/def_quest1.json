@@ -1,0 +1,24 @@
+{
+  "title": "Vol 1. - Awake",
+  "sort_order": 1,
+  "chapter": "questlog:01_default",
+  "include_in_main": true,
+  "description": "You find yourself in an unfamiliar place with a hazy mind. Did you wake up here? Did you even wake up? You can't seem to remember. Either way, the sun is out, but it won't be forever. Prepare yourself for the upcoming night with a crafting table.",
+  "icon": {
+    "item": "minecraft:ender_eye"
+  },
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Obtain a Crafting Table",
+      "item": "minecraft:crafting_table"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 1,
+      "level": true
+    }
+  ]
+}
