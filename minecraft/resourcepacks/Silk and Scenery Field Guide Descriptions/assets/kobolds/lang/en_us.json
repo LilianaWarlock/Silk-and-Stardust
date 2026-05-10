@@ -1,0 +1,10 @@
+{
+  "fieldguide.entity.kobolds.kobold_enchanter.description": "Kobolds are subterranean reptiles with a taste for sparkly rocks. Use Emeralds to barter with them and use Amethyst for breeding.\n\nEnchanters can bestow healing effects on allies and have unique bartering offerings.",
+  "fieldguide.entity.kobolds.kobold_skeleton.description": "The skeletal remains of a Kobold with all of the temper and combat skill, but none of the charm and impulse control.",
+  "fieldguide.entity.kobolds.kobold_warrior.description": "Kobolds are subterranean reptiles with a taste for sparkly rocks. Use Emeralds to barter with them and use Amethyst for breeding.\n\nWarriors will defend the den with fervor. Anger one, and the whole nest will be after you!",
+  "fieldguide.entity.kobolds.kobold_rascal.description": "Kobolds are subterranean reptiles with a taste for sparkly rocks. Use Emeralds to barter with them and use Amethyst for breeding.\n\nRascals are sly and crafty Kobolds who are always prepared to turn invisible and then turn tail!",
+  "fieldguide.entity.kobolds.kobold.description": "Kobolds are subterranean reptiles with a taste for sparkly rocks. Use Emeralds to barter with them and use Amethyst for breeding. \n\n",
+  "fieldguide.entity.kobolds.kobold_pirate.description": "Kobolds native to specially crafted pirate coves. Use Emeralds to barter with them and Amethyst for breeding.",
+  "fieldguide.entity.kobolds.kobold_captain.description": "Captain of a motley crew of Kobold corsairs, captains are interested in pursuits other than Emeralds. Namely, golden weapons and tools they can put on a mantle.",
+  "fieldguide.entity.kobolds.kobold_zombie.description": "A Kobold turned undead. They will hunt living Kobolds, attempting to integrate them into the legion."
+}

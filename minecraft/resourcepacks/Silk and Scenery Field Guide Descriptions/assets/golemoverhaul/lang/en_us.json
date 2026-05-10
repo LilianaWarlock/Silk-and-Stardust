@@ -1,0 +1,11 @@
+{
+  "fieldguide.entity.golemoverhaul.slime_golem.description": "A accumulation of slime given magical life. They appear alongside slimes in slime chunks and attack hostile mobs. \n\nOccasionally, Slime Golems grow especially large!",
+  "fieldguide.entity.golemoverhaul.kelp_golem.description": "A sprig of kelp given magical life. These golems are fully aquatic, adept at underwater combat, and are granted power from nearby conduits.",
+  "fieldguide.entity.golemoverhaul.coal_golem.description": "A small lump of coal given magical life. They appear naturally around Coal Ore and are passive until lit ablaze with Flint and Steel. \n\nWhen aflame, they will attack mobs before turning to ash.",
+  "fieldguide.entity.golemoverhaul.terracotta_golem.dead_bush.description": "A lump of terracotta given magical life. These golems appear naturally in badlands and attack hostile mobs with projectiles.\n\nYou can make your own out of Clay, or give one a cactus or dead bush to improve it\u0027s attack power.\n\n",
+  "fieldguide.entity.golemoverhaul.netherite_golem.description": "A netherite forge given magical life. You can ride them, cover them in gold, and even use unique attacks.\n\nJump while riding the golem to charge a slam attack, and, after filling them with lava, press \u0027X\u0027 to unleash a swarm of Coal Golems to assist in combat.",
+  "fieldguide.entity.golemoverhaul.barrel_golem.description": "A curious golem with a tough wooden shell, these creatures appear in villages and have inherited a love for Emeralds. They\u0027ll even give you some of their contents for a few of them!",
+  "fieldguide.entity.golemoverhaul.honey_golem.description": "A beehive given magical life. This golem will fire sticky honey at hostile mobs, and just like a beehive, will contain and defend bees. \n\nYou can even harvest honey from them!",
+  "fieldguide.entity.golemoverhaul.candle_golem.description": "A candle given magical life. They can sit and provide ambience, or stand and be lit ablaze, shooting fire at mobs until their wax runs dry.\n\nThey can then be restored with honeycomb!",
+  "fieldguide.entity.golemoverhaul.hay_golem.red.description": "A bundle of hay given magical life. The spawn in villages, are entirely passive, and prevent crops from being trampled around them!"
+}

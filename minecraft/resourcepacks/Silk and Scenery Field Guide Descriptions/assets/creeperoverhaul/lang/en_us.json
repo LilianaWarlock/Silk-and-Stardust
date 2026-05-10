@@ -1,0 +1,18 @@
+{
+  "fieldguide.entity.creeperoverhaul.mushroom_creeper.description": "A peaceful Creeper, native to the vast mushroom fields.\n\nIt is squishy to the touch.",
+  "fieldguide.entity.creeperoverhaul.swamp_creeper.description": "A hostile Creeper, adapted to dense swamps. \n\nNearby witches have decorated it with stark bone mask.",
+  "fieldguide.entity.creeperoverhaul.bamboo_creeper.description": "A neutral Creeper, adapted to blend into the bamboo forests. \n\nIt can no longer explode, instead it brings down it\u0027s lanky body to strike foes...\n\n...It is terrified of Pandas.",
+  "fieldguide.entity.creeperoverhaul.badlands_creeper.description": "A hostile Creeper adapted to the Badlands.\n\nIt\u0027s big, immune to knockback, and has a very cute cactus on its head that could be sheared off.",
+  "fieldguide.entity.creeperoverhaul.spruce_creeper.description": "A hostile Creeper, adapted to stony moss and podzol. \n\nIt has adapted to appear like a stump breaking through a rock.",
+  "fieldguide.entity.creeperoverhaul.ocean_creeper.teal.description": "A hostile Creeper with gills instead of lungs.\n\nThey do not explode, instead opting to fire small poisoned spines at foes. Don\u0027t get too close!",
+  "fieldguide.entity.creeperoverhaul.birch_creeper.description": "A hostile Creeper that blends into Birch Forests. \n\nIt creeps and stalks, but will explode when it reaches you.",
+  "fieldguide.entity.creeperoverhaul.dark_oak_creeper.description": "A hostile Creeper, adapted to the low light of Dark Forests. \n\nWhen it explodes, it releases a thick fog that blinds nearby mobs.",
+  "fieldguide.entity.creeperoverhaul.snowy_creeper.description": "A neutral Creeper with thick fur useful in the cold biomes. \n\nWhen threatened, it will headbutt threats like an angry goat.",
+  "fieldguide.entity.creeperoverhaul.hills_creeper.description": "A neutral Creeper, adapted to mountaintops. \n\nIt\u0027s much more tough than a normal Creeper, almost as if carved from mountain rock.",
+  "fieldguide.entity.creeperoverhaul.beach_creeper.description": "A hostile Creeper washed ashore on a beach, covered in sand and seashells.\n\nIt\u0027s frail, but it\u0027s explosions pack a punch!",
+  "fieldguide.entity.creeperoverhaul.desert_creeper.description": "A hostile Creeper adapted to the Desert sands.\n\nIt has a very cute cactus on its head that could be shorn off.",
+  "fieldguide.entity.creeperoverhaul.savannah_creeper.description": "A neutral Creeper, adapted to the arid Savannah. \n\nIt can no longer explode, instead using it\u0027s mobile parts to bludgeon attackers.",
+  "fieldguide.entity.creeperoverhaul.cave_creeper.description": "A hostile Creeper, adapted dark caves. \n\nIt\u0027s slightly more tough than a normal Creeper, and it\u0027s skin feels like gravel.",
+  "fieldguide.entity.creeperoverhaul.jungle_creeper.description": "A hostile Creeper, adapted to dense Jungle. \n\nIt is covered in thick foliage, and has become more stout than a normal Creeper.",
+  "fieldguide.entity.creeperoverhaul.dripstone_creeper.description": "A hostile Creeper, adapted to moist dripstone caverns. \n\nIt\u0027s more brittle than a standard Creeper, and feels odd to the touch."
+}
