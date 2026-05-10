@@ -22,9 +22,9 @@
       "level": true
     },
     {
-      "type": "questlog:item",
+      "type": "questlog:command",
       "name": "Antique Atlas",
-      "item": "minecraft:book"
+      "command": "/give @s minecraft:book[minecraft:item_name='{text:\"Antique Atlas\"}', minecraft:lore=['{\"color\":\"gray\",\"italic\":false,\"translate\":\"item.antique_atlas.atlas.lore\"}']]"
     }
   ]
 }
