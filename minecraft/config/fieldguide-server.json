@@ -7,7 +7,7 @@
   "disableVariants": false,
   "keepSilhouetteWhenUnlocked": false,
   "unlockAllVariants": false,
-  "enableFieldGuideItem": false,
+  "enableFieldGuideItem": true,
   "requireItemToOpen": false,
   "enableCopyingPages": true,
   "hideTabsUntilUnlocked": false,

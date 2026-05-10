@@ -1,7 +1,7 @@
 #EmbersTextAPI Server Configuration
 [general]
 	#Enable the welcome message shown to players on first join
-	welcomeMessageEnabled = true
+	welcomeMessageEnabled = false
 
 #Player Markup Access
 #Controls which players can use markup tags like <rainbow> in chat

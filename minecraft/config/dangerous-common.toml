@@ -70,9 +70,9 @@
 	# Range: 0.0 ~ 1.0
 	enchantCountLevel3 = 0.05
 	#Enchantments available for bows.
-	availableBowEnchantments = ["minecraft:power", "minecraft:infinity", "minecraft:flame", "minecraft:punch"]
+	availableBowEnchantments = ["minecraft:power", "minecraft:infinity", "minecraft:punch"]
 	#Enchantments available for melee weapons.
-	availableWeaponEnchantments = ["minecraft:sharpness", "minecraft:smite", "minecraft:fire_aspect", "minecraft:unbreaking", "minecraft:knockback", "apotheosis:deep_wounds"]
+	availableWeaponEnchantments = ["minecraft:sharpness", "minecraft:knockback"]
 	#Enchantments available for armor.
 	availableArmorEnchantments = ["minecraft:protection", "minecraft:unbreaking", "minecraft:fire_protection", "minecraft:projectile_protection"]
 
@@ -80,7 +80,7 @@
 	#Multiplier to increase Creeper movement speed.
 	# Default: 1.4
 	# Range: 1.0 ~ 5.0
-	creeperSpeedMultiplier = 1.2
+	creeperSpeedMultiplier = 1.15
 
 ["Spider Speed Settings"]
 	#Multiplier to increase Spider movement speed.
