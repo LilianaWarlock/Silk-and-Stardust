@@ -37,5 +37,10 @@
 			"darkenedOpacity": 1.0
 		}
 	},
-	"modifiers": []
+	"modifiers": [
+		{
+			"slotType": "charm",
+			"amount": 1
+		}
+	]
 }

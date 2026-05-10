@@ -1,0 +1,16 @@
+[
+  {
+    "_comment_description": "BASIC SETTINGS: What to replace and what to replace it with.",
+    "inputs": ["unusualend:warped_chest"],
+    "output": "quark:trapped_warped_chest",
+    "retrogen": true
+  },
+  {
+    "_comment_description": "BASIC SETTINGS: What to replace and what to replace it with.",
+    "inputs": ["quark:trapped_warped_chest"],
+    "output": "carved_wood:warped_chest",
+    "player_blocks": false,
+    "retrogen": true,
+    "output_nbt": "{LootTable:\"unusualend:chests/warped_ship\"}"
+  }
+]
