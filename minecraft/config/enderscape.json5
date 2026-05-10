@@ -58,7 +58,7 @@
 	silverfishExpandHitRange: true,
 	skyboxAddDynamicFogDensity: true,
 	skyboxScalesBrightnessWithGamma: true,
-	skyboxUpdateEnabled: true,
+	skyboxUpdateEnabled: false,
 	tridentsReturnFromVoid: true,
 	voidPoofParticlesUponDeath: true,
 	elytraFovEffectIntensity: 100,
