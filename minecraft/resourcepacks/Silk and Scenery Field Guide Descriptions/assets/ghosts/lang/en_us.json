@@ -1,0 +1,7 @@
+{
+  "fieldguide.entity.ghosts.kodama.description": "Kodama are mysterious little forest spirits with a love for amethyst. In exchange for a shard, they will offer a single seedling from all trees that exist, and many that do not. ",
+  "fieldguide.entity.ghosts.ghost.description": "Ghosts spawn at night in forests, and can be tamed with glow berries. When tamed, they will use items given to them, such as torches. Their favorite treats are enchantments and curses!",
+  "fieldguide.block.ghosts.haunted_tree.description": "Found by trading with a Kodama, these trees grow ethereal hanging leaves. Sometimes the bark can contain a haunted eye within, capable of detecting entities. With the use of a comparator, this can be converted into a redstone signal.",
+  "fieldguide.entity.ghosts.small_ghost.plant.description": "Seedling ghosts spawn at night in forests. They look for dropped saplings and hold onto them until they find a good place to plant them. Some seedling ghosts will hide during the night by burying themselves.",
+  "fieldguide.entity.ghosts.small_ghost.normal.description": "Seedling ghosts spawn at night in forests. They look for dropped saplings and hold onto them until they find a good place to plant them. Some seedling ghosts will hide during the night by burying themselves."
+}
