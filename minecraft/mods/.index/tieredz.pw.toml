@@ -1,0 +1,29 @@
+filename = 'tiered-1.3.7.jar'
+name = 'TieredZ'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.7+1.21.1'
+
+[download]
+hash = 'c692a1b96f4983b35270a83e1b5fa4f2f0a7cac0db3c198a2c471d13293f057730521e3bf0b66e6d72405198a60c0c3c2a11962db4a5f48242071e97811d8d6a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/z6sMEexp/versions/4wft2iIh/tiered-1.3.7.jar'
+
+[update.modrinth]
+mod-id = 'z6sMEexp'
+version = '4wft2iIh'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'yUBXc3AH'
+type = 'REQUIRED'
