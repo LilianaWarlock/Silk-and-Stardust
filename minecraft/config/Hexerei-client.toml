@@ -1,5 +1,5 @@
 #Special book shaders toggle
-book_shaders_toggle = true
+book_shaders_toggle = false
 #Dynamic light toggle
 dynamic_light_toggle = false
 #Light level an entity should emit when dynamic lights are on

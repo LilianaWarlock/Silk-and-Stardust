@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.22",
-  "config_datetime": "2026-05-09_15-35-21",
+  "config_datetime": "2026-05-10_22-35-41",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -91,6 +91,31 @@
       "terrain_adaptation": "none"
     },
     {
+      "name": "mythsandlegends:graveyard",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "minecraft:dark_forest",
+        "#minecraft:is_taiga",
+        "minecraft:pale_garden"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:desert",
+        "minecraft:badlands",
+        "minecraft:eroded_badlands",
+        "minecraft:wooded_badlands"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "mythsandlegends:old_camp",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
       "name": "nova_structures:bunker",
       "is_disabled": true,
       "whitelisted_biomes": [],
@@ -167,6 +192,23 @@
       "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:remnant_graveyard",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:forest",
+        "minecraft:flower_forest",
+        "minecraft:birch_forest",
+        "minecraft:old_growth_birch_forest",
+        "minecraft:grove",
+        "hybrid_beta:autumnal_forest",
+        "hybrid_beta:seasonal_forest",
+        "hybrid_beta:temperate_rainforest"
+      ],
       "step": "surface_structures",
       "terrain_adaptation": "beard_box"
     },
@@ -559,12 +601,11 @@
       "name": "wabi_sabi_structures:infested_castle_stony",
       "is_disabled": false,
       "whitelisted_biomes": [
-        "#c:is_mountain"
+        "#friendsandfoes:has_structure/iceologer_cabin"
       ],
       "blacklisted_biomes": [
         "minecraft:windswept_forest",
-        "minecraft:windswept_hills",
-        "minecraft:windswept_gravelly_hills"
+        "minecraft:windswept_hills"
       ],
       "step": "surface_structures",
       "terrain_adaptation": "beard_thin"
@@ -921,6 +962,18 @@
       }
     },
     {
+      "spacing": 72,
+      "separation": 30,
+      "name": "nova_structures:ruin_town",
+      "is_disabled": false,
+      "salt": 39043,
+      "frequency": 0.333,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "nova_structures:ruin_town": 1
+      }
+    },
+    {
       "spacing": 600,
       "separation": 312,
       "name": "nova_structures:shrine_tower",
@@ -999,6 +1052,18 @@
         "nova_structures:well_spruce": 1,
         "nova_structures:well_oak": 1,
         "nova_structures:well_jungle": 1
+      }
+    },
+    {
+      "spacing": 27,
+      "separation": 18,
+      "name": "nova_structures:wild_ruin",
+      "is_disabled": true,
+      "salt": 75489234,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "nova_structures:wild_ruin": 1
       }
     }
   ]
