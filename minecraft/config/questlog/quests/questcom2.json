@@ -1,0 +1,23 @@
+{
+  "title": "I don't like you, Dummy!",
+  "sort_order": 2,
+  "chapter": "questlog:combat",
+  "description": "Craft a Target Dummy. It has it coming.",
+  "icon": {
+    "item": "dummmmmmy:target_dummy"
+  },
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft a Test Dummy",
+      "item": "dummmmmmy:target_dummy"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:command",
+      "name": "Gain a Combat Roll",
+      "command": "/attribute @s combat_roll:count base set 1"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Husbandry",
+  "icon": {
+    "item": "minecraft:wheat"
+  },
+  "order": 2
+}

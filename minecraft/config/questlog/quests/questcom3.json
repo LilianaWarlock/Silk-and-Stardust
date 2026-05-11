@@ -1,0 +1,38 @@
+{
+  "title": "Harnessing Potential - Vol 1.",
+  "sort_order": 3,
+  "chapter": "questlog:combat",
+  "description": "Craft any Rune.",
+  "icon": {
+    "item": "runes:crafting_altar"
+  },
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "name": "Craft any Rune",
+      "icon": "runes:arcane_stone",
+      "objectives": [
+        {
+          "type": "questlog:item_craft",
+          "icon": "runes:arcane_stone",
+          "item": "runes:arcane_stone"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "icon": "runes:fire_stone",
+          "item": "runes:fire_stone"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "icon": "runes:frost_stone",
+          "item": "runes:frost_stone"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "icon": "runes:healing_stone",
+          "item": "runes:healing_stone"
+        }
+      ]
+    }
+  ]
+}

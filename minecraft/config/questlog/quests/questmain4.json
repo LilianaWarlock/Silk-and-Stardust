@@ -1,9 +1,9 @@
 {
   "title": "The Clouds Part - Vol 4.",
   "sort_order": 4,
-  "description": "Diamonds are a rare and valuable resource that you'll want to amass. Get 5 to start. I think I know what you're going to do with them.",
+  "description": "Diamonds are a rare and valuable resource that you'll want to amass. Get 5 to start.",
   "icon": {
-    "item": "minecraft:iron_ingot"
+    "item": "minecraft:diamond"
   },
   "requirements": [
     {

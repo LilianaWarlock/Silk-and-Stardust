@@ -1,0 +1,22 @@
+{
+  "title": "Silk Spins Out - Vol. 1",
+  "sort_order": 7,
+  "description": "Enter the Nether",
+  "icon": {
+    "item": "minecraft:flint_and_steel"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questmain6"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_dimension",
+      "name": "Enter the Nether",
+      "icon": "minecraft:crying_obsidian",
+      "dimension": "minecraft:the_nether"
+    }
+  ]
+}
