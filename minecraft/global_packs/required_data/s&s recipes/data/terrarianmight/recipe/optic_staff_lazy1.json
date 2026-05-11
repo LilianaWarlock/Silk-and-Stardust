@@ -7,7 +7,7 @@
     "A": { "item": "dragonscale:ender_dragon_scale" },
     "B": { "item": "minecraft:ender_eye" },
     "C": { "item": "jewelry:jade" },
-    "D": { "item": "basicweapons:iron_quarterstaff" }
+    "D": { "item": "minecraft:stick" }
   },
   "result": { "id": "terrarianmight:optic_staff" }
 }
