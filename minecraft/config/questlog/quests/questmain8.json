@@ -1,0 +1,28 @@
+{
+  "title": "Silk Spins Out - Vol. 2",
+  "sort_order": 8,
+  "description": "Find a Nether Fortress and a Bastion Remnant",
+  "icon": {
+    "item": "minecraft:flint_and_steel"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questmain7"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_structure",
+      "name": "Find a Nether Fortress",
+      "icon": "minecraft:nether_brick",
+      "structure": "minecraft:nether_fortress"
+    },
+    {
+      "type": "questlog:visit_structure",
+      "name": "Find a Bastion Remnant",
+      "icon": "minecraft:chiseled_polished_blackstone",
+      "structure": "minecraft:bastion_remnants"
+    }
+  ]
+}
