@@ -1,0 +1,16 @@
+{
+  "title": "Tricky Trials - Vol 2.",
+  "sort_order": 2,
+  "chapter": "questlog:exploration",
+  "description": "Underground, large trial chambers exist to test the mettle of adventurers. They always lie beneath trial markers.",
+  "icon": {
+    "item": "minecraft:copper_bulb"
+  },
+  "objectives": [
+    {
+      "type": "questlog:visit_structure",
+      "icon": "minecraft:copper_bulb",
+      "structure": "minecraft:trial_chambers"
+    }
+  ]
+}

@@ -9,8 +9,8 @@
   "objectives": [
     {
       "type": "questlog:stat",
-      "name": "Walk 100 Blocks",
-      "required_amount": 10000,
+      "name": "Walk 50 Blocks",
+      "required_amount": 5000,
       "stat": "minecraft:walk_one_cm",
       "retroactive": false
     }

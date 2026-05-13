@@ -1,0 +1,48 @@
+{
+  "title": "The Power of Gemstones - Vol 1.",
+  "sort_order": 4,
+  "chapter": "questlog:combat",
+  "description": "Discover any of a unique set of gemstones, perfect for honing physical or magical abilities.",
+  "icon": {
+    "item": "runes:crafting_altar"
+  },
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "name": "Obtain a Unique Gemstone",
+      "icon": "jewelry:ruby",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "icon": "jewelry:ruby",
+          "item": "jewelry:ruby"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "icon": "jewelry:topaz",
+          "item": "jewelry:topaz"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "icon": "jewelry:citrine",
+          "item": "jewelry:citrine"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "icon": "jewelry:jade",
+          "item": "jewelry:jade"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "icon": "jewelry:sapphire",
+          "item": "jewelry:sapphire"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "icon": "jewelry:tanzanite",
+          "item": "jewelry:tanzanite"
+        }
+      ]
+    }
+  ]
+}

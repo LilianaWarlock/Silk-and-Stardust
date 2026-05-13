@@ -2,15 +2,16 @@
   "title": "Sew the Seeds - Vol 1.",
   "sort_order": 1,
   "chapter": "questlog:farming",
-  "description": "Plant a seed. Pro-Tip! You can do it anywhere, but tilled earth near water is best! Also, avoid crop mono-cultures!",
+  "include_in_main": true,
+  "description": "Plant a wheat seed. Pro-Tip! You can do it on most dirt blocks, but tilled earth near water is best! Also, avoid crop mono-cultures!",
   "icon": {
     "item": "minecraft:wheat_seeds"
   },
   "objectives": [
     {
       "type": "questlog:item_use",
-      "name": "Plant any Seed",
-      "item": "#seeds"
+      "name": "Plant Wheat Seeds",
+      "item": "minecraft:wheat_seeds"
     }
   ]
 }

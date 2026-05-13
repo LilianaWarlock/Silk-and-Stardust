@@ -1,17 +1,17 @@
 {
-  "title": "Health Increase!",
+  "title": "Increasing Your Health",
   "sort_order": 1,
   "chapter": "questlog:combat",
   "include_in_main": true,
-  "description": "There are foul monsters and beasts around every corner here. Prove yourself by gaining Max Health, and I will bestow a mobility technique upon you.",
+  "description": "There are foul monsters and beasts around every corner here. Prove yourself by obtaining a life Crystal, and I will bestow a mobility technique upon you. Life shards can be found growing rarely underground.",
   "description_completed": "You can now roll using [R].",
   "icon": {
     "item": "terrarianmight:life_crystal"
   },
   "objectives": [
     {
-      "type": "questlog:item_use",
-      "name": "Use a Life Crystal",
+      "type": "questlog:item_obtain",
+      "name": "Obtain a Life Crystal",
       "icon": "terrarianmight:life_crystal",
       "item": "terrarianmight:life_crystal"
     }

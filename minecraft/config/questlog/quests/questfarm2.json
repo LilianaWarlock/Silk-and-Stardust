@@ -1,0 +1,61 @@
+{
+  "title": "Sew the Seeds - Vol 2.",
+  "sort_order": 2,
+  "chapter": "questlog:farming",
+  "description": "Use a Lost Soul on a fully grown crop to create a Crop Critter, and then tame it.",
+  "icon": {
+    "item": "cropcritters:lost_soul"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questfarm1"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_use",
+      "name": "Use a Lost Soul on a valid Crop",
+      "icon": "cropcritters:lost_soul",
+      "item": "cropcritters:lost_soul"
+    },
+    {
+      "type": "questlog:or",
+      "name": "Tame a Crop Critter",
+      "objectives": [
+        {
+          "type": "questlog:entity_tame",
+          "entity": "cropcritters:wheat_critter"
+        },
+        {
+          "type": "questlog:entity_tame",
+          "entity": "cropcritters:beetroot_critter"
+        },
+        {
+          "type": "questlog:entity_tame",
+          "entity": "cropcritters:carrot_critter"
+        },
+        {
+          "type": "questlog:entity_tame",
+          "entity": "cropcritters:cocoa_critter"
+        },
+        {
+          "type": "questlog:entity_tame",
+          "entity": "cropcritters:melon_critter"
+        },
+        {
+          "type": "questlog:entity_tame",
+          "entity": "cropcritters:nether_wart_critter"
+        },
+        {
+          "type": "questlog:entity_tame",
+          "entity": "cropcritters:potato_critter"
+        },
+        {
+          "type": "questlog:entity_tame",
+          "entity": "cropcritters:pumpkin_critter"
+        }
+      ]
+    }
+  ]
+}

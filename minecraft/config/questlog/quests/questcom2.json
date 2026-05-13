@@ -12,12 +12,5 @@
       "name": "Craft a Test Dummy",
       "item": "dummmmmmy:target_dummy"
     }
-  ],
-  "rewards": [
-    {
-      "type": "questlog:command",
-      "name": "Gain a Combat Roll",
-      "command": "/attribute @s combat_roll:count base set 1"
-    }
   ]
 }

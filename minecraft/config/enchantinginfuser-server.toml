@@ -46,7 +46,7 @@
 		#Default Value: 30
 		# Default: 30
 		# Range: > 1
-		maximum_cost = 30
+		maximum_cost = 40
 
 [normal_infuser]
 	#Can the enchanting infuser repair items using levels in addition to enchanting.
@@ -96,4 +96,4 @@
 		#Default Value: 30
 		# Default: 30
 		# Range: > 1
-		maximum_cost = 30
+		maximum_cost = 50

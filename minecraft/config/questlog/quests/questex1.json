@@ -1,0 +1,17 @@
+{
+  "title": "Tricky Trials - Vol 1.",
+  "sort_order": 1,
+  "chapter": "questlog:exploration",
+  "include_in_main": true,
+  "description": "Across the surface, trial markers are strewn about that indicate a vast chamber deep below. Can you discover one of them?",
+  "icon": {
+    "item": "minecraft:copper_block"
+  },
+  "objectives": [
+    {
+      "type": "questlog:visit_structure",
+      "icon": "minecraft:copper_block",
+      "structure": "trial_marker:trial_marker"
+    }
+  ]
+}

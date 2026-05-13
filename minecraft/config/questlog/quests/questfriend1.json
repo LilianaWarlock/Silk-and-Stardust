@@ -1,0 +1,28 @@
+{
+  "title": "The Essence of Connection - Vol 1.",
+  "sort_order": 1,
+  "chapter": "questlog:friends",
+  "include_in_main": true,
+  "description": "Create a Soul Furnace and a Great Chalice, then place the ladder on top of the former.",
+  "icon": {
+    "item": "knightlib:small_essence"
+  },
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "knightlib:small_essence"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft a Soul Furnace",
+      "item": "companions:soul_furnace_block"
+    },
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft a Great Chalice",
+      "item": "knightlib:great_chalice"
+    }
+  ]
+}

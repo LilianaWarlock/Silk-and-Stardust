@@ -1,0 +1,7 @@
+{
+  "name": "exploration",
+  "icon": {
+    "item": "minecraft:filled_map"
+  },
+  "order": 4
+}
