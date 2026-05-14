@@ -2,7 +2,7 @@
 	#Can the enchanting infuser repair items using levels in addition to enchanting.
 	#Default Value: TOOLS_AND_ARMOR
 	#Allowed Values: EVERYTHING, TOOLS_AND_ARMOR, NOTHING
-	allow_repairing = "TOOLS_AND_ARMOR"
+	allow_repairing = "NOTHING"
 	#Allow enchantments on an already enchanted item to be increased / removed.
 	#Default Value: ALL
 	#Allowed Values: UNENCHANTED, ALL, FULL_DURABILITY
@@ -23,7 +23,7 @@
 	increase_anvil_repair_cost = false
 	#Allow books to be enchanted in an infuser.
 	#Default Value: true
-	allow_books = true
+	allow_books = false
 
 	[advanced_infuser.repair]
 		#Cost multiplier in levels for each repair step, result will be rounded up.
@@ -40,13 +40,13 @@
 	[advanced_infuser.costs]
 		#When scaling costs, only account for vanilla enchantments. Otherwise enchanting costs will become ludicrously cheap with many modded enchantments present.
 		#Default Value: true
-		scale_costs_by_vanilla_only = true
+		scale_costs_by_vanilla_only = false
 		#Global scale for all enchantment prices. Represents the maximum total cost when the most expensive combination of enchantments for a given item is applied at once.
 		#This is not a strict value and may be exceeded, since each applied enchantment level always costs at least one.
 		#Default Value: 30
 		# Default: 30
 		# Range: > 1
-		maximum_cost = 40
+		maximum_cost = 30
 
 [normal_infuser]
 	#Can the enchanting infuser repair items using levels in addition to enchanting.
@@ -90,10 +90,10 @@
 	[normal_infuser.costs]
 		#When scaling costs, only account for vanilla enchantments. Otherwise enchanting costs will become ludicrously cheap with many modded enchantments present.
 		#Default Value: true
-		scale_costs_by_vanilla_only = true
+		scale_costs_by_vanilla_only = false
 		#Global scale for all enchantment prices. Represents the maximum total cost when the most expensive combination of enchantments for a given item is applied at once.
 		#This is not a strict value and may be exceeded, since each applied enchantment level always costs at least one.
 		#Default Value: 30
 		# Default: 30
 		# Range: > 1
-		maximum_cost = 50
+		maximum_cost = 30
