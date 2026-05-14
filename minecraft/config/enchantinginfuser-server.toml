@@ -96,4 +96,4 @@
 		#Default Value: 30
 		# Default: 30
 		# Range: > 1
-		maximum_cost = 30
+		maximum_cost = 50
