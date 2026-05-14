@@ -6,7 +6,7 @@
 	#Ambrosium Shards can be eaten to restore a half heart of health
 	"Ambrosium Shards are edible" = true
 	#Makes Berry Bushes and Bush Stems behave consistently with Sweet Berry Bushes
-	"Berry Bush consistency" = false
+	"Berry Bush consistency" = true
 	#Makes Crystal Fruit Leaves behave consistently with Sweet Berry Bushes
 	"Crystal Fruit Leaves consistency" = false
 	#Gummy Swets when eaten restore full health instead of full hunger
@@ -18,7 +18,7 @@
 	#Determines the cooldown in ticks for the Cloud Staff's ability
 	"Cooldown for the Cloud Staff" = 40
 	#Makes armor abilities depend on wearing the respective gloves belonging to an armor set
-	"Require gloves for set abilities" = true
+	"Require gloves for set abilities" = false
 
 [Loot]
 	#Allows the Golden Feather to spawn in the Silver Dungeon loot table
