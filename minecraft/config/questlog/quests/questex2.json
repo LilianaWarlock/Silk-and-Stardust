@@ -6,9 +6,16 @@
   "icon": {
     "item": "minecraft:copper_bulb"
   },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questex1"
+    }
+  ],
   "objectives": [
     {
       "type": "questlog:visit_structure",
+      "name": "Discover a Trial Chamber",
       "icon": "minecraft:copper_bulb",
       "structure": "minecraft:trial_chambers"
     }

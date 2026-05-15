@@ -2,16 +2,46 @@
   "title": "Sew the Seeds - Vol 1.",
   "sort_order": 1,
   "chapter": "questlog:farming",
-  "include_in_main": true,
-  "description": "Plant a wheat seed. Pro-Tip! You can do it on most dirt blocks, but tilled earth near water is best! Also, avoid crop mono-cultures!",
+  "description": "Plant any vanilla seed. Pro-Tip! You can do it on most dirt blocks, but tilled earth near water is best! Also, avoid crop mono-cultures!",
   "icon": {
     "item": "minecraft:wheat_seeds"
   },
   "objectives": [
     {
-      "type": "questlog:item_use",
-      "name": "Plant Wheat Seeds",
-      "item": "minecraft:wheat_seeds"
+      "type": "questlog:or",
+      "name": "Plant A Seed",
+      "icon": "minecraft:wheat_seeds",
+      "objectives": [
+        {
+          "type": "questlog:block_place",
+          "icon": "minecraft:wheat_seeds",
+          "block": "minecraft:wheat"
+        },
+        {
+          "type": "questlog:block_place",
+          "block": "minecraft:beetroots"
+        },
+        {
+          "type": "questlog:block_place",
+          "block": "minecraft:carrots"
+        },
+        {
+          "type": "questlog:block_place",
+          "block": "minecraft:potatoes"
+        },
+        {
+          "type": "questlog:block_place",
+          "block": "minecraft:cocoa"
+        },
+        {
+          "type": "questlog:block_place",
+          "block": "minecraft:melon_stem"
+        },
+        {
+          "type": "questlog:block_place",
+          "block": "minecraft:pumpkin_stem"
+        }
+      ]
     }
   ]
 }
