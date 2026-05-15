@@ -1,18 +1,21 @@
-filename = 'yo_hooks-neoforge-4.5.1.jar'
+filename = 'yo_hooks-4.7.0beta.jar'
 name = "Yori3o's Grappling Hooks"
-side = 'both'
-x-prismlauncher-dependencies = []
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '4.5.1'
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '4.7.0beta'
 
 [download]
-hash = 'a4ccdf7c7423a95f85226803f9966f2a2238289a4abeb59f4a754f3c9a70801797c1ad8c8bb3f243161f9a4141af6d1f683d26b102411503f11dafa59a1a1980'
+hash = 'cbf99a49f7fcfe0ba7113be7cff818d15a3a4f322aaa3c9e04fc770a2764903e900a35ca7f2ee8c171605d4d7c83a5fc03de2dfeab730a8b9bf39a2cd9dcf4d4'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/t1p8V2nl/versions/MVWg5Dgk/yo_hooks-neoforge-4.5.1.jar'
+url = 'https://cdn.modrinth.com/data/t1p8V2nl/versions/zql83350/yo_hooks-4.7.0beta.jar'
 
 [update.modrinth]
 mod-id = 't1p8V2nl'
-version = 'MVWg5Dgk'
+version = 'zql83350'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'T9PomCSv'
+type = 'OPTIONAL'

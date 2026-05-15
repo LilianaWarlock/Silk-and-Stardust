@@ -1,17 +1,7 @@
 ==== Connector Mixin Patch Audit Summary ====
-Successful: 2
+Successful: 0
 Partial: 0
 Failed: 0
-Success rate: 100.00%        Accuracy: 100.00%
+Success rate: NaN%        Accuracy: NaN%
 =============================================
-
-Mixin method io/wispforest/idwtialsimmoedm/mixin/AbstractInventoryScreenMixin addDescription(Lnet/minecraft/client/gui/GuiGraphics;IILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;IILjava/util/Collection;ZILjava/lang/Iterable;ILnet/minecraft/world/effect/MobEffectInstance;Ljava/util/List;)V
-  >> Using org.sinytra.adapter.transform.preprocess.LocalCaptureUpgradeTransformer
-     - Change descriptor to (Lnet/minecraft/client/gui/GuiGraphics;IILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/world/effect/MobEffectInstance;Ljava/util/List;)V
-     - Upgrade captured locals
-
-Mixin method io/wispforest/idwtialsimmoedm/mixin/AbstractInventoryScreenMixin mald(Lnet/minecraft/client/gui/GuiGraphics;IILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;IILjava/util/Collection;ZILjava/lang/Iterable;)V
-  >> Using org.sinytra.adapter.transform.preprocess.LocalCaptureUpgradeTransformer
-     - Change descriptor to (Lnet/minecraft/client/gui/GuiGraphics;IILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;IILjava/lang/Iterable;)V
-     - Upgrade captured locals
 
