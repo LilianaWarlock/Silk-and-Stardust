@@ -1,18 +1,18 @@
-filename = 'Dangerous NeoForge - 1.21.1 v1.4.3.jar'
-name = 'Dangerous - Just A Difficulty Mod'
-side = 'both'
+filename = 'Dangerous NeoForge - 1.21.1 v1.5.1.jar'
+name = 'Dangerous'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.4.3'
+x-prismlauncher-version-number = '1.5.1'
 
 [download]
-hash = '2ee04492eb5d737855940d9ea8d577f74e0f76eb83008432cde05469ccf12d6e409bb9172149de76d2a59afdf1405bc53225d71e76c36a1a2754b87aca5e6dd9'
+hash = '1d9e667c9a15aa5f5a8c0ccd865cc2865b99e653e38c28f5d6ddc08df43555d702ea6154720e8ce0a8aa2a6e87910d1fcc65c7f685def05d0296d415c4b21c64'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/nsri5wVW/versions/5mQA3HkO/Dangerous NeoForge - 1.21.1 v1.4.3.jar'
+url = 'https://cdn.modrinth.com/data/nsri5wVW/versions/5pXxxfob/Dangerous NeoForge - 1.21.1 v1.5.1.jar'
 
 [update.modrinth]
 mod-id = 'nsri5wVW'
-version = '5mQA3HkO'
+version = '5pXxxfob'
