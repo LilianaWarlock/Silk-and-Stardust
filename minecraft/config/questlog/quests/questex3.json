@@ -1,0 +1,29 @@
+{
+  "title": "Wayward Travels",
+  "sort_order": 3,
+  "chapter": "questlog:exploration",
+  "description": "Craft and place a Waystone. They do not generate naturally. Variants of Waystones do not work for this quest.",
+  "icon": {
+    "item": "waystones:warp_stone"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questmain4"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft a Waystone",
+      "icon": "waystones:warp_stone",
+      "item": "waystones:waystone"
+    },
+    {
+      "type": "questlog:block_place",
+      "name": "Place a Waystone",
+      "icon": "waystones:waystone",
+      "block": "waystones:waystone"
+    }
+  ]
+}

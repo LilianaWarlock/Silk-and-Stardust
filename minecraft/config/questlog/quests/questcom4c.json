@@ -1,0 +1,60 @@
+{
+  "title": "The Power of Gemstones - Vol 3.",
+  "sort_order": 5,
+  "chapter": "questlog:combat",
+  "description": "Obtain a Netherite ring with a gemstone inlaid within.",
+  "icon": {
+    "item": "jewelry:netherite_ruby_ring"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questcom4b"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "name": "Obtain a Gemstone Ring",
+      "icon": "jewelry:netherite_ruby_ring",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "name": "Ruby",
+          "icon": "jewelry:netherite_ruby_ring",
+          "item": "jewelry:netherite_ruby_ring"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "name": "Topaz",
+          "icon": "jewelry:netherite_topaz_ring",
+          "item": "jewelry:netherite_topaz_ring"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "name": "Citrine",
+          "icon": "jewelry:netherite_citrine_ring",
+          "item": "jewelry:netherite_citrine_ring"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "name": "Jade",
+          "icon": "jewelry:netherite_jade_ring",
+          "item": "jewelry:netherite_jade_ring"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "name": "Sapphire",
+          "icon": "jewelry:netherite_sapphire_ring",
+          "item": "jewelry:netherite_sapphire_ring"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "name": "Tanzanite",
+          "icon": "jewelry:netherite_tanzanite_ring",
+          "item": "jewelry:netherite_tanzanite_ring"
+        }
+      ]
+    }
+  ]
+}

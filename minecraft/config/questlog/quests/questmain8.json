@@ -3,7 +3,7 @@
   "sort_order": 8,
   "description": "Find a Nether Fortress and a Bastion Remnant",
   "icon": {
-    "item": "minecraft:flint_and_steel"
+    "item": "minecraft:gilded_blackstone"
   },
   "requirements": [
     {

@@ -1,0 +1,39 @@
+{
+  "title": "A Gripping Tale",
+  "sort_order": 4,
+  "chapter": "questlog:exploration",
+  "description": "Craft a Grappling Hook using Iron, Gold or Diamonds.",
+  "icon": {
+    "item": "yo_hooks:iron_grappling_hook"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questmain3"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "name": "Craft a Grappling Hook",
+      "icon": "yo_hooks:iron_grappling_hook",
+      "objectives": [
+        {
+          "type": "questlog:item_craft",
+          "icon": "yo_hooks:iron_grappling_hook",
+          "item": "yo_hooks:iron_grappling_hook"
+        },
+        {
+          "type": "questlog:item_craft",
+          "icon": "yo_hooks:gold_grappling_hook",
+          "item": "yo_hooks:gold_grappling_hook"
+        },
+        {
+          "type": "questlog:item_craft",
+          "icon": "yo_hooks:diamond_grappling_hook",
+          "item": "yo_hooks:diamond_grappling_hook"
+        }
+      ]
+    }
+  ]
+}
