@@ -1,0 +1,30 @@
+{
+  "title": "A Fluffy Buddy - Vol 1.",
+  "chapter": "questlog:friends",
+  "description": "Tame a Wolf, Cat or Fox with Bones, Raw Fish and Raw Chicken respectively.",
+  "icon": {
+    "item": "minecraft:lead"
+  },
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "name": "Tame Animals",
+      "icon": "minecraft:bone",
+      "objectives": [
+        {
+          "type": "questlog:entity_tame",
+          "icon": "minecraft:bone",
+          "entity": "minecraft:wolf"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "minecraft:cat"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "minecraft:fox"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Sew the Seeds - Vol 4.",
+  "sort_order": 4,
+  "chapter": "questlog:farming",
+  "description": "Craft a Soul Pot, fill it with Lost Souls and obtain a Soul Rose by placing a Wither Rose atop it.",
+  "description_completed": "The Soul Rose must be placed on Soul Sand and requires a complicated structure underneath it to reap the maximum effects. §4Read the Wiki, and build the structure with raw ore blocks.",
+  "icon": {
+    "item": "cropcritters:soul_rose"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questfarm3"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "questlog:questmain7"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft a Soul Pot",
+      "icon": "cropcritters:soul_pot",
+      "item": "cropcritters:soul_pot"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "name": "Get a Soul Rose",
+      "icon": "cropcritters:soul_rose",
+      "item": "cropcritters:soul_rose"
+    }
+  ]
+}

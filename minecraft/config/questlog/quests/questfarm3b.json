@@ -1,0 +1,29 @@
+{
+  "title": "A Peaceful Farm - Vol 3.",
+  "sort_order": 1,
+  "chapter": "questlog:farming",
+  "description": "Find a Snuffle and collect it's uniquely soft fluff",
+  "icon": {
+    "item": "snuffles:snuffle_fluff"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questfarm2b"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:entity_approach",
+      "name": "Find a Snuffle",
+      "entity": "snuffles:snuffle",
+      "range": 5
+    },
+    {
+      "type": "questlog:item_obtain",
+      "name": "Get Fluff",
+      "icon": "snuffles:snuffle_fluff",
+      "item": "snuffles:snuffle_fluff"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Sew the Seeds - Vol 3.",
+  "sort_order": 3,
+  "chapter": "questlog:farming",
+  "description": "Tame a special, ravenous crop critter, made from the extinct pitcher plant.",
+  "icon": {
+    "item": "minecraft:pitcher_plant"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questfarm2"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "name": "Tame a Crop Critter",
+      "icon": "minecraft:pitcher_pod",
+      "objectives": [
+        {
+          "type": "questlog:entity_tame",
+          "icon": "minecraft:pitcher_pod",
+          "entity": "cropcritters:pitcher_critter"
+        }
+      ]
+    }
+  ]
+}
