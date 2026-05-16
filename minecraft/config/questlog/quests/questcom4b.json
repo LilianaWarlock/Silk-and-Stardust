@@ -1,0 +1,60 @@
+{
+  "title": "The Power of Gemstones - Vol 2.",
+  "sort_order": 5,
+  "chapter": "questlog:combat",
+  "description": "Obtain a golden ring with a gemstone inlaid within.",
+  "icon": {
+    "item": "jewelry:gold_ring"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questcom4"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "name": "Obtain a Gemstone Ring",
+      "icon": "jewelry:ruby_ring",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "name": "Ruby",
+          "icon": "jewelry:ruby_ring",
+          "item": "jewelry:ruby_ring"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "name": "Topaz",
+          "icon": "jewelry:topaz_ring",
+          "item": "jewelry:topaz_ring"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "name": "Citrine",
+          "icon": "jewelry:citrine_ring",
+          "item": "jewelry:citrine_ring"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "name": "Jade",
+          "icon": "jewelry:jade_ring",
+          "item": "jewelry:jade_ring"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "name": "Sapphire",
+          "icon": "jewelry:sapphire_ring",
+          "item": "jewelry:sapphire_ring"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "name": "Tanzanite",
+          "icon": "jewelry:tanzanite_ring",
+          "item": "jewelry:tanzanite_ring"
+        }
+      ]
+    }
+  ]
+}
