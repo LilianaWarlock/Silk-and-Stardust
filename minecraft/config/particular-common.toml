@@ -10,7 +10,7 @@
 		#Enable waterfall spray particles
 		waterfallSpray = true
 		#Enable firefly particles
-		fireflies = true
+		fireflies = false
 		#Enable falling leaves particles
 		fallingLeaves = true
 		#Enable cave dust particles
@@ -81,7 +81,7 @@
 			#Chance of spawning falling leaves (higher = less frequent)
 			# Default: 60
 			# Range: > 1
-			spawnChance = 60
+			spawnChance = 180
 			#Whether falling leaves create ripples when landing on water
 			spawnRipples = true
 			#Whether falling leaves lay flat on the ground
@@ -93,7 +93,7 @@
 			#Chance of spawning cave dust (higher = less frequent)
 			# Default: 700
 			# Range: > 1
-			spawnChance = 700
+			spawnChance = 1100
 			#Base maximum age of cave dust particles
 			# Default: 200
 			# Range: > 1
