@@ -1,12 +1,12 @@
 {
-  "anvil_cost_amplifier": 1.0,
-  "beacon_radius_amplifier": 1.0,
+  "anvil_cost_amplifier": 0.5,
+  "beacon_radius_amplifier": 1.5,
   "client_settings": {
     "color_settings": {
-      "moon_texture_color": "FF3B3B",
-      "sky_light_color": "59003C"
+      "moon_texture_color": "87FDFB",
+      "sky_light_color": "3333ff"
     },
-    "moon_size": 30.0,
+    "moon_size": 20.0,
     "moon_texture_location": "minecraft:textures/environment/moon_phases.png"
   },
   "dimension_chances": {
@@ -19,13 +19,16 @@
   "drops": {
     "drop_enhancer": {}
   },
-  "enchantment_table_cost_amplifier": 1.0,
+  "enchantment_table_cost_amplifier": 0.5,
   "mob_settings": {
     "blocks_sleeping": {
-      "type": "corgilib:any"
+      "type": "corgilib:flipped",
+      "condition_to_flip": {
+        "type": "corgilib:any"
+      }
     },
     "lunar_spawn_settings": {
-      "force_surface_spawning": true,
+      "force_surface_spawning": false,
       "mob_spawn_settings": {
         "spawn_costs": {},
         "spawners": {
@@ -43,32 +46,30 @@
       "use_biome_spawn_settings": true
     },
     "mob_effects": [],
-    "spawn_category_multiplier": {
-      "monster": 1.75
-    }
+    "spawn_category_multiplier": {}
   },
   "text_components": {
     "end_notification": {
       "type": "CHAT",
       "component": {
-        "key": "enhancedcelestials.notification.blood_moon.set"
+        "key": "enhancedcelestials.notification.spectral_moon.set"
       }
     },
     "name": {
-      "key": "enhancedcelestials.name.blood_moon",
+      "key": "enhancedcelestials.name.spectral_moon",
       "style": {
-        "color": "red"
+        "color": "aqua"
       }
     },
     "start_notification": {
       "type": "CHAT",
       "component": {
-        "key": "enhancedcelestials.notification.blood_moon.rise",
+        "key": "enhancedcelestials.notification.spectral_moon.rise",
         "style": {
-          "color": "red"
+          "color": "aqua"
         }
       }
     }
   },
-  "xp_amplifier": 1.0
+  "xp_amplifier": 2.0
 }
