@@ -1,0 +1,91 @@
+{
+  "values": {
+    "#c:foods": {
+      "base_value": 10,
+      "processors": [
+        {
+          "type": "selling_bin:food_processor"
+        }
+      ]
+    },
+
+    "minecraft:cake": {
+      "base_value": 200,
+      "processors": []
+    },
+    "minecraft:enchanted_golden_apple": {
+      "base_value": 3700,
+      "processors": []
+    },
+    "minecraft:golden_apple": {
+      "base_value": 200,
+      "processors": []
+    },
+    "minecraft:honey_bottle": {
+      "base_value": 150,
+      "processors": []
+    },
+    "minecraft:ominous_bottle": {
+      "base_value": 0,
+      "processors": []
+    },
+
+    "minecraft:wheat": {
+      "base_value": 10,
+      "processors": []
+    },
+    "minecraft:carrot": {
+      "base_value": 10,
+      "processors": []
+    },
+    "minecraft:potato": {
+      "base_value": 10,
+      "processors": []
+    },
+    "minecraft:beetroot": {
+      "base_value": 10,
+      "processors": []
+    },
+    "minecraft:cocoa_beans": {
+      "base_value": 10,
+      "processors": []
+    },
+    "minecraft:sugar_cane": {
+      "base_value": 10,
+      "processors": []
+    },
+    "minecraft:cactus": {
+      "base_value": 10,
+      "processors": []
+    },
+    "minecraft:pumpkin": {
+      "base_value": 10,
+      "processors": []
+    },
+    "minecraft:melon": {
+      "base_value": 10,
+      "processors": []
+    },
+    "minecraft:nether_wart": {
+      "base_value": 10,
+      "processors": []
+    },
+
+    "nears:near": {
+      "base_value": 10,
+      "processors": []
+    },
+    "nears:faar": {
+      "base_value": 10,
+      "processors": []
+    },
+    "nears:soul_berries": {
+      "base_value": 10,
+      "processors": []
+    },
+    "nears:cinder_grain": {
+      "base_value": 10,
+      "processors": []
+    }
+  }
+}
