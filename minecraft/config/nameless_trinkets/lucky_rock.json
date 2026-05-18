@@ -1,16 +1,28 @@
 {
   "config": {
-    "percentageOfObtaining": 5.0,
+    "percentageOfObtaining": 0.85,
     "itemList": [
       "minecraft:coal",
-      "minecraft:diamond",
-      "minecraft:iron_ingot",
-      "minecraft:gold_ingot",
+      "minecraft:raw_copper",
+      "minecraft:raw_iron",
+      "minecraft:raw_gold",
       "minecraft:emerald",
       "minecraft:redstone",
       "minecraft:flint",
       "minecraft:lapis_lazuli",
-      "minecraft:glowstone_dust"
+      "minecraft:iron_nugget",
+      "minecraft:gold_nugget",
+      "minecraft:copper_nugget",
+      "minecraft:ameythyst_shard",
+      "minecraft:raw_gold_block",
+      "jewelry:ruby",
+      "jewelry:topaz",
+      "jewelry:citrine",
+      "jewelry:jade",
+      "jewelry:sapphire",
+      "jewelry:tanzanite",
+      "terrarianmight:life_shard",
+      "jaizmobs:dripstone_shard"
     ],
     "blockList": [
       "minecraft:stone",
@@ -19,6 +31,7 @@
       "minecraft:diorite",
       "minecraft:andesite",
       "minecraft:calcite",
+      "aether:holystone",
       "minecraft:tuff"
     ],
     "isEnable": true

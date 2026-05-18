@@ -1,6 +1,6 @@
 {
   "config": {
-    "swimSpeedMultiplierPercentage": 50.0,
+    "swimSpeedMultiplierPercentage": 35.0,
     "isEnable": true
   }
 }

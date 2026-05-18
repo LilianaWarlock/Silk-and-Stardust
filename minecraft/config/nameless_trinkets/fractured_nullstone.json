@@ -1,6 +1,6 @@
 {
   "config": {
-    "magicDamageReductionPercentage": 50.0,
+    "magicDamageReductionPercentage": 30.0,
     "isEnable": true
   }
 }

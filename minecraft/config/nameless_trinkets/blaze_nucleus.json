@@ -1,7 +1,7 @@
 {
   "config": {
-    "setEnemyInFireTicks": 300,
-    "fireDamageReductionPercentage": 80.0,
+    "setEnemyInFireTicks": 30,
+    "fireDamageReductionPercentage": 35.0,
     "isEnable": true
   }
 }

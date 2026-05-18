@@ -1,6 +1,6 @@
 {
   "config": {
-    "chanceToApplyPoison": 30.0,
+    "chanceToApplyPoison": 12.0,
     "poisonTime": 100,
     "poisonLevel": 1,
     "isEnable": true
