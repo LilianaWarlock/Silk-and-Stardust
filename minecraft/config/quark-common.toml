@@ -1341,7 +1341,7 @@
 	Shiba = false
 	Stonelings = true
 	Toretoise = true
-	Wraith = false
+	Wraith = true
 
 	[mobs.crabs]
 		"Enable Brewing" = true
@@ -1522,7 +1522,7 @@
 
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[mobs.wraith.spawn_config.biomes.biomes]
-					Biomes = ["minecraft:soul_sand_valley"]
+					Biomes = []
 					"Is Blacklist" = false
 
 [client]
