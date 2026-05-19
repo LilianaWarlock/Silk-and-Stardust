@@ -1,0 +1,25 @@
+filename = 'trialrestock-1.0.4-1.21.jar'
+name = 'Trial Vault Restock'
+side = 'server'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.4'
+
+[download]
+hash = '8f4621ac77c4a4a1d9fd2cc693b204581558fad4b664f1332eda80f2b339f82acef87c735625472596e1329a8fb4c25c2c031bfb458f40d43f5f369f3b6488d7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/GZXNxeIC/versions/9HiJUxkj/trialrestock-1.0.4-1.21.jar'
+
+[update.modrinth]
+mod-id = 'GZXNxeIC'
+version = '9HiJUxkj'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ccKDOlHs'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'
