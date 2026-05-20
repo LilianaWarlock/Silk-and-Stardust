@@ -13,10 +13,10 @@
 	"resolution": "Normal",
 	"disableCamera": true,
 	"archiveScreenshots": false,
-	"updateWorldIcon": false,
+	"updateWorldIcon": true,
 	"blacklistedAddresses": [
 		"play.wynncraft.com"
 	],
 	"saveScreenshotsByUsername": false,
-	"defaultServerMode": "DISABLED"
+	"defaultServerMode": "ENABLED"
 }

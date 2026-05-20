@@ -1,5 +1,5 @@
 {
-  "getFragments": true,
+  "getFragments": false,
   "enableTrinketCrafting": true,
   "globalLootMultiplier (0.0-1.0)": 0.0
 }

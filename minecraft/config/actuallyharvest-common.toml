@@ -2,19 +2,19 @@
 	#Allow harvesting with empty hand. If disabled, requires hoe.
 	allowEmptyHand = true
 	#Harvesting crops costs durability.
-	damageTool = false
+	damageTool = true
 	#Automatically register crops.
 	autoConfigMods = true
 	#Chance of XP dropping on harvest.
 	#Range: 0 ~ 100
-	xpFromHarvestChance = 100
+	xpFromHarvestChance = 10
 	#Amount of XP dropped on harvest.
 	#Range: 0 ~ 10
 	xpFromHarvestAmount = 1
 	#Use range for XP drop, instead of set amount.
-	xpFromHarvestUseRange = false
+	xpFromHarvestUseRange = true
 	#Range of XP dropped on harvest. Format: "min-max", example: "0-3"
-	xpFromHarvestRangeAmount = "0-3"
+	xpFromHarvestRangeAmount = "1-3"
 	#Harvestable crops.
 	#Format: "harvestState[,afterHarvest]", i.e. "minecraft:wheat[age=7]"
 	#or "minecraft:cocoa[age=2,facing=north],minecraft:cocoa[age=0,facing=north]"
@@ -33,14 +33,14 @@
 	#Range: 1 ~ 5
 	highTierExpansionRange = 3
 	#Expand hoe range by 1 for each level of efficiency enchantment level.
-	expandHoeRangeEnchanted = true
+	expandHoeRangeEnchanted = false
 	#Maximum range hoe can expand for harvesting.
 	#This is the maximum of tier + efficiency enchantment.
 	#Range: 1 ~ 11
-	maxHoeExpansionRange = 11
+	maxHoeExpansionRange = 4
 	#List of individual hoe tools and their harvest tier. This is for modded items not covered.
 	#Format: minecraft:wooden_hoe-0 (with number being tier)
-	hoeItems = []
+	hoeItems = ["minecraft:wooden_hoe-0", "minecraft:stone_hoe-0", "eternal_starlight:glacite_hoe-4", "eternal_starlight:starlit_hoe-4", "eternal_starlight:starfire_hoe-4", "eternal_starlight:unrealium_hoe-4", "eternal_starlight:malarite_hoe-4", "eternal_starlight:pearlescent_hoe-4", "aether:skyroot_hoe-0", "aether:holystone_hoe-0", "aether:zanite_hoe-3", "aether:gravitite_hoe-4", "aether:valkyrie_hoe-4", "aether:stratus_hoe-4"]
 	#List of crops to blacklist from right-click harvest. Format: "modid:block"
 	blacklistCrops = ["minecraft:torchflower_crop"]
 	#List of mods to blacklist from right-click harvest. Format: "modid"
@@ -50,4 +50,4 @@
 	#List of held items to blacklist from right-click harvest. Format: "modid:item"
 	blacklistHeldItems = []
 	#Automatically replant crops after harvesting.
-	replantCrops = true
+	replantCrops = false

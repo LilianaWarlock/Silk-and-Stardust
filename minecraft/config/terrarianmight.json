@@ -1,5 +1,5 @@
 {
-  "crystalPermanentHealth": true,
+  "crystalPermanentHealth": false,
   "crystalHealthGain": 2,
   "crystalMaxHealth": 20,
   "crystalCooldown": 14,

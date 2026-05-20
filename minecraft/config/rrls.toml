@@ -1,5 +1,5 @@
 #Allowed Values: ALL, LOADING, RELOADING, NONE
-hideOverlays = "ALL"
+hideOverlays = "RELOADING"
 #text.autoconfig.rrls.option.rgbProgress.@Tooltip
 rgbProgress = false
 #text.autoconfig.rrls.option.blockOverlay.@Tooltip
@@ -21,5 +21,5 @@ earlyPackStatusSend = false
 #Allowed Values: FORCE_LOAD, LOAD, NONE
 doubleLoad = "FORCE_LOAD"
 #text.autoconfig.rrls.option.animationSpeed.@Tooltip
-animationSpeed = 1000.0
+animationSpeed = 500.0
 skipForgeOverlay = false

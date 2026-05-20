@@ -12,8 +12,8 @@ ender_dragon_crystal_threshold_normal = 3
 # Default: 4
 # Range: > 0
 ender_dragon_crystal_threshold_hard = 4
-ender_dragon_healing_rework = true
-ender_dragon_rework = true
+ender_dragon_healing_rework = false
+ender_dragon_rework = false
 elder_guardians_are_bosses = true
 # Default: 8
 # Range: > 0

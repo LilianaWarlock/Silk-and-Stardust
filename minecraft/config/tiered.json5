@@ -4,7 +4,7 @@
 	// Equipped items on entities get modifiers
 	"entityItemModifier": true,
 	// Crafted items get modifiers
-	"craftingModifier": true,
+	"craftingModifier": false,
 	// Merchant items get modifiers
 	"merchantModifier": true,
 	// Decreases the biggest weights by this modifier

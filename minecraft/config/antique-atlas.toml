@@ -44,7 +44,7 @@ fallbackFailHandling = "MISSING"
 # How to display areas that aren't explored yet
 # options: CLOUDS, EMPTY
 # default: EMPTY
-emptyHandling = "EMPTY"
+emptyHandling = "CLOUDS"
 
 [structureMarkers]
 	"minecraft:start/bastion_remnant" = true
@@ -66,5 +66,4 @@ emptyHandling = "EMPTY"
 	[dimensions.scales]
 		"minecraft:overworld" = 8
 		"minecraft:the_nether" = 1
-		"aether:the_aether" = 0
 		"minecraft:the_end" = 0
