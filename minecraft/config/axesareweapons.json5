@@ -5,7 +5,7 @@
 	"enableModded": false,
 	"enableForEnchantingTable": true,
 	"enableDamageInEnchantingTable": true,
-	"fastCobWebBreaking": false,
+	"fastCobWebBreaking": true,
 	"pickaxesAreWeapons": false,
 	"shovelsAreWeapons": false,
 	"hoesAreWeapons": false,
