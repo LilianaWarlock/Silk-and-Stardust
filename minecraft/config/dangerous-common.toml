@@ -26,7 +26,7 @@
 
 ["Gear Spawn Chances"]
 	#List of armor mobs can spawn with near the surface.
-	surfaceArmor = ["minecraft:air","minecraft:air","minecraft:air","minecraft:air","minecraft:air","minecraft:air","minecraft:chainmail_helmet", "minecraft:chainmail_chestplate", "minecraft:chainmail_leggings", "minecraft:chainmail_boots", "minecraft:leather_helmet", "minecraft:leather_chestplate", "minecraft:leather_leggings", "minecraft:leather_boots"]
+	surfaceArmor = ["minecraft:chainmail_helmet", "minecraft:chainmail_chestplate", "minecraft:chainmail_boots", "minecraft:leather_helmet", "minecraft:leather_chestplate", "minecraft:leather_boots"]
 	#List of weapons mobs can spawn with near the surface.
 	surfaceWeapons = ["minecraft:air"]
 	#List of armor mobs can spawn with in caves.
@@ -40,11 +40,11 @@
 	#Chance for mobs to spawn with gear in EASY mode.
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
-	easyGearChance = 0.15
+	easyGearChance = 0.5
 	#Chance for mobs to spawn with gear in NORMAL mode.
 	# Default: 0.2
 	# Range: 0.0 ~ 1.0
-	normalGearChance = 0.15
+	normalGearChance = 0.10
 	#Chance for mobs to spawn with gear in HARD mode.
 	# Default: 0.35
 	# Range: 0.0 ~ 1.0
