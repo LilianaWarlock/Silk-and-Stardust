@@ -40,7 +40,7 @@
 	maxHoeExpansionRange = 11
 	#List of individual hoe tools and their harvest tier. This is for modded items not covered.
 	#Format: minecraft:wooden_hoe-0 (with number being tier)
-	hoeItems = ["minecraft:wooden_hoe-0", "minecraft:stone_hoe-0", "eternal_starlight:glacite_hoe-4", "eternal_starlight:starlit_hoe-4", "eternal_starlight:starfire_hoe-4", "eternal_starlight:unrealium_hoe-4", "eternal_starlight:malarite_hoe-4", "eternal_starlight:pearlescent_hoe-4", "aether:skyroot_hoe-0", "aether:holystone_hoe-0", "aether:zanite_hoe-3", "aether:gravitite_hoe-4", "aether:valkyrie_hoe-4", "deep_aether:stratus_hoe-4"]
+	hoeItems = ["minecraft:wooden_hoe-0", "minecraft:stone_hoe-0", "eternal_starlight:glacite_hoe-1", "eternal_starlight:starlit_hoe-1", "eternal_starlight:starfire_hoe-1", "eternal_starlight:unrealium_hoe-1", "eternal_starlight:malarite_hoe-1", "eternal_starlight:pearlescent_hoe-1", "aether:skyroot_hoe-0", "aether:holystone_hoe-0", "aether:zanite_hoe-1", "aether:gravitite_hoe-1", "aether:valkyrie_hoe-1", "deep_aether:stratus_hoe-1"]
 	#List of crops to blacklist from right-click harvest. Format: "modid:block"
 	blacklistCrops = ["minecraft:torchflower_crop"]
 	#List of mods to blacklist from right-click harvest. Format: "modid"
@@ -48,6 +48,6 @@
 	#Allow machines, like Create's deployer, to harvest crops.
 	allowFakePlayer = true
 	#List of held items to blacklist from right-click harvest. Format: "modid:item"
-	blacklistHeldItems = []
+	blacklistHeldItems = ["cropcritters:lost_soul", "minecraft:air"]
 	#Automatically replant crops after harvesting.
 	replantCrops = false
