@@ -9,6 +9,11 @@
       ]
     },
 
+    "crittersandcompanions:pearl": {
+      "base_value": 100,
+      "processors": []
+    },
+
     "minecraft:cake": {
       "base_value": 200,
       "processors": []

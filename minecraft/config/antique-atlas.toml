@@ -66,4 +66,5 @@ emptyHandling = "CLOUDS"
 	[dimensions.scales]
 		"minecraft:overworld" = 8
 		"minecraft:the_nether" = 1
+		"aether:the_aether" = 0
 		"minecraft:the_end" = 0

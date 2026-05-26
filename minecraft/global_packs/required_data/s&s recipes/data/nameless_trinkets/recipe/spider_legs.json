@@ -5,7 +5,7 @@
   "pattern": ["A A", "BCB", "A A"],
   "key": {
     "A": { "item": "crittersandcompanions:silk" },
-    "B": { "item": "undergroundworlds:spider_fang" },
+    "B": { "item": "minecraft:black_dye" },
     "C": { "item": "knightlib:small_essence" }
   },
   "result": { "id": "nameless_trinkets:spider_legs" }

@@ -37,5 +37,18 @@
 			"darkenedOpacity": 1.0
 		}
 	},
-	"modifiers": []
+	"modifiers": [
+		{
+			"slotType": "anklet",
+			"amount": -1
+		},
+		{
+			"slotType": "trinket",
+			"amount": 1
+		},
+		{
+			"slotType": "charm",
+			"amount": -1
+		}
+	]
 }

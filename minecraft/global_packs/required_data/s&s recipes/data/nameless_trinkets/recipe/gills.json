@@ -3,8 +3,8 @@
   "show_notification": true,
   "category": "equipment",
   "ingredients": [
-    { "item": "tide:alpha_fish" },
-    { "item": "basicweapons:stone_dagger" }
+    { "tag": "minecraft:cat_food" },
+    { "item": "rogues:flint_dagger" }
   ],
   "result": { "id": "nameless_trinkets:gills" }
 }

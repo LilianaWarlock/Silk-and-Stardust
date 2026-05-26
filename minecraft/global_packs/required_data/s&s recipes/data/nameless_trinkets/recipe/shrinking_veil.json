@@ -5,7 +5,7 @@
   "pattern": ["ABA", "CDC"],
   "key": {
     "A": { "item": "jewelry:sapphire" },
-    "B": { "item": "tide:golden_line" },
+    "B": { "item": "minecraft:string" },
     "C": { "item": "waystones:warp_dust" },
     "D": { "item": "aether:white_cape" }
   },

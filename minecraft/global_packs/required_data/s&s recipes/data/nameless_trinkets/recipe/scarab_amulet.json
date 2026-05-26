@@ -5,7 +5,7 @@
   "pattern": [" A ", "ABA", " A "],
   "key": {
     "A": { "item": "jewelry:jade" },
-    "B": { "item": "undergroundworlds:desert_charm" }
+    "B": { "item": "darkerdepths:amber" }
   },
   "result": { "id": "nameless_trinkets:scarab_amulet" }
 }

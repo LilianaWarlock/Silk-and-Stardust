@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "nameless_trinkets:light_gloves"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_ultimate_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": "knightlib:small_essence"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [["has_the_recipe", "has_ultimate_dust"]],
+  "rewards": {
+    "recipes": ["nameless_trinkets:light_gloves"]
+  }
+}

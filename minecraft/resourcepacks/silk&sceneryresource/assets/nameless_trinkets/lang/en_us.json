@@ -11,6 +11,7 @@
   "tooltip.nameless_trinkets.blindfold_lore": "\"Hey, who turned out the lights?\"",
   "tooltip.nameless_trinkets.light_gloves_lore": "\"Sometimes, I wonder if mining is all there is to life...\"",
   "tooltip.nameless_trinkets.light_gloves_1": "Break blocks underground 15% faster.",
+  "tooltip.nameless_trinkets.resonant_heart_lore": "It still beats, but for who?",
   "item.nameless_trinkets.rage_mind": "One Eyed Mask",
   "tooltip.nameless_trinkets.rage_mind_lore": "A terror from a forsaken era.",
   "tooltip.nameless_trinkets.rage_mind_1": "Marks the entity that dares to damage you, and any like it.",
@@ -22,5 +23,7 @@
   "item.nameless_trinkets.creeper_sense": "Club of Drunkards",
   "tooltip.nameless_trinkets.creeper_sense_lore": "A sober person would throw it...",
   "tooltip.nameless_trinkets.creeper_sense_1": "Crouching will cause a non-destructive explosion.",
-  "tooltip.nameless_trinkets.creeper_sense_2": "This WILL hurt."
+  "tooltip.nameless_trinkets.creeper_sense_2": "This WILL hurt.",
+
+  "curios.identifier.trinket": "Trinket"
 }
