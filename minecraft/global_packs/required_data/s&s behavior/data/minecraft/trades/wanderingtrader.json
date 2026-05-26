@@ -1039,6 +1039,32 @@
                     "function": "minecraft:set_count"
                   }
                 ],
+                "name": "minecraft:nautilus_shell"
+              }
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                  }
+                ]
+              },
+              "max_uses": 6,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1,
+                    "function": "minecraft:set_count"
+                  }
+                ],
                 "name": "minecraft:rabbit_foot"
               }
             },
