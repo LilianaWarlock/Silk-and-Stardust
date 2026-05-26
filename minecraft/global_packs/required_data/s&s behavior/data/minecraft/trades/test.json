@@ -1,0 +1,29 @@
+{
+  "num_to_select": 1,
+  "trades": [
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 2
+          }
+        ]
+      },
+      "result": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          }
+        ],
+        "name": "minecraft:player_head"
+      }
+    }
+  ]
+}
