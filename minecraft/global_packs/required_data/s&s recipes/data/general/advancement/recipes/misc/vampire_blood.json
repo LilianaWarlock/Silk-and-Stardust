@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "nameless_trinkets:glowing_dust"
+            "items": "knightlib:small_essence"
           }
         ]
       },
@@ -18,15 +18,8 @@
       "trigger": "minecraft:recipe_unlocked"
     }
   },
-  "requirements": [
-    [
-      "has_the_recipe",
-      "has_glowing_dust"
-    ]
-  ],
+  "requirements": [["has_the_recipe", "has_glowing_dust"]],
   "rewards": {
-    "recipes": [
-      "nameless_trinkets:vampire_blood"
-    ]
+    "recipes": ["nameless_trinkets:vampire_blood"]
   }
 }
