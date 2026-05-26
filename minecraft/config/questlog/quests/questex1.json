@@ -4,12 +4,12 @@
   "chapter": "questlog:exploration",
   "description": "Across the surface, trial markers are strewn about that indicate a vast chamber deep below. Can you discover one of them?",
   "icon": {
-    "item": "minecraft:copper_block"
+    "item": "minecraft:weathered_copper"
   },
   "objectives": [
     {
       "type": "questlog:visit_structure",
-      "icon": "minecraft:copper_block",
+      "icon": "minecraft:weathered_copper",
       "structure": "trial_marker:trial_marker"
     }
   ]

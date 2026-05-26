@@ -2,7 +2,7 @@
   "title": "A Cozy Flame",
   "chapter": "questlog:farming",
   "include_in_main": true,
-  "description": "Place a Campfire. If placed on a Hay Bale, it will prevent enemies from spawning and burn enemies who enter the area.",
+  "description": "Place a Campfire. If placed on a Hay Bale, the increased smoke keeps monsters away.",
   "icon": {
     "item": "minecraft:campfire"
   },

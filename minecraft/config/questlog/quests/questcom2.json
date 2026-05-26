@@ -2,7 +2,7 @@
   "title": "I don't like you, Dummy!",
   "sort_order": 2,
   "chapter": "questlog:combat",
-  "description": "Craft a Target Dummy. It has it coming.",
+  "description": "Craft a Target Dummy with a Hay Bale and an Armor Stand. It has it coming.",
   "icon": {
     "item": "dummmmmmy:target_dummy"
   },
