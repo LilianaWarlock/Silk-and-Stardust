@@ -481,13 +481,17 @@
       ]
     },
     "jewelry:copper_ring": {
-      "attributes": [
-        {
-          "id": "generic.armor",
-          "value": 0.5,
-          "operation": "ADD_VALUE"
-        }
-      ]
+      "conditional_attributes": {
+        "required_mod": "combat_roll",
+        "attributes": [
+          {
+            "id": "combat_roll:count",
+            "value": 1.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "attributes": []
     },
     "jewelry:netherite_tanzanite_ring": {
       "attributes": [

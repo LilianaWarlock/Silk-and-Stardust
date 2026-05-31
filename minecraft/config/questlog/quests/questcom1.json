@@ -3,8 +3,8 @@
   "sort_order": 1,
   "chapter": "questlog:combat",
   "include_in_main": true,
-  "description": "There are foul monsters and beasts around every corner here. Prove yourself by obtaining a life Crystal, and I will bestow a mobility technique upon you. Life shards can be found growing rarely underground.",
-  "description_completed": "You can now roll using [R].",
+  "description": "There are foul monsters and beasts around every corner here. Prove yourself by obtaining a life crystal, and I will bestow a unique treasure upon you. Life shards can be found growing rarely underground.",
+  "description_completed": "With the anklet, you can now roll using [R].",
   "icon": {
     "item": "terrarianmight:life_crystal"
   },
@@ -18,9 +18,9 @@
   ],
   "rewards": [
     {
-      "type": "questlog:command",
-      "name": "Gain a Combat Roll",
-      "command": "/attribute @s combat_roll:count base set 1"
+      "type": "questlog:item",
+      "name": "Gain an accessory",
+      "item": "jewelry:copper_ring"
     }
   ]
 }
