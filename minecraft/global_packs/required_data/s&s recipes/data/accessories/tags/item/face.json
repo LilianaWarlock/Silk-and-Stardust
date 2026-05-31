@@ -1,4 +1,8 @@
 {
   "replace": false,
-  "values": ["artifacts:snorkel", "artifacts:night_vision_goggles"]
+  "values": [
+    "artifacts:snorkel",
+    "artifacts:night_vision_goggles",
+    "hexerei:reading_glasses"
+  ]
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": false,
+  "category": "misc",
+  "pattern": [" B ", "ACA", " B "],
+  "key": {
+    "A": { "item": "minecraft:copper_ingot" },
+    "B": { "item": "terrarianmight:life_shard" },
+    "C": { "item": "terrarianmight:life_crystal" }
+  },
+  "result": { "id": "jewelry:copper_ring" }
+}
