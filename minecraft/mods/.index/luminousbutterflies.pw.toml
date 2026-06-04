@@ -1,20 +1,20 @@
-filename = 'Luminous Butterflies V1.2 - NeoForge 1.21.1.jar'
+filename = 'Luminous Butterflies V1.2.1 - NeoForge 1.21.1.jar'
 name = 'Luminous: Butterflies'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.2'
+x-prismlauncher-version-number = '1.2.1'
 
 [download]
-hash = '0e09ff0b31f56baa8db0ec20d37ebecde51edb9a895c5794597d97a8719c45ac9edae41939f6206a1f246fe3bff1cbe0ef6b8f8d32d7e81713dd9da39a5c2eba'
+hash = 'e8c5f6471af3f3ef1fea5e5eb53cede84c4b68621da2076993e25abd98869f196a501b720398430c84ec14e93fe55d864f4b324ffa475e2c49a6a95f389e9e73'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/yoTUVxcS/versions/fmT4a0iE/Luminous Butterflies V1.2 - NeoForge 1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/yoTUVxcS/versions/f1mWzcnq/Luminous Butterflies V1.2.1 - NeoForge 1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'yoTUVxcS'
-version = 'fmT4a0iE'
+version = 'f1mWzcnq'
 
 [[x-prismlauncher-dependencies]]
 addonId = '8BmcQJ2H'

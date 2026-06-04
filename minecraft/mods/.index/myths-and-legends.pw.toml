@@ -1,20 +1,24 @@
-filename = 'mythsandlegends-0.0.8.5.jar'
+filename = 'mythsandlegends-0.0.8.6.jar'
 name = 'Myths & Legends'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '0.0.8.5'
+x-prismlauncher-version-number = '0.0.8.6'
 
 [download]
-hash = 'e444f446da326f85087076e3053ca1e2519b14489bdd58204211ca72e65ae4b82ce6633199e1c454cc28cd663cef89d89fb4aec8de86e1db7d1f43f06e902694'
+hash = 'd01c34857300893aeaa32a89688c193aaec04bbe528518a93cd08590e0dff0b6e56e28d22dc622a6f033780e60ce9c7160e8c303cf9107fc1a9f66d462cabcdc'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/JzgNbcKE/versions/ySVw80up/mythsandlegends-0.0.8.5.jar'
+url = 'https://cdn.modrinth.com/data/JzgNbcKE/versions/ZAFjKxns/mythsandlegends-0.0.8.6.jar'
 
 [update.modrinth]
 mod-id = 'JzgNbcKE'
-version = 'ySVw80up'
+version = 'ZAFjKxns'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = '5sy6g3kz'
@@ -27,7 +31,3 @@ type = 'REQUIRED'
 [[x-prismlauncher-dependencies]]
 addonId = 'vvuO3ImH'
 type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'u6dRKJwZ'
-type = 'OPTIONAL'

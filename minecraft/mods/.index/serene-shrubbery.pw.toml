@@ -1,18 +1,18 @@
-filename = 'SereneShrubbery-NeoForge-1.21.1-v2.3.2.jar'
+filename = 'SereneShrubbery-NeoForge-1.21.1-v2.4.0.jar'
 name = 'Serene Shrubbery'
-side = 'both'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.3.2'
+x-prismlauncher-version-number = '2.4.0'
 
 [download]
-hash = 'ee0d376c5faecf0d3faef78a57a346c0b9d2da2f0a39ecd3e27ba7eeba17cd0cfb10a6cd372c052f4d8472539bb05019c1ad0def2dda871dda1c402827e5b91f'
+hash = '9ff006baa17b346b914279b6eb5ad691b00907fc8b03c20dab72366dd064fa6184a19e8c65441e3fb55ff863828bdfc5d9d518305f05f1062f811c2eff8978dc'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/8nNCA6Vy/versions/a9Ola3FR/SereneShrubbery-NeoForge-1.21.1-v2.3.2.jar'
+url = 'https://cdn.modrinth.com/data/8nNCA6Vy/versions/rRJVLCOH/SereneShrubbery-NeoForge-1.21.1-v2.4.0.jar'
 
 [update.modrinth]
 mod-id = '8nNCA6Vy'
-version = 'a9Ola3FR'
+version = 'rRJVLCOH'
