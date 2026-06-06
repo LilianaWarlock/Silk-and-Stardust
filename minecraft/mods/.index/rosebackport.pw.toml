@@ -1,0 +1,18 @@
+filename = 'rosebackport-1.0.0-neoforge-1.21.1.jar'
+name = 'RoseBackport'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = '58eada92092bb32f4319578710d5feb9abc93645232f21603af444485ffc5f284980ca28d402667209323e0498e59ec9d066e6e5b29454a2c2236ccbf654c1f0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/cPpnPGmh/versions/pFp2xF77/rosebackport-1.0.0-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'cPpnPGmh'
+version = 'pFp2xF77'
