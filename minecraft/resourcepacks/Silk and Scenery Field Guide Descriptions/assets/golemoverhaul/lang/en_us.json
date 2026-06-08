@@ -7,5 +7,6 @@
   "fieldguide.entity.golemoverhaul.barrel_golem.description": "A curious golem with a tough wooden shell, these creatures appear in villages and have inherited a love for Emeralds. They\u0027ll even give you some of their contents for a few of them!",
   "fieldguide.entity.golemoverhaul.honey_golem.description": "A beehive given magical life. This golem will fire sticky honey at hostile mobs, and just like a beehive, will contain and defend bees. \n\nYou can even harvest honey from them!",
   "fieldguide.entity.golemoverhaul.candle_golem.description": "A candle given magical life. They can sit and provide ambience, or stand and be lit ablaze, shooting fire at mobs until their wax runs dry.\n\nThey can then be restored with honeycomb!",
-  "fieldguide.entity.golemoverhaul.hay_golem.red.description": "A bundle of hay given magical life. The spawn in villages, are entirely passive, and prevent crops from being trampled around them!"
+  "fieldguide.entity.golemoverhaul.hay_golem.red.description": "A bundle of hay given magical life. They spawn in villages, are entirely passive, and prevent crops from being trampled around them!",
+  "fieldguide.entity.golemoverhaul.hay_golem.green.description": "A bundle of hay given magical life. They spawn in villages, are entirely passive, and prevent crops from being trampled around them!"
 }

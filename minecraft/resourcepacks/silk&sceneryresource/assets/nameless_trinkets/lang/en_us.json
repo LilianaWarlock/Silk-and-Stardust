@@ -25,5 +25,8 @@
   "tooltip.nameless_trinkets.creeper_sense_1": "Crouching will cause a non-destructive explosion.",
   "tooltip.nameless_trinkets.creeper_sense_2": "This WILL hurt.",
 
+  "item.nameless_trinkets.glowing_dust": "Soulbound Opal",
+  "item.nameless_trinkets.ultimate_dust": "Soulbound Agate",
+
   "curios.identifier.trinket": "Trinket"
 }
