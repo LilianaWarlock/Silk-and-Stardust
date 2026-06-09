@@ -2,7 +2,7 @@ Credits:
 
 Lily - the one who pulled this web together
 
-Sky - Most of the fieldguide entries, all the quests, and responsible starting for the neoforge port!
+Sky - Most of the fieldguide entries, all the quests, some sprite work and responsible for starting the neoforge port!
 
 SageDeoxys - Original Mimikyu Sprite - @sagedeoxys.bsky.social
 
