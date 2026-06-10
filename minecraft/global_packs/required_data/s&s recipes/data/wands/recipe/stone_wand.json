@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" #D", " /#", "/  "],
+  "key": {
+    "#": {
+      "item": "minecraft:cobblestone"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "D": {
+      "item": "waystones:warp_dust"
+    }
+  },
+  "result": {
+    "id": "wands:stone_wand",
+    "count": 1
+  }
+}

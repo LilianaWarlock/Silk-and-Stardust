@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" #D", " /#", "/  "],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "D": {
+      "item": "waystones:warp_stone"
+    }
+  },
+  "result": {
+    "id": "wands:diamond_wand",
+    "count": 1
+  }
+}
