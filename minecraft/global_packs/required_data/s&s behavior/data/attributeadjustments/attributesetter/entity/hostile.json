@@ -5,5 +5,12 @@
       "value": 6,
       "operation": "BASE"
     }
+  ],
+  "the_moth:moth_man": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 75,
+      "operation": "BASE"
+    }
   ]
 }
