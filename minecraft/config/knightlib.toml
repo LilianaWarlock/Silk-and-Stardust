@@ -8,9 +8,9 @@
 ["Essence Drop Probabilities"]
 	# Chance to drop small essence upon defeating an enemy
 	# 
-	# Default: 0.007
+	# Default: 0.0
 	# Range: 0.0 ~ 1.0
-	SMALL_ESSENCE_DROP_RATE = 0.007
+	SMALL_ESSENCE_DROP_RATE = 0.0
 	# Comma-separated list of entity IDs that are the only ones allowed to drop essence. Leave empty to allow all monsters
 	# (except blacklisted ones)
 	# 
@@ -18,9 +18,9 @@
 	ESSENCE_ENTITY_WHITELIST = ""
 	# Chance to drop great essence upon defeating an enemy
 	# 
-	# Default: 1.5E-4
+	# Default: 0.008333333333333333
 	# Range: 0.0 ~ 1.0
-	GREAT_ESSENCE_DROP_RATE = 1.5E-4
+	GREAT_ESSENCE_DROP_RATE = 0.008333333333333333
 	# Comma-separated list of entity IDs that should never drop essence (e.g. "minecraft:silverfish,minecraft:endermite")
 	# 
 	# Default:

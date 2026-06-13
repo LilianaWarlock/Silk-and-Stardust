@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" #D", " /#", "/  "],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "D": {
+      "item": "waystones:warp_stone"
+    }
+  },
+  "result": {
+    "id": "wands:iron_wand",
+    "count": 1
+  }
+}

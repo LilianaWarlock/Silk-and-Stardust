@@ -1,0 +1,18 @@
+filename = 'nondirectionaldamagetiltfix2.0.1+b1.21.1.jar'
+name = 'Non-Directional Damage Tilt Fix'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.1+b1.21.1'
+
+[download]
+hash = '53fb6d282bc3b824f53dc477576ea42ac0730a7ee3845f4bf7b2788b1bc7ba16edf56dcbf10ef2f96ddc086770cfef894b1ede0a5aa2b8f3bdda480736d0d617'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/v2jWULk9/versions/2DW4EXBW/nondirectionaldamagetiltfix2.0.1%2Bb1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'v2jWULk9'
+version = '2DW4EXBW'

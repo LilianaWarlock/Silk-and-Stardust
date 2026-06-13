@@ -1,7 +1,7 @@
 {
   "enableDataFixer": false,
   "blockUnknownAttachmentWarning": true,
-  "enablePortalShader": true,
+  "enablePortalShader": false,
   "enableScreenShake": true,
   "enableLootChest": true,
   "enableBossRespawn": true,
