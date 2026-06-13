@@ -1,0 +1,13 @@
+{
+  "fieldguide.entity.ore_creeper.copper_creeper.description": "A cave-dwelling Creeper with an appetite for Copper. It can be slain for a small amount of material, or explode to naturally embed material into nearby stone.",
+  "fieldguide.entity.ore_creeper.emerald_creeper.description": "A cave-dwelling Creeper with an appetite for Emeralds. It can be slain for a small amount of material, or explode to naturally embed material into nearby stone.",
+  "fieldguide.entity.ore_creeper.ancient_debris_creeper.description": "A nether-dwelling Creeper with an appetite for Debris. It can be slain for a small amount of material, or explode to naturally embed material into nearby Netherrack.",
+  "fieldguide.entity.ore_creeper.diamond_creeper.description": "A cave-dwelling Creeper with an appetite for Diamonds. It can be slain for a small amount of material, or explode to naturally embed material into nearby stone.",
+  "fieldguide.entity.ore_creeper.gold_creeper.description": "A cave-dwelling Creeper with an appetite for Gold. It can be slain for a small amount of material, or explode to naturally embed material into nearby stone.",
+  "fieldguide.entity.ore_creeper.redstone_creeper.description": "A cave-dwelling Creeper with an appetite for Redstone. It can be slain for a small amount of material, or explode to naturally embed material into nearby stone.",
+  "fieldguide.entity.ore_creeper.nether_gold_creeper.description": "A nether-dwelling Creeper with an appetite for Gold. It can be slain for a small amount of material, or explode to naturally embed material into nearby Netherrack.",
+  "fieldguide.entity.ore_creeper.nether_quartz_creeper.description": "A nether-dwelling Creeper with an appetite for Quartz. It can be slain for a small amount of material, or explode to naturally embed material into nearby Netherrack.",
+  "fieldguide.entity.ore_creeper.coal_creeper.description": "A cave-dwelling Creeper with an appetite for Coal. It can be slain for a small amount of material, or explode to naturally embed material into nearby stone.",
+  "fieldguide.entity.ore_creeper.iron_creeper.description": "A cave-dwelling Creeper with an appetite for Iron. It can be slain for a small amount of material, or explode to naturally embed material into nearby stone.",
+  "fieldguide.entity.ore_creeper.lapis_lazuli_creeper.description": "A cave-dwelling Creeper with an appetite for Lapis. It can be slain for a small amount of material, or explode to naturally embed material into nearby stone."
+}
