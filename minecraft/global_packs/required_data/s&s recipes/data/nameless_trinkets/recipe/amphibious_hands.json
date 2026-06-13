@@ -5,7 +5,7 @@
   "pattern": ["AAA", "ABA", "AAA"],
   "key": {
     "A": { "item": "minecraft:kelp" },
-    "B": { "item": "knightlib:small_essence" }
+    "B": { "item": "knightlib:great_essence" }
   },
   "result": { "id": "nameless_trinkets:amphibious_hands" }
 }

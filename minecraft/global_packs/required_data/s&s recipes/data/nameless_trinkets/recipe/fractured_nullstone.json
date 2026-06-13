@@ -4,7 +4,7 @@
   "category": "equipment",
   "ingredients": [
     { "item": "paladins:diamond_great_hammer" },
-    { "item": "knightlib:great_essence" },
+    { "item": "nameless_trinkets:glowing_dust" },
     { "item": "aether:holystone_button" }
   ],
   "result": { "id": "nameless_trinkets:fractured_nullstone" }

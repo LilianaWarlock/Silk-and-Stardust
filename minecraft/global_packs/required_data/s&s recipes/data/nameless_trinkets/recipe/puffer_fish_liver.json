@@ -4,7 +4,7 @@
   "category": "equipment",
   "ingredients": [
     { "item": "minecraft:pufferfish" },
-    { "item": "knightlib:great_essence" },
+    { "item": "nameless_trinkets:glowing_dust" },
     { "item": "rogues:diamond_dagger" }
   ],
   "result": { "id": "nameless_trinkets:puffer_fish_liver" }

@@ -4,7 +4,7 @@
   "category": "equipment",
   "pattern": ["ABA", "BBB", "CCC"],
   "key": {
-    "A": { "item": "knightlib:small_essence" },
+    "A": { "item": "knightlib:great_essence" },
     "B": { "item": "snuffles:snuffle_fluff" },
     "C": { "item": "minecraft:phantom_membrane" }
   },

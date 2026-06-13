@@ -5,7 +5,7 @@
   "pattern": ["AAA", "ABA", " C "],
   "key": {
     "A": { "item": "minecraft:bone_block" },
-    "B": { "item": "knightlib:small_essence" },
+    "B": { "item": "knightlib:great_essence" },
     "C": { "tag": "minecraft:bundles" }
   },
   "result": { "id": "nameless_trinkets:fertilizer" }

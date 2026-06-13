@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": { "item": "knightlib:great_essence" },
+    "B": { "item": "minecraft:quartz" },
+    "C": { "item": "minecraft:diamond" }
+  },
+  "pattern": ["ABA", "BCB", "ABA"],
+  "result": {
+    "count": 1,
+    "id": "nameless_trinkets:glowing_dust"
+  }
+}

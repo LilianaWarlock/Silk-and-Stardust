@@ -5,7 +5,7 @@
   "pattern": ["ABA"],
   "key": {
     "A": { "item": "jaizmobs:tattered_wing" },
-    "B": { "item": "knightlib:great_essence" }
+    "B": { "item": "nameless_trinkets:glowing_dust" }
   },
   "result": { "id": "minecraft:elytra" }
 }

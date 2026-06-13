@@ -38,13 +38,16 @@
 		}
 	},
 	"modifiers": [
-		
-		{
-			"slotType": "trinket",
-			"amount": 1
-		},
 		{
 			"slotType": "charm",
+			"amount": -1
+		},
+		{
+			"slotType": "hand",
+			"amount": -1
+		},
+		{
+			"slotType": "wrist",
 			"amount": -1
 		}
 	]

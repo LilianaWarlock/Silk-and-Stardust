@@ -3,7 +3,7 @@
   "show_notification": true,
   "category": "equipment",
   "ingredients": [
-    { "item": "knightlib:small_essence" },
+    { "item": "knightlib:great_essence" },
     { "item": "minecraft:stone_button" }
   ],
   "result": { "id": "nameless_trinkets:lucky_rock" }

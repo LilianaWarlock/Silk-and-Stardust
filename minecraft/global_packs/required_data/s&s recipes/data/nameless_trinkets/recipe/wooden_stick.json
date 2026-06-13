@@ -6,7 +6,7 @@
   "key": {
     "A": { "item": "minecraft:gold_ingot" },
     "B": { "item": "minecraft:stick" },
-    "C": { "item": "knightlib:great_essence" }
+    "C": { "item": "nameless_trinkets:glowing_dust" }
   },
   "result": { "id": "nameless_trinkets:wooden_stick" }
 }

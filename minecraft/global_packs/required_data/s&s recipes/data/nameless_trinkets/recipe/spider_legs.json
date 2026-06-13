@@ -6,7 +6,7 @@
   "key": {
     "A": { "item": "crittersandcompanions:silk" },
     "B": { "item": "minecraft:black_dye" },
-    "C": { "item": "knightlib:small_essence" }
+    "C": { "item": "knightlib:great_essence" }
   },
   "result": { "id": "nameless_trinkets:spider_legs" }
 }

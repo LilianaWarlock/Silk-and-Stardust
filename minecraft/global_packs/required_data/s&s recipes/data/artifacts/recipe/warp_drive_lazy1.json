@@ -5,7 +5,7 @@
   "pattern": ["AAA", "BCB", "AAA"],
   "key": {
     "A": { "item": "minecraft:copper_ingot" },
-    "B": { "item": "knightlib:small_essence" },
+    "B": { "item": "knightlib:great_essence" },
     "C": { "item": "jewelry:tanzanite" }
   },
   "result": { "id": "artifacts:warp_drive" }

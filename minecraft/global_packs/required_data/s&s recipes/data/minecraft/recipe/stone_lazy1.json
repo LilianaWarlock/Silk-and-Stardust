@@ -5,7 +5,7 @@
   "pattern": ["AAA", "ABA", "AAA"],
   "key": {
     "A": { "item": "waystones:warp_dust" },
-    "B": { "item": "cerulean:spacerock" }
+    "B": { "item": "eternal_starlight:grimstone" }
   },
   "result": { "id": "minecraft:stone" }
 }

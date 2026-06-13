@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:ender_eye"
+    },
+    "N": {
+      "item": "enderscape:nebulite"
+    },
+    "S": {
+      "item": "nameless_trinkets:glowing_dust"
+    }
+  },
+  "pattern": ["#S#", "SNS", "#S#"],
+  "result": {
+    "count": 1,
+    "id": "nameless_trinkets:ultimate_dust"
+  }
+}

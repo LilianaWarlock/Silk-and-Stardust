@@ -1,21 +1,21 @@
 filename = 'Nameless Trinkets-neoforge-1.21.1-1.2.4.jar'
 name = 'Nameless Trinkets'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 x-prismlauncher-version-number = '1.2.4'
 
 [download]
-hash = '01bc4520e7265127696931f6e8b8bb33820b925238187fa2c1308b0ad9fbcdfd071cb1be31f0fc0826e504de4bbe34f40cdb754d76a08f4cfc54cebbe01aafe6'
+hash = '034f125aa453a2b450af2164ab828aed5bf32cfc2b4d681af650a0aafc426f70ef9eeb82a97039f839afc48683d0c07bd7c85c53055cd1991d07e8b957605742'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/yGp7IenE/versions/hMLb3f4W/Nameless Trinkets-neoforge-1.21.1-1.2.4.jar'
+url = 'https://cdn.modrinth.com/data/yGp7IenE/versions/YUCnIzt1/Nameless Trinkets-neoforge-1.21.1-1.2.4.jar'
 
 [update.modrinth]
 mod-id = 'yGp7IenE'
-version = 'hMLb3f4W'
+version = 'YUCnIzt1'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'vvuO3ImH'
+addonId = 'jtmvUHXj'
 type = 'REQUIRED'

@@ -3,7 +3,7 @@
   "show_notification": true,
   "category": "equipment",
   "ingredients": [
-    { "item": "knightlib:small_essence" },
+    { "item": "knightlib:great_essence" },
     { "item": "terrarianmight:life_shard" },
     { "item": "companions:needle" },
     { "item": "minecraft:beetroot_soup" }

@@ -7,5 +7,5 @@
     "A": { "item": "waystones:warp_dust" },
     "B": { "item": "aether:holystone" }
   },
-  "result": { "id": "cerulean:spacerock" }
+  "result": { "id": "eternal_starlight:grimstone" }
 }

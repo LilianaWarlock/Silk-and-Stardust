@@ -6,7 +6,7 @@
   "key": {
     "A": { "item": "minecraft:gunpowder" },
     "B": { "item": "minecraft:tnt" },
-    "C": { "item": "knightlib:small_essence" }
+    "C": { "item": "knightlib:great_essence" }
   },
   "result": { "id": "nameless_trinkets:creeper_sense" }
 }

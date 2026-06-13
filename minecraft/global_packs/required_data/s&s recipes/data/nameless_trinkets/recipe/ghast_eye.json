@@ -6,7 +6,7 @@
   "key": {
     "A": { "item": "minecraft:crying_obsidian" },
     "B": { "item": "jewelry:ruby" },
-    "C": { "item": "knightlib:great_essence" },
+    "C": { "item": "nameless_trinkets:glowing_dust" },
     "D": { "item": "minecraft:ghast_tear" }
   },
   "result": { "id": "nameless_trinkets:ghast_eye" }

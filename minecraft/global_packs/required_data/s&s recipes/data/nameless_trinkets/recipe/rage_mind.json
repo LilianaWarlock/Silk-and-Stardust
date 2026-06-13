@@ -7,7 +7,7 @@
     "A": { "item": "crittersandcompanions:silk" },
     "B": { "item": "minecraft:flint" },
     "C": { "item": "minecraft:nether_wart_block" },
-    "D": { "item": "knightlib:great_essence" }
+    "D": { "item": "nameless_trinkets:glowing_dust" }
   },
   "result": { "id": "nameless_trinkets:rage_mind" }
 }

@@ -4,7 +4,7 @@
   "category": "equipment",
   "pattern": [" A ", " B ", " C "],
   "key": {
-    "A": { "item": "knightlib:great_essence" },
+    "A": { "item": "nameless_trinkets:glowing_dust" },
     "B": { "item": "nameless_trinkets:fragile_cloud" },
     "C": { "item": "minecraft:glass_bottle" }
   },

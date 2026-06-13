@@ -6,7 +6,7 @@
   "key": {
     "A": { "item": "minecraft:goat_horn" },
     "B": { "item": "minecraft:polished_blackstone_slab" },
-    "C": { "item": "things:gleaming_compound" },
+    "C": { "item": "nameless_trinkets:ultimate_dust" },
     "D": { "item": "minecraft:wither_skeleton_skull" }
   },
   "result": { "id": "nameless_trinkets:sigil_of_baphomet" }

@@ -3,5 +3,5 @@
   "show_notification": true,
   "category": "misc",
   "ingredients": [{ "item": "bosses_of_mass_destruction:blazing_eye" }],
-  "result": { "id": "knightlib:great_essence" }
+  "result": { "id": "nameless_trinkets:glowing_dust" }
 }

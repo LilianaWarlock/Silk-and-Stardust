@@ -13,13 +13,13 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "knightlib:small_essence"
+        "recipe": "knightlib:great_essence"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [["has_the_recipe", "has_iron_pickaxe"]],
   "rewards": {
-    "recipes": ["knightlib:small_essence"]
+    "recipes": ["knightlib:great_essence"]
   }
 }

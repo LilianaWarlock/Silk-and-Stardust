@@ -3,5 +3,5 @@
   "show_notification": true,
   "category": "misc",
   "ingredients": [{ "item": "minecraft:heart_of_the_sea" }],
-  "result": { "id": "knightlib:small_essence", "count": 2 }
+  "result": { "id": "knightlib:great_essence", "count": 2 }
 }

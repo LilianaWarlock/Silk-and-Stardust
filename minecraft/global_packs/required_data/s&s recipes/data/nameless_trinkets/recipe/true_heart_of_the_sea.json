@@ -6,7 +6,7 @@
   "key": {
     "A": { "item": "minecraft:heart_of_the_sea" },
     "B": { "item": "nameless_trinkets:gills" },
-    "C": { "item": "knightlib:great_essence" },
+    "C": { "item": "nameless_trinkets:glowing_dust" },
     "D": { "item": "nameless_trinkets:tear_of_the_sea" },
     "E": { "item": "nameless_trinkets:amphibious_hands" }
   },

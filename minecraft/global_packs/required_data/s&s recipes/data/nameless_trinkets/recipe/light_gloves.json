@@ -6,7 +6,7 @@
   "key": {
     "A": { "item": "snuffles:snuffle_fluff" },
     "B": { "item": "aether:leather_gloves" },
-    "C": { "item": "knightlib:small_essence" }
+    "C": { "item": "knightlib:great_essence" }
   },
   "result": { "id": "nameless_trinkets:light_gloves" }
 }
