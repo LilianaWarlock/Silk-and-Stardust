@@ -14,7 +14,7 @@
                 "functions": [
                   {
                     "function": "minecraft:set_count",
-                    "count": 2
+                    "count": 50
                   }
                 ]
               },
@@ -56,14 +56,14 @@
             {
               "cost_a": {
                 "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
                 "functions": [
                   {
-                    "add": false,
-                    "count": 5,
-                    "function": "minecraft:set_count"
+                    "function": "minecraft:set_count",
+                    "count": 3
                   }
-                ],
-                "name": "minecraft:emerald"
+                ]
               },
               "max_uses": 1,
               "price_multiplier": 0.05,
@@ -76,14 +76,14 @@
             {
               "cost_a": {
                 "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
                 "functions": [
                   {
-                    "add": false,
-                    "count": 5,
-                    "function": "minecraft:set_count"
+                    "function": "minecraft:set_count",
+                    "count": 11
                   }
-                ],
-                "name": "minecraft:emerald"
+                ]
               },
               "max_uses": 1,
               "price_multiplier": 0.05,
@@ -109,14 +109,14 @@
             {
               "cost_a": {
                 "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
                 "functions": [
                   {
-                    "add": false,
-                    "count": 5,
-                    "function": "minecraft:set_count"
+                    "function": "minecraft:set_count",
+                    "count": 32
                   }
-                ],
-                "name": "minecraft:emerald"
+                ]
               },
               "max_uses": 1,
               "price_multiplier": 0.05,
@@ -129,14 +129,14 @@
             {
               "cost_a": {
                 "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
                 "functions": [
                   {
-                    "add": false,
-                    "count": 5,
-                    "function": "minecraft:set_count"
+                    "function": "minecraft:set_count",
+                    "count": 10
                   }
-                ],
-                "name": "minecraft:emerald"
+                ]
               },
               "max_uses": 1,
               "price_multiplier": 0.05,
@@ -149,14 +149,14 @@
             {
               "cost_a": {
                 "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
                 "functions": [
                   {
-                    "add": false,
-                    "count": 5,
-                    "function": "minecraft:set_count"
+                    "function": "minecraft:set_count",
+                    "count": 9
                   }
-                ],
-                "name": "minecraft:emerald"
+                ]
               },
               "max_uses": 1,
               "price_multiplier": 0.05,
@@ -169,14 +169,14 @@
             {
               "cost_a": {
                 "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
                 "functions": [
                   {
-                    "add": false,
-                    "count": 5,
-                    "function": "minecraft:set_count"
+                    "function": "minecraft:set_count",
+                    "count": 17
                   }
-                ],
-                "name": "minecraft:emerald"
+                ]
               },
               "max_uses": 1,
               "price_multiplier": 0.05,
@@ -189,14 +189,14 @@
             {
               "cost_a": {
                 "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
                 "functions": [
                   {
-                    "add": false,
-                    "count": 5,
-                    "function": "minecraft:set_count"
+                    "function": "minecraft:set_count",
+                    "count": 7
                   }
-                ],
-                "name": "minecraft:emerald"
+                ]
               },
               "max_uses": 1,
               "price_multiplier": 0.05,
@@ -209,14 +209,14 @@
             {
               "cost_a": {
                 "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
                 "functions": [
                   {
-                    "add": false,
-                    "count": 5,
-                    "function": "minecraft:set_count"
+                    "function": "minecraft:set_count",
+                    "count": 6
                   }
-                ],
-                "name": "minecraft:emerald"
+                ]
               },
               "max_uses": 1,
               "price_multiplier": 0.05,
@@ -234,18 +234,18 @@
                 "functions": [
                   {
                     "function": "minecraft:set_count",
-                    "count": 2
+                    "count": 5
                   }
                 ]
               },
-              "max_uses": 1,
+              "max_uses": 3,
               "price_multiplier": 0.05,
               "result": {
                 "type": "minecraft:item",
                 "functions": [
                   {
                     "add": false,
-                    "count": 1,
+                    "count": 2,
                     "function": "minecraft:set_count"
                   }
                 ],
@@ -260,7 +260,7 @@
                 "functions": [
                   {
                     "function": "minecraft:set_count",
-                    "count": 2
+                    "count": 8
                   }
                 ]
               },
@@ -286,7 +286,7 @@
                 "functions": [
                   {
                     "function": "minecraft:set_count",
-                    "count": 2
+                    "count": 3
                   }
                 ]
               },
@@ -312,11 +312,11 @@
                 "functions": [
                   {
                     "function": "minecraft:set_count",
-                    "count": 2
+                    "count": 4
                   }
                 ]
               },
-              "max_uses": 1,
+              "max_uses": 3,
               "price_multiplier": 0.05,
               "result": {
                 "type": "minecraft:item",
@@ -338,7 +338,7 @@
                 "functions": [
                   {
                     "function": "minecraft:set_count",
-                    "count": 2
+                    "count": 9
                   }
                 ]
               },
@@ -364,18 +364,18 @@
                 "functions": [
                   {
                     "function": "minecraft:set_count",
-                    "count": 2
+                    "count": 4
                   }
                 ]
               },
-              "max_uses": 1,
+              "max_uses": 7,
               "price_multiplier": 0.05,
               "result": {
                 "type": "minecraft:item",
                 "functions": [
                   {
                     "add": false,
-                    "count": 8,
+                    "count": 7,
                     "function": "minecraft:set_count"
                   }
                 ],
@@ -390,7 +390,7 @@
                 "functions": [
                   {
                     "function": "minecraft:set_count",
-                    "count": 2
+                    "count": 12
                   }
                 ]
               },
@@ -416,7 +416,7 @@
                 "functions": [
                   {
                     "function": "minecraft:set_count",
-                    "count": 2
+                    "count": 5
                   }
                 ]
               },
@@ -442,11 +442,11 @@
                 "functions": [
                   {
                     "function": "minecraft:set_count",
-                    "count": 2
+                    "count": 3
                   }
                 ]
               },
-              "max_uses": 1,
+              "max_uses": 5,
               "price_multiplier": 0.05,
               "result": {
                 "type": "minecraft:item",
@@ -468,18 +468,18 @@
                 "functions": [
                   {
                     "function": "minecraft:set_count",
-                    "count": 2
+                    "count": 7
                   }
                 ]
               },
-              "max_uses": 1,
+              "max_uses": 10,
               "price_multiplier": 0.05,
               "result": {
                 "type": "minecraft:item",
                 "functions": [
                   {
                     "add": false,
-                    "count": 1,
+                    "count": 5,
                     "function": "minecraft:set_count"
                   }
                 ],
@@ -494,11 +494,11 @@
                 "functions": [
                   {
                     "function": "minecraft:set_count",
-                    "count": 2
+                    "count": 5
                   }
                 ]
               },
-              "max_uses": 1,
+              "max_uses": 3,
               "price_multiplier": 0.05,
               "result": {
                 "type": "minecraft:item",
@@ -520,11 +520,11 @@
                 "functions": [
                   {
                     "function": "minecraft:set_count",
-                    "count": 2
+                    "count": 3
                   }
                 ]
               },
-              "max_uses": 1,
+              "max_uses": 10,
               "price_multiplier": 0.05,
               "result": {
                 "type": "minecraft:item",
@@ -546,18 +546,18 @@
                 "functions": [
                   {
                     "function": "minecraft:set_count",
-                    "count": 2
+                    "count": 7
                   }
                 ]
               },
-              "max_uses": 1,
+              "max_uses": 4,
               "price_multiplier": 0.05,
               "result": {
                 "type": "minecraft:item",
                 "functions": [
                   {
                     "add": false,
-                    "count": 4,
+                    "count": 1,
                     "function": "minecraft:set_count"
                   }
                 ],
@@ -572,7 +572,7 @@
                 "functions": [
                   {
                     "function": "minecraft:set_count",
-                    "count": 2
+                    "count": 5
                   }
                 ]
               },
@@ -598,7 +598,7 @@
                 "functions": [
                   {
                     "function": "minecraft:set_count",
-                    "count": 2
+                    "count": 8
                   }
                 ]
               },
@@ -624,7 +624,7 @@
                 "functions": [
                   {
                     "function": "minecraft:set_count",
-                    "count": 2
+                    "count": 6
                   }
                 ]
               },
@@ -650,7 +650,7 @@
                 "functions": [
                   {
                     "function": "minecraft:set_count",
-                    "count": 2
+                    "count": 16
                   }
                 ]
               },
@@ -676,7 +676,7 @@
                 "functions": [
                   {
                     "function": "minecraft:set_count",
-                    "count": 2
+                    "count": 15
                   }
                 ]
               },
@@ -692,6 +692,330 @@
                   }
                 ],
                 "name": "artifacts:anglers_hat"
+              }
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 24
+                  }
+                ]
+              },
+              "max_uses": 1,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "name": "paladins:stone_claymore",
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_name": "[{\"text\":\"Withering Stone Claymore\",\"italic\":false}]",
+                      "minecraft:lore": [
+                        "[{\"text\":\"Long ago, a powerful Wither Skeleton must have wielded this blade...\",\"italic\":false}]"
+                      ],
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "nova_structures:wither_coated": 1,
+                          "critical_strike:chance": 3,
+                          "unbreaking": 1
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 28
+                  }
+                ]
+              },
+              "max_uses": 1,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_axe",
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_name": "[{\"text\":\"The Butcher\",\"italic\":false}]",
+                      "minecraft:lore": [
+                        "[{\"text\":\"When wielding this, animals look at you... differently.\",\"italic\":false}]"
+                      ],
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "fire_aspect": 2,
+                          "looting": 2
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 39
+                  }
+                ]
+              },
+              "max_uses": 1,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "name": "piglinproliferation:buckler",
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_name": "[{\"text\":\"Bashing Buckler\",\"italic\":false}]",
+                      "minecraft:lore": [
+                        "[{\"text\":\"Quote from a wise man: AEHGAEEghhghAEGH.\",\"italic\":false}]"
+                      ],
+                      "minecraft:damage": 53
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 22
+                  }
+                ]
+              },
+              "max_uses": 1,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "name": "rogues:iron_dagger",
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_name": "[{\"text\":\"Bloodstained Dagger\",\"italic\":false}]",
+                      "minecraft:lore": [
+                        "[{\"text\":\"The blood on the blade always seems fresh.\",\"italic\":false}]"
+                      ],
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "betterarcheology:penetrating_strike": 1,
+                          "sharpness": 2
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 22
+                  }
+                ]
+              },
+              "max_uses": 1,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:golden_pickaxe",
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_name": "[{\"text\":\"Pure Gold Pickaxe\",\"italic\":false}]",
+                      "minecraft:lore": [
+                        "[{\"text\":\"As is the nature of pure gold, it will never fully corrode.\",\"italic\":false}]"
+                      ],
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "mending": 1,
+                          "unbreaking": 1
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 17
+                  }
+                ]
+              },
+              "max_uses": 1,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_sword",
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_name": "[{\"text\":\"Forgotten Blade\",\"italic\":false}]",
+                      "minecraft:lore": [
+                        "[{\"text\":\"An iron sword is often unremarkable. Perhaps you could reforge it.\",\"italic\":false}]"
+                      ],
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "critical_strike:chance": 1,
+                          "critical_strike:damage": 1
+                        }
+                      },
+                      "minecraft:unbreakable": {}
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 40
+                  }
+                ]
+              },
+              "max_uses": 1,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:bow",
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_name": "[{\"text\":\"Recursive Longbow\",\"italic\":false}]",
+                      "minecraft:lore": [
+                        "\"...a causal loop intertwined in the string, implying\"",
+                        "\"the use of it somehow binds space and time into...\""
+                      ],
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "mending": 1,
+                          "infinity": 1
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 29
+                  }
+                ]
+              },
+              "max_uses": 1,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "name": "archers:composite_longbow",
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_name": "[{\"text\":\"Silent Death\",\"italic\":false}]",
+                      "minecraft:lore": [
+                        "[{\"text\":\"An assassin from a faraway land spent decades perfecting it.\",\"italic\":false}]"
+                      ],
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "critical_strike:damage": 3,
+                          "critical_strike:chance": 3,
+                          "power": 3
+                        }
+                      },
+                      "minecraft:damage": 343
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 31
+                  }
+                ]
+              },
+              "max_uses": 1,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:crossbow",
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_name": "[{\"text\":\"Vineshot\",\"italic\":false}]",
+                      "minecraft:lore": [
+                        "[{\"text\":\"It is aglow with verdant energies.\",\"italic\":false}]"
+                      ],
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "nova_structures:photosynthesis": 1,
+                          "multishot": 1
+                        }
+                      }
+                    }
+                  }
+                ]
               }
             }
           ]
