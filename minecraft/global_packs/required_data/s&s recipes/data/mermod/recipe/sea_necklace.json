@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "pattern": [" I ", "I I", " H "],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "H": { "item": "minecraft:heart_of_the_sea" }
+  },
+  "result": { "id": "mermod:sea_necklace" }
+}

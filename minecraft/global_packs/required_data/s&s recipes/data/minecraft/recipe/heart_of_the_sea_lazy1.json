@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "pattern": ["AAA", "ABA", "AAA"],
+  "key": {
+    "A": { "item": "mermod:sea_crystal" },
+    "B": { "item": "knightlib:great_essence" }
+  },
+  "result": { "id": "minecraft:heart_of_the_sea" }
+}

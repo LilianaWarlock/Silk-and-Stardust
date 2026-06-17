@@ -2,8 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:ender_eye"
+    "W": {
+      "item": "waystones:warp_dust"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
     },
     "N": {
       "item": "enderscape:nebulite"
@@ -12,7 +15,7 @@
       "item": "nameless_trinkets:glowing_dust"
     }
   },
-  "pattern": ["#S#", "SNS", "#S#"],
+  "pattern": [" W ", "SNS", " O "],
   "result": {
     "count": 1,
     "id": "nameless_trinkets:ultimate_dust"

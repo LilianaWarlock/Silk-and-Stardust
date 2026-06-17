@@ -1,23 +1,19 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        " B ",
-        " H "
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:prismarine_shard"
-        },
-        "B": {
-            "item": "minecraft:bone"
-        },
-        "H": {
-            "item": "minecraft:heart_of_the_sea"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["###", " B ", " H "],
+  "key": {
+    "#": {
+      "item": "minecraft:prismarine_shard"
     },
-    "result": {
-        "id": "minecraft:trident",
-        "count": 1
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "H": {
+      "item": "minecraft:heart_of_the_sea"
     }
+  },
+  "result": {
+    "id": "minecraft:trident",
+    "count": 1
+  }
 }
