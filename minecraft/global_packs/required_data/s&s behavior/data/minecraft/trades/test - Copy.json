@@ -1,0 +1,731 @@
+{
+  "num_to_select": 1,
+
+  "trades": [
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 9
+          }
+        ]
+      },
+      "max_uses": 1,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "function": "set_components",
+            "components": {
+              "minecraft:profile": {
+                "id": [1345413485, 611011471, -1851677603, 667414723],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzJlMmVjZTE2YjcxZDNjZjc4NzA2MTNhOWY2ZDJjNzg0YzRkZGUyYmY3MDIwOTRhZWJjZGUxM2RjYTVmZGJmIn19fQ=="
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "function": "set_name",
+            "name": [
+              {
+                "text": "Companion Cube",
+                "color": "light_purple",
+                "underlined": false,
+                "bold": false,
+                "italic": false
+              }
+            ]
+          }
+        ],
+        "name": "minecraft:player_head"
+      }
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 3
+          }
+        ]
+      },
+      "max_uses": 1,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "name": "archers:auto_fire_hook"
+      },
+      "trader_experience": 1
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 11
+          }
+        ]
+      },
+      "max_uses": 1,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "function": "set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "levels": {
+                  "yo_hooks:agility": 1,
+                  "yo_hooks:long_reach": 2
+                }
+              }
+            }
+          }
+        ],
+        "name": "yo_hooks:iron_grappling_hook"
+      },
+      "trader_experience": 1
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 32
+          }
+        ]
+      },
+      "max_uses": 1,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "name": "skill_tree_rpgs:orb_of_oblivion"
+      },
+      "trader_experience": 1
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 10
+          }
+        ]
+      },
+      "max_uses": 1,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "name": "artifacts:snorkel"
+      },
+      "trader_experience": 1
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 9
+          }
+        ]
+      },
+      "max_uses": 1,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "name": "artifacts:snowshoes"
+      },
+      "trader_experience": 1
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 17
+          }
+        ]
+      },
+      "max_uses": 1,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "name": "artifacts:golden_hook"
+      },
+      "trader_experience": 1
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 7
+          }
+        ]
+      },
+      "max_uses": 1,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "name": "nameless_trinkets:lucky_rock"
+      },
+      "trader_experience": 1
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 6
+          }
+        ]
+      },
+      "max_uses": 1,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "name": "nameless_trinkets:electric_paddle"
+      },
+      "trader_experience": 1
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 5
+          }
+        ]
+      },
+      "max_uses": 3,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "count": 2,
+            "function": "minecraft:set_count"
+          }
+        ],
+        "name": "minecraft:sponge"
+      }
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 8
+          }
+        ]
+      },
+      "max_uses": 1,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          }
+        ],
+        "name": "quark:trowel"
+      }
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 3
+          }
+        ]
+      },
+      "max_uses": 1,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          }
+        ],
+        "name": "dummmmmmy:target_dummy"
+      }
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 4
+          }
+        ]
+      },
+      "max_uses": 3,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          }
+        ],
+        "name": "betterarcheology:iron_brush"
+      }
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 9
+          }
+        ]
+      },
+      "max_uses": 1,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          }
+        ],
+        "name": "additionaladditions:pocket_jukebox"
+      }
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 4
+          }
+        ]
+      },
+      "max_uses": 7,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "count": 7,
+            "function": "minecraft:set_count"
+          }
+        ],
+        "name": "betterarcheology:bomb"
+      }
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 12
+          }
+        ]
+      },
+      "max_uses": 1,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          }
+        ],
+        "name": "starcatcher:fish_radar"
+      }
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 5
+          }
+        ]
+      },
+      "max_uses": 1,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          }
+        ],
+        "name": "luminous_butterflies:butterfly_net"
+      }
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 3
+          }
+        ]
+      },
+      "max_uses": 5,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "count": 8,
+            "function": "minecraft:set_count"
+          }
+        ],
+        "name": "cropcritters:herbicide"
+      }
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 7
+          }
+        ]
+      },
+      "max_uses": 10,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "count": 5,
+            "function": "minecraft:set_count"
+          }
+        ],
+        "name": "rottencreatures:tnt_barrel"
+      }
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 5
+          }
+        ]
+      },
+      "max_uses": 3,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          }
+        ],
+        "name": "minecraft:lava_bucket"
+      }
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 3
+          }
+        ]
+      },
+      "max_uses": 10,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "count": 32,
+            "function": "minecraft:set_count"
+          }
+        ],
+        "name": "additionaladditions:rope"
+      }
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 7
+          }
+        ]
+      },
+      "max_uses": 4,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          }
+        ],
+        "name": "terrarianmight:heart_lantern"
+      }
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 5
+          }
+        ]
+      },
+      "max_uses": 1,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          }
+        ],
+        "name": "additionaladditions:wrench"
+      }
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 8
+          }
+        ]
+      },
+      "max_uses": 1,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          }
+        ],
+        "name": "vc_gliders:copper_upgrade"
+      }
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 6
+          }
+        ]
+      },
+      "max_uses": 1,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          }
+        ],
+        "name": "additionaladditions:watering_can"
+      }
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 16
+          }
+        ]
+      },
+      "max_uses": 1,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          }
+        ],
+        "name": "magicmirror:magic_mirror"
+      }
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 15
+          }
+        ]
+      },
+      "max_uses": 1,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          }
+        ],
+        "name": "artifacts:anglers_hat"
+      }
+    },
+    {
+      "cost_a": {
+        "type": "minecraft:item",
+        "name": "minecraft:emerald",
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 24
+          }
+        ]
+      },
+      "max_uses": 1,
+      "price_multiplier": 0.05,
+      "result": {
+        "type": "minecraft:item",
+        "name": "paladins:stone_claymore",
+        "functions": [
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": "[{\"text\":\"Withering Stone Claymore\",\"italic\":false}]",
+              "minecraft:lore": [
+                "[{\"text\":\"Long ago, a powerful Wither Skeleton must have wielded this blade...\",\"italic\":false}]"
+              ],
+              "minecraft:enchantments": {
+                "levels": {
+                  "nova_structures:wither_coated": 1,
+                  "critical_strike:chance": 3,
+                  "unbreaking": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
