@@ -1,0 +1,14 @@
+{
+  "values": [
+    {
+      "id": "darkerdepths:huge_glowshroom",
+      "display": "darkerdepths:glowshroom_block",
+      "structure_nbt": "darkerdepths:huge_glowshroom",
+      "components": [
+        "darkerdepths:glowshroom_block",
+        "darkerdepths:glowshroom_heart",
+        "darkerdepths:glowshroom_stem"
+      ]
+    }
+  ]
+}

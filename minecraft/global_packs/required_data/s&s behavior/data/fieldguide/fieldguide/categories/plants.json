@@ -1,0 +1,110 @@
+{
+  "replace": false,
+  "contents": [
+    {
+      "type": "entry",
+      "id": "block:cropcritters/puffbomb_mushroom",
+      "unlock": {
+        "unlocked_by_default": false,
+        "triggers": ["scan", "obtain"]
+      }
+    },
+    {
+      "type": "entry",
+      "id": "block:cropcritters/puffbomb_mushroom_block",
+      "unlock": {
+        "unlocked_by_default": false,
+        "triggers": ["scan", "obtain"]
+      }
+    },
+    {
+      "type": "entry",
+      "id": "block:cropcritters/mazewood",
+      "unlock": {
+        "unlocked_by_default": false,
+        "triggers": ["scan", "obtain"]
+      }
+    },
+    {
+      "type": "entry",
+      "id": "block:cropcritters/mazewood_sapling",
+      "unlock": {
+        "unlocked_by_default": false,
+        "triggers": ["scan", "obtain"]
+      }
+    },
+    {
+      "type": "entry",
+      "id": "block:cropcritters/strangle_fern",
+      "unlock": {
+        "unlocked_by_default": false,
+        "triggers": ["scan", "obtain"]
+      }
+    },
+    {
+      "type": "entry",
+      "id": "block:cropcritters/liverwort",
+      "unlock": {
+        "unlocked_by_default": false,
+        "triggers": ["scan", "obtain"]
+      }
+    },
+    {
+      "type": "entry",
+      "id": "block:cropcritters/soul_rose",
+      "unlock": {
+        "unlocked_by_default": false,
+        "triggers": ["scan", "obtain"],
+        "trigger_on": ["block:minecraft/wither_rose"]
+      }
+    },
+    {
+      "type": "entry",
+      "id": "block:darkerdepths/glimmering_vines",
+      "unlock": {
+        "unlocked_by_default": false,
+        "triggers": ["scan", "obtain"]
+      }
+    },
+    {
+      "type": "entry",
+      "id": "block:darkerdepths/glimmering_vine_plant",
+      "unlock": {
+        "unlocked_by_default": false,
+        "triggers": ["scan", "obtain"]
+      }
+    },
+    {
+      "type": "entry",
+      "id": "block:darkerdepths/glowshroom",
+      "unlock": {
+        "unlocked_by_default": false,
+        "triggers": ["scan", "obtain"]
+      }
+    },
+    {
+      "type": "entry",
+      "id": "block:darkerdepths/glowshroom_block",
+      "unlock": {
+        "unlocked_by_default": false,
+        "triggers": ["scan", "obtain"]
+      }
+    },
+    {
+      "type": "entry",
+      "id": "block:darkerdepths/glowspurs",
+      "unlock": {
+        "unlocked_by_default": false,
+        "triggers": ["scan", "obtain"]
+      }
+    },
+    {
+      "type": "entry",
+      "id": "block:enderscape/murublight_bracket",
+      "unlock": {
+        "unlocked_by_default": false,
+        "triggers": ["scan"]
+      }
+    }
+  ]
+}

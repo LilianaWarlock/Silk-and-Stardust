@@ -1,0 +1,12 @@
+{
+  "entries": [
+    {
+      "source": "cropcritters:mazewood_sapling",
+      "target": "cropcritters:mazewood"
+    },
+    {
+      "source": "cropcritters:puffbomb_mushroom_block",
+      "target": "cropcritters:puffbomb_mushroom"
+    }
+  ]
+}
