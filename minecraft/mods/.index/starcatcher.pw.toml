@@ -1,18 +1,27 @@
-filename = 'starcatcher-2.3.14-NEOFORGE-1.21.1.jar'
+filename = 'starcatcher-2.3.16-NEOFORGE-1.21.1.jar'
 name = 'Starcatcher'
 side = ''
-x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.3.14-NEOFORGE-1.21.1'
+x-prismlauncher-version-number = '2.3.16-NEOFORGE-1.21.1'
 
 [download]
-hash = 'b2c8fffead4f4b66cc41da547f4cc55a29dd98e2ec9eb3e8bbb807be9bb92482e012ccb1c8e309232f4c97d758fac744a04c80d98e8f7d1e57cf14fb710a789d'
+hash = 'cbe2f6fd281e8f7ba4a42c2680f8c99dec64d9d25262bf06da3e2fd2e1b346835068e33729153b04bf14737958f0fbec5a04878da373f02c0c16b073856998c8'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/h2jXvxNR/versions/612RYjYi/starcatcher-2.3.14-NEOFORGE-1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/h2jXvxNR/versions/US8H70He/starcatcher-2.3.16-NEOFORGE-1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'h2jXvxNR'
-version = '612RYjYi'
+version = 'US8H70He'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'L95W3cqk'
+type = 'EMBEDDED'
+version = 'EU8KjgMv'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'niDbB1Li'
+type = 'EMBEDDED'
+version = 'nrGOzmNu'
