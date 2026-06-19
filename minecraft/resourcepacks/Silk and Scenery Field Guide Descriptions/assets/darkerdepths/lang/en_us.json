@@ -1,17 +1,17 @@
 {
   "fieldguide.name.block.darkerdepths.huge_glowshroom": "Huge Glowshroom",
 
-  "fieldguide.block.darkerdepths.dry_sprouts.description": "Notes...darkerdepths",
-  "fieldguide.block.darkerdepths.glowspurs.description": "Notes...darkerdepths",
-  "fieldguide.entity.darkerdepths.void_soul_knight.description": "Notes...darkerdepths",
-  "fieldguide.block.darkerdepths.glowshroom.description": "Notes...darkerdepths",
-  "fieldguide.block.darkerdepths.scorched_remains.description": "Notes...darkerdepths",
-  "fieldguide.entity.darkerdepths.void_soul.description": "Notes...darkerdepths",
-  "fieldguide.entity.darkerdepths.glowshroom_monster.description": "Notes...darkerdepths",
-  "fieldguide.block.darkerdepths.glimmering_vine_plant.description": "Notes...darkerdepths",
-  "fieldguide.block.darkerdepths.mossy_sprouts.description": "Notes...darkerdepths",
-  "fieldguide.entity.darkerdepths.body_snatcher.description": "Notes...darkerdepths",
-  "fieldguide.entity.darkerdepths.scorcher.description": "Notes...darkerdepths",
-  "fieldguide.block.darkerdepths.glimmering_vines.description": "Notes...darkerdepths",
-  "fieldguide.block.darkerdepths.huge_glowshroom.description": "Notes...darkerdepths"
+  "fieldguide.block.darkerdepths.dry_sprouts.description": "A withering sapling, doomed to fester in the arid underground and snap at the slightest touch.",
+  "fieldguide.block.darkerdepths.glowspurs.description": "Common vegatation in Glowshroom Caves, these plants will grab and hold anything their claws can grasp.",
+  "fieldguide.entity.darkerdepths.void_soul_knight.description": "The guardians of the Catacombs, Void Soul Knights are persistent sentries that will use their blade to hunt down any threat to the great treasures they guard. Their souls will linger after death...",
+  "fieldguide.block.darkerdepths.glowshroom.description": "Small glowing fungi that spread through the cool Glowshroom Caves. Multiple can inhabit one block, and they can grow into mighty, towering Glowshrooms with some Bone Meal.",
+  "fieldguide.block.darkerdepths.scorched_remains.description": "The remains of those melted by the Scorcher. Useful for smelting items or creating geysers when placed under Lava.",
+  "fieldguide.entity.darkerdepths.void_soul.description": "The lingering soul of a Void foe. Use a bottle to collect it, or use amber to allow them to persist. Otherwise, they are fleeting, and will soon dissapear.",
+  "fieldguide.entity.darkerdepths.glowshroom_monster.description": "A hostile monster of rock and stone animated by glowshrooms. It passively regenerates, can slam the ground to attack, and is naturally aggressive towards undead mobs.",
+  "fieldguide.block.darkerdepths.glimmering_vine_plant.description": "A plant that sprouts drooping, frigid vines over the Glowshroom Caves.",
+  "fieldguide.block.darkerdepths.mossy_sprouts.description": "Moss that clings to the cold stone of Glowshroom Caves.",
+  "fieldguide.entity.darkerdepths.body_snatcher.description": "Small, nimble monsters that are local to Sandy Catacombs. they dash quickly towards faraway players and afflict them with unsettling paranoia.",
+  "fieldguide.entity.darkerdepths.scorcher.description": "A hostile sentry in Molten Caverns, these watchful eyes will quickly melt anything they see into Scorched Remains.",
+  "fieldguide.block.darkerdepths.glimmering_vines.description": "Faintly twinkling, frigid vines that hang over the luminescent Glowshroom Caves.",
+  "fieldguide.block.darkerdepths.huge_glowshroom.description": "Glowshrooms that, over time, have grown far beyond what is normal. Condensation covers them, and they are cool to the touch."
 }
