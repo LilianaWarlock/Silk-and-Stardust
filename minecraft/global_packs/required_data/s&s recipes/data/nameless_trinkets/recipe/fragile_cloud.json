@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "show_notification": true,
   "category": "equipment",
-  "pattern": ["ABA", "BBB", "CCC"],
+  "pattern": [" B ", "BAB", "CCC"],
   "key": {
     "A": { "item": "knightlib:great_essence" },
     "B": { "item": "snuffles:snuffle_fluff" },

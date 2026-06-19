@@ -5,7 +5,7 @@
   "pattern": ["AAA", "ABA", "AAA"],
   "key": {
     "A": { "item": "minecraft:blue_ice" },
-    "B": { "item": "knightlib:great_essence" }
+    "B": { "item": "nameless_trinkets:glowing_dust" }
   },
   "result": { "id": "nameless_trinkets:ice_cube" }
 }

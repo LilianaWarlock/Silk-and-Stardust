@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "minecraft:ender_chest"
+    },
+    "L": {
+      "item": "waystones:warp_dust"
+    },
+    "B": {
+      "item": "minecraft:bundle"
+    },
+    "S": {
+      "item": "knightlib:great_essence"
+    }
+  },
+  "pattern": [" E ", "LSL", " B "],
+  "result": {
+    "id": "simple_ender_backpack:ender_backpack",
+    "count": 1
+  }
+}

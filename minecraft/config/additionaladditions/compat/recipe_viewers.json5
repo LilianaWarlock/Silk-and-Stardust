@@ -7,7 +7,7 @@
 
   //  If disabled, recipes for usage of Suspicious Dye items will be hidden from recipe viewers, but remain craftable.
   // If you want to disable the recipes completely - set this to false AND override the according recipe in a datapack with `{}`, remove it with kubejs, or disable the feature completely in its config.
-  suspicious_dyeing: false,
+  suspicious_dyeing: true,
 
   // If disabled, recipes for Rose Gold Equipment will be hidden from recipe viewers, but remain craftable.
   // If you want to disable the recipes completely - set this to false AND override the according recipe in a datapack with `{}`, remove it with kubejs, or disable the feature completely in its config.

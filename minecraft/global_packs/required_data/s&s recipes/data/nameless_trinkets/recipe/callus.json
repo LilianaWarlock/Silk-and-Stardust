@@ -6,7 +6,7 @@
   "key": {
     "A": { "item": "minecraft:nether_wart" },
     "B": { "item": "minecraft:nether_wart_block" },
-    "C": { "item": "knightlib:great_essence" },
+    "C": { "item": "nameless_trinkets:glowing_dust" },
     "D": { "item": "minecraft:rotten_flesh" }
   },
   "result": { "id": "nameless_trinkets:callus" }
