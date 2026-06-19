@@ -1,5 +1,8 @@
 {
   "book.hexerei.items_moon_dust_1.passage_1": "Moon Dust",
 
-  "book.hexerei.items_moon_dust_1.passage_2": " Moon Dust bla bla bla"
+  "book.hexerei.items_moon_dust_1.passage_2": " Moon Dust bla bla bla",
+
+  "book.hexerei.items_moon_dust_1.passage_3": "Let it be known I tried to do this the right way, and failed! I don't really want to try fix it either.",
+  "book.hexerei.items_moon_dust_1.passage_4": "If you want to do it, look in S&S behavior, and the hexerei thing in that."
 }

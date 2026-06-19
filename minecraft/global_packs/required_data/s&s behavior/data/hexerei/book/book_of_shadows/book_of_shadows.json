@@ -123,16 +123,6 @@
         },
 
         {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_sage_burning_plate_1"
-        },
-        {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_sage_burning_plate_2"
-        },
-        {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_sage_burning_plate_3"
-        },
-
-        {
           "page_location": "hexerei:book_of_shadows/book_pages/items/items_drying_rack_1"
         },
         {
@@ -211,6 +201,10 @@
         },
 
         {
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_animal_fat_1"
+        },
+
+        {
           "page_location": "hexerei:book_of_shadows/book_pages/items/items_willow_broom_1"
         },
         {
@@ -238,34 +232,17 @@
         },
 
         {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_gold_rings_1"
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_wet_broom_brush_1"
         },
         {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_gold_rings_2"
-        },
-
-        {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_broom_keychain_1"
-        },
-        {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_broom_keychain_2"
-        },
-        {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_broom_keychain_3"
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_wet_broom_brush_2"
         },
 
         {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_broom_netherite_tip_1"
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_broom_brush_1"
         },
         {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_broom_netherite_tip_2"
-        },
-
-        {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_broom_waterproof_tip_1"
-        },
-        {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_broom_waterproof_tip_2"
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_broom_brush_2"
         },
 
         {
@@ -290,17 +267,38 @@
         },
 
         {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_broom_brush_1"
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_gold_rings_1"
         },
         {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_broom_brush_2"
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_gold_rings_2"
         },
 
         {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_wet_broom_brush_1"
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_broom_keychain_1"
         },
         {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_wet_broom_brush_2"
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_broom_keychain_2"
+        },
+        {
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_broom_keychain_3"
+        },
+
+        {
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_selenite_shard_1"
+        },
+
+        {
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_broom_netherite_tip_1"
+        },
+        {
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_broom_netherite_tip_2"
+        },
+
+        {
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_broom_waterproof_tip_1"
+        },
+        {
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_broom_waterproof_tip_2"
         },
 
         {
@@ -313,15 +311,16 @@
         {
           "page_location": "hexerei:book_of_shadows/book_pages/items/items_wet_herb_enhanced_broom_brush_1"
         },
-        {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_wet_herb_enhanced_broom_brush_2"
-        },
+
         {
           "page_location": "hexerei:book_of_shadows/book_pages/items/items_wet_herb_enhanced_broom_brush_3"
         },
 
         {
           "page_location": "hexerei:book_of_shadows/book_pages/items/items_moon_dust_1"
+        },
+        {
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_moon_dust_2"
         },
 
         {
@@ -381,7 +380,13 @@
         },
 
         {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_selenite_shard_1"
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_sage_burning_plate_1"
+        },
+        {
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_sage_burning_plate_2"
+        },
+        {
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_sage_burning_plate_3"
         },
 
         {
@@ -400,14 +405,6 @@
         },
         {
           "page_location": "hexerei:book_of_shadows/book_pages/items/items_dried_sage_bundle_2"
-        },
-
-        {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_flowering_lily_pad_1"
-        },
-
-        {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_animal_fat_1"
         },
 
         {
@@ -446,6 +443,46 @@
         },
 
         {
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_willow_sapling_1"
+        },
+
+        {
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_mahogany_sapling_1"
+        },
+
+        {
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_witch_hazel_sapling_1"
+        },
+
+        {
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_willow_log_1"
+        },
+
+        {
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_mahogany_log_1"
+        },
+
+        {
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_witch_hazel_log_1"
+        },
+
+        {
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_willow_planks_1"
+        },
+
+        {
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_mahogany_planks_1"
+        },
+
+        {
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_witch_hazel_planks_1"
+        },
+
+        {
+          "page_location": "hexerei:book_of_shadows/book_pages/items/items_flowering_lily_pad_1"
+        },
+
+        {
           "page_location": "hexerei:book_of_shadows/book_pages/items/items_mandrake_plant_1"
         },
 
@@ -459,18 +496,6 @@
 
         {
           "page_location": "hexerei:book_of_shadows/book_pages/items/items_yellow_dock_bush_1"
-        },
-
-        {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_willow_sapling_1"
-        },
-
-        {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_mahogany_sapling_1"
-        },
-
-        {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_witch_hazel_sapling_1"
         },
 
         {
@@ -490,18 +515,6 @@
         },
 
         {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_willow_log_1"
-        },
-
-        {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_mahogany_log_1"
-        },
-
-        {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_witch_hazel_log_1"
-        },
-
-        {
           "page_location": "hexerei:book_of_shadows/book_pages/items/items_mandrake_root_1"
         },
 
@@ -515,18 +528,6 @@
 
         {
           "page_location": "hexerei:book_of_shadows/book_pages/items/items_yellow_dock_leaves_1"
-        },
-
-        {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_willow_planks_1"
-        },
-
-        {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_mahogany_planks_1"
-        },
-
-        {
-          "page_location": "hexerei:book_of_shadows/book_pages/items/items_witch_hazel_planks_1"
         },
 
         {
