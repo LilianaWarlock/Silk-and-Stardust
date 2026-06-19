@@ -1,0 +1,548 @@
+{
+  "openingTicks": 80,
+  "wavePauseTicks": 60,
+  "leashRangeBlocks": 50,
+  "nightOnly": false,
+  "mobDropsEnabled": false,
+  "profiles": {
+    "easy": {
+      "displayName": "item.gateway_of_doom.devil_eye_blue",
+      "colorRGB": 4890879,
+      "defaultWaveTimeLimitSeconds": 130,
+      "healthBoostPercent": 0.0,
+      "damageBoostPercent": 0.0,
+      "speedBoostPercent": 0.0,
+      "completionXp": 100,
+      "chestDropChance": 0.15,
+      "mobDropChance": 0.05,
+      "injectIntoAllChests": false,
+      "chestDropsEnabled": true,
+      "mobDropsEnabled": true,
+      "findableDimensions": [
+        "minecraft:overworld"
+      ],
+      "activatableDimensions": [
+        "minecraft:overworld"
+      ],
+      "chestLootTables": [
+        "minecraft:chests/simple_dungeon",
+        "minecraft:chests/abandoned_mineshaft",
+        "minecraft:chests/stronghold_corridor",
+        "minecraft:chests/stronghold_crossing",
+        "minecraft:chests/stronghold_library"
+      ],
+      "waves": [
+        {
+          "timeLimitSeconds": 130,
+          "mobs": [
+            {
+              "type": "minecraft:zombie",
+              "count": 3
+            },
+            {
+              "type": "minecraft:skeleton",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "timeLimitSeconds": 130,
+          "mobs": [
+            {
+              "type": "minecraft:spider",
+              "count": 2
+            },
+            {
+              "type": "minecraft:husk",
+              "count": 2
+            },
+            {
+              "type": "minecraft:creeper",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "timeLimitSeconds": 160,
+          "mobs": [
+            {
+              "type": "minecraft:witch",
+              "count": 2
+            },
+            {
+              "type": "minecraft:pillager",
+              "count": 2
+            },
+            {
+              "type": "minecraft:drowned",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 6,
+          "dropChancePercent": 100.0
+        },
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 4,
+          "dropChancePercent": 100.0
+        },
+        {
+          "item": "minecraft:bread",
+          "count": 6,
+          "dropChancePercent": 100.0
+        },
+        {
+          "item": "minecraft:emerald",
+          "count": 3,
+          "dropChancePercent": 80.0
+        },
+        {
+          "item": "minecraft:diamond",
+          "count": 2,
+          "dropChancePercent": 60.0
+        },
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 6,
+          "dropChancePercent": 100.0
+        }
+      ],
+      "failureDebuffs": [
+        {
+          "effect": "minecraft:weakness",
+          "amplifier": 0,
+          "durationSeconds": 30
+        }
+      ],
+      "boss": {
+        "enabled": true,
+        "mobType": "minecraft:pig",
+        "count": 1,
+        "strengthMode": "CUSTOM",
+        "healthBoostPercent": 200.0,
+        "damageBoostPercent": 10.0,
+        "speedBoostPercent": 0.0,
+        "sizeScale": 1.5,
+        "bossTimeLimitSeconds": 0,
+        "guards": []
+      },
+      "mobDrops": [
+        {
+          "type": "minecraft:zombie",
+          "dropChancePercent": 5.0
+        },
+        {
+          "type": "minecraft:skeleton",
+          "dropChancePercent": 5.0
+        },
+        {
+          "type": "minecraft:creeper",
+          "dropChancePercent": 5.0
+        },
+        {
+          "type": "minecraft:spider",
+          "dropChancePercent": 5.0
+        }
+      ],
+      "waveMode": "FIXED",
+      "random": {
+        "minWaves": 3,
+        "maxWaves": 5,
+        "minMobsPerWave": 4,
+        "maxMobsPerWave": 10,
+        "countGrowthPerWave": 0.25,
+        "waveTimeLimitSeconds": 0,
+        "pool": []
+      }
+    },
+    "medium": {
+      "displayName": "item.gateway_of_doom.devil_eye_violet",
+      "colorRGB": 16730698,
+      "defaultWaveTimeLimitSeconds": 160,
+      "healthBoostPercent": 20.0,
+      "damageBoostPercent": 10.0,
+      "speedBoostPercent": 0.0,
+      "completionXp": 350,
+      "chestDropChance": 0.15,
+      "mobDropChance": 0.05,
+      "injectIntoAllChests": false,
+      "chestDropsEnabled": true,
+      "mobDropsEnabled": true,
+      "findableDimensions": [
+        "minecraft:the_nether"
+      ],
+      "activatableDimensions": [
+        "minecraft:the_nether"
+      ],
+      "chestLootTables": [
+        "minecraft:chests/bastion_treasure",
+        "minecraft:chests/bastion_bridge",
+        "minecraft:chests/nether_bridge",
+        "minecraft:chests/bastion_hoglin_stable",
+        "minecraft:chests/bastion_other"
+      ],
+      "waves": [
+        {
+          "timeLimitSeconds": 160,
+          "mobs": [
+            {
+              "type": "minecraft:piglin",
+              "count": 3
+            },
+            {
+              "type": "minecraft:magma_cube",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "timeLimitSeconds": 160,
+          "mobs": [
+            {
+              "type": "minecraft:blaze",
+              "count": 3
+            },
+            {
+              "type": "minecraft:wither_skeleton",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "timeLimitSeconds": 190,
+          "mobs": [
+            {
+              "type": "minecraft:hoglin",
+              "count": 2
+            },
+            {
+              "type": "minecraft:piglin_brute",
+              "count": 2
+            },
+            {
+              "type": "minecraft:wither_skeleton",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "timeLimitSeconds": 190,
+          "mobs": [
+            {
+              "type": "minecraft:ghast",
+              "count": 2
+            },
+            {
+              "type": "minecraft:blaze",
+              "count": 2
+            },
+            {
+              "type": "minecraft:wither_skeleton",
+              "count": 3
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 5,
+          "dropChancePercent": 100.0
+        },
+        {
+          "item": "minecraft:gold_block",
+          "count": 2,
+          "dropChancePercent": 100.0
+        },
+        {
+          "item": "minecraft:blaze_rod",
+          "count": 4,
+          "dropChancePercent": 100.0
+        },
+        {
+          "item": "minecraft:ender_pearl",
+          "count": 6,
+          "dropChancePercent": 100.0
+        },
+        {
+          "item": "minecraft:golden_apple",
+          "count": 2,
+          "dropChancePercent": 75.0
+        },
+        {
+          "item": "minecraft:netherite_scrap",
+          "count": 1,
+          "dropChancePercent": 40.0
+        },
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 12,
+          "dropChancePercent": 100.0
+        }
+      ],
+      "failureDebuffs": [
+        {
+          "effect": "minecraft:weakness",
+          "amplifier": 0,
+          "durationSeconds": 45
+        },
+        {
+          "effect": "minecraft:slowness",
+          "amplifier": 0,
+          "durationSeconds": 45
+        }
+      ],
+      "boss": {
+        "enabled": true,
+        "mobType": "minecraft:wither_skeleton",
+        "count": 1,
+        "strengthMode": "CUSTOM",
+        "healthBoostPercent": 120.0,
+        "damageBoostPercent": 25.0,
+        "speedBoostPercent": 0.0,
+        "sizeScale": 1.4,
+        "bossTimeLimitSeconds": 0,
+        "guards": []
+      },
+      "mobDrops": [
+        {
+          "type": "minecraft:piglin",
+          "dropChancePercent": 5.0
+        },
+        {
+          "type": "minecraft:blaze",
+          "dropChancePercent": 5.0
+        },
+        {
+          "type": "minecraft:wither_skeleton",
+          "dropChancePercent": 5.0
+        },
+        {
+          "type": "minecraft:magma_cube",
+          "dropChancePercent": 5.0
+        }
+      ],
+      "waveMode": "FIXED",
+      "random": {
+        "minWaves": 3,
+        "maxWaves": 5,
+        "minMobsPerWave": 4,
+        "maxMobsPerWave": 10,
+        "countGrowthPerWave": 0.25,
+        "waveTimeLimitSeconds": 0,
+        "pool": []
+      }
+    },
+    "hard": {
+      "displayName": "item.gateway_of_doom.devil_eye_red",
+      "colorRGB": 11819775,
+      "defaultWaveTimeLimitSeconds": 190,
+      "healthBoostPercent": 70.0,
+      "damageBoostPercent": 35.0,
+      "speedBoostPercent": 0.0,
+      "completionXp": 1500,
+      "chestDropChance": 0.15,
+      "mobDropChance": 0.05,
+      "injectIntoAllChests": false,
+      "chestDropsEnabled": true,
+      "mobDropsEnabled": true,
+      "findableDimensions": [
+        "minecraft:the_end"
+      ],
+      "activatableDimensions": [
+        "minecraft:the_end"
+      ],
+      "chestLootTables": [
+        "minecraft:chests/end_city_treasure"
+      ],
+      "waves": [
+        {
+          "timeLimitSeconds": 190,
+          "mobs": [
+            {
+              "type": "minecraft:enderman",
+              "count": 3
+            },
+            {
+              "type": "minecraft:phantom",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "timeLimitSeconds": 190,
+          "mobs": [
+            {
+              "type": "minecraft:shulker",
+              "count": 2
+            },
+            {
+              "type": "minecraft:enderman",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "timeLimitSeconds": 210,
+          "mobs": [
+            {
+              "type": "minecraft:wither_skeleton",
+              "count": 3
+            },
+            {
+              "type": "minecraft:enderman",
+              "count": 3
+            },
+            {
+              "type": "minecraft:shulker",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "timeLimitSeconds": 210,
+          "mobs": [
+            {
+              "type": "minecraft:evoker",
+              "count": 2
+            },
+            {
+              "type": "minecraft:ravager",
+              "count": 1
+            },
+            {
+              "type": "minecraft:enderman",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "timeLimitSeconds": 250,
+          "mobs": [
+            {
+              "type": "minecraft:shulker",
+              "count": 3
+            },
+            {
+              "type": "minecraft:enderman",
+              "count": 3
+            },
+            {
+              "type": "minecraft:wither_skeleton",
+              "count": 3
+            },
+            {
+              "type": "minecraft:ravager",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:netherite_ingot",
+          "count": 2,
+          "dropChancePercent": 75.0
+        },
+        {
+          "item": "minecraft:diamond_block",
+          "count": 2,
+          "dropChancePercent": 100.0
+        },
+        {
+          "item": "minecraft:enchanted_golden_apple",
+          "count": 1,
+          "dropChancePercent": 50.0
+        },
+        {
+          "item": "minecraft:totem_of_undying",
+          "count": 1,
+          "dropChancePercent": 40.0
+        },
+        {
+          "item": "minecraft:shulker_shell",
+          "count": 4,
+          "dropChancePercent": 100.0
+        },
+        {
+          "item": "minecraft:netherite_upgrade_smithing_template",
+          "count": 1,
+          "dropChancePercent": 30.0
+        },
+        {
+          "item": "minecraft:elytra",
+          "count": 1,
+          "dropChancePercent": 5.0
+        },
+        {
+          "item": "minecraft:dragon_breath",
+          "count": 3,
+          "dropChancePercent": 75.0
+        },
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 24,
+          "dropChancePercent": 100.0
+        }
+      ],
+      "failureDebuffs": [
+        {
+          "effect": "minecraft:weakness",
+          "amplifier": 1,
+          "durationSeconds": 60
+        },
+        {
+          "effect": "minecraft:slowness",
+          "amplifier": 1,
+          "durationSeconds": 60
+        },
+        {
+          "effect": "minecraft:mining_fatigue",
+          "amplifier": 0,
+          "durationSeconds": 60
+        }
+      ],
+      "boss": {
+        "enabled": true,
+        "mobType": "minecraft:wither",
+        "count": 1,
+        "strengthMode": "CUSTOM",
+        "healthBoostPercent": 0.0,
+        "damageBoostPercent": 10.0,
+        "speedBoostPercent": 0.0,
+        "sizeScale": 1.1,
+        "bossTimeLimitSeconds": 0,
+        "guards": []
+      },
+      "mobDrops": [
+        {
+          "type": "minecraft:enderman",
+          "dropChancePercent": 5.0
+        },
+        {
+          "type": "minecraft:shulker",
+          "dropChancePercent": 5.0
+        },
+        {
+          "type": "minecraft:phantom",
+          "dropChancePercent": 5.0
+        }
+      ],
+      "waveMode": "FIXED",
+      "random": {
+        "minWaves": 3,
+        "maxWaves": 5,
+        "minMobsPerWave": 4,
+        "maxMobsPerWave": 10,
+        "countGrowthPerWave": 0.25,
+        "waveTimeLimitSeconds": 0,
+        "pool": []
+      }
+    }
+  }
+}

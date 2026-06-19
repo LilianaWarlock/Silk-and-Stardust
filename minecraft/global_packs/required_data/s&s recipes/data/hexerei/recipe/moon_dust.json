@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+    {
+      "item": "minecraft:end_stone"
+    },
+    {
+      "item": "minecraft:end_stone"
+    },
+    {
+      "item": "minecraft:end_stone"
+    },
+    {
+      "item": "minecraft:end_stone"
+    },
+    {
+      "item": "minecraft:end_stone"
+    }
+  ],
+  "output": {
+    "id": "hexerei:moon_dust",
+    "count": 3
+  },
+  "grindingTime": 100
+}

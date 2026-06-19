@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "mermod:sea_crystal" },
+    { "item": "crittersandcompanions:pearl" },
+    { "item": "minecraft:glowstone_dust" }
+  ],
+  "result": {
+    "id": "mermod:glowing_pearl_modifier",
+    "count": 1
+  }
+}
