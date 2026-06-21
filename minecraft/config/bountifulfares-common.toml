@@ -47,7 +47,7 @@ generate_lemon_trees = true
 #Plum trees generate
 generate_plum_trees = true
 #Palm trees generate
-generate_palm_trees = true
+generate_palm_trees = false
 #Walnut trees generate
 generate_walnut_trees = true
 #Wild Beetroot generates

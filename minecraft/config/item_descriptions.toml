@@ -26,10 +26,10 @@ addToRecipeViewers = false
 	colour = 11184810
 	# Italicize Hints
 	# default: false
-	italics = false
+	italics = true
 	# Force-uppercase hint keybinds.
 	# default: true
-	uppercase = true
+	uppercase = false
 
 [style]
 	# This setting changes what colour code is used for block, item, and entity tooltips.
@@ -54,10 +54,10 @@ addToRecipeViewers = false
 [keybinds]
 	# Show descriptions when the Ctrl key is held.
 	# default: true
-	display_when_ctrl_is_held = true
+	display_when_ctrl_is_held = false
 	# Show descriptions when the Shift key is held.
 	# default: false
-	display_when_shift_is_held = false
+	display_when_shift_is_held = true
 	# Show descriptions when the Alt key is held.
 	# default: false
 	display_when_alt_is_held = false
