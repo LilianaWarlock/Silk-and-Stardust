@@ -2,9 +2,10 @@
   "type": "minecraft:crafting_shaped",
   "show_notification": true,
   "category": "misc",
-  "pattern": ["AAA", "ABA", "AAA"],
+  "pattern": ["AAC", "CBC", "CAA"],
   "key": {
     "A": { "item": "mermod:sea_crystal" },
+    "C": { "item": "crittersandcompanions:pearl" },
     "B": { "item": "knightlib:great_essence" }
   },
   "result": { "id": "minecraft:heart_of_the_sea" }
