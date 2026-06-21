@@ -1,6 +1,8 @@
 {
-  "book.hexerei.items_moon_dust_1.passage_1": "Moon Dust",
+  "tooltip.hexerei.witch_armor_bonus_3": " - 25% increased potion damage dealt",
+  "tooltip.hexerei.witch_armor_bonus_4": " - 15% of potion damage dealt is converted to health",
 
+  "book.hexerei.items_moon_dust_1.passage_1": "Moon Dust",
   "book.hexerei.items_moon_dust_1.passage_2": " Moon Dust bla bla bla",
 
   "book.hexerei.items_moon_dust_1.passage_3": "Let it be known I tried to do this the right way, and failed! I don't really want to try fix it either.",
