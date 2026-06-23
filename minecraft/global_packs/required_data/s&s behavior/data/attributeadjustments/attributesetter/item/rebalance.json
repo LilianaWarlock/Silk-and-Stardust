@@ -5,6 +5,12 @@
       "value": 5,
       "operation": "BASE",
       "uuid": "f3b94c09-691a-4252-b45c-63e48deb81f3"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 1.6,
+      "operation": "ADDITION",
+      "uuid": "905ce8af-0c98-4213-bc4d-1d4545cd4dc9"
     }
   ]
 }
