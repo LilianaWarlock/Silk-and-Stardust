@@ -494,32 +494,6 @@
                 "functions": [
                   {
                     "function": "minecraft:set_count",
-                    "count": 5
-                  }
-                ]
-              },
-              "max_uses": 3,
-              "price_multiplier": 0.05,
-              "result": {
-                "type": "minecraft:item",
-                "functions": [
-                  {
-                    "add": false,
-                    "count": 1,
-                    "function": "minecraft:set_count"
-                  }
-                ],
-                "name": "minecraft:lava_bucket"
-              }
-            },
-            {
-              "cost_a": {
-                "type": "minecraft:item",
-                "name": "minecraft:emerald",
-                "conditions": [],
-                "functions": [
-                  {
-                    "function": "minecraft:set_count",
                     "count": 3
                   }
                 ]
@@ -754,7 +728,8 @@
                     "components": {
                       "minecraft:custom_name": "[{\"text\":\"The Butcher\",\"italic\":false}]",
                       "minecraft:lore": [
-                        "[{\"text\":\"When wielding this, animals look at you... differently.\",\"italic\":false}]"
+                        "[{\"text\":\"When wielding this, animals look at you...\",\"italic\":false}]",
+                        "\"differently.\""
                       ],
                       "minecraft:enchantments": {
                         "levels": {
@@ -893,7 +868,8 @@
                     "components": {
                       "minecraft:custom_name": "[{\"text\":\"Forgotten Blade\",\"italic\":false}]",
                       "minecraft:lore": [
-                        "[{\"text\":\"An iron sword is often unremarkable. Perhaps you could reforge it.\",\"italic\":false}]"
+                        "[{\"text\":\"An iron sword is often unremarkable.\",\"italic\":false}]",
+                        "\"Perhaps you could reforge it.\""
                       ],
                       "minecraft:enchantments": {
                         "levels": {
