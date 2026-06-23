@@ -62,8 +62,8 @@
   "rascalSpawnMinGroupSize": 1,
   "rascalSpawnMaxGroupSize": 1,
   "rascalGiveRewardInBundle": true,
-  "enableTuffGolem": true,
-  "generateTuffGolemInStronghold": true,
+  "enableTuffGolem": false,
+  "generateTuffGolemInStronghold": false,
   "enableWildfire": true,
   "generateCitadelStructure": true,
   "enableZombieHorseTrap": true
