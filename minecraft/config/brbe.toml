@@ -1,0 +1,29 @@
+enablePinning = true
+keepCentered = false
+showModName = false
+hideReiJeiOverlay = true
+showAllRecipesInSurvival = true
+partialCraftingEnabled = true
+partialMarkingEnabled = true
+settingsButton = true
+enableBook = true
+
+[rbip]
+enableRecipeBookIsPain = true
+enableTabPage = false
+
+[newRecipes]
+unlockAll = true
+enableBounce = false
+
+[instantCraft]
+showButton = true
+enabled = false
+
+[alternativeRecipes]
+onHover = true
+noGrouped = false
+
+[scrolling]
+enableScrolling = true
+scrollAround = false

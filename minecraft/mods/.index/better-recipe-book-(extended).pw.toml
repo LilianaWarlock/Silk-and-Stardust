@@ -1,0 +1,25 @@
+filename = 'BetterRecipeBookExtended-neoforge-1.21.1-2.1.3.jar'
+name = 'Better Recipe Book (Extended)'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.1.3'
+
+[download]
+hash = '921d6d1668b72832f2abdd99b7ee261c802c21f8855149d6abfe75cdd2414da15f19a1091be72fb084e1e90a6e87dbde0e450c9c9973c86a608a3600b0c54f77'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/OkfpeX68/versions/Kfyeh8Jh/BetterRecipeBookExtended-neoforge-1.21.1-2.1.3.jar'
+
+[update.modrinth]
+mod-id = 'OkfpeX68'
+version = 'Kfyeh8Jh'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'REQUIRED'
