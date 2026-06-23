@@ -1,6 +1,6 @@
 {
   "config": {
-    "climbSpeed": 0.1,
+    "climbSpeed": 0.15,
     "isEnable": true
   }
 }
