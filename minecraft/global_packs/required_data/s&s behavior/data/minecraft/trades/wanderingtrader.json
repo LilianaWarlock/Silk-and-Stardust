@@ -1770,33 +1770,6 @@
                   {
                     "function": "minecraft:set_count",
 
-                    "count": 2
-                  }
-                ]
-              },
-              "price_multiplier": 0.05,
-              "max_uses": 12,
-              "result": {
-                "type": "minecraft:item",
-                "functions": [
-                  {
-                    "add": false,
-                    "count": 1,
-                    "function": "minecraft:set_count"
-                  }
-                ],
-                "name": "mythsandlegends:marigold"
-              }
-            },
-            {
-              "cost_a": {
-                "type": "minecraft:item",
-                "name": "minecraft:emerald",
-                "conditions": [],
-                "functions": [
-                  {
-                    "function": "minecraft:set_count",
-
                     "count": 7
                   }
                 ]

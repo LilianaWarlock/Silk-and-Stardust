@@ -10,7 +10,7 @@ enableBook = true
 
 [rbip]
 enableRecipeBookIsPain = true
-enableTabPage = false
+enableTabPage = true
 
 [newRecipes]
 unlockAll = true
