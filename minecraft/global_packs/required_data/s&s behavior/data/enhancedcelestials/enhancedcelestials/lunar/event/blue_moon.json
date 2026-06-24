@@ -67,26 +67,7 @@
             }
           ],
           "misc": [],
-          "monster": [
-            {
-              "type": "mythsandlegends:condemned",
-              "maxCount": 3,
-              "minCount": 1,
-              "weight": 60
-            },
-            {
-              "type": "minecraft:skeleton",
-              "maxCount": 3,
-              "minCount": 1,
-              "weight": 60
-            },
-            {
-              "type": "quark:wraith",
-              "maxCount": 2,
-              "minCount": 1,
-              "weight": 60
-            }
-          ],
+          "monster": [],
           "underground_water_creature": [],
           "water_ambient": [],
           "water_creature": []
