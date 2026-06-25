@@ -4,7 +4,7 @@
   "category": "misc",
   "ingredients": [
     { "item": "minecraft:bone_block" },
-    { "item": "basicweapons:stone_dagger" }
+    { "item": "rogues:flint_dagger" }
   ],
   "result": { "id": "minecraft:skeleton_skull" }
 }

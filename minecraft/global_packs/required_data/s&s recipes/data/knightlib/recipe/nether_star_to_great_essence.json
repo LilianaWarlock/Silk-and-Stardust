@@ -1,5 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [{ "item": "minecraft:nether_star" }],
-  "result": { "id": "nameless_trinkets:glowing_dust", "count": 3 }
+  "result": { "id": "nameless_trinkets:glowing_dust", "count": 7 }
 }
