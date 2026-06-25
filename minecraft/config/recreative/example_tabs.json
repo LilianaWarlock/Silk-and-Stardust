@@ -1,0 +1,6 @@
+[
+  {
+    "action": "remove_tab",
+    "tabs": ["bountifulfares:bountiful_fares_compatibility"]
+  }
+]
