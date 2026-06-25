@@ -13,7 +13,7 @@ enableRecipeBookIsPain = true
 enableTabPage = true
 
 [newRecipes]
-unlockAll = true
+unlockAll = false
 enableBounce = false
 
 [instantCraft]
