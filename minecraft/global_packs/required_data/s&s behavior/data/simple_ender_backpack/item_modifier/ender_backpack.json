@@ -1,0 +1,6 @@
+{
+  "accessories:slot_validation": {
+    "valid_slot": ["belt"],
+    "invalid_slot": ["back"]
+  }
+}

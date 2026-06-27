@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:oak_sapling",
+    "minecraft:spruce_sapling",
+    "minecraft:birch_sapling",
+    "minecraft:jungle_sapling",
+    "minecraft:acacia_sapling",
+    "minecraft:cherry_sapling",
+    "minecraft:dark_oak_sapling",
+    "minecraft:mangrove_propagule",
+    "minecraft:azalea",
+    "minecraft:flowering_azalea",
+
+    { "required": false, "id": "minecraft:pale_oak_sapling" },
+    { "required": false, "id": "ghosts:haunted_sapling" },
+    { "required": false, "id": "bountifulfares:apple_sapling" },
+    { "required": false, "id": "bountifulfares:orange_sapling" },
+    { "required": false, "id": "bountifulfares:lemon_sapling" },
+    { "required": false, "id": "bountifulfares:plum_sapling" },
+    { "required": false, "id": "bountifulfares:walnut_sapling" },
+    { "required": false, "id": "hexerei:willow_sapling" },
+    { "required": false, "id": "hexerei:mahogany_sapling" },
+    { "required": false, "id": "hexerei:witch_hazel_sapling" }
+  ]
+}
