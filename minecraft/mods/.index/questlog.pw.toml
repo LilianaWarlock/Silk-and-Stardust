@@ -1,20 +1,20 @@
-filename = 'questlog-neoforge-1.21.1-2.3.1.jar'
+filename = 'questlog-neoforge-1.21.1-3.0.0.jar'
 name = 'Questlog'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.3.1-1.21.1-neoforge'
+x-prismlauncher-version-number = '3.0.0-1.21.1-neoforge'
 
 [download]
-hash = 'a9abb3151fd3af8973dcad3c05dbf4cffe4890dc1a5a6c58806ac73da815cce305573939a59608a085c906d96184c380b6077fe3c73c95d3d0cbcf16e96dc066'
+hash = 'e3136bb35005b283e5c7cdf46790bcf676ddd4e97ae45526432335498ee4d9877dc25f8eea72e248297704a825cd258bf9026c15cdc25065581a46329733c219'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/ufQYCY6N/versions/A3HdX2AB/questlog-neoforge-1.21.1-2.3.1.jar'
+url = 'https://cdn.modrinth.com/data/ufQYCY6N/versions/Z9xqRijB/questlog-neoforge-1.21.1-3.0.0.jar'
 
 [update.modrinth]
 mod-id = 'ufQYCY6N'
-version = 'A3HdX2AB'
+version = 'Z9xqRijB'
 
 [[x-prismlauncher-dependencies]]
 addonId = '9s6osm5g'
