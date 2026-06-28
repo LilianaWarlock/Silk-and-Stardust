@@ -1,0 +1,5 @@
+{
+  "soil": "trmt:eroded_dirt",
+  "result": "minecraft:grass_block",
+  "on_top": false
+}
