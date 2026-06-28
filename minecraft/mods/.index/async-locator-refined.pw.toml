@@ -1,18 +1,18 @@
-filename = 'async-locator-refined-neoforge-1.21.1-1.5.3.jar'
-name = 'Async Locator Refined'
-side = 'server'
+filename = 'async-locator-refined-neoforge-1.21.1-1.5.4.jar'
+name = 'AsyncLocator-Refined'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.21.1-1.5.3'
+x-prismlauncher-version-number = '1.21.1-1.5.4'
 
 [download]
-hash = 'fd11ad8ca6a9149fe9ab8819e07c033142a270bef3ad6513a440872bc4acc2e383d62f586fd1675d49d843366aed0edbab6bfad438553f85b3051f1e1575b4cd'
+hash = 'dc1de303d85dcfa8790ced6d4d0430ebd8433f2ebcabefea1372f8e49940c2dc8f579a25b2d55962ca53be33c3d58cbd47f7bf1164a287cd2e0ced9b5077cb6f'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/LUIHK4LD/versions/3BdGHbV2/async-locator-refined-neoforge-1.21.1-1.5.3.jar'
+url = 'https://cdn.modrinth.com/data/LUIHK4LD/versions/zpmhBZPE/async-locator-refined-neoforge-1.21.1-1.5.4.jar'
 
 [update.modrinth]
 mod-id = 'LUIHK4LD'
-version = '3BdGHbV2'
+version = 'zpmhBZPE'

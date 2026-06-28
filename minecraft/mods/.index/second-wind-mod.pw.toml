@@ -1,20 +1,20 @@
-filename = 'secondwind-neoforge-1.21.1-1.0.3.jar'
+filename = 'secondwind-neoforge-1.21.1-1.0.4.jar'
 name = 'Second Wind!'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.0.3'
+x-prismlauncher-version-number = '1.0.4'
 
 [download]
-hash = '3e240d34f2b2c555c85e22ee9b0cee8aeac6c4f129e140df473378b564085533cc9edfb28514eb128d39c5f7e6aa6cb2297e3bedc3b424e37c6d9b79214acc61'
+hash = '6bc73be1e935ed8df8825a64402499514a601ee34662f88262a3a76839d6abd74fc4118b4cbe8f1dc5cc6e37661baa3bfa2507b741804a5b566ce093c1272f99'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/RQkWfoMK/versions/Tr3s0kmT/secondwind-neoforge-1.21.1-1.0.3.jar'
+url = 'https://cdn.modrinth.com/data/RQkWfoMK/versions/UWJbMqBa/secondwind-neoforge-1.21.1-1.0.4.jar'
 
 [update.modrinth]
 mod-id = 'RQkWfoMK'
-version = 'Tr3s0kmT'
+version = 'UWJbMqBa'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'lhGA9TYQ'
@@ -22,4 +22,8 @@ type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'dXwOQg6L'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ccKDOlHs'
 type = 'REQUIRED'

@@ -1,18 +1,18 @@
-filename = 'attributesetter-2.2-neoforge.jar'
+filename = 'attributesetter-2.2.1-neoforge.jar'
 name = 'AttributeSetter'
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.2-neoforge'
+x-prismlauncher-version-number = '2.2.1-neoforge'
 
 [download]
-hash = 'd0f6186507523d33585690a4f0837d96a7eabb4dea65c778b1e6b3e2ffe8be71b5e2fd0ed0d0434a645fe3aff2567411901525fa7cad988b04c901a99fc78472'
+hash = '0056ac4e82e4b2a1927b87604a85a69ddb965cf8719add3226eb122f25c51392de2adf204042bd3d4254e83051b8b9ce6c446954d84f01c4bcda0016c0076ead'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/tbDE3NLR/versions/UxyWiM1K/attributesetter-2.2-neoforge.jar'
+url = 'https://cdn.modrinth.com/data/tbDE3NLR/versions/56AfBTEs/attributesetter-2.2.1-neoforge.jar'
 
 [update.modrinth]
 mod-id = 'tbDE3NLR'
-version = 'UxyWiM1K'
+version = '56AfBTEs'
