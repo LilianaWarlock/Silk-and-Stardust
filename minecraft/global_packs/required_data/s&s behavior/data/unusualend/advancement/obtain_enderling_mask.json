@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "unusualend:spirit_grim_helmet"
+    },
+    "title": {
+      "translate": "advancements.obtain_enderling_mask.title"
+    },
+    "description": {
+      "translate": "advancements.obtain_enderling_mask.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_enderling_mask": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "unusualend:spirit_grim_helmet",
+              "unusualend:spirit_smile_helmet",
+              "unusualend:spirit_malice_helmet",
+              "unusualend:spirit_mania_helmet",
+              "unusualend:spirit_vice_helmet",
+              "unusualend:spirit_twist_helmet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "unusualend:its_a_trap"
+}

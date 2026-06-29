@@ -1,0 +1,41 @@
+{
+  "criteria": {
+    "visited_biome": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "darkerdepths:molten_cavern",
+                  "darkerdepths:sandy_catacombs",
+                  "darkerdepths:glowshroom_forest"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "darkerdepths:textures/block/duskrock.png",
+    "description": {
+      "translate": "advancements.darkerdepths.parent.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "darkerdepths:glowshroom"
+    },
+    "title": {
+      "translate": "advancements.darkerdepths.parent.title"
+    }
+  },
+  "requirements": [["visited_biome"]],
+  "sends_telemetry_event": true
+}
