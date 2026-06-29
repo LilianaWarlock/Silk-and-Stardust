@@ -10,8 +10,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 12.0,
+                "min": 12.0,
+                "max": 30.0,
                 "type": "minecraft:uniform"
               }
             },
@@ -52,19 +52,13 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 0.0,
-                "max": 2.0,
+                "min": 2.0,
+                "max": 4.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.2
-            }
-          ],
-          "name": "minecraft:lapis_block"
+          "name": "minecraft:lapis_ore"
         }
       ]
     }

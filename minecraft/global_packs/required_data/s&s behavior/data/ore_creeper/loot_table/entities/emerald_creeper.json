@@ -10,8 +10,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 6.0,
+                "min": 9.0,
+                "max": 18.0,
                 "type": "minecraft:uniform"
               }
             },
@@ -32,7 +32,7 @@
             {
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4,
+                "max": 2,
                 "min": 0
               },
               "enchantment": "minecraft:looting",
@@ -52,19 +52,13 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 0.0,
-                "max": 2.0,
+                "min": 4.0,
+                "max": 7.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.1
-            }
-          ],
-          "name": "minecraft:emerald_block"
+          "name": "minecraft:emerald_ore"
         }
       ]
     }

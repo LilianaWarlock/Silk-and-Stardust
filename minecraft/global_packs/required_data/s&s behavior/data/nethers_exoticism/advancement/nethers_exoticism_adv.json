@@ -1,0 +1,36 @@
+{
+  "display": {
+    "background": "nethers_exoticism:textures/screens/ramboutan_log.png",
+    "icon": {
+      "id": "nethers_exoticism:kiwano_sapling"
+    },
+    "title": {
+      "translate": "advancements.nethers_exoticism_adv.title"
+    },
+    "description": {
+      "translate": "advancements.nethers_exoticism_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nethers_exoticism:kiwano",
+              "nethers_exoticism:pitaya",
+              "nethers_exoticism:ramboutan",
+              "nethers_exoticism:boudda_s_hand"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_item"]]
+}

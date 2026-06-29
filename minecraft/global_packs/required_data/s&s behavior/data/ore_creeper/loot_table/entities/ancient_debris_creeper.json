@@ -11,7 +11,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 2.0,
-                "max": 6.0,
+                "max": 3.0,
                 "type": "minecraft:uniform"
               }
             },
@@ -28,15 +28,6 @@
                   "entity": "this"
                 }
               ]
-            },
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3,
-                "min": 1
-              },
-              "enchantment": "minecraft:looting",
-              "function": "minecraft:enchanted_count_increase"
             }
           ],
           "name": "minecraft:ancient_debris"
@@ -53,15 +44,9 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1.0,
-                "max": 3.0,
+                "max": 2.0,
                 "type": "minecraft:uniform"
               }
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.5
             }
           ],
           "name": "minecraft:ancient_debris"

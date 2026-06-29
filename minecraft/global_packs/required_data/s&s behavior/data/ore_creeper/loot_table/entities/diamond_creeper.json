@@ -10,8 +10,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 6.0,
+                "min": 6.0,
+                "max": 13.0,
                 "type": "minecraft:uniform"
               }
             },
@@ -52,19 +52,13 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 0.0,
-                "max": 1.0,
+                "min": 4.0,
+                "max": 7.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.1
-            }
-          ],
-          "name": "minecraft:diamond_block"
+          "name": "minecraft:diamond_ore"
         }
       ]
     }

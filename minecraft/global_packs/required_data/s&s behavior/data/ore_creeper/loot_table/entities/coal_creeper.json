@@ -52,16 +52,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 0.0,
+                "min": 1.0,
                 "max": 2.0,
                 "type": "minecraft:uniform"
               }
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.4
             }
           ],
           "name": "minecraft:coal_block"

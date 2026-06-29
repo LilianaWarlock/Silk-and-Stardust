@@ -10,8 +10,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 10.0,
+                "min": 6.0,
+                "max": 13.0,
                 "type": "minecraft:uniform"
               }
             },
@@ -52,19 +52,14 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 0.0,
-                "max": 2.0,
+                "min": 2.0,
+                "max": 4.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.1
-            }
-          ],
-          "name": "minecraft:gold_block"
+
+          "name": "minecraft:raw_gold_block"
         }
       ]
     }

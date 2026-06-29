@@ -10,8 +10,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 32.0,
+                "min": 11.0,
+                "max": 46.0,
                 "type": "minecraft:uniform"
               }
             },
@@ -52,19 +52,13 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 6.0,
+                "min": 5.0,
+                "max": 9.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.6
-            }
-          ],
-          "name": "minecraft:gold_ingot"
+          "name": "minecraft:raw_gold"
         }
       ]
     }

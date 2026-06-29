@@ -10,8 +10,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 18.0,
+                "min": 11.0,
+                "max": 24.0,
                 "type": "minecraft:uniform"
               }
             },
@@ -52,19 +52,13 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 0.0,
-                "max": 5.0,
+                "min": 3.0,
+                "max": 8.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.5
-            }
-          ],
-          "name": "minecraft:quartz_block"
+          "name": "minecraft:nether_quartz_ore"
         }
       ]
     }
