@@ -1,0 +1,18 @@
+filename = 'wetland_whimsy-2.0.3-1.21.1.jar'
+name = 'Wetland Whimsy'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.3-1.21.1'
+
+[download]
+hash = 'db17392c702d93075dc86833c59a67ad5f126c970cc2ac33adb34ce70dd8f58b921d85918aed874150ab538a86da184176dddac859f94c27041dc65249f8828c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/PsS0ZPEe/versions/IzZRu6cT/wetland_whimsy-2.0.3-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'PsS0ZPEe'
+version = 'IzZRu6cT'

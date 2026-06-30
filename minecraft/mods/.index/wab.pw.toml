@@ -1,0 +1,21 @@
+filename = 'wab-1.21.1-1.3.2.jar'
+name = "Wan's Ancient Beasts"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.2'
+
+[download]
+hash = '9835967d3b34f8205ab4d1b4d7f730c4bee1488d75aa551f12d6626d3d0b7d085d988d6cc4ac9a1cc4d478cedb80ef991a8ff141abb8894f401eb37459d43507'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nWC3kyL3/versions/PY7QH8HR/wab-1.21.1-1.3.2.jar'
+
+[update.modrinth]
+mod-id = 'nWC3kyL3'
+version = 'PY7QH8HR'
+
+[[x-prismlauncher-dependencies]]
+addonId = '8BmcQJ2H'
+type = 'REQUIRED'
