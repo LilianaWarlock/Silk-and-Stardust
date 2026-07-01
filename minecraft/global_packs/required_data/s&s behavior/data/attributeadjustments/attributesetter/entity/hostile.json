@@ -1,7 +1,7 @@
 {
   "minecraft:creaking": [
     {
-      "attribute": "minecraft:generic.attackdamage",
+      "attribute": "minecraft:generic.attack_damage",
       "value": 6,
       "operation": "BASE"
     }
