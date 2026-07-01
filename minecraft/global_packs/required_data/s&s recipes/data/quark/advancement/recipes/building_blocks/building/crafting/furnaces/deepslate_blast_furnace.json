@@ -24,7 +24,7 @@
       "trigger": "minecraft:inventory_changed"
     }
   },
-  "requirements": [["has_the_recipe", "test"]],
+  "requirements": [["has_the_recipe", "has_item"]],
   "rewards": {
     "recipes": ["quark:building/crafting/furnaces/deepslate_blast_furnace"]
   }
