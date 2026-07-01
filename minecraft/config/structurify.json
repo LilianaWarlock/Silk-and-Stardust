@@ -1,6 +1,6 @@
 {
-  "config_version": "2.0.25",
-  "config_datetime": "2026-06-19_02-53-00",
+  "config_version": "2.0.28",
+  "config_datetime": "2026-06-30_15-53-48",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -18,12 +18,6 @@
   ],
   "structures": [
     {
-      "name": "aether:silver_dungeon",
-      "override_global_distance_from_world_center": false,
-      "min_distance_from_world_center": 0,
-      "max_distance_from_world_center": 500
-    },
-    {
       "name": "aether_villages:olympic_citadel",
       "override_global_distance_from_world_center": false,
       "min_distance_from_world_center": 0,
@@ -31,33 +25,41 @@
     },
     {
       "name": "block_factorys_bosses:dragon_tower",
-      "override_global_distance_from_world_center": false,
+      "override_global_distance_from_world_center": true,
       "min_distance_from_world_center": 1000,
       "max_distance_from_world_center": 0
     },
     {
       "name": "block_factorys_bosses:kraken_ship",
-      "override_global_distance_from_world_center": false,
+      "override_global_distance_from_world_center": true,
       "min_distance_from_world_center": 1000,
       "max_distance_from_world_center": 0
     },
     {
       "name": "block_factorys_bosses:sandworm_nest",
-      "override_global_distance_from_world_center": false,
+      "override_global_distance_from_world_center": true,
       "min_distance_from_world_center": 1000,
       "max_distance_from_world_center": 0
     },
     {
       "name": "block_factorys_bosses:yeti_hideout",
-      "override_global_distance_from_world_center": false,
+      "override_global_distance_from_world_center": true,
       "min_distance_from_world_center": 1000,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "bosses_of_mass_destruction:lich_tower",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 750,
       "max_distance_from_world_center": 0
     },
     {
       "name": "companions:companions_factory",
       "override_global_flatness_check": false,
       "enable_flatness_check": true,
-      "flatness_check_allow_non_solid_blocks": false
+      "flatness_check_allow_non_solid_blocks": false,
+      "flatness_check_mode": "AUTO",
+      "flatness_check_max_height_difference": 21
     },
     {
       "name": "hearths:crimson_tower",
@@ -70,40 +72,16 @@
     {
       "name": "hexerei:dark_coven",
       "size": 4,
-      "override_global_distance_from_world_center": false,
+      "override_global_distance_from_world_center": true,
       "min_distance_from_world_center": 750,
       "max_distance_from_world_center": 0
     },
     {
       "name": "hexerei:nature_coven",
       "size": 6,
-      "override_global_distance_from_world_center": false,
+      "override_global_distance_from_world_center": true,
       "min_distance_from_world_center": 750,
       "max_distance_from_world_center": 0
-    },
-    {
-      "name": "mythsandlegends:ancient_vestiges",
-      "override_global_distance_from_world_center": false,
-      "min_distance_from_world_center": 700,
-      "max_distance_from_world_center": 0
-    },
-    {
-      "name": "mythsandlegends:graveyard",
-      "whitelisted_biomes": [
-        "minecraft:dark_forest",
-        "#minecraft:is_taiga",
-        "minecraft:pale_garden"
-      ],
-      "blacklisted_biomes": [
-        "minecraft:desert",
-        "minecraft:badlands",
-        "minecraft:eroded_badlands",
-        "minecraft:wooded_badlands"
-      ]
-    },
-    {
-      "name": "mythsandlegends:old_camp",
-      "terrain_adaptation": "beard_thin"
     },
     {
       "name": "nova_structures:bunker",
@@ -123,6 +101,10 @@
     },
     {
       "name": "nova_structures:firewatch_tower_forest",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:firewatch_tower_jungle",
       "is_disabled": true
     },
     {
@@ -377,7 +359,9 @@
       "name": "wabi_sabi_structures:melon_patch",
       "override_global_flatness_check": false,
       "enable_flatness_check": true,
-      "flatness_check_allow_non_solid_blocks": false
+      "flatness_check_allow_non_solid_blocks": false,
+      "flatness_check_mode": "AUTO",
+      "flatness_check_max_height_difference": 21
     },
     {
       "name": "wabi_sabi_structures:memorial_of_tonkis",
@@ -507,9 +491,41 @@
     {
       "name": "wabi_sabi_structures:zen_chair_museum",
       "is_disabled": true
+    },
+    {
+      "name": "wan_ancient_beasts:ancient_nest",
+      "blacklisted_biomes": [
+        "minecraft:meadow",
+        "minecraft:cherry_grove"
+      ]
     }
   ],
   "structure_sets": [
+    {
+      "spacing": 16,
+      "separation": 12,
+      "name": "hearths:towers",
+      "is_disabled": true,
+      "salt": 214798319,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "hearths:crimson_tower": 1,
+        "hearths:warped_tower": 1
+      }
+    },
+    {
+      "spacing": 50,
+      "separation": 10,
+      "name": "nova_structures:bunker",
+      "is_disabled": true,
+      "salt": 6798544,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "nova_structures:bunker": 1
+      }
+    },
     {
       "spacing": 50,
       "separation": 15,
@@ -633,6 +649,90 @@
       "override_global_spacing_and_separation_modifier": false,
       "structure_weights": {
         "nova_structures:wild_ruin": 1
+      }
+    },
+    {
+      "spacing": 65,
+      "separation": 20,
+      "name": "wabi_sabi_structures:water_tower_dark_oak",
+      "is_disabled": true,
+      "salt": 38087860,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "wabi_sabi_structures:water_tower_dark_oak": 1
+      }
+    },
+    {
+      "spacing": 100,
+      "separation": 30,
+      "name": "wabi_sabi_structures:water_tower_forest",
+      "is_disabled": true,
+      "salt": 19209850,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "wabi_sabi_structures:water_tower_forest": 1
+      }
+    },
+    {
+      "spacing": 100,
+      "separation": 20,
+      "name": "wabi_sabi_structures:water_tower_oak",
+      "is_disabled": true,
+      "salt": 37050964,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "wabi_sabi_structures:water_tower_oak": 1
+      }
+    },
+    {
+      "spacing": 85,
+      "separation": 30,
+      "name": "wabi_sabi_structures:water_tower_savanna",
+      "is_disabled": true,
+      "salt": 29121069,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "wabi_sabi_structures:water_tower_savanna": 1
+      }
+    },
+    {
+      "spacing": 100,
+      "separation": 20,
+      "name": "wabi_sabi_structures:water_tower_spruce",
+      "is_disabled": true,
+      "salt": 31052885,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "wabi_sabi_structures:water_tower_spruce": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 40,
+      "name": "wabi_sabi_structures:xocolatl_farm",
+      "is_disabled": true,
+      "salt": 63562716,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "wabi_sabi_structures:xocolatl_farm": 1
+      }
+    },
+    {
+      "spacing": 130,
+      "separation": 50,
+      "name": "wabi_sabi_structures:zen_chair_museum",
+      "is_disabled": true,
+      "salt": 24670125,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "wabi_sabi_structures:zen_chair_museum": 1
       }
     }
   ],
