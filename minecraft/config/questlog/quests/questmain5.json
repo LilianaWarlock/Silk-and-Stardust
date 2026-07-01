@@ -1,16 +1,11 @@
 {
   "title": "The Clouds Part - Vol. 5",
-  "sort_order": 5,
   "description": "Collect 15 Obsidian",
   "icon": {
     "item": "minecraft:obsidian"
   },
-  "requirements": [
-    {
-      "type": "questlog:quest_complete",
-      "quest": "questlog:questmain4"
-    }
-  ],
+  "chapter": "main",
+  "order": 0,
   "objectives": [
     {
       "type": "questlog:item_obtain",
@@ -19,5 +14,12 @@
       "required_amount": 15,
       "item": "minecraft:obsidian"
     }
-  ]
+  ],
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questmain4"
+    }
+  ],
+  "rewards": []
 }

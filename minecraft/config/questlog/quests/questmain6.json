@@ -1,16 +1,11 @@
 {
   "title": "The Clouds Part - Vol. 6",
-  "sort_order": 6,
   "description": "Craft an Enchantment Table and Enchant any item.",
   "icon": {
-    "item": "minecraft:obsidian"
+    "item": "minecraft:enchanting_table"
   },
-  "requirements": [
-    {
-      "type": "questlog:quest_complete",
-      "quest": "questlog:questmain5"
-    }
-  ],
+  "chapter": "main",
+  "order": 0,
   "objectives": [
     {
       "type": "questlog:item_craft",
@@ -22,5 +17,12 @@
       "type": "questlog:enchant",
       "name": "Enchant any Item"
     }
-  ]
+  ],
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questmain5"
+    }
+  ],
+  "rewards": []
 }

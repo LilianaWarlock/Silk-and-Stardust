@@ -1,0 +1,53 @@
+{
+  "title": "Shiny Creepers",
+  "description": "Defeat an Ore Creeper before it explodes, embedding it's materials into nearby rocks.",
+  "icon": {
+    "item": "minecraft:gunpowder"
+  },
+  "chapter": "exploration",
+  "order": 5,
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "entity": "ore_creeper:copper_creeper",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:entity_kill",
+      "entity": "ore_creeper:iron_creeper",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:entity_kill",
+      "entity": "ore_creeper:coal_creeper",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:entity_kill",
+      "entity": "ore_creeper:gold_creeper",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:entity_kill",
+      "entity": "ore_creeper:lapis_lazuli_creeper",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:entity_kill",
+      "entity": "ore_creeper:redstone_creeper",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:entity_kill",
+      "entity": "ore_creeper:diamond_creeper",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:entity_kill",
+      "entity": "ore_creeper:emerald_creeper",
+      "required_amount": 1
+    }
+  ],
+  "requirements": [],
+  "rewards": []
+}

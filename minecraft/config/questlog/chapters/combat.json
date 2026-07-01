@@ -1,7 +1,9 @@
 {
-  "name": "Combat",
+  "name": "Armaments",
   "icon": {
     "item": "minecraft:iron_sword"
   },
-  "order": 3
+  "order": 3,
+  "default_chapter": false,
+  "hidden": false
 }

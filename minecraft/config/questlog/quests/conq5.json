@@ -1,0 +1,25 @@
+{
+  "title": "Siren's Song",
+  "description": "A faraway song pulls you towards a great sunken cathedral.",
+  "icon": {
+    "item": "minecraft:prismarine_crystals"
+  },
+  "chapter": "combat",
+  "order": 5,
+  "include_in_main": false,
+  "objectives": [
+    {
+      "type": "questlog:visit_structure",
+      "structure": "nova_structures:trident_trial_monument",
+      "required_amount": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:conq2",
+      "required_amount": 1
+    }
+  ],
+  "rewards": []
+}

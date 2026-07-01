@@ -1,0 +1,9 @@
+{
+  "name": "Conquest",
+  "icon": {
+    "item": "dragonscale:ender_dragon_scale"
+  },
+  "order": 4,
+  "default_chapter": false,
+  "hidden": false
+}

@@ -1,0 +1,18 @@
+{
+  "title": "To a Flame...",
+  "description": "Defeat the Mothman, hiding in forested groves and wielding a nimble rapier.",
+  "icon": {
+    "item": "the_moth:moth_head"
+  },
+  "chapter": "conquest",
+  "order": 0,
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "entity": "the_moth:moth_man",
+      "required_amount": 1
+    }
+  ],
+  "requirements": [],
+  "rewards": []
+}

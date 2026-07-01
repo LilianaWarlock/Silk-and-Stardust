@@ -1,20 +1,20 @@
 {
   "title": "The Clouds Part - Vol 1.",
-  "sort_order": 1,
-  "description": "You find yourself in an unfamiliar place with a hazy mind as the clouds above you reveal a brilliant sun. Did you wake up here? Did you even wake up? You can't seem to remember. Either way, the sun  won't be out forever. You should explore your surroundings. Do not rush.",
-  "description_completed": "Now that you've explored a bit, you've found a map of the land. Press [M] to view the Atlas.\n\nYou should check back on your quest book often! Picking up certain important materials or completing prerequisites can unlock brand new quests!",
+  "description": "You find yourself in an unfamiliar place with a hazy mind as the clouds above you reveal a brilliant sun. Did you wake up here? Did you even wake up? You can't seem to remember. Either way, the sun  won't be out forever. You should explore...",
   "icon": {
     "item": "minecraft:map"
   },
+  "chapter": "main",
+  "order": 0,
   "objectives": [
     {
       "type": "questlog:stat",
-      "name": "Walk 50 Blocks",
-      "required_amount": 5000,
-      "stat": "minecraft:walk_one_cm",
-      "retroactive": false
+      "name": "Look Around",
+      "stat": "minecraft:play_time",
+      "required_amount": 1800
     }
   ],
+  "requirements": [],
   "rewards": [
     {
       "type": "questlog:experience",

@@ -1,0 +1,24 @@
+{
+  "title": "I can't believe it's not a Net!",
+  "description": "Obtain a Butterfly Net, for catching beautiful butterflies.",
+  "icon": {
+    "item": "luminous_butterflies:butterfly_net"
+  },
+  "chapter": "exploration",
+  "order": 6,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "luminous_butterflies:butterfly_net",
+      "required_amount": 1
+    }
+  ],
+  "requirements": [],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "luminous_butterflies:butterfly_encyclopedia",
+      "count": 1
+    }
+  ]
+}

@@ -1,13 +1,11 @@
 {
-  "title": "Vitality",
-  "sort_order": 1,
-  "chapter": "questlog:combat",
-  "include_in_main": true,
+  "title": "Preparing for Battle",
   "description": "There are foul monsters and beasts around every corner here. Prove yourself by obtaining a life crystal, and I will bestow a unique treasure upon you. Life shards can be found growing rarely underground.",
-  "description_completed": "With the anklet, you can now roll using [R].",
   "icon": {
     "item": "terrarianmight:life_crystal"
   },
+  "chapter": "questlog:combat",
+  "order": 0,
   "objectives": [
     {
       "type": "questlog:item_obtain",
@@ -16,6 +14,7 @@
       "item": "terrarianmight:life_crystal"
     }
   ],
+  "requirements": [],
   "rewards": [
     {
       "type": "questlog:item",

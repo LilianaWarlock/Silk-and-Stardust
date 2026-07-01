@@ -1,0 +1,24 @@
+{
+  "title": "A Happy Spore",
+  "description": "Collect a Moss Ball that drops off of a Sporelight, found in Lush Caves.",
+  "icon": {
+    "item": "sporelight:moss_ball"
+  },
+  "chapter": "farming",
+  "order": 0,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "sporelight:moss_ball",
+      "required_amount": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "questlog:visit_biome",
+      "biome": "minecraft:lush_caves",
+      "required_amount": 1
+    }
+  ],
+  "rewards": []
+}
