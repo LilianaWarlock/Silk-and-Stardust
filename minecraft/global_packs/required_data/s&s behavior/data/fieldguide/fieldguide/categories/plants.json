@@ -105,6 +105,14 @@
         "unlocked_by_default": false,
         "triggers": ["scan"]
       }
+    },
+    {
+      "type": "entry",
+      "id": "block:wetland_whimsy/aria_mushroom_block",
+      "unlock": {
+        "unlocked_by_default": false,
+        "triggers": ["scan", "obtain"]
+      }
     }
   ]
 }

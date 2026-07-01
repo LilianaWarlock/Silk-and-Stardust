@@ -1,0 +1,13 @@
+{
+  "values": [
+    {
+      "id": "wetland_whimsy:huge_aria_mushroom",
+      "display": "wetland_whimsy:aria_mushroom_block",
+      "structure_nbt": "wetland_whimsy:huge_aria_mushroom",
+      "components": [
+        "wetland_whimsy:aria_mushroom_block",
+        "minecraft:mushroom_stem"
+      ]
+    }
+  ]
+}
