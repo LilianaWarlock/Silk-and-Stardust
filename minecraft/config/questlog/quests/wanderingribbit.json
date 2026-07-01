@@ -1,0 +1,38 @@
+{
+  "title": "Wänderibbit",
+  "description": "Discover a Wandering Ribbit and acquire a Ribbit Map.",
+  "icon": {
+    "item": "ribbits:umbrella_leaf"
+  },
+  "chapter": "exploration",
+  "order": 6,
+  "objectives": [
+    {
+      "type": "questlog:entity_approach",
+      "name": "Discover a Wandering Ribbit",
+      "range": 5,
+      "entity": "wanderer_ribbit:wanderer_ribbit",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "wanderer_ribbit:ribbit_map",
+      "required_amount": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:new_quest_868ff21c",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "name": "10 Emeralds",
+      "item": "minecraft:emerald",
+      "count": 10
+    }
+  ]
+}

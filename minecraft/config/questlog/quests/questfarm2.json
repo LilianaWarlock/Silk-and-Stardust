@@ -1,17 +1,11 @@
 {
   "title": "Sew the Seeds - Vol 2.",
-  "sort_order": 2,
-  "chapter": "questlog:farming",
   "description": "Tame a Crop Critter. They can be created by using a Lost Soul on many fully grown plants. They will also sometimes sprout naturally. Keep an eye out for the little buggers!",
   "icon": {
     "item": "cropcritters:lost_soul"
   },
-  "requirements": [
-    {
-      "type": "questlog:quest_complete",
-      "quest": "questlog:questfarm1"
-    }
-  ],
+  "chapter": "questlog:farming",
+  "order": 0,
   "objectives": [
     {
       "type": "questlog:or",
@@ -53,5 +47,12 @@
         }
       ]
     }
-  ]
+  ],
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questfarm1"
+    }
+  ],
+  "rewards": []
 }

@@ -1,11 +1,11 @@
 {
-  "title": "A Fluffy Buddy - Vol 1.",
-  "chapter": "questlog:friends",
-  "include_in_main": true,
+  "title": "Eternal Friendship - Vol 1.",
   "description": "Tame a Wolf, Cat or Fox with Bones, Raw Fish and Raw Chicken respectively.",
   "icon": {
-    "item": "minecraft:lead"
+    "item": "minecraft:bone"
   },
+  "chapter": "questlog:friends",
+  "order": 0,
   "objectives": [
     {
       "type": "questlog:or",
@@ -27,5 +27,7 @@
         }
       ]
     }
-  ]
+  ],
+  "requirements": [],
+  "rewards": []
 }

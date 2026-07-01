@@ -2,10 +2,10 @@
   "title": "Spongy Plundering",
   "description": "Defeat one of many Elder Guardians, the sentries of Ocean Monuments.",
   "icon": {
-    "item": "minecraft:prismarine_shard"
+    "item": "minecraft:elder_guardian_spawn_egg"
   },
   "chapter": "conquest",
-  "order": 1,
+  "order": 2,
   "objectives": [
     {
       "type": "questlog:entity_kill",

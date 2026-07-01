@@ -5,7 +5,7 @@
     "item": "the_moth:moth_head"
   },
   "chapter": "conquest",
-  "order": 0,
+  "order": 1,
   "objectives": [
     {
       "type": "questlog:entity_kill",

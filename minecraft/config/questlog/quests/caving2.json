@@ -1,0 +1,18 @@
+{
+  "title": "Deep Ventures - Igneous",
+  "description": "Find a Molten Cavern, a hot, unrelenting place with little life.",
+  "icon": {
+    "item": "darkerdepths:geyser"
+  },
+  "chapter": "exploration",
+  "order": 0,
+  "objectives": [
+    {
+      "type": "questlog:visit_biome",
+      "biome": "darkerdepths:molten_cavern",
+      "required_amount": 1
+    }
+  ],
+  "requirements": [],
+  "rewards": []
+}

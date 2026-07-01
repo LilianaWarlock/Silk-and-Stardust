@@ -1,11 +1,11 @@
 {
   "title": "Sew the Seeds - Vol 1.",
-  "sort_order": 1,
-  "chapter": "questlog:farming",
   "description": "Plant any vanilla seed. Pro-Tip! You can do it on most dirt blocks, but tilled earth near water is best! Also, avoid crop mono-cultures!",
   "icon": {
     "item": "minecraft:wheat_seeds"
   },
+  "chapter": "questlog:farming",
+  "order": 0,
   "objectives": [
     {
       "type": "questlog:or",
@@ -43,5 +43,7 @@
         }
       ]
     }
-  ]
+  ],
+  "requirements": [],
+  "rewards": []
 }

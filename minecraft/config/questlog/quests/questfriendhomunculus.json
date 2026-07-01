@@ -1,0 +1,24 @@
+{
+  "title": "The Essence of Connection - Vol 2.",
+  "description": "Craft a Homunculus using a filled grail.",
+  "icon": {
+    "item": "knightlib:homunculus"
+  },
+  "chapter": "questlog:friends",
+  "order": 2,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "knightlib:homunculus",
+      "required_amount": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questfriend1",
+      "required_amount": 1
+    }
+  ],
+  "rewards": []
+}

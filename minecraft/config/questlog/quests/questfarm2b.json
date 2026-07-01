@@ -1,23 +1,23 @@
 {
   "title": "A Peaceful Farm - Vol 2.",
-  "sort_order": 1,
-  "chapter": "questlog:farming",
   "description": "Shear a Sheep for its Wool.",
   "icon": {
     "item": "minecraft:white_wool"
   },
+  "chapter": "questlog:farming",
+  "order": 0,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:white_wool",
+      "required_amount": 1
+    }
+  ],
   "requirements": [
     {
       "type": "questlog:quest_complete",
       "quest": "questlog:questfarm1b"
     }
   ],
-  "objectives": [
-    {
-      "type": "questlog:item_use",
-      "name": "Shear a Sheep",
-      "icon": "minecraft:shears",
-      "item": "minecraft:shears"
-    }
-  ]
+  "rewards": []
 }

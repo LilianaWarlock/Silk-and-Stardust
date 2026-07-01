@@ -1,0 +1,18 @@
+{
+  "title": "Deep Ventures - Aglow",
+  "description": "Find the Glowshroom Caves and bask in their light and low temperature.",
+  "icon": {
+    "item": "darkerdepths:glowshroom_heart"
+  },
+  "chapter": "exploration",
+  "order": 0,
+  "objectives": [
+    {
+      "type": "questlog:visit_biome",
+      "biome": "darkerdepths:glowshroom_forest",
+      "required_amount": 1
+    }
+  ],
+  "requirements": [],
+  "rewards": []
+}

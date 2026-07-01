@@ -1,11 +1,11 @@
 {
-  "title": "Friend of All",
-  "sort_order": 3,
-  "chapter": "questlog:friends",
+  "title": "Ally of All",
   "description": "Use dyed wool to craft Blahaj, who is accepting and loving of all. A Stonecutter can then be used to change the color. It's a sewing machine, promise!",
   "icon": {
     "item": "just_blahaj:blahaj"
   },
+  "chapter": "questlog:friends",
+  "order": 0,
   "objectives": [
     {
       "type": "questlog:item_craft",
@@ -13,5 +13,7 @@
       "icon": "just_blahaj:blahaj",
       "item": "just_blahaj:blahaj"
     }
-  ]
+  ],
+  "requirements": [],
+  "rewards": []
 }

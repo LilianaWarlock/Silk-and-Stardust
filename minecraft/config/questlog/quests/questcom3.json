@@ -1,11 +1,11 @@
 {
   "title": "Harnessing Potential - Vol 1.",
-  "sort_order": 3,
-  "chapter": "questlog:combat",
   "description": "Craft any Rune.",
   "icon": {
     "item": "runes:crafting_altar"
   },
+  "chapter": "questlog:combat",
+  "order": 0,
   "objectives": [
     {
       "type": "questlog:or",
@@ -34,5 +34,7 @@
         }
       ]
     }
-  ]
+  ],
+  "requirements": [],
+  "rewards": []
 }

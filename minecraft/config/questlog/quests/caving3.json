@@ -1,0 +1,18 @@
+{
+  "title": "Deep Ventures - Sandfall",
+  "description": "Find the Sandy Catacombs, a network of accursed tunnels.",
+  "icon": {
+    "item": "darkerdepths:aridrock"
+  },
+  "chapter": "exploration",
+  "order": 0,
+  "objectives": [
+    {
+      "type": "questlog:visit_biome",
+      "biome": "darkerdepths:sandy_catacombs",
+      "required_amount": 1
+    }
+  ],
+  "requirements": [],
+  "rewards": []
+}

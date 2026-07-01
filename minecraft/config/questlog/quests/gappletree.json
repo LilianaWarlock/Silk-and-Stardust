@@ -1,0 +1,24 @@
+{
+  "title": "Flowering Trees - Vol. 2",
+  "description": "Find a nearly extinct and light sensitive Golden Apple tree, and collect a sapling.",
+  "icon": {
+    "item": "bountifulfares:golden_apple_sapling"
+  },
+  "chapter": "farming",
+  "order": 11,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "bountifulfares:golden_apple_sapling",
+      "required_amount": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fruittrees",
+      "required_amount": 1
+    }
+  ],
+  "rewards": []
+}

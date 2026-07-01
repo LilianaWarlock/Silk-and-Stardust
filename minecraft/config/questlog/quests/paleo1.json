@@ -1,0 +1,61 @@
+{
+  "title": "Beasts from the Past - Vol. 1",
+  "description": "Find the egg of a creature long-forgotten by this world.",
+  "icon": {
+    "item": "minecraft:sniffer_egg"
+  },
+  "chapter": "friends",
+  "order": 10,
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "name": "Find an Egg",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "item": "minecraft:sniffer_egg",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "wan_ancient_beasts:surfer_egg",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "wan_ancient_beasts:soarer_egg",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "wan_ancient_beasts:walker_egg",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "wan_ancient_beasts:eater_egg",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "wan_ancient_beasts:crusher_egg",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "wan_ancient_beasts:glider_egg",
+          "required_amount": 1
+        }
+      ],
+      "required_amount": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:brush",
+      "required_amount": 1
+    }
+  ],
+  "rewards": []
+}

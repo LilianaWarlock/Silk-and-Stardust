@@ -1,0 +1,40 @@
+{
+  "title": "Flowering Trees - Vol. 1",
+  "description": "Find one of the many fruit-producing trees around the world and collect a flowering sapling.",
+  "icon": {
+    "item": "bountifulfares:apple_sapling"
+  },
+  "chapter": "farming",
+  "order": 10,
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "name": "Find One:",
+      "required_amount": 1,
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "item": "bountifulfares:apple_sapling",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "bountifulfares:orange_sapling",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "bountifulfares:lemon_sapling",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "bountifulfares:plum_sapling",
+          "required_amount": 1
+        }
+      ]
+    }
+  ],
+  "requirements": [],
+  "rewards": []
+}

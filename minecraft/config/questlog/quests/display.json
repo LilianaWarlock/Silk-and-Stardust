@@ -1,0 +1,18 @@
+{
+  "title": "Showcasing Treasure",
+  "description": "Craft a display to showcase your vast trasures.",
+  "icon": {
+    "item": "items_displayed:item_display"
+  },
+  "chapter": "farming",
+  "order": 12,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "items_displayed:item_display",
+      "required_amount": 1
+    }
+  ],
+  "requirements": [],
+  "rewards": []
+}

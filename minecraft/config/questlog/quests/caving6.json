@@ -1,0 +1,18 @@
+{
+  "title": "Deep Ventures - Sulfuric",
+  "description": "Find the Sulfer Caves, stained with red and yellow.",
+  "icon": {
+    "item": "minecraft:polished_sulfur"
+  },
+  "chapter": "exploration",
+  "order": 6,
+  "objectives": [
+    {
+      "type": "questlog:visit_biome",
+      "biome": "minecraft:sulfur_caves",
+      "required_amount": 1
+    }
+  ],
+  "requirements": [],
+  "rewards": []
+}

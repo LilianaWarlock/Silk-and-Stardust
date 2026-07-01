@@ -1,11 +1,11 @@
 {
   "title": "A Peaceful Farm - Vol 1.",
-  "sort_order": 1,
-  "chapter": "questlog:farming",
   "description": "Breed two animals to create a beautiful new life.",
   "icon": {
     "item": "minecraft:wheat"
   },
+  "chapter": "questlog:farming",
+  "order": 0,
   "objectives": [
     {
       "type": "questlog:or",
@@ -18,7 +18,10 @@
           "stat": "minecraft:animals_bred",
           "retroactive": false
         }
-      ]
+      ],
+      "required_amount": 1
     }
-  ]
+  ],
+  "requirements": [],
+  "rewards": []
 }

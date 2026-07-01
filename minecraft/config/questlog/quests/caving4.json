@@ -1,0 +1,18 @@
+{
+  "title": "Deep Ventures - Goopy",
+  "description": "Discover a rare, gooey feature of deep cold caverns, and free the freindly creatures hibernating in the rock.",
+  "icon": {
+    "item": "gipples_galore:amoebalith"
+  },
+  "chapter": "exploration",
+  "order": 0,
+  "objectives": [
+    {
+      "type": "questlog:block_mine",
+      "block": "gipples_galore:hibernating_gipple",
+      "required_amount": 1
+    }
+  ],
+  "requirements": [],
+  "rewards": []
+}

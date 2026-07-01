@@ -1,0 +1,35 @@
+{
+  "title": "Brush it off!",
+  "description": "Craft a brush better than copper.",
+  "icon": {
+    "item": "minecraft:brush"
+  },
+  "chapter": "exploration",
+  "order": 5,
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "item": "betterarcheology:iron_brush",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "betterarcheology:diamond_brush",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "betterarcheology:netherite_brush",
+          "required_amount": 1
+        }
+      ],
+      "name": "Complete One:",
+      "required_amount": 1
+    }
+  ],
+  "requirements": [],
+  "rewards": []
+}

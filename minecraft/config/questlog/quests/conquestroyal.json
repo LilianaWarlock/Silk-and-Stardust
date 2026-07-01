@@ -1,0 +1,40 @@
+{
+  "title": "Toppling the Crown",
+  "description": "Defeat a Royal Variant of a familiar enemy.",
+  "icon": {
+    "item": "royalvariations:spiritual_crown"
+  },
+  "chapter": "conquest",
+  "order": 0,
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "name": "Defeat a Royal Variant",
+      "required_amount": 1,
+      "objectives": [
+        {
+          "type": "questlog:entity_kill",
+          "entity": "royalvariations:royal_creeper",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:entity_kill",
+          "entity": "royalvariations:royal_skeleton",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:entity_kill",
+          "entity": "royalvariations:royal_enderman",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:entity_kill",
+          "entity": "royalvariations:royal_zombie",
+          "required_amount": 1
+        }
+      ]
+    }
+  ],
+  "requirements": [],
+  "rewards": []
+}
