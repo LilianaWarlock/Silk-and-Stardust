@@ -20,7 +20,7 @@
   "enableGlare": true,
   "enableGlareSpawn": true,
   "enableGlareGriefing": true,
-  "glareSpawnWeight": 4,
+  "glareSpawnWeight": 2,
   "glareSpawnMinGroupSize": 1,
   "glareSpawnMaxGroupSize": 1,
   "enableIceologer": true,
