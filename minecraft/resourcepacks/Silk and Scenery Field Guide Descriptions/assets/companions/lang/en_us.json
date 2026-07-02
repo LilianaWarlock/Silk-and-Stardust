@@ -17,6 +17,12 @@
   "fieldguide.entity.companions.shade_sword.description": "Summoned forth by using the Shade Sword Altar and a Shadow Bell. It encircles and slashed at enemies, before eventually being cast back from whence it came.",
   "fieldguide.entity.companions.shade_maw.description": "Summoned forth by using the Shade Maw Altar and a Shadow Bell. It has a toothy chomp, but primarily provides assistance through terrestrial and aquatic transport. Eventually, it will be cast back from whence it came. ",
   "fieldguide.entity.companions.cornelius.description": "Cornelius is a ribbit with dreams of usurping casino empires. You can find him in swamps and tame him by slaying a bee in his sight. Give him Copper, Nether or End coins to allow him to gamble with the frog gods, summoning different creatures to assist you. He's also a solid 6/10 blackjack dealer.",
+  "fieldguide.entity.companions.bubble_frog.description": "A helpful frog summoned by Cornelious.",
+  "fieldguide.entity.companions.ember_pole.description": "A helpful frog summoned by Cornelious.",
+  "fieldguide.entity.companions.ender_frog.description": "A helpful frog summoned by Cornelious.",
+  "fieldguide.entity.companions.firework_toad.description": "A helpful frog summoned by Cornelious.",
+  "fieldguide.entity.companions.nether_bullfrog.description": "A helpful frog summoned by Cornelious.",
+  "fieldguide.entity.companions.sacred_pontiff.description": "A religious figure lurking deep in jungles, the Sacred Pontiff is willing to end anyone that threatens to steal his ancient and imbued Relic Gold.",
   "fieldguide.entity.companions.cloak.description": "A tamed remnant of the Sacred Pontiff, the Cloak launch homing, explosive stars at enemies. It can also emenate an aura of invisibility to beguile threats.",
   "fieldguide.entity.companions.mankh.description": "A small imitation of the Sacred Pontiff, the Mankh generates flaming rings to scorch nearby foes and can fire melting beams with it's white hot stare."
 }

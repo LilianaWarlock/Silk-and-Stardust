@@ -1,4 +1,5 @@
 {
+  "fieldguide.entity.wan_ancient_beasts.paleontologist.description": "A Villager profession, uniquely qualified for paleontological digs.",
   "fieldguide.entity.wan_ancient_beasts.glider.description": "A Passive beast that can be tamed with pufferfish and bred with Salmon. \n\nWhen they hear music, they dance with aplomb shedding vibrant feathers.",
   "fieldguide.entity.wan_ancient_beasts.eater.description": "An ancient apex predator, this neutral beast will attack and chase away any potential threat with it\u0027s iron jaws.\n\nIt hunts animals, scares mobs, and will sometimes drop it\u0027s teeth and become enraged after feeding. Its roars are paralyzing.",
   "fieldguide.entity.wan_ancient_beasts.crusher.description": "An agitatable neutral beast, Crushers will headbutt anything they can, which is everything. Using a chisel can help remove a Spike, at the cost of creating a very angry Crusher....\n\nIt can be bred with Hanging Roots.",
