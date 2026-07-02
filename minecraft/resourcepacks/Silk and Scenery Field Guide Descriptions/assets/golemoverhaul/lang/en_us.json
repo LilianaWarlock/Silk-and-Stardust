@@ -10,5 +10,7 @@
   "fieldguide.entity.golemoverhaul.honey_golem.description": "A beehive given magical life. This golem will fire sticky honey at hostile mobs, and just like a beehive, will contain and defend bees. \n\nYou can even harvest honey from them!",
   "fieldguide.entity.golemoverhaul.candle_golem.description": "A candle given magical life. They can sit and provide ambience, or stand and be lit ablaze, shooting fire at mobs until their wax runs dry.\n\nThey can then be restored with honeycomb!",
   "fieldguide.entity.golemoverhaul.hay_golem.red.description": "A bundle of hay given magical life. They spawn in villages, are entirely passive, and prevent crops from being trampled around them!",
+  "fieldguide.entity.golemoverhaul.hay_golem.description": "A bundle of hay given magical life. They spawn in villages, are entirely passive, and prevent crops from being trampled around them!",
+  "fieldguide.entity.golemoverhaul.terracotta_golem.description": "A lump of terracotta given magical life. These golems appear naturally in badlands and attack hostile mobs with projectiles.\n\nYou can make your own out of Clay, or give one a cactus or dead bush to improve it\u0027s attack power.\n\n",
   "fieldguide.entity.golemoverhaul.hay_golem.green.description": "A bundle of hay given magical life. They spawn in villages, are entirely passive, and prevent crops from being trampled around them!"
 }

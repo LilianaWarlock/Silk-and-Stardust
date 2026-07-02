@@ -1,0 +1,16 @@
+{  
+  "fieldguide.entity.netherman.azazel.description": "A formerly sealed spirit of the sun and hellfire, Azazel has returned to plunge the Nether into even greater peril.",
+  "fieldguide.entity.netherman.believer.description": "A devoted follower of Azazel.",
+  "fieldguide.entity.netherman.blacksmith.description": "A devoted follower of Azazel. Creates unique armaments for their god.",
+  "fieldguide.entity.netherman.doctor.description": "A devoted follower. Heals in the name of Azazel.",
+  "fieldguide.entity.netherman.ghastly.description": "A creature that can sniff out Azazel's influence.",
+  "fieldguide.entity.netherman.gilded_golem.description": "A block of gold given unholy life. As the power of Azazel imbued it, it began to melt perpetually.",
+  "fieldguide.entity.netherman.guardian.description": "A devoted follower of Azazel. Protects the city at all costs.",
+  "fieldguide.entity.netherman.manipulator.description": "A devoted follower of Azazel. Spreads the word around the Nether.",
+  "fieldguide.entity.netherman.piglin_prisoner.description": "A piglin, taken as prisoner in the name of Azazel.",
+  "fieldguide.entity.netherman.statue_bossunit.description": "A massive effigy to Azazel.",
+  "fieldguide.entity.netherman.statue_entity.description": "A statue.",
+  "fieldguide.entity.netherman.trader.description": "A devoted follower of Azazel, willing to part with resources to collect offerings in their name.",
+  "fieldguide.entity.netherman.villager_prisoner.description": "A prisoner, taken in the name of Azazel.",
+  "fieldguide.entity.netherman.welcomer.description": "A devoted follower of Azazel, guiding you into their majestic city."
+  }
