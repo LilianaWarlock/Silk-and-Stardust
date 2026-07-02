@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "birch_forest",
+    "flower_forest",
+    "old_growth_birch_forest"
+  ],
+  "spawners": {
+    "type": "luminous_butterflies:yellow_swallowtail",
+    "weight": 50,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

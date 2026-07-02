@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "crimson_forest",
+  "spawners": {
+    "type": "luminous_butterflies:glowstone_morpho",
+    "weight": 2,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

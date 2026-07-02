@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "dark_forest",
+    "flower_forest"
+  ],
+  "spawners": {
+    "type": "luminous_butterflies:rustypage",
+    "weight": 50,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}
