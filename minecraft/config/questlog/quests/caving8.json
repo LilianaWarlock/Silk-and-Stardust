@@ -1,0 +1,18 @@
+{
+  "title": "Deep Ventures - Jagged",
+  "description": "Encounter a cavern covered in dripstone, the result of millions of years of natural process.",
+  "icon": {
+    "item": "minecraft:dripstone_block"
+  },
+  "chapter": "exploration",
+  "order": 8,
+  "objectives": [
+    {
+      "type": "questlog:visit_biome",
+      "biome": "minecraft:dripstone_caves",
+      "required_amount": 1
+    }
+  ],
+  "requirements": [],
+  "rewards": []
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Deep Ventures - Verdant",
+  "description": "Find a Lush, Cave, with it's many wonderful creatures.",
+  "icon": {
+    "item": "minecraft:moss_block"
+  },
+  "chapter": "exploration",
+  "order": 7,
+  "objectives": [
+    {
+      "type": "questlog:visit_biome",
+      "biome": "minecraft:lush_caves",
+      "required_amount": 1
+    }
+  ],
+  "requirements": [],
+  "rewards": []
+}
