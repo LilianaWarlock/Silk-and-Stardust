@@ -1,0 +1,6 @@
+{
+  "values": [
+    "#minecraft:has_structure/desert_pyramid",
+    { "required": false, "id": "darkerdepths:sandy_catacombs" }
+  ]
+}
