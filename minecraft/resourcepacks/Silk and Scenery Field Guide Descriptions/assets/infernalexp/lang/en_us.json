@@ -1,0 +1,9 @@
+{
+  "fieldguide.block.infernalexp.dullthorns.description": "Spiny thorns that inject luminosity straight into your veins. Beware.",
+  "fieldguide.block.infernalexp.luminous_fungus.description": "A mushroom that glows when touched. On contact, it will also make nearby entities glow, attracting attention.",
+  "fieldguide.entity.infernalexp.blindsight.description": "A blind, hostile mob with a whiplike tongue. It is the natural predator of Glowsquitos, and anything glowing. It's tongue is stretchy and sturdy, making it an ideal crafting material.",
+  "fieldguide.entity.infernalexp.glowsilk_moth.description": "A small passive moth. It drops unique dust and silk, perfect for crafting.",
+  "fieldguide.entity.infernalexp.glowsquito.description": "A neutral pest of the Glowstone Canyon, the Glowsquito loves sapping energy out of all things glowing, even you. It is fond of Shroomlight Juice, using it to breed.",
+  "fieldguide.entity.infernalexp.voline.description": "A small, hostile mob that spawns in small groups. As it ravenously consumes magma cubes or fire-resistant mobs, it will become large and slow. When burnt out, feeding them gold may result in unique effects...",
+  "fieldguide.entity.infernalexp.warpbeetle.description": "A passive beetle that will teleport away when it senses danger."
+}

@@ -1,4 +1,6 @@
 {
+  "fieldguide.block.aether.golden_oak_sapling.description": "The sapling of a Golden Oak tree.",
+  "fieldguide.block.aether.skyroot_sapling.description": "The sapling of a Skyroot tree.",
   "fieldguide.aether.fire_minion.description": "Fire Minions are small imitations of the great Sun Spirit. While not individually dangerous, they can quickly ignite and overwhelm you. Make sure to bring fire resistance!",
   "fieldguide.aether.white_flower.description": "White Flowers are endemic to the Aether, and are infused with the lands' great bounty of wind energy. Their petals are lighter than air, and they are rumored to be sewn from the great Aerwhales...",
   "fieldguide.aether.whirlwind.description": "It's hecking wimbdy.",
@@ -21,5 +23,9 @@
   "fieldguide.aether.zephyr.description": "Zephyrs are hostile flying clouds that call the Aether home. They fire disruptive gusts at anything they deem threats, and stay safe by hovering in the air. Close the gap and knock'em down!",
   "fieldguide.aether.mimic.description": "No Skyroot Chest is truly safe when Mimics are about. These opportunistic creatures are hungry, angry and perpetually bloodthirsty. Beware of opening chests, for you might find the loot can stare right back...",
   "fieldguide.aether.aechor_plant.description": "Archor Plants are venomous plants with a penchant for pricking any bystander with needles. Moa are resistant to this venom, and can kill and eat these sentient plants without difficulty, even coveting their petals.",
-  "fieldguide.aether.golden_oak_tree.description": "Golden Oaks are Skyroot trees which contain glistening Golden Amber. When broken with an Axe, they drop Skyroot Logs, and if the Axe is Zanite or Gravitite, they will drop their Golden Amber."
+  "fieldguide.aether.golden_oak_tree.description": "Golden Oaks are Skyroot trees which contain glistening Golden Amber. When broken with an Axe, they drop Skyroot Logs, and if the Axe is Zanite or Gravitite, they will drop their Golden Amber.",
+  
+  "fieldguide.entity.aether.slider.description": "A sentient, malicious and violent block, only harmable with Picaxes. It's only method of attack is sliding into and crushing foes, becoming faster as it gets low on health.",
+  "fieldguide.entity.aether.sun_spirit.description": "A malevolent fraction of the sun that has made a domain in the Aether. In order to defeat it, you must deflect it's occasional icy projectiles back at it, freezing it and leaving it vulnerable to attacks.",
+  "fieldguide.entity.aether.valkyrie_queen.description": "Queen of the Valkyries, she will only battle you when you have conquered 10 of her underlings. She is nimble, expertly trained in bladed combat, and willing to do anthing to win a battle of honor."
 }

@@ -1,0 +1,16 @@
+{
+  "fieldguide.block.netherexp.crimson_sprouts.description": "A plant native to Crimson Forests.",
+  "fieldguide.block.netherexp.damp_siltmarram.description": "???",
+  "fieldguide.block.netherexp.dry_siltmarram.description": "???",
+  "fieldguide.block.netherexp.moist_siltmarram.description": "???",
+  "fieldguide.block.netherexp.sorrowsquash_stem.description": "A stem bearing a Sorrowsquash.",
+  "fieldguide.block.netherexp.sorrowsquash_stem_plant.description": "A Sorrowsquash, unique to soul sand valleys.",
+  "fieldguide.block.netherexp.soul_torchflower.description": "Ancient plants, touched by the souls of the Nether.",
+  "fieldguide.block.netherexp.soul_torchflower_crop.description": "Ancient plants, touched by the souls of the Nether.",
+  "fieldguide.block.netherexp.warped_wart.description": "A plant native to Warped Forests.",
+  "fieldguide.entity.netherexp.apparition.description": "A hostile mob with many different temperaments. When it kills a mob, it will fuse with it and gain it's powers. Which mobs it targets are based on temperament.",
+  "fieldguide.entity.netherexp.banshee.description": "A Blaze possesed by an Apparition.",
+  "fieldguide.entity.netherexp.ecto_slab.description": "A Magma Cube possesed by an Apparition.",
+  "fieldguide.entity.netherexp.vessel.description": "A Skeleton possessed by an Apparition.",
+  "fieldguide.entity.netherexp.wisp.description": "Passive mobs released from Soul Sand or Apparitions. They can be transported in bottles, and have honeycomb or name tags used on them to bind them."
+}
