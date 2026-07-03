@@ -1,13 +1,10 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": [
-    "jungle",
-    "sparse_jungle"
-  ],
+  "biomes": ["jungle", "sparse_jungle"],
   "spawners": {
     "type": "luminous_butterflies:birdwing",
-    "weight": 50,
+    "weight": 25,
     "minCount": 1,
-    "maxCount": 3
+    "maxCount": 2
   }
 }

@@ -1,13 +1,10 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": [
-    "snowy_plains",
-    "snowy_taiga"
-  ],
+  "biomes": ["snowy_plains", "snowy_taiga"],
   "spawners": {
     "type": "luminous_butterflies:mourning_cloak",
-    "weight": 50,
+    "weight": 25,
     "minCount": 1,
-    "maxCount": 3
+    "maxCount": 2
   }
 }

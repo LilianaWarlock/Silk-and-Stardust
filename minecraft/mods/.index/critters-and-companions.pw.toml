@@ -1,18 +1,18 @@
-filename = 'crittersandcompanions-neoforge-1.21.1-2.4.0.jar'
+filename = 'crittersandcompanions-neoforge-1.21.1-2.4.1.jar'
 name = 'Critters and Companions'
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.21.1-2.4.0'
+x-prismlauncher-version-number = '1.21.1-2.4.1'
 
 [download]
-hash = '96c886d1239da5cbcaf71fb943edc9e707dff8e10683b54adabc5f28ecf4f9e54c8df33b6b4bbbb36463c6b38a05505255ed1a36f32f52bf4e5859261a41146f'
+hash = '82a1b2d20b4f188e857507aadb6718db8f89e8b6eb908a48f7f552e823e4140130a09dde3535c22991f009b80dd0a495c530a116501fb2389d1062949b921de0'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/Yd4wb5wZ/versions/MMFSVRkt/crittersandcompanions-neoforge-1.21.1-2.4.0.jar'
+url = 'https://cdn.modrinth.com/data/Yd4wb5wZ/versions/hMjp6aKn/crittersandcompanions-neoforge-1.21.1-2.4.1.jar'
 
 [update.modrinth]
 mod-id = 'Yd4wb5wZ'
-version = 'MMFSVRkt'
+version = 'hMjp6aKn'

@@ -3,7 +3,7 @@
   "biomes": "lush_caves",
   "spawners": {
     "type": "luminous_butterflies:emerald_swallowtail",
-    "weight": 25,
+    "weight": 13,
     "minCount": 1,
     "maxCount": 1
   }

@@ -1,14 +1,10 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": [
-    "savanna",
-    "savanna_plateau",
-    "windswept_savanna"
-  ],
+  "biomes": ["savanna", "savanna_plateau", "windswept_savanna"],
   "spawners": {
     "type": "luminous_butterflies:charaxes",
-    "weight": 50,
+    "weight": 25,
     "minCount": 1,
-    "maxCount": 3
+    "maxCount": 2
   }
 }

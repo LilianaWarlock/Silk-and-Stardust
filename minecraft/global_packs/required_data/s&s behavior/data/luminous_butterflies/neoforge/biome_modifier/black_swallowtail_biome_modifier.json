@@ -1,13 +1,10 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": [
-    "flower_forest",
-    "forest"
-  ],
+  "biomes": ["flower_forest", "forest"],
   "spawners": {
     "type": "luminous_butterflies:black_swallowtail",
-    "weight": 50,
+    "weight": 25,
     "minCount": 1,
-    "maxCount": 3
+    "maxCount": 2
   }
 }
