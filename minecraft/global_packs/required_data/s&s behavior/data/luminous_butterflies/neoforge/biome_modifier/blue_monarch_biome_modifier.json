@@ -1,13 +1,9 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": [
-    "birch_forest",
-    "old_growth_birch_forest",
-    "flower_forest"
-  ],
+  "biomes": ["birch_forest", "old_growth_birch_forest", "flower_forest"],
   "spawners": {
     "type": "luminous_butterflies:blue_monarch",
-    "weight": 15,
+    "weight": 7,
     "minCount": 1,
     "maxCount": 1
   }

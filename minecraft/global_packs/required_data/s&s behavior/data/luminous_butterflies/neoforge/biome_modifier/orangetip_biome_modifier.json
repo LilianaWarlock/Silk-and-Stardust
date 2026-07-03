@@ -1,12 +1,9 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": [
-    "mangrove_swamp",
-    "swamp"
-  ],
+  "biomes": ["mangrove_swamp", "swamp"],
   "spawners": {
     "type": "luminous_butterflies:orangetip",
-    "weight": 15,
+    "weight": 7,
     "minCount": 1,
     "maxCount": 1
   }

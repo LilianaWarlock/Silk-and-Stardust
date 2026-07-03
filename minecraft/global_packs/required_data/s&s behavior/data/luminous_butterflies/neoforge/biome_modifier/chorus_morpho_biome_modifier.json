@@ -1,12 +1,9 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": [
-    "end_highlands",
-    "end_midlands"
-  ],
+  "biomes": ["end_highlands", "end_midlands"],
   "spawners": {
     "type": "luminous_butterflies:chorus_morpho",
-    "weight": 10,
+    "weight": 7,
     "minCount": 1,
     "maxCount": 1
   }
