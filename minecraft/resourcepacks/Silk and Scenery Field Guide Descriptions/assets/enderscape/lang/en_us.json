@@ -1,0 +1,23 @@
+{
+  "fieldguide.block.enderscape.alluring_magnia_sprout.description": "",
+  "fieldguide.block.enderscape.bulb_flower.description": "",
+  "fieldguide.block.enderscape.celestial_chanterelle.description": "Golden plants native to Celestial Groves.",
+  "fieldguide.block.enderscape.celestial_growth.description": "Golden plants native to Celestial Groves.",
+  "fieldguide.block.enderscape.chorus_sprouts.description": "The young sprouts left behind by chorus trees.",
+  "fieldguide.block.enderscape.corrupt_growth.description": "A plant found in Corrupt Barrens. Void energy permates through it.",
+  "fieldguide.block.enderscape.dry_end_growth.description": "Brittle growths that appear on end stone.",
+  "fieldguide.block.enderscape.murublight_chanterelle.description": "",
+  "fieldguide.block.enderscape.murublight_shelf.description": "",
+  "fieldguide.block.enderscape.repulsive_magnia_sprout.description": "",
+  "fieldguide.block.enderscape.veiled_sapling.description": "The sapling of a veiled tree.",
+  "fieldguide.block.enderscape.veiled_tree.description": "A tree with impossibly light leaves and vines that float upwards.",
+  "fieldguide.block.enderscape.veiled_vines.description": "Vines, growing upward from a veiled tree.",
+  "fieldguide.block.enderscape.wisp_flower.description": "A plant native to the veiled woodlands. It blooms, despite everything.",
+  "fieldguide.block.enderscape.wisp_growth.description": "A plant native to the veiled woodlands. If it weren't rooted to the ground, it would float into the void.",
+  "fieldguide.block.enderscape.wisp_sprouts.description": "A small plant native to the veiled woodlands.",
+
+  "fieldguide.entity.enderscape.drifter.description": "A passive, bouncy and gooey jellyfish, distant relative of the Gipple. Harvest it's jelly with a glass bottle, breed it with Chorus Fruit or Flanger Berries and bounce on it's head like a trampoline!",
+  "fieldguide.entity.enderscape.driftlet.description": "A baby drifter, floating in the void.",
+  "fieldguide.entity.enderscape.rubblemite.description": "An Endermite that has found a home, rubblemites are hostile creatures that dash about to attack. Their shell is unusually strong.",
+  "fieldguide.entity.enderscape.rustle.description": "A small passive mob with poor eyesight and stringy fur. Shear them for string, and breed them with Murubright Shelves. They are very sleepy, and like looking for comfy places to rest."
+}
