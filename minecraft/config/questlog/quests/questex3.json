@@ -6,12 +6,6 @@
   "icon": {
     "item": "waystones:warp_stone"
   },
-  "requirements": [
-    {
-      "type": "questlog:quest_complete",
-      "quest": "questlog:questmain4"
-    }
-  ],
   "objectives": [
     {
       "type": "questlog:item_craft",
@@ -25,5 +19,12 @@
       "icon": "waystones:waystone",
       "block": "#waystones:waystones"
     }
-  ]
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questmain4"
+    }
+  ],
+  "rewards": []
 }

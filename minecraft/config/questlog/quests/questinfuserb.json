@@ -1,0 +1,24 @@
+{
+  "title": "Latent Power - Vol. 2",
+  "description": "Upgrade your enchanting infuser with netherite to gain complete control over enchanting.",
+  "icon": {
+    "item": "enchantinginfuser:advanced_enchanting_infuser"
+  },
+  "chapter": "combat",
+  "sort_order": 0,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "item": "enchantinginfuser:advanced_enchanting_infuser",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questinfusera",
+      "required_amount": 1
+    }
+  ],
+  "rewards": []
+}

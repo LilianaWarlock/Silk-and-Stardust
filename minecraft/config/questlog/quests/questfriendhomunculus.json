@@ -5,20 +5,25 @@
     "item": "knightlib:homunculus"
   },
   "chapter": "questlog:friends",
-  "order": 2,
   "objectives": [
     {
       "type": "questlog:item_obtain",
       "item": "knightlib:homunculus",
       "required_amount": 1
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "knightlib:filled_grail",
+      "required_amount": 1
     }
   ],
-  "requirements": [
+  "rewards": [],
+  "sort_order": 0,
+  "prerequisites": [
     {
       "type": "questlog:quest_complete",
       "quest": "questlog:questfriend1",
       "required_amount": 1
     }
-  ],
-  "rewards": []
+  ]
 }

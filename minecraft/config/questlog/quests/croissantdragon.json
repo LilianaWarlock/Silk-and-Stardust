@@ -1,0 +1,62 @@
+{
+  "title": "Happy Dough Lucky",
+  "description": "Use a Homunculus to make Big Bread and bake it in a Soul Furnace to create a Croissant Egg.\n\nWhen the egg hatches, use milk to grow and tame your new friend! Equip it with armor as well to befuddle foes.",
+  "icon": {
+    "item": "companions:croissant_egg_block"
+  },
+  "chapter": "friends",
+  "sort_order": 10,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "item": "companions:big_bread",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:entity_tame",
+      "entity": "companions:croissant_dragon",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:or",
+      "name": "Bake it some armor!",
+      "required_amount": 1,
+      "objectives": [
+        {
+          "type": "questlog:item_craft",
+          "item": "companions:croissant_dragon_strawberry_armor",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_craft",
+          "item": "companions:croissant_dragon_chocolate_armor",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_craft",
+          "item": "companions:croissant_dragon_vanilla_armor",
+          "required_amount": 1
+        }
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questfriendhomunculus",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:bread",
+      "count": 4
+    },
+    {
+      "type": "questlog:item",
+      "item": "knightlib:small_essence",
+      "count": 8
+    }
+  ]
+}
