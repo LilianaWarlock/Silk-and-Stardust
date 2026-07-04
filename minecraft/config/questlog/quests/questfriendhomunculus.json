@@ -5,6 +5,7 @@
     "item": "knightlib:homunculus"
   },
   "chapter": "questlog:friends",
+  "order": 0,
   "objectives": [
     {
       "type": "questlog:item_obtain",
@@ -17,13 +18,18 @@
       "required_amount": 1
     }
   ],
-  "rewards": [],
-  "sort_order": 0,
-  "prerequisites": [
+  "requirements": [
     {
       "type": "questlog:quest_complete",
       "quest": "questlog:questfriend1",
       "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "knightlib:small_essence",
+      "count": 6
     }
   ]
 }

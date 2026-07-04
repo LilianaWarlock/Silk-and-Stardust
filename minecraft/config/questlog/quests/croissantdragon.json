@@ -5,7 +5,7 @@
     "item": "companions:croissant_egg_block"
   },
   "chapter": "friends",
-  "sort_order": 10,
+  "order": 0,
   "objectives": [
     {
       "type": "questlog:item_craft",
@@ -40,13 +40,7 @@
       ]
     }
   ],
-  "prerequisites": [
-    {
-      "type": "questlog:quest_complete",
-      "quest": "questlog:questfriendhomunculus",
-      "required_amount": 1
-    }
-  ],
+  "requirements": [],
   "rewards": [
     {
       "type": "questlog:item",

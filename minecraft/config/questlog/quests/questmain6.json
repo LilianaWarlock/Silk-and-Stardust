@@ -5,6 +5,7 @@
     "item": "minecraft:enchanting_table"
   },
   "chapter": "main",
+  "order": 0,
   "objectives": [
     {
       "type": "questlog:item_craft",
@@ -17,12 +18,12 @@
       "name": "Enchant any Item"
     }
   ],
-  "rewards": [],
-  "sort_order": 0,
-  "prerequisites": [
+  "requirements": [
     {
       "type": "questlog:quest_complete",
-      "quest": "questlog:questmain5"
+      "quest": "questlog:questmain5",
+      "required_amount": 1
     }
-  ]
+  ],
+  "rewards": []
 }
