@@ -17,7 +17,13 @@
       "item": "knightlib:great_chalice"
     }
   ],
-  "rewards": [],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "knightlib:small_essence",
+      "count": 4
+    }
+  ],
   "sort_order": 0,
   "prerequisites": [
     {

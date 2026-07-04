@@ -1,0 +1,67 @@
+{
+  "title": "Quite a Journey for Tea - Vol. 4",
+  "description": "Using everything you know, make a ceramic cup, fill it with water, and craft tea.",
+  "icon": {
+    "item": "bountifulfares:green_tea_bottle"
+  },
+  "chapter": "farming",
+  "sort_order": 15,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "item": "bountifulfares:jar",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:or",
+      "name": "Craft Tea",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "item": "bountifulfares:green_tea_bottle",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "bountifulfares:black_tea_bottle",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "bountifulfares:chamomile_tea_bottle",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "bountifulfares:honeysuckle_tea_bottle",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "bountifulfares:bellflower_tea_bottle",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "bountifulfares:torchflower_tea_bottle",
+          "required_amount": 1
+        }
+      ],
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "bountifulfares:ceramic_clay",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 5,
+      "levels": true
+    }
+  ]
+}

@@ -5,7 +5,6 @@
     "item": "minecraft:brush"
   },
   "chapter": "exploration",
-  "order": 5,
   "objectives": [
     {
       "type": "questlog:or",
@@ -30,6 +29,7 @@
       "required_amount": 1
     }
   ],
-  "requirements": [],
-  "rewards": []
+  "rewards": [],
+  "sort_order": 0,
+  "prerequisites": []
 }

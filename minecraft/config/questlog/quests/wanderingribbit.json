@@ -5,7 +5,6 @@
     "item": "ribbits:umbrella_leaf"
   },
   "chapter": "exploration",
-  "order": 6,
   "objectives": [
     {
       "type": "questlog:entity_approach",
@@ -20,19 +19,20 @@
       "required_amount": 1
     }
   ],
-  "requirements": [
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "name": "10 Amethyst",
+      "item": "minecraft:amethyst_shard",
+      "count": 10
+    }
+  ],
+  "sort_order": 0,
+  "prerequisites": [
     {
       "type": "questlog:quest_complete",
       "quest": "questlog:new_quest_868ff21c",
       "required_amount": 1
-    }
-  ],
-  "rewards": [
-    {
-      "type": "questlog:item",
-      "name": "10 Emeralds",
-      "item": "minecraft:emerald",
-      "count": 10
     }
   ]
 }

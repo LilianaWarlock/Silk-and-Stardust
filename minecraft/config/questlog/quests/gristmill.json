@@ -1,0 +1,30 @@
+{
+  "title": "Quite a Journey for Tea - Vol. 2",
+  "description": "Acquire a Gristmill, used to grind materials into other materials. Useful for making Tea and extracting extra resources out of ore blocks.\n\nYou can craft one with Bricks and Iron.",
+  "icon": {
+    "item": "bountifulfares:flour"
+  },
+  "chapter": "farming",
+  "sort_order": 13,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "bountifulfares:gristmill",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:wheat",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "bountifulfares:flour",
+      "count": 8
+    }
+  ]
+}

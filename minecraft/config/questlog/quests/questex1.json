@@ -12,5 +12,7 @@
       "icon": "minecraft:weathered_copper",
       "structure": "trial_marker:trial_marker"
     }
-  ]
+  ],
+  "prerequisites": [],
+  "rewards": []
 }

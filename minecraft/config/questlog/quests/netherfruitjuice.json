@@ -42,5 +42,11 @@
       "required_amount": 1
     }
   ],
-  "rewards": []
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 2,
+      "levels": true
+    }
+  ]
 }

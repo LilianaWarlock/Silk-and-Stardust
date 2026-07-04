@@ -1,0 +1,35 @@
+{
+  "title": "Quite a Journey for Tea - Vol. 3",
+  "description": "Using a Gristmill, grind Diorite, Granite or Andesite into Feldspar, and use it to make Ceramic Clay.",
+  "icon": {
+    "item": "bountifulfares:ceramic_clay"
+  },
+  "chapter": "farming",
+  "sort_order": 14,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "bountifulfares:feldspar",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "bountifulfares:ceramic_clay",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "bountifulfares:gristmill",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "bountifulfares:feldspar",
+      "count": 16
+    }
+  ]
+}

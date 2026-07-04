@@ -5,7 +5,6 @@
     "item": "minecraft:wheat_seeds"
   },
   "chapter": "questlog:farming",
-  "order": 0,
   "objectives": [
     {
       "type": "questlog:or",
@@ -41,9 +40,11 @@
           "type": "questlog:block_place",
           "block": "minecraft:pumpkin_stem"
         }
-      ]
+      ],
+      "required_amount": 1
     }
   ],
-  "requirements": [],
-  "rewards": []
+  "rewards": [],
+  "sort_order": 0,
+  "prerequisites": []
 }

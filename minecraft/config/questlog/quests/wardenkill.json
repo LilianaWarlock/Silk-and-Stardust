@@ -1,0 +1,24 @@
+{
+  "title": "Loudly Lurking",
+  "description": "Describe your quest here...",
+  "icon": {
+    "item": "minecraft:warden_spawn_egg"
+  },
+  "chapter": "conquest",
+  "sort_order": 5,
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "entity": "minecraft:warden",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:visit_biome",
+      "biome": "minecraft:deep_dark",
+      "required_amount": 1
+    }
+  ],
+  "rewards": []
+}

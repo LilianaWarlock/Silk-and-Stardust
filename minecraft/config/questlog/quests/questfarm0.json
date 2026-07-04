@@ -1,7 +1,6 @@
 {
   "title": "A Cozy Flame",
   "chapter": "questlog:farming",
-  "include_in_main": true,
   "description": "Place a Campfire. If placed on a Hay Bale, the increased smoke keeps monsters away.",
   "icon": {
     "item": "minecraft:campfire"
@@ -12,6 +11,15 @@
       "name": "Place a Campfire",
       "icon": "minecraft:campfire",
       "block": "minecraft:campfire"
+    }
+  ],
+  "sort_order": 0,
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:coal",
+      "count": 8
     }
   ]
 }

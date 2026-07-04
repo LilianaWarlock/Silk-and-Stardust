@@ -1,0 +1,24 @@
+{
+  "title": "Fishmonger",
+  "description": "Craft a fishing rod.",
+  "icon": {
+    "item": "minecraft:fishing_rod"
+  },
+  "chapter": "farming",
+  "sort_order": 20,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "item": "minecraft:fishing_rod",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "starcatcher:starcatcher_guide",
+      "count": 1
+    }
+  ]
+}

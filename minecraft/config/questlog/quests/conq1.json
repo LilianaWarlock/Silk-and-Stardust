@@ -16,9 +16,36 @@
   "sort_order": 0,
   "prerequisites": [
     {
-      "type": "questlog:visit_structure",
-      "structure": "minecraft:ocean_monument",
-      "required_amount": 1
+      "type": "questlog:or",
+      "name": "Visit an Ocean",
+      "required_amount": 1,
+      "objectives": [
+        {
+          "type": "questlog:visit_biome",
+          "biome": "minecraft:ocean",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:visit_biome",
+          "biome": "minecraft:frozen_ocean",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:visit_biome",
+          "biome": "minecraft:deep_ocean",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:visit_biome",
+          "biome": "minecraft:deep_lukewarm_ocean",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:visit_biome",
+          "biome": "minecraft:deep_cold_ocean",
+          "required_amount": 1
+        }
+      ]
     }
   ]
 }

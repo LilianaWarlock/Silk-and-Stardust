@@ -1,0 +1,62 @@
+{
+  "title": "Beautiful Aromas",
+  "description": "Using honeycomb, string, and a special tea ingredient, make a candle that has a passive magical effect.",
+  "icon": {
+    "item": "bountifulfares:green_tea_candle"
+  },
+  "chapter": "farming",
+  "sort_order": 16,
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "name": "Acquire a Candle",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "item": "bountifulfares:green_tea_candle",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "bountifulfares:black_tea_candle",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "bountifulfares:walnut_candle",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "bountifulfares:torchflower_candle",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "bountifulfares:honeysuckle_candle",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "bountifulfares:bellflower_candle",
+          "required_amount": 1
+        }
+      ],
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:honeycomb",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:honeycomb",
+      "count": 12
+    }
+  ]
+}

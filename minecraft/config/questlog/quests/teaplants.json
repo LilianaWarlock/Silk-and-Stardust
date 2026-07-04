@@ -1,0 +1,51 @@
+{
+  "title": "Quite a Journey for Tea - Vol. 1",
+  "description": "Find one of many plants around the world that can be processed into a wonderful tea.",
+  "icon": {
+    "item": "bountifulfares:tea_leaves"
+  },
+  "chapter": "farming",
+  "sort_order": 12,
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "name": "Acquire Tea Ingredients",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "item": "bountifulfares:honeysuckle",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "bountifulfares:violet_bellflower",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "bountifulfares:chamomile_flowers",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "minecraft:torchflower",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "bountifulfares:tea_leaves",
+          "required_amount": 1
+        }
+      ],
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 1,
+      "levels": true
+    }
+  ]
+}
