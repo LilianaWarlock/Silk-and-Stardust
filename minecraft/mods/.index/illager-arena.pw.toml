@@ -1,0 +1,18 @@
+filename = 'illager_arena-1.0.1-neoforge-1.21.1.jar'
+name = 'Illager Arena'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1'
+
+[download]
+hash = 'fc7649394a83b2cdd225992c8a5cd67930e7411d0139298ce28d6af75f139bd999194c41cb15d612fa160b54a7672e2f11859e4e593b6ba2744e4c00c0a379f9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/6Eq86tCy/versions/CdFirdAs/illager_arena-1.0.1-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = '6Eq86tCy'
+version = 'CdFirdAs'
