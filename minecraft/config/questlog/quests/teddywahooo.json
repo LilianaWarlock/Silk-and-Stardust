@@ -1,0 +1,26 @@
+{
+  "title": "Teddy?",
+  "description": "You've stumbled upon something plushy and adorable, that has more to it than it may seem.\n\nTake a needle. It may be of use.",
+  "icon": {
+    "item": "companions:needle"
+  },
+  "chapter": "friends",
+  "sort_order": 0,
+  "hidden": true,
+  "objectives": [
+    {
+      "type": "questlog:visit_structure",
+      "name": "Find Teddy's Prison",
+      "structure": "companions:companions_teddytower",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "companions:needle",
+      "count": 1
+    }
+  ]
+}

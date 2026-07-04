@@ -1,11 +1,10 @@
 {
-  "title": "A Peaceful Farm - Vol 2.",
-  "description": "Shear a Sheep for its Wool.",
+  "title": "Fluffy Fuzzy Fur - Vol 1.",
+  "description": "Collect wool, by shearing a sheep, or through more unsavory means.",
   "icon": {
     "item": "minecraft:white_wool"
   },
   "chapter": "questlog:farming",
-  "order": 0,
   "objectives": [
     {
       "type": "questlog:item_obtain",
@@ -13,11 +12,7 @@
       "required_amount": 1
     }
   ],
-  "requirements": [
-    {
-      "type": "questlog:quest_complete",
-      "quest": "questlog:questfarm1b"
-    }
-  ],
-  "rewards": []
+  "rewards": [],
+  "sort_order": 0,
+  "prerequisites": []
 }

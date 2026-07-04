@@ -1,7 +1,7 @@
 # Don't change this! Version used to track needed updates.
 version = 0
 foxTamingItems = [
-    "minecraft:glow_berries"
+    "minecraft:raw_chicken"
 ]
 foxBreedingItems = [
     "minecraft:sweet_berries"

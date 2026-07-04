@@ -1,0 +1,30 @@
+{
+  "title": "Enchanting Savant - Vol. 1",
+  "description": "Upgrade your enchanting table, taking control of the magic within.",
+  "icon": {
+    "item": "enchantinginfuser:enchanting_infuser"
+  },
+  "chapter": "combat",
+  "sort_order": 8,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "item": "enchantinginfuser:enchanting_infuser",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:enchanting_table",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 5,
+      "levels": true
+    }
+  ]
+}

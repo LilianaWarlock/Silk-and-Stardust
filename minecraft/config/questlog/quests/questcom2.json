@@ -12,5 +12,13 @@
       "name": "Craft a Test Dummy",
       "item": "dummmmmmy:target_dummy"
     }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 1,
+      "levels": true
+    }
   ]
 }

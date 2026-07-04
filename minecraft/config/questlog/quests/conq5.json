@@ -4,8 +4,7 @@
   "icon": {
     "item": "minecraft:prismarine_crystals"
   },
-  "chapter": "combat",
-  "order": 5,
+  "chapter": "exploration",
   "include_in_main": false,
   "objectives": [
     {
@@ -14,12 +13,13 @@
       "required_amount": 1
     }
   ],
-  "requirements": [
+  "rewards": [],
+  "sort_order": 0,
+  "prerequisites": [
     {
       "type": "questlog:quest_complete",
       "quest": "questlog:conq2",
       "required_amount": 1
     }
-  ],
-  "rewards": []
+  ]
 }

@@ -1,11 +1,10 @@
 {
   "title": "The Essence of Connection - Vol 2.",
-  "description": "Craft a Homunculus using a filled grail.",
+  "description": "Craft a Homunculus using a grail filled with essence. Fill the grail by using it on a full Great Chalice.",
   "icon": {
     "item": "knightlib:homunculus"
   },
   "chapter": "questlog:friends",
-  "order": 0,
   "objectives": [
     {
       "type": "questlog:item_obtain",
@@ -18,18 +17,19 @@
       "required_amount": 1
     }
   ],
-  "requirements": [
-    {
-      "type": "questlog:quest_complete",
-      "quest": "questlog:questfriend1",
-      "required_amount": 1
-    }
-  ],
   "rewards": [
     {
       "type": "questlog:item",
       "item": "knightlib:small_essence",
       "count": 6
+    }
+  ],
+  "sort_order": 0,
+  "prerequisites": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "knightlib:small_essence",
+      "required_amount": 1
     }
   ]
 }

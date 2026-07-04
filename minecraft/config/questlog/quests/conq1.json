@@ -5,7 +5,6 @@
     "item": "minecraft:elder_guardian_spawn_egg"
   },
   "chapter": "conquest",
-  "order": 2,
   "objectives": [
     {
       "type": "questlog:entity_kill",
@@ -13,6 +12,13 @@
       "required_amount": 1
     }
   ],
-  "requirements": [],
-  "rewards": []
+  "rewards": [],
+  "sort_order": 0,
+  "prerequisites": [
+    {
+      "type": "questlog:visit_structure",
+      "structure": "minecraft:ocean_monument",
+      "required_amount": 1
+    }
+  ]
 }

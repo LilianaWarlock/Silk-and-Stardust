@@ -1,0 +1,40 @@
+{
+  "title": "The Shadows Crave Blood",
+  "description": "Use Crystallized Blood to craft a Shade Maw Altar or a Shade Sword Altar, and charge the Altar with Crystallized Blood.\n\nCraft a Shadow Bell, and link it to your altar. Then, summon a shadowy ally.",
+  "icon": {
+    "item": "companions:crystallized_blood"
+  },
+  "chapter": "friends",
+  "sort_order": 14,
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "item": "companions:shade_maw_altar",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "companions:shade_sword_altar",
+          "required_amount": 1
+        }
+      ],
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "companions:shadow_bell",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "companions:crystallized_blood",
+      "required_amount": 1
+    }
+  ],
+  "rewards": []
+}

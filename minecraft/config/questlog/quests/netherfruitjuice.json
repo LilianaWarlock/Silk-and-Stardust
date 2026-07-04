@@ -1,0 +1,46 @@
+{
+  "title": "Fruit of the Nether - Vol. 2",
+  "description": "Take one of the fruits (other than Jabuticaba) and make some juice using a glass bottle.",
+  "icon": {
+    "item": "nethers_exoticism:pitaya_juice"
+  },
+  "chapter": "farming",
+  "sort_order": 21,
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "item": "nethers_exoticism:kiwano_juice",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "nethers_exoticism:rambutan_juice",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "nethers_exoticism:pitaya_juice",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "nethers_exoticism:bouddha_s_hand_juice",
+          "required_amount": 1
+        }
+      ],
+      "name": "Juice a Fruit",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:visit_dimension",
+      "dimension": "minecraft:the_nether",
+      "required_amount": 1
+    }
+  ],
+  "rewards": []
+}

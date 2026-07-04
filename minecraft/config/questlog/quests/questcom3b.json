@@ -2,10 +2,9 @@
   "title": "Harnessing Potential - Vol 2.",
   "description": "Obtain any Spell Book using a Spell Binding Table.",
   "icon": {
-    "item": "spell_engine:spell_book"
+    "item": "spell_engine:spell_binding"
   },
   "chapter": "questlog:combat",
-  "order": 0,
   "objectives": [
     {
       "type": "questlog:item_obtain",
@@ -14,11 +13,12 @@
       "item": "spell_engine:spell_book"
     }
   ],
-  "requirements": [
+  "rewards": [],
+  "sort_order": 0,
+  "prerequisites": [
     {
       "type": "questlog:quest_complete",
       "quest": "questlog:questcom3"
     }
-  ],
-  "rewards": []
+  ]
 }

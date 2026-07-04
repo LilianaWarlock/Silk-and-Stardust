@@ -1,0 +1,30 @@
+{
+  "title": "Goop in Buckets - Vol. 3",
+  "description": "Collect a Magma Cube in a bucket. Consider the comedic aspect.",
+  "icon": {
+    "item": "infernalexp:magma_cube_bucket"
+  },
+  "chapter": "friends",
+  "sort_order": 12,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "infernalexp:magma_cube_bucket",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:visit_dimension",
+      "dimension": "minecraft:the_nether",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:magma_cream",
+      "count": 12
+    }
+  ]
+}

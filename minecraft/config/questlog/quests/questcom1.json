@@ -5,7 +5,6 @@
     "item": "terrarianmight:life_crystal"
   },
   "chapter": "questlog:combat",
-  "order": 0,
   "objectives": [
     {
       "type": "questlog:item_obtain",
@@ -14,12 +13,14 @@
       "item": "terrarianmight:life_crystal"
     }
   ],
-  "requirements": [],
   "rewards": [
     {
       "type": "questlog:item",
-      "name": "Gain an accessory",
-      "item": "jewelry:copper_ring"
+      "name": "Gain an Accessory",
+      "item": "jewelry:copper_ring",
+      "count": 1
     }
-  ]
+  ],
+  "sort_order": 0,
+  "prerequisites": []
 }

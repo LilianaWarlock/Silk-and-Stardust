@@ -1,11 +1,10 @@
 {
-  "title": "A Peaceful Farm - Vol 3.",
-  "description": "Find a Snuffle and collect it's uniquely soft fluff",
+  "title": "Fluffy Fuzzy Fur - Vol. 2",
+  "description": "Find a Snuffle and collect it's uniquely soft fluff.",
   "icon": {
     "item": "snuffles:snuffle_fluff"
   },
   "chapter": "questlog:farming",
-  "order": 0,
   "objectives": [
     {
       "type": "questlog:entity_approach",
@@ -20,11 +19,13 @@
       "item": "snuffles:snuffle_fluff"
     }
   ],
-  "requirements": [
+  "rewards": [],
+  "sort_order": 0,
+  "prerequisites": [
     {
-      "type": "questlog:quest_complete",
-      "quest": "questlog:questfarm2b"
+      "type": "questlog:item_obtain",
+      "item": "minecraft:white_wool",
+      "required_amount": 1
     }
-  ],
-  "rewards": []
+  ]
 }

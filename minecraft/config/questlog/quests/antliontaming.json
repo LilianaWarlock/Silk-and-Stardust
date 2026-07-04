@@ -1,0 +1,35 @@
+{
+  "title": "[X] Inviting Sandpit",
+  "description": "Use Crystallized Blood to tame an Antlion. They spawn rarely in deserts, and won't accept the offer if they're already aggressive.\n\nBring 1-3, just in case.",
+  "icon": {
+    "item": "companions:antlion_fur"
+  },
+  "chapter": "friends",
+  "sort_order": 15,
+  "objectives": [
+    {
+      "type": "questlog:entity_tame",
+      "entity": "companions:wild_antlion",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "companions:crystallized_blood",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "companions:crystallized_blood",
+      "count": 2
+    },
+    {
+      "type": "questlog:item",
+      "item": "knightlib:small_essence",
+      "count": 18
+    }
+  ]
+}

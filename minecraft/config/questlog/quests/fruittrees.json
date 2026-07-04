@@ -5,7 +5,6 @@
     "item": "bountifulfares:apple_sapling"
   },
   "chapter": "farming",
-  "order": 10,
   "objectives": [
     {
       "type": "questlog:or",
@@ -35,6 +34,7 @@
       ]
     }
   ],
-  "requirements": [],
-  "rewards": []
+  "rewards": [],
+  "sort_order": 0,
+  "prerequisites": []
 }

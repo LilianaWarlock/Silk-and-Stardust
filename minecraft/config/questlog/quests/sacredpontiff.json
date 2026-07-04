@@ -1,0 +1,36 @@
+{
+  "title": "His Holiness",
+  "description": "Defeat the Sacred Pontiff, lurking the his jungle temple.",
+  "icon": {
+    "item": "companions:old_cloth"
+  },
+  "chapter": "conquest",
+  "sort_order": 4,
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "objectives": [
+        {
+          "type": "questlog:entity_kill",
+          "entity": "companions:sacred_pontiff",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:entity_kill",
+          "entity": "companions:living_candle",
+          "required_amount": 1
+        }
+      ],
+      "name": "Defeat His Holiness in Either Form",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "knightlib:great_essence",
+      "required_amount": 1
+    }
+  ],
+  "rewards": []
+}

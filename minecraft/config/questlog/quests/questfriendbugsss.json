@@ -1,8 +1,8 @@
 {
-  "title": "Fluffy Friends!",
-  "description": "Tame a Wolf, Cat or Fox with Bones, Raw Fish and Raw Chicken respectively.",
+  "title": "Chittering Critters!",
+  "description": "Tame a Jumping Spider, Roly Poly or Dragonfly with Dragonfly Wings, Mushrooms or Spider Eyes respectively.",
   "icon": {
-    "item": "minecraft:bone"
+    "item": "crittersandcompanions:silk"
   },
   "chapter": "questlog:friends",
   "objectives": [
@@ -14,17 +14,21 @@
         {
           "type": "questlog:entity_tame",
           "icon": "minecraft:bone",
-          "entity": "minecraft:wolf"
+          "entity": "crittersandcompanions:jumping_spider",
+          "required_amount": 1
         },
         {
           "type": "questlog:entity_tame",
-          "entity": "minecraft:fox"
+          "entity": "crittersandcompanions:roly_poly",
+          "required_amount": 1
         },
         {
           "type": "questlog:entity_tame",
-          "entity": "minecraft:cat"
+          "entity": "crittersandcompanions:dragonfly",
+          "required_amount": 1
         }
-      ]
+      ],
+      "required_amount": 1
     }
   ],
   "rewards": [

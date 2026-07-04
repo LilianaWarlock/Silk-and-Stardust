@@ -5,7 +5,6 @@
     "item": "knightlib:small_essence"
   },
   "chapter": "questlog:friends",
-  "order": 0,
   "objectives": [
     {
       "type": "questlog:item_craft",
@@ -18,11 +17,12 @@
       "item": "knightlib:great_chalice"
     }
   ],
-  "requirements": [
+  "rewards": [],
+  "sort_order": 0,
+  "prerequisites": [
     {
       "type": "questlog:item_obtain",
       "item": "knightlib:small_essence"
     }
-  ],
-  "rewards": []
+  ]
 }

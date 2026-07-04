@@ -1,0 +1,46 @@
+{
+  "title": "Fruit of the Nether - Vol. 1",
+  "description": "Find one of the Nether's native fruit.",
+  "icon": {
+    "item": "nethers_exoticism:pitaya"
+  },
+  "chapter": "farming",
+  "sort_order": 20,
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "item": "nethers_exoticism:kiwano",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "nethers_exoticism:jaboticaba",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "nethers_exoticism:ramboutan",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "nethers_exoticism:pitaya",
+          "required_amount": 1
+        }
+      ],
+      "name": "Find Nether Fruit",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:visit_dimension",
+      "dimension": "minecraft:the_nether",
+      "required_amount": 1
+    }
+  ],
+  "rewards": []
+}

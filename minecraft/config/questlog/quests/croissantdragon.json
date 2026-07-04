@@ -5,7 +5,6 @@
     "item": "companions:croissant_egg_block"
   },
   "chapter": "friends",
-  "order": 0,
   "objectives": [
     {
       "type": "questlog:item_craft",
@@ -40,7 +39,6 @@
       ]
     }
   ],
-  "requirements": [],
   "rewards": [
     {
       "type": "questlog:item",
@@ -51,6 +49,14 @@
       "type": "questlog:item",
       "item": "knightlib:small_essence",
       "count": 8
+    }
+  ],
+  "sort_order": 0,
+  "prerequisites": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "knightlib:homunculus",
+      "required_amount": 1
     }
   ]
 }

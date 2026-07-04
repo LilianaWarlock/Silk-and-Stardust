@@ -1,11 +1,10 @@
 {
-  "title": "Eternal Friendship - Vol 2.",
-  "description": "Craft a collar for your new friend, to protect them from harm.",
+  "title": "Eternal Friendship",
+  "description": "Craft a collar for one of your buddies, to keep them safe and accounted for.",
   "icon": {
     "item": "friendsforlife:collar"
   },
   "chapter": "friends",
-  "order": 2,
   "objectives": [
     {
       "type": "questlog:item_obtain",
@@ -14,12 +13,7 @@
       "required_amount": 1
     }
   ],
-  "requirements": [
-    {
-      "type": "questlog:quest_complete",
-      "quest": "questlog:questfriend0",
-      "required_amount": 1
-    }
-  ],
-  "rewards": []
+  "rewards": [],
+  "sort_order": 0,
+  "prerequisites": []
 }

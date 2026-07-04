@@ -1,0 +1,30 @@
+{
+  "title": "Rotten Upcycling",
+  "description": "Rotten flesh has lots of latent necrotic energy. You can dry it for leather, or condense it at a Soul Furnace for Crystallized Blood.",
+  "icon": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "chapter": "friends",
+  "sort_order": 13,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "companions:crystallized_blood",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:rotten_flesh",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "knightlib:small_essence",
+      "count": 9
+    }
+  ]
+}

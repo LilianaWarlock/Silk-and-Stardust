@@ -1,0 +1,30 @@
+{
+  "title": "Goop in Buckets - Vol. 2",
+  "description": "Collect a Sulfur Cube in a bucket. Y'know, for kicks.",
+  "icon": {
+    "item": "minecraft:sulfur_cube_bucket"
+  },
+  "chapter": "friends",
+  "sort_order": 11,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:sulfur_cube_bucket",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:visit_biome",
+      "biome": "minecraft:sulfur_caves",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:music_disc_bounce",
+      "count": 1
+    }
+  ]
+}

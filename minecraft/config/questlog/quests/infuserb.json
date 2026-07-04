@@ -1,0 +1,30 @@
+{
+  "title": "Enchanting Savant - Vol. 2",
+  "description": "Upgrade your enchanting table, again, gaining complete mastery over the latent magic within objects.",
+  "icon": {
+    "item": "enchantinginfuser:advanced_enchanting_infuser"
+  },
+  "chapter": "combat",
+  "sort_order": 9,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "item": "enchantinginfuser:advanced_enchanting_infuser",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:enchanting_table",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 5,
+      "levels": true
+    }
+  ]
+}
