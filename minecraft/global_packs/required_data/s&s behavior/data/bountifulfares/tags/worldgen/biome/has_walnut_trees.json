@@ -1,0 +1,7 @@
+{
+  "values": [
+    "minecraft:windswept_forest",
+    "minecraft:wooded_badlands",
+    { "required": false, "id": "hybrid_beta:seasonal_forest" }
+  ]
+}

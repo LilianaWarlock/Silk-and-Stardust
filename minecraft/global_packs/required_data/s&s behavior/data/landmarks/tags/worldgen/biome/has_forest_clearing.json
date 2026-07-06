@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    { "required": false, "id": "hybrid_beta:temperate_rainforest" },
+    { "required": false, "id": "hybrid_beta:seasonal_forest" }
+  ]
+}

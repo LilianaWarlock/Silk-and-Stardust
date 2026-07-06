@@ -1,0 +1,7 @@
+{
+  "values": [
+    "minecraft:meadow",
+    "minecraft:flower_forest",
+    { "required": false, "id": "hybrid_beta:temperate_rainforest" }
+  ]
+}

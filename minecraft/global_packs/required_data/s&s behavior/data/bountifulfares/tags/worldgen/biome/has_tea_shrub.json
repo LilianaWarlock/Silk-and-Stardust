@@ -1,0 +1,7 @@
+{
+  "values": [
+    "minecraft:jungle",
+    "minecraft:sparse_jungle",
+    { "required": false, "id": "hybrid_beta:rainforest" }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "values": [
+    "minecraft:forest",
+    { "required": false, "id": "hybrid_beta:seasonal_forest" }
+  ]
+}
