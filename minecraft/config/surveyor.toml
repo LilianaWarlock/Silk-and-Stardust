@@ -72,7 +72,7 @@ forceUpdateLandmarks = true
 	# [Server] Ticks per position update - lower is more frequent
 	# range: 1 - 200
 	# default: 1
-	positionTicks = 1
+	positionTicks = 5
 
 [builtins]
 	# Which block entities to preserve data for when creating block landmarks.
