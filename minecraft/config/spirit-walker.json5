@@ -1,5 +1,5 @@
 {
-	"enableDefaultRecipe": false,
+	"enableDefaultRecipe": true,
 	"normalPotionLength": 15,
 	"strongPotionLength": 15,
 	"longPotionLength": 30,
