@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "flower_forest",
+    "meadow",
+    "swamp",
+    "hybrid_beta:temperate_rainforest"
+  ],
+  "features": "rosebackport:cyan_rose",
+  "step": "vegetal_decoration"
+}

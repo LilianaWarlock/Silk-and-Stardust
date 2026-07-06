@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "hybrid_beta:seasonal_forest",
+    "forest",
+    "flower_forest",
+    "meadow"
+  ],
+  "features": "rosebackport:rose",
+  "step": "vegetal_decoration"
+}
