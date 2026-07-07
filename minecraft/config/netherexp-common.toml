@@ -646,9 +646,9 @@
 	#Removes the ripple effect from soul glass entirely and leaves just the frosted glass effect for people who find the distortion uneasy
 	noSoulGlassRipple = false
 	#Improves the brewing stand's particles
-	improvedBrewingStandParticles = true
+	improvedBrewingStandParticles = false
 	#Adds a particle effect around the player after drinking from a potion or antidote similar to Minecraft Dungeons
-	potionConsumptionParticles = true
+	potionConsumptionParticles = false
 	#Improves the nether portal's particles
 	improvedNetherPortalParticles = true
 	#Gives every nether biome a custom lightmap that compliments its environment
