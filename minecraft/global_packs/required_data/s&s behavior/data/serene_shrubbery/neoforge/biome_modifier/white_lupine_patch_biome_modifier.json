@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "snowy_plains",
+    "meadow",
+    "windswept_forest",
+    "windswept_hills"
+  ],
+  "features": "serene_shrubbery:white_lupine_patch",
+  "step": "vegetal_decoration"
+}

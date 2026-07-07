@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "flower_forest",
+    "meadow",
+    "plains",
+    "sunflower_plains",
+    "windswept_hills",
+    "hybrid_beta:autumnal_forest"
+  ],
+  "features": "serene_shrubbery:pink_butterfly_bush",
+  "step": "vegetal_decoration"
+}

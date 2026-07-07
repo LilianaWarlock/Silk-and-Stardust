@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "bamboo_jungle",
+    "beach",
+    "flower_forest",
+    "river",
+    "hybrid_beta:rainforest"
+  ],
+  "features": "serene_shrubbery:hydrangea",
+  "step": "vegetal_decoration"
+}

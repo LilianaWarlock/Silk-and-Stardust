@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "badlands",
+    "desert",
+    "eroded_badlands",
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna",
+    "wooded_badlands"
+  ],
+  "features": "serene_shrubbery:orange_crown_cactus",
+  "step": "vegetal_decoration"
+}

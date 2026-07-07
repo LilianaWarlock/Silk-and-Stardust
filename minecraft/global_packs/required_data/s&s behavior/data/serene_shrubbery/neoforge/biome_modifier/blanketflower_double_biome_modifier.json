@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "beach",
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna",
+    "hybrid_beta:autumnal_forest"
+  ],
+  "features": "serene_shrubbery:blanketflower_double",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "birch_forest",
+    "flower_forest",
+    "forest",
+    "meadow",
+    "old_growth_birch_forest"
+  ],
+  "features": "serene_shrubbery:blue_liverwort_patch",
+  "step": "vegetal_decoration"
+}

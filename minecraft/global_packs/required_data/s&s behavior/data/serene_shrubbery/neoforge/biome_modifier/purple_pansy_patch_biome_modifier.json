@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "flower_forest",
+    "forest",
+    "plains",
+    "dark_forest",
+    "meadow",
+    "hybrid_beta:seasonal_forest"
+  ],
+  "features": "serene_shrubbery:purple_pansy_patch",
+  "step": "vegetal_decoration"
+}

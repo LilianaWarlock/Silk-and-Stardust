@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "flower_forest",
+    "meadow",
+    "windswept_hills",
+    "snowy_plains",
+    "birch_forest",
+    "old_growth_birch_forest"
+  ],
+  "features": "serene_shrubbery:white_butterfly_bush",
+  "step": "vegetal_decoration"
+}

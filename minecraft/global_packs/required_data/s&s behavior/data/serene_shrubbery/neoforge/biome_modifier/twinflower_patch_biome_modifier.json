@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "birch_forest",
+    "flower_forest",
+    "forest",
+    "old_growth_birch_forest",
+    "dark_forest",
+    "hybrid_beta:seasonal_forest",
+    "hybrid_beta:autumnal_forest"
+  ],
+  "features": "serene_shrubbery:twinflower_patch",
+  "step": "vegetal_decoration"
+}

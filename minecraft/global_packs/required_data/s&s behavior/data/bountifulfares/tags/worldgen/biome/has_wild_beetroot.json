@@ -1,0 +1,10 @@
+{
+  "values": [
+    "minecraft:plains",
+    "minecraft:forest",
+    "minecraft:meadow",
+    "#minecraft:is_taiga",
+    { "required": false, "id": "hybrid_beta:autumnal_forest" },
+    { "required": false, "id": "hybrid_beta:temperate_rainforest" }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:glow_lichen",
+      "hybrid_beta:trees_seasonal_forest",
+      "minecraft:flower_warm",
+      "minecraft:patch_grass_forest",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "minecraft:seagrass_normal",
+      "landmarks:rocks",
+      "geophilic:forest/rocks",
+      "geophilic:forest/flowers",
+      "geophilic:common/moss",
+      "geophilic:common/grass/forest"
+    ],
+    []
+  ]
+}

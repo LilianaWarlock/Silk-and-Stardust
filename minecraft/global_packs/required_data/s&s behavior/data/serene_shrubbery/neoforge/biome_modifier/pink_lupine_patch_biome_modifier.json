@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "snowy_plains",
+    "meadow",
+    "windswept_forest",
+    "windswept_hills",
+    "hybrid_beta:temperate_rainforest"
+  ],
+  "features": "serene_shrubbery:pink_lupine_patch",
+  "step": "vegetal_decoration"
+}

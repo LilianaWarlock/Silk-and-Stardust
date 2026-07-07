@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "meadow",
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga",
+    "snowy_taiga",
+    "taiga",
+    "windswept_hills",
+    "windswept_forest",
+    "hybrid_beta:temperate_rainforest",
+    "hybrid_beta:autumnal_forest"
+  ],
+  "features": "serene_shrubbery:peach_foxglove",
+  "step": "vegetal_decoration"
+}
