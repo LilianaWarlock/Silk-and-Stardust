@@ -1,0 +1,35 @@
+filename = 'Realistic mace 3D 1.21.X-26.X.zip'
+name = 'Realistic Mace 3D'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11',
+    '26.1',
+    '26.1.1',
+    '26.1.2',
+    '26.2'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.6_1.21.X-26.X'
+
+[download]
+hash = 'da8858f0ef33cae6c187d77846018c87e420115ea0af920465378c7257647fe48cecbf85e700789a4a2030b5377a15f498adffffecc8452567d009c847d12b2e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/oaRy46Qa/versions/eXlaDI5u/Realistic mace 3D 1.21.X-26.X.zip'
+
+[update.modrinth]
+mod-id = 'oaRy46Qa'
+version = 'eXlaDI5u'
