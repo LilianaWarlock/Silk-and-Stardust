@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.28",
-  "config_datetime": "2026-07-06_05-20-37",
+  "config_datetime": "2026-07-07_04-10-32",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -14,9 +14,20 @@
       "override_global_distance_from_world_center": false,
       "min_distance_from_world_center": 10,
       "max_distance_from_world_center": 0
+    },
+    {
+      "name": "illager_arena",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 200,
+      "max_distance_from_world_center": 0
     }
   ],
   "structures": [
+    {
+      "name": "minecraft:fortress",
+      "size": 8
+    },
     {
       "name": "aether_villages:olympic_citadel",
       "override_global_distance_from_world_center": false,
@@ -73,14 +84,14 @@
       "name": "hexerei:dark_coven",
       "size": 4,
       "override_global_distance_from_world_center": true,
-      "min_distance_from_world_center": 750,
+      "min_distance_from_world_center": 1000,
       "max_distance_from_world_center": 0
     },
     {
       "name": "hexerei:nature_coven",
       "size": 6,
       "override_global_distance_from_world_center": true,
-      "min_distance_from_world_center": 750,
+      "min_distance_from_world_center": 1000,
       "max_distance_from_world_center": 0
     },
     {
@@ -494,6 +505,354 @@
     {
       "name": "wan_ancient_beasts:ancient_nest",
       "blacklisted_biomes": ["minecraft:meadow", "minecraft:cherry_grove"]
+    },
+    {
+      "name": "wan_ancient_beasts:desert_ruins",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:desert_ruins_small",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_badlands",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_desert",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_icespikes",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_jungle",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_large_badlands",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_large_desert",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_large_icespikes",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_large_jungle",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_large_oldgrowthtaiga",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_large_peaks",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_large_plains",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_large_savanna",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_large_taiga",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_oldgrowthtaiga",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_peaks",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_plains",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_savanna",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_small_badlands",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_small_desert",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_small_icespikes",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_small_jungle",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_small_oldgrowthtaiga",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_small_peaks",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_small_plains",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_small_savanna",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_small_taiga",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_taiga",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
     }
   ],
   "structure_sets": [
