@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      { "model": "hexerei:block/witch_hazel_leaves1" },
+      { "model": "hexerei:block/witch_hazel_leaves2" },
+      { "model": "hexerei:block/witch_hazel_leaves3" },
+      { "model": "hexerei:block/witch_hazel_leaves4" },
+      { "model": "hexerei:block/witch_hazel_leaves5" },
+      { "model": "hexerei:block/witch_hazel_leaves6" }
+    ]
+  }
+}

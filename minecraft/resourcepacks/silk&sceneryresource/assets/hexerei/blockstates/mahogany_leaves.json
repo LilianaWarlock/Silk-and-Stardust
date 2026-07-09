@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      { "model": "hexerei:block/mahogany_leaves1" },
+      { "model": "hexerei:block/mahogany_leaves2" },
+      { "model": "hexerei:block/mahogany_leaves3" },
+      { "model": "hexerei:block/mahogany_leaves4" },
+      { "model": "hexerei:block/mahogany_leaves5" },
+      { "model": "hexerei:block/mahogany_leaves6" }
+    ]
+  }
+}

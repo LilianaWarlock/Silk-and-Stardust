@@ -1,0 +1,8 @@
+{
+  "parent": "block/leaves2",
+  "textures": {
+    "all": "hexerei:block/witch_hazel_leaves",
+    "bush": "hexerei:block/witch_hazel_leaves_bush2",
+    "dark_bush": "hexerei:block/witch_hazel_leaves_bush2_dark"
+  }
+}

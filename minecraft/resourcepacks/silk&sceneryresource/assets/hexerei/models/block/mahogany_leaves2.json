@@ -1,0 +1,8 @@
+{
+  "parent": "block/leaves2",
+  "textures": {
+    "all": "hexerei:block/mahogany_leaves",
+    "bush": "hexerei:block/mahogany_leaves_bush1",
+    "dark_bush": "hexerei:block/mahogany_leaves_bush1_dark"
+  }
+}

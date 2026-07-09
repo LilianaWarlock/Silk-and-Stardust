@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      { "model": "hexerei:block/willow_leaves1" },
+      { "model": "hexerei:block/willow_leaves2" },
+      { "model": "hexerei:block/willow_leaves3" },
+      { "model": "hexerei:block/willow_leaves4" },
+      { "model": "hexerei:block/willow_leaves5" },
+      { "model": "hexerei:block/willow_leaves6" }
+    ]
+  }
+}

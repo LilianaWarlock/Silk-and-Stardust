@@ -1,0 +1,8 @@
+{
+  "parent": "block/leaves1",
+  "textures": {
+    "all": "wetland_whimsy:block/bald_cypress_leaves",
+    "bush": "wetland_whimsy:block/bald_cypress_leaves_bush1",
+    "dark_bush": "wetland_whimsy:block/bald_cypress_leaves_bush1_dark"
+  }
+}

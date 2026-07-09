@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      { "model": "bountifulfares:block/golden_walnut_leaves1" },
+      { "model": "bountifulfares:block/golden_walnut_leaves2" },
+      { "model": "bountifulfares:block/golden_walnut_leaves3" },
+      { "model": "bountifulfares:block/golden_walnut_leaves4" },
+      { "model": "bountifulfares:block/golden_walnut_leaves5" },
+      { "model": "bountifulfares:block/golden_walnut_leaves6" }
+    ]
+  }
+}

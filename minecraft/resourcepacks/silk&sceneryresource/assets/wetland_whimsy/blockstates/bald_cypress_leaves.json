@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      { "model": "wetland_whimsy:block/bald_cypress_leaves1" },
+      { "model": "wetland_whimsy:block/bald_cypress_leaves2" },
+      { "model": "wetland_whimsy:block/bald_cypress_leaves3" },
+      { "model": "wetland_whimsy:block/bald_cypress_leaves4" },
+      { "model": "wetland_whimsy:block/bald_cypress_leaves5" },
+      { "model": "wetland_whimsy:block/bald_cypress_leaves6" }
+    ]
+  }
+}

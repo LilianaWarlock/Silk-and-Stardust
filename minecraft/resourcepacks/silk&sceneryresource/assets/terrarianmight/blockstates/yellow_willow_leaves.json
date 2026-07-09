@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      { "model": "terrarianmight:block/yellow_willow_leaves1" },
+      { "model": "terrarianmight:block/yellow_willow_leaves2" },
+      { "model": "terrarianmight:block/yellow_willow_leaves3" },
+      { "model": "terrarianmight:block/yellow_willow_leaves4" },
+      { "model": "terrarianmight:block/yellow_willow_leaves5" },
+      { "model": "terrarianmight:block/yellow_willow_leaves6" }
+    ]
+  }
+}
