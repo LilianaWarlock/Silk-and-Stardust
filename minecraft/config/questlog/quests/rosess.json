@@ -1,0 +1,29 @@
+{
+  "title": "Twin Roses",
+  "description": "Discover two kinds of familiar roses.",
+  "icon": {
+    "item": "rosebackport:rose"
+  },
+  "chapter": "farming",
+  "sort_order": 22,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "rosebackport:rose",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "rosebackport:cyan_rose",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "additionaladditions:rose_gold",
+      "count": 5
+    }
+  ]
+}
