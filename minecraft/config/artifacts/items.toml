@@ -130,7 +130,7 @@
 [crystal_heart]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 	#The amount of extra health points that are granted by the Crystal Heart
 	#Range: -Infinity ~ Infinity
 	healthBonus = 10.0
@@ -267,7 +267,7 @@
 	drinkingSpeedBonus = 1.5
 	#How much the Novelty Drinking Hat increases the wearer's eating speed
 	#Range: -Infinity ~ Infinity
-	eatingSpeedBonus = 0.3
+	eatingSpeedBonus = 0.5
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
 	generateAsLoot = true
@@ -322,7 +322,7 @@
 	drinkingSpeedBonus = 1.5
 	#How much the Plastic Drinking Hat increases the wearer's eating speed
 	#Range: -Infinity ~ Infinity
-	eatingSpeedBonus = 0.2
+	eatingSpeedBonus = 0.3
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
 	generateAsLoot = true
@@ -363,10 +363,10 @@
 	generateAsLoot = false
 	#How much the Running Shoes increase the wearer's sprinting speed
 	#Range: -Infinity ~ Infinity
-	sprintingSpeedBonus = 0.4
+	sprintingSpeedBonus = 0.15
 	#How much the Running Shoes increase the wearer's step height while sprinting
 	#Range: -Infinity ~ Infinity
-	sprintingStepHeightBonus = 0.5
+	sprintingStepHeightBonus = 0.0
 
 [scarf_of_invisibility]
 	#Whether the Scarf of Invisibility makes players invisible
