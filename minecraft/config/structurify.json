@@ -95,6 +95,12 @@
       "max_distance_from_world_center": 0
     },
     {
+      "name": "legendary_monsters:collapsed_kingdom",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000,
+      "max_distance_from_world_center": 0
+    },
+    {
       "name": "nova_structures:bunker",
       "is_disabled": true
     },
