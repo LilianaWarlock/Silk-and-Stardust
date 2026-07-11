@@ -1,24 +1,20 @@
-filename = 'BetterRecipeBookExtended-neoforge-1.21.1-2.1.3.jar'
+filename = 'BetterRecipeBookExtended-neoforge-1.21.1-2.2.jar'
 name = 'Better Recipe Book (Extended)'
-side = 'client'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.1.3'
+x-prismlauncher-version-number = '2.2'
 
 [download]
-hash = '921d6d1668b72832f2abdd99b7ee261c802c21f8855149d6abfe75cdd2414da15f19a1091be72fb084e1e90a6e87dbde0e450c9c9973c86a608a3600b0c54f77'
+hash = 'a6812c317194a376e86a4454e11b40a361c515391391174ada7585b801812533dc4c087e515e040467e9249dca20657e16d705bc9b98951244af088267540e49'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/OkfpeX68/versions/Kfyeh8Jh/BetterRecipeBookExtended-neoforge-1.21.1-2.1.3.jar'
+url = 'https://cdn.modrinth.com/data/OkfpeX68/versions/vx4cvqAC/BetterRecipeBookExtended-neoforge-1.21.1-2.2.jar'
 
 [update.modrinth]
 mod-id = 'OkfpeX68'
-version = 'Kfyeh8Jh'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'lhGA9TYQ'
-type = 'REQUIRED'
+version = 'vx4cvqAC'
 
 [[x-prismlauncher-dependencies]]
 addonId = '9s6osm5g'
