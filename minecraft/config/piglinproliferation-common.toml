@@ -34,7 +34,7 @@
 	"Chance of brutes spawning with bucklers" = 1.0
 	# Default: 0.10000000149011612
 	# Range: -999999.0 ~ 999999.0
-	"Chance of brutes to drop buckler" = 0.10000000149011612
+	"Chance of brutes to drop buckler" = 0.2
 	# Default: 240
 	# Range: > -2147483648
 	"How long should the buckler's cooldown be in ticks?" = 240

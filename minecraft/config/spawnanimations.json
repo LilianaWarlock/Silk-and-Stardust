@@ -1,10 +1,10 @@
 {
   "activation_distance": 0,
-  "activation_mode": "WORLD",
-  "enable_poof_animation": "WORLD",
-  "play_animation_sounds": "WORLD",
-  "hide_worn_armor_and_tools": "WORLD",
-  "hide_emissive_mob_layers": "WORLD",
-  "reduce_enderman_particles": "WORLD",
-  "play_animation_on_unsupported_blocks": "WORLD"
+  "activation_mode": "CLASSIC",
+  "enable_poof_animation": "YES",
+  "play_animation_sounds": "YES",
+  "hide_worn_armor_and_tools": "YES",
+  "hide_emissive_mob_layers": "YES",
+  "reduce_enderman_particles": "YES",
+  "play_animation_on_unsupported_blocks": "NO"
 }

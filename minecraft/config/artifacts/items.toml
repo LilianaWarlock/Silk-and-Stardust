@@ -402,7 +402,7 @@
 	isInfinite = false
 	#The duration of the water breathing effect that is applied by the Snorkel
 	#Range: 0 ~ 72000
-	waterBreathingDuration = 30
+	waterBreathingDuration = 60
 
 [snowshoes]
 	#Whether the Snowshoes allow the wearer to walk on powdered snow
@@ -501,7 +501,7 @@
 	generateAsLoot = true
 	#The amount of extra reputation that is granted by the Villager Hat when trading with villagers
 	#Range: -Infinity ~ Infinity
-	reputationBonus = 50.0
+	reputationBonus = 40.0
 
 [warp_drive]
 	#The duration Ender Pearls go on cooldown for after being thrown using the Warp Drive
@@ -515,7 +515,7 @@
 	generateAsLoot = true
 	#How many hunger points it costs to throw an Ender Pearl using the Warp Drive
 	#Range: > 0
-	hungerCost = 2
+	hungerCost = 3
 	#Whether the Warp Drive causes Ender Pearls not to deal any damage
 	#Allowed Values: true, false
 	nullifyEnderPearlDamage = false
