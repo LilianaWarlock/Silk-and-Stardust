@@ -4,8 +4,7 @@
   "icon": {
     "item": "items_displayed:item_display"
   },
-  "chapter": "farming",
-  "order": 12,
+  "chapter": "combat",
   "objectives": [
     {
       "type": "questlog:item_obtain",
@@ -13,6 +12,7 @@
       "required_amount": 1
     }
   ],
-  "requirements": [],
-  "rewards": []
+  "rewards": [],
+  "sort_order": 0,
+  "prerequisites": []
 }

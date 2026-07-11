@@ -1,0 +1,51 @@
+{
+  "title": "Building a ...Building Wand?",
+  "description": "Craft a specially-made wand out of Warp Dust, to assist in your building endeavors.",
+  "icon": {
+    "item": "wands:iron_wand"
+  },
+  "chapter": "farming",
+  "sort_order": 100,
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "name": "Obtain a Building Wand",
+      "required_amount": 1,
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "item": "wands:stone_wand",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "wands:copper_wand",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "wands:iron_wand",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "wands:diamond_wand",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "wands:netherite_wand",
+          "required_amount": 1
+        }
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 1,
+      "levels": true
+    }
+  ]
+}
