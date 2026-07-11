@@ -1,0 +1,18 @@
+filename = 'Ashen_Custom_Font.zip'
+name = 'Ashen 16x Custom Font'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6', '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1'
+
+[download]
+hash = '6fd973b1f7925ca8dbe3561e8a6a73a8a4838df65e5e6d7662460ff845b6f00f89385cda28ef004e2ad1cf22af51c7ef154c9da05e0676a0e50d5d2adf279fd9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zNIFIvC4/versions/iKQU9vmM/Ashen_Custom_Font.zip'
+
+[update.modrinth]
+mod-id = 'zNIFIvC4'
+version = 'iKQU9vmM'
