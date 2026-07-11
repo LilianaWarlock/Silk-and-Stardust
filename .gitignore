@@ -65,3 +65,5 @@ minecraft/global_packs/optional_data/nether expansion.zip
 minecraft/dynamic-data-pack-cache/hash.txt
 /minecraft/config/jei/world
 minecraft/config/jei/ingredient-list-mod-sort-order.ini
+minecraft/brbe-diagnostic.log
+minecraft/config/zfastnoise.mixin.properties
