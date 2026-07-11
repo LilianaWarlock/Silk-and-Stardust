@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.28",
-  "config_datetime": "2026-07-07_04-10-32",
+  "config_datetime": "2026-07-09_11-15-37",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -136,7 +136,16 @@
     },
     {
       "name": "nova_structures:illager_camp",
-      "blacklisted_biomes": ["minecraft:river"]
+      "blacklisted_biomes": [
+        "minecraft:river"
+      ]
+    },
+    {
+      "name": "nova_structures:lone_citadel",
+      "whitelisted_biomes": [
+        "minecraft:deep_frozen_ocean",
+        "minecraft:frozen_ocean"
+      ]
     },
     {
       "name": "nova_structures:remnant_bridge_remnant",
@@ -251,7 +260,9 @@
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": ["minecraft:deep_dark"]
+      "biome_check_blacklisted_biomes": [
+        "minecraft:deep_dark"
+      ]
     },
     {
       "name": "wabi_sabi_structures:abandoned_small_castle",
@@ -335,7 +346,9 @@
     },
     {
       "name": "wabi_sabi_structures:infested_castle_stony",
-      "whitelisted_biomes": ["#friendsandfoes:has_structure/iceologer_cabin"],
+      "whitelisted_biomes": [
+        "#friendsandfoes:has_structure/iceologer_cabin"
+      ],
       "blacklisted_biomes": [
         "minecraft:windswept_forest",
         "minecraft:windswept_hills"
@@ -395,8 +408,12 @@
     },
     {
       "name": "wabi_sabi_structures:mossy_roof_shed",
-      "whitelisted_biomes": ["minecraft:lush_caves"],
-      "blacklisted_biomes": ["minecraft:forest"]
+      "whitelisted_biomes": [
+        "minecraft:lush_caves"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:forest"
+      ]
     },
     {
       "name": "wabi_sabi_structures:muddy_badlands_well",
@@ -504,7 +521,10 @@
     },
     {
       "name": "wan_ancient_beasts:ancient_nest",
-      "blacklisted_biomes": ["minecraft:meadow", "minecraft:cherry_grove"]
+      "blacklisted_biomes": [
+        "minecraft:meadow",
+        "minecraft:cherry_grove"
+      ]
     },
     {
       "name": "wan_ancient_beasts:desert_ruins",
