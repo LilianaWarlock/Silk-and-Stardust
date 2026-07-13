@@ -9,7 +9,7 @@
 	"showReforgingTab": true,
 	"xIconPosition": 0,
 	"yIconPosition": 0,
-	"tieredTooltip": true,
+	"tieredTooltip": false,
 	"centerName": true,
 	"tieredTooltipAttributes": true,
 	"legendaryColorsForAttributes": true
