@@ -10,14 +10,14 @@
       "triggerMessage": "PLACEHOLDER NETHER DIFFICULTY INCREASE MESSAGE - PLEASE PRETTIFY IT SKY",
       "blacklist": [],
       "modifiers": {
-        "healthMultiplier": 1.5,
+        "healthMultiplier": 1.0,
         "healthAddition": 0.0,
-        "armorMultiplier": 2.0,
-        "armorAddition": 5.0,
-        "toughnessMultiplier": 2.0,
+        "armorMultiplier": 1.5,
+        "armorAddition": 0.0,
+        "toughnessMultiplier": 1.0,
         "toughnessAddition": 5.0,
-        "attackMultiplier": 2.0,
-        "attackAddition": 0.0
+        "attackMultiplier": 1.0,
+        "attackAddition": 3.0
       }
     },
     {

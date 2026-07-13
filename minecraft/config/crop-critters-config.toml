@@ -5,7 +5,7 @@
 regularWeedsGrowChance = 3
 netherWeedsGrowChance = 4
 # Should monocultures have increased weed chances:
-monoculturePenalize = true
+monoculturePenalize = false
 # 
 # How far should Mazewood spread (1-128):
 # (Be careful, spreads fast) 

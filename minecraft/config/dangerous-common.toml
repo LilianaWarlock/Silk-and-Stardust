@@ -40,11 +40,11 @@
 	#Chance for mobs to spawn with gear in EASY mode.
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
-	easyGearChance = 0.5
+	easyGearChance = 0.05
 	#Chance for mobs to spawn with gear in NORMAL mode.
 	# Default: 0.2
 	# Range: 0.0 ~ 1.0
-	normalGearChance = 0.10
+	normalGearChance = 0.1
 	#Chance for mobs to spawn with gear in HARD mode.
 	# Default: 0.35
 	# Range: 0.0 ~ 1.0
