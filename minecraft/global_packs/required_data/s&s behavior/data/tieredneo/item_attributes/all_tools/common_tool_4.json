@@ -1,0 +1,41 @@
+{
+  "id": "tieredneo:common_tool_4",
+  "verifiers": [
+    {
+      "tag": "minecraft:axes"
+    },
+    {
+      "tag": "minecraft:pickaxes"
+    },
+    {
+      "tag": "minecraft:shovels"
+    },
+    {
+      "tag": "minecraft:hoes"
+    }
+  ],
+  "weight": 50,
+  "style": {
+    "color": "gray"
+  },
+  "attributes": [
+    {
+      "type": "tieredneo:generic.dig_speed",
+      "modifier": {
+        "name": "tieredneo:common_tool_4",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": -0.15
+      },
+      "optional_equipment_slots": ["MAINHAND"]
+    },
+    {
+      "type": "minecraft:friction_modifier",
+      "modifier": {
+        "name": "tieredneo:common_tool_4",
+        "operation": "ADD_VALUE",
+        "amount": -0.3
+      },
+      "optional_equipment_slots": ["MAINHAND"]
+    }
+  ]
+}

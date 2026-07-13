@@ -1,0 +1,21 @@
+filename = 'tieredneo-1.0.1.jar'
+name = "Hero's Tiered"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1+1.21.1'
+
+[download]
+hash = '2bf3e95f8f42220324fad084d0e87c4677197c0d32f47f602fc0be590a12eb8a6fed4266cfc6e132994331e193dd16b0c44176515ab769e10878dcdb47ed0923'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5zxZztTC/versions/zmKjqVIa/tieredneo-1.0.1.jar'
+
+[update.modrinth]
+mod-id = '5zxZztTC'
+version = 'zmKjqVIa'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'REQUIRED'

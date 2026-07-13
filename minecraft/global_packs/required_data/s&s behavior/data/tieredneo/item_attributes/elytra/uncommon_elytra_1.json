@@ -1,0 +1,23 @@
+{
+  "id": "tieredneo:uncommon_elytra_1",
+  "verifiers": [
+    {
+      "id": "minecraft:elytra"
+    }
+  ],
+  "weight": 35,
+  "style": {
+    "color": "dark_green"
+  },
+  "attributes": [
+    {
+      "type": "generic.movement_speed",
+      "modifier": {
+        "name": "tieredneo:uncommon_elytra_1",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": -0.05
+      },
+      "optional_equipment_slots": ["CHEST"]
+    }
+  ]
+}

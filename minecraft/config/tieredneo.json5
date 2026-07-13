@@ -1,0 +1,16 @@
+{
+	"lootContainerModifier": true,
+	"entityItemModifier": true,
+	"craftingModifier": false,
+	"merchantModifier": false,
+	"reforgeModifier": 0.8999999761581421,
+	"luckReforgeModifier": 0.019999999552965164,
+	"uniqueReforge": false,
+	"showReforgingTab": true,
+	"xIconPosition": 0,
+	"yIconPosition": 0,
+	"tieredTooltip": true,
+	"centerName": true,
+	"tieredTooltipAttributes": true,
+	"legendaryColorsForAttributes": true
+}

@@ -1,0 +1,32 @@
+{
+  "id": "tieredneo:common_elytra_2",
+  "verifiers": [
+    {
+      "id": "minecraft:elytra"
+    }
+  ],
+  "weight": 50,
+  "style": {
+    "color": "gray"
+  },
+  "attributes": [
+    {
+      "type": "tieredneo:generic.durable",
+      "modifier": {
+        "name": "tieredneo:common_elytra_2",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": -0.3
+      },
+      "optional_equipment_slots": ["CHEST"]
+    },
+    {
+      "type": "minecraft:generic.gravity",
+      "modifier": {
+        "name": "tieredneo:common_elytra_2",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.5
+      },
+      "optional_equipment_slots": ["CHEST"]
+    }
+  ]
+}
