@@ -19,7 +19,7 @@ enabled = false
 
 [newRecipes]
 unlockAll = false
-enableBounce = false
+enableBounce = true
 
 [alternativeRecipes]
 onHover = true

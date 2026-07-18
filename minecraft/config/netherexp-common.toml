@@ -496,13 +496,13 @@
 		#Generates siltmarram on silt beaches and coves with a different variant based on the biome's moisture
 		siltmarram = true
 		#Generates large netherrack speleothem all throughout the nether
-		netherrackSpeleothem = true
+		netherrackSpeleothem = false
 		#Generates pyroclast crusts on the lava sea surfaces
 		pyroclastCrusts = true
 		#Generates silt flint ore deposits in silt beaches and coves
 		siltFlintOre = true
 		#Prevents those ugly ravines and noodle caves from cutting through the nether's terrain by removing them entirely
-		removeNetherNoodleCaves = true
+		removeNetherNoodleCaves = false
 
 #Visual & Sound Settings
 [visualAndSoundSettings]
