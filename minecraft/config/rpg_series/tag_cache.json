@@ -59,7 +59,8 @@
     ],
     "rpg_series:loot_tier/tier_0_accessories": [
       "jewelry:iron_ring",
-      "jewelry:gold_ring"
+      "jewelry:gold_ring",
+      "jewelry:copper_ring"
     ],
     "rpg_series:loot_tier/tier_1_armors": [
       "archers:archer_armor_head",
