@@ -1,6 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#minecraft:has_structure/trial_chambers",
+  "biomes": [
+    "#minecraft:has_structure/mineshaft",
+    "#minecraft:has_structure/mineshaft_mesa"
+  ],
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_thin",

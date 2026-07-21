@@ -1,6 +1,10 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "hybrid_beta:seasonal_forest",
+  "biomes": [
+    "hybrid_beta:seasonal_forest",
+    "hybrid_beta:autumnal_forest",
+    "hybrid_beta:temperate_rainforest"
+  ],
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_thin",
