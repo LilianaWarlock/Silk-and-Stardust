@@ -36,5 +36,11 @@
       "required_amount": 1
     }
   ],
-  "rewards": []
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "knightlib:great_essence",
+      "count": 4
+    }
+  ]
 }
