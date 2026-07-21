@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["BSB", "SDS", "BSB"],
+  "key": {
+    "B": {
+      "item": "minecraft:dragon_breath"
+    },
+    "S": {
+      "item": "dragonscale:ender_dragon_scale"
+    },
+    "D": {
+      "item": "nameless_trinkets:ultimate_dust"
+    }
+  },
+  "result": {
+    "id": "minecraft:dragon_egg",
+    "count": 1
+  }
+}
