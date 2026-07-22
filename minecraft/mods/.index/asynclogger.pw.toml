@@ -1,0 +1,18 @@
+filename = 'asynclogger-2.2.0+1.21.1-neoforge.jar'
+name = 'Async Logger'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4', '1.21.5', '1.21.6', '1.21.7', '1.21.8' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.2.0+1.21.1-neoforge'
+
+[download]
+hash = 'd8c375158ea2c57f3564656a053ddfc9ee7a37fd8e41180f1569ecb1b3cfe3ff93f5c2c01cef32f6a98429fb61e91f2fbb26c9b97854900bcc4b085ad3140971'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zvNzKfGF/versions/37KTxuGm/asynclogger-2.2.0%2B1.21.1-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'zvNzKfGF'
+version = '37KTxuGm'
