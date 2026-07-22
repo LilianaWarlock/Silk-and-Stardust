@@ -1,33 +1,33 @@
-filename = 'rogues-neoforge-2.7.0+1.21.1.jar'
+filename = 'rogues-neoforge-3.0.3+1.21.1.jar'
 name = 'Rogues & Warriors (RPG Series)'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.7.0+1.21.1-neoforge'
+x-prismlauncher-version-number = '3.0.3+1.21.1-neoforge'
 
 [download]
-hash = '35b8217390aae09752d6717e4487fea5fa1e616a5621cea397dea3dc8bc678135120985f9cb9abf2b5637499225faee40115dce851361a8679c350bc7f2146fe'
+hash = '7f604061ed79f35bf4b39653f8097461c77e34fc6c8d329e167b19e2c7ba44a5fc0ed1cef1852e3f3d49fff588c44e50bf2337d9a922a1f15b60f01450c277b8'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/3MKqoGuP/versions/jJOQJfFo/rogues-neoforge-2.7.0%2B1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/3MKqoGuP/versions/7zUwL9ii/rogues-neoforge-3.0.3%2B1.21.1.jar'
 
 [update.modrinth]
 mod-id = '3MKqoGuP'
-version = 'jJOQJfFo'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'Aqlf1Shp'
-type = 'REQUIRED'
+version = '7zUwL9ii'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'XvoWJaA2'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'LrYZi08Q'
+addonId = 'Aqlf1Shp'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'pduQXSbl'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LrYZi08Q'
 type = 'REQUIRED'

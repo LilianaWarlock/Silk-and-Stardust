@@ -40,6 +40,25 @@
           "operation": "ADD_MULTIPLIED_BASE"
         }
       ]
+    },
+    "wizards:arcane_evocation": {
+      "attributes": [
+        {
+          "attribute": "spell_power:critical_chance",
+          "value": 0.03,
+          "operation": "ADD_MULTIPLIED_BASE"
+        },
+        {
+          "attribute": "spell_power:haste",
+          "value": 0.03,
+          "operation": "ADD_MULTIPLIED_BASE"
+        },
+        {
+          "attribute": "spell_engine:damage_taken",
+          "value": 0.1,
+          "operation": "ADD_MULTIPLIED_BASE"
+        }
+      ]
     }
   }
 }

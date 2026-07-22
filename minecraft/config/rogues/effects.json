@@ -75,6 +75,53 @@
           "operation": "ADD_MULTIPLIED_BASE"
         }
       ]
+    },
+    "rogues:bear_trap": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": -2.0,
+          "operation": "ADD_MULTIPLIED_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.jump_strength",
+          "value": -2.0,
+          "operation": "ADD_MULTIPLIED_BASE"
+        }
+      ]
+    },
+    "rogues:net_trap": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": -2.0,
+          "operation": "ADD_MULTIPLIED_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.jump_strength",
+          "value": -2.0,
+          "operation": "ADD_MULTIPLIED_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 100.0,
+          "operation": "ADD_MULTIPLIED_BASE"
+        }
+      ]
+    },
+    "rogues:last_stand": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 0.2,
+          "operation": "ADD_MULTIPLIED_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.2,
+          "operation": "ADD_MULTIPLIED_BASE"
+        }
+      ]
     }
   }
 }

@@ -97,5 +97,7 @@
 	// Relation to unspecified entities those are instance of HostileEntity(Yarn)
 	"player_relation_to_hostiles": "HOSTILE",
 	// Fallback relation
-	"player_relation_to_other": "HOSTILE"
+	"player_relation_to_other": "HOSTILE",
+	// The relation between the summoned entity and its owner.
+	"summoned_relation_to_owner": "ALLY"
 }
