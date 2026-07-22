@@ -1,5 +1,0 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [{ "item": "nameless_trinkets:dying_star" }],
-  "result": { "id": "minecraft:air" }
-}

@@ -1,5 +1,0 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [{ "item": "nameless_trinkets:tick" }],
-  "result": { "id": "minecraft:air" }
-}
