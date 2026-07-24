@@ -1,0 +1,18 @@
+{
+  "title": "Forgotten Lands - Fall",
+  "description": "Find the autumnal forest, a land dappled with fall colors.",
+  "icon": {
+    "item": "quark:red_blossom_leaves"
+  },
+  "chapter": "exploration",
+  "sort_order": 30,
+  "objectives": [
+    {
+      "type": "questlog:visit_biome",
+      "biome": "hybrid_beta:autumnal_forest",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

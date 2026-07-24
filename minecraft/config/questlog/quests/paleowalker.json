@@ -1,29 +1,29 @@
 {
-  "title": "Ancient Beasts - Stomping Walker",
+  "title": "Ancient Beasts - Womping Walker",
   "description": "Find the egg of a Walker",
   "icon": {
-    "item": "minecraft:sniffer_egg"
+    "item": "wan_ancient_beasts:walker_egg"
   },
   "chapter": "friends",
   "objectives": [
     {
       "type": "questlog:item_obtain",
-      "item": "minecraft:sniffer_egg",
+      "item": "wan_ancient_beasts:walker_egg",
       "required_amount": 1
     }
   ],
   "rewards": [
     {
-      "type": "questlog:experience",
-      "experience": 3,
-      "levels": true
+      "type": "questlog:item",
+      "item": "wan_ancient_beasts:walker_egg",
+      "count": 1
     }
   ],
-  "sort_order": 0,
+  "sort_order": 100,
   "prerequisites": [
     {
       "type": "questlog:item_obtain",
-      "item": "minecraft:brush",
+      "item": "minecraft:sniffer_egg",
       "required_amount": 1
     }
   ]

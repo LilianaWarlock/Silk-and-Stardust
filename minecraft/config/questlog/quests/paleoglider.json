@@ -1,29 +1,29 @@
 {
-  "title": "Ancient Beasts - Snooping Sniffer",
-  "description": "Find the egg of a Sniffer, a beast long lost to these lands.",
+  "title": "Ancient Beasts - Gleeful Glider",
+  "description": "Find the egg of a Glider, an adorable flying friend!",
   "icon": {
-    "item": "minecraft:sniffer_egg"
+    "item": "wan_ancient_beasts:glider_egg"
   },
   "chapter": "friends",
   "objectives": [
     {
       "type": "questlog:item_obtain",
-      "item": "minecraft:sniffer_egg",
+      "item": "wan_ancient_beasts:glider_egg",
       "required_amount": 1
     }
   ],
   "rewards": [
     {
       "type": "questlog:item",
-      "item": "minecraft:sniffer_egg",
+      "item": "wan_ancient_beasts:glider_egg",
       "count": 1
     }
   ],
-  "sort_order": 99,
+  "sort_order": 103,
   "prerequisites": [
     {
       "type": "questlog:item_obtain",
-      "item": "minecraft:brush",
+      "item": "minecraft:sniffer_egg",
       "required_amount": 1
     }
   ]

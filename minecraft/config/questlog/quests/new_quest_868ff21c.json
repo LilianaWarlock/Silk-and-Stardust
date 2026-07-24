@@ -5,21 +5,12 @@
     "item": "cozyhome:trader_cushion"
   },
   "chapter": "exploration",
-  "order": 5,
   "objectives": [
     {
       "type": "questlog:entity_approach",
       "name": "Discover a Wandering Trader",
       "entity": "minecraft:wandering_trader",
       "range": 5
-    }
-  ],
-  "requirements": [
-    {
-      "type": "questlog:entity_approach",
-      "name": "Approach a Wandering Trader",
-      "entity": "minecraft:wandering_trader",
-      "range": 30
     }
   ],
   "rewards": [
@@ -29,5 +20,7 @@
       "item": "minecraft:emerald",
       "count": 10
     }
-  ]
+  ],
+  "sort_order": 0,
+  "prerequisites": []
 }

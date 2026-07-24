@@ -1,0 +1,18 @@
+{
+  "title": "Forgotten Lands - Violet",
+  "description": "Find a temperate rainforest, a forest filled with plums, violets and spruce wood.",
+  "icon": {
+    "item": "quark:lavender_blossom_leaves"
+  },
+  "chapter": "exploration",
+  "sort_order": 31,
+  "objectives": [
+    {
+      "type": "questlog:visit_biome",
+      "biome": "hybrid_beta:temperate_rainforest",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

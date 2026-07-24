@@ -1,29 +1,29 @@
 {
-  "title": "Ancient Beasts - Snooping Sniffer",
-  "description": "Find the egg of a Sniffer, a beast long lost to these lands.",
+  "title": "Ancient Beasts - Eager Eater",
+  "description": "Find the egg of an Eater, a long lost predator.",
   "icon": {
-    "item": "minecraft:sniffer_egg"
+    "item": "wan_ancient_beasts:eater_egg"
   },
   "chapter": "friends",
   "objectives": [
     {
       "type": "questlog:item_obtain",
-      "item": "minecraft:sniffer_egg",
+      "item": "wan_ancient_beasts:eater_egg",
       "required_amount": 1
     }
   ],
   "rewards": [
     {
       "type": "questlog:item",
-      "item": "minecraft:sniffer_egg",
+      "item": "wan_ancient_beasts:eater_egg",
       "count": 1
     }
   ],
-  "sort_order": 99,
+  "sort_order": 101,
   "prerequisites": [
     {
       "type": "questlog:item_obtain",
-      "item": "minecraft:brush",
+      "item": "minecraft:sniffer_egg",
       "required_amount": 1
     }
   ]

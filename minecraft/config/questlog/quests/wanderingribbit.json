@@ -28,11 +28,5 @@
     }
   ],
   "sort_order": 0,
-  "prerequisites": [
-    {
-      "type": "questlog:quest_complete",
-      "quest": "questlog:new_quest_868ff21c",
-      "required_amount": 1
-    }
-  ]
+  "prerequisites": []
 }

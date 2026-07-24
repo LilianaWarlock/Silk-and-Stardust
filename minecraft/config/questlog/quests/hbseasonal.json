@@ -1,0 +1,18 @@
+{
+  "title": "Forgotten Lands - Orchard",
+  "description": "Find a seasonal forest, blooming with plentiful apple trees.",
+  "icon": {
+    "item": "bountifulfares:flowering_apple_leaves"
+  },
+  "chapter": "exploration",
+  "sort_order": 33,
+  "objectives": [
+    {
+      "type": "questlog:visit_biome",
+      "biome": "hybrid_beta:seasonal_forest",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Forgotten Lands - Tropical",
+  "description": "Find a rainforest, complete with jungle trees.",
+  "icon": {
+    "item": "minecraft:jungle_leaves"
+  },
+  "chapter": "exploration",
+  "sort_order": 32,
+  "objectives": [
+    {
+      "type": "questlog:visit_biome",
+      "biome": "hybrid_beta:rainforest",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

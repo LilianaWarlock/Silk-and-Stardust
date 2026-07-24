@@ -1,0 +1,30 @@
+{
+  "title": "Kaboom?",
+  "description": "Craft a bomb. Just to prove that you can.",
+  "icon": {
+    "item": "betterarcheology:bomb"
+  },
+  "chapter": "combat",
+  "sort_order": 20,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "item": "betterarcheology:bomb",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:gunpowder",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "betterarcheology:bomb",
+      "count": 7
+    }
+  ]
+}
