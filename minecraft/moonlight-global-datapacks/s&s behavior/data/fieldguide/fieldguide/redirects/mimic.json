@@ -1,0 +1,40 @@
+{
+  "entries": [
+    {
+      "source": "fightsfrights:mimic_allman",
+      "target": "fightsfrights:mimentis"
+    },
+    {
+      "source": "fightsfrights:mimic_banshaa",
+      "target": "fightsfrights:mimentis"
+    },
+    {
+      "source": "fightsfrights:mimic_grimmsquito",
+      "target": "fightsfrights:mimentis"
+    },
+    {
+      "source": "fightsfrights:mimic_patuti",
+      "target": "fightsfrights:mimentis"
+    },
+    {
+      "source": "fightsfrights:mimic_pioneer",
+      "target": "fightsfrights:mimentis"
+    },
+    {
+      "source": "fightsfrights:mimic_scowl",
+      "target": "fightsfrights:mimentis"
+    },
+    {
+      "source": "fightsfrights:mimic_seer",
+      "target": "fightsfrights:mimentis"
+    },
+    {
+      "source": "fightsfrights:mimic_terrantula",
+      "target": "fightsfrights:mimentis"
+    },
+    {
+      "source": "fightsfrights:banshaa",
+      "target": "fightsfrights:nether_banshaa"
+    }
+  ]
+}

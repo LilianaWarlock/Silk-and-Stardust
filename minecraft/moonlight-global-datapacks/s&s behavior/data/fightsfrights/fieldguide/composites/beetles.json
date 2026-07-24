@@ -1,0 +1,42 @@
+{
+  "values": [
+    {
+      "id": "fightsfrights:mimic_beetles_group",
+      "display": "fightsfrights:mimic_beetles_iron",
+      "components": [
+        "fightsfrights:mimic_beetles_diamond",
+        "fightsfrights:mimic_beetles_gold",
+        "fightsfrights:mimic_beetles_redstone",
+        "fightsfrights:mimic_beetles_nether_gold",
+        "fightsfrights:mimic_beetles_iron"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "mimic_beetles_iron",
+          "display_name": "Iron Mimic Beetles",
+          "entity": "fightsfrights:mimic_beetles_iron"
+        },
+        {
+          "variant_id": "mimic_beetles_diamond",
+          "display_name": "Diamond Mimic Beetles",
+          "entity": "fightsfrights:mimic_beetles_diamond"
+        },
+        {
+          "variant_id": "mimic_beetles_gold",
+          "display_name": "Gold Mimic Beetles",
+          "entity": "fightsfrights:mimic_beetles_gold"
+        },
+        {
+          "variant_id": "mimic_beetles_redstone",
+          "display_name": "Redstone Mimic Beetles",
+          "entity": "fightsfrights:mimic_beetles_redstone"
+        },
+        {
+          "variant_id": "mimic_beetles_nether_gold",
+          "display_name": "Nether Gold Mimic Beetles",
+          "entity": "fightsfrights:mimic_beetles_nether_gold"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "values": [
+    {
+      "id": "ore_creeper:ore_creeper_group",
+      "display": "ore_creeper:iron_creeper",
+      "components": [
+        "ore_creeper:coal_creeper",
+        "ore_creeper:iron_creeper",
+        "ore_creeper:copper_creeper",
+        "ore_creeper:gold_creeper",
+        "ore_creeper:redstone_creeper",
+        "ore_creeper:lapis_lazuli_creeper",
+        "ore_creeper:emerald_creeper",
+        "ore_creeper:diamond_creeper",
+
+        "ore_creeper:nether_gold_creeper",
+        "ore_creeper:nether_quartz_creeper",
+        "ore_creeper:ancient_debris_creeper"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "coal_creeper",
+          "display_name": "Coal Creeper",
+          "entity": "ore_creeper:coal_creeper"
+        },
+        {
+          "variant_id": "iron_creeper",
+          "display_name": "Iron Creeper",
+          "entity": "ore_creeper:iron_creeper"
+        },
+        {
+          "variant_id": "copper_creeper",
+          "display_name": "Copper Creeper",
+          "entity": "ore_creeper:copper_creeper"
+        },
+        {
+          "variant_id": "gold_creeper",
+          "display_name": "Gold Creeper",
+          "entity": "ore_creeper:gold_creeper"
+        },
+        {
+          "variant_id": "redstone_creeper",
+          "display_name": "Redstone Creeper",
+          "entity": "ore_creeper:redstone_creeper"
+        },
+        {
+          "variant_id": "lapis_lazuli_creeper",
+          "display_name": "Lapis Lazuli Creeper",
+          "entity": "ore_creeper:lapis_lazuli_creeper"
+        },
+        {
+          "variant_id": "emerald_creeper",
+          "display_name": "Emerald Creeper",
+          "entity": "ore_creeper:emerald_creeper"
+        },
+        {
+          "variant_id": "diamond_creeper",
+          "display_name": "Diamond Creeper",
+          "entity": "ore_creeper:diamond_creeper"
+        },
+
+        {
+          "variant_id": "nether_gold_creeper",
+          "display_name": "Nether Gold Creeper",
+          "entity": "ore_creeper:nether_gold_creeper"
+        },
+        {
+          "variant_id": "nether_quartz_creeper",
+          "display_name": "Nether Quartz Creeper",
+          "entity": "ore_creeper:nether_quartz_creeper"
+        },
+        {
+          "variant_id": "ancient_debris_creeper",
+          "display_name": "Ancient Debris Creeper",
+          "entity": "ore_creeper:ancient_debris_creeper"
+        }
+      ]
+    }
+  ]
+}
