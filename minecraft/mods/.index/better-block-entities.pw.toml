@@ -1,0 +1,22 @@
+filename = 'bbe-neoforge-1.3.4-beta.3+mc1.21.1.jar'
+name = 'Better Block Entities'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.3.4-beta.3+mc1.21.1'
+
+[download]
+hash = '978c6a260e651633e5aa4191e724d550dc4179a396371438e8a8cb218a55e22bece9c5dbac859a60dc7ced3e630de592660bcd1c2f625cd6cd36d7c4ce0f1e0c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ONZm0H7Y/versions/RPhK79hl/bbe-neoforge-1.3.4-beta.3%2Bmc1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'ONZm0H7Y'
+version = 'RPhK79hl'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'AANobbMI'
+type = 'REQUIRED'
+version = 'S3DUMfBo'

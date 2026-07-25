@@ -1,0 +1,81 @@
+[gravity]
+	#Enable player gravity reduction in The End (default: true).
+	enablePlayerGravity = true
+	#Upward force per tick for players in The End (default: 0.055). Higher = less gravity.
+	# Default: 0.055
+	# Range: 0.0 ~ 0.08
+	playerGravityOffset = 0.055
+	#Enable item gravity reduction in The End (default: true).
+	enableItemGravity = true
+	#Upward force per tick for items in The End (default: 0.025). Higher = less gravity.
+	# Default: 0.025
+	# Range: 0.0 ~ 0.04
+	itemGravityOffset = 0.025
+	#Enable arrow/trident gravity reduction in The End (default: true).
+	enableArrowGravity = true
+	#Upward force per tick for arrows/tridents in The End (default: 0.03). Higher = less gravity.
+	# Default: 0.03
+	# Range: 0.0 ~ 0.05
+	arrowGravityOffset = 0.03
+	#Enable thrown projectile gravity reduction in The End (default: true).
+	enableThrownGravity = true
+	#Upward force per tick for thrown projectiles in The End (default: 0.018). Higher = less gravity.
+	# Default: 0.018
+	# Range: 0.0 ~ 0.03
+	thrownGravityOffset = 0.018
+
+[effects]
+	#Enable particle gravity reduction in The End (default: true).
+	enableParticles = true
+	#Particle gravity multiplier in The End (default: 0.3). 0 = no gravity, 1 = vanilla.
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	particleGravityMultiplier = 0.3
+	#Enable low-pass audio filter in The End (default: true). Creates a muffled underwater-like sound.
+	enableLowPassFilter = true
+	#Low-pass filter volume (default: 0.4). Lower = more muffled.
+	# Default: 0.4
+	# Range: 0.0 ~ 1.0
+	lowPassGain = 0.4
+	#Low-pass filter high-frequency volume (default: 0.3). Lower = less high-frequency sound.
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	lowPassGainHF = 0.3
+
+[gameplay]
+	#Fall damage mode in The End: 0 = normal, 1 = disabled, 2 = velocity-based (default: 1).
+	# Default: 1
+	# Range: 0 ~ 2
+	fallDamageMode = 1
+	#Damage per unit of velocity for velocity-based fall damage (default: 1.0). Higher = more damage.
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	fallDamageVelocityScale = 1.0
+	#Minimum impact velocity before velocity-based damage applies (default: 0.6). Below this, no damage.
+	# Default: 0.6
+	# Range: 0.0 ~ 5.0
+	fallDamageMinVelocity = 0.6
+	#Enable falling block gravity reduction in The End (default: true). Affects sand, gravel, anvils, dragon eggs.
+	enableBlockGravity = true
+	#Upward force per tick for falling blocks in The End (default: 0.035). Higher = slower fall.
+	# Default: 0.035
+	# Range: 0.0 ~ 0.04
+	blockGravityOffset = 0.035
+
+[sable]
+	#Sable gravity Y value for The End (default: -4.0). More negative = stronger downward pull.
+	# Default: -4.0
+	# Range: -20.0 ~ 0.0
+	sableGravityY = -4.0
+	#Sable pressure value for The End (default: 0.0). 0 = no pressure.
+	# Default: 0.0
+	# Range: 0.0 ~ 10.0
+	sablePressure = 0.0
+	#Sable drag value for The End (default: 0.05). Air resistance. 0 = no drag.
+	# Default: 0.05
+	# Range: 0.0 ~ 10.0
+	sableDrag = 0.05
+	#Sable datapack priority (default: 1001). Must be > 1000 to override Sable built-in defaults.
+	# Default: 1001
+	# Range: 1 ~ 9999
+	sableDatapackPriority = 1001

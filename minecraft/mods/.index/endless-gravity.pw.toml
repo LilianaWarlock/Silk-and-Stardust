@@ -1,0 +1,21 @@
+filename = 'endless_gravity-1.0.4.jar'
+name = 'Endless Gravity'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.4'
+
+[download]
+hash = 'eb657f852f007449e8ec8a9844a6b3a6821cfc3f6f8bb31f155ef5df4a445adb854a6367579b9e18be074d67004bd2412221e22079e3a92abfa52da63ee9bc02'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nlS279f0/versions/fikZZDOi/endless_gravity-1.0.4.jar'
+
+[update.modrinth]
+mod-id = 'nlS279f0'
+version = 'fikZZDOi'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'T9PomCSv'
+type = 'OPTIONAL'
