@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.28",
-  "config_datetime": "2026-07-18_17-36-37",
+  "config_datetime": "2026-07-24_20-11-16",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -92,12 +92,6 @@
     {
       "name": "hexerei:nature_coven",
       "size": 6,
-      "override_global_distance_from_world_center": true,
-      "min_distance_from_world_center": 1000,
-      "max_distance_from_world_center": 0
-    },
-    {
-      "name": "legendary_monsters:collapsed_kingdom",
       "override_global_distance_from_world_center": true,
       "min_distance_from_world_center": 1000,
       "max_distance_from_world_center": 0
@@ -540,6 +534,14 @@
     },
     {
       "name": "wan_ancient_beasts:desert_ruins",
+      "start_height": {
+        "absolute": -9
+      },
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false,
+      "flatness_check_mode": "AUTO",
+      "flatness_check_max_height_difference": 21,
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -564,6 +566,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_badlands",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -576,6 +581,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_desert",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -588,6 +596,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_icespikes",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -600,6 +611,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_jungle",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -612,6 +626,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_large_badlands",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -624,6 +641,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_large_desert",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -636,6 +656,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_large_icespikes",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -648,6 +671,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_large_jungle",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -660,6 +686,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_large_oldgrowthtaiga",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -676,6 +705,9 @@
         "minecraft:meadow",
         "minecraft:cherry_grove"
       ],
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -688,6 +720,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_large_plains",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -700,6 +735,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_large_savanna",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -712,6 +750,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_large_taiga",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -724,6 +765,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_oldgrowthtaiga",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -736,6 +780,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_peaks",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -748,6 +795,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_plains",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -760,6 +810,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_savanna",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -772,6 +825,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_small_badlands",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -784,6 +840,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_small_desert",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -796,6 +855,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_small_icespikes",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -808,6 +870,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_small_jungle",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -820,6 +885,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_small_oldgrowthtaiga",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -836,6 +904,9 @@
         "minecraft:meadow",
         "minecraft:cherry_grove"
       ],
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -848,6 +919,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_small_plains",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -860,6 +934,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_small_savanna",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -872,6 +949,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_small_taiga",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",
@@ -884,6 +964,9 @@
     },
     {
       "name": "wan_ancient_beasts:digsite_taiga",
+      "start_height": {
+        "absolute": -9
+      },
       "override_global_biome_check": false,
       "enable_biome_check": true,
       "biome_check_mode": "BLACKLIST",

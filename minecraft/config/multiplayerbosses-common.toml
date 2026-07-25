@@ -25,4 +25,4 @@
 # Range: > 0
 "Proximity Scaling Range" = 100
 #All bosses that should be affected by this mod. Most are usually in the modloader (Forge, Neoforge, Fabric) tag
-"Boss Entities" = ["minecraft:wither", "minecraft:ender_dragon", "cataclysm:ancient_remnant", "cataclysm:ignis", "cataclysm:maledictus", "cataclysm:ender_golem", "cataclysm:ender_guardian", "cataclysm:the_leviathan", "cataclysm:the_harbinger", "cataclysm:netherite_monstrosity", "bosses_of_mass_destruction:void_blossom", "bosses_of_mass_destruction:gauntlet", "bosses_of_mass_destruction:lich", "bosses_of_mass_destruction:obsidilith"]
+"Boss Entities" = ["minecraft:wither", "minecraft:ender_dragon", "cataclysm:ancient_remnant", "cataclysm:ignis", "cataclysm:maledictus", "cataclysm:ender_golem", "cataclysm:ender_guardian", "cataclysm:the_leviathan", "cataclysm:the_harbinger", "cataclysm:netherite_monstrosity", "bosses_of_mass_destruction:void_blossom", "bosses_of_mass_destruction:gauntlet", "bosses_of_mass_destruction:lich", "bosses_of_mass_destruction:obsidilith", "the_moth:moth_man"]

@@ -18,11 +18,12 @@
   "showEmiChatMessages": true,
   "reloadAfterRemoval": true,
   "blacklistedItems": [
+    "netherexp:claret_pickets",
+    "netherexp:claret_trellis",
     "artifacts:eternal_steak",
     "artifacts:everlasting_beef",
     "artifacts:superstitious_hat",
     "artifacts:lucky_scarf",
-    "",
     "aether:chainmail_gloves",
     "aether:iron_gloves",
     "aether:golden_gloves",

@@ -28,7 +28,7 @@
 	#List of armor mobs can spawn with near the surface.
 	surfaceArmor = ["minecraft:chainmail_helmet", "minecraft:chainmail_chestplate", "minecraft:chainmail_boots", "minecraft:leather_helmet", "minecraft:leather_chestplate", "minecraft:leather_boots"]
 	#List of weapons mobs can spawn with near the surface.
-	surfaceWeapons = ["minecraft:air"]
+	surfaceWeapons = ["nameless_trinkets:broken_magnet"]
 	#List of armor mobs can spawn with in caves.
 	caveArmor = ["minecraft:iron_helmet", "minecraft:iron_chestplate", "minecraft:iron_leggings", "minecraft:iron_boots", "minecraft:chainmail_helmet", "minecraft:chainmail_chestplate", "minecraft:chainmail_leggings", "minecraft:chainmail_boots"]
 	#List of weapons mobs can spawn with in caves.

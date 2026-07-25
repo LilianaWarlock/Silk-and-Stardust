@@ -66,6 +66,7 @@ spell_engine = true
 knightlib = true
 mushroomquest = true
 enderscape = true
+fightsfrights = true
 nightlights = true
 elysium_api = true
 tinymultiblocklib = true
