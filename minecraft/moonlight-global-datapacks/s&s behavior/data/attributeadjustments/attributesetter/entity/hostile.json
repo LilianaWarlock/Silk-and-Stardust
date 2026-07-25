@@ -9,7 +9,7 @@
   "the_moth:moth_man": [
     {
       "attribute": "minecraft:generic.max_health",
-      "value": 75,
+      "value": 50,
       "operation": "BASE"
     }
   ]

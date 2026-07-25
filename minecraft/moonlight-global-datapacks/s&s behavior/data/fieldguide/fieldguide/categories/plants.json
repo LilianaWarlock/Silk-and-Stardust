@@ -113,6 +113,30 @@
         "unlocked_by_default": false,
         "triggers": ["scan", "obtain"]
       }
+    },
+    {
+      "type": "entry",
+      "id": "block:wetland_whimsy/aria_mushroom_block",
+      "unlock": {
+        "unlocked_by_default": false,
+        "triggers": ["scan", "obtain"]
+      }
+    },
+    {
+      "type": "entry",
+      "id": "block:bountifulfares/wild_passion_fruit_vine",
+      "unlock": {
+        "unlocked_by_default": false,
+        "triggers": ["scan", "obtain"]
+      }
+    },
+    {
+      "type": "entry",
+      "id": "block:bountifulfares/wild_elderberry_vine",
+      "unlock": {
+        "unlocked_by_default": false,
+        "triggers": ["scan", "obtain"]
+      }
     }
   ]
 }
