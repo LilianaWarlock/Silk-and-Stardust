@@ -40,5 +40,7 @@
   "fieldguide.block.bountifulfares.wild_leeks.description": "Leeks, adapted to the harsh outside.",
   "fieldguide.block.bountifulfares.wild_maize.description": "Maize, adapted to the harsh outside.",
   "fieldguide.block.bountifulfares.wild_potatoes.description": "Potatoes, adapted to the harsh outside.",
-  "fieldguide.block.bountifulfares.wild_wheat.description": "Wheat, adapted to the harsh outside."
+  "fieldguide.block.bountifulfares.wild_wheat.description": "Wheat, adapted to the harsh outside.",
+  "fieldguide.block.bountifulfares.wild_elderberry_vine.description": "Vines that grow on the sides of trees and produce tart elderberries. Typically found in cooler areas.",
+  "fieldguide.block.bountifulfares.wild_passion_fruit_vine.description": "Vines that grow on the sides of trees and produce tangy passion fruit. Typically found in warmer areas."
 }
