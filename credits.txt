@@ -9,3 +9,283 @@ SageDeoxys - Original Mimikyu Sprite - @sagedeoxys.bsky.social
 Vanilla Tweaks - https://vanillatweaks.net/
 
 Alagard Font (The font in the Hexerei book) - Hewett Tsoi - https://www.dafont.com/hewett-tsoi.d4888
+
+
+
+Mod makers, according to Prism/Modrinth as of writing: 
+
+Accessories by Blodhgarm, chyzman, Dr.Zeal
+Accessories Compatibility Layer by blodhgarm, 
+ActiveEnchantmentsLib by Detrovv
+ActuallyHarvest by wendall911
+Additional Additions by Dqu1J
+AdvancementDisable by CozyPenguin
+Aether Villages by Aureljz, DiamondTown
+Allay in a Bottle by piguycs, Telezhka-the-First (ru_ru translation)
+Amendments by MehVahdJukaar, Plantkillable
+Antique Atlas by Hunternif, tyra314, Sisby folk. Contributions by Kenkron, asiekierka, Haven King, TheCodeWarrior, osipxd, coolAlias, TehNut, lumiscosity, frodolon
+Apple Cows by CraisinLord
+AppleSkin by squeek
+Archers (RPG Series) by Daedelus
+Architectury by shedaniel
+Armory (RPG Series) by Daedelus
+Artifacts by ochotonida
+Async Logger by decce
+AsyncLocator-Refined by alvaro842
+AttributeSetter
+Axes Are Weapons by Fourmisain
+AzureLib Armor by AzureDoom, Gecko, Eliot, Chappie, DerToaster, Tslat, Bvanseg, ZigyTheBird
+BBE by Ceeden
+Bad Wither No Cookie Reloaded by Kreezxil, Eleksploded
+BadOptimizations by Thosea
+Balm by BlayTheNinth
+Barebones McQoy by Sisby folk. Contributions by cassiancc.
+Bauble Mounts by ShadowKing21
+Better Archeology by Pandarix
+Better Biome Blend by FionaTheMortal
+Better Climbing by artemis
+Better Combat by Daedelus
+Better ModList by foxy, Prospector, haykam821, TerraformersMC
+Better Recipe Book (Extended) by marshmallow
+Better Tridents by Fuzs
+BetterDays by wendall911
+BetterF3 by TreyRuffy and cominixo
+Big Water by Tec, Vercte
+Biolith by TerraformersMC, gniftygnome
+Blueprint by Team Abnormals
+Boss AI Tweaks by n0t_UN_Owen/NotUnaNancyOwen
+Bosses of Mass Destruction by CerbonXD
+Bosses'Rise by Block Factory
+Bountiful Fares by Hecco
+Building Wands by nicguzzo
+BundleAPI by TheRedBrain
+Carry On by Tschipp, PurpliciousCow
+Carved Wood by Im_Maker
+Cascades (Hybrid Beta) by Crystalis7
+Cat Loaf by Khajiitos
+Cerbons API by CerbonXD
+Chat Heads by dzwdz, Fourmisain
+Chunks Fade In by kerudion (koteinik)
+ClickThrough Plus by cassiancc
+Climate Rivers by Fuzs
+Cloth Config v15 API by shedaniel
+Clumps by Jared
+Collective by Rick South
+Combat Roll by Daedelus
+Comforts by Illusive Soulworks
+Companions! by Xylonity, ModderG
+Considerate Endermen by MoonFather
+Continuity by PepperCode1
+CorgiLib by Corgi Taco
+Cozy Home by LuckyOwl, DipChip
+Crafting Mats by Vercte
+Creeper Overhaul by Artist/Creator - Joosh, Dev - ThatGravyBoat
+Critical Strike by Daedelus
+Critters and Companions by Joosh, EterDelta
+Crop Critters by Yelf42
+Cult of Azazel by Benj1kus
+Curios API by C4
+Dangerous
+Dark Loading Screen by CraisinLord, Laynce
+Darker Depths by Naterbobber, Blackgear, Toxteer, Orcinus
+Data Anchor by Corgi Taco
+Deep Aether by RazorDevs
+Dracolotl by TrashElemental
+Dragon Scale Mod by Carlo
+Dungeons and Taverns by NovaWostra, Konci, Walls
+Dungeons+ by technodono
+Dynamic FPS by juliand665 & LostLuma
+Easy Magic by Fuzs
+Elysium-API by ThatJadenXgamer
+Enchanting Infuser by Fuzs
+Enderscape by lunarbunten, hivye, Konci, Ninni, Orcinus, Luke Bemish
+Endless Gravity by Dinner
+Enhanced Celestials by Corgi Taco
+Enhanced Extinguishing by bconlon
+Entity Model Features by Traben
+Entity Texture Features by Traben
+EntityCulling by tr7zw
+Eternal Starlight by LeoLezury
+Explore Ruins Aether by NoCube
+Extreme Sound Muffler by LeoBeliik
+Fabric Language Kotlin by FabricMC
+Farming for Blockheads by BlayTheNinth
+Fast Noise Mod by ZenXArch
+Ferrite Core by malte0811
+Field Guide by Evan, Kobber
+Fights&Frights by leobl, MCreator
+Forgified Fabric API by Sinytra, FabricMC
+Friends For Life by conbo, jjorge
+Friends&Foes by Faboslav
+Friends&Foes - Flowery Mooblooms by Faboslav
+Further difficulty
+Fzzy Config by fzzyhmstrs
+Gateway of Doom by MrStilu2k6
+GeckoLib 4 by Gecko, Eliot, AzureDoom, DerToaster, Tslat, Witixin
+Ghosts by Joosh7889, Xylonity
+Gipples Galore by Rowan, Monozari, sawlferton, Uraneptus, KingRolly, gaytwinkfemboy, MinecraftGuy926
+Gliders by Jeryn99, TommyBricks, Lucraft, cassiancc
+Golem Overhaul by Alex Nijjar, Joosh, 3xpl01t
+HT's TreeChop by hammertater
+Hearths by bebebea_loste
+Hero's Tiered by Herobrot
+Hexerei by JoeFoxe
+Highlighter by Grend
+Iceberg by Grend
+Illager Arena by Wario
+ImmediatelyFast by RK_01
+Immersive Overlays by cassiancc, noelledotjpg
+Improved Anvils by DavidJMacDonald
+Infernal Expansion by Infernal Studios
+Iris by coderbot, IMS212
+Item Descriptions by cassiancc
+Items Displayed by Jusey1, Freedinner
+Jade by Snownee
+Jaden's Nether Expansion by ThatJadenXgamer/ThatMaidenJaden
+Jewelry (RPG Series) by Daedelus
+Jumpy Boats by LobsterJonn
+Just Enough Effects Descriptions by MehVahdJukaar
+Just Enough Items by mezz
+Keep On Mining by Partonetrain
+KeepInventoryPenalty by FabForReal
+Kinda Cursed by Detrovv
+Kiwi Library by Snownee
+Knight Lib by Xylonity
+Kobolds by Jusey1
+Kotlin for Forge
+Landmarks by Me!
+Leave My Bars Alone by Fuzs
+Lithium by 2No2Name, JellySquid
+Little Moths by PestKatze, MCreator
+Locator Bar by FuzjaJadrowa
+Luminous: Butterflies by RipleysMods
+MagicMirror by Quiltie
+Max Health Fix by Nerjal Nosk
+Mermod by ThatPreston
+MidnightLib by TeamMidnightDust, Motschen
+Mixin Trace Reforged by Toni, comp500, MCTeamPotato
+MmmMmmMmmMmm by Mehvahdjukaar, Bonusboni, Gooigipunch, Plantkillable
+Model Gap Fix by MehVahdJukaar
+Moderately Enough Effect Descriptions by Neon_Cranberries
+ModernFix by embeddedt
+Moonlight Lib by MehVahdJukaar
+More Culling by FX - PR0CESS, 1Foxy2
+MultiplayerBosses by Samuel Devers
+MusicNotification by KosmoMoustache
+NBT Autocomplete by mt1006
+Nameless Trinkets by Cozary
+Naturally Charged Creepers by Rick South
+Nether's Exoticism by Furti Two
+NexusLib by Hecco
+Night Lights by Joosh, samgj15, Flechazo
+Not Enough Crashes by Fudge
+NotEnoughAnimations by tr7zw
+Ore Creeper by Cozary
+Paladins & Priests (RPG Series) by Daedelus
+Particle Core by fzzyhmstrs
+Particular Reforged by Leclowndu93150
+Paws At You by Ecorous, reddust9
+Piglin Proliferation by TallestRed (Developer), Edmord (Artist), flowerfugue (Developer)
+Platform by ItsBlackGear
+Player Animator by KosmX
+Plushie Buddies by Subthy
+Polymorph by Illusive Soulworks
+Polytone by MehVahdJukaar
+Protect Your Moa by bconlon, Oz Payn
+Pufferfish's Skills by Pufferfish
+Puzzles Lib by Fuzs
+Quad by LieOnLion
+Quark by Vazkii, WireSegal, MCVinnyq, Sully
+Questlog by Infernal Studios
+RPG Backpacks by Yigit Guven
+Random Mob Sizes by Buecher_wurm
+RangedWeaponAPI by Daedelus
+Reconnectible Chains by Evan, legoatoom
+Reese's Sodium Options by FlashyReese
+Reliable Name Tags by cassiancc
+Reliable Recipes by Evan
+Reliable Remover by Evan
+Reliable Replacer by Evan
+Relics (RPG Series) by Daedelus
+Resourceful Lib by ThatGravyBoat, Epic_Oreo
+Resourcefulconfig
+Respawning Animals by Fuzs
+Ribbits by Joosh, YUNGNICKYOUNG, HellionGames, Refresh Studios
+Rogues & Warriors (RPG Series) by Daedelus
+RoseBackport by Multiverse
+RottenCreatures by RPorotos, Team Fusion
+Roughly Enough Items (REI) by shedaniel
+Royal Variations by Mongoose_artist, Polarice3
+Runes by Daedelus
+SDMUILibrary
+Screenshot Viewer by LGatodu47
+Seamless Loading Screen by Minenash
+Second Wind! by jvn
+Serene Shrubbery by Tyler Lukes, MCreator
+Shield Expansion by Infernal Studios
+ShieldAPI by TheRedBrain
+Simple Custom Early Loading
+Simple Ender Backpack by pajic
+Sinytra Connector
+Skill Tree (RPG Series) by Daedelus
+Snow Under Trees by bl4ckscor3
+Snow! Real Magic! by Snownee
+Snuffles by SchnappDragon, Edmord17
+Sodium by JellySquid (jellysquid3), IMS212
+Sodium Extra by FlashyReese
+Spawn Animations by Tschipcraft
+Spell Engine by Daedelus
+Spell Power Attribute by Daedelus
+Spirit Walker by BasiqueEvangelist
+Sporelight
+Spyglass Astronomy by Nettakrim
+Spyglass Astronomy Sync by fliplus
+Spyglass Improvements by juancarloscp52 (Im_JC)
+Starcatcher
+Starter Kit by Rick South
+Stormie's Spiders by Halfstorm
+Structory by Stardust Labs
+Structure Layout Optimizer by TelepathicGrunt
+Structure Pool API by Daedelus
+Structurify by Faboslav
+Surveyor Map Framework by Sisby folk. Contributions by Ampflower, falkreon, jaskarth, Garden System
+TNT Slimes by Mrbysco, Darkosto
+Tameable Foxes by Lancet_
+TerraBlender by Adubbz
+Terrarian Might by BlueTheDude
+The Aether by AlphaMode, baguchi, bconlon, Blodhgarm, Burning Cactus, Drullkus, Hugo Payn, Jaryt, Katie 'Oz' Payn, quek, Raptor, reetam, RENREN, sunsette
+The Roads More Travelled by milkucha
+Tidal Towns by joshieman
+Tiny Takeover Backport by Evan
+Tolerable Creepers by Evan, Farcr
+TrashSlot by BlayTheNinth
+Traveler's Titles by YUNGNICKYOUNG
+Treasure Reforging by bconlon, Oz Payn
+Trial Vault Restock by GlacialSkyfarer
+Trimmed by dhyces
+Unusual End by Sweetygamer, SashaKYotoz
+Useful Spyglass by BrokenKeyboard
+VanillaBackport by BlackGear
+Variable Spawner Hardness by Paint_Ninja
+Village Taverns (RPG Series) by Daedelus
+VillagerConfig by Drex
+Void Water by NormallyNormal
+Wabi-Sabi Structures by WightofShadows, Wpgradford
+Wan's Ancient Beasts by WanMine Studio
+Wanderer_Ribbit by cosmic_barri
+Wandering Trader May Leave by Rick South
+Warden Horn by Jackbusters
+Waystones by BlayTheNinth
+Weaker Spiderwebs by Rick South
+Wetland Whimsy by Juniper
+Wildfire's Female Gender Mod by WildfireRomeo
+Wits by TelepathicGrunt
+Wizards (RPG Series) by Daedelus
+YUNG's API by YUNGNICKYOUNG
+YetAnotherConfigLib by isXander
+Yori3o's Grappling Hooks by Yori3o
+Zeta by Vazkii, quat, IThundxr, Siuol, wiresegal, MehVahdJukaar
+keymap by Einjerjar, SettingDust
+oωo by glisco, Blodhgarm, BasiqueEvangelist, Noaaan
+spark by Luck
+toucanLib by jvn
