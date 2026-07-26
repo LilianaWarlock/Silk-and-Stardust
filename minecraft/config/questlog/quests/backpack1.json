@@ -1,0 +1,18 @@
+{
+  "title": "Packs for Backs",
+  "description": "Make a Leather Backpack.",
+  "icon": {
+    "item": "rpgbackpacks:leather_backpack"
+  },
+  "chapter": "main",
+  "sort_order": 25,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "item": "rpgbackpacks:leather_backpack",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Cuteness in Buckets - Vol. 2",
+  "description": "Capture a Moloch in a bucket. For fun.",
+  "icon": {
+    "item": "nethers_exoticism:moloch_in_a_bucket"
+  },
+  "chapter": "friends",
+  "sort_order": 51,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:axolotl_bucket",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:visit_dimension",
+      "dimension": "minecraft:the_nether",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 1,
+      "levels": true
+    }
+  ]
+}

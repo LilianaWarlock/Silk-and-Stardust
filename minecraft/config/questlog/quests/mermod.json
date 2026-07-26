@@ -1,0 +1,35 @@
+{
+  "title": "Just Add Water!",
+  "description": "Craft Sea Crystals using a Heart of The Sea and a Diamond, and then create a stunning necklace that increasing your underwater abilities.",
+  "icon": {
+    "item": "mermod:sea_crystal"
+  },
+  "chapter": "exploration",
+  "sort_order": 11,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "item": "mermod:sea_crystal",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_craft",
+      "item": "mermod:sea_necklace",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:diamond",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 3,
+      "levels": true
+    }
+  ]
+}

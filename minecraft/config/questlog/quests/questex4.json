@@ -6,12 +6,6 @@
   "icon": {
     "item": "yo_hooks:iron_grappling_hook"
   },
-  "requirements": [
-    {
-      "type": "questlog:quest_complete",
-      "quest": "questlog:questmain3"
-    }
-  ],
   "objectives": [
     {
       "type": "questlog:or",
@@ -35,5 +29,7 @@
         }
       ]
     }
-  ]
+  ],
+  "prerequisites": [],
+  "rewards": []
 }
