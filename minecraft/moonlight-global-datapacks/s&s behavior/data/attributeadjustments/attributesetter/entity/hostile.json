@@ -6,6 +6,13 @@
       "operation": "BASE"
     }
   ],
+  "minecraft:skeleton": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 16,
+      "operation": "BASE"
+    }
+  ],
   "the_moth:moth_man": [
     {
       "attribute": "minecraft:generic.max_health",
