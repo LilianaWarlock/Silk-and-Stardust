@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "darkerdepths:sandy_catacombs",
+    "minecraft:sulfur_caves",
+    "minecraft:desert"
+  ],
+  "spawners": {
+    "type": "fightsfrights:terrantula",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fightsfrights:shackle"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:totem_of_undying"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "fightsfrights:shackle"
+    }
+  ],
+  "result": {
+    "id": "fightsfrights:empty_hex",
+    "count": 1
+  }
+}

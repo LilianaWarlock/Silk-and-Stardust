@@ -1,0 +1,38 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "badlands",
+    "birch_forest",
+    "cherry_grove",
+    "dark_forest",
+    "desert",
+    "dripstone_caves",
+    "eroded_badlands",
+    "forest",
+    "ice_spikes",
+    "jagged_peaks",
+    "mangrove_swamp",
+    "old_growth_birch_forest",
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga",
+    "taiga",
+    "snowy_taiga",
+    "snowy_plains",
+    "snowy_slopes",
+    "savanna_plateau",
+    "windswept_savanna",
+    "wooded_badlands",
+    "windswept_hills",
+    "windswept_gravelly_hills",
+    "stony_peaks",
+    "plains",
+    "sparse_jungle",
+    "frozen_peaks"
+  ],
+  "spawners": {
+    "type": "fightsfrights:allman",
+    "weight": 4,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}
