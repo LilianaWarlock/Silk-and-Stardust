@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "item": "jewelry:tanzanite"
+  },
+  "result": {
+    "id": "waystones:warp_dust"
+  },
+  "result_count": 7
+}
