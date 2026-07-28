@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "values": [
+    "aether:skyroot_forest",
+    "aether:skyroot_grove",
+    "aether:skyroot_meadow",
+    "aether:skyroot_woodland",
+    "deep_aether:golden_grove",
+    "deep_aether:golden_heights",
+    "deep_aether:luminescent_forest",
+    "deep_aether:skyroot_forest"
+  ]
+}
