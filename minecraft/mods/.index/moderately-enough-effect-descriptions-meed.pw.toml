@@ -1,5 +1,5 @@
-filename = 'meed-1.21.1-8.0.1.jar'
-name = 'MEED'
+filename = 'meed-1.21.1-8.0.2.jar'
+name = 'Moderately Enough Effect Descriptions'
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -18,14 +18,14 @@ x-prismlauncher-mc-versions = [
     '1.21.11'
 ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '8.0.1'
+x-prismlauncher-version-number = '8.0.2'
 
 [download]
-hash = '5c44224d2fece0a7f8348ef6de3f7c9b05723bcea61cac65e2d2bb4dd5f653f8b2ae15e8d16b752dc81d97c8ff6f954079f7cda40411745fa63305b1359e300e'
+hash = '70daa7cba8dfbbb41d9e6fe860615df9857b3651697820fb664845771b0241d956645417b7fb90084193deafe830ee9a9322152028ff884876e6f220f4116d74'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/1dxbxzCg/versions/XyPeBeD5/meed-1.21.1-8.0.1.jar'
+url = 'https://cdn.modrinth.com/data/1dxbxzCg/versions/Y7ga2NkN/meed-1.21.1-8.0.2.jar'
 
 [update.modrinth]
 mod-id = '1dxbxzCg'
-version = 'XyPeBeD5'
+version = 'Y7ga2NkN'
