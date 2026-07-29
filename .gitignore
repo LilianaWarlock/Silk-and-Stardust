@@ -68,3 +68,5 @@ minecraft/config/jei/ingredient-list-mod-sort-order.ini
 minecraft/brbe-diagnostic.log
 minecraft/config/zfastnoise.mixin.properties
 minecraft/config/zfastnoise.mixin.properties
+minecraft/servers.dat_old
+minecraft/servers.dat
