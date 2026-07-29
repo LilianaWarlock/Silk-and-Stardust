@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "pattern": [" A ", "ABA", " A "],
+  "key": {
+    "A": { "item": "minecraft:glass_bottle" },
+    "B": { "item": "knightlib:small_essence" }
+  },
+  "result": { "id": "minecraft:experience_bottle", "count": 4 }
+}
