@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "blue_cape",
+  "key": {
+    "p": {
+      "item": "minecraft:purple_wool"
+    },
+    "b": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "pattern": ["pp", "bb", "pp"],
+  "result": {
+    "count": 1,
+    "id": "aether:blue_cape"
+  }
+}
