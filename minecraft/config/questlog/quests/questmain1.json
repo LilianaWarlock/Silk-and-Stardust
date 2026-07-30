@@ -22,7 +22,7 @@
     {
       "type": "questlog:command",
       "name": "Antique Atlas",
-      "command": "/give @s minecraft:book[minecraft:item_name='{text:\"Antique Atlas\"}', minecraft:lore=['{\"color\":\"gray\",\"italic\":false,\"translate\":\"item.antique_atlas.atlas.lore\"}']]"
+      "command": "/give @s minecraft:book[minecraft:item_name='{translate:\"item.antique_atlas.atlas\"}', minecraft:lore=['{\"color\":\"gray\",\"italic\":false,\"translate\":\"item.antique_atlas.atlas.lore\"}', '{\"color\":\"gray\",\"italic\":false,\"translate\":\"item.antique_atlas.atlas.hint\"}']]"
     }
   ],
   "sort_order": 0,
