@@ -602,7 +602,7 @@
 	"Seed Pouch" = true
 	"Skull Pikes" = false
 	"Slime In A Bucket" = true
-	"Torch Arrow" = false
+	"Torch Arrow" = true
 	Trowel = true
 
 		[tools.abacus.highlight_color]
@@ -1880,15 +1880,15 @@
 	Backpack = true
 	Crate = true
 	Magnets = true
-	"Matrix Enchanting" = true
+	"Matrix Enchanting" = false
 	Pipes = true
-	"Tiny Potato" = true
-	"Totem Of Holding" = true
+	"Tiny Potato" = false
+	"Totem Of Holding" = false
 
 	[oddities.backpack]
 		#Set this to true to allow the backpacks to be unequipped even with items in them
 		"Super Op Mode" = false
-		"Enable Ravager Hide" = true
+		"Enable Ravager Hide" = false
 		"Items In Backpack Tick" = true
 		"Base Ravager Hide Drop" = 1
 		"Extra Chance Per Looting" = 0.5

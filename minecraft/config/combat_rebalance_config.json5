@@ -1,0 +1,115 @@
+{
+	// Make healing more steady in combat rather than in bursts with food, 
+	// making high saturation foods not as overpowered as they are. 
+	// May conflict with mods that also rebalance the hunger system
+	"Hunger Changes Enabled?": true,
+	// 
+	// Setting to True makes it so that eating multiple foods in succession does not stack their saturation value.
+	"[Hunger] Non Stacking Saturation Enabled?": false,
+	// 
+	// Setting to True enables saturation being consumed to heal the player.
+	"[Hunger] Saturation Healing Enabled?": false,
+	// 
+	// Cooldown per tick of Healing from Saturation, useless unless Saturation Healing is enabled. (In ticks, 20 ticks = 1 second)
+	// Vanilla Value: 10 ticks / 0.5 seconds
+	"[Hunger] Saturation Healing Cooldown": 10,
+	// 
+	// Until what amount of Hunger will be consumed to heal the player. (Full Bar is 20 Hunger, Sprinting is disabled at 6 Hunger)
+	// Vanilla Value: 17 hunger / 8.5 points on hunger bar
+	"[Hunger] Heal Until Hunger": 8,
+	// 
+	// Cooldown per tick of Healing from Hunger. (In ticks, 20 ticks = 1 second)
+	// Vanilla Value: 80 ticks / 4 seconds
+	"[Hunger] Hunger Healing Cooldown": 40,
+	// 
+	// Chance for hunger to be consumed when healing. 0.0 - 1.0 (1.0: 100%, 0.5: 50%, etc...)
+	"[Hunger] Hunger Consumption Chance": 0.5,
+	// 
+	// Setting to True disables all hunger loss except for healing.
+	"[Hunger] Disable Non-Healing Hunger Loss?": false,
+	// 
+	// System adding cooldown to foods to balance buff food chugging (Like spam eating golden apples)
+	"Food Cooldown Enabled?": true,
+	// 
+	// Adds a cooldown to food based on the amount, probability, and amplifier of positive effects it has. (In ticks, 20 ticks = 1 second)
+	// Per Positive Effect adds (Amplifier * Effect Probability * Cooldown)
+	// Setting Value to 0 Disables this feature
+	"[Food Cooldown] Effect Based Positive Cooldown Duration": 20,
+	// 
+	// Reduces cooldown of food based on the amount, probability, and amplifier of negative effects it has. (In ticks, 20 ticks = 1 second)
+	// Per Negative Effect adds (Amplifier * Effect Probability * Cooldown)
+	// Setting Value to 0 Disables this feature
+	"[Food Cooldown] Effect Based Negative Cooldown Duration": 20,
+	// 
+	// Adds a cooldown to all food after eating. (In ticks, 20 ticks = 1 second)
+	// Setting Value to 0 Disables this feature
+	"[Food Cooldown] Global Food Cooldown": 5,
+	// 
+	// System changing the eat time of food based on food 
+	"Food Eat Time Rebalance Enabled?": true,
+	// 
+	// Adds eating time based on a food's hunger value. (In ticks, 20 ticks = 1 second)
+	"[Food Eat Time] Duration from Hunger Value": 4,
+	// 
+	// Adds eating time based on a food's saturation value. (In ticks, 20 ticks = 1 second)
+	"[Food Eat Time] Duration from Saturation Value": 2,
+	// 
+	// Adds a cap to the Minimum and Maximum possible eating time. (In ticks, 20 ticks = 1 second)
+	"[Food Eat Time] Minimum Value Cap": 10,
+	"[Food Eat Time] Maximum Value Cap": 40,
+	// 
+	// 
+	// 
+	// Rebalances the Ender Pearl to not be as overpowered of a teleporting item as it is.
+	// 
+	// Time after ender pearl's user takes damage that the ender pearl despawns. (In ticks, 20 ticks = 1 second)
+	// Setting Value to -1 Disables this feature
+	"Ender Pearl Entity Despawn Time on User taking Damage": -1,
+	// 
+	// Cooldown after using ender pearl. (In ticks, 20 ticks = 1 second)
+	// Setting Value to -1 Disables this feature
+	// Vanilla Value: 20 ticks / 1 second
+	"Ender Pearl Cooldown on Use": 20,
+	// 
+	// 
+	// 
+	// Rebalances the trident giving it extra damage, reach and knockback.
+	// May conflict with mods that modify the trident's attributes.
+	"Trident Attribute Changes Enabled?": true,
+	// Vanilla Trident Attributes: 9 Attack Damage, 1.1 Attack Speed
+	"[Trident Attribute] Attack Damage": 10.0,
+	"[Trident Attribute] Attack Speed": 1.1,
+	"[Trident Attribute] Reach": 1.5,
+	"[Trident Attribute] Knockback": 1.0,
+	// 
+	// Hides items in the other hand when using Riptide.
+	"Trident Hide Alt Hand When Riptide Enabled?": true,
+	// 
+	// 
+	// 
+	// Rebalances the Mace giving it increased fall damage, giving it risk and reward.
+	// May conflict with mods that modify the Mace's attributes.
+	"Mace Attribute Changes Enabled?": false,
+	// Vanilla Mace Attributes: 6 Attack Damage, 0.6 Attack Speed
+	"[Mace Attribute] Attack": 6.0,
+	"[Mace Attribute] Attack Speed": 0.6,
+	"[Mace Attribute] Fall Damage Multiplier": 1.0,
+	// 
+	// Changes to the Mace's Smash Attack Damage Calculation.
+	// May conflict with mods that modify the Mace's damage calculation.
+	"Mace Smash Calculation Changes Enabled?": false,
+	// Damage Calculation: Fall Distance Under Parameter 1 * Multiplier 1 + Fall Distance Between Parameter 1 and 2 * Multiplier 2 + Fall Distance Above Parameter 2 * Multiplier 3
+	"[Mace Smash] Parameter 1": 8.0,
+	"[Mace Smash] Parameter 2": 16.0,
+	"[Mace Smash] Multiplier 1": 2.0,
+	"[Mace Smash] Multiplier 2": 1.0,
+	"[Mace Smash] Multiplier 3": 0.5,
+	// 
+	// Caps the Mace's Smash Attack based on the Target's Health (Target Health * Smash Damage Cap)
+	"Mace Smash Damage Cap Enabled?": false,
+	"[Mace Smash Damage Cap] Multiplier": 1.5,
+	// 
+	// Multiplier to the Knockback dealt with the Mace's Smash Attack
+	"Mace Smash Knockback XZ Multiplier": 1.0,
+	"Mace Smash Knockback Y Multiplier": 1.0
+}

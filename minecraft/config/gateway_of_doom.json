@@ -7,7 +7,8 @@
   "profiles": {
     "easy": {
       "displayName": "item.gateway_of_doom.devil_eye_blue",
-      "colorRGB": 4890879,
+      "colorRGB": 15194149,
+      "portalStyle": "ritual",
       "defaultWaveTimeLimitSeconds": 130,
       "healthBoostPercent": 0.0,
       "damageBoostPercent": 0.0,
@@ -49,16 +50,12 @@
           "timeLimitSeconds": 130,
           "mobs": [
             {
-              "type": "minecraft:spider",
-              "count": 2
+              "type": "minecraft:zombie",
+              "count": 4
             },
             {
-              "type": "minecraft:husk",
-              "count": 2
-            },
-            {
-              "type": "minecraft:creeper",
-              "count": 2
+              "type": "rottencreatures:undead_miner",
+              "count": 1
             }
           ]
         },
@@ -66,15 +63,11 @@
           "timeLimitSeconds": 160,
           "mobs": [
             {
-              "type": "minecraft:witch",
-              "count": 2
-            },
-            {
-              "type": "minecraft:pillager",
-              "count": 2
-            },
-            {
               "type": "minecraft:drowned",
+              "count": 3
+            },
+            {
+              "type": "minecraft:bogged",
               "count": 2
             }
           ]
@@ -112,22 +105,16 @@
           "dropChancePercent": 100.0
         }
       ],
-      "failureDebuffs": [
-        {
-          "effect": "minecraft:weakness",
-          "amplifier": 0,
-          "durationSeconds": 30
-        }
-      ],
+      "failureDebuffs": [],
       "boss": {
         "enabled": true,
-        "mobType": "minecraft:pig",
+        "mobType": "royalvariations:royal_zombie",
         "count": 1,
         "strengthMode": "CUSTOM",
         "healthBoostPercent": 200.0,
         "damageBoostPercent": 10.0,
         "speedBoostPercent": 0.0,
-        "sizeScale": 1.5,
+        "sizeScale": 6.0,
         "bossTimeLimitSeconds": 0,
         "guards": []
       },
@@ -163,6 +150,7 @@
     "medium": {
       "displayName": "item.gateway_of_doom.devil_eye_violet",
       "colorRGB": 16730698,
+      "portalStyle": "ritual",
       "defaultWaveTimeLimitSeconds": 160,
       "healthBoostPercent": 20.0,
       "damageBoostPercent": 10.0,
@@ -341,6 +329,7 @@
     "hard": {
       "displayName": "item.gateway_of_doom.devil_eye_red",
       "colorRGB": 11819775,
+      "portalStyle": "ritual",
       "defaultWaveTimeLimitSeconds": 190,
       "healthBoostPercent": 70.0,
       "damageBoostPercent": 35.0,
