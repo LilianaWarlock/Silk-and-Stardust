@@ -1,0 +1,241 @@
+["Trinket 1"]
+	Animation = "false"
+	"Remove on use" = "false"
+	"Damage on use" = "true"
+	#[Max: 1000]
+	"Damage amount per use" = 100.0
+	"Return to world spawn" = "false"
+	"Command 1" = "/title @a title {\"text\":\"Ohh! A title!\",\"color\":\"#ffaa00\"}"
+	"Time to trigger cmd 2" = 0.0
+	"Command 2" = ""
+	"Cooldown Timer" = 100.0
+	"Random Chance" = false
+	#[Max:100]
+	chance = 50.0
+
+	["Trinket 1"."Tri-cmd usefull after teleports or if you need a little more wiggle room to get something working right"]
+		#[Triggers 20t after cmd1]
+		"Tcmd enable" = "false"
+		Tcmd1 = ""
+		Tcmd2 = ""
+		Tcmd3 = ""
+
+["Trinket 2"]
+	Animation = "true"
+	"Remove on use" = "false"
+	"Damage on use" = "true"
+	#[Max: 1000]
+	"Damage amount per use" = 100.0
+	"Return to world spawn" = "false"
+	"Cmd 1" = "spreadplayers ~ ~ 10 50 false @p"
+	"Time to trigger cmd 2" = 20.0
+	"cmd 2" = "say Time for a quick getaway!"
+	"Cooldown Timer" = 100.0
+	"Random Chance" = false
+	#[Max:100]
+	chance = 50.0
+
+	["Trinket 2"."Tri-cmd usefull after teleports or if you need a little more wiggle room to get something working right"]
+		#[Triggers 20t after cmd1]
+		"Tcmd enable" = "false"
+		Tcmd1 = ""
+		Tcmd2 = ""
+		Tcmd3 = ""
+
+["Trinket 3"]
+	Animation = "true"
+	"Remove on use" = "true"
+	"Damage on use" = "false"
+	#[Max: 1000]
+	"Damage amount per use" = 100.0
+	"Return to world spawn" = "false"
+	"Cmd 1" = "place structure minecraft:mansion"
+	"Time to trigger cmd 2" = 20.0
+	"cmd 2" = "say Ohhh! A mansion!"
+	"Cooldown Timer" = 100.0
+	"Random Chance" = false
+	#[Max:100]
+	chance = 50.0
+
+	["Trinket 3"."Tri-cmd usefull after teleports or if you need a little more wiggle room to get something working right"]
+		#[Triggers 20t after cmd1]
+		"Tcmd enable" = "false"
+		Tcmd1 = ""
+		Tcmd2 = ""
+		Tcmd3 = ""
+
+["Trinket 4"]
+	Animation = "true"
+	"Remove on use" = "true"
+	"Damage on use" = "false"
+	#[Max: 1000]
+	"Damage amount per use" = 100.0
+	"Return to world spawn" = "false"
+	"Cmd 1" = "time set day"
+	"Time to trigger cmd 2" = 20.0
+	"cmd 2" = "tellraw @s \"It's day!\""
+	"Cooldown Timer" = 100.0
+	"Random Chance" = false
+	#[Max:100]
+	chance = 100.0
+
+	["Trinket 4"."Tri-cmd usefull after teleports or if you need a little more wiggle room to get something working right"]
+		#[Triggers 20t after cmd1]
+		"Tcmd enable" = "false"
+		Tcmd1 = ""
+		Tcmd2 = ""
+		Tcmd3 = ""
+
+["Trinket 5"]
+	Animation = "false"
+	"Remove on use" = "true"
+	"Damage on use" = "false"
+	#[Max: 1000]
+	"Damage amount per use" = 100.0
+	"Return to world spawn" = "false"
+	"Cmd 1" = "playsound minecraft:event.mob_effect.bad_omen"
+	"Time to trigger cmd 2" = 20.0
+	"cmd 2" = "ec setLunarEvent enhancedcelestials:blood_moon"
+	"Cooldown Timer" = 100.0
+	"Random Chance" = false
+	#[Max:100]
+	chance = 50.0
+
+	["Trinket 5"."Tri-cmd usefull after teleports or if you need a little more wiggle room to get something working right"]
+		#[Triggers 20t after cmd1]
+		"Tcmd enable" = "false"
+		Tcmd1 = ""
+		Tcmd2 = ""
+		Tcmd3 = ""
+
+["Trinket 6"]
+	Animation = "true"
+	"Remove on use" = "true"
+	"Damage on use" = "false"
+	#[Max: 1000]
+	"Damage amount per use" = 100.0
+	"Return to world spawn" = "false"
+	"Cmd 1" = "setworldspawn ~ ~ ~"
+	"Time to trigger cmd 2" = 20.0
+	"cmd 2" = "tellraw @s \"People will spawn here from now on\""
+	"Cooldown Timer" = 100.0
+	"Random Chance" = false
+	#[Max:100]
+	chance = 50.0
+
+	["Trinket 6"."Tri-cmd usefull after teleports or if you need a little more wiggle room to get something working right"]
+		#[Triggers 20t after cmd1]
+		"Tcmd enable" = "false"
+		Tcmd1 = ""
+		Tcmd2 = ""
+		Tcmd3 = ""
+
+["Trinket 7"]
+	Animation = "true"
+	"Remove on use" = "true"
+	"Damage on use" = "false"
+	#[Max: 1000]
+	"Damage amount per use" = 100.0
+	"Return to world spawn" = "false"
+	"Cmd 1" = "summon minecraft:warden ~ ~ ~ {Brain: {memories: {\"minecraft:dig_cooldown\":{value: {}, ttl: 1200L}, \"minecraft:is_emerging\": {value: {}, ttl: 85L}}},DeathLootTable:bat}"
+	"Time to trigger cmd 2" = 140.0
+	"cmd 2" = "kill @e[type=minecraft:warden]"
+	"Cooldown Timer" = 100.0
+	"Random Chance" = false
+	#[Max:100]
+	chance = 50.0
+
+	["Trinket 7"."Tri-cmd usefull after teleports or if you need a little more wiggle room to get something working right"]
+		#[Triggers 20t after cmd1]
+		"Tcmd enable" = "true"
+		Tcmd1 = "say Uhhhhhhh...."
+		Tcmd2 = ""
+		Tcmd3 = ""
+
+["Trinket 8"]
+	Animation = "false"
+	"Remove on use" = "true"
+	"Damage on use" = "false"
+	#[Max: 1000]
+	"Damage amount per use" = 100.0
+	"Return to world spawn" = "false"
+	"Cmd 1" = "puffish_skills points add @s skill_tree_rpgs:weapon_skills 1"
+	"Time to trigger cmd 2" = 20.0
+	"cmd 2" = ""
+	"Cooldown Timer" = 20.0
+	"Random Chance" = false
+	#[Max:100]
+	chance = 50.0
+
+	["Trinket 8".Trinket_8]
+		#[Triggers 20t after cmd1]
+		"Tcmd enable" = "false"
+		Tcmd1 = ""
+		Tcmd2 = ""
+		Tcmd3 = ""
+
+["Trinket 9"]
+	Animation = "false"
+	"Remove on use" = "true"
+	"Damage on use" = "false"
+	#[Max: 1000]
+	"Damage amount per use" = 100.0
+	"Return to world spawn" = "false"
+	"Cmd 1" = "puffish_skills points add @s skill_tree_rpgs:class_skills 1"
+	"Time to trigger cmd 2" = 20.0
+	"cmd 2" = ""
+	"Cooldown Timer" = 100.0
+	"Random Chance" = false
+	#[Max:100]
+	chance = 50.0
+
+	["Trinket 9"."Tri-cmd usefull after teleports or if you need a little more wiggle room to get something working right"]
+		#[Triggers 20t after cmd1]
+		"Tcmd enable" = "false"
+		Tcmd1 = ""
+		Tcmd2 = ""
+		Tcmd3 = ""
+
+["Trinket 10"]
+	Animation = "false"
+	"Remove on use" = "true"
+	"Damage on use" = "false"
+	#[Max: 1000]
+	"Damage amount per use" = 100.0
+	"Return to world spawn" = "false"
+	"Cmd 1" = "villagerconfig test wanderingtrader"
+	"Time to trigger cmd 2" = 0.0
+	"cmd 2" = ""
+	"Cooldown Timer" = 100.0
+	"Random Chance" = false
+	#[Max:100]
+	chance = 50.0
+
+	["Trinket 10"."Tri-cmd usefull after teleports or if you need a little more wiggle room to get something working right"]
+		#[Triggers 20t after cmd1]
+		"Tcmd enable" = "false"
+		Tcmd1 = ""
+		Tcmd2 = ""
+		Tcmd3 = ""
+
+["Debug Trinket"]
+	Animation = "false"
+	"Remove on use" = "false"
+	"Damage on use" = "true"
+	#[Max: 1000]
+	"Damage amount per use" = 100.0
+	"Return to world spawn" = "false"
+	"Cmd 1" = "tellraw test syntax fail message"
+	"Time to trigger cmd 2" = 0.0
+	"cmd 2" = ""
+	"Cooldown Timer" = 100.0
+	"Random Chance" = false
+	#[Max:100]
+	chance = 50.0
+
+	["Debug Trinket"."Tri-cmd usefull after teleports or if you need a little more wiggle room to get something working right"]
+		#[Triggers 20t after cmd1]
+		"Tcmd enable" = "false"
+		Tcmd1 = ""
+		Tcmd2 = ""
+		Tcmd3 = ""
