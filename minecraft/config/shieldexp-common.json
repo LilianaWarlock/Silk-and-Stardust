@@ -1,5 +1,28 @@
 {
-  "shieldList": [],
+  "shieldList": [
+    "shieldexp:wooden_shield",
+    "nethers_exoticism:rambutan_shield",
+    "shieldexp:iron_shield",
+    "shieldexp:netherite_shield",
+    "minecraft:shield",
+    "shieldexp:golden_shield",
+    "shieldexp:diamond_shield",
+    "artifacts:umbrella",
+    "wan_ancient_beasts:reinforced_shield",
+    "enderscape:kurodite_rubble_shield",
+    "enderscape:mirestone_rubble_shield",
+    "enderscape:veradite_rubble_shield",
+    "enderscape:end_stone_rubble_shield",
+    "paladins:iron_kite_shield",
+    "paladins:golden_kite_shield",
+    "paladins:diamond_kite_shield",
+    "paladins:netherite_kite_shield",
+    "eternal_starlight:glacite_shield",
+    "eternal_starlight:flowglaze_shield",
+    "block_factorys_bosses:dragon_guard_shield",
+    "block_factorys_bosses:enhanced_shield",
+    "unusualend:enderblob_shield"
+  ],
   "shieldBlacklist": [],
   "itemOnlyMode": false,
   "stashingCooldown": true,
@@ -14,5 +37,8 @@
   "tooltipSpeed": false,
   "tooltipParryDamage": false,
   "tooltipParryWindow": true,
-  "tooltipBlastResistance": false
+  "tooltipBlastResistance": false,
+  "hudIndicator": true,
+  "hudXOffset": 0,
+  "hudYOffset": 0
 }
