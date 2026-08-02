@@ -2193,6 +2193,168 @@
                 ],
                 "name": "hexerei:willow_sapling"
               }
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+
+                    "count": 23
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "max_uses": 3,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "jewelry:citrine"
+              }
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+
+                    "count": 23
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "max_uses": 3,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "jewelry:sapphire"
+              }
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+
+                    "count": 23
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "max_uses": 3,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "jewelry:ruby"
+              }
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+
+                    "count": 23
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "max_uses": 3,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "jewelry:jade"
+              }
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+
+                    "count": 23
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "max_uses": 3,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "jewelry:topaz"
+              }
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+
+                    "count": 23
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "max_uses": 3,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "jewelry:tanzanite"
+              }
             }
           ]
         },
