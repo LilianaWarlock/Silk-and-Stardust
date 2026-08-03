@@ -1,0 +1,7 @@
+{
+  "parent": "bettercombat:dagger",
+  "attributes": {
+    "attack_range": 1.5,
+    "category": "dagger"
+  }
+}

@@ -2,7 +2,7 @@
   "the_moth:moth_spear": [
     {
       "attribute": "minecraft:generic.attack_damage",
-      "value": 5,
+      "value": 3.5,
       "operation": "BASE",
       "uuid": "f3b94c09-691a-4252-b45c-63e48deb81f3"
     },

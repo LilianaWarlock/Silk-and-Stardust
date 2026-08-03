@@ -16,14 +16,14 @@
 	// 
 	// Until what amount of Hunger will be consumed to heal the player. (Full Bar is 20 Hunger, Sprinting is disabled at 6 Hunger)
 	// Vanilla Value: 17 hunger / 8.5 points on hunger bar
-	"[Hunger] Heal Until Hunger": 8,
+	"[Hunger] Heal Until Hunger": 14,
 	// 
 	// Cooldown per tick of Healing from Hunger. (In ticks, 20 ticks = 1 second)
 	// Vanilla Value: 80 ticks / 4 seconds
-	"[Hunger] Hunger Healing Cooldown": 40,
+	"[Hunger] Hunger Healing Cooldown": 50,
 	// 
 	// Chance for hunger to be consumed when healing. 0.0 - 1.0 (1.0: 100%, 0.5: 50%, etc...)
-	"[Hunger] Hunger Consumption Chance": 0.5,
+	"[Hunger] Hunger Consumption Chance": 1.0,
 	// 
 	// Setting to True disables all hunger loss except for healing.
 	"[Hunger] Disable Non-Healing Hunger Loss?": false,
