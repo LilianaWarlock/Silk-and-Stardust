@@ -4,7 +4,7 @@
   "category": "equipment",
   "pattern": ["AAA", "BBB", "C C"],
   "key": {
-    "A": { "item": "jaizmobs:basalt_mandible" },
+    "A": { "item": "fightsfrights:mimentis_claw_single_use" },
     "B": { "item": "jewelry:jade" },
     "C": { "item": "crittersandcompanions:silk" }
   },

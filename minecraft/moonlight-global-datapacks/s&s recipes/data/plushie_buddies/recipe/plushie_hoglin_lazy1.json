@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "nears:near"
+    "item": "nethers_exoticism:pitaya"
   },
   "base": {
     "tag": "minecraft:wool"

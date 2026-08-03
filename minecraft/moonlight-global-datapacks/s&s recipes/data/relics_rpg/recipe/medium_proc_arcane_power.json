@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:glass"
+    },
+    "B": {
+      "item": "jewelry:tanzanite"
+    },
+    "C": {
+      "item": "companions:relic_gold"
+    }
+  },
+  "result": {
+    "id": "relics_rpgs:medium_proc_arcane_power",
+    "count": 1
+  }
+}

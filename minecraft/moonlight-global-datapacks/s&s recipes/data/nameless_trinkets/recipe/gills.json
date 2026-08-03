@@ -1,10 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "show_notification": true,
   "category": "equipment",
-  "ingredients": [
-    { "tag": "minecraft:cat_food" },
-    { "item": "rogues:flint_dagger" }
-  ],
+  "pattern": ["ACA", "CBC", "ACA"],
+  "key": {
+    "A": { "item": "hexerei:animal_fat" },
+    "B": { "item": "nameless_trinkets:glowing_dust" },
+    "C": { "item": "fightsfrights:gills" }
+  },
   "result": { "id": "nameless_trinkets:gills" }
 }

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " AB",
+    " CA",
+    "D  "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:nether_brick"
+    },
+    "B": {
+      "item": "jewelry:topaz"
+    },
+    "C": {
+      "item": "minecraft:stick"
+    },
+    "D": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "id": "wizards:staff_fire",
+    "count": 1
+  }
+}

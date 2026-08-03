@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:glass"
+    },
+    "B": {
+      "item": "jewelry:sapphire"
+    },
+    "C": {
+      "item": "companions:relic_gold"
+    }
+  },
+  "result": {
+    "id": "relics_rpgs:medium_proc_frost_power",
+    "count": 1
+  }
+}

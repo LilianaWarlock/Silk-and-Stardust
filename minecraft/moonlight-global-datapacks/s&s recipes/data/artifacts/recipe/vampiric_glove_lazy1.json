@@ -4,7 +4,7 @@
   "category": "equipment",
   "pattern": ["ABA"],
   "key": {
-    "A": { "item": "sleepy_hollows:spectral_essence" },
+    "A": { "item": "fightsfrights:nightmare" },
     "B": { "item": "aether:leather_gloves" }
   },
   "result": { "id": "artifacts:vampiric_glove" }

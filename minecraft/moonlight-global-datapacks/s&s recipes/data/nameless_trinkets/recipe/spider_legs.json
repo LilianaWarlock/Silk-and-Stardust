@@ -4,7 +4,7 @@
   "category": "equipment",
   "pattern": ["A A", "BCB", "A A"],
   "key": {
-    "A": { "item": "crittersandcompanions:silk" },
+    "A": { "item": "fightsfrights:terrantula_leg" },
     "B": { "item": "minecraft:black_dye" },
     "C": { "item": "knightlib:great_essence" }
   },

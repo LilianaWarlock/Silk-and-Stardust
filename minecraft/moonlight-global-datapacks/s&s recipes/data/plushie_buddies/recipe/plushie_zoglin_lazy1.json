@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "nears:faar"
+    "item": "nethers_exoticism:kiwano"
   },
   "base": {
     "tag": "minecraft:wool"

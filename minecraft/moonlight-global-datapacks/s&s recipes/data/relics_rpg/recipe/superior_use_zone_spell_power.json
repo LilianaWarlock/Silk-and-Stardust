@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["ABA", "CDE", "GFG"],
+  "key": {
+    "A": {
+      "item": "minecraft:tinted_glass"
+    },
+    "B": {
+      "item": "relics_rpgs:medium_proc_healing_power"
+    },
+    "C": {
+      "item": "relics_rpgs:medium_proc_fire_power"
+    },
+    "D": {
+      "item": "fightsfrights:nightmare"
+    },
+    "E": {
+      "item": "relics_rpgs:medium_proc_frost_power"
+    },
+    "F": {
+      "item": "relics_rpgs:medium_proc_arcane_power"
+    },
+    "G": {
+      "item": "enderscape:shadoline_ingot"
+    }
+  },
+  "result": {
+    "id": "relics_rpgs:superior_use_zone_spell_power",
+    "count": 1
+  }
+}

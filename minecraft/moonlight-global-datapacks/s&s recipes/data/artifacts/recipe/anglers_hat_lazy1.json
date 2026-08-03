@@ -5,7 +5,7 @@
   "pattern": ["  A", "BCD", "C C"],
   "key": {
     "A": { "item": "minecraft:red_dye" },
-    "B": { "item": "tide:iron_fishing_hook" },
+    "B": { "item": "starcatcher:hook" },
     "C": { "item": "minecraft:leather" },
     "D": { "item": "minecraft:feather" }
   },

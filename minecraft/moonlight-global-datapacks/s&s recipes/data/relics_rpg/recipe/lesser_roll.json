@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCA",
+    " B "
+  ],
+  "key": {
+    "A": {
+      "item": "jewelry:sapphire"
+    },
+    "B": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "wan_ancient_beasts:glider_feather"
+    }
+  },
+  "result": {
+    "id": "relics_rpgs:lesser_roll",
+    "count": 1
+  }
+}

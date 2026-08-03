@@ -1,27 +1,19 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:iron_pickaxe"
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
     },
-    "G": {
+    {
       "item": "minecraft:gunpowder"
     },
-    "R": {
-      "item": "minecraft:redstone_block"
+    {
+      "item": "minecraft:redstone"
     },
-    "g": {
-      "item": "minecraft:gold_ingot"
-    },
-    "i": {
-      "item": "minecraft:iron_ingot"
+    {
+      "item": "minecraft:glowstone_dust"
     }
-  },
-  "pattern": [
-    " # ",
-    "gRi",
-    " G "
   ],
   "result": {
     "count": 1,

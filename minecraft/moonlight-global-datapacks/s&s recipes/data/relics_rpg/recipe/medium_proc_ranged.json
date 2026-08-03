@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " AB",
+    "ACA",
+    "BA "
+  ],
+  "key": {
+    "A": {
+      "item": "infernalexp:glowsilk_string"
+    },
+    "B": {
+      "item": "minecraft:gold_block"
+    },
+    "C": {
+      "item": "waystones:warp_dust"
+    }
+  },
+  "result": {
+    "id": "relics_rpgs:medium_proc_ranged_damage",
+    "count": 1
+  }
+}

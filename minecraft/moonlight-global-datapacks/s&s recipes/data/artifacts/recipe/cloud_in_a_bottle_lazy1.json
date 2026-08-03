@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "show_notification": true,
   "category": "equipment",
-  "pattern": [" A ", " B ", " C "],
+  "pattern": ["A", "B", "C"],
   "key": {
     "A": { "item": "nameless_trinkets:glowing_dust" },
     "B": { "item": "nameless_trinkets:fragile_cloud" },

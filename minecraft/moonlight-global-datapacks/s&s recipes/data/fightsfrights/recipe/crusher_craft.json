@@ -4,7 +4,7 @@
   "pattern": ["aba", "cdc", "eee"],
   "key": {
     "a": {
-      "item": "fightsfrights:rotten_handle"
+      "item": "fightsfrights:rotten_block"
     },
     "b": {
       "item": "minecraft:copper_ingot"

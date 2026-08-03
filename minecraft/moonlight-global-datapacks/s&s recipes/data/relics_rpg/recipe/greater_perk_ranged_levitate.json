@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["  A", "BC ", " B "],
+  "key": {
+    "A": {
+      "item": "eternal_starlight:deepsilver_nugget"
+    },
+    "B": {
+      "item": "wan_ancient_beasts:glider_feather"
+    },
+    "C": {
+      "item": "minecraft:breeze_rod"
+    }
+  },
+  "result": {
+    "id": "relics_rpgs:greater_perk_ranged_levitate",
+    "count": 1
+  }
+}

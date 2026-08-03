@@ -11,22 +11,15 @@
       "conditions": {
         "items": [
           {
-            "items": "nameless_trinkets:ultimate_dust"
+            "items": "nameless_trinkets:glowing_dust"
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     }
   },
-  "requirements": [
-    [
-      "has_the_recipe",
-      "has_ultimate_dust"
-    ]
-  ],
+  "requirements": [["has_the_recipe", "has_ultimate_dust"]],
   "rewards": {
-    "recipes": [
-      "nameless_trinkets:true_heart_of_the_sea"
-    ]
+    "recipes": ["nameless_trinkets:true_heart_of_the_sea"]
   }
 }

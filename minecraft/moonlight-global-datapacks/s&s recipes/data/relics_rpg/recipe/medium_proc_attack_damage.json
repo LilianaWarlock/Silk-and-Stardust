@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BBC",
+    "BB "
+  ],
+  "key": {
+    "A": {
+      "item": "paladins:stone_great_hammer"
+    },
+    "B": {
+      "item": "minecraft:blackstone"
+    },
+    "C": {
+      "item": "wan_ancient_beasts:chisel"
+    }
+  },
+  "result": {
+    "id": "relics_rpgs:medium_proc_attack_damage",
+    "count": 1
+  }
+}
