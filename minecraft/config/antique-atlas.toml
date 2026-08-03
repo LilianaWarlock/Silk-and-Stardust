@@ -68,3 +68,4 @@ emptyHandling = "CLOUDS"
 		"minecraft:the_nether" = 1
 		"aether:the_aether" = 0
 		"minecraft:the_end" = 0
+		"eternal_starlight:starlight" = 0
