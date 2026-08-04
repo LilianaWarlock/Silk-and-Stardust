@@ -37,7 +37,7 @@
 	#Maximum range hoe can expand for harvesting.
 	#This is the maximum of tier + efficiency enchantment.
 	#Range: 1 ~ 11
-	maxHoeExpansionRange = 11
+	maxHoeExpansionRange = 4
 	#List of individual hoe tools and their harvest tier. This is for modded items not covered.
 	#Format: minecraft:wooden_hoe-0 (with number being tier)
 	hoeItems = ["minecraft:wooden_hoe-0", "minecraft:stone_hoe-0", "eternal_starlight:glacite_hoe-1", "eternal_starlight:starlit_hoe-1", "eternal_starlight:starfire_hoe-1", "eternal_starlight:unrealium_hoe-1", "eternal_starlight:malarite_hoe-1", "eternal_starlight:pearlescent_hoe-1", "aether:skyroot_hoe-0", "aether:holystone_hoe-0", "aether:zanite_hoe-1", "aether:gravitite_hoe-1", "aether:valkyrie_hoe-1", "deep_aether:stratus_hoe-1"]

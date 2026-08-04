@@ -65,7 +65,7 @@ emptyHandling = "CLOUDS"
 	# If not 0, the relative position of the player will be shown.
 	[dimensions.scales]
 		"minecraft:overworld" = 8
+		"eternal_starlight:starlight" = 0
 		"minecraft:the_nether" = 1
 		"aether:the_aether" = 0
 		"minecraft:the_end" = 0
-		"eternal_starlight:starlight" = 0

@@ -5,7 +5,7 @@ milling_time = 4
 #Fermentation time, in seconds
 # Default: 300
 # Range: 1 ~ 600
-fermentation_time = 300
+fermentation_time = 200
 #Size of area where Infused Candles give effects
 # Default: 3
 # Range: 1 ~ 16

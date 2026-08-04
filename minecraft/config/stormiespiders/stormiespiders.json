@@ -6,6 +6,6 @@
     "enable_fallback_rotation": true,
     "fallback_update_interval": 1,
     "can_swim": true,
-    "reduced_attack_range": true
+    "reduced_attack_range": false
   }
 }

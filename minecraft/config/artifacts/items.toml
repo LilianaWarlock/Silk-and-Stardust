@@ -171,7 +171,7 @@
 [feral_claws]
 	#How much the Feral Claws increase the wearer's attack speed
 	#Range: -Infinity ~ Infinity
-	attackSpeedBonus = 0.2
+	attackSpeedBonus = 0.15
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
 	generateAsLoot = false
@@ -179,7 +179,7 @@
 [fire_gauntlet]
 	#How long an entity is set on fire for after being attacked by an entity wearing the Fire Gauntlet
 	#Range: -Infinity ~ Infinity
-	fireDuration = 8.0
+	fireDuration = 6.0
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
 	generateAsLoot = false
@@ -275,7 +275,7 @@
 [obsidian_skull]
 	#The amount of time in seconds the Obsidian Skull goes on cooldown for after taking fire damage
 	#Range: 0 ~ 72000
-	cooldown = 40
+	cooldown = 50
 	#The duration of the fire resistance effect that is applied when taking fire damage while wearing the Obsidian Skull
 	#Range: 0 ~ 72000
 	fireResistanceDuration = 10

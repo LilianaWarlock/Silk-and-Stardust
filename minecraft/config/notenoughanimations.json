@@ -37,7 +37,10 @@
     "quad-mstv-mtv:acacia_soul_torch",
     "quad-mstv-mtv:crimson_torch",
     "minecraft:weathered_copper_lantern",
-    "quad-mstv-mtv:dark_oak_torch"
+    "quad-mstv-mtv:dark_oak_torch",
+    "aether:ambrosium_torch",
+    "netherexp:ancient_torch",
+    "unusualend:crystal_torch"
   ],
   "enableAnimationSmoothing": true,
   "enableInWorldMapRendering": true,
