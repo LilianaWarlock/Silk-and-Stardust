@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "jewelry:iron_ring",
+      "required": false
+    },
+    {
+      "id": "jewelry:gold_ring",
+      "required": false
+    }
+  ]
+}

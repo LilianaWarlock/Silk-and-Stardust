@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "amount": 2,
+  "operation": "set",
+  "order": 10,
+  "icon": "nameless_trinkets:gui/slot/trinket_slot"
+}
