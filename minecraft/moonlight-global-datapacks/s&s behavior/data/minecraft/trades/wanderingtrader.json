@@ -1350,6 +1350,33 @@
                 "name": "minecraft:slime_ball"
               },
               "trader_experience": 1.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+
+                    "count": 3
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "max_uses": 5,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 2,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:sulfur_spike"
+              }
             }
           ]
         },
@@ -2354,6 +2381,33 @@
                   }
                 ],
                 "name": "jewelry:tanzanite"
+              }
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "conditions": [],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+
+                    "count": 7
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "max_uses": 7,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 3,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:sulfur_spike"
               }
             }
           ]

@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rottencreatures:magma_rotten_flesh"
+          },
+          {
+            "items": "minecraft:potent_sulfur"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rottencreatures:magma_rotten_flesh"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [["has_the_recipe", "has_item"]],
+  "rewards": {
+    "recipes": ["rottencreatures:magma_rotten_flesh"]
+  }
+}

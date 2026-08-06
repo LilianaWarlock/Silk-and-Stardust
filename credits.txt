@@ -10,7 +10,7 @@ Vanilla Tweaks - https://vanillatweaks.net/
 
 Hewett Tsoi - Alagard Font (The font in the Hexerei book) - https://www.dafont.com/hewett-tsoi.d4888
 
-Malcolm Riley - Sprites used for Universal Trinkets - https://github.com/malcolmriley
+Malcolm Riley - Sprites used for Universal Trinkets and sulfuric compound - https://github.com/malcolmriley
 
 Mod makers, according to Prism/Modrinth as of writing: 
 
