@@ -1,0 +1,18 @@
+filename = "Patch's Snow Layers v1.1.zip"
+name = 'Snowier Snow Layers!'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1'
+
+[download]
+hash = '92e510778ea08d1d655b39f46844c2da9557e6936eaab2184dd3d10cddf1a244b27b799da46b21724d16fb0a366ea3f8f39ee6d3fe66822ddd2fcc131d4d0f1c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5e1VVlg8/versions/n7O2JUPX/Patch%27s Snow Layers v1.1.zip'
+
+[update.modrinth]
+mod-id = '5e1VVlg8'
+version = 'n7O2JUPX'

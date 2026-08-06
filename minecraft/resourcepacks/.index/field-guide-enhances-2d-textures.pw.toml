@@ -1,0 +1,18 @@
+filename = 'Field Guide - Enhanced 2D Textures.zip'
+name = 'Field Guide - Enhances 2D Entity Textures'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-0.0.1'
+
+[download]
+hash = '442be530287dc8ce23ab4ae17aaa69ab2f543b33564e12fab5ffd187b81999c725ea37c53975561e229364be1f753c176db5d686446a72e0e9a3724a79f9fff1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/cmA94lxB/versions/Y5ANCedg/Field Guide - Enhanced 2D Textures.zip'
+
+[update.modrinth]
+mod-id = 'cmA94lxB'
+version = 'Y5ANCedg'
