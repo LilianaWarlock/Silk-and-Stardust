@@ -3,8 +3,10 @@
   "show_notification": true,
   "category": "misc",
   "ingredients": [
-    { "item": "jaizmobs:sulfuric_remnant" },
-    { "item": "minecraft:coal" },
+    { "item": "rottencreatures:magma_rotten_flesh" },
+    { "item": "minecraft:charcoal" },
+    { "item": "minecraft:bone_meal" },
+    { "item": "minecraft:bone_meal" },
     { "item": "minecraft:bone_meal" }
   ],
   "result": { "id": "minecraft:gunpowder" }
