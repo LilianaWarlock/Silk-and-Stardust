@@ -1,5 +1,5 @@
 {
-  enabled: true,
+  enabled: false,
   food: {
     // Amount of hunger restored
     nutrition: 6,

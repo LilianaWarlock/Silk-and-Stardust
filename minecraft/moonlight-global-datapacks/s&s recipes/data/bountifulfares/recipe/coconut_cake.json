@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:coconut_halves"
+    },
+    "E": {
+      "tag": "c:eggs"
+    },
+    "F": {
+      "tag": "c:flour"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": ["CCC", "SES", "FFF"],
+  "result": {
+    "count": 1,
+    "id": "bountifulfares:coconut_cake"
+  }
+}
