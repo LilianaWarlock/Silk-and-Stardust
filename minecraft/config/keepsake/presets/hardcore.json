@@ -1,0 +1,82 @@
+{
+  "enabled": true,
+  "respectVanillaKeepInventory": false,
+  "defaultRules": {
+    "keepHotbar": false,
+    "keepArmor": false,
+    "keepOffhand": false,
+    "keepMainInventory": false,
+    "hotbarKeepPercent": 100,
+    "armorKeepPercent": 100,
+    "offhandKeepPercent": 100,
+    "mainKeepPercent": 100,
+    "alwaysKeepSlots": [],
+    "alwaysDropSlots": [],
+    "keepItems": [],
+    "keepTags": [],
+    "dropItems": [],
+    "dropTags": [],
+    "durabilityTaxPercent": 25,
+    "xpMode": "KEEP_NONE",
+    "xpValue": 50,
+    "lostItems": "GRAVE",
+    "graveHoldsXp": true
+  },
+  "dimensionOverrides": {},
+  "damageOverrides": {
+    "minecraft:out_of_world": {
+      "keepHotbar": true,
+      "keepArmor": true,
+      "keepOffhand": true,
+      "keepMainInventory": true,
+      "hotbarKeepPercent": null,
+      "armorKeepPercent": null,
+      "offhandKeepPercent": null,
+      "mainKeepPercent": null,
+      "alwaysKeepSlots": null,
+      "alwaysDropSlots": null,
+      "keepItems": null,
+      "keepTags": null,
+      "dropItems": null,
+      "dropTags": null,
+      "durabilityTaxPercent": null,
+      "xpMode": null,
+      "xpValue": null,
+      "lostItems": null,
+      "graveHoldsXp": null
+    },
+    "minecraft:lava": {
+      "keepHotbar": null,
+      "keepArmor": null,
+      "keepOffhand": null,
+      "keepMainInventory": null,
+      "hotbarKeepPercent": null,
+      "armorKeepPercent": null,
+      "offhandKeepPercent": null,
+      "mainKeepPercent": null,
+      "alwaysKeepSlots": null,
+      "alwaysDropSlots": null,
+      "keepItems": null,
+      "keepTags": null,
+      "dropItems": null,
+      "dropTags": null,
+      "durabilityTaxPercent": null,
+      "xpMode": null,
+      "xpValue": null,
+      "lostItems": "VOID",
+      "graveHoldsXp": null
+    }
+  },
+  "respawn": {
+    "instantRespawn": false,
+    "respawnDelayTicks": 100,
+    "respawnPoint": "DEFAULT",
+    "invulnerabilityTicks": 60,
+    "respawnEffects": []
+  },
+  "ux": {
+    "deathMessage": "VANILLA",
+    "customDeathMessage": "{player} died.",
+    "graveOwnerOnly": true
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "enabled": true,
+  "respectVanillaKeepInventory": false,
+  "defaultRules": {
+    "keepHotbar": false,
+    "keepArmor": false,
+    "keepOffhand": false,
+    "keepMainInventory": false,
+    "hotbarKeepPercent": 100,
+    "armorKeepPercent": 100,
+    "offhandKeepPercent": 100,
+    "mainKeepPercent": 100,
+    "alwaysKeepSlots": [],
+    "alwaysDropSlots": [],
+    "keepItems": [],
+    "keepTags": [],
+    "dropItems": [],
+    "dropTags": [],
+    "durabilityTaxPercent": 0,
+    "xpMode": "KEEP_NONE",
+    "xpValue": 50,
+    "lostItems": "SCATTER",
+    "graveHoldsXp": true
+  },
+  "dimensionOverrides": {},
+  "damageOverrides": {},
+  "respawn": {
+    "instantRespawn": false,
+    "respawnDelayTicks": 0,
+    "respawnPoint": "DEFAULT",
+    "invulnerabilityTicks": 60,
+    "respawnEffects": []
+  },
+  "ux": {
+    "deathMessage": "VANILLA",
+    "customDeathMessage": "{player} died.",
+    "graveOwnerOnly": true
+  }
+}
