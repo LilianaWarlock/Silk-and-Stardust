@@ -1,0 +1,22 @@
+# Default: 15
+# Range: 2 ~ 64
+distributorRange = 15
+newRedstoneDetection = true
+# Default: 32
+# Range: 2 ~ 64
+sculkMoverRange = 32
+# Default: 16
+# Range: 2 ~ 64
+pumpRange = 16
+# Default: 80
+# Range: > 20
+transmitterSignalLifetime = 80
+# Default: 1000
+# Range: 100 ~ 20000
+sculkCellCapacity = 1000
+# Default: 250
+# Range: 1 ~ 1000
+sawBlockLimit = 250
+# Default: 20
+# Range: 1 ~ 100
+sawBlockSpeed = 20

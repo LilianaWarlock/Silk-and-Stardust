@@ -1,0 +1,4 @@
+crushingHudHelper = true
+bufferHudRender = true
+holderDecorRender = true
+blockhelpTooltips = false
