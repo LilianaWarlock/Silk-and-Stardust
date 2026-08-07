@@ -2,7 +2,7 @@
 give_guide = false
 #Enables/disables the ability to bonemeal farmland for worms.
 enable_worms = true
-enable_minigame = true
+enable_minigame = false
 #Enables/disables fishes caught being unlocked for all online team members.
 #Offline players won't be awarded the entry.
 enable_ftb_team_sharing = false
