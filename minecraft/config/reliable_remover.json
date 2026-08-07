@@ -72,6 +72,13 @@
     "plushie_buddies:workbench",
     "crittersandcompanions:pearl_necklace_1",
     "crittersandcompanions:pearl_necklace_2",
-    "crittersandcompanions:pearl_necklace_3"
+    "crittersandcompanions:pearl_necklace_3",
+    "autowork:canner",
+    "autowork:saw",
+    "autowork:empty_can",
+    "autowork:can",
+    "autowork:opened_can",
+    "autowork:harvester",
+    "autowork:redstone_hub"
   ]
 }
