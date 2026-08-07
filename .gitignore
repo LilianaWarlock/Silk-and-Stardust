@@ -76,3 +76,5 @@ minecraft/config/betterf3.toml
 /minecraft/.runtime-packs/client-resources
 /minecraft/.runtime-packs/server-data
 minecraft/config/recipecrafter/recipes.json5
+minecraft/mods/.index/recipecrafter.pw.toml
+minecraft/mods/recipecrafter-1.0.1.jar
