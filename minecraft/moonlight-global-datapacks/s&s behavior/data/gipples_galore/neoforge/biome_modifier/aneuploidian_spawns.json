@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "minecraft:end_highlands",
+    "minecraft:small_end_islands",
+    "minecraft:end_barrens",
+    "enderscape:corrupt_barrens",
+    "enderscape:magnia_crags"
+  ],
+  "spawners": [
+    {
+      "type": "gipples_galore:aneuploidian",
+      "weight": 10,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}
