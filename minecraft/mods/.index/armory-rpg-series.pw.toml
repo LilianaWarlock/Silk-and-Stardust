@@ -1,27 +1,23 @@
-filename = 'armory-neoforge-1.4.2+1.21.1.jar'
+filename = 'armory-neoforge-1.4.4+1.21.1.jar'
 name = 'Armory (RPG Series)'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.4.2+1.21.1-neoforge'
+x-prismlauncher-version-number = '1.4.4+1.21.1-neoforge'
 
 [download]
-hash = 'ce8a259dfaa11ccc52e5cf3847c41737e7614f311a91c983187f403e115cc573a4cb7885eb2970a4c6d6356dff05d2bc8c17984380b4e97e15dd9d5a2fad6bd7'
+hash = 'bef462d2f3d8bb216397a683723fbb94606a05ad89839f3e167b0ae1edff86c1ed996653084ea256496b4ba89c3de51f13013bd53deafd91befa47afa51075ae'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/PJvJUdGw/versions/gCi4yQrf/armory-neoforge-1.4.2%2B1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/PJvJUdGw/versions/xEl9TpYo/armory-neoforge-1.4.4%2B1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'PJvJUdGw'
-version = 'gCi4yQrf'
+version = 'xEl9TpYo'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'pduQXSbl'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'Aqlf1Shp'
+addonId = 'XvoWJaA2'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
@@ -29,5 +25,9 @@ addonId = 'AqaIIO6D'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'XvoWJaA2'
+addonId = 'Aqlf1Shp'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'pduQXSbl'
 type = 'REQUIRED'

@@ -1,4 +1,8 @@
 ["Soul Mage"]
+	# Names (separated by ; or ,) that activate the Soul Mage's reskin when used as a nametag. Leave blank to disable.
+	# 
+	# Default: Rosalind; Juan
+	SOUL_MAGE_RESKIN_NAMES = "Rosalind; Juan"
 	# Determines whether this entity keeps its current chunk loaded. If false, the entity will not teleport to its owner from
 	# unloaded chunks.
 	# 
@@ -28,6 +32,10 @@
 	# Default: 70.0
 	# Range: 0.0 ~ 5000.0
 	SHADOW_SWORD_MAX_LIFE = 70.0
+	# Names (separated by ; or ,) that activate the Shade Sword's reskin when used as a nametag. Leave blank to disable.
+	# 
+	# Default: Rosalind; Juan
+	SHADOW_SWORD_RESKIN_NAMES = "Rosalind; Juan"
 	# Shadow Sword stats multiplier on its blood state. For example, if set to 1.2, a default damage of 10 will be 12 when the
 	# blood upgrade is active. This is only applied to Health and Attack Damage attributes.
 	# 
@@ -35,12 +43,44 @@
 	# Range: 0.0 ~ 10.0
 	SHADOW_SWORD_BLOOD_MULTIPLIER = 1.2
 
+["Holy Porcelain Pottery"]
+	# Maximum bounding box size (width and height in blocks) an entity can have to be stored inside the Holy Porcelain Pottery.
+	# 
+	# Default: 2.0
+	# Range: 0.0 ~ 64.0
+	HOLY_PORCELAIN_POTTERY_MAX_BBOX = 2.0
+	# List of entity IDs (separated by ; or ,) that cannot be stored inside the Holy Porcelain Pottery. Takes priority over the
+	# whitelist. Example: minecraft:ender_dragon; minecraft:wither
+	# 
+	# Default: minecraft:ender_dragon; minecraft:wither; minecraft:warden
+	HOLY_PORCELAIN_POTTERY_BLACKLIST = "minecraft:ender_dragon; minecraft:wither; minecraft:warden"
+	# List of entity IDs (separated by ; or ,) that can be stored inside the Holy Porcelain Pottery. Leave blank to allow every
+	# entity that isn't blacklisted. Example: minecraft:pig; minecraft:cow
+	# 
+	# Default:
+	HOLY_PORCELAIN_POTTERY_WHITELIST = ""
+
 [Teddy]
+	# Damage dealt by each orb summoned by the Teddy in holy phase
+	# 
+	# Default: 6.0
+	# Range: 0.0 ~ 100.0
+	TEDDY_HOLY_ORB_DAMAGE = 6.0
 	# Max life of the Teddy
 	# 
 	# Default: 70.0
 	# Range: 0.0 ~ 5000.0
 	TEDDY_MAX_LIFE = 70.0
+	# Damage dealt by the holy nova released by the Teddy in holy phase
+	# 
+	# Default: 7.0
+	# Range: 0.0 ~ 100.0
+	TEDDY_HOLY_NOVA_DAMAGE = 7.0
+	# Damage dealt by the Teddy in holy phase
+	# 
+	# Default: 9.0
+	# Range: 0.0 ~ 100.0
+	TEDDY_HOLY_DAMAGE = 9.0
 	# Max life of the Teddy in mutant phase
 	# 
 	# Default: 130.0
@@ -65,8 +105,18 @@
 	# 
 	# Default: true
 	TEDDY_MUTANT_HEALS_OVER_TIME = true
+	# Max life of the Teddy in holy phase
+	# 
+	# Default: 160.0
+	# Range: 0.0 ~ 2000.0
+	TEDDY_HOLY_MAX_LIFE = 160.0
 
 ["Shadow Maw"]
+	# Damage dealt by the Shade Maw when it lands on the floor after a jump (may vary depending on the distance)
+	# 
+	# Default: 8.0
+	# Range: 0.0 ~ 500.0
+	SHADOW_MAW_LANDING_DAMAGE = 8.0
 	# Shadow Maw stats multiplier on its blood state. For example, if set to 1.2, a default damage of 10 will be 12 when the
 	# blood upgrade is active. This is only applied to Health and Attack Damage attributes.
 	# 
@@ -80,7 +130,12 @@
 	# 
 	# Note: The time is measured in ticks (20 ticks = 1 second)
 	SHADOW_MAW_LIFETIME = 4800
-	# Damage dealt by the Shadow Maw
+	# Shade Maw jump cooldown (in ticks)
+	# 
+	# Default: 70
+	# Range: 0 ~ 5000
+	SHADOW_MAW_JUMP_COOLDOWN = 70
+	# Damage dealt by the Shade Maw
 	# 
 	# Default: 6.0
 	# Range: 0.0 ~ 500.0
@@ -109,6 +164,10 @@
 	# Default: 80.0
 	# Range: 0.0 ~ 5000.0
 	CROISSANT_DRAGON_MAX_LIFE = 80.0
+	# Names (separated by ; or ,) that activate the Croissant Dragon's reskin when used as a nametag. Leave blank to disable.
+	# 
+	# Default: Rosalind; Juan
+	CROISSANT_DRAGON_RESKIN_NAMES = "Rosalind; Juan"
 
 ["Magic Books"]
 	# Cooldown (in ticks) of the magic ray magic book
@@ -116,6 +175,11 @@
 	# Default: 200
 	# Range: 0 ~ 10000
 	MAGIC_RAY_COOLDOWN = 200
+	# If true, spells that produce explosions (e.g. Fire Mark) are allowed to break blocks, and if false, spells will never
+	# break blocks regardless of the mobGriefing gamerule.
+	# 
+	# Default: true
+	SPELLS_GRIEF_WORLD = true
 	# Amount of health restored by the healing ring spell.
 	# 
 	# Default: 6.0
@@ -218,10 +282,59 @@
 	# Default: 2.5
 	# Range: 0.0 ~ 100.0
 	ENDER_FROG_HEAL_PROJECTILE_HEAL_AMOUNT = 2.5
+	# Names (separated by ; or ,) that activate Cornelius's reskin when used as a nametag. Leave blank to disable.
+	# 
+	# Default: Rosalind; Juan
+	CORNELIUS_RESKIN_NAMES = "Rosalind; Juan"
 	# Cornelius jackblack bets: [item; item; item; tag; item; ...] the order doesn't matter
 	# 
 	# Default: companions:copper_coin; companions:nether_coin; companions:end_coin
 	CORNELIUS_JACKBLACK_BETS = "companions:copper_coin; companions:nether_coin; companions:end_coin"
+
+["Shadow Bat"]
+	# Damage dealt by the Shade Bat
+	# 
+	# Default: 8.0
+	# Range: 0.0 ~ 500.0
+	SHADOW_BAT_DAMAGE = 8.0
+	# Max life of each Shade Bat part
+	# 
+	# Default: 11.666666666666666
+	# Range: 1.0 ~ 5000.0
+	SHADOW_BAT_PART_MAX_LIFE = 11.666666666666666
+	# Damage dealt by each Shade Bat part
+	# 
+	# Default: 1.3333333333333333
+	# Range: 0.0 ~ 500.0
+	SHADOW_BAT_PART_DAMAGE = 1.3333333333333333
+	# Max life of the Shade Bat on its blood state
+	# 
+	# Default: 180.0
+	# Range: 0.0 ~ 5000.0
+	SHADOW_BAT_BLOOD_MAX_LIFE = 180.0
+	# Shade Bat stats multiplier on its blood state. For example, if set to 1.2, a default damage of 10 will be 12 when the
+	# blood upgrade is active. This is only applied to the Attack Damage attribute.
+	# 
+	# Default: 1.2
+	# Range: 0.0 ~ 10.0
+	SHADOW_BAT_BLOOD_MULTIPLIER = 1.2
+	# Number of Shade Bat parts spawned in the normal phase
+	# 
+	# Default: 6
+	# Range: 1 ~ 64
+	SHADOW_BAT_PARTS_AMOUNT = 6
+	# The amount of lifetime of the Shade Bat
+	# 
+	# Default: 4800
+	# Range: 0 ~ 100000
+	# 
+	# Note: The time is measured in ticks (20 ticks = 1 second)
+	SHADOW_BAT_LIFETIME = 4800
+	# Max life of the Shade Bat
+	# 
+	# Default: 70.0
+	# Range: 0.0 ~ 5000.0
+	SHADOW_BAT_MAX_LIFE = 70.0
 
 [Cloak]
 	# Max life of the Cloak
@@ -273,6 +386,11 @@
 	# 
 	# Default: minecraft:warden, 1
 	BONANZA_3_SKULL_DROP_ENTITIES = "minecraft:warden, 1"
+	# Maximum damage the falling anvil from 2 skull heads can deal to a player.
+	# 
+	# Default: 20.0
+	# Range: 0.0 ~ 1000.0
+	BONANZA_ANVIL_MAX_DAMAGE = 20.0
 	# Bonanza item reward drops from 2 teddy heads: [item, chance, amount (can be either exact, n, or ranged, n-m); ...]
 	# 
 	# Default: minecraft:golden_apple, 1.0, 1;minecraft:feather, 1.0, 1-4;minecraft:ender_pearl, 0.5,
@@ -280,6 +398,16 @@
 	# 1;minecraft:axolotl_bucket, 0.10, 1;minecraft:music_disc_pigstep, 0.05, 1;minecraft:diamond, 0.15, 1;minecraft:emerald,
 	# 0.20, 1-2;minecraft:experience_bottle, 0.10, 1-3;minecraft:nether_star, 0.005, 1
 	BONANZA_2_TEDDY_HEADS_DROPS = "minecraft:golden_apple, 1.0, 1;minecraft:feather, 1.0, 1-4;minecraft:ender_pearl, 0.5, 1;minecraft:enchanted_golden_apple, 0.25, 1;minecraft:netherite_scrap, 0.05, 1;minecraft:wither_skeleton_skull, 0.10, 1;minecraft:axolotl_bucket, 0.10, 1;minecraft:music_disc_pigstep, 0.05, 1;minecraft:diamond, 0.15, 1;minecraft:emerald, 0.20, 1-2;minecraft:experience_bottle, 0.10, 1-3;minecraft:nether_star, 0.005, 1"
+	# Bonanza coin reward drops from 2 coin heads: [item, chance, amount (can be either exact, n, or ranged, n-m); ...]. Leave
+	# blank to disable coin rewards entirely.
+	# 
+	# Default: companions:copper_coin, 1.0, 1-3;companions:nether_coin, 0.35, 1;companions:end_coin, 0.1, 1
+	BONANZA_2_COIN_HEADS_DROPS = "companions:copper_coin, 1.0, 1-3;companions:nether_coin, 0.35, 1;companions:end_coin, 0.1, 1"
+	# Bonanza coin reward drops from 3 coin heads: [item, chance, amount (can be either exact, n, or ranged, n-m); ...]. Leave
+	# blank to disable coin rewards entirely.
+	# 
+	# Default: companions:copper_coin, 1.0, 2-5;companions:nether_coin, 0.9, 1-2;companions:end_coin, 0.8, 1
+	BONANZA_3_COIN_HEADS_DROPS = "companions:copper_coin, 1.0, 2-5;companions:nether_coin, 0.9, 1-2;companions:end_coin, 0.8, 1"
 	# Bonanza curency-amount pair. The first value corresponds to the item used as currency, and the latter value indicates how
 	# many attempts that item provides. For example: minecraft:iron_ingot, 1; minecraft:gold_ingot, 2; ...
 	# 
@@ -360,6 +488,11 @@
 	# Default: 0.5225
 	# Range: 0.0 ~ 1000.0
 	BLOOD_SLASH_SPEED = 0.5225
+	# When crafting Crystallized Blood, Holy Robe or Mage gear, the enchantments of the consumed vanilla armor/weapon are
+	# transferred to the resulting item.
+	# 
+	# Default: true
+	PRESERVE_ENCHANTMENTS_ON_CRAFT = true
 	# Magic damage reduction per hit per piece of Mage armor.
 	# 
 	# Default: 0.1
@@ -453,6 +586,15 @@
 	# 
 	# Default: true
 	SHOULD_COMPANIONS_WANDER = true
+	# Whether tamed companions proactively attack nearby hostile mobs without the owner having to attack or be attacked first.
+	# 
+	# Default: false
+	COMPANIONS_ATTACK_HOSTILES_PROACTIVELY = false
+	# Attack rate multipliers for companions: [entity ID, multiplier; ...]. Values above 1 attack more often and values below 1
+	# attack less often. Example: companions:minion, 1.5; companions:teddy, 0.75
+	# 
+	# Default:
+	COMPANION_ATTACK_RATE_MULTIPLIERS = ""
 	# The maximum distance (in blocks) at which companions will teleport to their owner (in a valid position).
 	# 
 	# Default: 20
@@ -470,9 +612,9 @@
 	SHADOW_ALTAR_BLOOD_CHARGES_AMOUNT = 4
 	# Probability (0.0–1.0) that demon flesh will drop when defeating certain enemies.
 	# 
-	# Default: 0.2
+	# Default: 0.0
 	# Range: 0.0 ~ 1.0
-	DEMON_FLESH_DROP_RATE = 0.2
+	DEMON_FLESH_DROP_RATE = 0.0
 	# Respawn totem spawn charges when activated.
 	# 
 	# Default: 5
@@ -482,6 +624,50 @@
 	# 
 	# Default: false
 	SOUL_FURNACE_CONSTANT_MAX_CHARGES = false
+	# Armor point overrides for companions: [entity ID, armor points; ...]. Unlisted companions keep their default armor.
+	# Example: companions:minion, 6; companions:teddy, 10
+	# 
+	# Default:
+	COMPANION_ARMOR_OVERRIDES = ""
+
+[Structures]
+	# Biomes and biome tags (separated by ; or ,) where the Teddy Tower structure can generate. Prefix tags with #. Leave blank
+	# to disable the structure.
+	# 
+	# Default: minecraft:dark_forest
+	TEDDY_TOWER_STRUCTURE_BIOMES = "minecraft:dark_forest"
+	# Biomes and biome tags (separated by ; or ,) where the Monkey Temple structure can generate. Prefix tags with #. Leave
+	# blank to disable the structure.
+	# 
+	# Default: minecraft:jungle
+	MONKEY_TEMPLE_STRUCTURE_BIOMES = "minecraft:jungle"
+	# Loot tables (separated by ; or ,) used to populate chests and barrels inside the mod's structures. One is picked at
+	# random per container (chest/barrel/etc). Leave blank to disable loots.
+	# 
+	# Default:
+	# minecraft:chests/simple_dungeon;minecraft:chests/abandoned_mineshaft;minecraft:chests/desert_pyramid;minecraft:chests/woodland_mansion;minecraft:chests/pillager_outpost;
+	STRUCTURE_LOOT_TABLES = "minecraft:chests/simple_dungeon;minecraft:chests/abandoned_mineshaft;minecraft:chests/desert_pyramid;minecraft:chests/woodland_mansion;minecraft:chests/pillager_outpost;"
+	# Probability (0.0–1.0) that a chest or barrel inside a mod structure receives a random loot table from the
+	# STRUCTURE_LOOT_TABLES config entry. Set to 0 to disable.
+	# 
+	# Default: 0.45
+	# Range: 0.0 ~ 1.0
+	STRUCTURE_CHEST_LOOT_FILL_CHANCE = 0.45
+	# Biomes and biome tags (separated by ; or ,) where the Nether Tent structure can generate. Prefix tags with #. Leave blank
+	# to disable the structure.
+	# 
+	# Default: minecraft:nether_wastes
+	NETHER_TENT_STRUCTURE_BIOMES = "minecraft:nether_wastes"
+	# Biomes and biome tags (separated by ; or ,) where the Baba Yaga structure can generate. Prefix tags with #. Leave blank
+	# to disable the structure.
+	# 
+	# Default: minecraft:swamp
+	BABAYAGA_STRUCTURE_BIOMES = "minecraft:swamp"
+	# Biomes and biome tags (separated by ; or ,) where the Factory structure can generate. Prefix tags with #. Leave blank to
+	# disable the structure.
+	# 
+	# Default: minecraft:plains
+	FACTORY_STRUCTURE_BIOMES = "minecraft:plains"
 
 [Antlion]
 	# Damage dealt by the Antlion in its normal phase
@@ -581,6 +767,11 @@
 	# Default: 65.0
 	# Range: 0.0 ~ 5000.0
 	DINAMO_MAX_LIFE = 65.0
+	# The maximum distance a Voltaic Relay can connect to another tesla module
+	# 
+	# Default: 26
+	# Range: 0 ~ 100
+	DINAMO_VOLTAIC_RELAY_MAX_CONNECTION_DISTANCE = 26
 	# Electricity damage from both Dinamo and tesla network blocks.
 	# 
 	# Default: 7.5

@@ -1,18 +1,18 @@
-filename = 'cultofazazelneo-killfix.jar'
+filename = 'cultofazazelneo-1.1.4.10.jar'
 name = 'Cult of Azazel'
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.1.4.9a'
+x-prismlauncher-version-number = '1.1.4.10'
 
 [download]
-hash = 'ce3db7e42f9f0b4199f79784725c1ba1b84d98e88d8e1159866a5ba0fe98ce111890962b6566fe35001c83c12afbd91a90430dfb2770d5c9757439e13d76b261'
+hash = '6bef1990d9240d7f37e66f9dd98f022a4288596cd483ead5a5a42995ef54a2f849990a4579a91ec416bf45a675575d2c87db414a65b767fa6a4f891e31cbeaf2'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/tnd2BYam/versions/PhIGkkCZ/cultofazazelneo-killfix.jar'
+url = 'https://cdn.modrinth.com/data/tnd2BYam/versions/nrOYtl59/cultofazazelneo-1.1.4.10.jar'
 
 [update.modrinth]
 mod-id = 'tnd2BYam'
-version = 'PhIGkkCZ'
+version = 'nrOYtl59'

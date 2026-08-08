@@ -1,23 +1,23 @@
-filename = 'paladins-neoforge-3.0.3+1.21.1.jar'
+filename = 'paladins-neoforge-3.0.5+1.21.1.jar'
 name = 'Paladins & Priests (RPG Series)'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '3.0.3+1.21.1-neoforge'
+x-prismlauncher-version-number = '3.0.5+1.21.1-neoforge'
 
 [download]
-hash = 'f41ded445ce22182aee6d3f9d6047d6ea67e5dfe5e30ad2d60e5b8562bcbb03096e95ada2fbf8ba2eecb828221d65b506a037d9b1088fbe93a227260a023a640'
+hash = '18de311c30f246183beef3175f0d348910d1e84e324b634dc98e596c856f064581baf3011459096aea451a0782683ed6d1bfa960871a4e82dc57fdf519b8b6a5'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/FxXkHaLe/versions/Imtni6lW/paladins-neoforge-3.0.3%2B1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/FxXkHaLe/versions/SpQRKYSI/paladins-neoforge-3.0.5%2B1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'FxXkHaLe'
-version = 'Imtni6lW'
+version = 'SpQRKYSI'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'pduQXSbl'
+addonId = 'lP9Yrr1E'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
@@ -25,15 +25,15 @@ addonId = 'Aqlf1Shp'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'LrYZi08Q'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
 addonId = 'y9clIFY4'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'lP9Yrr1E'
+addonId = 'LrYZi08Q'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'pduQXSbl'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]

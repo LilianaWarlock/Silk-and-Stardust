@@ -1,18 +1,18 @@
-filename = 'puffish_skills-0.18.2-1.21-neoforge.jar'
+filename = 'puffish_skills-0.18.3-1.21-neoforge.jar'
 name = "Pufferfish's Skills"
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '0.18.2'
+x-prismlauncher-version-number = '0.18.3'
 
 [download]
-hash = '003b6ed0d1d5a90e1e0b937dbad5824ae0e1ed9b4fbe7bfeb350e62e25c967e999e78306fee05d66dc1b292e3e1b015bef8ee884340dc4e9f0bd4f7b19fb0cc5'
+hash = 'ed40a1835c926f5db233890ac0becbba46010827ad4f06f88ed2ca3dc0231013b8db9c3f2346294e1c352da98dd8de782aa63e8029107259b5e591b2582d64e0'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/hqQqvaa4/versions/q4dQyd5G/puffish_skills-0.18.2-1.21-neoforge.jar'
+url = 'https://cdn.modrinth.com/data/hqQqvaa4/versions/PFl7yr35/puffish_skills-0.18.3-1.21-neoforge.jar'
 
 [update.modrinth]
 mod-id = 'hqQqvaa4'
-version = 'q4dQyd5G'
+version = 'PFl7yr35'
