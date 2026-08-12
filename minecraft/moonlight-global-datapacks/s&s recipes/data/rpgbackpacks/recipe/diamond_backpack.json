@@ -1,0 +1,23 @@
+{
+  "type": "rpgbackpacks:backpack_upgrade",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "rpgbackpacks:golden_backpack"
+    },
+    "L": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "I": {
+      "item": "vc_gliders:reinforced_paper_diamond"
+    }
+  },
+  "pattern": ["S S", "IBI", "LIL"],
+  "result": {
+    "count": 1,
+    "id": "rpgbackpacks:diamond_backpack"
+  }
+}

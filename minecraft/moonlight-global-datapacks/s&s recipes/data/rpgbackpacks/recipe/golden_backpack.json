@@ -1,0 +1,23 @@
+{
+  "type": "rpgbackpacks:backpack_upgrade",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "rpgbackpacks:iron_backpack"
+    },
+    "L": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "I": {
+      "item": "vc_gliders:reinforced_paper_gold"
+    }
+  },
+  "pattern": ["S S", "IBI", "LIL"],
+  "result": {
+    "count": 1,
+    "id": "rpgbackpacks:golden_backpack"
+  }
+}

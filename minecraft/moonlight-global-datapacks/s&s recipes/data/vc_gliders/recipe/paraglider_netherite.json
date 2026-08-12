@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "gliders",
+  "key": {
+    "O": {
+      "item": "minecraft:feather"
+    },
+    "R": {
+      "item": "vc_gliders:reinforced_paper_netherite"
+    },
+    "G": {
+      "item": "vc_gliders:reinforced_paper_gold"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "W": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": ["GRG", "SWS", "WOW"],
+  "result": {
+    "count": 1,
+    "id": "vc_gliders:paraglider_netherite"
+  }
+}

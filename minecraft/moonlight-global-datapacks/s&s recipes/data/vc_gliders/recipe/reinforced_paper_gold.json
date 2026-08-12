@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "gliders",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "P": {
+      "item": "vc_gliders:reinforced_paper"
+    }
+  },
+  "pattern": ["GPG", "PGP", "GPG"],
+  "result": {
+    "count": 1,
+    "id": "vc_gliders:reinforced_paper_gold"
+  }
+}
