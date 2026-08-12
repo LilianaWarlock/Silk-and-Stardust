@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "villainous_vexations:corrosion_curse",
+    "villainous_vexations:combustion_curse",
+    "villainous_vexations:turgidness_curse",
+    "villainous_vexations:paranoia_curse",
+    "villainous_vexations:lethargy_curse",
+    "villainous_vexations:ignition_curse"
+  ]
+}

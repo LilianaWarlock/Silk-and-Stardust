@@ -1,0 +1,44 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "enchantment.villainous_vexations.turgidness_curse",
+    "fallback": "Curse of Turgidness"
+  },
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:play_sound",
+          "sound": { "sound_id": "villainous_vexations:entity.player.fart" },
+          "volume": 1,
+          "pitch": 1
+        },
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "periodic_tick": 250
+            }
+          },
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.001
+          }
+        ]
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 0
+  },
+  "slots": ["any"],
+  "supported_items": "#minecraft:enchantable/durability",
+  "weight": 5
+}

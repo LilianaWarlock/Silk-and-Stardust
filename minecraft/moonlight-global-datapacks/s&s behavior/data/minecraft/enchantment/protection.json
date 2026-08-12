@@ -4,7 +4,6 @@
     "translate": "enchantment.minecraft.protection"
   },
   "effects": {
-    "minecraft:attributes": [],
     "minecraft:damage_protection": [
       {
         "effect": {
