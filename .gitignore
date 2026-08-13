@@ -78,3 +78,8 @@ minecraft/config/betterf3.toml
 minecraft/config/recipecrafter/recipes.json5
 minecraft/mods/.index/recipecrafter.pw.toml
 minecraft/mods/recipecrafter-1.0.1.jar
+minecraft/config/c2me.toml
+minecraft/config/flywheel-client.toml
+minecraft/config/moreculling.toml
+minecraft/config/sodium-extra-options.json
+minecraft/config/sodium-options.json
