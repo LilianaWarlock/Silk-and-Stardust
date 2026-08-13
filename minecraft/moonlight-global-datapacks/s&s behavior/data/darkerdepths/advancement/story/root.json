@@ -23,6 +23,7 @@
   },
   "display": {
     "announce_to_chat": false,
+    "show_toast": false,
     "background": "darkerdepths:textures/block/duskrock.png",
     "description": {
       "translate": "advancements.darkerdepths.parent.description"

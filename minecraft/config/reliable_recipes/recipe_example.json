@@ -7,5 +7,15 @@
       "nameless_trinkets:tick",
       "minecraft:creaking_heart"
     ]
+  },
+  {
+    "action": "remove_from_tag",
+    "tag": "minecraft:enchantable/mining_loot",
+    "id": "the_moth:moth_spear"
+  },
+  {
+    "action": "remove_from_tag",
+    "tag": "minecraft:enchantable/mining",
+    "id": "the_moth:moth_spear"
   }
 ]

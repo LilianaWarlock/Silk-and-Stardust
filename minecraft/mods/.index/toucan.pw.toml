@@ -1,20 +1,20 @@
-filename = 'toucanlib-neoforge-1.21.1-0.3.1.jar'
+filename = 'toucanlib-neoforge-1.21.1-0.4.0.jar'
 name = 'toucanLib'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '0.3.1'
+x-prismlauncher-version-number = '0.4.0'
 
 [download]
-hash = '3291f33adf9541a27224c2c6d2c5d4a8490ec7d49b9a7df21beaaf07140e7c029421f622dd0034b17ff8a3a603011204bda41d5a8e6dbb41efda16ab6b676e40'
+hash = 'a8d0c72ccb09ac0eceda88370c410ae127d10092d32f548311a6b595d27c0c6c86e6a95344ee2ddb06879bea65117df8eb1f6d0560c5c7eb1b4b4d326e2c0f0e'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/dXwOQg6L/versions/npKBCMkt/toucanlib-neoforge-1.21.1-0.3.1.jar'
+url = 'https://cdn.modrinth.com/data/dXwOQg6L/versions/P94uBT4o/toucanlib-neoforge-1.21.1-0.4.0.jar'
 
 [update.modrinth]
 mod-id = 'dXwOQg6L'
-version = 'npKBCMkt'
+version = 'P94uBT4o'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'lhGA9TYQ'

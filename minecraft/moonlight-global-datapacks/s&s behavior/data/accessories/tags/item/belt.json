@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "simple_ender_backpack:ender_backpack"
+    {
+      "id": "simple_ender_backpack:ender_backpack",
+      "required": false
+    }
   ]
 }

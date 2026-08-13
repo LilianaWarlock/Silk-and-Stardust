@@ -1,4 +1,13 @@
 {
-  "replace": true,
-  "values": []
+  "values": [],
+  "remove": [
+    {
+      "id": "#vc_gliders:gliders",
+      "required": false
+    },
+    {
+      "id": "simple_ender_backpack:ender_backpack",
+      "required": false
+    }
+  ]
 }

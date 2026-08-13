@@ -1,4 +1,9 @@
 {
   "replace": false,
-  "values": ["jewelry:copper_ring"]
+  "values": [
+    {
+      "id": "jewelry:copper_ring",
+      "required": false
+    }
+  ]
 }

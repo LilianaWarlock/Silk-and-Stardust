@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "rpgbackpacks:leather_backpack",
+      "required": false
+    },
+    {
+      "id": "rpgbackpacks:iron_backpack",
+      "required": false
+    },
+    {
+      "id": "rpgbackpacks:gold_backpack",
+      "required": false
+    },
+    {
+      "id": "rpgbackpacks:diamond_backpack",
+      "required": false
+    },
+    {
+      "id": "rpgbackpacks:netherite_backpack",
+      "required": false
+    }
+  ]
+}

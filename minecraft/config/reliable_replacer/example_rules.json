@@ -1,0 +1,9 @@
+[
+  {
+    "_comment_description": "BASIC SETTINGS: What to replace and what to replace it with.",
+    "player_blocks": false,
+    "inputs": ["minecraft:lodestone"],
+    "output": "minecraft:chiseled_stone_bricks",
+    "structure": "netherman:mansion_nether"
+  }
+]

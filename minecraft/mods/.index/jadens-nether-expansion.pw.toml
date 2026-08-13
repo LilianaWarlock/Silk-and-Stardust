@@ -1,22 +1,22 @@
-filename = 'Jadens-Nether-Expansion-2.4.0-BETA.7.jar'
+filename = 'Jadens-Nether-Expansion-2.4.0-RC.2.jar'
 name = "Jaden's Nether Expansion"
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '2.4.0-BETA.7'
+x-prismlauncher-version-number = '2.4.0-RC.2'
 
 [download]
-hash = '356fe53d9e4cf25580514d537a59eeeb67a6c366a5964264ab72684c4b2665b5ee09077448a6b0fe1f95fe823fae21a145a74351794c45dc348eb80b681829eb'
+hash = '04e18025c014036ae922cf2551c63d474a0f24914a0481bc10abd9487c3f3435661eeb8e1f1ccfd56bd63d1504f00641e1da6705664ba5013e5f91a3f5334573'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/v3UlehfS/versions/6qRP74x9/Jadens-Nether-Expansion-2.4.0-BETA.7.jar'
+url = 'https://cdn.modrinth.com/data/v3UlehfS/versions/W5UI7vxF/Jadens-Nether-Expansion-2.4.0-RC.2.jar'
 
 [update.modrinth]
 mod-id = 'v3UlehfS'
-version = '6qRP74x9'
+version = 'W5UI7vxF'
 
 [[x-prismlauncher-dependencies]]
 addonId = '6YTvv3aI'
 type = 'REQUIRED'
-version = 'EIhZq8hW'
+version = 'fNNKNu4Y'

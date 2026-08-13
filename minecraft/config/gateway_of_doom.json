@@ -1,13 +1,81 @@
 {
+  "schemaVersion": 17,
   "openingTicks": 80,
   "wavePauseTicks": 60,
   "leashRangeBlocks": 50,
+  "maxActivePortalsPerPlayer": 1,
+  "creativeAutomaticGatewaysEnabled": false,
+  "diagnosticTestCommandsEnabled": false,
+  "soundPackage": "immersive",
   "nightOnly": false,
   "mobDropsEnabled": false,
+  "automaticGateways": {
+    "enabled": false,
+    "rules": [
+      {
+        "id": "overworld_exploration",
+        "enabled": true,
+        "profileId": "easy",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minPlayers": 1,
+        "minIntervalSeconds": 1800,
+        "maxIntervalSeconds": 3600,
+        "minDistanceBlocks": 48,
+        "maxDistanceBlocks": 128,
+        "maxActive": 1,
+        "triggerMode": "exploration",
+        "eventScope": "server",
+        "minExplorationDistanceBlocks": 100,
+        "maxExplorationDistanceBlocks": 300,
+        "announce": true
+      },
+      {
+        "id": "nether_timer",
+        "enabled": true,
+        "profileId": "medium",
+        "dimensions": [
+          "minecraft:the_nether"
+        ],
+        "minPlayers": 1,
+        "minIntervalSeconds": 1800,
+        "maxIntervalSeconds": 3600,
+        "minDistanceBlocks": 48,
+        "maxDistanceBlocks": 128,
+        "maxActive": 1,
+        "triggerMode": "timer",
+        "eventScope": "server",
+        "minExplorationDistanceBlocks": 256,
+        "maxExplorationDistanceBlocks": 256,
+        "announce": true
+      },
+      {
+        "id": "end_timer",
+        "enabled": true,
+        "profileId": "hard",
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "minPlayers": 1,
+        "minIntervalSeconds": 1800,
+        "maxIntervalSeconds": 3600,
+        "minDistanceBlocks": 48,
+        "maxDistanceBlocks": 128,
+        "maxActive": 1,
+        "triggerMode": "timer",
+        "eventScope": "server",
+        "minExplorationDistanceBlocks": 256,
+        "maxExplorationDistanceBlocks": 256,
+        "announce": true
+      }
+    ]
+  },
   "profiles": {
     "easy": {
       "displayName": "item.gateway_of_doom.devil_eye_blue",
       "colorRGB": 15194149,
+      "eyeDesign": "portal_orb",
       "portalStyle": "ritual",
       "defaultWaveTimeLimitSeconds": 130,
       "healthBoostPercent": 0.0,
@@ -15,10 +83,10 @@
       "speedBoostPercent": 0.0,
       "completionXp": 100,
       "chestDropChance": 0.15,
-      "mobDropChance": 0.05,
       "injectIntoAllChests": false,
       "chestDropsEnabled": true,
       "mobDropsEnabled": true,
+      "extraEquipmentEnabled": false,
       "findableDimensions": [
         "minecraft:overworld"
       ],
@@ -136,6 +204,7 @@
           "dropChancePercent": 5.0
         }
       ],
+      "equipmentRules": [],
       "waveMode": "FIXED",
       "random": {
         "minWaves": 3,
@@ -148,19 +217,20 @@
       }
     },
     "medium": {
-      "displayName": "item.gateway_of_doom.devil_eye_violet",
+      "displayName": "item.gateway_of_doom.devil_eye_red",
       "colorRGB": 16730698,
+      "eyeDesign": "portal_orb",
       "portalStyle": "ritual",
-      "defaultWaveTimeLimitSeconds": 160,
-      "healthBoostPercent": 20.0,
-      "damageBoostPercent": 10.0,
+      "defaultWaveTimeLimitSeconds": 180,
+      "healthBoostPercent": 10.0,
+      "damageBoostPercent": 5.0,
       "speedBoostPercent": 0.0,
       "completionXp": 350,
       "chestDropChance": 0.15,
-      "mobDropChance": 0.05,
       "injectIntoAllChests": false,
       "chestDropsEnabled": true,
       "mobDropsEnabled": true,
+      "extraEquipmentEnabled": false,
       "findableDimensions": [
         "minecraft:the_nether"
       ],
@@ -176,54 +246,54 @@
       ],
       "waves": [
         {
-          "timeLimitSeconds": 160,
+          "timeLimitSeconds": 180,
           "mobs": [
             {
               "type": "minecraft:piglin",
-              "count": 3
+              "count": 2
             },
             {
               "type": "minecraft:magma_cube",
-              "count": 3
-            }
-          ]
-        },
-        {
-          "timeLimitSeconds": 160,
-          "mobs": [
-            {
-              "type": "minecraft:blaze",
-              "count": 3
-            },
-            {
-              "type": "minecraft:wither_skeleton",
               "count": 2
             }
           ]
         },
         {
           "timeLimitSeconds": 190,
+          "mobs": [
+            {
+              "type": "minecraft:blaze",
+              "count": 2
+            },
+            {
+              "type": "minecraft:wither_skeleton",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "timeLimitSeconds": 220,
           "mobs": [
             {
               "type": "minecraft:hoglin",
-              "count": 2
+              "count": 1
             },
             {
               "type": "minecraft:piglin_brute",
-              "count": 2
+              "count": 1
             },
             {
               "type": "minecraft:wither_skeleton",
-              "count": 2
+              "count": 1
             }
           ]
         },
         {
-          "timeLimitSeconds": 190,
+          "timeLimitSeconds": 240,
           "mobs": [
             {
               "type": "minecraft:ghast",
-              "count": 2
+              "count": 1
             },
             {
               "type": "minecraft:blaze",
@@ -231,7 +301,7 @@
             },
             {
               "type": "minecraft:wither_skeleton",
-              "count": 3
+              "count": 1
             }
           ]
         }
@@ -290,10 +360,10 @@
         "mobType": "minecraft:wither_skeleton",
         "count": 1,
         "strengthMode": "CUSTOM",
-        "healthBoostPercent": 120.0,
-        "damageBoostPercent": 25.0,
+        "healthBoostPercent": 80.0,
+        "damageBoostPercent": 15.0,
         "speedBoostPercent": 0.0,
-        "sizeScale": 1.4,
+        "sizeScale": 1.3,
         "bossTimeLimitSeconds": 0,
         "guards": []
       },
@@ -315,6 +385,7 @@
           "dropChancePercent": 5.0
         }
       ],
+      "equipmentRules": [],
       "waveMode": "FIXED",
       "random": {
         "minWaves": 3,
@@ -327,19 +398,20 @@
       }
     },
     "hard": {
-      "displayName": "item.gateway_of_doom.devil_eye_red",
+      "displayName": "item.gateway_of_doom.devil_eye_violet",
       "colorRGB": 11819775,
+      "eyeDesign": "portal_orb",
       "portalStyle": "ritual",
-      "defaultWaveTimeLimitSeconds": 190,
-      "healthBoostPercent": 70.0,
-      "damageBoostPercent": 35.0,
+      "defaultWaveTimeLimitSeconds": 220,
+      "healthBoostPercent": 40.0,
+      "damageBoostPercent": 20.0,
       "speedBoostPercent": 0.0,
       "completionXp": 1500,
       "chestDropChance": 0.15,
-      "mobDropChance": 0.05,
       "injectIntoAllChests": false,
       "chestDropsEnabled": true,
       "mobDropsEnabled": true,
+      "extraEquipmentEnabled": false,
       "findableDimensions": [
         "minecraft:the_end"
       ],
@@ -351,62 +423,28 @@
       ],
       "waves": [
         {
-          "timeLimitSeconds": 190,
+          "timeLimitSeconds": 220,
           "mobs": [
             {
               "type": "minecraft:enderman",
-              "count": 3
+              "count": 2
             },
             {
               "type": "minecraft:phantom",
-              "count": 3
+              "count": 2
             }
           ]
         },
         {
-          "timeLimitSeconds": 190,
+          "timeLimitSeconds": 230,
           "mobs": [
             {
               "type": "minecraft:shulker",
-              "count": 2
-            },
-            {
-              "type": "minecraft:enderman",
-              "count": 3
-            }
-          ]
-        },
-        {
-          "timeLimitSeconds": 210,
-          "mobs": [
-            {
-              "type": "minecraft:wither_skeleton",
-              "count": 3
-            },
-            {
-              "type": "minecraft:enderman",
-              "count": 3
-            },
-            {
-              "type": "minecraft:shulker",
-              "count": 2
-            }
-          ]
-        },
-        {
-          "timeLimitSeconds": 210,
-          "mobs": [
-            {
-              "type": "minecraft:evoker",
-              "count": 2
-            },
-            {
-              "type": "minecraft:ravager",
               "count": 1
             },
             {
               "type": "minecraft:enderman",
-              "count": 3
+              "count": 2
             }
           ]
         },
@@ -414,20 +452,50 @@
           "timeLimitSeconds": 250,
           "mobs": [
             {
-              "type": "minecraft:shulker",
-              "count": 3
+              "type": "minecraft:wither_skeleton",
+              "count": 2
             },
             {
               "type": "minecraft:enderman",
-              "count": 3
+              "count": 2
             },
             {
-              "type": "minecraft:wither_skeleton",
-              "count": 3
+              "type": "minecraft:shulker",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "timeLimitSeconds": 270,
+          "mobs": [
+            {
+              "type": "minecraft:evoker",
+              "count": 1
             },
             {
               "type": "minecraft:ravager",
               "count": 1
+            },
+            {
+              "type": "minecraft:enderman",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "timeLimitSeconds": 300,
+          "mobs": [
+            {
+              "type": "minecraft:shulker",
+              "count": 2
+            },
+            {
+              "type": "minecraft:enderman",
+              "count": 2
+            },
+            {
+              "type": "minecraft:wither_skeleton",
+              "count": 2
             }
           ]
         }
@@ -502,7 +570,7 @@
         "count": 1,
         "strengthMode": "CUSTOM",
         "healthBoostPercent": 0.0,
-        "damageBoostPercent": 10.0,
+        "damageBoostPercent": 5.0,
         "speedBoostPercent": 0.0,
         "sizeScale": 1.1,
         "bossTimeLimitSeconds": 0,
@@ -522,6 +590,7 @@
           "dropChancePercent": 5.0
         }
       ],
+      "equipmentRules": [],
       "waveMode": "FIXED",
       "random": {
         "minWaves": 3,

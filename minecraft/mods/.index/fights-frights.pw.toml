@@ -1,20 +1,20 @@
-filename = 'fightsfrights-1.0.4-neoforge-1.21.1.jar'
+filename = 'fightsfrights-1.1.0-neoforge-1.21.1.jar'
 name = 'Fights&Frights'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.0.4'
+x-prismlauncher-version-number = '1.1.0'
 
 [download]
-hash = 'e52c28028762b2b2ee503ff3586ac74c985ba768e9b509b3fb8ed589236a3370552ac9d2c84e3e5bd30b0f65dd626d21aa1f6f3769cc802777be4b6f382e2a10'
+hash = '0e8921ebbcd082d6654fd5cfb220b9939399459955bc71f507b8231beae3bd59f828e3d6290c496bfb8e5c8a19372a147346c76780b11055483b99992c5199d4'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/F4wqaJ4c/versions/hoELRcjU/fightsfrights-1.0.4-neoforge-1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/F4wqaJ4c/versions/lAh1w5Nu/fightsfrights-1.1.0-neoforge-1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'F4wqaJ4c'
-version = 'hoELRcjU'
+version = 'lAh1w5Nu'
 
 [[x-prismlauncher-dependencies]]
 addonId = '8BmcQJ2H'
