@@ -29,10 +29,10 @@
       "advanced": false,
       "multi_dimension_fog_control": false,
       "atmospheric": {
-        "distance_chunks": 0,
+        "distance_chunks": 5,
         "start_percent": 100,
         "shape_mode": "VANILLA",
-        "cloud_fog_percent": 100
+        "cloud_fog_percent": 75
       },
       "dimension_overrides": {},
       "protected_gameplay": {
@@ -64,7 +64,7 @@
     "reduce_resolution_on_mac": false,
     "wayland_fullscreen_resolution": false,
     "wayland_fullscreen_resolution_recovery_pending": false,
-    "use_adaptive_sync": true,
+    "use_adaptive_sync": false,
     "cloud_height_override": true,
     "cloud_height": 254,
     "cloud_distance": 300,
