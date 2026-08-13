@@ -7,5 +7,10 @@
     "villainous_vexations:paranoia_curse",
     "villainous_vexations:lethargy_curse",
     "villainous_vexations:ignition_curse"
+  ],
+  "remove": [
+    "vein_vantage:clearing_strike",
+    "vein_vantage:ore_blessing",
+    "vein_vantage:vein_sweep"
   ]
 }

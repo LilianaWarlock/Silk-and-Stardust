@@ -1,0 +1,7 @@
+{
+  "values": [
+    "minecraft:efficiency",
+    { "required": false, "id": "vein_vantage:vein_sweep" },
+    { "required": false, "id": "vein_vantage:clearing_strike" }
+  ]
+}
