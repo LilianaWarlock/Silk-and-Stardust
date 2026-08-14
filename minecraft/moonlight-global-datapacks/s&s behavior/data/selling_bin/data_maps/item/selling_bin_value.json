@@ -1,96 +1,857 @@
 {
   "values": {
-    "#c:foods": {
-      "base_value": 10,
-      "processors": [
-        {
-          "type": "selling_bin:food_processor"
-        }
-      ]
-    },
+    //"#c:foods": {
+    //  "base_value": 10,
+    //  "processors": [
+    //    {
+    //      "type": "selling_bin:food_processor"
+    //   }
+    // ]
+    //},
 
-    "crittersandcompanions:pearl": {
-      "base_value": 100,
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+    ////Animal Drops///////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////////
+    "hexerei:animal_fat": {
+      "base_value": 1,
       "processors": []
     },
-
-    "minecraft:cake": {
-      "base_value": 200,
+    "minecraft:beef": {
+      "base_value": 5,
       "processors": []
     },
-    "minecraft:enchanted_golden_apple": {
-      "base_value": 3700,
+    "minecraft:chicken": {
+      "base_value": 4,
       "processors": []
     },
-    "minecraft:golden_apple": {
-      "base_value": 200,
+    "#c:eggs": {
+      "base_value": 2,
+      "processors": []
+    },
+    "minecraft:feather": {
+      "base_value": 1,
+      "processors": []
+    },
+    "wan_ancient_beasts:frozen_ancient_meat": {
+      "base_value": 70,
+      "processors": []
+    },
+    "fightsfrights:gills": {
+      "base_value": 1,
+      "processors": []
+    },
+    "netherexp:hogham": {
+      "base_value": 6,
       "processors": []
     },
     "minecraft:honey_bottle": {
-      "base_value": 150,
+      "base_value": 12,
       "processors": []
     },
-    "minecraft:ominous_bottle": {
-      "base_value": 0,
+    "minecraft:leather": {
+      "base_value": 6,
       "processors": []
     },
-
-    "minecraft:wheat": {
-      "base_value": 10,
+    "minecraft:mutton": {
+      "base_value": 4,
       "processors": []
     },
-    "minecraft:carrot": {
-      "base_value": 10,
+    "minecraft:porkchop": {
+      "base_value": 5,
       "processors": []
     },
-    "minecraft:potato": {
-      "base_value": 10,
+    "minecraft:rabbit": {
+      "base_value": 4,
+      "processors": []
+    },
+    //raw ancient meat is in ////Cooking//// due to a technicality
+    "deep_aether:raw_quail": {
+      "base_value": 6,
+      "processors": []
+    },
+    "#minecraft:wool": {
+      "base_value": 4,
+      "processors": []
+    },
+    "minecraft:pork": {
+      "base_value": 5,
+      "processors": []
+    },
+    "quark:bonded_leather": {
+      "base_value": 36,
+      "processors": []
+    },
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+    ////Baked Goods////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////////
+    "bountifulfares:apple_pie": {
+      "base_value": 105,
+      "processors": []
+    },
+    "bountifulfares:artisan_bread": {
+      "base_value": 26,
+      "processors": []
+    },
+    "bountifulfares:artisan_cookie": {
+      "base_value": 5,
+      "processors": []
+    },
+    "minecraft:bread": {
+      "base_value": 15,
+      "processors": []
+    },
+    "minecraft:cake": {
+      "base_value": 75,
+      "processors": []
+    },
+    "enderscape:chorus_cake_roll": {
+      "base_value": 182,
+      "processors": []
+    },
+    "bountifulfares:cocoa_cake": {
+      "base_value": 147,
+      "processors": []
+    },
+    "bountifulfares:coconut_cake": {
+      "base_value": 105,
+      "processors": []
+    },
+    "minecraft:cookie": {
+      "base_value": 4,
+      "processors": []
+    },
+    "bountifulfares:elderberry_tart": {
+      "base_value": 71,
+      "processors": []
+    },
+    "bountifulfares:glow_berry_tart": {
+      "base_value": 71,
+      "processors": []
+    },
+    "bountifulfares:hoary_pie": {
+      "base_value": 105,
+      "processors": []
+    },
+    "bountifulfares:lapisberry_tart": {
+      "base_value": 71,
+      "processors": []
+    },
+    "bountifulfares:lemon_pie": {
+      "base_value": 105,
+      "processors": []
+    },
+    "bountifulfares:maize_bread": {
+      "base_value": 15,
+      "processors": []
+    },
+    "bountifulfares:orange_pie": {
+      "base_value": 105,
+      "processors": []
+    },
+    "bountifulfares:passion_fruit_tart": {
+      "base_value": 71,
+      "processors": []
+    },
+    "bountifulfares:plum_pie": {
+      "base_value": 105,
+      "processors": []
+    },
+    "minecraft:pumpkin_pie": {
+      "base_value": 126,
+      "processors": []
+    },
+    "bountifulfares:sponge_cake": {
+      "base_value": 237,
+      "processors": []
+    },
+    "additionaladditions:berry_pie": { //Sweet berry pie
+      "base_value": 71,
+      "processors": []
+    },
+    "bountifulfares:sweet_berry_tart": {
+      "base_value": 71,
+      "processors": []
+    },
+    "bountifulfares:walnut_cookie": {
+      "base_value": 6,
+      "processors": []
+    },
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+    ////Cooking////////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////////
+    "bountifulfares:apple_stew": {
+      "base_value": 30,
+      "processors": []
+    },
+    "bountifulfares:arid_medley": {
+      "base_value": 67,
+      "processors": []
+    },
+    "minecraft:baked_potato": {
+      "base_value": 8,
+      "processors": []
+    },
+    "minecraft:beetroot_soup": {
+      "base_value": 25,
+      "processors": []
+    },
+    "bountifulfares:berry_stuffed_potato": {
+      "base_value": 24,
+      "processors": []
+    },
+    "bountifulfares:bountiful_stew": {
+      "base_value": 38,
+      "processors": []
+    },
+    "bountifulfares:coastal_medley": {
+      "base_value": 32,
+      "processors": []
+    },
+    "bountifulfares:coconut_crusted_cod": {
+      "base_value": 30,
+      "processors": []
+    },
+    "bountifulfares:coconut_stew": {
+      "base_value": 15,
+      "processors": []
+    },
+    "wan_ancient_beasts:cooked_ancient_meat": {
+      "base_value": 630,
+      "processors": []
+    },
+    "minecraft:cooked_beef": { //AKA steak
+      "base_value": 20,
+      "processors": []
+    },
+    "minecraft:cooked_chicken": {
+      "base_value": 16,
+      "processors": []
+    },
+    "bountifulfares:cooked_egg": {
+      "base_value": 6,
+      "processors": []
+    },
+    "netherexp:cooked_hogham": {
+      "base_value": 18,
+      "processors": []
+    },
+    "minecraft:cooked_mutton": {
+      "base_value": 16,
+      "processors": []
+    },
+    "minecraft:cooked_porkchop": {
+      "base_value": 20,
+      "processors": []
+    },
+    "deep_aether:cooked_quail": {
+      "base_value": 18,
+      "processors": []
+    },
+    "minecraft:cooked_rabbit": {
+      "base_value": 16,
+      "processors": []
+    },
+    "bountifulfares:crusted_beef": {
+      "base_value": 42,
+      "processors": []
+    },
+    "bountifulfares:crimson_chow": {
+      "base_value": 45,
+      "processors": []
+    },
+    "bountifulfares:fish_stew": {
+      "base_value": 25,
+      "processors": []
+    },
+    "bountifulfares:forest_medley": {
+      "base_value": 58,
+      "processors": []
+    },
+    "wetland_whimsy:gumbo": {
+      "base_value": 32,
+      "processors": []
+    },
+    "bountifulfares:leek_stew": {
+      "base_value": 15,
+      "processors": []
+    },
+    "bountifulfares:maize_stuffed_potato": {
+      "base_value": 22,
+      "processors": []
+    },
+    "bountifulfares:meadow_medley": {
+      "base_value": 59,
+      "processors": []
+    },
+    "bountifulfares:melon_pie": {
+      "base_value": 60,
+      "processors": []
+    },
+    "bountifulfares:mire_medley": {
+      "base_value": 25,
+      "processors": []
+    },
+    "bountifulfares:mushroom_stuffed_potato": {
+      "base_value": 36,
+      "processors": []
+    },
+    "minecraft:mushroom_stew": {
+      "base_value": 25,
+      "processors": []
+    },
+    "wetland_whimsy:pennywort_salad": {
+      "base_value": 12,
+      "processors": []
+    },
+    "minecraft:rabbit_stew": {
+      "base_value": 46,
+      "processors": []
+    },
+    "wan_ancient_beasts:raw_ancient_meat": { //Here by technicality
+      "base_value": 210,
+      "processors": []
+    },
+    "bountifulfares:sea_salad": {
+      "base_value": 20,
+      "processors": []
+    },
+    "bountifulfares:tropical_medley": {
+      "base_value": 55,
+      "processors": []
+    },
+    "bountifulfares:warped_chow": {
+      "base_value": 25,
+      "processors": []
+    },
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+    ////Crops//////////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////////
+    "minecraft:apple": {
+      "base_value": 8,
+      "processors": []
+    },
+    "bountifulfares:apple_block": {
+      "base_value": 126,
+      "processors": []
+    },
+    "bountifulfares:apple_cider_jar": {
+      "base_value": 12,
+      "processors": []
+    },
+    "bountifulfares:apple_compote_jar": {
+      "base_value": 20,
       "processors": []
     },
     "minecraft:beetroot": {
-      "base_value": 10,
+      "base_value": 2,
       "processors": []
     },
-    "minecraft:cocoa_beans": {
-      "base_value": 10,
+    "hexerei:belladonna_berries": {
+      "base_value": 2,
       "processors": []
     },
-    "minecraft:sugar_cane": {
-      "base_value": 10,
+    "aether:blue_berry": {
+      "base_value": 4,
+      "processors": []
+    },
+    "nethers_exoticism:bouddha_s_hand": {
+      "base_value": 6,
+      "processors": []
+    },
+    "minecraft:brown_mushroom": {
+      "base_value": 5,
       "processors": []
     },
     "minecraft:cactus": {
+      "base_value": 7,
+      "processors": []
+    },
+    "minecraft:carrot": {
+      "base_value": 2,
+      "processors": []
+    },
+    "minecraft:chorus_fruit": {
+      "base_value": 8,
+      "processors": []
+    },
+    "minecraft:cocoa_beans": {
+      "base_value": 4,
+      "processors": []
+    },
+    "bountifulfares:coconut": {
+      "base_value": 4,
+      "processors": []
+    },
+    "bountifulfares:elderberries": {
+      "base_value": 2,
+      "processors": []
+    },
+    "bountifulfares:elderberry_wine_bottle": {
+      "base_value": 30,
+      "processors": []
+    },
+    "aether:enchanted_berry": {
+      "base_value": 8,
+      "processors": []
+    },
+    "enderscape:flanger_berry": {
+      "base_value": 8,
+      "processors": []
+    },
+    "deep_aether:frozen_goldenleaf_berries": {
+      "base_value": 8,
+      "processors": []
+    },
+    "minecraft:glow_berries": {
+      "base_value": 2,
+      "processors": []
+    },
+    "minecraft:golden_apple": {
+      "base_value": 16,
+      "processors": []
+    },
+    "bountifulfares:golden_apple_block": {
+      "base_value": 252,
+      "processors": []
+    },
+    "minecraft:golden_carrot": {
       "base_value": 10,
       "processors": []
     },
-    "minecraft:pumpkin": {
-      "base_value": 10,
+    "deep_aether:goldenleaf_berries": {
+      "base_value": 4,
+      "processors": []
+    },
+    "bountifulfares:hoary_apple": {
+      "base_value": 8,
+      "processors": []
+    },
+    "bountifulfares:hoary_cider_jar": {
+      "base_value": 12,
+      "processors": []
+    },
+    "bountifulfares:hoary_compote_jar": {
+      "base_value": 20,
+      "processors": []
+    },
+    "nethers_exoticism:jaboticaba": {
+      "base_value": 6,
+      "processors": []
+    },
+    //"#gipples_galore:jellies": {
+    //  "base_value": 20,
+    //  "processors": []
+    //},
+    //---------------------------------Does not seem to work idk why, #gipple_galore:jellies not readable tag?
+    "nethers_exoticism:kiwano": {
+      "base_value": 6,
+      "processors": []
+    },
+    "bountifulfares:lapisberries": {
+      "base_value": 2,
+      "processors": []
+    },
+    "bountifulfares:lapisberry_wine_bottle": {
+      "base_value": 30,
+      "processors": []
+    },
+    "bountifulfares:leek": {
+      "base_value": 2,
+      "processors": []
+    },
+    "bountifulfares:lemon": {
+      "base_value": 8,
+      "processors": []
+    },
+    "bountifulfares:lemon_compote_jar": {
+      "base_value": 20,
+      "processors": []
+    },
+    "terrarianmight:life_fruit": {
+      "base_value": 8,
+      "processors": []
+    },
+    "eternal_starlight:lunar_berries": {
+      "base_value": 4,
+      "processors": []
+    },
+    "bountifulfares:maize": {
+      "base_value": 3,
       "processors": []
     },
     "minecraft:melon": {
-      "base_value": 10,
+      "base_value": 20,
       "processors": []
     },
     "minecraft:nether_wart": {
-      "base_value": 10,
+      "base_value": 5,
+      "processors": []
+    },
+    "bountifulfares:orange": {
+      "base_value": 8,
+      "processors": []
+    },
+    "bountifulfares:orange_compote_jar": {
+      "base_value": 20,
+      "processors": []
+    },
+    "bountifulfares:passion_fruit": {
+      "base_value": 2,
+      "processors": []
+    },
+    "nethers_exoticism:pitaya": {
+      "base_value": 6,
+      "processors": []
+    },
+    "bountifulfares:plum": {
+      "base_value": 8,
+      "processors": []
+    },
+    "bountifulfares:plum_cider_jar": {
+      "base_value": 12,
+      "processors": []
+    },
+    "bountifulfares:plum_compote_jar": {
+      "base_value": 20,
+      "processors": []
+    },
+    "minecraft:potato": {
+      "base_value": 2,
+      "processors": []
+    },
+    "minecraft:pumpkin": {
+      "base_value": 16,
+      "processors": []
+    },
+    "nethers_exoticism:ramboutan": {
+      "base_value": 6,
+      "processors": []
+    },
+    "minecraft:red_mushroom": {
+      "base_value": 5,
+      "processors": []
+    },
+    "bountifulfares:spongekin": {
+      "base_value": 25,
+      "processors": []
+    },
+    "bountifulfares:stuffed_hoary_apple": {
+      "base_value": 8,
+      "processors": []
+    },
+    "minecraft:sugar_cane": {
+      "base_value": 1,
+      "processors": []
+    },
+    "minecraft:sweet_berries": {
+      "base_value": 2,
+      "processors": []
+    },
+    "bountifulfares:tea_berries": {
+      "base_value": 2,
+      "processors": []
+    },
+    "bountifulfares:walnut": {
+      "base_value": 2,
+      "processors": []
+    },
+    "unusualend:warped_berries": {
+      "base_value": 8,
+      "processors": []
+    },
+    "minecraft:wheat": {
+      "base_value": 3,
+      "processors": []
+    },
+    "aether:white_apple": {
+      "base_value": 32,
+      "processors": []
+    },
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+    ////Crops 2/////PACKED ITEMS (Apple crate = 9 apples)//////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////////
+    "quark:apple_crate": {
+      "base_value": 72,
+      "processors": []
+    },
+    "quark:beetroot_crate": {
+      "base_value": 18,
+      "processors": []
+    },
+    "nethers_exoticism:bouddha_s_hand_crate": {
+      "base_value": 54,
+      "processors": []
+    },
+    "quark:cactus_block": {
+      "base_value": 63,
+      "processors": []
+    },
+    "quark:carrot_crate": {
+      "base_value": 18,
+      "processors": []
+    },
+    "quark:chorus_fruit_block": {
+      "base_value": 72,
+      "processors": []
+    },
+    "quark:cocoa_beans_sack": {
+      "base_value": 36,
+      "processors": []
+    },
+    "minecraft:dried_kelp_block": {
+      "base_value": 6,
+      "processors": []
+    },
+    "enderscape:ripe_flanger_berry_block": {
+      "base_value": 72,
+      "processors": []
+    },
+    "quark:glowberry_sack": {
+      "base_value": 18,
+      "processors": []
+    },
+    "quark:golden_apple_crate": {
+      "base_value": 144,
+      "processors": []
+    },
+    "quark:golden_carrot_crate": {
+      "base_value": 90,
+      "processors": []
+    },
+    "ascended_quark:goldenleaf_berries_crate": {
+      "base_value": 36,
+      "processors": []
+    },
+    "minecraft:hay_block": {
+      "base_value": 27,
+      "processors": []
+    },
+    "bountifulfares:hoary_apple_block": {
+      "base_value": 72,
+      "processors": []
+    },
+    "nethers_exoticism:jaboticaba_crate": {
+      "base_value": 54,
+      "processors": []
+    },
+    "nethers_exoticism:kiwano_crate": {
+      "base_value": 54,
+      "processors": []
+    },
+    "bountifulfares:lemon_block": {
+      "base_value": 72,
+      "processors": []
+    },
+    "quark:nether_wart_sack": {
+      "base_value": 45,
+      "processors": []
+    },
+    "bountifulfares:orange_block": {
+      "base_value": 72,
+      "processors": []
+    },
+    "nethers_exoticism:pitaya_crate": {
+      "base_value": 54,
+      "processors": []
+    },
+    "bountifulfares:plum_block": {
+      "base_value": 72,
+      "processors": []
+    },
+    "quark:potato_crate": {
+      "base_value": 18,
+      "processors": []
+    },
+    "nethers_exoticism:ramboutan_crate": {
+      "base_value": 54,
+      "processors": []
+    },
+    "quark:sugar_cane_block": {
+      "base_value": 9,
+      "processors": []
+    },
+    "quark:sweet_berry_sack": {
+      "base_value": 18,
+      "processors": []
+    },
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+    ////Monster Drops//////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////////
+    "minecraft:blaze_rod": {
+      "base_value": 8,
+      "processors": []
+    },
+    "minecraft:bone": {
+      "base_value": 1,
+      "processors": []
+    },
+    "additionaladditions:chicken_nugget": {
+      "base_value": 3,
+      "processors": []
+    },
+    "fightsfrights:chip": { //Pioneer enemy drop
+      "base_value": 2,
+      "processors": []
+    },
+    "minecraft:ender_pearl": {
+      "base_value": 9,
+      "processors": []
+    },
+    "minecraft:fermented_spider_eye": {
+      "base_value": 26,
+      "processors": []
+    },
+    "rottencreatures:frozen_rotten_flesh": {
+      "base_value": 1,
+      "processors": []
+    },
+    "minecraft:ghast_tear": {
+      "base_value": 8,
+      "processors": []
+    },
+    "minecraft:gunpowder": {
+      "base_value": 1,
+      "processors": []
+    },
+    "rottencreatures:magma_rotten_flesh": {
+      "base_value": 1,
+      "processors": []
+    },
+    "fightsfrights:mimentis_claw_single_use": {
+      "base_value": 8,
+      "processors": []
+    },
+    "minecraft:rotten_flesh": {
+      "base_value": 1,
+      "processors": []
+    },
+    "minecraft:spider_eye": {
+      "base_value": 2,
+      "processors": []
+    },
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+    ////Monster Drops 2////Packed blocks///////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////////
+    "quark:gunpowder_sack": {
+      "base_value": 9,
+      "processors": []
+    },
+    "netherexp:magma_cream_block": {
+      "base_value": 45,
+      "processors": []
+    },
+    "fightsfrights:rotten_block": {
+      "base_value": 9,
+      "processors": []
+    },
+    "minecraft:slime_block": {
+      "base_value": 3,
+      "processors": []
+    },
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+    ////Butterflies////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////////
+    "luminous_butterflies:zebra_longwing_jar": { //7
+      "base_value": 80,
+      "processors": []
+    },
+    "luminous_butterflies:ringlet_jar": {
+      "base_value": 30,
+      "processors": []
+    },
+    "luminous_butterflies:monarch_jar": {
+      "base_value": 30,
+      "processors": []
+    },
+    "luminous_butterflies:orangetip_jar": { //7
+      "base_value": 80,
+      "processors": []
+    },
+    "luminous_butterflies:soul_monarch_jar": { //4
+      "base_value": 550,
+      "processors": []
+    },
+    "luminous_butterflies:emerald_swallowtail_jar": { //13
+      "base_value": 100,
+      "processors": []
+    },
+    "luminous_butterflies:mourning_cloak_jar": {
+      "base_value": 30,
+      "processors": []
+    },
+    "luminous_butterflies:ender_eyespot_jar": { //25
+      "base_value": 80,
+      "processors": []
+    },
+    "luminous_butterflies:rustypage_jar": {
+      "base_value": 30,
+      "processors": []
+    },
+    "luminous_butterflies:yellow_swallowtail_jar": {
+      "base_value": 30,
+      "processors": []
+    },
+    "luminous_butterflies:charaxes_jar": {
+      "base_value": 30,
+      "processors": []
+    },
+    "luminous_butterflies:spring_azure_jar": {
+      "base_value": 30,
+      "processors": []
+    },
+    "luminous_butterflies:buckeye_jar": {
+      "base_value": 30,
+      "processors": []
+    },
+    "luminous_butterflies:little_wood_jar": {
+      "base_value": 30,
+      "processors": []
+    },
+    "luminous_butterflies:glowstone_morpho_jar": { //2
+      "base_value": 550,
+      "processors": []
+    },
+    "luminous_butterflies:birdwing_jar": {
+      "base_value": 40,
+      "processors": []
+    },
+    "luminous_butterflies:blue_monarch_jar": { //7
+      "base_value": 40,
+      "processors": []
+    },
+    "luminous_butterflies:crimson_monarch_jar": { //10
+      "base_value": 550,
+      "processors": []
+    },
+    "luminous_butterflies:white_hairstreak_jar": { //7
+      "base_value": 80,
+      "processors": []
+    },
+    "luminous_butterflies:black_swallowtail_jar": {
+      "base_value": 30,
+      "processors": []
+    },
+    "luminous_butterflies:cherry_rose_jar": {
+      "base_value": 30,
+      "processors": []
+    },
+    "luminous_butterflies:chorus_morpho_jar": { //7
+      "base_value": 600,
+      "processors": []
+    },
+    "luminous_butterflies:hairstreak_jar": {
+      "base_value": 30,
       "processors": []
     },
 
-    "nears:near": {
-      "base_value": 10,
-      "processors": []
-    },
-    "nears:faar": {
-      "base_value": 10,
-      "processors": []
-    },
-    "nears:soul_berries": {
-      "base_value": 10,
-      "processors": []
-    },
-    "nears:cinder_grain": {
-      "base_value": 10,
+
+
+    /////////////////////////////////////////////////////////////////////////////
+    "crittersandcompanions:pearl": {
+      "base_value": 100,
       "processors": []
     }
+
+
   }
 }

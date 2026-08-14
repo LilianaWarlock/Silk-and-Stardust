@@ -1,0 +1,27 @@
+{
+  "parent": "fieldguide:enderman_scan",
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "minecraft:open_eyeblossom"
+    },
+    "title": {
+      "translate": "advancements.fieldguide.dont_blink.title"
+    },
+    "description": {
+      "translate": "advancements.fieldguide.dont_blink.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "scan": {
+      "trigger": "fieldguide:entry_unlocked",
+      "conditions": {
+        "entry": "entity:minecraft/creaking"
+      }
+    }
+  }
+}

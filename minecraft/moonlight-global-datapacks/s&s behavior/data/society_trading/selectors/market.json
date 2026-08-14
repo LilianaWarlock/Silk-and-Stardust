@@ -1,0 +1,7 @@
+{
+  "selector_id": "market",
+  "name": "Market",
+  "shop_ids": [
+    "saplings"
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "parent": "fieldguide:first_discovery",
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "minecraft:birch_sapling"
+    },
+    "title": {
+      "translate": "advancements.fieldguide.tree_hugger.title"
+    },
+    "description": {
+      "translate": "advancements.fieldguide.tree_hugger.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "apple_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:bountifulfares/apple_tree"
+      }
+    },
+    "lemon_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:bountifulfares/lemon_tree"
+      }
+    },
+    "orange_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:bountifulfares/orange_tree"
+      }
+    },
+    "plum_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:bountifulfares/plum_tree"
+      }
+    },
+    "walnut_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:bountifulfares/walnut_tree"
+      }
+    },
+    "haunted_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:ghosts/haunted_tree"
+      }
+    },
+    "mahogany_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:hexerei/mahogany_tree"
+      }
+    },
+    "willow_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:hexerei/willow_tree"
+      }
+    },
+    "witch_hazel_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:hexerei/witch_hazel_tree"
+      }
+    },
+    "ancient_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:quark/ancient_tree"
+      }
+    },
+    "blue_blossom_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:quark/blue_blossom_tree"
+      }
+    },
+    "lavender_blossom_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:quark/lavender_blossom_tree"
+      }
+    },
+    "orange_blossom_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:quark/orange_blossom_tree"
+      }
+    },
+    "red_blossom_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:quark/red_blossom_tree"
+      }
+    },
+    "yellow_blossom_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:quark/yellow_blossom_tree"
+      }
+    },
+    "yellow_willow_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:terrarian_might/yellow_willow_tree"
+      }
+    },
+    "bald_cypress_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:wetland_whimsy/bald_cypress_tree"
+      }
+    },
+    "acacia_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:minecraft/acacia_sapling"
+      }
+    },
+    "birch_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:minecraft/birch_sapling"
+      }
+    },
+    "cherry_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:minecraft/cherry_sapling"
+      }
+    },
+    "dark_oak_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:minecraft/dark_oak_sapling"
+      }
+    },
+    "jungle_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:minecraft/jungle_sapling"
+      }
+    },
+    "mangrove_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:minecraft/mangrove_propagule"
+      }
+    },
+    "oak_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:minecraft/oak_sapling"
+      }
+    },
+    "pale_oak_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:minecraft/pale_oak_sapling"
+      }
+    },
+    "spruce_tree": {
+      "trigger": "fieldguide:entry_unlocked",
+      "condition": {
+        "entry": "block:minecraft/spruce_sapling"
+      }
+    },
+
+    "requirements": [
+      [
+        "apple_tree",
+        "lemon_tree",
+        "orange_tree",
+        "plum_tree",
+        "walnut_tree",
+        "haunted_tree",
+        "mahogany_tree",
+        "willow_tree",
+        "witch_hazel_tree",
+        "ancient_tree",
+        "blue_blossom_tree",
+        "lavender_blossom_tree",
+        "orange_blossom_tree",
+        "red_blossom_tree",
+        "yellow_blossom_tree",
+        "yellow_willow_tree",
+        "bald_cypress_tree",
+        "acacia_tree",
+        "birch_tree",
+        "cherry_tree",
+        "dark_oak_tree",
+        "jungle_tree",
+        "mangrove_tree",
+        "oak_tree",
+        "pale_oak_tree",
+        "spruce_tree"
+      ]
+    ]
+  }
+}
