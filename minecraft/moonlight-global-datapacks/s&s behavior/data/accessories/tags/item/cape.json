@@ -20,5 +20,11 @@
       "id": "rpgbackpacks:netherite_backpack",
       "required": false
     }
+  ],
+  "remove": [
+    {
+      "id": "#vc_gliders:gliders",
+      "required": false
+    }
   ]
 }

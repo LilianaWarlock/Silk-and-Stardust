@@ -1,7 +1,7 @@
 {
   "fieldguide.name.entity.fightsfrights.mimic_beetles_group": "Mimic Beetles",
 
-  "fieldguide.entity.fightsfrights.allman.description": "Allmen are ancient prisoners of an unknown civilization. When attacked, they have a chance to summon help through their shackled flying creations. These creations aren't much of a threat on their own, but when they break, they leave behind a blinding cloud.",
+  "fieldguide.entity.fightsfrights.allman.description": "Allmen are ancient prisoners of an unknown civilization. When attacked, they have a chance to summon help through their Shackled flying creations.",
   "fieldguide.entity.fightsfrights.banshaa.description": "Banshaas are smaller, louder Ghasts from the Overworld and the Nether. They dislike direct combat, but won't hesitate to scream and lure other monsters toward their prey.",
   "fieldguide.entity.fightsfrights.callous_commander_1.description": "",
   "fieldguide.entity.fightsfrights.effigy.description": "",
@@ -17,7 +17,7 @@
   "fieldguide.entity.fightsfrights.mimic_beetles_iron.description": "Mimic Beetles are colonial organisms that inhabit certain ores. These small bugs work together to form a larger, more imposing organism to defend their home. Offering them a Terrantula Leg or Gill may convince them to abandon their home and scatter.",
   "fieldguide.entity.fightsfrights.mimic_beetles_nether_gold.description": "Mimic Beetles are colonial organisms that inhabit certain ores. These small bugs work together to form a larger, more imposing organism to defend their home. Offering them a Terrantula Leg or Gill may convince them to abandon their home and scatter.",
   "fieldguide.entity.fightsfrights.mimic_beetles_redstone.description": "Mimic Beetles are colonial organisms that inhabit certain ores. These small bugs work together to form a larger, more imposing organism to defend their home. Offering them a Terrantula Leg or Gill may convince them to abandon their home and scatter.",
-  "fieldguide.entity.fightsfrights.nether_banshaa.description": "",
+  "fieldguide.entity.fightsfrights.nether_banshaa.description": "Banshaas are smaller, louder Ghasts from the Overworld and the Nether. They dislike direct combat, but won't hesitate to scream and lure other monsters toward their prey.",
   "fieldguide.entity.fightsfrights.nether_spider.description": "",
   "fieldguide.entity.fightsfrights.nethercavespider.description": "",
   "fieldguide.entity.fightsfrights.nethersilverfish.description": "",
@@ -27,7 +27,7 @@
   "fieldguide.entity.fightsfrights.reanimated.description": "Its flesh has been reawakened by the lightning coursing through its plating. This miniboss can be summoned by striking a special structure with a Channeling trident. It strikes nearby entities with lightning, so it's best to keep your distance.",
   "fieldguide.entity.fightsfrights.scowl.description": "Scowls are said to be the monstrous winged relatives of the Glare. They use their rotting insides to spit out poisonous gas clouds, and while they can fly, their wings are only used for limited steering. They rely instead on an air-filled sac that keeps them buoyant. This sac can be popped with an arrow. Scowls are found in jungles and lush caves.",
   "fieldguide.entity.fightsfrights.seer.description": "Seers form when undead souls with no body converge in a single spot. They're made of a non-Newtonian jelly that hardens on impact, greatly amplifying the knockback of their attacks. Seers can be found in cold biomes, beaches, and plains.",
-  "fieldguide.entity.fightsfrights.shackled.description": "",
+  "fieldguide.entity.fightsfrights.shackled.description": "These creations aren't much of a threat on their own, but when they break, they leave behind a blinding cloud.",
   "fieldguide.entity.fightsfrights.shadow.description": "",
   "fieldguide.entity.fightsfrights.shadowcompanion.description": "",
   "fieldguide.entity.fightsfrights.shadowcompanioncompanion.description": "",

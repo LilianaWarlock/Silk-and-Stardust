@@ -1,0 +1,46 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.villainous_vexations.floaty",
+    "fallback": "FLOATYWHEEEE"
+  },
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "kubejs:soaring",
+          "min_duration": 3,
+          "max_duration": 3,
+          "min_amplifier": {
+            "type": "minecraft:linear",
+            "base": 0,
+            "per_level_above_first": 1
+          },
+          "max_amplifier": 2
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_on_ground": false
+            }
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 10
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "slots": ["any"],
+  "supported_items": "#vc_gliders:gliders",
+  "weight": 2
+}
