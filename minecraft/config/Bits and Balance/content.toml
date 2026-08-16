@@ -99,13 +99,13 @@
 #Dynamic vertical slab variants crafted from slabs.
 [verticalSlabs]
 	#Enable Vertical Slabs. Disabling this stops dynamic vertical slab generation and generated recipes, and turns off related placement and presentation.
-	enabled = true
+	enabled = false
 
 #Steps and Vertical Steps
 #Quarter-block step variants crafted from slabs and vertical slabs.
 [stepsAndVerticalSteps]
 	#Enable Steps and Vertical Steps. Disabling this stops dynamic step/vertical-step generation and generated recipes, and turns off related placement and presentation.
-	enabled = true
+	enabled = false
 
 [aerodynamic]
 	#Enable the Aerodynamic enchantment effect.
