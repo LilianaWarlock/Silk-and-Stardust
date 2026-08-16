@@ -16,4 +16,4 @@ debug:
   debugTooltipMsg: false
   tagsTooltipAppendKeybindHint: false
   F3CopyInInventory: true
-  tagsPerPage: 6
+  tagsPerPage: 20

@@ -83,3 +83,5 @@ minecraft/config/flywheel-client.toml
 minecraft/config/moreculling.toml
 minecraft/config/sodium-extra-options.json
 minecraft/config/sodium-options.json
+minecraft/emi.json
+/minecraft/dumps/registry
