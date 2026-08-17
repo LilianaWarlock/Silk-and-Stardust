@@ -1,8 +1,7 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "enchantment.villainous_vexations.floaty",
-    "fallback": "FLOATYWHEEEE"
+    "translate": "enchantment.blessed_betterments.sugared_glider"
   },
   "effects": {
     "minecraft:location_changed": [

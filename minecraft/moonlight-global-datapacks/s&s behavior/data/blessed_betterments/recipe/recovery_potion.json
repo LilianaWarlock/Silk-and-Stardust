@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "terrarianmight:life_shard"
+    },
+    {
+      "item": "minecraft:potion"
+    }
+  ],
+  "result": {
+    "id": "minecraft:potion",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"potion.blessed_betterments.recovery\"}",
+      "minecraft:potion_contents": {
+        "custom_color": 15074161,
+        "custom_effects": [
+          {
+            "id": "minecraft:absorption",
+            "show_icon": true,
+            "duration": 100
+          },
+          {
+            "id": "minecraft:instant_health",
+            "show_icon": true
+          }
+        ]
+      }
+    }
+  }
+}
