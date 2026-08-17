@@ -264,7 +264,7 @@
 [novelty_drinking_hat]
 	#How much the Novelty Drinking Hat increases the wearer's drinking speed
 	#Range: -Infinity ~ Infinity
-	drinkingSpeedBonus = 1.5
+	drinkingSpeedBonus = 0.7
 	#How much the Novelty Drinking Hat increases the wearer's eating speed
 	#Range: -Infinity ~ Infinity
 	eatingSpeedBonus = 0.5
@@ -319,7 +319,7 @@
 [plastic_drinking_hat]
 	#How much the Plastic Drinking Hat increases the wearer's drinking speed
 	#Range: -Infinity ~ Infinity
-	drinkingSpeedBonus = 1.5
+	drinkingSpeedBonus = 0.7
 	#How much the Plastic Drinking Hat increases the wearer's eating speed
 	#Range: -Infinity ~ Infinity
 	eatingSpeedBonus = 0.3

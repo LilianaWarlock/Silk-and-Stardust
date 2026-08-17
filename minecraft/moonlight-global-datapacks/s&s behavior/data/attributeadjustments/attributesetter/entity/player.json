@@ -4,6 +4,11 @@
       "attribute": "combat_roll:count",
       "value": 0,
       "operation": "BASE"
+    },
+    {
+      "attribute": "artifacts:generic.drinking_speed",
+      "value": 1.8,
+      "operation": "BASE"
     }
   ]
 }
