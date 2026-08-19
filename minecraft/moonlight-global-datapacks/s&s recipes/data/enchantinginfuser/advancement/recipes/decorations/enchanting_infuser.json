@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:wither_rose"
+            "items": "dragonscale:ender_dragon_scale"
           }
         ]
       },
@@ -13,13 +13,13 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cropcritters:soul_pot"
+        "recipe": "enchantinginfuser:enchanting_infuser"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [["has_the_recipe", "has_item"]],
   "rewards": {
-    "recipes": ["cropcritters:soul_pot"]
+    "recipes": ["enchantinginfuser:enchanting_infuser"]
   }
 }

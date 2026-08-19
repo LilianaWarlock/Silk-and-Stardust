@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:wither_rose"
+            "items": "knightlib:great_essence"
           }
         ]
       },
@@ -13,13 +13,13 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cropcritters:soul_pot"
+        "recipe": "baublemounts:mount_bauble"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [["has_the_recipe", "has_item"]],
   "rewards": {
-    "recipes": ["cropcritters:soul_pot"]
+    "recipes": ["baublemounts:mount_bauble"]
   }
 }

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "S": {
+      "item": "dragonscale:ender_dragon_scale"
+    },
+    "B": {
+      "item": "minecraft:book"
+    },
+    "T": {
+      "item": "minecraft:enchanting_table"
+    }
+  },
+  "pattern": [" B ", "S#S", "#T#"],
+  "result": {
+    "count": 1,
+    "id": "enchantinginfuser:enchanting_infuser"
+  }
+}
