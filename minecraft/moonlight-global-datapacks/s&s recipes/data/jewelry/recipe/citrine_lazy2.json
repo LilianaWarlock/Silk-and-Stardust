@@ -1,10 +1,10 @@
 {
   "type": "deep_aether:poison_recipe",
   "ingredient": {
-    "item": "aether:zanite_gemstone"
+    "item": "unusualend:citrine_chunk"
   },
   "result": {
     "count": 1,
-    "id": "jewelry:tanzanite"
+    "id": "jewelry:citrine"
   }
 }

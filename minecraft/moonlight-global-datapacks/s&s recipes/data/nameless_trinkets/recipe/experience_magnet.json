@@ -5,7 +5,7 @@
   "pattern": ["A A", "B B", " B "],
   "key": {
     "A": { "item": "minecraft:experience_bottle" },
-    "B": { "item": "minecraft:iron" }
+    "B": { "item": "minecraft:iron_ingot" }
   },
   "result": { "id": "nameless_trinkets:experience_magnet" }
 }

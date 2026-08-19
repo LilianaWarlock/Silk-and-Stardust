@@ -1,0 +1,10 @@
+{
+  "type": "deep_aether:poison_recipe",
+  "ingredient": {
+    "item": "nameless_trinkets:glowing_dust"
+  },
+  "result": {
+    "count": 4,
+    "id": "knightlib:great_essence"
+  }
+}

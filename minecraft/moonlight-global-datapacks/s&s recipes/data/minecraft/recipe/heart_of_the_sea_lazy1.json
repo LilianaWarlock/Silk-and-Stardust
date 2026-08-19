@@ -4,7 +4,7 @@
   "category": "misc",
   "pattern": ["AAC", "CBC", "CAA"],
   "key": {
-    "A": { "item": "mermod:sea_crystal" },
+    "A": { "item": "jewelry:sapphire" },
     "C": { "item": "crittersandcompanions:pearl" },
     "B": { "item": "knightlib:great_essence" }
   },

@@ -5,7 +5,7 @@
   "pattern": ["ACA", "CBC", "ACA"],
   "key": {
     "A": { "item": "hexerei:animal_fat" },
-    "B": { "item": "nameless_trinkets:glowing_dust" },
+    "B": { "item": "knightlib:great_essence" },
     "C": { "item": "fightsfrights:gills" }
   },
   "result": { "id": "nameless_trinkets:gills" }

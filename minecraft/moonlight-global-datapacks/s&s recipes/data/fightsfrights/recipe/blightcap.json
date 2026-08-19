@@ -1,10 +1,10 @@
 {
   "type": "deep_aether:poison_recipe",
   "ingredient": {
-    "item": "aether:zanite_gemstone"
+    "tag": "c:mushrooms"
   },
   "result": {
     "count": 1,
-    "id": "jewelry:tanzanite"
+    "id": "fightsfrights:blightcap"
   }
 }

@@ -4,6 +4,8 @@
   "category": "misc",
   "ingredients": [
     { "item": "waystones:warp_dust" },
+    { "item": "waystones:warp_dust" },
+    { "item": "waystones:warp_dust" },
     { "tag": "jewelry:gems" },
     { "item": "minecraft:yellow_dye" }
   ],
