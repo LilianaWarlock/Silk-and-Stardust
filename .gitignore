@@ -85,3 +85,5 @@ minecraft/config/sodium-extra-options.json
 minecraft/config/sodium-options.json
 minecraft/emi.json
 /minecraft/dumps/registry
+/minecraft/moddata/emi_discovery
+/minecraft/packdev_toolkit_queries

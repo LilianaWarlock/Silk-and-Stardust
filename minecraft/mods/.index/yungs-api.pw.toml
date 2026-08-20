@@ -1,18 +1,18 @@
-filename = 'YungsApi-1.21.1-NeoForge-5.1.6.jar'
+filename = 'YungsApi-1.21.1-NeoForge-5.1.7.jar'
 name = "YUNG's API"
-side = 'both'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.21.1-NeoForge-5.1.6'
+x-prismlauncher-version-number = '1.21.1-NeoForge-5.1.7'
 
 [download]
-hash = '5f36d5166a67a156df52699071f20219bc2320b3c4fbcd9dac38631f66136f034e3219ac89ff4bfb6e26e4c68513a94c833797f2e5ed5bf58cfa1531eeed162d'
+hash = '149b0da464a65ffa28567a4a94bbbb764151fd9b17d2170302c14c9f76ff7f86f49b8478186ab1066e4cac7c31509b83a0c95292708698278130b7e25988e5c9'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/Ua7DFN59/versions/ZB22DE9q/YungsApi-1.21.1-NeoForge-5.1.6.jar'
+url = 'https://cdn.modrinth.com/data/Ua7DFN59/versions/8Zmd0JGx/YungsApi-1.21.1-NeoForge-5.1.7.jar'
 
 [update.modrinth]
 mod-id = 'Ua7DFN59'
-version = 'ZB22DE9q'
+version = '8Zmd0JGx'

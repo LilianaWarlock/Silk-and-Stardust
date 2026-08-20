@@ -1,0 +1,21 @@
+filename = 'locatormaps-1.2.0.jar'
+name = "Clokkworkk's Locator Maps"
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.0'
+
+[download]
+hash = '22b6918a128750691d08208cb6062a84c8fda437ebbf0de7a5ac1fe8fd39d6f9e865856ba7374dd1cce972a9d685f4e14b3c0958811fe97ded70471f1e738846'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/f6OVv9Pd/versions/nghoYfXX/locatormaps-1.2.0.jar'
+
+[update.modrinth]
+mod-id = 'f6OVv9Pd'
+version = 'nghoYfXX'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fdtm99de'
+type = 'OPTIONAL'

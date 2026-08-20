@@ -1,18 +1,18 @@
-filename = 'randomoptimization-1.7.3-all.jar'
+filename = 'randomoptimization-1.7.4-all.jar'
 name = 'Random Optimization'
-side = 'both'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.7.3'
+x-prismlauncher-version-number = '1.7.4'
 
 [download]
-hash = 'e9d142a7ea92901a2016091f0c94d2785d313a1e79fe61cee654cae36511aa4143f98ca15861ed7c6afd4294d80dd3be528f54a6fec03ee5bdf94f0e9533baa3'
+hash = '588fb17153cd8309bb2d791ea42833737de910d516d17e4ed6e423b2a4041a5d516234631707148df300c73d53d11f9e4850e638685cc76c648d20323aa517ae'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/Mjoo9rPv/versions/FMRb10F8/randomoptimization-1.7.3-all.jar'
+url = 'https://cdn.modrinth.com/data/Mjoo9rPv/versions/hNTChHCI/randomoptimization-1.7.4-all.jar'
 
 [update.modrinth]
 mod-id = 'Mjoo9rPv'
-version = 'FMRb10F8'
+version = 'hNTChHCI'
