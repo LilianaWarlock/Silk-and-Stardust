@@ -1,37 +1,33 @@
-filename = 'skill_tree-neoforge-1.5.3+1.21.1.jar'
+filename = 'skill_tree-neoforge-1.6.0+1.21.1.jar'
 name = 'Skill Tree (RPG Series)'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.5.3+1.21.1-neoforge'
+x-prismlauncher-version-number = '1.6.0+1.21.1-neoforge'
 
 [download]
-hash = '53f84bf49ca9039b0cee3d5ecbd55ab0aa59550ae3d20481533120f5bb85c9897bd71261979723fd239c07e6af8e641ad42b89c2fd41712fe028bc0beb6ec969'
+hash = '85fb58fdc529007876bf6691cac80a0b695cc3dfccf0253db6ac6e2f40525d350257e426fcab0540df9d6451e919420bbdca1deb0389dc6d974c981fe6bd0293'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/PjDhruSC/versions/69gGRtdJ/skill_tree-neoforge-1.5.3%2B1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/PjDhruSC/versions/sxJUD8Hf/skill_tree-neoforge-1.6.0%2B1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'PjDhruSC'
-version = '69gGRtdJ'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'XvoWJaA2'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'ilvNBzFn'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'Aqlf1Shp'
-type = 'REQUIRED'
+version = 'sxJUD8Hf'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'hqQqvaa4'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
+addonId = 'XvoWJaA2'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
 addonId = 'AqaIIO6D'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ilvNBzFn'
 type = 'REQUIRED'

@@ -1,31 +1,27 @@
-filename = 'jewelry-neoforge-2.3.3+1.21.1.jar'
+filename = 'jewelry-neoforge-2.4.0+1.21.1.jar'
 name = 'Jewelry (RPG Series)'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.3.3+1.21.1-neoforge'
+x-prismlauncher-version-number = '2.4.0+1.21.1-neoforge'
 
 [download]
-hash = 'f7e6c8afce4d23463a3e1e4e1f4cacf9d12f75d7f6403b45da5893633ef99d4da9452f2510acc2e89bbe7e92161e6bc1f32b865d78cdc115d1f1cc0888ce8f2a'
+hash = 'a6d8284b5caa731e3b729b732ddfb17f654920fec98042cefed5d299e13a114c7b85a9b9d81f705c177dc6679e4057a9d8619c268f293480dbfac38a5bb7777d'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/sNJAIjUm/versions/DGZ9I5i8/jewelry-neoforge-2.3.3%2B1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/sNJAIjUm/versions/UYMxzqUh/jewelry-neoforge-2.4.0%2B1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'sNJAIjUm'
-version = 'DGZ9I5i8'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'AqaIIO6D'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'jtmvUHXj'
-type = 'REQUIRED'
+version = 'UYMxzqUh'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'LrYZi08Q'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vvuO3ImH'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
@@ -33,5 +29,5 @@ addonId = '8ooWzSQP'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'Aqlf1Shp'
+addonId = 'AqaIIO6D'
 type = 'REQUIRED'
