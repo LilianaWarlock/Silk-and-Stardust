@@ -1,15 +1,15 @@
 {
-  "fieldguide.name.block.wetland_whimsy.huge_aria_mushroom": "Huge Aria Mushroom"
+  "fieldguide.name.block.wetland_whimsy.huge_aria_mushroom": "Huge Aria Mushroom",
   "fieldguide.block.wetland_whimsy.aria_mushroom.description": "Small mushrooms that cling to Bald Cypress trees.",
   "fieldguide.block.wetland_whimsy.aria_spores.description": "Spores of the Aria Mushroom, ready to sprout tall into a towering fungus.",
   "fieldguide.block.wetland_whimsy.bald_cypress_sapling.description": "The sapling of a Bald Cypress tree.",
   "fieldguide.block.wetland_whimsy.bald_cypress_tree.description": "A tree native to marshes and swamps. Its wood is purple in color.",
   "fieldguide.block.wetland_whimsy.cordgrass.description": "Thick, tall grass native to marshes and swamps.",
   "fieldguide.block.wetland_whimsy.fellcap_mushroom.description": "Fungus that grows across the world and in caves. Stepping on it releases poisonous gas.",
-  "fieldguide.block.wetland_whimsy.huge_aria_mushroom.description": "A huge Aria Mushroom, dappled around forested and swampy areas.",
+  "fieldguide.block.wetland_whimsy.huge_aria_mushroom.description": "A huge Aria Mushroom, dappled around forested and swampy areas. Its flesh is bouncy!",
   "fieldguide.block.wetland_whimsy.pennywort.description": "Small, floating, lilypad-like plants. It is quite tasty in salads.",
   "fieldguide.entity.wetland_whimsy.crane.description": "Flying passive mobs that love beetroot seeds and drop feathers.",
   "fieldguide.entity.wetland_whimsy.crawfish.description": "Small passive mobs that hang out on the bottom of riverbeds and lakes. They are a delicious additional to any meal.",
   "fieldguide.entity.wetland_whimsy.filth.description": "Ew, Gross. Maybe this rotting pile of bones and mud could be useful for something.",
-  "fieldguide.entity.wetland_whimsy.infected_spider.description": "A hostile spider, swollen with fellcap spores which it spreads on attack. However, shedding it's fungi with shears will prevent this."
+  "fieldguide.entity.wetland_whimsy.infected_spider.description": "A hostile spider, swollen with fellcap spores which it spreads on attack. However, shedding its fungi with shears will prevent this."
 }

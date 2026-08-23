@@ -31,7 +31,7 @@
   "fieldguide.block.bountifulfares.scorchkin_stem.description": "The stem of a Scorchkin plant.",
   "fieldguide.block.bountifulfares.spongekin_sprout.description": "The sprout laid atop a Spongekin.",
   "fieldguide.block.bountifulfares.spongekin_stem.description": "The stem of a Spongekin plant.",
-  "fieldguide.block.bountifulfares.tea_shrub.description": "A perfect bushel for making tea.",
+  "fieldguide.block.bountifulfares.tea_shrub.description": "A perfect bushel for making tea. A genetic relative of the sweet berry bush.",
   "fieldguide.block.bountifulfares.violet_bellflower.description": "A perfect flower for making tea.",
   "fieldguide.block.bountifulfares.walnut_sapling.description": "The sapling of a walnut tree.",
   "fieldguide.block.bountifulfares.walnut_tree.description": "A proud, towering tree that produces walnuts.",
@@ -41,6 +41,6 @@
   "fieldguide.block.bountifulfares.wild_maize.description": "Maize, adapted to the harsh outside.",
   "fieldguide.block.bountifulfares.wild_potatoes.description": "Potatoes, adapted to the harsh outside.",
   "fieldguide.block.bountifulfares.wild_wheat.description": "Wheat, adapted to the harsh outside.",
-  "fieldguide.block.bountifulfares.wild_elderberry_vine.description": "Vines that grow on the sides of trees and produce tart elderberries. Typically found in cooler areas.",
+  "fieldguide.block.bountifulfares.wild_elderberry_vine.description": "Vines that grow on the sides of trees and produce tart elder- berries. Typically found in cooler areas.",
   "fieldguide.block.bountifulfares.wild_passion_fruit_vine.description": "Vines that grow on the sides of trees and produce tangy passion fruit. Typically found in warmer areas."
 }

@@ -1,0 +1,8 @@
+{
+  "entries": [
+    {
+      "source": "creaturefeature:canary_part",
+      "target": "creaturefeature:canary"
+    }
+  ]
+}

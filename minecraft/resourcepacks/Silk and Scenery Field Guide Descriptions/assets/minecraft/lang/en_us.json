@@ -1,7 +1,8 @@
 {
   "fieldguide.block.minecraft.cave_vines.description": "Vines that grow from the roofs of caves and produce glowing berries.",
-  "fieldguide.block.minecraft.sweet_berry_bush.description": "A thorny bush that contains coveted sweet berries.",
-  "fieldguide.block.minecraft.tall_seagrass.description": "Seagrass that has grown quite tall.",  
+  "fieldguide.block.minecraft.sweet_berry_bush.description": "A thorny bush that contains coveted sweet berries. Planting them requires sweet berry pips, which are found in the berries themselves.",
+  "fieldguide.block.minecraft.tall_seagrass.description": "Seagrass that has grown quite tall.",
+  "fieldguide.block.minecraft.vine.description": "A climbable wall plant that grows downwards.",
   "fieldguide.block.minecraft.cocoa.description": "Brown pods that grow on Jungle logs and produce cocoa.\n\nImbue a Lost Soul into it for a tameable farming companion!",
   "fieldguide.block.minecraft.beetroots.description": "Red root vegetables that can be eaten or turned into soup.\n\nImbue a Lost Soul into it for a tameable farming companion!",
   "fieldguide.block.minecraft.melon.description": "A block that can be broken into Melon Slices, which can be eaten.\n\nImbue a Lost Soul into it for a tameable farming companion!",

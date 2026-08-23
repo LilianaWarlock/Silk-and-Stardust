@@ -1,5 +1,6 @@
 {
   "fieldguide.name.entity.ore_creeper.ore_creeper_group": "Ore-Infused Creeper",
+  "fieldguide.entity.ore_creeper.ore_creeper_group.description": "A species of cave-dwelling Creepers. They can be slain for a small amount of their respective ore, or explode to naturally embed material into nearby stone.",
 
   "fieldguide.entity.ore_creeper.copper_creeper.description": "A cave-dwelling Creeper with an appetite for Copper. It can be slain for a small amount of material, or explode to naturally embed material into nearby stone.",
   "fieldguide.entity.ore_creeper.emerald_creeper.description": "A cave-dwelling Creeper with an appetite for Emeralds. It can be slain for a small amount of material, or explode to naturally embed material into nearby stone.",
