@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": ["fightsfrights:bug_den", "infernalexp:glowstone_canyon"],
+  "spawners": {
+    "type": "fightsfrights:grimmsquito",
+    "weight": 6,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}
