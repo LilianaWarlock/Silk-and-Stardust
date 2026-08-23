@@ -2,7 +2,7 @@
 give_guide = false
 #Enables/disables the ability to bonemeal farmland for worms.
 enable_worms = true
-enable_minigame = false
+enable_minigame = true
 #Enables/disables fishes caught being unlocked for all online team members.
 #Offline players won't be awarded the entry.
 enable_ftb_team_sharing = false
@@ -17,15 +17,15 @@ moving_speed_multiplier = 1.0
 #Adjusts the penalty for missing rate, useful if you want to adjust the fishes' difficulty globally.
 # Default: 1.0
 # Range: 0.0 ~ 100.0
-penalty_multiplier = 1.0
+penalty_multiplier = 0.5
 #Adjusts the fish decay rate, useful if you want to adjust the fishes' difficulty globally.
 # Default: 1.0
 # Range: 0.0 ~ 100.0
-decay_multiplier = 1.0
+decay_multiplier = 0.66
 #Adjusts the fish's HP, useful if you want to adjust the fishes' difficulty globally.
 # Default: 1.0
 # Range: 0.0 ~ 100.0
-hp_multiplier = 1.0
+hp_multiplier = 0.75
 #Hides entries in the guide book until one has been caught.
 hide_entries_until_found = true
 #If enabled the size, weight, percentile, rarity & golden values will be saved to the item for displaying
@@ -61,7 +61,7 @@ give_rod = true
 #Adjusts the handle speed, useful if you want to adjust the fishes' difficulty globally.
 # Default: 1.0
 # Range: 0.0 ~ 100.0
-handle_speed_multiplier = 1.0
+handle_speed_multiplier = 0.7
 #Hides the treasure item during minigame
 hide_treasures = false
 #Hides the catch during minigame

@@ -1,6 +1,6 @@
 {
-  "config_version": "2.0.30",
-  "config_datetime": "2026-08-10_01-20-25",
+  "config_version": "2.0.34",
+  "config_datetime": "2026-08-23_04-58-09",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -90,7 +90,6 @@
     },
     {
       "name": "netherman:mansion_nether",
-      "step": "top_layer_modification",
       "terrain_adaptation": "none"
     },
     {
@@ -132,6 +131,12 @@
     {
       "name": "nova_structures:firewatch_tower_taiga",
       "is_disabled": true
+    },
+    {
+      "name": "nova_structures:illager_camp",
+      "blacklisted_biomes": [
+        "minecraft:river"
+      ]
     },
     {
       "name": "nova_structures:remnant_bridge_remnant",
@@ -487,259 +492,115 @@
     {
       "name": "wabi_sabi_structures:zen_chair_museum",
       "is_disabled": true
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_large_peaks",
+      "whitelisted_biomes": [
+        "minecraft:ice_spikes"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:meadow",
+        "minecraft:cherry_grove"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_peaks",
+      "whitelisted_biomes": [
+        "minecraft:ice_spikes"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:meadow",
+        "minecraft:cherry_grove"
+      ]
+    },
+    {
+      "name": "wan_ancient_beasts:digsite_small_peaks",
+      "whitelisted_biomes": [
+        "minecraft:ice_spikes"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:meadow",
+        "minecraft:cherry_grove"
+      ]
     }
   ],
   "structure_sets": [
     {
-      "spacing": 40,
-      "separation": 15,
       "name": "minecraft:ruined_portals",
-      "is_disabled": false,
-      "salt": 34222645,
-      "frequency": 0.5,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "minecraft:ruined_portal": 1,
-        "minecraft:ruined_portal_nether": 1,
-        "minecraft:ruined_portal_swamp": 1,
-        "minecraft:ruined_portal_mountain": 1,
-        "minecraft:ruined_portal_jungle": 1,
-        "minecraft:ruined_portal_ocean": 1,
-        "minecraft:ruined_portal_desert": 1
-      }
+      "frequency": 0.5
     },
     {
-      "spacing": 50,
-      "separation": 10,
       "name": "nova_structures:bunker",
-      "is_disabled": true,
-      "salt": 6798544,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "nova_structures:bunker": 1
-      }
+      "is_disabled": true
     },
     {
-      "spacing": 50,
-      "separation": 15,
       "name": "nova_structures:firewatch_towers",
-      "is_disabled": true,
-      "salt": 123,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "nova_structures:firewatch_tower_cherry": 1,
-        "nova_structures:firewatch_tower_mangrove": 1,
-        "nova_structures:firewatch_tower_dark_oak": 1,
-        "nova_structures:firewatch_tower_forest": 1,
-        "nova_structures:firewatch_tower_birch": 1,
-        "nova_structures:firewatch_tower_taiga": 1,
-        "nova_structures:firewatch_tower_jungle": 1,
-        "nova_structures:firewatch_tower_savanna": 1,
-        "nova_structures:firewatch_tower_swamp": 1
-      }
+      "is_disabled": true
     },
     {
-      "spacing": 72,
-      "separation": 30,
       "name": "nova_structures:ruin_town",
-      "is_disabled": false,
-      "salt": 39043,
-      "frequency": 0.333,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "nova_structures:ruin_town": 1
-      }
+      "frequency": 0.333
     },
     {
-      "spacing": 600,
-      "separation": 312,
       "name": "nova_structures:shrine_tower",
-      "is_disabled": true,
-      "salt": 78409300,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "nova_structures:shrine_tower": 1
-      }
+      "is_disabled": true
     },
     {
-      "spacing": 50,
-      "separation": 26,
       "name": "nova_structures:shrines",
-      "is_disabled": true,
-      "salt": 78409300,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "nova_structures:shrine_combat_tier_1": 20,
-        "nova_structures:shrine_combat_tier_2": 20,
-        "nova_structures:shrine_combat_tier_3": 50,
-        "nova_structures:shrine_combat_tier_4": 40,
-        "nova_structures:shrine_combat_tier_5": 30
-      }
+      "is_disabled": true
     },
     {
-      "spacing": 34,
-      "separation": 8,
       "name": "nova_structures:villages_birch",
-      "is_disabled": true,
-      "salt": 10387312,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "nova_structures:village_birch": 1
-      }
+      "is_disabled": true
     },
     {
-      "spacing": 34,
-      "separation": 8,
       "name": "nova_structures:villages_jungle",
-      "is_disabled": true,
-      "salt": 10387312,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "nova_structures:village_jungle": 1
-      }
+      "is_disabled": true
     },
     {
-      "spacing": 34,
-      "separation": 8,
       "name": "nova_structures:villages_swamp",
-      "is_disabled": true,
-      "salt": 10387312,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "nova_structures:village_swamp": 1
-      }
+      "is_disabled": true
     },
     {
-      "spacing": 40,
-      "separation": 15,
       "name": "nova_structures:wells",
-      "is_disabled": true,
-      "salt": 430930,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "nova_structures:well_birch": 1,
-        "nova_structures:well_dark_oak": 1,
-        "nova_structures:well_savana": 1,
-        "nova_structures:well_jungle": 1,
-        "nova_structures:well_spruce": 1,
-        "nova_structures:well_oak": 1
-      }
+      "is_disabled": true
     },
     {
-      "spacing": 27,
-      "separation": 18,
       "name": "nova_structures:wild_ruin",
-      "is_disabled": true,
-      "salt": 75489234,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "nova_structures:wild_ruin": 1
-      }
+      "is_disabled": true
     },
     {
-      "spacing": 36,
-      "separation": 25,
       "name": "wabi_sabi_structures:infested_castle_stony",
-      "is_disabled": false,
-      "salt": 25439096,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "wabi_sabi_structures:infested_castle_stony": 1
-      }
+      "spacing": 36,
+      "separation": 25
     },
     {
-      "spacing": 65,
-      "separation": 20,
       "name": "wabi_sabi_structures:water_tower_dark_oak",
-      "is_disabled": true,
-      "salt": 38087860,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "wabi_sabi_structures:water_tower_dark_oak": 1
-      }
+      "is_disabled": true
     },
     {
-      "spacing": 100,
-      "separation": 30,
       "name": "wabi_sabi_structures:water_tower_forest",
-      "is_disabled": true,
-      "salt": 19209850,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "wabi_sabi_structures:water_tower_forest": 1
-      }
+      "is_disabled": true
     },
     {
-      "spacing": 100,
-      "separation": 20,
       "name": "wabi_sabi_structures:water_tower_oak",
-      "is_disabled": true,
-      "salt": 37050964,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "wabi_sabi_structures:water_tower_oak": 1
-      }
+      "is_disabled": true
     },
     {
-      "spacing": 85,
-      "separation": 30,
       "name": "wabi_sabi_structures:water_tower_savanna",
-      "is_disabled": true,
-      "salt": 29121069,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "wabi_sabi_structures:water_tower_savanna": 1
-      }
+      "is_disabled": true
     },
     {
-      "spacing": 100,
-      "separation": 20,
       "name": "wabi_sabi_structures:water_tower_spruce",
-      "is_disabled": true,
-      "salt": 31052885,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "wabi_sabi_structures:water_tower_spruce": 1
-      }
+      "is_disabled": true
     },
     {
-      "spacing": 60,
-      "separation": 40,
       "name": "wabi_sabi_structures:xocolatl_farm",
-      "is_disabled": true,
-      "salt": 63562716,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "wabi_sabi_structures:xocolatl_farm": 1
-      }
+      "is_disabled": true
     },
     {
-      "spacing": 130,
-      "separation": 50,
       "name": "wabi_sabi_structures:zen_chair_museum",
-      "is_disabled": true,
-      "salt": 24670125,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "wabi_sabi_structures:zen_chair_museum": 1
-      }
+      "is_disabled": true
     }
   ],
   "structure_template_pools": []

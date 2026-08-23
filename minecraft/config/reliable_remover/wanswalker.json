@@ -1,0 +1,7 @@
+[
+  {
+    "action": "remove_interactions",
+    "items": ["minecraft:chest"],
+    "entities": ["wan_ancient_beasts:walker"]
+  }
+]

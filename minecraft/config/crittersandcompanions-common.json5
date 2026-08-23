@@ -181,7 +181,6 @@
 			},
 			{
 				biome_spec: "#c:is_floral",
-				weight: 12,
 				weight: 8,
 				min: 1,
 				max: 2
@@ -196,7 +195,7 @@
 			},
 			{
 				biome_spec: "#c:is_lush",
-				weight: 6,
+				weight: 3,
 				min: 1,
 				max: 2
 			}
@@ -210,7 +209,7 @@
 			},
 			{
 				biome_spec: "#c:is_lush",
-				weight: 5,
+				weight: 3,
 				min: 1,
 				max: 2
 			},
@@ -230,7 +229,7 @@
 			},
 			{
 				biome_spec: "#c:is_lush",
-				weight: 6,
+				weight: 2,
 				min: 1,
 				max: 2
 			},

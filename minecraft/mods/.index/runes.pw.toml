@@ -1,20 +1,20 @@
-filename = 'runes-neoforge-1.3.1+1.21.1.jar'
+filename = 'runes-neoforge-1.3.2+1.21.1.jar'
 name = 'Runes'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.3.1+1.21.1-neoforge'
+x-prismlauncher-version-number = '1.3.2+1.21.1-neoforge'
 
 [download]
-hash = '7057b315dd22b94524cc644430fb0817304ec129e1853a0a4936cb9ad4d1f8151318f1deb5d2797ac005bfca512a45f81157240a88ffe58af3e4c8844cc74bfb'
+hash = 'df0a53a540e886223004a42e9b3f40e331d0d004bd60ecd433ea058515092ad7dc81c31a876b441b6c2ca007d9dfbcb699810495e0608f6bbf29cec46b057339'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/lP9Yrr1E/versions/UcYws3vj/runes-neoforge-1.3.1%2B1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/lP9Yrr1E/versions/Br4oP4M6/runes-neoforge-1.3.2%2B1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'lP9Yrr1E'
-version = 'UcYws3vj'
+version = 'Br4oP4M6'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'n8QN6Z1a'

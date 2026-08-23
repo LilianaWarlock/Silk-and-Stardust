@@ -1,0 +1,12 @@
+enabled = true
+filterIndex = true
+displayCraftableInIndex = true
+requireWorkstationForCraftable = true
+displayWithUnknownWorkstation = true
+requireCatalystsKnown = false
+allowRecipeLookupForUndiscovered = true
+allowUsageLookupForUndiscovered = false
+blackoutUnknownInRecipes = false
+obscureTooltips = true
+showQuestionMarkOverlay = true
+enableAdvancementDiscovery = true

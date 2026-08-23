@@ -17,7 +17,7 @@ lostSoulDropChance = 6
 # Crop critter spawn chance on crop just matured
 # or on randomTick in SoulSandValley.
 # Chance doubled if on a 'Soul' block:
-critterSpawnChance = 8
+critterSpawnChance = 2
 # 
 # Multiplier on critter work speed:
 # (Between 0.01 and 10.0)

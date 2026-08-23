@@ -8,4 +8,4 @@
 	#Does recall potion have enchantment glow
 	Glow = false
 	#Main ingredient used to brew recall potions
-	Ingredient = "minecraft:ender_pearl"
+	Ingredient = "waystones:warp_dust"

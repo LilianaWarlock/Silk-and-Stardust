@@ -99,7 +99,7 @@
 #Dynamic vertical slab variants crafted from slabs.
 [verticalSlabs]
 	#Enable Vertical Slabs. Disabling this stops dynamic vertical slab generation and generated recipes, and turns off related placement and presentation.
-	enabled = false
+	enabled = true
 
 #Steps and Vertical Steps
 #Quarter-block step variants crafted from slabs and vertical slabs.

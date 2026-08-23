@@ -1,0 +1,14 @@
+[
+  {
+    "advancements": [
+      "minecraft:story/mine_stone"
+    ],
+    "items": [
+      "minecraft:furnace",
+      "minecraft:stone_pickaxe"
+    ],
+    "tags": [
+      "#minecraft:stone_tool_materials"
+    ]
+  }
+]

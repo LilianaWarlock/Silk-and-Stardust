@@ -590,7 +590,7 @@
 	#Despawn With Master
 	[tweaks.despawnWithMaster]
 		#When an Evoker is removed from the world, despawn all Vex summoned by that Evoker.
-		despawnVexWithEvoker = false
+		despawnVexWithEvoker = true
 		#When a Shulker is removed from the world, despawn all Shulker Bullets fired by that Shulker.
 		despawnBulletsWithShulker = false
 
