@@ -1,0 +1,18 @@
+{
+  "item.locatormaps.locator_map": "Empty Locator Map",
+  "item.locatormaps.locator_map.filledname": "%s Locator Map",
+  "item.locatormaps.locator_map.descriptioncoords": "Located at: [%s, %s]",
+  "item.locatormaps.locator_map.descriptiondim": "Located in: %s",
+  "item.locatormaps.locator_map.nocoordsmessage": "Done!",
+  "item.locatormaps.locator_map.tooltipline1": "Right click to locate a %s structure within %s chunks!",
+  "item.locatormaps.locator_map.tooltipline2": "Located in: %s",
+  "item.locatormaps.locator_map.tooltiplinefail": "Invalid Structure key!",
+
+  "message.locatormaps.dimensionhint": "Structure located in \"%s\"",
+  "message.locatormaps.nostructurekey": "You need to set a structure first!",
+  "message.locatormaps.structuretagfail": "Structure tag not found: %s",
+  "message.locatormaps.structurefail": "Structure not found: %s",
+  "message.locatormaps.thinking": "Thinking...",
+  "message.locatormaps.foundwithcoords": "Done! Located at: [%s, %s]",
+  "message.locatormaps.outofrangefail": "Structure not found within acceptable range! Please ensure you are in the right dimension, or travel further."
+}

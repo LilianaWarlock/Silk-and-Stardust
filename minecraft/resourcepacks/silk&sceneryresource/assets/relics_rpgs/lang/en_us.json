@@ -1,3 +1,4 @@
 {
-  "accessories.slot.spell_trinket": "Relic"
+  "accessories.slot.spell_trinket": "Relic",
+  "curios.identifier.spell_trinket": "Relic"
 }
