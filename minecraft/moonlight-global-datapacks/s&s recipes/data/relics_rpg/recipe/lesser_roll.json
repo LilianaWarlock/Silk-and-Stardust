@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " A ",
-    "BCA",
-    " B "
-  ],
+  "pattern": [" A ", "BCA", " B "],
   "key": {
     "A": {
       "item": "jewelry:sapphire"
@@ -13,7 +9,7 @@
       "item": "minecraft:diamond"
     },
     "C": {
-      "item": "wan_ancient_beasts:glider_feather"
+      "item": "minecraft:feather"
     }
   },
   "result": {

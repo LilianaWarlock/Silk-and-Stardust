@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:crying_obsidian"
-    },
-    "S": {
+    "D": {
       "item": "dragonscale:ender_dragon_scale"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
     },
     "B": {
       "item": "minecraft:book"
     },
-    "T": {
-      "item": "minecraft:enchanting_table"
+    "C": {
+      "item": "minecraft:crying_obsidian"
     }
   },
-  "pattern": [" B ", "S#S", "#T#"],
+  "pattern": [" B ", "ADA", "DCD"],
   "result": {
     "count": 1,
     "id": "enchantinginfuser:enchanting_infuser"
