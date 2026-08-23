@@ -1,72 +1,72 @@
 {
   "block_factorys_bosses:dragon_bones_leggings": [
     {
-      "attribute": "minecraft:generic.max_health",
+      "attribute": "combat_roll:distance",
       "from": "block_factorys_bosses:roll_count",
-      "value": 1,
+      "value": 1.0,
       "rate": 2.0,
       "operation": "CONVERSION"
     }
   ],
   "block_factorys_bosses:dragon_bones_chestplate": [
     {
-      "attribute": "minecraft:generic.max_health",
+      "attribute": "combat_roll:distance",
       "from": "block_factorys_bosses:roll_count",
-      "value": 1,
+      "value": 1.0,
       "rate": 2.0,
       "operation": "CONVERSION"
     }
   ],
   "block_factorys_bosses:dragon_bones_boots": [
     {
-      "attribute": "minecraft:generic.max_health",
+      "attribute": "combat_roll:distance",
       "from": "block_factorys_bosses:roll_count",
-      "value": 1,
+      "value": 1.0,
       "rate": 2.0,
       "operation": "CONVERSION"
     }
   ],
   "block_factorys_bosses:dragon_skull": [
     {
-      "attribute": "minecraft:generic.max_health",
+      "attribute": "combat_roll:distance",
       "from": "block_factorys_bosses:roll_count",
-      "value": 1,
+      "value": 1.0,
       "rate": 2.0,
       "operation": "CONVERSION"
     }
   ],
   "block_factorys_bosses:knight_leggings": [
     {
-      "attribute": "minecraft:generic.max_health",
+      "attribute": "combat_roll:distance",
       "from": "block_factorys_bosses:roll_count",
-      "value": 1,
+      "value": 1.0,
       "rate": 2.0,
       "operation": "CONVERSION"
     }
   ],
   "block_factorys_bosses:knight_chestplate": [
     {
-      "attribute": "minecraft:generic.max_health",
+      "attribute": "combat_roll:distance",
       "from": "block_factorys_bosses:roll_count",
-      "value": 1,
+      "value": 1.0,
       "rate": 2.0,
       "operation": "CONVERSION"
     }
   ],
   "block_factorys_bosses:knight_boots": [
     {
-      "attribute": "minecraft:generic.max_health",
+      "attribute": "combat_roll:distance",
       "from": "block_factorys_bosses:roll_count",
-      "value": 1,
+      "value": 1.0,
       "rate": 2.0,
       "operation": "CONVERSION"
     }
   ],
   "block_factorys_bosses:knight_helmet": [
     {
-      "attribute": "minecraft:generic.max_health",
+      "attribute": "combat_roll:distance",
       "from": "block_factorys_bosses:roll_count",
-      "value": 1,
+      "value": 1.0,
       "rate": 2.0,
       "operation": "CONVERSION"
     }
