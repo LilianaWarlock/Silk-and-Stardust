@@ -1,0 +1,45 @@
+{
+  "values": [
+    "pink_petals",
+    {
+      "id": "serene_shrubbery:blue_liverwort",
+      "required": false
+    },
+    {
+      "id": "serene_shrubbery:purple_liverwort",
+      "required": false
+    },
+    {
+      "id": "serene_shrubbery:white_liverwort",
+      "required": false
+    },
+    {
+      "id": "serene_shrubbery:purple_lupine",
+      "required": false
+    },
+    {
+      "id": "serene_shrubbery:lupine_pink",
+      "required": false
+    },
+    {
+      "id": "serene_shrubbery:lupine_white",
+      "required": false
+    },
+    {
+      "id": "serene_shrubbery:golden_lupine",
+      "required": false
+    },
+    {
+      "id": "serene_shrubbery:sky_blue_lupine",
+      "required": false
+    },
+    {
+      "id": "serene_shrubbery:manhattan_lights_lupine",
+      "required": false
+    },
+    {
+      "id": "minecraft:leaf_litter",
+      "required": false
+    }
+  ]
+}
