@@ -1,0 +1,14 @@
+{
+  "wan_ancient_beasts:walker": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.135,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.step_height",
+      "value": 2.5,
+      "operation": "BASE"
+    }
+  ]
+}
