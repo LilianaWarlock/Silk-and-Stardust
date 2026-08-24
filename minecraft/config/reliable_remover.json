@@ -92,6 +92,10 @@
     "fightsfrights:mysteryblock",
     "fightsfrights:ravager_horn",
     "fightsfrights:trashcan",
-    "fightsfrights:slop"
+    "fightsfrights:slop",
+    "waystones:red_nether_bricks_waystone",
+    "waystones:purpur_waystone",
+    "waystones:prismarine_waystone",
+    "waystones:mud_bricks_waystone"
   ]
 }

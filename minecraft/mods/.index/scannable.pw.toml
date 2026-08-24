@@ -1,0 +1,21 @@
+filename = 'scannable-MC1.21.1-neoforge-1.8.0+d42c576.jar'
+name = 'Scannable'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MC1.21.1-neoforge-1.8.0'
+
+[download]
+hash = '4ad5756103d750864cd72ffad0d1ad29f7209799fe756cde35b45253a9748a427911cb8147afe7c79c10ce9877e6f8b24dd3c5022bceaed73e21aef245255de9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/YqFnwJHf/versions/7MQ9BaZJ/scannable-MC1.21.1-neoforge-1.8.0%2Bd42c576.jar'
+
+[update.modrinth]
+mod-id = 'YqFnwJHf'
+version = '7MQ9BaZJ'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'
