@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "blank_module",
+  "key": {
+    "c": {
+      "tag": "c:ingots/copper"
+    },
+    "g": {
+      "item": "minecraft:deepslate"
+    },
+    "n": {
+      "item": "minecraft:redstone"
+    },
+    "r": {
+      "item": "fightsfrights:chip"
+    }
+  },
+  "pattern": ["ggg", "crc", "cnc"],
+  "result": {
+    "count": 1,
+    "id": "scannable:blank_module"
+  }
+}

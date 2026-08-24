@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "scannable:scanner"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_the_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "fightsfrights:chip"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [["has_the_recipe", "has_the_item"]],
+  "rewards": {
+    "recipes": ["scannable:scanner"]
+  }
+}

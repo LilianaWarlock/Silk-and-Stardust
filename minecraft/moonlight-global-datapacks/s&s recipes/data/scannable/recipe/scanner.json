@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "scanner",
+  "key": {
+    "b": {
+      "tag": "c:ingots/copper"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "i": {
+      "item": "minecraft:lightning_rod"
+    },
+    "c": {
+      "item": "fightsfrights:chip"
+    }
+  },
+  "pattern": ["i i", "bcb", " r "],
+  "result": {
+    "components": { "scannable:energy": 750 },
+    "count": 1,
+    "id": "scannable:scanner"
+  }
+}
