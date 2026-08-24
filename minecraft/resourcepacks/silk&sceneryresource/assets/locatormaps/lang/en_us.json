@@ -4,7 +4,7 @@
   "item.locatormaps.locator_map.descriptioncoords": "Located at: [%s, %s]",
   "item.locatormaps.locator_map.descriptiondim": "Located in: %s",
   "item.locatormaps.locator_map.nocoordsmessage": "Done!",
-  "item.locatormaps.locator_map.tooltipline1": "Right click to locate a %s structure within %s chunks!",
+  "item.locatormaps.locator_map.tooltipline1": "Used to locate a %s.",
   "item.locatormaps.locator_map.tooltipline2": "Located in: %s",
   "item.locatormaps.locator_map.tooltiplinefail": "Invalid Structure key!",
 
