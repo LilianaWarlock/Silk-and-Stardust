@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "waystones:magenta_sharestone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_warp_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "waystones:light_gray_sharestone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [["has_the_recipe", "has_warp_stone"]],
+  "rewards": {
+    "recipes": ["waystones:magenta_sharestone"]
+  }
+}

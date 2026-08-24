@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:dyes/cyan"
+    },
+    {
+      "item": "waystones:light_gray_sharestone"
+    }
+  ],
+
+  "result": {
+    "count": 1,
+    "id": "waystones:cyan_sharestone"
+  }
+}
