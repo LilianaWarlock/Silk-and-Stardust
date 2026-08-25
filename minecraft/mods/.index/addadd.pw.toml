@@ -1,6 +1,6 @@
 filename = 'additionaladditions-neoforge-10.0.5.jar'
-name = 'Additional Additions'
-side = ''
+name = 'Additional Additions: Vanilla+ QoL, Sniffers, Music, Food'
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]

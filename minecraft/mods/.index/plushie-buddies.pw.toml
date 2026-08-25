@@ -1,6 +1,6 @@
 filename = 'plushie_buddies-1.0.1-neofroge-1.21.1.jar'
 name = 'Plushie Buddies'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]

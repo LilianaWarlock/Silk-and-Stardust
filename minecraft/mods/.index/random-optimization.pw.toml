@@ -1,6 +1,6 @@
 filename = 'randomoptimization-1.7.4-all.jar'
 name = 'Random Optimization'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]

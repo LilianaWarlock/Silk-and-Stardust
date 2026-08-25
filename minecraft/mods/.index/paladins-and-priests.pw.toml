@@ -1,6 +1,6 @@
 filename = 'paladins-neoforge-3.1.0+1.21.1.jar'
 name = 'Paladins & Priests (RPG Series)'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -25,7 +25,7 @@ addonId = 'y9clIFY4'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'pduQXSbl'
+addonId = 'XvoWJaA2'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
@@ -33,5 +33,5 @@ addonId = 'lP9Yrr1E'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'XvoWJaA2'
+addonId = 'pduQXSbl'
 type = 'REQUIRED'

@@ -1,6 +1,6 @@
 filename = 'chunksfadein-neoforge-3.0.26-1.21.jar'
-name = 'Chunks Fade In'
-side = ''
+name = 'Chunks fade in'
+side = 'client'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'

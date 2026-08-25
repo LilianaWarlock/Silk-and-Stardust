@@ -17,9 +17,9 @@ mod-id = 'btCrWvHr'
 version = 'K3Vz3uXn'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'q8k4zHw5'
+addonId = '1eAoo2KR'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '1eAoo2KR'
+addonId = 'q8k4zHw5'
 type = 'REQUIRED'

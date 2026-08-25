@@ -17,13 +17,13 @@ mod-id = 'DzZWws4q'
 version = 'qHngFoBS'
 
 [[x-prismlauncher-dependencies]]
-addonId = '5WeWGLoJ'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
 addonId = 'QAGBst4M'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'kkmrDlKT'
 type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '5WeWGLoJ'
+type = 'OPTIONAL'

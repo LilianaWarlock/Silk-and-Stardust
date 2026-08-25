@@ -1,6 +1,6 @@
 filename = 'bettercombat-neoforge-2.4.0+1.21.1.jar'
 name = 'Better Combat'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -17,9 +17,9 @@ mod-id = '5sy6g3kz'
 version = 'VhIOvcXP'
 
 [[x-prismlauncher-dependencies]]
-addonId = '9s6osm5g'
+addonId = 'gedNE4y2'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'gedNE4y2'
+addonId = '9s6osm5g'
 type = 'REQUIRED'

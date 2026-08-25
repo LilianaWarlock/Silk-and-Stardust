@@ -1,6 +1,6 @@
 filename = 'collective-1.21.1-8.39.jar'
 name = 'Collective'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]

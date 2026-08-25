@@ -1,6 +1,6 @@
 filename = 'actuallyharvest-1.21.1-neoforge-1.1.7.6-NEOFORGE.jar'
-name = 'ActuallyHarvest'
-side = ''
+name = 'Actually Harvest'
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -17,23 +17,7 @@ mod-id = 'sUbuUC7R'
 version = 'RHzgvawa'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'oDobngty'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'DvvYZ4Cd'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'cqzqfZKX'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '4bZDWNlG'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'RdiVEh3O'
+addonId = 'KRi6s8j8'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -41,31 +25,15 @@ addonId = 'zrbKKaSr'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'HJetCzWo'
+addonId = '4bZDWNlG'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'KRi6s8j8'
+addonId = 'cqzqfZKX'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'AwiAYDUq'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'b7NV2plI'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'hFW7KOhm'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'j3xSC4PA'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '1DWmBJVA'
+addonId = 'DvvYZ4Cd'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -73,7 +41,39 @@ addonId = 'Eh11TaTm'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
+addonId = 'hFW7KOhm'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'b7NV2plI'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'HJetCzWo'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
 addonId = 'aY8vAgyv'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1DWmBJVA'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'AwiAYDUq'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'j3xSC4PA'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'RdiVEh3O'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'R2OftAxM'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -81,5 +81,5 @@ addonId = 'tPLE214j'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'R2OftAxM'
+addonId = 'oDobngty'
 type = 'OPTIONAL'

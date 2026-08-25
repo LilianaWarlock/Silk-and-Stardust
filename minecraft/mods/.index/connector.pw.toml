@@ -1,6 +1,6 @@
 filename = 'connector-2.0.0-beta.17+1.21.1-full.jar'
 name = 'Sinytra Connector'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'beta'
@@ -17,9 +17,9 @@ mod-id = 'u58R1TMW'
 version = 'IITF0PRC'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'Aqlf1Shp'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
 addonId = 'FYpiwiBR'
 type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Aqlf1Shp'
+type = 'REQUIRED'

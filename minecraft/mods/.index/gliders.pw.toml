@@ -1,6 +1,6 @@
 filename = 'gliders-1.21.1-neoforge-1.1.8.jar'
 name = 'Gliders'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]

@@ -21,7 +21,7 @@ addonId = 'vvuO3ImH'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = '9s6osm5g'
+addonId = 's9gIPDom'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -29,5 +29,5 @@ addonId = 'lhGA9TYQ'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 's9gIPDom'
+addonId = '9s6osm5g'
 type = 'OPTIONAL'

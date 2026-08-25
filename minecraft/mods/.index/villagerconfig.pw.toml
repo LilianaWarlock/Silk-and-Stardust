@@ -1,6 +1,6 @@
 filename = 'villagerconfig-neoforge-4.5.4+1.21.1.jar'
 name = 'VillagerConfig'
-side = ''
+side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]

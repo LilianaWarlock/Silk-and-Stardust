@@ -1,6 +1,6 @@
 filename = 'Structory_26.2_v1.3.7.jar'
 name = 'Structory'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [

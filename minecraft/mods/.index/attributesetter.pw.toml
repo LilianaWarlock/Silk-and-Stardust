@@ -1,6 +1,6 @@
 filename = 'attributesetter-2.2.1-neoforge.jar'
 name = 'AttributeSetter'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]

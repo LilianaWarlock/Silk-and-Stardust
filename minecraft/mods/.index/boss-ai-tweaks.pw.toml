@@ -1,6 +1,6 @@
 filename = 'boss_ai_tweaks-neoforge-1.0.3-1.21.1.jar'
 name = 'Boss AI Tweaks'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]

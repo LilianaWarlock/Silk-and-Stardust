@@ -1,6 +1,6 @@
 filename = 'SereneShrubbery-NeoForge-1.21.1-v2.4.0.jar'
 name = 'Serene Shrubbery'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]

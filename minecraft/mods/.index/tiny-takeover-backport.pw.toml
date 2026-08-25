@@ -1,6 +1,6 @@
 filename = 'tiny_takeover_backport-neoforge-1.21.1-1.3.1.jar'
 name = 'Tiny Takeover Backport'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'

@@ -1,6 +1,6 @@
 filename = 'armory-neoforge-1.5.0+1.21.1.jar'
 name = 'Armory (RPG Series)'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'

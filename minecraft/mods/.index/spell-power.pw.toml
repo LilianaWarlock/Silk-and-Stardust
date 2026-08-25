@@ -1,6 +1,6 @@
 filename = 'spell_power-neoforge-1.6.0+1.21.1.jar'
-name = 'Spell Power Attribute'
-side = ''
+name = 'Spell Power Attributes'
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]

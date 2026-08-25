@@ -1,6 +1,6 @@
 filename = 'particular-1.21.1-NeoForge-1.5.7.jar'
-name = 'Particular Reforged'
-side = ''
+name = 'Particular ✨ Reforged'
+side = 'client'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -17,6 +17,14 @@ mod-id = 'pYFUU6cq'
 version = 'WyRBAcBf'
 
 [[x-prismlauncher-dependencies]]
+addonId = 'T9PomCSv'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'YL57xq9U'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
 addonId = 'oWaK0Q19'
 type = 'OPTIONAL'
 
@@ -25,13 +33,5 @@ addonId = 'JaCEZUhg'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'T9PomCSv'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
 addonId = 'LNytGWDc'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'YL57xq9U'
 type = 'OPTIONAL'

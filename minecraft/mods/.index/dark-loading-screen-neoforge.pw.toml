@@ -1,6 +1,6 @@
 filename = 'dark_loading_screen-neoforge-1.21.1-1.0.1.jar'
-name = 'Dark Loading Screen'
-side = ''
+name = 'Dark Loading Screen Neoforge'
+side = 'client'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]

@@ -25,9 +25,9 @@ addonId = 'vvuO3ImH'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'izkDUlrJ'
-type = 'INCOMPATIBLE'
-
-[[x-prismlauncher-dependencies]]
 addonId = 'jtmvUHXj'
 type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'izkDUlrJ'
+type = 'INCOMPATIBLE'

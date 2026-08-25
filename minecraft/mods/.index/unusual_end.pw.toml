@@ -1,6 +1,6 @@
 filename = 'unusualend-2.3.jar'
 name = 'Unusual End'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'

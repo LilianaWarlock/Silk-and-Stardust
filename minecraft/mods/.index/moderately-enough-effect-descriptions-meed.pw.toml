@@ -1,6 +1,6 @@
 filename = 'meed-1.21.1-8.0.6.jar'
-name = 'Moderately Enough Effect Descriptions'
-side = ''
+name = 'Moderately Enough Effect Descriptions (MEED)'
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [
     '1.21',

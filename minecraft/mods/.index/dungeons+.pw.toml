@@ -1,5 +1,5 @@
 filename = 'dungeons+-1.10.1.jar'
-name = 'Dungeons+'
+name = 'DeCubed Dungeons (Formerly Dungeons+)'
 side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]

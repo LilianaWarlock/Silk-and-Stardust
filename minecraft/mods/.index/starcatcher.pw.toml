@@ -1,6 +1,6 @@
 filename = 'starcatcher-3.0.6-NEOFORGE-1.21.1.jar'
 name = 'Starcatcher'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]

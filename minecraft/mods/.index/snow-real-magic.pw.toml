@@ -1,6 +1,6 @@
 filename = 'SnowRealMagic-1.21.1-NeoForge-12.2.2.jar'
-name = 'Snow! Real Magic!'
-side = ''
+name = 'Snow! Real Magic! ⛄'
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'

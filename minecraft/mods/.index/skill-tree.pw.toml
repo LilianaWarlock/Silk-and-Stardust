@@ -1,6 +1,6 @@
 filename = 'skill_tree-neoforge-1.6.0+1.21.1.jar'
 name = 'Skill Tree (RPG Series)'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -17,7 +17,7 @@ mod-id = 'PjDhruSC'
 version = 'sxJUD8Hf'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'hqQqvaa4'
+addonId = 'AqaIIO6D'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
@@ -25,7 +25,7 @@ addonId = 'XvoWJaA2'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'AqaIIO6D'
+addonId = 'hqQqvaa4'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]

@@ -1,6 +1,6 @@
 filename = 'gatewayofdoom-neoforge-1.21.1-2.2.0.jar'
 name = 'Gateway of Doom'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]

@@ -1,6 +1,6 @@
 filename = 'item_descriptions-2.8.0+1.21.1-neoforge.jar'
 name = 'Item Descriptions'
-side = ''
+side = 'client'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -17,9 +17,9 @@ mod-id = 'UaizcMKP'
 version = 'OrkSfQ0u'
 
 [[x-prismlauncher-dependencies]]
-addonId = '1eAoo2KR'
+addonId = 'nvQzSEkH'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'nvQzSEkH'
+addonId = '1eAoo2KR'
 type = 'OPTIONAL'

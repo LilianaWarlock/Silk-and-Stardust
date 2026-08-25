@@ -1,6 +1,6 @@
 filename = 'bitsandbalance-neoforge-1.21.1-2.2.23.jar'
 name = 'Bits and Balance'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
