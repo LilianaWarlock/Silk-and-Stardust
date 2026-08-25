@@ -1,0 +1,13 @@
+[
+  {
+    "action": "remove_interactions",
+    "items": ["friendsforlife:collar"],
+    "entities": [
+      "companions:shade_sword",
+      "companions:shade_maw",
+      "terrarianmight:retinazer",
+      "terrarianmight:spazmatism",
+      "terrarianmight:slime_wolf"
+    ]
+  }
+]
