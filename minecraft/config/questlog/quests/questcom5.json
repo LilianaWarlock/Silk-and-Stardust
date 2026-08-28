@@ -1,0 +1,37 @@
+{
+  "title": "Finding Treasure",
+  "description": "Craft a scanner to search all around you for hidden secrets!",
+  "icon": {
+    "item": "scannable:scanner"
+  },
+  "chapter": "combat",
+  "sort_order": 0,
+  "hidden": true,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "icon": {
+        "item": "scannable:scanner"
+      },
+      "item": "scannable:scanner",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": {
+        "item": "fightsfrights:chip"
+      },
+      "item": "fightsfrights:chip",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "scannable:blank_module",
+      "count": 1
+    }
+  ]
+}
