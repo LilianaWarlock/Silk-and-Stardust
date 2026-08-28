@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#minecraft:has_structure/bastion_remnant",
+  "start_pool": "nova_structures:piglin_camp/campfire",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "piglinproliferation:piglin_traveler",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 10
+        },
+        {
+          "type": "piglinproliferation:piglin_alchemist",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 10
+        },
+        {
+          "type": "minecraft:piglin",
+          "maxCount": 2,
+          "minCount": 1,
+          "weight": 20
+        }
+      ]
+    }
+  },
+  "max_distance_from_center": 20,
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 33
+    },
+    "max_inclusive": {
+      "absolute": 70
+    }
+  },
+  "step": "surface_structures",
+  "size": 4,
+  "use_expansion_hack": false,
+  "terrain_adaptation": "beard_box"
+}

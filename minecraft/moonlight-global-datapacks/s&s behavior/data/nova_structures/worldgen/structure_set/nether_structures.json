@@ -1,0 +1,34 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 5894302,
+    "separation": 20,
+    "spacing": 45,
+    "exclusion_zone": {
+      "chunk_count": 8,
+      "other_set": "netherman:mansion_nether"
+    }
+  },
+  "structures": [
+    {
+      "structure": "nova_structures:nether_port",
+      "weight": 20
+    },
+    {
+      "structure": "nova_structures:nether_keep",
+      "weight": 10
+    },
+    {
+      "structure": "nova_structures:hamlet",
+      "weight": 40
+    },
+    {
+      "structure": "nova_structures:piglin_outstation",
+      "weight": 20
+    },
+    {
+      "structure": "nova_structures:piglin_donjon",
+      "weight": 5
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "infernalexp:glowstone_canyon",
+    "minecraft:basalt_deltas",
+    "minecraft:soul_sand_valley",
+    "netherexp:black_ice_glaciers",
+    "minecraft:warped_forest"
+  ]
+}

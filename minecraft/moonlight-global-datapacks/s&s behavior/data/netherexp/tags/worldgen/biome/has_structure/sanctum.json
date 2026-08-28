@@ -1,0 +1,30 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:basalt_deltas",
+    {
+      "id": "netherexp:black_ice_glaciers",
+      "required": false
+    },
+    {
+      "id": "netherexp:sorrowsquash_pastures",
+      "required": false
+    },
+    {
+      "id": "cinderscapes:ashy_shoals",
+      "required": false
+    },
+    {
+      "id": "cinderscapes:blackstone_shales",
+      "required": false
+    },
+    {
+      "id": "gardens_of_the_dead:soulblight_forest",
+      "required": false
+    },
+    {
+      "id": "soulfulnether:fright_forest",
+      "required": false
+    }
+  ]
+}

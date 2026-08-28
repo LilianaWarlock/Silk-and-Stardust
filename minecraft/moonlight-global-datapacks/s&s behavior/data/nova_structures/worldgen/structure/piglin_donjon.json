@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#minecraft:has_structure/bastion_remnant",
+  "max_distance_from_center": 128,
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "piglinproliferation:piglin_traveler",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 10
+        },
+        {
+          "type": "piglinproliferation:piglin_alchemist",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 10
+        },
+        {
+          "type": "minecraft:piglin",
+          "maxCount": 2,
+          "minCount": 1,
+          "weight": 20
+        },
+        {
+          "type": "minecraft:piglin_brute",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 2
+        }
+      ]
+    }
+  },
+  "step": "underground_decoration",
+  "start_height": {
+    "absolute": 32
+  },
+  "start_pool": "nova_structures:donjon/donjon_framework/donjon_center_start",
+  "size": 20,
+
+  "use_expansion_hack": false
+}

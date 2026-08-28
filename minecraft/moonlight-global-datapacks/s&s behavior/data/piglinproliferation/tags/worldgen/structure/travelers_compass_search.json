@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:fortress",
+    "minecraft:bastion_remnant",
+    "netherexp:sanctum",
+    "netherman:gast_chamber",
+    "nova_structures:nether_keep",
+    "nova_structures:nether_port",
+    "nova_structures:piglin_donjon",
+    "block_factorys_bosses:underworld_arena",
+    "friendsandfoes:citadel",
+    "bosses_of_mass_destruction:gauntlet_arena"
+  ]
+}

@@ -1,9 +1,20 @@
 [
   {
-    "_comment_description": "BASIC SETTINGS: What to replace and what to replace it with.",
     "player_blocks": false,
     "inputs": ["minecraft:lodestone"],
-    "output": "minecraft:chiseled_stone_bricks",
+    "output": "netherman:samsonit_eye",
     "structure": "netherman:mansion_nether"
+  },
+  {
+    "player_blocks": false,
+    "inputs": ["minecraft:furnace"],
+    "output": "quark:blackstone_furnace",
+    "structure": "nova_structures:nether_port"
+  },
+  {
+    "player_blocks": false,
+    "inputs": ["minecraft:furnace"],
+    "output": "quark:blackstone_furnace",
+    "structure": "nova_structures:piglin_outstation"
   }
 ]

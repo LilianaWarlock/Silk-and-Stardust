@@ -32,9 +32,9 @@
   "enableTurtle": true,
   "enableVillager": true,
   "enableWolf": true,
-  "enableZombie": true,
+  "enableZombie": false,
   "enableZombieVillager": true,
-  "enableZombifiedPiglin": true,
+  "enableZombifiedPiglin": false,
   "replaceAdultRabbit": true,
   "rabbitBoundingBox": true
 }
