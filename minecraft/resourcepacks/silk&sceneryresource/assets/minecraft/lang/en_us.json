@@ -1,3 +1,6 @@
 {
-  "enchantment.minecraft.protection": "Strike Protection"
+  "enchantment.minecraft.protection": "Strike Protection",
+
+  "lore.minecraft.amethyst_shard": "A gem that has many useful applications in the conventional and the arcane.",
+  "lore.minecraft.spyglass": "A tool can be used to study objects from both close and far away. Middle click to go into astronomy mode, and left click on stars at night."
 }
