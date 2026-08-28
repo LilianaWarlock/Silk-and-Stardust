@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:counters",
+  "type": "remi:regex",
+  "priority": 2,
+  "regex": "cozyhome:*_counter",
+  "name": "Counters"
+}

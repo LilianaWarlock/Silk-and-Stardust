@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:vertical_slabs",
+  "type": "remi:regex",
+  "priority": 10,
+  "regex": "bitsandbalance:vertical_*",
+  "name": "Vertical Slabs"
+}

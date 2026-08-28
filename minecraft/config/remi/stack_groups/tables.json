@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:tables",
+  "type": "remi:regex",
+  "priority": 2,
+  "regex": "cozyhome:*_table",
+  "name": "Tables"
+}

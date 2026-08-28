@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:carved_wood",
+  "type": "remi:regex",
+  "priority": 0,
+  "regex": "carved_wood:*",
+  "name": "Carved Wood"
+}

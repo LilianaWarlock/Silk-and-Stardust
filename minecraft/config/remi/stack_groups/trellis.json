@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:trellis",
+  "type": "remi:regex",
+  "priority": 2,
+  "regex": "bountifulfares:*trellis",
+  "name": "Trellis'"
+}

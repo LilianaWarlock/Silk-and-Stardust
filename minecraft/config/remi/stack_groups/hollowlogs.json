@@ -1,0 +1,6 @@
+{
+  "id": "silkandstardust:hollow_logs",
+  "type": "remi:group",
+  "contents": ["#quark:hollow_logs"],
+  "priority": 10
+}

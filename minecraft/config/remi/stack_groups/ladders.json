@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:igoupandigodown",
+  "type": "remi:group",
+  "contents": ["#c:ladders", "#quark:ladders"],
+  "priority": 10,
+  "name": "Ladders"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "silkandstardust:pickets",
+  "type": "remi:group",
+  "contents": ["#bountifulfares:pickets"],
+  "priority": 10
+}

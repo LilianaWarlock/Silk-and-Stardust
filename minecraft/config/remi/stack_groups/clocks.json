@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:clocks",
+  "type": "remi:regex",
+  "priority": 2,
+  "regex": "cozyhome:*_clock",
+  "name": "clocks"
+}

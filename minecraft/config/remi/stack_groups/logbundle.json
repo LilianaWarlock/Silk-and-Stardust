@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:log_bundle",
+  "type": "remi:regex",
+  "priority": 10,
+  "regex": "carved_wood:*_log_bundle",
+  "name": "Log Bundle"
+}
