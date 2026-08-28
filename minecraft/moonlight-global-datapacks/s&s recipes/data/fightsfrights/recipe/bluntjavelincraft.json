@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [" aa", " aa", "b  "],
+  "key": {
+    "a": {
+      "item": "fightsfrights:goop"
+    },
+    "b": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "id": "fightsfrights:blunt_javelin",
+    "count": 8
+  }
+}

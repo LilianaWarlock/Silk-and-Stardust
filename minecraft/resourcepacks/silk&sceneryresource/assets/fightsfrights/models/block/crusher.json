@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/sculk_vein",
+    "up": "fightsfrights:block/crushertop",
+    "north": "fightsfrights:block/crusherface",
+    "east": "fightsfrights:block/crusherside",
+    "south": "fightsfrights:block/crusherside",
+    "west": "fightsfrights:block/crusherside",
+    "particle": "minecraft:block/sculk_vein"
+  },
+  "render_type": "solid"
+}

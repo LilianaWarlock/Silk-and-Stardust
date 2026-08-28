@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "pattern": ["aba", "cdc", "eee"],
+  "pattern": ["aba", "cdc", "efe"],
   "key": {
     "a": {
       "item": "fightsfrights:rotten_block"
@@ -16,7 +16,10 @@
       "item": "fightsfrights:golden_tongue"
     },
     "e": {
-      "item": "fightsfrights:bllight_cap_block"
+      "item": "minecraft:sculk_vein"
+    },
+    "f": {
+      "item": "minecraft:sculk_catalyst"
     }
   },
   "result": {

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [" aa", " bb", "c  "],
+  "key": {
+    "a": {
+      "item": "fightsfrights:goop"
+    },
+    "b": {
+      "item": "fightsfrights:golden_tongue"
+    },
+    "c": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "id": "fightsfrights:monster_pop",
+    "count": 1
+  }
+}

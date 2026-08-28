@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [" aa", "bca", "db "],
+  "key": {
+    "a": {
+      "item": "fightsfrights:mimentis_claw_single_use"
+    },
+    "b": {
+      "item": "fightsfrights:goop"
+    },
+    "c": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "d": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "id": "fightsfrights:mimentis_claw",
+    "count": 1
+  }
+}
