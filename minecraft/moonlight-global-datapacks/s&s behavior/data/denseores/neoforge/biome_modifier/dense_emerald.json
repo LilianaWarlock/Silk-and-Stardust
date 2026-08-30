@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:none",
+  "biomes": "#denseores:is_mountain",
+  "features": "denseores:dense_emerald",
+  "step": "underground_ores"
+}

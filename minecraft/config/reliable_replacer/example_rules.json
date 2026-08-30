@@ -16,5 +16,102 @@
     "inputs": ["minecraft:furnace"],
     "output": "quark:blackstone_furnace",
     "structure": "nova_structures:piglin_outstation"
+  },
+
+  {
+    "inputs": ["minecraft:coal_ore"],
+    "output": "denseores:dense_coal_ore",
+    "player_blocks": false,
+    "probability": 0.0625
+  },
+  {
+    "inputs": ["minecraft:copper_ore"],
+    "output": "denseores:dense_copper_ore",
+    "player_blocks": false,
+    "probability": 0.0625
+  },
+  {
+    "inputs": ["minecraft:diamond_ore"],
+    "output": "denseores:dense_diamond_ore",
+    "player_blocks": false,
+    "probability": 0.0625
+  },
+  {
+    "inputs": ["minecraft:emerald_ore"],
+    "output": "denseores:dense_emerald_ore",
+    "player_blocks": false,
+    "probability": 0.0625
+  },
+  {
+    "inputs": ["minecraft:gold_ore"],
+    "output": "denseores:dense_gold_ore",
+    "player_blocks": false,
+    "probability": 0.0625
+  },
+  {
+    "inputs": ["minecraft:iron_ore"],
+    "output": "denseores:dense_iron_ore",
+    "player_blocks": false,
+    "probability": 0.0625
+  },
+  {
+    "inputs": ["minecraft:lapis_ore"],
+    "output": "denseores:dense_lapis_ore",
+    "player_blocks": false,
+    "probability": 0.0625
+  },
+  {
+    "inputs": ["minecraft:redstone_ore"],
+    "output": "denseores:dense_redstone_ore",
+    "player_blocks": false,
+    "probability": 0.0625
+  },
+  {
+    "inputs": ["minecraft:deepslate_coal_ore"],
+    "output": "denseores:dense_deepslate_coal_ore",
+    "player_blocks": false,
+    "probability": 0.125
+  },
+  {
+    "inputs": ["minecraft:deepslate_copper_ore"],
+    "output": "denseores:dense_deepslate_copper_ore",
+    "player_blocks": false,
+    "probability": 0.125
+  },
+  {
+    "inputs": ["minecraft:deepslate_diamond_ore"],
+    "output": "denseores:dense_deepslate_diamond_ore",
+    "player_blocks": false,
+    "probability": 0.125
+  },
+  {
+    "inputs": ["minecraft:deepslate_emerald_ore"],
+    "output": "denseores:dense_deepslate_emerald_ore",
+    "player_blocks": false,
+    "probability": 0.125
+  },
+  {
+    "inputs": ["minecraft:deepslate_gold_ore"],
+    "output": "denseores:dense_deepslate_gold_ore",
+    "player_blocks": false,
+    "probability": 0.125
+  },
+  {
+    "inputs": ["minecraft:deepslate_iron_ore"],
+    "output": "denseores:dense_deepslate_iron_ore",
+    "player_blocks": false,
+    "probability": 0.125
+  },
+  {
+    "inputs": ["minecraft:deepslate_lapis_ore"],
+    "output": "denseores:dense_deepslate_lapis_ore",
+    "player_blocks": false,
+    "probability": 0.125
+  },
+  {
+    "inputs": ["minecraft:deepslate_redstone_ore"],
+    "output": "denseores:dense_deepslate_redstone_ore",
+    "player_blocks": false,
+    "probability": 0.125
   }
 ]

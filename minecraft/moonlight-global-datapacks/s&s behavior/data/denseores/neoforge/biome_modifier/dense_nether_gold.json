@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:none",
+  "biomes": "#minecraft:is_nether",
+  "features": "denseores:dense_nether_gold",
+  "step": "underground_ores"
+}
