@@ -89,3 +89,5 @@ minecraft/emi.json
 /minecraft/packdev_toolkit_queries
 /minecraft/lightspeed-cache
 /minecraft/mods/.connector/temp
+minecraft/config/emi_discovery.toml
+minecraft/config/emi.css

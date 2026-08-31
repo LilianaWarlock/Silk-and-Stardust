@@ -119,6 +119,118 @@
       "trade_id": "ST_glowshroom",
       "selector_weight": 6,
       "stage_required": "darker_depths_glowshroom"
+    },
+    {
+      "offer": {
+        "id": "minecraft:crimson_fungus",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 16
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_crimson_fungus",
+      "selector_weight": 20,
+      "stage_required": "nether_distract_piglin"
+    },
+    {
+      "offer": {
+        "id": "minecraft:warped_fungus",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 16
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_warped_fungus",
+      "selector_weight": 20,
+      "stage_required": "nether_distract_piglin"
+    },
+    {
+      "offer": {
+        "id": "infernalexp:luminous_fungus",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 16
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_luminous_fungus",
+      "selector_weight": 21,
+      "stage_required": "nether_distract_piglin"
+    },
+    {
+      "offer": {
+        "id": "nethers_exoticism:bouddha_s_hand_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 30
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_boudhhas_hand_sapling",
+      "selector_weight": 22,
+      "stage_required": "nether_distract_piglin"
+    },
+    {
+      "offer": {
+        "id": "unusualend:chorus_fungus",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 48
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_chorus_fungus",
+      "selector_weight": 100,
+      "stage_required": "free_the_end"
+    },
+    {
+      "offer": {
+        "id": "enderscape:celestial_chanterelle",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 48
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_celestial_chanterelle",
+      "selector_weight": 101,
+      "stage_required": "free_the_end"
+    },
+    {
+      "offer": {
+        "id": "enderscape:murublight_chanterelle",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 48
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_murublight_chanterelle",
+      "selector_weight": 101,
+      "stage_required": "free_the_end"
+    },
+    {
+      "offer": {
+        "id": "enderscape:blinklight",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 48
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_blinklight",
+      "selector_weight": 102,
+      "stage_required": "free_the_end"
     }
 
 
