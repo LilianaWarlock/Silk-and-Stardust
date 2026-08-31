@@ -1,0 +1,127 @@
+{
+  "shop_id": "fungi",
+  "name": { "translate": "shop.society_trading.fungi.name" },
+  "display_type": "thin",
+  "texture": "minecraft:textures/block/mycelium_top",
+  "jei_catalyst": { "id": "ribbits:toadstool" },
+  "selector_weight": 2,
+  
+
+
+
+  "hidden_from_selector": false,
+  "trades": [
+    {
+      "offer": {
+        "id": "minecraft:brown_mushroom",
+        "count": 2
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 12
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_brown_mushroom",
+      "selector_weight": 1
+    },
+    {
+      "offer": {
+        "id": "minecraft:red_mushroom",
+        "count": 2
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 12
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_red_mushroom",
+      "selector_weight": 1
+    },
+    {
+      "offer": {
+        "id": "ribbits:toadstool",
+        "count": 4
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 12
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_toadstool",
+      "selector_weight": 1
+    },
+    {
+      "offer": {
+        "id": "wetland_whimsy:aria_mushroom",
+        "count": 2
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 12
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_aria_mushroom",
+      "selector_weight": 3,
+      "stage_required": "addadd_use_water_can"
+    },
+    {
+      "offer": {
+        "id": "wetland_whimsy:fellcap_mushroom",
+        "count": 2
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 12
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_fellcap_mushroom",
+      "selector_weight": 3,
+      "stage_required": "addadd_use_water_can"
+    },
+    {
+      "offer": {
+        "id": "fightsfrights:blightcap",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 12
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_blightcap",
+      "selector_weight": 4,
+      "stage_required": "addadd_use_water_can"
+    },
+    {
+      "offer": {
+        "id": "cropcritters:puffbomb_mushroom",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 12
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_puffbomb_mushroom",
+      "selector_weight": 5,
+      "stage_required": "fieldguide_critter_catcher"
+    },
+    {
+      "offer": {
+        "id": "darkerdepths:glowshroom",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 16
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_glowshroom",
+      "selector_weight": 6,
+      "stage_required": "darker_depths_glowshroom"
+    }
+
+
+  ]
+
+}

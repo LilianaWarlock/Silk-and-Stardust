@@ -1,0 +1,184 @@
+{
+  "shop_id": "crops",
+  "name": { "translate": "shop.society_trading.crops.name" },
+  "display_type": "thin",
+  "texture": "minecraft:textures/block/farmland_top",
+  "jei_catalyst": { "id": "minecraft:wooden_hoe" },
+  "selector_weight": 2,
+  
+
+
+
+  "hidden_from_selector": false,
+  "trades": [
+    {
+      "offer": {
+        "id": "minecraft:bone_meal",
+        "count": 3
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 1
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_bone_meal",
+      "selector_weight": 1
+    },
+    {
+      "offer": {
+        "id": "bountifulfares:wild_wheat",
+        "count": 2
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 8
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_wild_wheat",
+      "selector_weight": 2,
+      "stage_required": "addadd_use_water_can"
+    },
+    {
+      "offer": {
+        "id": "bountifulfares:wild_potatoes",
+        "count": 2
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 8
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_wild_potatoes",
+      "selector_weight": 3,
+      "stage_required": "addadd_use_water_can"
+    },
+    {
+      "offer": {
+        "id": "bountifulfares:wild_carrots",
+        "count": 2
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 8
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_wild_carrots",
+      "selector_weight": 3,
+      "stage_required": "addadd_use_water_can"
+    },
+    {
+      "offer": {
+        "id": "bountifulfares:wild_beetroots",
+        "count": 2
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 8
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_wild_beetroots",
+      "selector_weight": 4,
+      "stage_required": "addadd_use_water_can"
+    },
+    {
+      "offer": {
+        "id": "bountifulfares:wild_leeks",
+        "count": 2
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 8
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_wild_leeks",
+      "selector_weight": 5,
+      "stage_required": "addadd_use_water_can"
+    },
+    {
+      "offer": {
+        "id": "bountifulfares:wild_maize",
+        "count": 2
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 8
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_wild_maize",
+      "selector_weight": 6,
+      "stage_required": "addadd_use_water_can"
+    },
+    {
+      "offer": {
+        "id": "bountifulfares:wild_passion_fruit_vine",
+        "count": 2
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 12
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_wild_passion_fruit_vine",
+      "selector_weight": 7,
+      "stage_required": "addadd_use_water_can"
+    },
+    {
+      "offer": {
+        "id": "bountifulfares:wild_elderberry_vine",
+        "count": 2
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 12
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_elderberry_vine",
+      "selector_weight": 8,
+      "stage_required": "addadd_use_water_can"
+    },
+    {
+      "offer": {
+        "id": "minecraft:honey_bottle",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 6
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_honey_bottle",
+      "selector_weight": 50,
+      "stage_required": "husbandry_harvest_honey"
+    },
+    {
+      "offer": {
+        "id": "minecraft:honeycomb",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 7
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_honeycomb",
+      "selector_weight": 51,
+      "stage_required": "husbandry_harvest_honey"
+    },
+    {
+      "offer": {
+        "id": "minecraft:bee_nest",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 54
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_bee_nest",
+      "selector_weight": 52,
+      "stage_required": "husbandry_harvest_honey"
+    }
+
+  ]
+
+}

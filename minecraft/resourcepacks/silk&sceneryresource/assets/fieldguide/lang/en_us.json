@@ -1,5 +1,20 @@
 {
+  "fieldguide.description.missing": "§oYou looked for notes... and found none.",
+
   "advancements.fieldguide.animal_expert.title": "Friends Everywhere!",
 
-  "fieldguide.description.missing": "§oYou looked for notes... and found none."
+  "advancements.fieldguide.tree_hugger.title": "Tree Hugger",
+  "advancements.fieldguide.tree_hugger.description": "Documented a wide variety of plantlife.",
+
+  "advancements.fieldguide.dont_blink.title": "Don't Blink",
+  "advancements.fieldguide.dont_blink.description": "Documented the pale statue.",
+
+  "advancements.fieldguide.monster_mash.title": "Monster Mash",
+  "advancements.fieldguide.monster_mash.description": "Documented a variety of freaky foes.",
+
+  "advancements.quark.autumn_every_day.title": "I Can Make it Autumn Every Day",
+  "advancements.quark.autumn_every_day.description": "Document a variety of fall's flora.",
+
+  "item.betterarcheology.soul_totem": "Talisman of Souls"
+
 }

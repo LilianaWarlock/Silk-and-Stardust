@@ -1,0 +1,77 @@
+{
+  "parent": "fieldguide:first_discovery",
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.fieldguide.monster_mash.title"
+    },
+    "description": {
+      "translate": "advancements.fieldguide.monster_mash.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "zombie": {
+      "trigger": "fieldguide:entry_unlocked",
+      "conditions": {
+        "entry": "entity:minecraft/zombie"
+      }
+    },
+    "skeleton": {
+      "trigger": "fieldguide:entry_unlocked",
+      "conditions": {
+        "entry": "entity:minecraft/skeleton"
+      }
+    },
+    "witch": {
+      "trigger": "fieldguide:entry_unlocked",
+      "conditions": {
+        "entry": "entity:minecraft/witch"
+      }
+    },
+    "mummy": {
+      "trigger": "fieldguide:entry_unlocked",
+      "conditions": {
+        "entry": "entity:rottencreatures/mummy"
+      }
+    },
+    "ghost": {
+      "trigger": "fieldguide:entry_unlocked",
+      "conditions": {
+        "entry": "entity:ghosts/ghost"
+      }
+    },
+    "spider": {
+      "trigger": "fieldguide:entry_unlocked",
+      "conditions": {
+        "entry": "entity:wetland_whimsy/infected_spider"
+      }
+    },
+    "requirements": [
+      [
+        "zombie"
+      ],
+      [
+        "skeleton"
+      ],
+      [
+        "witch"
+      ],
+      [
+        "mummy"
+      ],
+      [
+        "ghost"
+      ],
+      [
+        "spider"
+      ]
+    ]
+  }
+}

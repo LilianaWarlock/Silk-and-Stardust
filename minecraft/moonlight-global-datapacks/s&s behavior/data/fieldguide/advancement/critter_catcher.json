@@ -1,0 +1,125 @@
+{
+  "parent": "fieldguide:first_discovery",
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "cropcritters:carrot_critter_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.fieldguide.critter_catcher.title"
+    },
+    "description": {
+      "translate": "advancements.fieldguide.critter_catcher.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wheat": {
+      "trigger": "fieldguide:entry_unlocked",
+      "conditions": {
+        "entry": "entity:cropcritters/wheat_critter"
+      }
+    },
+    "melon": {
+      "trigger": "fieldguide:entry_unlocked",
+      "conditions": {
+        "entry": "entity:cropcritters/melon_critter"
+      }
+    },
+    "carrot": {
+      "trigger": "fieldguide:entry_unlocked",
+      "conditions": {
+        "entry": "entity:cropcritters/carrot_critter"
+      }
+    },
+    "pumpkin": {
+      "trigger": "fieldguide:entry_unlocked",
+      "conditions": {
+        "entry": "entity:cropcritters/pumpkin_critter"
+      }
+    },
+    "potato": {
+      "trigger": "fieldguide:entry_unlocked",
+      "conditions": {
+        "entry": "entity:cropcritters/potato_critter"
+      }
+    },
+    "beetroot": {
+      "trigger": "fieldguide:entry_unlocked",
+      "conditions": {
+        "entry": "entity:cropcritters/beetroot_critter"
+      }
+    },
+    "nether_wart": {
+      "trigger": "fieldguide:entry_unlocked",
+      "conditions": {
+        "entry": "entity:cropcritters/nether_wart_critter"
+      }
+    },
+    "poison_potato": {
+      "trigger": "fieldguide:entry_unlocked",
+      "conditions": {
+        "entry": "entity:cropcritters/poisonous_potato_critter"
+      }
+    },
+    "torchflower": {
+      "trigger": "fieldguide:entry_unlocked",
+      "conditions": {
+        "entry": "entity:cropcritters/torchflower_critter"
+      }
+    },
+    "pitcher": {
+      "trigger": "fieldguide:entry_unlocked",
+      "conditions": {
+        "entry": "entity:cropcritters/pitcher_critter"
+      }
+    },
+    "cocoa": {
+      "trigger": "fieldguide:entry_unlocked",
+      "conditions": {
+        "entry": "entity:cropcritters/cocoa_critter"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wheat"
+    ],
+    [
+      "melon"
+    ],
+    [
+      "carrot"
+    ],
+    [
+      "pumpkin"
+    ],
+    [
+      "potato"
+    ],
+    [
+      "beetroot"
+    ],
+    [
+      "nether_wart"
+    ],
+    [
+      "poison_potato"
+    ],
+    [
+      "torchflower"
+    ],
+    [
+      "pitcher"
+    ],
+    [
+      "cocoa"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+  }

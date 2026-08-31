@@ -133,6 +133,342 @@
       "trade_id": "ST_pale_oak_sapling",
       "selector_weight": 3,
       "stage_required": "fieldguide_dont_blink"
+    },
+    {
+      "offer": {
+        "id": "quark:red_blossom_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 8
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_red_blossom_sapling",
+      "selector_weight": 8,
+      "stage_required": "quark_get_all_trumpets"
+    },
+    {
+      "offer": {
+        "id": "quark:orange_blossom_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 8
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_orange_blossom_sapling",
+      "selector_weight": 8,
+      "stage_required": "quark_get_all_trumpets"
+    },
+    {
+      "offer": {
+        "id": "terrarianmight:yellow_willow_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 8
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_yellow_willow_sapling",
+      "selector_weight": 8,
+      "stage_required": "quark_get_all_trumpets"
+    },
+    {
+      "offer": {
+        "id": "quark:yellow_blossom_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 8
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_yellow_blossom_sapling",
+      "selector_weight": 8,
+      "stage_required": "quark_get_all_trumpets"
+    },
+    {
+      "offer": {
+        "id": "minecraft:azalea",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 8
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_azalea",
+      "selector_weight": 8,
+      "stage_required": "quark_get_all_trumpets"
+    },
+    {
+      "offer": {
+        "id": "minecraft:flowering_azalea",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 8
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_flowering_azalea",
+      "selector_weight": 8,
+      "stage_required": "quark_get_all_trumpets"
+    },
+    {
+      "offer": {
+        "id": "quark:blue_blossom_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 8
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_blue_blossom_sapling",
+      "selector_weight": 8,
+      "stage_required": "quark_get_all_trumpets"
+    },
+    {
+      "offer": {
+        "id": "quark:lavender_blossom_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 8
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_lavender_blossom_sapling",
+      "selector_weight": 8,
+      "stage_required": "quark_get_all_trumpets"
+    },
+    {
+      "offer": {
+        "id": "hexerei:witch_hazel_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 12
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_witch_hazel_sapling",
+      "selector_weight": 9,
+      "stage_required": "fieldguide_monster_mash"
+    },
+    {
+      "offer": {
+        "id": "hexerei:mahogany_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 12
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_mahogany_sapling",
+      "selector_weight": 8,
+      "stage_required": "fieldguide_monster_mash"
+    },
+    {
+      "offer": {
+        "id": "hexerei:willow_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 12
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_willow_sapling",
+      "selector_weight": 9,
+      "stage_required": "fieldguide_monster_mash"
+    },
+    {
+      "offer": {
+        "id": "wetland_whimsy:bald_cypress_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 12
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_bald_cypress_sapling",
+      "selector_weight": 9,
+      "stage_required": "fieldguide_monster_mash"
+    },
+    {
+      "offer": {
+        "id": "ghosts:haunted_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 12
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_haunted_sapling",
+      "selector_weight": 9,
+      "stage_required": "fieldguide_monster_mash"
+    },
+    {
+      "offer": {
+        "id": "bountifulfares:apple_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 24
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_apple_sapling",
+      "selector_weight": 10,
+      "stage_required": "bf_sun_hat"
+    },
+    {
+      "offer": {
+        "id": "bountifulfares:hoary_apple_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 24
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_hoary_apple_sapling",
+      "selector_weight": 10,
+      "stage_required": "bf_sun_hat"
+    },
+    {
+      "offer": {
+        "id": "bountifulfares:lemon_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 24
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_lemon_sapling",
+      "selector_weight": 10,
+      "stage_required": "bf_sun_hat"
+    },
+    {
+      "offer": {
+        "id": "bountifulfares:orange_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 24
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_orange_sapling",
+      "selector_weight": 10,
+      "stage_required": "bf_sun_hat"
+    },
+    {
+      "offer": {
+        "id": "bountifulfares:plum_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 24
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_plum_sapling",
+      "selector_weight": 10,
+      "stage_required": "bf_sun_hat"
+    },
+    {
+      "offer": {
+        "id": "bountifulfares:walnut_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 24
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_walnut_sapling",
+      "selector_weight": 10,
+      "stage_required": "bf_sun_hat"
+    },
+    {
+      "offer": {
+        "id": "cropcritters:mazewood_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 48
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_mazewood_sapling",
+      "selector_weight": 11,
+      "stage_required": "fieldguide_critter_catcher"
+    },
+    {
+      "offer": {
+        "id": "nethers_exoticism:jaboticaba_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 30
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_jaboticaba_sapling",
+      "selector_weight": 50,
+      "stage_required": "nether_distract_piglin"
+    },
+    {
+      "offer": {
+        "id": "nethers_exoticism:kiwano_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 30
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_kiwano_sapling",
+      "selector_weight": 50,
+      "stage_required": "nether_distract_piglin"
+    },
+    {
+      "offer": {
+        "id": "nethers_exoticism:ramboutan_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 30
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_ramboutan_sapling",
+      "selector_weight": 50,
+      "stage_required": "nether_distract_piglin"
+    },
+    {
+      "offer": {
+        "id": "enderscape:veiled_sapling",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 48
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_veiled_sapling",
+      "selector_weight": 100,
+      "stage_required": "end_find_end_city"
     }
   ]
 
