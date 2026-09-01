@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:rpgmagic",
+  "type": "remi:group",
+  "contents": ["#wizards:staves", "#wizards:wands"],
+  "priority": 10,
+  "name": "Combat Wands"
+}

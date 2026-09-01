@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:butterfly_jars",
+  "type": "remi:regex",
+  "priority": 2,
+  "regex": "luminous_butterflies:*_jar",
+  "name": "Butterfly Jars"
+}

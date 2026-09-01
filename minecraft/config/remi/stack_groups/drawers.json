@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:drawers",
+  "type": "remi:regex",
+  "priority": 2,
+  "regex": "cozyhome:*_drawer",
+  "name": "Drawers"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:tiffins",
+  "type": "remi:group",
+  "contents": ["#bountifulfares:tiffins"],
+  "priority": 2,
+  "name": "Tiffins"
+}

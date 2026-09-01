@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:mirrors",
+  "type": "remi:regex",
+  "priority": 2,
+  "regex": "cozyhome:*_wall_mirror",
+  "name": "Mirrors"
+}

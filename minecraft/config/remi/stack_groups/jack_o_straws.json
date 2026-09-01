@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:jack_straws",
+  "type": "remi:group",
+  "contents": ["#bountifulfares:jack_o_straws"],
+  "priority": 2,
+  "name": "Jack o' Straws"
+}

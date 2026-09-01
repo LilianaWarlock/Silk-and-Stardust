@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:ceramic_blocks",
+  "type": "remi:group",
+  "contents": ["#bountifulfares:dyeable_ceramic_blocks"],
+  "priority": 2,
+  "name": "Ceramic Blocks"
+}
