@@ -13,6 +13,18 @@
       "operation": "BASE"
     }
   ],
+  "minecraft:phantom": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 12,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 4,
+      "operation": "BASE"
+    }
+  ],
   "the_moth:moth_man": [
     {
       "attribute": "minecraft:generic.max_health",
