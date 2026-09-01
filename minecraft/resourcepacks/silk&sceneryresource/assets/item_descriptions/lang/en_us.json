@@ -1,3 +1,6 @@
 {
-  "enchantment.minecraft.protection.description": "An enchantment that reduces damage taken from direct melee hits."
+  "enchantment.minecraft.protection.description": "An enchantment that reduces damage taken from direct melee hits.",
+
+  "effect.minecraft.instant_damage.description": "An effect that damages you, and heals the undead.",
+  "effect.minecraft.instant_health.description": "An effect that heals you, and damages the undead."
 }
