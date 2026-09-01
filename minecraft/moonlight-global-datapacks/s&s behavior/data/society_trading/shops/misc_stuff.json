@@ -1,0 +1,294 @@
+{
+  "shop_id": "misc_stuff",
+  "name": { "translate": "shop.society_trading.misc_stuff.name" },
+  "display_type": "thin",
+  "texture": "minecraft:textures/block/lodestone_side",
+  "jei_catalyst": { "id": "nameless_trinkets:mysterious_trinket" },
+  "selector_weight": 99,
+  
+
+
+
+  "hidden_from_selector": false,
+  "trades": [
+    {
+      "offer": {
+        "id": "selling_bin:selling_bin",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 8
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_selling_bin",
+      "selector_weight": 1
+    },
+    {
+      "offer": {
+        "id": "minecraft:white_dye",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 3
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_white_dye",
+      "selector_weight": 2,
+      "stage_required": "fieldguide_tree_hugger"
+    },
+    {
+      "offer": {
+        "id": "minecraft:light_gray_dye",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 3
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_light_gray_dye",
+      "selector_weight": 2,
+      "stage_required": "fieldguide_tree_hugger"
+    },
+    {
+      "offer": {
+        "id": "minecraft:gray_dye",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 3
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_gray_dye",
+      "selector_weight": 2,
+      "stage_required": "fieldguide_tree_hugger"
+    },
+    {
+      "offer": {
+        "id": "minecraft:black_dye",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 3
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_black_dye",
+      "selector_weight": 2,
+      "stage_required": "fieldguide_tree_hugger"
+    },
+    {
+      "offer": {
+        "id": "minecraft:brown_dye",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 3
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_brown_dye",
+      "selector_weight": 2,
+      "stage_required": "fieldguide_tree_hugger"
+    },
+    {
+      "offer": {
+        "id": "minecraft:red_dye",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 3
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_red_dye",
+      "selector_weight": 2,
+      "stage_required": "fieldguide_tree_hugger"
+    },
+    {
+      "offer": {
+        "id": "minecraft:orange_dye",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 3
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_orange_dye",
+      "selector_weight": 2,
+      "stage_required": "fieldguide_tree_hugger"
+    },
+    {
+      "offer": {
+        "id": "minecraft:yellow_dye",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 3
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_yellow_dye",
+      "selector_weight": 2,
+      "stage_required": "fieldguide_tree_hugger"
+    },
+    {
+      "offer": {
+        "id": "minecraft:lime_dye",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 3
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_lime_dye",
+      "selector_weight": 2,
+      "stage_required": "fieldguide_tree_hugger"
+    },
+    {
+      "offer": {
+        "id": "minecraft:green_dye",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 3
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_green_dye",
+      "selector_weight": 2,
+      "stage_required": "fieldguide_tree_hugger"
+    },
+    {
+      "offer": {
+        "id": "minecraft:cyan_dye",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 3
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_cyan_dye",
+      "selector_weight": 2,
+      "stage_required": "fieldguide_tree_hugger"
+    },
+    {
+      "offer": {
+        "id": "minecraft:light_blue_dye",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 3
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_light_blue_dye",
+      "selector_weight": 2,
+      "stage_required": "fieldguide_tree_hugger"
+    },
+    {
+      "offer": {
+        "id": "minecraft:blue_dye",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 3
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_blue_dye",
+      "selector_weight": 2,
+      "stage_required": "fieldguide_tree_hugger"
+    },
+    {
+      "offer": {
+        "id": "minecraft:purple_dye",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 3
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_purple_dye",
+      "selector_weight": 2,
+      "stage_required": "fieldguide_tree_hugger"
+    },
+    {
+      "offer": {
+        "id": "minecraft:magenta_dye",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 3
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_magenta_dye",
+      "selector_weight": 2,
+      "stage_required": "fieldguide_tree_hugger"
+    },
+    {
+      "offer": {
+        "id": "minecraft:pink_dye",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 3
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_pink_dye",
+      "selector_weight": 2,
+      "stage_required": "fieldguide_tree_hugger"
+    },
+    {
+      "offer": {
+        "id": "minecraft:experience_bottle",
+        "count": 2
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 24
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_experience_bottle",
+      "selector_weight": 3,
+      "stage_required": "fieldguide_tree_hugger"
+    },
+    {
+      "offer": {
+        "id": "mob_repellent:wooden_brazier",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 64
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_wooden_brazier",
+      "selector_weight": 2,
+      "stage_required": "fieldguide_tree_hugger"
+    },
+    {
+      "offer": {
+        "id": "nameless_trinkets:fate_emerald",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald_block",
+        "count": 64
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_fate_emerald",
+      "selector_weight": 999
+    }
+  ]
+
+}

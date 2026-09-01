@@ -2,15 +2,22 @@
   "fieldguide.description.missing": "§oYou looked for notes... and found none.",
 
   "advancements.fieldguide.animal_expert.title": "Friends Everywhere!",
+  "advancements.fieldguide.animal_expert.description": "Documented every animal.",
 
-  "advancements.fieldguide.tree_hugger.title": "Tree Hugger",
-  "advancements.fieldguide.tree_hugger.description": "Documented a wide variety of plantlife.",
+  "advancements.fieldguide.critter_catcher.title": "Critter Catcher",
+  "advancements.fieldguide.critter_catcher.description": "Documented all of the crop critters.",
 
   "advancements.fieldguide.dont_blink.title": "Don't Blink",
   "advancements.fieldguide.dont_blink.description": "Documented the pale statue.",
 
   "advancements.fieldguide.monster_mash.title": "Monster Mash",
   "advancements.fieldguide.monster_mash.description": "Documented a variety of freaky foes.",
+
+  "advancements.fieldguide.tree_hugger.title": "Tree Hugger",
+  "advancements.fieldguide.tree_hugger.description": "Documented a wide variety of plantlife.",
+
+  "advancements.husbandry.shear_mooshroom.title": "Spore Choice",
+  "advancements.husbandry.shear_mooshroom.description": "Took the shroom out of 'mooshroom.'",
 
   "advancements.quark.autumn_every_day.title": "I Can Make it Autumn Every Day",
   "advancements.quark.autumn_every_day.description": "Document a variety of fall's flora.",

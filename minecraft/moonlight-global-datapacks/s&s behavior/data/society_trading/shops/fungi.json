@@ -4,7 +4,7 @@
   "display_type": "thin",
   "texture": "minecraft:textures/block/mycelium_top",
   "jei_catalyst": { "id": "ribbits:toadstool" },
-  "selector_weight": 2,
+  "selector_weight": 3,
   
 
 

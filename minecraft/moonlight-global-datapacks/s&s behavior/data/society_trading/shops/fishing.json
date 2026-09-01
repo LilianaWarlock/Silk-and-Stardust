@@ -1,0 +1,71 @@
+{
+  "shop_id": "fishing",
+  "name": { "translate": "shop.society_trading.fishing.name" },
+  "display_type": "thin",
+  "texture": "minecraft:textures/block/blue_concrete_powder",
+  "jei_catalyst": { "id": "minecraft:tropical_fish_bucket" },
+  "selector_weight": 4,
+  
+
+
+
+  "hidden_from_selector": false,
+  "trades": [
+    {
+      "offer": {
+        "id": "minecraft:fishing_rod",
+        "count": 1
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 12
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_fishing_rod",
+      "selector_weight": 1
+    },
+    {
+      "offer": {
+        "id": "starcatcher:worm",
+        "count": 6
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 4
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_worm",
+      "selector_weight": 2
+    },
+    {
+      "offer": {
+        "id": "starcatcher:almighty_worm",
+        "count": 6
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 16
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_almighty_worm",
+      "selector_weight": 3
+    },
+    {
+      "offer": {
+        "id": "starcatcher:seeking_worm",
+        "count": 6
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 32
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_seeking_worm",
+      "selector_weight": 4,
+      "stage_required": "bosses_kill_sandworm"
+    }
+
+
+  ]
+
+}

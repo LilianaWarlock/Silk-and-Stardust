@@ -1,6 +1,13 @@
 {
-  "shop.society_trading.saplings.name": "Saplings",
-  "shop.society_trading.saplings.description": "Your usual saplings.",
   "shop.society_trading.crops.name": "Crops",
-  "shop.society_trading.crops.description": "Plant and harvest."
+  "shop.society_trading.crops.description": "Plant and harvest.",
+
+  "shop.society_trading.fungi.name": "Fungi",
+  "shop.society_trading.fungi.description": "Spread the spores.",
+
+  "shop.society_trading.misc_stuff.name": "Miscellaneous",
+  "shop.society_trading.misc_stuff.description": "Things that don't fit elsewhere",
+
+  "shop.society_trading.saplings.name": "Saplings",
+  "shop.society_trading.saplings.description": "Your usual saplings."
 }
