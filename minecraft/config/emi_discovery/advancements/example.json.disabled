@@ -9,6 +9,12 @@
     ],
     "tags": [
       "#minecraft:stone_tool_materials"
+    ],
+    "fluids": [
+      "minecraft:water"
+    ],
+    "effects": [
+      "minecraft:speed"
     ]
   }
 ]

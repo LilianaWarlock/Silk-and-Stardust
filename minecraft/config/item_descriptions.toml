@@ -68,7 +68,7 @@ addToRecipeViewers = false
 [block_descriptions]
 	# This will show Block Descriptions in compatible mods. This can also be disabled in Jade/WTHIT's settings.
 	# default: true
-	enable = true
+	enable = false
 	# Always show Block Descriptions, not just when a key is held.
 	# default: false
 	show_always = false
@@ -76,7 +76,7 @@ addToRecipeViewers = false
 [entity_descriptions]
 	# This will show Entity Descriptions in compatible mods. This can also be disabled in Jade/WTHIT's settings.
 	# default: true
-	enable = true
+	enable = false
 	# Always show Entity Descriptions, not just when a key is held.
 	# default: false
 	show_always = false
@@ -119,7 +119,7 @@ addToRecipeViewers = false
 	colour = 5592405
 	# Replace Item Descriptions with Effect Descriptions when present.
 	# default: false
-	only_show_effect_descriptions = false
+	only_show_effect_descriptions = true
 	# Add Effect Descriptions Info Recipes to Potions when using Reliable Recipe Viewer
 	# default: true
 	addToRecipeViewers = true

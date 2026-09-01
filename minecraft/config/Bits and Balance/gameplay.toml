@@ -86,7 +86,7 @@
 	#Food
 	[balance.food]
 		#Allow players to eat unconditionally.
-		enableFoodAlwaysEdible = true
+		enableFoodAlwaysEdible = false
 
 	#Source Dependent Invulnerability Frames
 	[balance.sourceDependentIFrames]

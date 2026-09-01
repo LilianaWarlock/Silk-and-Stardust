@@ -151,7 +151,7 @@
 	/**
 	 * Whether recipes should have a button to fill the ingredients in a handler.
 	 */
-	recipe-fill-button: false;
+	recipe-fill-button: true;
 
 	/**
 	 * Whether recipes should have a button to take a screenshot of the recipe.
@@ -167,7 +167,7 @@
 	/**
 	 * The pages in the left sidebar
 	 */
-	left-sidebar-pages: favorites;
+	left-sidebar-pages: none;
 
 	/**
 	 * The subpanels in the left sidebar
@@ -212,12 +212,12 @@
 	/**
 	 * How many columns and rows of ingredients to limit the right sidebar to
 	 */
-	right-sidebar-size: 9, 100;
+	right-sidebar-size: 7, 100;
 
 	/**
 	 * How much space to maintain between the right sidebar and obstructions, in pixels
 	 */
-	right-sidebar-margins: 2, 2, 2, 2;
+	right-sidebar-margins: 2, 0, 2, 2;
 
 	/**
 	 * Where to position the right sidebar
@@ -232,7 +232,7 @@
 	/**
 	 * Which theme to use for the right sidebar
 	 */
-	right-sidebar-theme: transparent;
+	right-sidebar-theme: vanilla;
 
 	/**
 	 * The pages in the top sidebar

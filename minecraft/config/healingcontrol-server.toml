@@ -1,0 +1,94 @@
+#Enable mod and override vanilla mechanics
+enable_mod = true
+
+[natural_regeneration]
+	#Has no effect if the game rule naturalRegeneration is false
+	enable_natural_regeneration = true
+	#Interval between healing in ticks. To replicate vanilla behavior set to 80.
+	# Default: 80
+	# Range: 1 ~ 1200
+	natural_healing_interval = 20
+	#Amount healed per second, to heal to full in n seconds: x = 20/n; to replicate vanilla behavior set to 0.25
+	# Default: 0.1
+	# Range: 0.0 ~ 1000.0
+	natural_healing_amount = 0.25
+	#Enable healing rate modifier with saturation. To replicate vanilla behavior set to true
+	enable_saturation_healing = true
+	#Multiplier to the saturation healing formula used by Minecraft. To replicate vanilla behavior set to 1.0
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	saturation_healing_factor = 2.0
+	#Saturation healing interval. Vanilla: 10
+	# Default: 10
+	# Range: 0 ~ 72000
+	saturation_healing_interval = 20
+	#Delay after attacking a mob before healing resumes. To replicate vanilla behavior set to 0
+	# Default: 0
+	# Range: 0 ~ 72000
+	delay_after_attacking_mob = 0
+	#Delay after being hurt by a mob before healing resumes. To replicate vanilla behavior set to 0
+	# Default: 40
+	# Range: 0 ~ 72000
+	delay_after_hurt_by_mob = 0
+	#Minimum food level to heal. Vanilla: 18
+	# Default: 10
+	# Range: 0 ~ 20
+	min_food_to_heal = 4
+
+[exhaustion]
+	#Passive exhaustion per second. Vanilla: 0.0
+	# Default: 0.0
+	# Range: 0.0 ~ 4.0
+	exhaustion_passive = 0.0
+	#Exhaustion from healing 1 health point. Vanilla: 6.0
+	# Default: 4.0
+	# Range: 0.0 ~ 1000.0
+	exhaustion_healing = 6.0
+	#Vanilla: 0.05
+	# Default: 0.05
+	# Range: 0.0 ~ 4.0
+	exhaustion_jumping = 0.025
+	#Vanilla: 0.2
+	# Default: 0.2
+	# Range: 0.0 ~ 4.0
+	exhaustion_sprint_jumping = 0.15
+	#Vanilla: 0.01
+	# Default: 0.01
+	# Range: 0.0 ~ 4.0
+	exhaustion_swimming = 0.01
+	#Vanilla: 0.01
+	# Default: 0.01
+	# Range: 0.0 ~ 4.0
+	exhaustion_walking_on_water = 0.01
+	#Vanilla: 0.01
+	# Default: 0.01
+	# Range: 0.0 ~ 4.0
+	exhaustion_walking_under_water = 0.01
+	#Vanilla: 0.1
+	# Default: 0.1
+	# Range: 0.0 ~ 4.0
+	exhaustion_sprinting = 0.05
+	#Vanilla: 0.0
+	# Default: 0.0
+	# Range: 0.0 ~ 4.0
+	exhaustion_crouch_walking = 0.0
+	#Vanilla: 0.0
+	# Default: 0.0
+	# Range: 0.0 ~ 4.0
+	exhaustion_walking = 0.0
+	#Vanilla: 0.005
+	# Default: 0.004999999888241291
+	# Range: 0.0 ~ 4.0
+	exhaustion_block_broken = 0.0065
+
+[starvation]
+	#Make starvation lethal in all difficulties.
+	starve_in_all_difficulties = false
+	#To replicate vanilla behavior set to 80
+	# Default: 80
+	# Range: > 0
+	starvation_damage_interval = 80
+	#To replicate vanilla behavior set to 1.0
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	starvation_damage_amount = 1.0

@@ -221,9 +221,9 @@
 		#Enable blasting recipe for raw copper block to copper block (faster than smelting).
 		enableRawCopperBlastingRecipe = false
 		#Override ALL stair recipes (vanilla, modded, and custom) to output 8 stairs instead of 4.
-		enableStairRecipeOverride = true
+		enableStairRecipeOverride = false
 		#Add compact 2x2 stair recipes for ALL stair types (3 blocks in corner = 4 stairs). Works with any mod!
-		enableCompactStairRecipe = true
+		enableCompactStairRecipe = false
 
 	#Fuel Tweaks
 	[recipes.fuelTweaks]
