@@ -457,7 +457,7 @@
 	# Range: > 0
 	maxStampedeStriditeDrops = 5
 	#Magma Cube textures will scale with the model and conform to pixel consistency
-	pixelConsistentMagmaCubes = true
+	pixelConsistentMagmaCubes = false
 	#The chance for a stampede to be befriended when fed favorite foods; higher numbers make befriending harder
 	# Default: 8
 	# Range: > 0
