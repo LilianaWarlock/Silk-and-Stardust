@@ -98,6 +98,10 @@
     "waystones:prismarine_waystone",
     "waystones:mud_bricks_waystone",
     "bitsandbalance:vertical_slop",
-    "fightsfrights:rotten_handle"
+    "fightsfrights:rotten_handle",
+    "bitsandbalance:vertical_ceramic_tile_slab",
+    "bitsandbalance:vertical_ceramic_mosaic_slab",
+    "piglinproliferation:piglin_brute_head",
+    "rottencreatures:glacial_hunter_head"
   ]
 }

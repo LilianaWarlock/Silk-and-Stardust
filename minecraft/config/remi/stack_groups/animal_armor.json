@@ -1,0 +1,20 @@
+{
+  "id": "silkandstardust:animal_armors",
+  "type": "remi:group",
+  "contents": [
+    "#c:horse_armor",
+    "additionaladditions:rose_gold_horse_armor",
+    "unusualend:scale_horse_armor",
+    "minecraft:wolf_armor",
+    "crittersandcompanions:gold_dragonfly_armor",
+    "crittersandcompanions:diamond_dragonfly_armor",
+    "crittersandcompanions:netherite_dragonfly_armor",
+    "crittersandcompanions:iron_dragonfly_armor",
+    "companions:croissant_dragon_chocolate_armor",
+    "companions:croissant_dragon_vanilla_armor",
+    "companions:croissant_dragon_strawberry_armor",
+    "wan_ancient_beasts:surfer_armor",
+    "#minecraft:harnesses"
+  ],
+  "priority": 2
+}

@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:jewelry_pillows",
+  "type": "remi:regex",
+  "priority": 2,
+  "regex": "items_displayed:*_jewelry_pillow",
+  "name": "Jewelry Pillows"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "silkandstardust:sleeping_bags",
+  "type": "remi:group",
+  "contents": ["#comforts:sleeping_bags"],
+  "priority": 2
+}

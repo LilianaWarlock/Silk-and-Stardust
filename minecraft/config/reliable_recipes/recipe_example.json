@@ -7,7 +7,18 @@
       "nameless_trinkets:tick",
       "minecraft:creaking_heart",
       "society_trading:auto_trader",
-      "fightsfrights:trident_craft"
+      "fightsfrights:trident_craft",
+      "nameless_trinkets:dubious_dust",
+      "friendsandfoes:acacia_beehive",
+      "friendsandfoes:bamboo_beehive",
+      "friendsandfoes:birch_beehive",
+      "friendsandfoes:cherry_beehive",
+      "friendsandfoes:crimson_beehive",
+      "friendsandfoes:dark_oak_beehive",
+      "friendsandfoes:jungle_beehive",
+      "friendsandfoes:mangrove_beehive",
+      "friendsandfoes:spruce_beehive",
+      "friendsandfoes:warped_beehive"
     ]
   },
   {

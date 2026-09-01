@@ -1,0 +1,6 @@
+{
+  "id": "silkandstardust:hammocks",
+  "type": "remi:group",
+  "contents": ["#comforts:hammocks"],
+  "priority": 2
+}

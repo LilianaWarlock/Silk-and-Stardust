@@ -2,6 +2,18 @@
   {
     "action": "remove_creative",
     "tags": ["bitsandbalance:vertical_steps", "bitsandbalance:steps"],
-    "items": ["society_trading:auto_trader"]
+    "items": [
+      "society_trading:auto_trader",
+      "friendsandfoes:acacia_beehive",
+      "friendsandfoes:bamboo_beehive",
+      "friendsandfoes:birch_beehive",
+      "friendsandfoes:cherry_beehive",
+      "friendsandfoes:crimson_beehive",
+      "friendsandfoes:dark_oak_beehive",
+      "friendsandfoes:jungle_beehive",
+      "friendsandfoes:mangrove_beehive",
+      "friendsandfoes:spruce_beehive",
+      "friendsandfoes:warped_beehive"
+    ]
   }
 ]

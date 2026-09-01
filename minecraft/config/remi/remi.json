@@ -20,7 +20,9 @@
   "stackGroupsCraftables": true,
   "stackGroupsWorkstation": false,
   "stackGroupsFavorites": false,
-  "disabledStackGroups": [],
+  "disabledStackGroups": [
+    "minecraft:animal_armors"
+  ],
   "stackGroupItemOrder": {},
   "emiOnlyInRecipeBook": false,
   "emiOnlyInRecipeBookState": false,
