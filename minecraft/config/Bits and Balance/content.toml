@@ -386,7 +386,7 @@
 		#Returning Potion
 		[lootTables.ancientCityLoot.returningPotion]
 			#Add Returning Potion to ancient city loot tables.
-			enableReturningPotion = true
+			enableReturningPotion = false
 			#Weight for Returning Potion in ancient city loot (higher = more common).
 			# Default: 3
 			# Range: 1 ~ 100

@@ -1,18 +1,18 @@
-filename = 'resourcepacksettings-1.0.3+1.21.1.jar'
-name = 'ResourcePackSettings'
-side = 'client'
+filename = 'resourcepacksettings-1.2.31+1.21.1.jar'
+name = 'Resource Pack Settings'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.0.3+1.21.1'
+x-prismlauncher-version-number = '1.2.31+1.21.1'
 
 [download]
-hash = '5a8dd246ed3f0755b2775217961691478ee143761eb65401514911556741a7e4ef2ca72d74dc671f6fc7b3284fbd3255d5c401ca9984c68e8d4844990f6e3d33'
+hash = '8c2e0d0a51cc99abca39e2a1a3d1d5ca75030cc8a82b97cf32f143f288d2dcbefb2d162ff72a55d65755bbae2144c971cb12a6ebed22f1ea916cf29f1ee0875a'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/rTlbu6CW/versions/eVvEwOOp/resourcepacksettings-1.0.3%2B1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/rTlbu6CW/versions/gtXnql0V/resourcepacksettings-1.2.31%2B1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'rTlbu6CW'
-version = 'eVvEwOOp'
+version = 'gtXnql0V'

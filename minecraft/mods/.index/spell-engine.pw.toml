@@ -1,24 +1,20 @@
-filename = 'spell_engine-neoforge-1.10.2+1.21.1.jar'
+filename = 'spell_engine-neoforge-1.10.5+1.21.1.jar'
 name = 'Spell Engine'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.10.2+1.21.1-neoforge'
+x-prismlauncher-version-number = '1.10.5+1.21.1-neoforge'
 
 [download]
-hash = 'e0783e3357eaac79f8071af26e1ccddf0eb1cb636d559edbacc3a49e557231320206e8cb863b477f251c261c28f6cc73d5f3b68668696202a0faa8eee35f7617'
+hash = '19e3ada91b5466cff34155d438b70ed78bf89114064ca3704e844dcef3ebe36cd86062f220c9ff1c2ae2a64d08de82b84ed72ef4419056c4a7facb2bbb840d83'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/XvoWJaA2/versions/jNkZJ9wR/spell_engine-neoforge-1.10.2%2B1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/XvoWJaA2/versions/VQ29MaF4/spell_engine-neoforge-1.10.5%2B1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'XvoWJaA2'
-version = 'jNkZJ9wR'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'vvuO3ImH'
-type = 'REQUIRED'
+version = 'VQ29MaF4'
 
 [[x-prismlauncher-dependencies]]
 addonId = '9s6osm5g'
@@ -26,6 +22,10 @@ type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'gedNE4y2'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vvuO3ImH'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]

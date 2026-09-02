@@ -4,6 +4,7 @@
 	"craftingModifier": false,
 	"merchantModifier": false,
 	"reforgeModifier": 0.8999999761581421,
+	"herosLevelsReforgeModifier": 0.009999999776482582,
 	"luckReforgeModifier": 0.019999999552965164,
 	"uniqueReforge": false,
 	"showReforgingTab": true,

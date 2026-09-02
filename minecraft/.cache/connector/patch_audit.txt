@@ -1,12 +1,7 @@
 ==== Connector Mixin Patch Audit Summary ====
-Successful: 1
+Successful: 0
 Partial: 0
 Failed: 0
-Success rate: 100.00%        Accuracy: 100.00%
+Success rate: NaN%        Accuracy: NaN%
 =============================================
-
-Mixin method me/melontini/dark_matter/impl/minecraft/mixin/events/MinecraftClientMixin dark_matter$init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V
-  >> Using org.sinytra.adapter.patch.processor.PropertyProcessor
-     - Set property 'at' to: AtData{value=TAIL}
-     - Set property 'method' to: MethodQualifier[owner=null, name=lambda$new$5, desc=(Lnet/minecraft/server/packs/resources/ReloadInstance;)Ljava/lang/Object;]
 
