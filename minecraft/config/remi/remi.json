@@ -21,7 +21,8 @@
   "stackGroupsWorkstation": false,
   "stackGroupsFavorites": false,
   "disabledStackGroups": [
-    "minecraft:animal_armors"
+    "minecraft:animal_armors",
+    "minecraft:boats"
   ],
   "stackGroupItemOrder": {},
   "emiOnlyInRecipeBook": false,

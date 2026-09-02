@@ -1,0 +1,6 @@
+{
+  "id": "silkandstardust:gliders",
+  "type": "remi:group",
+  "contents": ["#vc_gliders:gliders"],
+  "priority": 10
+}

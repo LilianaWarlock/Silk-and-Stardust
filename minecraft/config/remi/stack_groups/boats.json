@@ -1,0 +1,14 @@
+{
+  "id": "silkandstardust:boats",
+  "type": "remi:group",
+  "contents": [
+    "#minecraft:boats",
+    "terrarianmight:yellow_willow_boat",
+    "terrarianmight:yellow_willow_chest_boat",
+    "bountifulfares:walnut_boat",
+    "bountifulfares:walnut_chest_boat",
+    "bountifulfares:hoary_boat",
+    "bountifulfares:hoary_chest_boat"
+  ],
+  "priority": 10
+}

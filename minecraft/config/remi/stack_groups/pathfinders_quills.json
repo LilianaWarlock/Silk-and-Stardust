@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:pathfinders_quills",
+  "type": "remi:group",
+  "contents": ["quark:pathfinders_quill"],
+  "priority": 2,
+  "name": "Pathfinder's Quills"
+}

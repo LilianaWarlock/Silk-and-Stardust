@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:mushroom_lights",
+  "type": "remi:regex",
+  "priority": 2,
+  "regex": "nightlights:mushroom_*",
+  "name": "Mushroom Nightlights"
+}

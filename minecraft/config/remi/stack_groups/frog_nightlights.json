@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:frog_lights",
+  "type": "remi:regex",
+  "priority": 2,
+  "regex": "nightlights:frog_*",
+  "name": "Frog Nightlights"
+}

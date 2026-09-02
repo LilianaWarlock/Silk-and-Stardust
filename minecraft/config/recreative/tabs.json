@@ -1,0 +1,1213 @@
+[
+  {
+    "action": "remove_tab",
+    "tab": [
+      "variantsandventures:main_tab",
+      "aether:spawn_eggs",
+      "rpgbackpacks:backpacks_tab",
+      "nightlights:night_lights",
+      "society_trading:tab",
+      "ore_creeper:ore_creeper",
+      "plushie_buddies:sw_plushie_tab",
+      "bountifulfares:bountiful_fares_compatibility",
+      "denseores:dense_ores",
+      "creeperoverhaul:item_group",
+      "yo_hooks:grappling_hooks",
+      "netherexp:mod_compat",
+      "vc_gliders:technology",
+      "scannable:common"
+    ],
+    "remove_items": [],
+    "add_items": [],
+    "order": []
+  },
+  {
+    "action": "tab_order",
+    "tab": [],
+    "remove_items": [],
+    "add_items": [],
+    "order": [
+      "minecraft:building_blocks",
+      "minecraft:colored_blocks",
+      "minecraft:natural_blocks",
+      "minecraft:functional_blocks",
+      "minecraft:redstone_blocks",
+      "minecraft:combat",
+      "minecraft:tools_and_utilities",
+      "minecraft:food_and_drinks",
+      "minecraft:ingredients",
+      "minecraft:spawn_eggs",
+      "minecraft:hotbar",
+      "minecraft:inventory",
+      "minecraft:op_blocks",
+      "minecraft:search",
+      "cozyhome:cozyhome",
+      "jewelry:generic",
+      "aether:armor_and_accessories",
+      "aether:building_blocks",
+      "aether:dungeon_blocks",
+      "aether:natural_blocks",
+      "aether:equipment_and_utilities",
+      "aether:food_and_drinks",
+      "aether:functional_blocks",
+      "aether:ingredients",
+      "aether:redstone_blocks",
+      "aether:spawn_eggs",
+      "aquamirae:aquamirae",
+      "archers:generic",
+      "armory_rpgs:generic",
+      "artifacts:main",
+      "betterarcheology:betterarcheology",
+      "block_factorys_bosses:blockfactorysbossestab",
+      "bosses_of_mass_destruction:bosses_of_mass_destruction",
+      "bountifulfares:bountiful_fares",
+      "bountifulfares:bountiful_fares_compatibility",
+      "bountifulseals:seal_tab",
+      "companions:companions_tab",
+      "creeperoverhaul:item_group",
+      "crittersandcompanions:main",
+      "cropcritters:cropcritters_tab",
+      "darkerdepths:darkerdepths",
+      "denseores:dense_ores",
+      "enderscape:enderscape",
+      "eternal_starlight:blocks",
+      "eternal_starlight:combat",
+      "eternal_starlight:food_and_drinks",
+      "eternal_starlight:ingredients",
+      "eternal_starlight:misc",
+      "eternal_starlight:spawn_eggs",
+      "eternal_starlight:tools",
+      "farmingforblockheads:farmingforblockheads",
+      "fightsfrights:creative_tab",
+      "friendsandfoes:main_tab",
+      "friendsforlife:friendsforlife",
+      "gateway_of_doom:gateway_of_doom",
+      "ghosts:ghosts_creative_tab",
+      "golemoverhaul:main",
+      "hexerei:hexerei_tab",
+      "infernalexp:infernalexp",
+      "items_displayed:display",
+      "kobolds:kobolds",
+      "kubejs:tab",
+      "leafscopperbackport:leafs_copper_backport",
+      "luminous_butterflies:luminous_butterflies",
+      "mob_repellent:mob_repellent_tab",
+      "nameless_trinkets:nameless_trinkets",
+      "netherexp:basalt_deltas",
+      "netherexp:crimson_forest",
+      "netherexp:mod_compat",
+      "netherexp:nether_wastes",
+      "netherexp:soul_sand_valley",
+      "netherexp:warped_forest",
+      "netherman:netherman_tab",
+      "nethers_exoticism:nethers_exoticism",
+      "nightlights:night_lights",
+      "ore_creeper:ore_creeper",
+      "paladins:generic",
+      "plushie_buddies:plushie_tab",
+      "plushie_buddies:sw_plushie_tab",
+      "relics_rpgs:generic",
+      "ribbits:general",
+      "rogues:generic",
+      "rottencreatures:rotten_creatures",
+      "royalvariations:royalvariations",
+      "rpgbackpacks:backpacks_tab",
+      "scannable:common",
+      "selling_bin:selling_bin",
+      "serene_shrubbery:serene_shrubbery",
+      "society_trading:tab",
+      "spell_engine:generic",
+      "starcatcher:starcatcher",
+      "terrarianmight:terrarian_might",
+      "unusualend:unusual_end",
+      "unusualend:unusual_end_gloopstone_lands",
+      "unusualend:unusual_end_warped_reef",
+      "vanillabackport:vanilla_backport",
+      "variantsandventures:main_tab",
+      "vc_gliders:technology",
+      "wan_ancient_beasts:wan_ancient_beasts",
+      "wands:wands_tab",
+      "waystones:waystones",
+      "wizards:generic",
+      "yo_hooks:grappling_hooks"
+    ]
+  },
+  {
+    "action": "modify_tab",
+    "tab": ["jewelry:generic"],
+    "remove_items": [
+      "jewelry:tanzanite",
+      "jewelry:sapphire",
+      "jewelry:jade",
+      "jewelry:citrine",
+      "jewelry:topaz",
+      "jewelry:ruby"
+    ],
+    "add_items": [],
+    "order": []
+  },
+  {
+    "action": "modify_tab",
+    "tab": ["minecraft:ingredients"],
+    "remove_items": [],
+    "add_items": [
+      {
+        "item": "jewelry:ruby",
+        "after": "terrarianmight:life_shard"
+      },
+      {
+        "item": "jewelry:citrine",
+        "after": "jewelry:ruby"
+      },
+      {
+        "item": "jewelry:topaz",
+        "after": "jewelry:citrine"
+      },
+      {
+        "item": "jewelry:jade",
+        "after": "jewelry:topaz"
+      },
+      {
+        "item": "jewelry:sapphire",
+        "after": "jewelry:jade"
+      },
+      {
+        "item": "jewelry:tanzanite",
+        "after": "jewelry:sapphire"
+      },
+      {
+        "item": "minecraft:quartz",
+        "after": "jewelry:tanzanite"
+      },
+      {
+        "item": "minecraft:ancient_debris",
+        "after": "minecraft:quartz"
+      },
+      {
+        "item": "leafscopperbackport:copper_nugget",
+        "after": "minecraft:iron_nugget"
+      },
+      {
+        "item": "enderscape:nebulite_shards",
+        "after": "enderscape:shadoline_ingot"
+      },
+      {
+        "item": "waystones:warp_dust",
+        "after": "minecraft:flint"
+      },
+      {
+        "item": "waystones:dormant_shard",
+        "after": "waystones:warp_dust"
+      },
+      {
+        "item": "minecraft:wheat",
+        "after": "waystones:dormant_shard"
+      },
+      {
+        "item": "creaturefeature:living_glass_shards",
+        "after": "minecraft:blue_egg"
+      },
+      {
+        "item": "minecraft:rabbit_hide",
+        "after": "creaturefeature:coat_scraps"
+      },
+      {
+        "item": "vc_gliders:reinforced_paper",
+        "after": "minecraft:leather"
+      },
+      {
+        "item": "vc_gliders:reinforced_paper_iron",
+        "after": "vc_gliders:reinforced_paper"
+      },
+      {
+        "item": "vc_gliders:reinforced_paper_gold",
+        "after": "vc_gliders:reinforced_paper_iron"
+      },
+      {
+        "item": "vc_gliders:reinforced_paper_diamond",
+        "after": "vc_gliders:reinforced_paper_gold"
+      },
+      {
+        "item": "vc_gliders:reinforced_paper_netherite",
+        "after": "vc_gliders:reinforced_paper_diamond"
+      },
+      {
+        "item": "fightsfrights:empty_hex",
+        "after": "fightsfrights:nightmare"
+      }
+    ],
+    "order": []
+  },
+  {
+    "action": "modify_tab",
+    "tab": ["minecraft:functional_blocks"],
+    "icon": "minecraft:birch_hanging_sign",
+    "remove_items": ["minecraft:glow_lichen"],
+    "add_items": [],
+    "order": []
+  },
+  {
+    "action": "modify_tab",
+    "tab": ["minecraft:tools_and_utilities"],
+    "icon": "leafscopperbackport:copper_pickaxe",
+    "remove_items": [
+      "wardenhorn:warden_horn",
+      "fightsfrights:putrid_scythe_2",
+      "the_moth:moth_spear",
+      "fightsfrights:empty_hex"
+    ],
+    "add_items": [
+      {
+        "item": "leafscopperbackport:copper_shovel",
+        "after": "minecraft:stone_hoe"
+      },
+      {
+        "item": "leafscopperbackport:copper_pickaxe",
+        "after": "leafscopperbackport:copper_shovel"
+      },
+      {
+        "item": "leafscopperbackport:copper_axe",
+        "after": "leafscopperbackport:copper_pickaxe"
+      },
+      {
+        "item": "leafscopperbackport:copper_hoe",
+        "after": "leafscopperbackport:copper_axe"
+      },
+      {
+        "item": "vc_gliders:paraglider_wood",
+        "after": "leafscopperbackport:copper_hoe"
+      },
+      {
+        "item": "rpgbackpacks:leather_backpack",
+        "after": "vc_gliders:paraglider_wood"
+      },
+      {
+        "item": "yo_hooks:iron_grappling_hook",
+        "after": "minecraft:iron_hoe"
+      },
+      {
+        "item": "vc_gliders:paraglider_iron",
+        "after": "yo_hooks:iron_grappling_hook"
+      },
+      {
+        "item": "rpgbackpacks:iron_backpack",
+        "after": "vc_gliders:paraglider_iron"
+      },
+      {
+        "item": "yo_hooks:gold_grappling_hook",
+        "after": "minecraft:golden_hoe"
+      },
+      {
+        "item": "vc_gliders:paraglider_gold",
+        "after": "yo_hooks:gold_grappling_hook"
+      },
+      {
+        "item": "rpgbackpacks:golden_backpack",
+        "after": "vc_gliders:paraglider_gold"
+      },
+      {
+        "item": "yo_hooks:diamond_grappling_hook",
+        "after": "minecraft:diamond_hoe"
+      },
+      {
+        "item": "vc_gliders:paraglider_diamond",
+        "after": "yo_hooks:diamond_grappling_hook"
+      },
+      {
+        "item": "rpgbackpacks:diamond_backpack",
+        "after": "vc_gliders:paraglider_diamond"
+      },
+      {
+        "item": "yo_hooks:netherite_grappling_hook",
+        "after": "minecraft:netherite_hoe"
+      },
+      {
+        "item": "vc_gliders:paraglider_netherite",
+        "after": "yo_hooks:netherite_grappling_hook"
+      },
+      {
+        "item": "rpgbackpacks:netherite_backpack",
+        "after": "vc_gliders:paraglider_netherite"
+      },
+      {
+        "item": "scannable:scanner",
+        "after": "minecraft:milk_bucket"
+      },
+      {
+        "item": "scannable:blank_module",
+        "after": "scannable:scanner"
+      },
+      {
+        "item": "scannable:range_module",
+        "after": "scannable:blank_module"
+      },
+      {
+        "item": "scannable:entity_module",
+        "after": "scannable:range_module"
+      },
+      {
+        "item": "scannable:friendly_entity_module",
+        "after": "scannable:entity_module"
+      },
+      {
+        "item": "scannable:hostile_entity_module",
+        "after": "scannable:friendly_entity_module"
+      },
+      {
+        "item": "scannable:block_module",
+        "after": "scannable:hostile_entity_module"
+      },
+      {
+        "item": "scannable:common_ores_module",
+        "after": "scannable:block_module"
+      },
+      {
+        "item": "scannable:rare_ores_module",
+        "after": "scannable:common_ores_module"
+      },
+      {
+        "item": "scannable:fluid_module",
+        "after": "scannable:rare_ores_module"
+      },
+      {
+        "item": "scannable:chest_module",
+        "after": "scannable:fluid_module"
+      },
+      {
+        "item": "vc_gliders:copper_upgrade",
+        "after": "scannable:chest_module"
+      },
+      {
+        "item": "vc_gliders:nether_upgrade",
+        "after": "vc_gliders:copper_upgrade"
+      },
+      {
+        "item": "waystones:return_scroll",
+        "after": "minecraft:lead"
+      },
+      {
+        "item": "waystones:blank_scroll",
+        "after": "waystones:return_scroll"
+      },
+      {
+        "item": "waystones:warp_scroll",
+        "after": "waystones:blank_scroll"
+      },
+      {
+        "item": "waystones:portal_scroll",
+        "after": "waystones:warp_scroll"
+      },
+      {
+        "item": "waystones:warp_stone",
+        "after": "waystones:portal_scroll"
+      },
+      {
+        "item": "waystones:twinbound_feather",
+        "after": "waystones:warp_stone"
+      },
+      {
+        "item": "waystones:epitaph",
+        "after": "waystones:twinbound_feather"
+      },
+      {
+        "item": "fightsfrights:allbomb",
+        "after": "wanderer_ribbit:umbrellaleaf"
+      },
+      {
+        "item": "yo_hooks:iron_hook_head",
+        "after": "baublemounts:mount_bauble"
+      },
+      {
+        "item": "yo_hooks:gold_hook_head",
+        "after": "yo_hooks:iron_hook_head"
+      },
+      {
+        "item": "yo_hooks:diamond_hook_head",
+        "after": "yo_hooks:gold_hook_head"
+      },
+      {
+        "item": "yo_hooks:netherite_hook_head",
+        "after": "yo_hooks:diamond_hook_head"
+      }
+    ],
+    "order": []
+  },
+  {
+    "action": "modify_tab",
+    "tab": ["cozyhome:cozyhome"],
+    "name": "Decoration",
+    "remove_items": [],
+    "add_items": [
+      {
+        "item": "bountifulfares:oak_pickets",
+        "after": "cozyhome:trader_cushion"
+      },
+      {
+        "item": "bountifulfares:spruce_pickets",
+        "after": "bountifulfares:oak_pickets"
+      },
+      {
+        "item": "bountifulfares:birch_pickets",
+        "after": "bountifulfares:spruce_pickets"
+      },
+      {
+        "item": "bountifulfares:jungle_pickets",
+        "after": "bountifulfares:birch_pickets"
+      },
+      {
+        "item": "bountifulfares:acacia_pickets",
+        "after": "bountifulfares:jungle_pickets"
+      },
+      {
+        "item": "bountifulfares:dark_oak_pickets",
+        "after": "bountifulfares:acacia_pickets"
+      },
+      {
+        "item": "bountifulfares:mangrove_pickets",
+        "after": "bountifulfares:dark_oak_pickets"
+      },
+      {
+        "item": "bountifulfares:cherry_pickets",
+        "after": "bountifulfares:mangrove_pickets"
+      },
+      {
+        "item": "bountifulfares:bamboo_pickets",
+        "after": "bountifulfares:cherry_pickets"
+      },
+      {
+        "item": "bountifulfares:walnut_pickets",
+        "after": "bountifulfares:bamboo_pickets"
+      },
+      {
+        "item": "bountifulfares:hoary_pickets",
+        "after": "bountifulfares:walnut_pickets"
+      },
+      {
+        "item": "bountifulfares:crimson_pickets",
+        "after": "bountifulfares:hoary_pickets"
+      },
+      {
+        "item": "bountifulfares:warped_pickets",
+        "after": "bountifulfares:crimson_pickets"
+      },
+      {
+        "item": "bountifulfares:iron_railing",
+        "after": "bountifulfares:warped_pickets"
+      },
+      {
+        "item": "bountifulfares:trellis",
+        "after": "bountifulfares:iron_railing"
+      },
+      {
+        "item": "bountifulfares:spruce_trellis",
+        "after": "bountifulfares:trellis"
+      },
+      {
+        "item": "bountifulfares:birch_trellis",
+        "after": "bountifulfares:spruce_trellis"
+      },
+      {
+        "item": "bountifulfares:jungle_trellis",
+        "after": "bountifulfares:birch_trellis"
+      },
+      {
+        "item": "bountifulfares:acacia_trellis",
+        "after": "bountifulfares:jungle_trellis"
+      },
+      {
+        "item": "bountifulfares:dark_oak_trellis",
+        "after": "bountifulfares:acacia_trellis"
+      },
+      {
+        "item": "bountifulfares:mangrove_trellis",
+        "after": "bountifulfares:dark_oak_trellis"
+      },
+      {
+        "item": "bountifulfares:cherry_trellis",
+        "after": "bountifulfares:mangrove_trellis"
+      },
+      {
+        "item": "bountifulfares:bamboo_trellis",
+        "after": "bountifulfares:cherry_trellis"
+      },
+      {
+        "item": "bountifulfares:walnut_trellis",
+        "after": "bountifulfares:bamboo_trellis"
+      },
+      {
+        "item": "bountifulfares:hoary_trellis",
+        "after": "bountifulfares:walnut_trellis"
+      },
+      {
+        "item": "bountifulfares:crimson_trellis",
+        "after": "bountifulfares:hoary_trellis"
+      },
+      {
+        "item": "bountifulfares:warped_trellis",
+        "after": "bountifulfares:crimson_trellis"
+      },
+      {
+        "item": "nightlights:frog_black",
+        "after": "bountifulfares:warped_trellis"
+      },
+      {
+        "item": "nightlights:frog_blue",
+        "after": "nightlights:frog_black"
+      },
+      {
+        "item": "nightlights:frog_brown",
+        "after": "nightlights:frog_blue"
+      },
+      {
+        "item": "nightlights:frog_cyan",
+        "after": "nightlights:frog_brown"
+      },
+      {
+        "item": "nightlights:frog_gray",
+        "after": "nightlights:frog_cyan"
+      },
+      {
+        "item": "nightlights:frog_green",
+        "after": "nightlights:frog_gray"
+      },
+      {
+        "item": "nightlights:frog_light_blue",
+        "after": "nightlights:frog_green"
+      },
+      {
+        "item": "nightlights:frog_light_gray",
+        "after": "nightlights:frog_light_blue"
+      },
+      {
+        "item": "nightlights:frog_lime",
+        "after": "nightlights:frog_light_gray"
+      },
+      {
+        "item": "nightlights:frog_magenta",
+        "after": "nightlights:frog_lime"
+      },
+      {
+        "item": "nightlights:frog_orange",
+        "after": "nightlights:frog_magenta"
+      },
+      {
+        "item": "nightlights:frog_pink",
+        "after": "nightlights:frog_orange"
+      },
+      {
+        "item": "nightlights:frog_purple",
+        "after": "nightlights:frog_pink"
+      },
+      {
+        "item": "nightlights:frog_red",
+        "after": "nightlights:frog_purple"
+      },
+      {
+        "item": "nightlights:frog_white",
+        "after": "nightlights:frog_red"
+      },
+      {
+        "item": "nightlights:frog_yellow",
+        "after": "nightlights:frog_white"
+      },
+      {
+        "item": "nightlights:mushroom_black",
+        "after": "nightlights:frog_yellow"
+      },
+      {
+        "item": "nightlights:mushroom_blue",
+        "after": "nightlights:mushroom_black"
+      },
+      {
+        "item": "nightlights:mushroom_brown",
+        "after": "nightlights:mushroom_blue"
+      },
+      {
+        "item": "nightlights:mushroom_cyan",
+        "after": "nightlights:mushroom_brown"
+      },
+      {
+        "item": "nightlights:mushroom_gray",
+        "after": "nightlights:mushroom_cyan"
+      },
+      {
+        "item": "nightlights:mushroom_green",
+        "after": "nightlights:mushroom_gray"
+      },
+      {
+        "item": "nightlights:mushroom_light_blue",
+        "after": "nightlights:mushroom_green"
+      },
+      {
+        "item": "nightlights:mushroom_light_gray",
+        "after": "nightlights:mushroom_light_blue"
+      },
+      {
+        "item": "nightlights:mushroom_lime",
+        "after": "nightlights:mushroom_light_gray"
+      },
+      {
+        "item": "nightlights:mushroom_magenta",
+        "after": "nightlights:mushroom_lime"
+      },
+      {
+        "item": "nightlights:mushroom_orange",
+        "after": "nightlights:mushroom_magenta"
+      },
+      {
+        "item": "nightlights:mushroom_pink",
+        "after": "nightlights:mushroom_orange"
+      },
+      {
+        "item": "nightlights:mushroom_purple",
+        "after": "nightlights:mushroom_pink"
+      },
+      {
+        "item": "nightlights:mushroom_red",
+        "after": "nightlights:mushroom_purple"
+      },
+      {
+        "item": "nightlights:mushroom_white",
+        "after": "nightlights:mushroom_red"
+      },
+      {
+        "item": "nightlights:mushroom_yellow",
+        "after": "nightlights:mushroom_white"
+      },
+      {
+        "item": "nightlights:octopus_black",
+        "after": "nightlights:mushroom_yellow"
+      },
+      {
+        "item": "nightlights:octopus_blue",
+        "after": "nightlights:octopus_black"
+      },
+      {
+        "item": "nightlights:octopus_brown",
+        "after": "nightlights:octopus_blue"
+      },
+      {
+        "item": "nightlights:octopus_cyan",
+        "after": "nightlights:octopus_brown"
+      },
+      {
+        "item": "nightlights:octopus_gray",
+        "after": "nightlights:octopus_cyan"
+      },
+      {
+        "item": "nightlights:octopus_green",
+        "after": "nightlights:octopus_gray"
+      },
+      {
+        "item": "nightlights:octopus_light_blue",
+        "after": "nightlights:octopus_green"
+      },
+      {
+        "item": "nightlights:octopus_light_gray",
+        "after": "nightlights:octopus_light_blue"
+      },
+      {
+        "item": "nightlights:octopus_lime",
+        "after": "nightlights:octopus_light_gray"
+      },
+      {
+        "item": "nightlights:octopus_magenta",
+        "after": "nightlights:octopus_lime"
+      },
+      {
+        "item": "nightlights:octopus_orange",
+        "after": "nightlights:octopus_magenta"
+      },
+      {
+        "item": "nightlights:octopus_pink",
+        "after": "nightlights:octopus_orange"
+      },
+      {
+        "item": "nightlights:octopus_purple",
+        "after": "nightlights:octopus_pink"
+      },
+      {
+        "item": "nightlights:octopus_red",
+        "after": "nightlights:octopus_purple"
+      },
+      {
+        "item": "nightlights:octopus_white",
+        "after": "nightlights:octopus_red"
+      },
+      {
+        "item": "nightlights:octopus_yellow",
+        "after": "nightlights:octopus_white"
+      },
+      {
+        "item": "nightlights:hanging_lights_default",
+        "after": "nightlights:octopus_yellow"
+      },
+      {
+        "item": "nightlights:hanging_lights_black",
+        "after": "nightlights:hanging_lights_default"
+      },
+      {
+        "item": "nightlights:hanging_lights_blue",
+        "after": "nightlights:hanging_lights_black"
+      },
+      {
+        "item": "nightlights:hanging_lights_brown",
+        "after": "nightlights:hanging_lights_blue"
+      },
+      {
+        "item": "nightlights:hanging_lights_cyan",
+        "after": "nightlights:hanging_lights_brown"
+      },
+      {
+        "item": "nightlights:hanging_lights_gray",
+        "after": "nightlights:hanging_lights_cyan"
+      },
+      {
+        "item": "nightlights:hanging_lights_green",
+        "after": "nightlights:hanging_lights_gray"
+      },
+      {
+        "item": "nightlights:hanging_lights_light_blue",
+        "after": "nightlights:hanging_lights_green"
+      },
+      {
+        "item": "nightlights:hanging_lights_light_gray",
+        "after": "nightlights:hanging_lights_light_blue"
+      },
+      {
+        "item": "nightlights:hanging_lights_lime",
+        "after": "nightlights:hanging_lights_light_gray"
+      },
+      {
+        "item": "nightlights:hanging_lights_magenta",
+        "after": "nightlights:hanging_lights_lime"
+      },
+      {
+        "item": "nightlights:hanging_lights_orange",
+        "after": "nightlights:hanging_lights_magenta"
+      },
+      {
+        "item": "nightlights:hanging_lights_pink",
+        "after": "nightlights:hanging_lights_orange"
+      },
+      {
+        "item": "nightlights:hanging_lights_purple",
+        "after": "nightlights:hanging_lights_pink"
+      },
+      {
+        "item": "nightlights:hanging_lights_red",
+        "after": "nightlights:hanging_lights_purple"
+      },
+      {
+        "item": "nightlights:hanging_lights_white",
+        "after": "nightlights:hanging_lights_red"
+      },
+      {
+        "item": "nightlights:hanging_lights_yellow",
+        "after": "nightlights:hanging_lights_white"
+      },
+      {
+        "item": "nightlights:fairy_lights_default",
+        "after": "nightlights:hanging_lights_yellow"
+      },
+      {
+        "item": "nightlights:fairy_lights_black",
+        "after": "nightlights:fairy_lights_default"
+      },
+      {
+        "item": "nightlights:fairy_lights_blue",
+        "after": "nightlights:fairy_lights_black"
+      },
+      {
+        "item": "nightlights:fairy_lights_brown",
+        "after": "nightlights:fairy_lights_blue"
+      },
+      {
+        "item": "nightlights:fairy_lights_cyan",
+        "after": "nightlights:fairy_lights_brown"
+      },
+      {
+        "item": "nightlights:fairy_lights_gray",
+        "after": "nightlights:fairy_lights_cyan"
+      },
+      {
+        "item": "nightlights:fairy_lights_green",
+        "after": "nightlights:fairy_lights_gray"
+      },
+      {
+        "item": "nightlights:fairy_lights_light_blue",
+        "after": "nightlights:fairy_lights_green"
+      },
+      {
+        "item": "nightlights:fairy_lights_light_gray",
+        "after": "nightlights:fairy_lights_light_blue"
+      },
+      {
+        "item": "nightlights:fairy_lights_lime",
+        "after": "nightlights:fairy_lights_light_gray"
+      },
+      {
+        "item": "nightlights:fairy_lights_magenta",
+        "after": "nightlights:fairy_lights_lime"
+      },
+      {
+        "item": "nightlights:fairy_lights_orange",
+        "after": "nightlights:fairy_lights_magenta"
+      },
+      {
+        "item": "nightlights:fairy_lights_pink",
+        "after": "nightlights:fairy_lights_orange"
+      },
+      {
+        "item": "nightlights:fairy_lights_purple",
+        "after": "nightlights:fairy_lights_pink"
+      },
+      {
+        "item": "nightlights:fairy_lights_red",
+        "after": "nightlights:fairy_lights_purple"
+      },
+      {
+        "item": "nightlights:fairy_lights_white",
+        "after": "nightlights:fairy_lights_red"
+      },
+      {
+        "item": "nightlights:fairy_lights_yellow",
+        "after": "nightlights:fairy_lights_white"
+      }
+    ],
+    "order": []
+  },
+  {
+    "action": "modify_tab",
+    "tab": ["minecraft:colored_blocks"],
+    "icon": "minecraft:purple_wool",
+    "remove_items": [],
+    "add_items": [],
+    "order": []
+  },
+  {
+    "action": "modify_tab",
+    "tab": ["minecraft:combat"],
+    "icon": "minecraft:stone_sword",
+    "remove_items": [],
+    "add_items": [
+      {
+        "item": "wardenhorn:warden_horn",
+        "after": "wetland_whimsy:dagger"
+      },
+      {
+        "item": "fightsfrights:putrid_scythe_2",
+        "after": "wardenhorn:warden_horn"
+      },
+      {
+        "item": "the_moth:moth_spear",
+        "after": "fightsfrights:putrid_scythe_2"
+      },
+      {
+        "item": "leafscopperbackport:copper_armor_helmet",
+        "after": "minecraft:chainmail_boots"
+      },
+      {
+        "item": "leafscopperbackport:copper_armor_chestplate",
+        "after": "leafscopperbackport:copper_armor_helmet"
+      },
+      {
+        "item": "leafscopperbackport:copper_armor_leggings",
+        "after": "leafscopperbackport:copper_armor_chestplate"
+      },
+      {
+        "item": "leafscopperbackport:copper_armor_boots",
+        "after": "leafscopperbackport:copper_armor_leggings"
+      }
+    ],
+    "order": []
+  },
+  {
+    "action": "modify_tab",
+    "tab": ["plushie_buddies:plushie_tab"],
+    "icon": "plushie_buddies:plushie_mooshroom",
+    "remove_items": [],
+    "add_items": [],
+    "order": []
+  },
+  {
+    "action": "modify_tab",
+    "tab": ["aether:food_and_drinks"],
+    "remove_items": [],
+    "add_items": [
+      {
+        "item": "aether:blue_moa_egg",
+        "after": "aether:life_shard"
+      },
+      {
+        "item": "aether:white_moa_egg",
+        "after": "aether:blue_moa_egg"
+      },
+      {
+        "item": "aether:black_moa_egg",
+        "after": "aether:white_moa_egg"
+      }
+    ],
+    "order": []
+  },
+  {
+    "action": "modify_tab",
+    "tab": ["minecraft:redstone_blocks"],
+    "remove_items": [
+      "minecraft:white_wool",
+      "minecraft:oak_chest_boat",
+      "minecraft:bamboo_chest_raft"
+    ],
+    "add_items": [
+      {
+        "item": "minecraft:redstone_ore",
+        "before": "minecraft:redstone"
+      },
+      {
+        "item": "aether:skyroot_button",
+        "after": "quark:blossom_trapdoor"
+      },
+      {
+        "item": "aether:holystone_button",
+        "after": "aether:skyroot_button"
+      },
+      {
+        "item": "aether:skyroot_pressure_plate",
+        "after": "aether:holystone_button"
+      },
+      {
+        "item": "aether:holystone_pressure_plate",
+        "after": "aether:skyroot_pressure_plate"
+      },
+      {
+        "item": "aether:altar",
+        "after": "aether:holystone_pressure_plate"
+      },
+      {
+        "item": "aether:freezer",
+        "after": "aether:altar"
+      },
+      {
+        "item": "aether:incubator",
+        "after": "aether:freezer"
+      },
+      {
+        "item": "aether:skyroot_door",
+        "after": "aether:incubator"
+      },
+      {
+        "item": "aether:skyroot_fence_gate",
+        "after": "aether:skyroot_door"
+      },
+      {
+        "item": "aether:skyroot_trapdoor",
+        "after": "aether:skyroot_fence_gate"
+      }
+    ],
+    "order": []
+  },
+  {
+    "action": "modify_tab",
+    "tab": ["minecraft:building_blocks"],
+    "icon": "minecraft:tuff_bricks",
+    "remove_items": [],
+    "add_items": [],
+    "order": []
+  },
+  {
+    "action": "modify_tab",
+    "tab": ["selling_bin:selling_bin"],
+    "name": "Sellable Items",
+    "remove_items": [
+      "minecraft:emerald_block",
+      "minecraft:emerald",
+      "selling_bin:selling_bin"
+    ],
+    "add_items": [],
+    "order": []
+  },
+  {
+    "action": "modify_tab",
+    "tab": ["minecraft:spawn_eggs"],
+    "remove_items": [],
+    "add_items": [
+      {
+        "item": "aether:aechor_plant_spawn_egg",
+        "after": "quark:wraith_spawn_egg"
+      },
+      {
+        "item": "aether:aerbunny_spawn_egg",
+        "after": "aether:aechor_plant_spawn_egg"
+      },
+      {
+        "item": "deep_aether:aether_fish_spawn_egg",
+        "after": "aether:aerbunny_spawn_egg"
+      },
+      {
+        "item": "aether:aerwhale_spawn_egg",
+        "after": "deep_aether:aether_fish_spawn_egg"
+      },
+      {
+        "item": "aether:blue_swet_spawn_egg",
+        "after": "aether:aerwhale_spawn_egg"
+      },
+      {
+        "item": "aether:cockatrice_spawn_egg",
+        "after": "aether:blue_swet_spawn_egg"
+      },
+      {
+        "item": "aether:evil_whirlwind_spawn_egg",
+        "after": "aether:cockatrice_spawn_egg"
+      },
+      {
+        "item": "aether:fire_minion_spawn_egg",
+        "after": "aether:evil_whirlwind_spawn_egg"
+      },
+      {
+        "item": "aether:flying_cow_spawn_egg",
+        "after": "aether:fire_minion_spawn_egg"
+      },
+      {
+        "item": "aether:golden_swet_spawn_egg",
+        "after": "aether:flying_cow_spawn_egg"
+      },
+      {
+        "item": "aether:mimic_spawn_egg",
+        "after": "aether:golden_swet_spawn_egg"
+      },
+      {
+        "item": "aether:moa_spawn_egg",
+        "after": "aether:mimic_spawn_egg"
+      },
+      {
+        "item": "deep_aether:quail_spawn_egg",
+        "after": "aether:moa_spawn_egg"
+      },
+      {
+        "item": "aether:phyg_spawn_egg",
+        "after": "deep_aether:quail_spawn_egg"
+      },
+      {
+        "item": "aether:sentry_spawn_egg",
+        "after": "aether:phyg_spawn_egg"
+      },
+      {
+        "item": "aether:sheepuff_spawn_egg",
+        "after": "aether:sentry_spawn_egg"
+      },
+      {
+        "item": "aether:whirlwind_spawn_egg",
+        "after": "aether:sheepuff_spawn_egg"
+      },
+      {
+        "item": "aether:valkyrie_spawn_egg",
+        "after": "aether:whirlwind_spawn_egg"
+      },
+      {
+        "item": "deep_aether:venomite_spawn_egg",
+        "after": "aether:valkyrie_spawn_egg"
+      },
+      {
+        "item": "deep_aether:baby_zephyr_spawn_egg",
+        "after": "deep_aether:venomite_spawn_egg"
+      },
+      {
+        "item": "deep_aether:gentle_wind_spawn_egg",
+        "after": "deep_aether:baby_zephyr_spawn_egg"
+      },
+      {
+        "item": "aether:zephyr_spawn_egg",
+        "after": "deep_aether:gentle_wind_spawn_egg"
+      }
+    ],
+    "order": []
+  },
+  {
+    "action": "modify_tab",
+    "tab": ["minecraft:natural_blocks"],
+    "remove_items": [],
+    "add_items": [
+      {
+        "item": "denseores:dense_coal_ore",
+        "after": "minecraft:coal_ore"
+      },
+      {
+        "item": "denseores:dense_deepslate_coal_ore",
+        "after": "minecraft:deepslate_coal_ore"
+      },
+      {
+        "item": "denseores:dense_iron_ore",
+        "after": "minecraft:iron_ore"
+      },
+      {
+        "item": "denseores:dense_deepslate_iron_ore",
+        "after": "minecraft:deepslate_iron_ore"
+      },
+      {
+        "item": "denseores:dense_copper_ore",
+        "after": "minecraft:copper_ore"
+      },
+      {
+        "item": "denseores:dense_deepslate_copper_ore",
+        "after": "minecraft:deepslate_copper_ore"
+      },
+      {
+        "item": "denseores:dense_gold_ore",
+        "after": "minecraft:gold_ore"
+      },
+      {
+        "item": "denseores:dense_deepslate_gold_ore",
+        "after": "minecraft:deepslate_gold_ore"
+      },
+      {
+        "item": "denseores:dense_redstone_ore",
+        "after": "minecraft:redstone_ore"
+      },
+      {
+        "item": "denseores:dense_deepslate_redstone_ore",
+        "after": "minecraft:deepslate_redstone_ore"
+      },
+      {
+        "item": "denseores:dense_emerald_ore",
+        "after": "minecraft:emerald_ore"
+      },
+      {
+        "item": "denseores:dense_deepslate_emerald_ore",
+        "after": "minecraft:deepslate_emerald_ore"
+      },
+      {
+        "item": "denseores:dense_lapis_ore",
+        "after": "minecraft:lapis_ore"
+      },
+      {
+        "item": "denseores:dense_deepslate_lapis_ore",
+        "after": "minecraft:deepslate_lapis_ore"
+      },
+      {
+        "item": "denseores:dense_diamond_ore",
+        "after": "minecraft:diamond_ore"
+      },
+      {
+        "item": "denseores:dense_deepslate_diamond_ore",
+        "after": "minecraft:deepslate_diamond_ore"
+      },
+      {
+        "item": "denseores:dense_nether_gold_ore",
+        "after": "minecraft:nether_gold_ore"
+      },
+      {
+        "item": "denseores:dense_nether_quartz_ore",
+        "after": "minecraft:nether_quartz_ore"
+      },
+      {
+        "item": "denseores:ancient_nether_ore",
+        "after": "netherexp:quartz_crystal"
+      },
+      {
+        "item": "creeperoverhaul:tiny_cactus",
+        "after": "minecraft:cactus"
+      }
+    ],
+    "order": []
+  }
+]

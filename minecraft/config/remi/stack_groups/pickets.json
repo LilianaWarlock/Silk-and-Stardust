@@ -1,6 +1,6 @@
 {
   "id": "silkandstardust:pickets",
   "type": "remi:group",
-  "contents": ["#bountifulfares:pickets"],
+  "contents": ["#bountifulfares:pickets", "bountifulfares:iron_railing"],
   "priority": 10
 }

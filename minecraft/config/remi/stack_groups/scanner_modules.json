@@ -1,0 +1,6 @@
+{
+  "id": "silkandstardust:modules",
+  "type": "remi:group",
+  "contents": ["#scannable:modules"],
+  "priority": 10
+}

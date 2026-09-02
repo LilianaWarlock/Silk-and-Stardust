@@ -1,0 +1,6 @@
+{
+  "id": "silkandstardust:albums",
+  "type": "remi:group",
+  "contents": ["#additionaladditions:albums"],
+  "priority": 10
+}
