@@ -2,7 +2,27 @@
   "description": {
     "translate": "enchantment.vein_vantage.clearing_strike"
   },
-
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:player"
+          }
+        },
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:mining_fatigue",
+          "min_duration": 2,
+          "max_duration": 2,
+          "min_amplifier": 0,
+          "max_amplifier": 0
+        }
+      }
+    ]
+  },
   "supported_items": "#minecraft:enchantable/mining",
   "weight": 8,
   "max_level": 1,
