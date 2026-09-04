@@ -1,0 +1,5 @@
+{
+  "minecraft:spawner": [
+    { "operation": "hardness", "multiplier": 4, "offset": 5 }
+  ]
+}
