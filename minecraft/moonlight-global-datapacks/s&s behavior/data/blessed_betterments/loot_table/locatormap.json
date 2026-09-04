@@ -1,0 +1,237 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "locatormaps:locator_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "locatormaps:structure_key": "minecraft:desert_pyramid"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "locatormaps:locator_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "locatormaps:structure_key": "#wan_ancient_beasts:digsite"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "locatormaps:locator_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "locatormaps:structure_key": "aquamirae:pirate_outpost"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "locatormaps:locator_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "locatormaps:structure_key": "aquamirae:pirate_shelter"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "locatormaps:locator_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "locatormaps:structure_key": "aquamirae:pirate_ship"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "locatormaps:locator_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "locatormaps:structure_key": "aquamirae:shipwreck"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "locatormaps:locator_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "locatormaps:structure_key": "block_factorys_bosses:dragon_tower"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "locatormaps:locator_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "locatormaps:structure_key": "block_factorys_bosses:kraken_ship"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "locatormaps:locator_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "locatormaps:structure_key": "block_factorys_bosses:sandworm_nest"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "locatormaps:locator_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "locatormaps:structure_key": "companions:companions_monkey_temple"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "locatormaps:locator_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "locatormaps:structure_key": "illager_arena:illager_arena"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "locatormaps:locator_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "locatormaps:structure_key": "minecraft:woodland_mansions"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "locatormaps:locator_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "locatormaps:structure_key": "nova_structures:badlands_miner_outpost"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "locatormaps:locator_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "locatormaps:structure_key": "nova_structures:creeping_crypt"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "locatormaps:locator_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "locatormaps:structure_key": "nova_structures:stray_fort"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gateway_of_doom:devil_eye",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "gateway_of_doom:eye": {
+                  "color": 8617369,
+                  "eyeDesign": "classic",
+                  "portalStyle": "smoke",
+                  "profileId": "custom"
+                },
+                "minecraft:custom_model_data": 0,
+                "minecraft:item_name": "{\"text\":\"Moth Ball\"}",
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "locatormaps:locator_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "locatormaps:structure_key": "wetland_whimsy:swamp_dungeon"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "locatormaps:locator_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "locatormaps:structure_key": "minecraft:ancient_city"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bosses_of_mass_destruction:void_lily"
+        }
+      ]
+    }
+  ]
+}

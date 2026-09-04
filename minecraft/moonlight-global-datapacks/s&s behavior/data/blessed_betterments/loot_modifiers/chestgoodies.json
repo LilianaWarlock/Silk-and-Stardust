@@ -1,0 +1,238 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "aquamirae:chests/ship_2"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "artifacts:chests/campsite_chest"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "betterarcheology:archeology/chest_jungle_temple_generic"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "betterarcheology:archeology/chest_jungle_temple_treasure"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "block_factorys_bosses:chests/dragon_tower"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "bosses_of_mass_destruction:chests/lich_tower"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "darkerdepths:chests/catacombs/standard"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "darkerdepths:chests/catacombs/treasure"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "kobolds:chests/kobold_loot"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "minecraft:chests/abandoned_mineshaft"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "minecraft:chests/buried_treasure"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "minecraft:chests/desert_pyramid"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "minecraft:chests/illager_mansion/ancient_city_raid_chest"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "minecraft:chests/illager_mansion/evoker_chest"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "minecraft:chests/illager_mansion/generic"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "minecraft:chests/jungle_temple"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "minecraft:chests/pillager_outpost"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "minecraft:chests/shipwreck_treasure"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "minecraft:chests/simple_dungeon"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "minecraft:chests/stronghold_corridor"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "minecraft:chests/stronghold_crossing"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "minecraft:chests/trial_chambers/reward_common"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "minecraft:chests/woodland_mansion"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/badland_miner_outpost"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/badland_miner_outpost_forge"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/badland_miner_outpost_towers"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/creeping_crypt/vault_creeping"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/desert_ruins/desert_ruin_grave"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/desert_ruins/desert_ruin_house"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/desert_ruins/desert_ruin_lesser_treasure"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/desert_ruins/desert_ruin_main_temple"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/dungeon_5"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/illager_camp"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/illager_hideout_heart_loot"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/illager_hideout_lesser_tresure"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/illager_hideout_utility"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/illager_hideout_weaponry"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/jungle_ruins/jungle_ruins_main_temple"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/jungle_ruins/jungle_ruins_main_temple_wild"
+            },
+
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/lone_citadel/c_forge_chest"
+            },
+
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/lone_citadel/c_supply"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/lone_citadel/c_vault"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/pillager_outpost_treasure"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/stray_fort_loot_generic"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/stray_fort_tresure"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/toxic_lair/generic"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/undead_crypts_grave"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "nova_structures:chests/witch_villa/general_storage"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "hexerei:chests/dark_coven_basic"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "underground_rooms:chests/undead_dungeon_loot"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "wabi_sabi_structures:chests/abandoned_small_castle/abandoned_small_castle_storage"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "wabi_sabi_structures:chests/badlands_dwelling/badlands_dwelling_storage"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "wan_ancient_beasts:chests/desert_temple"
+            },
+            {
+              "condition": "neoforge:loot_table_id",
+              "loot_table_id": "wan_ancient_beasts:chests/ice_castle"
+            }
+          ]
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.15
+        }
+      ]
+    }
+  ],
+  "table": "blessed_betterments:locatormap"
+}
