@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "gateway_of_doom:item/devil_eye"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "gateway_of_doom:item/devil_eye_portal_orb"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "gateway_of_doom:item/devil_eye_abyssal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "gateway_of_doom:item/customeye"
+    }
+  ]
+}
