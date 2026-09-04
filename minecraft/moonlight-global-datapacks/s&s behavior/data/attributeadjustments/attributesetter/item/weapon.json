@@ -12,19 +12,5 @@
       "operation": "ADDITION",
       "uuid": "905ce8af-0c98-4213-bc4d-1d4545cd4dc9"
     }
-  ],
-  "dream_relics:royal_lens": [
-    {
-      "attribute": "critical_strike:damage",
-      "value": 20.0,
-
-      "uuid": "7fc897fa-01ec-4607-822b-0504dd131960"
-    },
-    {
-      "attribute": "spell_power:critical_damage",
-      "value": 20.0,
-
-      "uuid": "a3a95153-ab2b-43c0-9ff6-87fda98d7225"
-    }
   ]
 }

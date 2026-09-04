@@ -1,5 +1,5 @@
 #Whether to make item drop locations predictable
-predictable_item_drops = true
+predictable_item_drops = false
 #Whether to reject impossible structure chunks before reading them from disk
 structure_locate_speedup = true
 #Whether to optimize resource looking up in compressed and path-based packs (GAME RESTART REQUIRED). Automatically disables the overlapping ModernFix and Quick Pack optimizations

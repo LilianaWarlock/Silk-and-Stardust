@@ -10,19 +10,19 @@
   ],
   "block_factorys_bosses:dragon_bones_chestplate": [
     {
-      "attribute": "combat_roll:distance",
+      "attribute": "combat_roll:recharge",
       "from": "block_factorys_bosses:roll_count",
       "value": 1.0,
-      "rate": 2.0,
+      "rate": 0.4,
       "operation": "CONVERSION"
     }
   ],
   "block_factorys_bosses:dragon_bones_boots": [
     {
-      "attribute": "combat_roll:distance",
+      "attribute": "combat_roll:recharge",
       "from": "block_factorys_bosses:roll_count",
       "value": 1.0,
-      "rate": 2.0,
+      "rate": 0.4,
       "operation": "CONVERSION"
     }
   ],
@@ -40,25 +40,25 @@
       "attribute": "combat_roll:distance",
       "from": "block_factorys_bosses:roll_count",
       "value": 1.0,
-      "rate": 2.0,
+      "rate": 1.0,
       "operation": "CONVERSION"
     }
   ],
   "block_factorys_bosses:knight_chestplate": [
     {
-      "attribute": "combat_roll:distance",
+      "attribute": "combat_roll:recharge",
       "from": "block_factorys_bosses:roll_count",
       "value": 1.0,
-      "rate": 2.0,
+      "rate": 0.2,
       "operation": "CONVERSION"
     }
   ],
   "block_factorys_bosses:knight_boots": [
     {
-      "attribute": "combat_roll:distance",
+      "attribute": "combat_roll:recharge",
       "from": "block_factorys_bosses:roll_count",
       "value": 1.0,
-      "rate": 2.0,
+      "rate": 0.2,
       "operation": "CONVERSION"
     }
   ],
@@ -67,7 +67,7 @@
       "attribute": "combat_roll:distance",
       "from": "block_factorys_bosses:roll_count",
       "value": 1.0,
-      "rate": 2.0,
+      "rate": 1.0,
       "operation": "CONVERSION"
     }
   ]

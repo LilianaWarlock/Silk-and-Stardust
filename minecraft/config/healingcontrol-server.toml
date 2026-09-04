@@ -43,7 +43,7 @@ enable_mod = true
 	#Exhaustion from healing 1 health point. Vanilla: 6.0
 	# Default: 4.0
 	# Range: 0.0 ~ 1000.0
-	exhaustion_healing = 6.0
+	exhaustion_healing = 5.0
 	#Vanilla: 0.05
 	# Default: 0.05
 	# Range: 0.0 ~ 4.0

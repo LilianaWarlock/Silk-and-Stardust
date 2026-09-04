@@ -1,12 +1,15 @@
 {
-  "schemaVersion": 17,
+  "schemaVersion": 22,
   "openingTicks": 80,
   "wavePauseTicks": 60,
   "leashRangeBlocks": 50,
   "maxActivePortalsPerPlayer": 1,
+  "nearbyGatewayLimitEnabled": true,
+  "nearbyGatewayLimit": 1,
+  "nearbyGatewayRadiusBlocks": 128,
   "creativeAutomaticGatewaysEnabled": false,
   "diagnosticTestCommandsEnabled": false,
-  "soundPackage": "immersive",
+  "soundPackage": "classic",
   "nightOnly": false,
   "mobDropsEnabled": false,
   "automaticGateways": {
@@ -25,8 +28,10 @@
         "minDistanceBlocks": 48,
         "maxDistanceBlocks": 128,
         "maxActive": 1,
+        "triggerChancePercent": 50,
         "triggerMode": "exploration",
         "eventScope": "server",
+        "timeCondition": "any",
         "minExplorationDistanceBlocks": 100,
         "maxExplorationDistanceBlocks": 300,
         "announce": true
@@ -44,8 +49,10 @@
         "minDistanceBlocks": 48,
         "maxDistanceBlocks": 128,
         "maxActive": 1,
+        "triggerChancePercent": 50,
         "triggerMode": "timer",
         "eventScope": "server",
+        "timeCondition": "any",
         "minExplorationDistanceBlocks": 256,
         "maxExplorationDistanceBlocks": 256,
         "announce": true
@@ -63,8 +70,10 @@
         "minDistanceBlocks": 48,
         "maxDistanceBlocks": 128,
         "maxActive": 1,
+        "triggerChancePercent": 50,
         "triggerMode": "timer",
         "eventScope": "server",
+        "timeCondition": "any",
         "minExplorationDistanceBlocks": 256,
         "maxExplorationDistanceBlocks": 256,
         "announce": true
@@ -84,9 +93,15 @@
       "completionXp": 100,
       "chestDropChance": 0.15,
       "injectIntoAllChests": false,
-      "chestDropsEnabled": true,
-      "mobDropsEnabled": true,
+      "chestDropsEnabled": false,
+      "mobDropsEnabled": false,
+      "waveMobVanillaLootEnabled": false,
+      "eyeTimeCondition": "any",
       "extraEquipmentEnabled": false,
+      "rewardMode": "FIXED",
+      "minRewardRolls": 5,
+      "maxRewardRolls": 10,
+      "duplicateRewardsAllowed": false,
       "findableDimensions": [
         "minecraft:overworld"
       ],
@@ -145,32 +160,50 @@
         {
           "item": "minecraft:iron_ingot",
           "count": 6,
-          "dropChancePercent": 100.0
+          "minCount": 6,
+          "maxCount": 6,
+          "dropChancePercent": 100.0,
+          "weight": 100
         },
         {
           "item": "minecraft:gold_ingot",
           "count": 4,
-          "dropChancePercent": 100.0
+          "minCount": 4,
+          "maxCount": 4,
+          "dropChancePercent": 100.0,
+          "weight": 100
         },
         {
           "item": "minecraft:bread",
           "count": 6,
-          "dropChancePercent": 100.0
+          "minCount": 6,
+          "maxCount": 6,
+          "dropChancePercent": 100.0,
+          "weight": 100
         },
         {
           "item": "minecraft:emerald",
           "count": 3,
-          "dropChancePercent": 80.0
+          "minCount": 3,
+          "maxCount": 3,
+          "dropChancePercent": 80.0,
+          "weight": 80
         },
         {
           "item": "minecraft:diamond",
           "count": 2,
-          "dropChancePercent": 60.0
+          "minCount": 2,
+          "maxCount": 2,
+          "dropChancePercent": 60.0,
+          "weight": 60
         },
         {
           "item": "minecraft:experience_bottle",
           "count": 6,
-          "dropChancePercent": 100.0
+          "minCount": 6,
+          "maxCount": 6,
+          "dropChancePercent": 100.0,
+          "weight": 100
         }
       ],
       "failureDebuffs": [],
@@ -184,6 +217,7 @@
         "speedBoostPercent": 0.0,
         "sizeScale": 6.0,
         "bossTimeLimitSeconds": 0,
+        "customName": "",
         "guards": []
       },
       "mobDrops": [
@@ -228,9 +262,15 @@
       "completionXp": 350,
       "chestDropChance": 0.15,
       "injectIntoAllChests": false,
-      "chestDropsEnabled": true,
-      "mobDropsEnabled": true,
+      "chestDropsEnabled": false,
+      "mobDropsEnabled": false,
+      "waveMobVanillaLootEnabled": false,
+      "eyeTimeCondition": "any",
       "extraEquipmentEnabled": false,
+      "rewardMode": "FIXED",
+      "minRewardRolls": 5,
+      "maxRewardRolls": 10,
+      "duplicateRewardsAllowed": false,
       "findableDimensions": [
         "minecraft:the_nether"
       ],
@@ -310,37 +350,58 @@
         {
           "item": "minecraft:diamond",
           "count": 5,
-          "dropChancePercent": 100.0
+          "minCount": 5,
+          "maxCount": 5,
+          "dropChancePercent": 100.0,
+          "weight": 100
         },
         {
           "item": "minecraft:gold_block",
           "count": 2,
-          "dropChancePercent": 100.0
+          "minCount": 2,
+          "maxCount": 2,
+          "dropChancePercent": 100.0,
+          "weight": 100
         },
         {
           "item": "minecraft:blaze_rod",
           "count": 4,
-          "dropChancePercent": 100.0
+          "minCount": 4,
+          "maxCount": 4,
+          "dropChancePercent": 100.0,
+          "weight": 100
         },
         {
           "item": "minecraft:ender_pearl",
           "count": 6,
-          "dropChancePercent": 100.0
+          "minCount": 6,
+          "maxCount": 6,
+          "dropChancePercent": 100.0,
+          "weight": 100
         },
         {
           "item": "minecraft:golden_apple",
           "count": 2,
-          "dropChancePercent": 75.0
+          "minCount": 2,
+          "maxCount": 2,
+          "dropChancePercent": 75.0,
+          "weight": 75
         },
         {
           "item": "minecraft:netherite_scrap",
           "count": 1,
-          "dropChancePercent": 40.0
+          "minCount": 1,
+          "maxCount": 1,
+          "dropChancePercent": 40.0,
+          "weight": 40
         },
         {
           "item": "minecraft:experience_bottle",
           "count": 12,
-          "dropChancePercent": 100.0
+          "minCount": 12,
+          "maxCount": 12,
+          "dropChancePercent": 100.0,
+          "weight": 100
         }
       ],
       "failureDebuffs": [
@@ -365,6 +426,7 @@
         "speedBoostPercent": 0.0,
         "sizeScale": 1.3,
         "bossTimeLimitSeconds": 0,
+        "customName": "",
         "guards": []
       },
       "mobDrops": [
@@ -409,9 +471,15 @@
       "completionXp": 1500,
       "chestDropChance": 0.15,
       "injectIntoAllChests": false,
-      "chestDropsEnabled": true,
-      "mobDropsEnabled": true,
+      "chestDropsEnabled": false,
+      "mobDropsEnabled": false,
+      "waveMobVanillaLootEnabled": false,
+      "eyeTimeCondition": "any",
       "extraEquipmentEnabled": false,
+      "rewardMode": "FIXED",
+      "minRewardRolls": 5,
+      "maxRewardRolls": 10,
+      "duplicateRewardsAllowed": false,
       "findableDimensions": [
         "minecraft:the_end"
       ],
@@ -504,47 +572,74 @@
         {
           "item": "minecraft:netherite_ingot",
           "count": 2,
-          "dropChancePercent": 75.0
+          "minCount": 2,
+          "maxCount": 2,
+          "dropChancePercent": 75.0,
+          "weight": 75
         },
         {
           "item": "minecraft:diamond_block",
           "count": 2,
-          "dropChancePercent": 100.0
+          "minCount": 2,
+          "maxCount": 2,
+          "dropChancePercent": 100.0,
+          "weight": 100
         },
         {
           "item": "minecraft:enchanted_golden_apple",
           "count": 1,
-          "dropChancePercent": 50.0
+          "minCount": 1,
+          "maxCount": 1,
+          "dropChancePercent": 50.0,
+          "weight": 50
         },
         {
           "item": "minecraft:totem_of_undying",
           "count": 1,
-          "dropChancePercent": 40.0
+          "minCount": 1,
+          "maxCount": 1,
+          "dropChancePercent": 40.0,
+          "weight": 40
         },
         {
           "item": "minecraft:shulker_shell",
           "count": 4,
-          "dropChancePercent": 100.0
+          "minCount": 4,
+          "maxCount": 4,
+          "dropChancePercent": 100.0,
+          "weight": 100
         },
         {
           "item": "minecraft:netherite_upgrade_smithing_template",
           "count": 1,
-          "dropChancePercent": 30.0
+          "minCount": 1,
+          "maxCount": 1,
+          "dropChancePercent": 30.0,
+          "weight": 30
         },
         {
           "item": "minecraft:elytra",
           "count": 1,
-          "dropChancePercent": 5.0
+          "minCount": 1,
+          "maxCount": 1,
+          "dropChancePercent": 5.0,
+          "weight": 5
         },
         {
           "item": "minecraft:dragon_breath",
           "count": 3,
-          "dropChancePercent": 75.0
+          "minCount": 3,
+          "maxCount": 3,
+          "dropChancePercent": 75.0,
+          "weight": 75
         },
         {
           "item": "minecraft:experience_bottle",
           "count": 24,
-          "dropChancePercent": 100.0
+          "minCount": 24,
+          "maxCount": 24,
+          "dropChancePercent": 100.0,
+          "weight": 100
         }
       ],
       "failureDebuffs": [
@@ -574,6 +669,7 @@
         "speedBoostPercent": 0.0,
         "sizeScale": 1.1,
         "bossTimeLimitSeconds": 0,
+        "customName": "",
         "guards": []
       },
       "mobDrops": [
@@ -590,6 +686,85 @@
           "dropChancePercent": 5.0
         }
       ],
+      "equipmentRules": [],
+      "waveMode": "FIXED",
+      "random": {
+        "minWaves": 3,
+        "maxWaves": 5,
+        "minMobsPerWave": 4,
+        "maxMobsPerWave": 10,
+        "countGrowthPerWave": 0.25,
+        "waveTimeLimitSeconds": 0,
+        "pool": []
+      }
+    },
+    "custom": {
+      "displayName": "Moth Ball",
+      "colorRGB": 8617369,
+      "eyeDesign": "classic",
+      "portalStyle": "smoke",
+      "defaultWaveTimeLimitSeconds": 130,
+      "healthBoostPercent": 0.0,
+      "damageBoostPercent": 0.0,
+      "speedBoostPercent": 0.0,
+      "completionXp": 100,
+      "chestDropChance": 1.0,
+      "injectIntoAllChests": false,
+      "chestDropsEnabled": false,
+      "mobDropsEnabled": true,
+      "waveMobVanillaLootEnabled": true,
+      "eyeTimeCondition": "any",
+      "extraEquipmentEnabled": false,
+      "rewardMode": "FIXED",
+      "minRewardRolls": 5,
+      "maxRewardRolls": 10,
+      "duplicateRewardsAllowed": false,
+      "findableDimensions": [
+        "minecraft:overworld"
+      ],
+      "activatableDimensions": [
+        "minecraft:overworld"
+      ],
+      "chestLootTables": [
+        "minecraft:chests/simple_dungeon",
+        "minecraft:chests/abandoned_mineshaft",
+        "minecraft:chests/stronghold_corridor",
+        "minecraft:chests/stronghold_crossing",
+        "minecraft:chests/stronghold_library"
+      ],
+      "waves": [
+        {
+          "timeLimitSeconds": 300,
+          "mobs": [
+            {
+              "type": "the_moth:moth_man",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "rewards": [],
+      "failureDebuffs": [
+        {
+          "effect": "minecraft:weakness",
+          "amplifier": 0,
+          "durationSeconds": 30
+        }
+      ],
+      "boss": {
+        "enabled": false,
+        "mobType": "the_moth:moth_man",
+        "count": 1,
+        "strengthMode": "CUSTOM",
+        "healthBoostPercent": 100.0,
+        "damageBoostPercent": 10.0,
+        "speedBoostPercent": 0.0,
+        "sizeScale": 1.0,
+        "bossTimeLimitSeconds": 0,
+        "customName": "",
+        "guards": []
+      },
+      "mobDrops": [],
       "equipmentRules": [],
       "waveMode": "FIXED",
       "random": {
