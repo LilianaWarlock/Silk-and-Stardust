@@ -100,6 +100,11 @@
     "fightsfrights:rotten_handle",
     "piglinproliferation:piglin_brute_head",
     "rottencreatures:glacial_hunter_head",
-    "fightsfrights:monstrous_plate_block"
+    "fightsfrights:monstrous_plate_block",
+    "gateway_of_doom:portal_ward_1",
+    "gateway_of_doom:portal_ward_2",
+    "gateway_of_doom:portal_ward_3",
+    "gateway_of_doom:portal_ward_4",
+    "gateway_of_doom:portal_ward_5"
   ]
 }
