@@ -1,0 +1,24 @@
+{
+  "title": "They're Crrrrrrate!",
+  "description": "Craft an item crate, which can hold a large quantity of a single item!",
+  "icon": {
+    "item": "bountifulseals:crate"
+  },
+  "chapter": "farming",
+  "sort_order": 25,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "item": "bountifulseals:crate",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "bountifulseals:crate",
+      "count": 2
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Marvelous Metallurgy",
+  "description": "Craft Rose Gold, a unique alloy of Gold and Copper that inherits unique properties!",
+  "icon": {
+    "item": "additionaladditions:rose_gold_ingot"
+  },
+  "chapter": "combat",
+  "sort_order": 30,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "item": "additionaladditions:rose_gold_ingot",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:gold_ingot",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "additionaladditions:rose_gold_ingot",
+      "count": 3
+    }
+  ]
+}
