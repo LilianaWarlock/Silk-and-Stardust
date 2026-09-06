@@ -3,13 +3,20 @@
     "action": "remove_tab",
     "tab": [
       "variantsandventures:main_tab",
+      "golemoverhaul:main",
+      "armory_rpgs:generic",
+      "rogues:generic",
       "aether:spawn_eggs",
       "wan_ancient_beasts:wan_ancient_beasts",
       "rpgbackpacks:backpacks_tab",
       "leafscopperbackport:leafs_copper_backport",
+      "wizards:generic",
       "wands:wands_tab",
+      "spell_engine:generic",
       "kubejs:tab",
       "nightlights:night_lights",
+      "archers:generic",
+      "paladins:generic",
       "society_trading:tab",
       "aether:food_and_drinks",
       "ore_creeper:ore_creeper",
@@ -26,7 +33,9 @@
       "scannable:common",
       "serene_shrubbery:serene_shrubbery",
       "rottencreatures:rotten_creatures",
-      "aether:redstone_blocks"
+      "aether:redstone_blocks",
+      "kobolds:kobolds",
+      "luminous_butterflies:luminous_butterflies"
     ],
     "remove_items": [],
     "add_items": [],
@@ -147,7 +156,9 @@
   },
   {
     "action": "modify_tab",
-    "tab": ["minecraft:food_and_drinks"],
+    "tab": [
+      "minecraft:food_and_drinks"
+    ],
     "remove_items": [],
     "add_items": [
       {
@@ -254,7 +265,10 @@
             "effect": {
               "id": "deep_aether:moa_bonus_jumps",
               "show_icon": true,
-              "neoforge:cures": ["milk", "protected_by_totem"],
+              "neoforge:cures": [
+                "milk",
+                "protected_by_totem"
+              ],
               "amplifier": 1,
               "duration": 14400
             }
@@ -269,7 +283,10 @@
             "effect": {
               "id": "minecraft:jump_boost",
               "show_icon": true,
-              "neoforge:cures": ["milk", "protected_by_totem"],
+              "neoforge:cures": [
+                "milk",
+                "protected_by_totem"
+              ],
               "amplifier": 1,
               "duration": 14400
             }
@@ -284,7 +301,10 @@
             "effect": {
               "id": "minecraft:fire_resistance",
               "show_icon": true,
-              "neoforge:cures": ["milk", "protected_by_totem"],
+              "neoforge:cures": [
+                "milk",
+                "protected_by_totem"
+              ],
               "amplifier": 1,
               "duration": 14400
             }
@@ -380,14 +400,9 @@
   },
   {
     "action": "modify_tab",
-    "tab": ["crittersandcompanions:main"],
-    "remove_items": [],
-    "add_items": [],
-    "order": []
-  },
-  {
-    "action": "modify_tab",
-    "tab": ["starcatcher:starcatcher"],
+    "tab": [
+      "starcatcher:starcatcher"
+    ],
     "name": "Fishing",
     "remove_items": [],
     "add_items": [],
@@ -395,7 +410,9 @@
   },
   {
     "action": "modify_tab",
-    "tab": ["jewelry:generic"],
+    "tab": [
+      "jewelry:generic"
+    ],
     "remove_items": [
       "jewelry:tanzanite",
       "jewelry:sapphire",
@@ -409,9 +426,15 @@
   },
   {
     "action": "modify_tab",
-    "tab": ["minecraft:ingredients"],
+    "tab": [
+      "minecraft:ingredients"
+    ],
     "remove_items": [],
     "add_items": [
+      {
+        "item": "golemoverhaul:coal_golem",
+        "after": "minecraft:coal"
+      },
       {
         "item": "jewelry:ruby",
         "after": "minecraft:diamond"
@@ -437,8 +460,40 @@
         "after": "jewelry:sapphire"
       },
       {
-        "item": "minecraft:quartz",
+        "item": "armory_rpgs:conqueror_upgrade_crystal",
         "after": "jewelry:tanzanite"
+      },
+      {
+        "item": "armory_rpgs:vanquisher_upgrade_crystal",
+        "after": "armory_rpgs:conqueror_upgrade_crystal"
+      },
+      {
+        "item": "armory_rpgs:redeemer_upgrade_crystal",
+        "after": "armory_rpgs:vanquisher_upgrade_crystal"
+      },
+      {
+        "item": "armory_rpgs:champion_upgrade_crystal",
+        "after": "armory_rpgs:redeemer_upgrade_crystal"
+      },
+      {
+        "item": "armory_rpgs:conqueror_forgotten_upgrade_crystal",
+        "after": "armory_rpgs:champion_upgrade_crystal"
+      },
+      {
+        "item": "armory_rpgs:vanquisher_forgotten_upgrade_crystal",
+        "after": "armory_rpgs:conqueror_forgotten_upgrade_crystal"
+      },
+      {
+        "item": "armory_rpgs:redeemer_forgotten_upgrade_crystal",
+        "after": "armory_rpgs:vanquisher_forgotten_upgrade_crystal"
+      },
+      {
+        "item": "armory_rpgs:champion_forgotten_upgrade_crystal",
+        "after": "armory_rpgs:redeemer_forgotten_upgrade_crystal"
+      },
+      {
+        "item": "minecraft:quartz",
+        "after": "armory_rpgs:champion_forgotten_upgrade_crystal"
       },
       {
         "item": "minecraft:ancient_debris",
@@ -513,15 +568,33 @@
         "after": "minecraft:phantom_membrane"
       },
       {
+        "item": "kobolds:banner_pattern_kobold",
+        "after": "enderscape:crescent_banner_pattern"
+      },
+      {
+        "item": "armory_rpgs:epic_armor_upgrade",
+        "after": "minecraft:netherite_upgrade_smithing_template"
+      },
+      {
+        "item": "kobolds:kobold_template",
+        "after": "minecraft:bolt_armor_trim_smithing_template"
+      },
+      {
         "item": "fightsfrights:empty_hex",
         "after": "fightsfrights:nightmare"
+      },
+      {
+        "item": "golemoverhaul:honey_blob",
+        "after": "allaybottle:allay_bottle"
       }
     ],
     "order": []
   },
   {
     "action": "modify_tab",
-    "tab": ["minecraft:functional_blocks"],
+    "tab": [
+      "minecraft:functional_blocks"
+    ],
     "icon": "minecraft:birch_hanging_sign",
     "remove_items": [
       "minecraft:glow_lichen",
@@ -579,13 +652,39 @@
       {
         "item": "curiouschests:ender_dispatch_chest",
         "after": "carved_wood:warped_barrel"
+      },
+      {
+        "item": "spell_engine:spell_binding",
+        "after": "comforts:rope_and_nail"
+      },
+      {
+        "item": "archers:archers_workbench",
+        "after": "spell_engine:spell_binding"
+      },
+      {
+        "item": "paladins:monk_workbench",
+        "after": "archers:archers_workbench"
+      },
+      {
+        "item": "rogues:arms_workbench",
+        "after": "paladins:monk_workbench"
+      },
+      {
+        "item": "golemoverhaul:candle_golem_block",
+        "after": "rogues:arms_workbench"
+      },
+      {
+        "item": "golemoverhaul:clay_golem_statue",
+        "after": "golemoverhaul:candle_golem_block"
       }
     ],
     "order": []
   },
   {
     "action": "modify_tab",
-    "tab": ["minecraft:tools_and_utilities"],
+    "tab": [
+      "minecraft:tools_and_utilities"
+    ],
     "icon": "leafscopperbackport:copper_pickaxe",
     "remove_items": [
       "wardenhorn:warden_horn",
@@ -619,8 +718,24 @@
         "after": "vc_gliders:paraglider_wood"
       },
       {
-        "item": "yo_hooks:iron_grappling_hook",
+        "item": "kobolds:kobold_iron_shovel",
         "after": "minecraft:iron_hoe"
+      },
+      {
+        "item": "kobolds:kobold_iron_pickaxe",
+        "after": "kobolds:kobold_iron_shovel"
+      },
+      {
+        "item": "kobolds:kobold_iron_axe",
+        "after": "kobolds:kobold_iron_pickaxe"
+      },
+      {
+        "item": "kobolds:kobold_iron_hoe",
+        "after": "kobolds:kobold_iron_axe"
+      },
+      {
+        "item": "yo_hooks:iron_grappling_hook",
+        "after": "kobolds:kobold_iron_hoe"
       },
       {
         "item": "vc_gliders:paraglider_iron",
@@ -839,6 +954,10 @@
         "after": "enderscape:music_disc_bliss"
       },
       {
+        "item": "kobolds:music_disc_kobblestone",
+        "after": "betterarcheology:music_disc_swings"
+      },
+      {
         "item": "fightsfrights:allbomb",
         "after": "wanderer_ribbit:umbrellaleaf"
       },
@@ -857,16 +976,28 @@
       {
         "item": "yo_hooks:netherite_hook_head",
         "after": "yo_hooks:diamond_hook_head"
+      },
+      {
+        "item": "luminous_butterflies:butterfly_net",
+        "after": "yo_hooks:netherite_hook_head"
+      },
+      {
+        "item": "luminous_butterflies:butterfly_encyclopedia",
+        "after": "luminous_butterflies:butterfly_net"
       }
     ],
     "order": []
   },
   {
     "action": "modify_tab",
-    "tab": ["betterarcheology:betterarcheology"],
+    "tab": [
+      "betterarcheology:betterarcheology"
+    ],
     "name": "Archeology",
     "icon": "betterarcheology:iron_brush",
-    "remove_items": ["betterarcheology:music_disc_swings"],
+    "remove_items": [
+      "betterarcheology:music_disc_swings"
+    ],
     "add_items": [
       {
         "item": "wan_ancient_beasts:chisel",
@@ -1049,7 +1180,9 @@
   },
   {
     "action": "modify_tab",
-    "tab": ["cozyhome:cozyhome"],
+    "tab": [
+      "cozyhome:cozyhome"
+    ],
     "name": "Decoration",
     "remove_items": [],
     "add_items": [
@@ -1608,13 +1741,103 @@
       {
         "item": "serene_shrubbery:bloom_basket",
         "after": "items_displayed:brown_jewelry_pillow"
+      },
+      {
+        "item": "luminous_butterflies:emerald_swallowtail_jar",
+        "after": "serene_shrubbery:bloom_basket"
+      },
+      {
+        "item": "luminous_butterflies:rustypage_jar",
+        "after": "luminous_butterflies:emerald_swallowtail_jar"
+      },
+      {
+        "item": "luminous_butterflies:little_wood_jar",
+        "after": "luminous_butterflies:rustypage_jar"
+      },
+      {
+        "item": "luminous_butterflies:zebra_longwing_jar",
+        "after": "luminous_butterflies:little_wood_jar"
+      },
+      {
+        "item": "luminous_butterflies:orangetip_jar",
+        "after": "luminous_butterflies:zebra_longwing_jar"
+      },
+      {
+        "item": "luminous_butterflies:jar",
+        "after": "luminous_butterflies:orangetip_jar"
+      },
+      {
+        "item": "luminous_butterflies:monarch_jar",
+        "after": "luminous_butterflies:jar"
+      },
+      {
+        "item": "luminous_butterflies:black_swallowtail_jar",
+        "after": "luminous_butterflies:monarch_jar"
+      },
+      {
+        "item": "luminous_butterflies:spring_azure_jar",
+        "after": "luminous_butterflies:black_swallowtail_jar"
+      },
+      {
+        "item": "luminous_butterflies:yellow_swallow_tail_jar",
+        "after": "luminous_butterflies:spring_azure_jar"
+      },
+      {
+        "item": "luminous_butterflies:buckeye_jar",
+        "after": "luminous_butterflies:yellow_swallow_tail_jar"
+      },
+      {
+        "item": "luminous_butterflies:hairstreak_jar",
+        "after": "luminous_butterflies:buckeye_jar"
+      },
+      {
+        "item": "luminous_butterflies:white_hairstreak_jar",
+        "after": "luminous_butterflies:hairstreak_jar"
+      },
+      {
+        "item": "luminous_butterflies:blue_monarch_jar",
+        "after": "luminous_butterflies:white_hairstreak_jar"
+      },
+      {
+        "item": "luminous_butterflies:ringlet_jar",
+        "after": "luminous_butterflies:blue_monarch_jar"
+      },
+      {
+        "item": "luminous_butterflies:cherry_rose_jar",
+        "after": "luminous_butterflies:ringlet_jar"
+      },
+      {
+        "item": "luminous_butterflies:birdwing_jar",
+        "after": "luminous_butterflies:cherry_rose_jar"
+      },
+      {
+        "item": "luminous_butterflies:crimson_monarch_jar",
+        "after": "luminous_butterflies:birdwing_jar"
+      },
+      {
+        "item": "luminous_butterflies:soul_monarch_jar",
+        "after": "luminous_butterflies:crimson_monarch_jar"
+      },
+      {
+        "item": "luminous_butterflies:glowstone_morpho_jar",
+        "after": "luminous_butterflies:soul_monarch_jar"
+      },
+      {
+        "item": "luminous_butterflies:ender_eyespot_jar",
+        "after": "luminous_butterflies:glowstone_morpho_jar"
+      },
+      {
+        "item": "luminous_butterflies:chorus_morpho_jar",
+        "after": "luminous_butterflies:ender_eyespot_jar"
       }
     ],
     "order": []
   },
   {
     "action": "modify_tab",
-    "tab": ["minecraft:colored_blocks"],
+    "tab": [
+      "minecraft:colored_blocks"
+    ],
     "icon": "minecraft:purple_wool",
     "remove_items": [],
     "add_items": [
@@ -1663,7 +1886,9 @@
   },
   {
     "action": "modify_tab",
-    "tab": ["minecraft:combat"],
+    "tab": [
+      "minecraft:combat"
+    ],
     "icon": "minecraft:stone_sword",
     "remove_items": [],
     "add_items": [
@@ -1694,13 +1919,1751 @@
       {
         "item": "leafscopperbackport:copper_armor_boots",
         "after": "leafscopperbackport:copper_armor_leggings"
+      },
+      {
+        "item": "archers:auto_fire_hook",
+        "after": "terrarianmight:optic_staff"
+      },
+      {
+        "item": "archers:small_quiver",
+        "after": "archers:auto_fire_hook"
+      },
+      {
+        "item": "archers:medium_quiver",
+        "after": "archers:small_quiver"
+      },
+      {
+        "item": "archers:large_quiver",
+        "after": "archers:medium_quiver"
+      },
+      {
+        "item": "archers:composite_longbow",
+        "after": "archers:large_quiver"
+      },
+      {
+        "item": "archers:mechanic_shortbow",
+        "after": "archers:composite_longbow"
+      },
+      {
+        "item": "archers:royal_longbow",
+        "after": "archers:mechanic_shortbow"
+      },
+      {
+        "item": "archers:netherite_shortbow",
+        "after": "archers:royal_longbow"
+      },
+      {
+        "item": "archers:netherite_longbow",
+        "after": "archers:netherite_shortbow"
+      },
+      {
+        "item": "archers:rapid_crossbow",
+        "after": "archers:netherite_longbow"
+      },
+      {
+        "item": "archers:heavy_crossbow",
+        "after": "archers:rapid_crossbow"
+      },
+      {
+        "item": "archers:netherite_rapid_crossbow",
+        "after": "archers:heavy_crossbow"
+      },
+      {
+        "item": "archers:netherite_heavy_crossbow",
+        "after": "archers:netherite_rapid_crossbow"
+      },
+      {
+        "item": "archers:aether_longbow",
+        "after": "archers:netherite_heavy_crossbow"
+      },
+      {
+        "item": "archers:aether_rapid_crossbow",
+        "after": "archers:aether_longbow"
+      },
+      {
+        "item": "archers:aether_heavy_crossbow",
+        "after": "archers:aether_rapid_crossbow"
+      },
+      {
+        "item": "archers:flint_spear",
+        "after": "archers:aether_heavy_crossbow"
+      },
+      {
+        "item": "archers:iron_spear",
+        "after": "archers:flint_spear"
+      },
+      {
+        "item": "archers:golden_spear",
+        "after": "archers:iron_spear"
+      },
+      {
+        "item": "archers:diamond_spear",
+        "after": "archers:golden_spear"
+      },
+      {
+        "item": "archers:netherite_spear",
+        "after": "archers:diamond_spear"
+      },
+      {
+        "item": "archers:aether_spear",
+        "after": "archers:netherite_spear"
+      },
+      {
+        "item": "archers:archer_armor_head",
+        "after": "archers:aether_spear"
+      },
+      {
+        "item": "archers:archer_armor_chest",
+        "after": "archers:archer_armor_head"
+      },
+      {
+        "item": "archers:archer_armor_legs",
+        "after": "archers:archer_armor_chest"
+      },
+      {
+        "item": "archers:archer_armor_feet",
+        "after": "archers:archer_armor_legs"
+      },
+      {
+        "item": "archers:ranger_armor_head",
+        "after": "archers:archer_armor_feet"
+      },
+      {
+        "item": "archers:ranger_armor_chest",
+        "after": "archers:ranger_armor_head"
+      },
+      {
+        "item": "archers:ranger_armor_legs",
+        "after": "archers:ranger_armor_chest"
+      },
+      {
+        "item": "archers:ranger_armor_feet",
+        "after": "archers:ranger_armor_legs"
+      },
+      {
+        "item": "archers:netherite_ranger_armor_head",
+        "after": "archers:ranger_armor_feet"
+      },
+      {
+        "item": "archers:netherite_ranger_armor_chest",
+        "after": "archers:netherite_ranger_armor_head"
+      },
+      {
+        "item": "archers:netherite_ranger_armor_legs",
+        "after": "archers:netherite_ranger_armor_chest"
+      },
+      {
+        "item": "archers:netherite_ranger_armor_feet",
+        "after": "archers:netherite_ranger_armor_legs"
+      },
+      {
+        "item": "paladins:stone_claymore",
+        "after": "archers:netherite_ranger_armor_feet"
+      },
+      {
+        "item": "paladins:iron_claymore",
+        "after": "paladins:stone_claymore"
+      },
+      {
+        "item": "paladins:golden_claymore",
+        "after": "paladins:iron_claymore"
+      },
+      {
+        "item": "paladins:diamond_claymore",
+        "after": "paladins:golden_claymore"
+      },
+      {
+        "item": "paladins:netherite_claymore",
+        "after": "paladins:diamond_claymore"
+      },
+      {
+        "item": "paladins:wooden_great_hammer",
+        "after": "paladins:netherite_claymore"
+      },
+      {
+        "item": "paladins:stone_great_hammer",
+        "after": "paladins:wooden_great_hammer"
+      },
+      {
+        "item": "paladins:iron_great_hammer",
+        "after": "paladins:stone_great_hammer"
+      },
+      {
+        "item": "paladins:golden_great_hammer",
+        "after": "paladins:iron_great_hammer"
+      },
+      {
+        "item": "paladins:diamond_great_hammer",
+        "after": "paladins:golden_great_hammer"
+      },
+      {
+        "item": "paladins:netherite_great_hammer",
+        "after": "paladins:diamond_great_hammer"
+      },
+      {
+        "item": "paladins:iron_mace",
+        "after": "paladins:netherite_great_hammer"
+      },
+      {
+        "item": "paladins:golden_mace",
+        "after": "paladins:iron_mace"
+      },
+      {
+        "item": "paladins:diamond_mace",
+        "after": "paladins:golden_mace"
+      },
+      {
+        "item": "paladins:netherite_mace",
+        "after": "paladins:diamond_mace"
+      },
+      {
+        "item": "paladins:acolyte_wand",
+        "after": "paladins:netherite_mace"
+      },
+      {
+        "item": "paladins:holy_wand",
+        "after": "paladins:acolyte_wand"
+      },
+      {
+        "item": "paladins:diamond_holy_wand",
+        "after": "paladins:holy_wand"
+      },
+      {
+        "item": "paladins:netherite_holy_wand",
+        "after": "paladins:diamond_holy_wand"
+      },
+      {
+        "item": "paladins:holy_staff",
+        "after": "paladins:netherite_holy_wand"
+      },
+      {
+        "item": "paladins:diamond_holy_staff",
+        "after": "paladins:holy_staff"
+      },
+      {
+        "item": "paladins:netherite_holy_staff",
+        "after": "paladins:diamond_holy_staff"
+      },
+      {
+        "item": "paladins:aether_holy_staff",
+        "after": "paladins:netherite_holy_staff"
+      },
+      {
+        "item": "paladins:aether_claymore",
+        "after": "paladins:aether_holy_staff"
+      },
+      {
+        "item": "paladins:aether_great_hammer",
+        "after": "paladins:aether_claymore"
+      },
+      {
+        "item": "paladins:aether_mace",
+        "after": "paladins:aether_great_hammer"
+      },
+      {
+        "item": "paladins:iron_kite_shield",
+        "after": "paladins:aether_mace"
+      },
+      {
+        "item": "paladins:golden_kite_shield",
+        "after": "paladins:iron_kite_shield"
+      },
+      {
+        "item": "paladins:diamond_kite_shield",
+        "after": "paladins:golden_kite_shield"
+      },
+      {
+        "item": "paladins:netherite_kite_shield",
+        "after": "paladins:diamond_kite_shield"
+      },
+      {
+        "item": "paladins:aether_kite_shield",
+        "after": "paladins:netherite_kite_shield"
+      },
+      {
+        "item": "paladins:paladin_armor_head",
+        "after": "paladins:aether_kite_shield"
+      },
+      {
+        "item": "paladins:paladin_armor_chest",
+        "after": "paladins:paladin_armor_head"
+      },
+      {
+        "item": "paladins:paladin_armor_legs",
+        "after": "paladins:paladin_armor_chest"
+      },
+      {
+        "item": "paladins:paladin_armor_feet",
+        "after": "paladins:paladin_armor_legs"
+      },
+      {
+        "item": "paladins:crusader_armor_head",
+        "after": "paladins:paladin_armor_feet"
+      },
+      {
+        "item": "paladins:crusader_armor_chest",
+        "after": "paladins:crusader_armor_head"
+      },
+      {
+        "item": "paladins:crusader_armor_legs",
+        "after": "paladins:crusader_armor_chest"
+      },
+      {
+        "item": "paladins:crusader_armor_feet",
+        "after": "paladins:crusader_armor_legs"
+      },
+      {
+        "item": "paladins:netherite_crusader_armor_head",
+        "after": "paladins:crusader_armor_feet"
+      },
+      {
+        "item": "paladins:netherite_crusader_armor_chest",
+        "after": "paladins:netherite_crusader_armor_head"
+      },
+      {
+        "item": "paladins:netherite_crusader_armor_legs",
+        "after": "paladins:netherite_crusader_armor_chest"
+      },
+      {
+        "item": "paladins:netherite_crusader_armor_feet",
+        "after": "paladins:netherite_crusader_armor_legs"
+      },
+      {
+        "item": "paladins:priest_robe_head",
+        "after": "paladins:netherite_crusader_armor_feet"
+      },
+      {
+        "item": "paladins:priest_robe_chest",
+        "after": "paladins:priest_robe_head"
+      },
+      {
+        "item": "paladins:priest_robe_legs",
+        "after": "paladins:priest_robe_chest"
+      },
+      {
+        "item": "paladins:priest_robe_feet",
+        "after": "paladins:priest_robe_legs"
+      },
+      {
+        "item": "paladins:prior_robe_head",
+        "after": "paladins:priest_robe_feet"
+      },
+      {
+        "item": "paladins:prior_robe_chest",
+        "after": "paladins:prior_robe_head"
+      },
+      {
+        "item": "paladins:prior_robe_legs",
+        "after": "paladins:prior_robe_chest"
+      },
+      {
+        "item": "paladins:prior_robe_feet",
+        "after": "paladins:prior_robe_legs"
+      },
+      {
+        "item": "paladins:netherite_prior_robe_head",
+        "after": "paladins:prior_robe_feet"
+      },
+      {
+        "item": "paladins:netherite_prior_robe_chest",
+        "after": "paladins:netherite_prior_robe_head"
+      },
+      {
+        "item": "paladins:netherite_prior_robe_legs",
+        "after": "paladins:netherite_prior_robe_chest"
+      },
+      {
+        "item": "paladins:netherite_prior_robe_feet",
+        "after": "paladins:netherite_prior_robe_legs"
+      },
+      {
+        "item": "wizards:wand_novice",
+        "after": "paladins:netherite_prior_robe_feet"
+      },
+      {
+        "item": "wizards:wand_arcane",
+        "after": "wizards:wand_novice"
+      },
+      {
+        "item": "wizards:wand_fire",
+        "after": "wizards:wand_arcane"
+      },
+      {
+        "item": "wizards:wand_frost",
+        "after": "wizards:wand_fire"
+      },
+      {
+        "item": "wizards:wand_netherite_arcane",
+        "after": "wizards:wand_frost"
+      },
+      {
+        "item": "wizards:wand_netherite_fire",
+        "after": "wizards:wand_netherite_arcane"
+      },
+      {
+        "item": "wizards:wand_netherite_frost",
+        "after": "wizards:wand_netherite_fire"
+      },
+      {
+        "item": "wizards:staff_wizard",
+        "after": "wizards:wand_netherite_frost"
+      },
+      {
+        "item": "wizards:staff_arcane",
+        "after": "wizards:staff_wizard"
+      },
+      {
+        "item": "wizards:staff_fire",
+        "after": "wizards:staff_arcane"
+      },
+      {
+        "item": "wizards:staff_frost",
+        "after": "wizards:staff_fire"
+      },
+      {
+        "item": "wizards:staff_netherite_arcane",
+        "after": "wizards:staff_frost"
+      },
+      {
+        "item": "wizards:staff_netherite_fire",
+        "after": "wizards:staff_netherite_arcane"
+      },
+      {
+        "item": "wizards:staff_netherite_frost",
+        "after": "wizards:staff_netherite_fire"
+      },
+      {
+        "item": "wizards:aether_wizard_staff",
+        "after": "wizards:staff_netherite_frost"
+      },
+      {
+        "item": "wizards:wizard_robe_head",
+        "after": "wizards:aether_wizard_staff"
+      },
+      {
+        "item": "wizards:wizard_robe_chest",
+        "after": "wizards:wizard_robe_head"
+      },
+      {
+        "item": "wizards:wizard_robe_legs",
+        "after": "wizards:wizard_robe_chest"
+      },
+      {
+        "item": "wizards:wizard_robe_feet",
+        "after": "wizards:wizard_robe_legs"
+      },
+      {
+        "item": "wizards:arcane_robe_head",
+        "after": "wizards:wizard_robe_feet"
+      },
+      {
+        "item": "wizards:arcane_robe_chest",
+        "after": "wizards:arcane_robe_head"
+      },
+      {
+        "item": "wizards:arcane_robe_legs",
+        "after": "wizards:arcane_robe_chest"
+      },
+      {
+        "item": "wizards:arcane_robe_feet",
+        "after": "wizards:arcane_robe_legs"
+      },
+      {
+        "item": "wizards:fire_robe_head",
+        "after": "wizards:arcane_robe_feet"
+      },
+      {
+        "item": "wizards:fire_robe_chest",
+        "after": "wizards:fire_robe_head"
+      },
+      {
+        "item": "wizards:fire_robe_legs",
+        "after": "wizards:fire_robe_chest"
+      },
+      {
+        "item": "wizards:fire_robe_feet",
+        "after": "wizards:fire_robe_legs"
+      },
+      {
+        "item": "wizards:frost_robe_head",
+        "after": "wizards:fire_robe_feet"
+      },
+      {
+        "item": "wizards:frost_robe_chest",
+        "after": "wizards:frost_robe_head"
+      },
+      {
+        "item": "wizards:frost_robe_legs",
+        "after": "wizards:frost_robe_chest"
+      },
+      {
+        "item": "wizards:frost_robe_feet",
+        "after": "wizards:frost_robe_legs"
+      },
+      {
+        "item": "wizards:netherite_arcane_robe_head",
+        "after": "wizards:frost_robe_feet"
+      },
+      {
+        "item": "wizards:netherite_arcane_robe_chest",
+        "after": "wizards:netherite_arcane_robe_head"
+      },
+      {
+        "item": "wizards:netherite_arcane_robe_legs",
+        "after": "wizards:netherite_arcane_robe_chest"
+      },
+      {
+        "item": "wizards:netherite_arcane_robe_feet",
+        "after": "wizards:netherite_arcane_robe_legs"
+      },
+      {
+        "item": "wizards:netherite_fire_robe_head",
+        "after": "wizards:netherite_arcane_robe_feet"
+      },
+      {
+        "item": "wizards:netherite_fire_robe_chest",
+        "after": "wizards:netherite_fire_robe_head"
+      },
+      {
+        "item": "wizards:netherite_fire_robe_legs",
+        "after": "wizards:netherite_fire_robe_chest"
+      },
+      {
+        "item": "wizards:netherite_fire_robe_feet",
+        "after": "wizards:netherite_fire_robe_legs"
+      },
+      {
+        "item": "wizards:netherite_frost_robe_head",
+        "after": "wizards:netherite_fire_robe_feet"
+      },
+      {
+        "item": "wizards:netherite_frost_robe_chest",
+        "after": "wizards:netherite_frost_robe_head"
+      },
+      {
+        "item": "wizards:netherite_frost_robe_legs",
+        "after": "wizards:netherite_frost_robe_chest"
+      },
+      {
+        "item": "wizards:netherite_frost_robe_feet",
+        "after": "wizards:netherite_frost_robe_legs"
+      },
+      {
+        "item": "rogues:flint_dagger",
+        "after": "wizards:netherite_frost_robe_feet"
+      },
+      {
+        "item": "rogues:iron_dagger",
+        "after": "rogues:flint_dagger"
+      },
+      {
+        "item": "rogues:golden_dagger",
+        "after": "rogues:iron_dagger"
+      },
+      {
+        "item": "rogues:diamond_dagger",
+        "after": "rogues:golden_dagger"
+      },
+      {
+        "item": "rogues:netherite_dagger",
+        "after": "rogues:diamond_dagger"
+      },
+      {
+        "item": "rogues:iron_sickle",
+        "after": "rogues:netherite_dagger"
+      },
+      {
+        "item": "rogues:golden_sickle",
+        "after": "rogues:iron_sickle"
+      },
+      {
+        "item": "rogues:diamond_sickle",
+        "after": "rogues:golden_sickle"
+      },
+      {
+        "item": "rogues:netherite_sickle",
+        "after": "rogues:diamond_sickle"
+      },
+      {
+        "item": "rogues:stone_double_axe",
+        "after": "rogues:netherite_sickle"
+      },
+      {
+        "item": "rogues:iron_double_axe",
+        "after": "rogues:stone_double_axe"
+      },
+      {
+        "item": "rogues:golden_double_axe",
+        "after": "rogues:iron_double_axe"
+      },
+      {
+        "item": "rogues:diamond_double_axe",
+        "after": "rogues:golden_double_axe"
+      },
+      {
+        "item": "rogues:netherite_double_axe",
+        "after": "rogues:diamond_double_axe"
+      },
+      {
+        "item": "rogues:iron_glaive",
+        "after": "rogues:netherite_double_axe"
+      },
+      {
+        "item": "rogues:golden_glaive",
+        "after": "rogues:iron_glaive"
+      },
+      {
+        "item": "rogues:diamond_glaive",
+        "after": "rogues:golden_glaive"
+      },
+      {
+        "item": "rogues:netherite_glaive",
+        "after": "rogues:diamond_glaive"
+      },
+      {
+        "item": "rogues:aether_dagger",
+        "after": "rogues:netherite_glaive"
+      },
+      {
+        "item": "rogues:aether_sickle",
+        "after": "rogues:aether_dagger"
+      },
+      {
+        "item": "rogues:aether_double_axe",
+        "after": "rogues:aether_sickle"
+      },
+      {
+        "item": "rogues:aether_glaive",
+        "after": "rogues:aether_double_axe"
+      },
+      {
+        "item": "rogues:rogue_armor_head",
+        "after": "rogues:aether_glaive"
+      },
+      {
+        "item": "rogues:rogue_armor_chest",
+        "after": "rogues:rogue_armor_head"
+      },
+      {
+        "item": "rogues:rogue_armor_legs",
+        "after": "rogues:rogue_armor_chest"
+      },
+      {
+        "item": "rogues:rogue_armor_feet",
+        "after": "rogues:rogue_armor_legs"
+      },
+      {
+        "item": "rogues:assassin_armor_head",
+        "after": "rogues:rogue_armor_feet"
+      },
+      {
+        "item": "rogues:assassin_armor_chest",
+        "after": "rogues:assassin_armor_head"
+      },
+      {
+        "item": "rogues:assassin_armor_legs",
+        "after": "rogues:assassin_armor_chest"
+      },
+      {
+        "item": "rogues:assassin_armor_feet",
+        "after": "rogues:assassin_armor_legs"
+      },
+      {
+        "item": "rogues:netherite_assassin_armor_head",
+        "after": "rogues:assassin_armor_feet"
+      },
+      {
+        "item": "rogues:netherite_assassin_armor_chest",
+        "after": "rogues:netherite_assassin_armor_head"
+      },
+      {
+        "item": "rogues:netherite_assassin_armor_legs",
+        "after": "rogues:netherite_assassin_armor_chest"
+      },
+      {
+        "item": "rogues:netherite_assassin_armor_feet",
+        "after": "rogues:netherite_assassin_armor_legs"
+      },
+      {
+        "item": "rogues:warrior_armor_head",
+        "after": "rogues:netherite_assassin_armor_feet"
+      },
+      {
+        "item": "rogues:warrior_armor_chest",
+        "after": "rogues:warrior_armor_head"
+      },
+      {
+        "item": "rogues:warrior_armor_legs",
+        "after": "rogues:warrior_armor_chest"
+      },
+      {
+        "item": "rogues:warrior_armor_feet",
+        "after": "rogues:warrior_armor_legs"
+      },
+      {
+        "item": "rogues:berserker_armor_head",
+        "after": "rogues:warrior_armor_feet"
+      },
+      {
+        "item": "rogues:berserker_armor_chest",
+        "after": "rogues:berserker_armor_head"
+      },
+      {
+        "item": "rogues:berserker_armor_legs",
+        "after": "rogues:berserker_armor_chest"
+      },
+      {
+        "item": "rogues:berserker_armor_feet",
+        "after": "rogues:berserker_armor_legs"
+      },
+      {
+        "item": "rogues:netherite_berserker_armor_head",
+        "after": "rogues:berserker_armor_feet"
+      },
+      {
+        "item": "rogues:netherite_berserker_armor_chest",
+        "after": "rogues:netherite_berserker_armor_head"
+      },
+      {
+        "item": "rogues:netherite_berserker_armor_legs",
+        "after": "rogues:netherite_berserker_armor_chest"
+      },
+      {
+        "item": "rogues:netherite_berserker_armor_feet",
+        "after": "rogues:netherite_berserker_armor_legs"
+      },
+      {
+        "item": "kobolds:kobold_iron_sword",
+        "after": "rogues:netherite_berserker_armor_feet"
+      },
+      {
+        "item": "kobolds:kobold_iron_spear_sword",
+        "after": "kobolds:kobold_iron_sword"
+      },
+      {
+        "item": "armory_rpgs:astral_robe_head",
+        "after": "kobolds:kobold_iron_spear_sword"
+      },
+      {
+        "item": "armory_rpgs:astral_robe_chest",
+        "after": "armory_rpgs:astral_robe_head"
+      },
+      {
+        "item": "armory_rpgs:astral_robe_legs",
+        "after": "armory_rpgs:astral_robe_chest"
+      },
+      {
+        "item": "armory_rpgs:astral_robe_feet",
+        "after": "armory_rpgs:astral_robe_legs"
+      },
+      {
+        "item": "armory_rpgs:scarlet_robe_head",
+        "after": "armory_rpgs:astral_robe_feet"
+      },
+      {
+        "item": "armory_rpgs:scarlet_robe_chest",
+        "after": "armory_rpgs:scarlet_robe_head"
+      },
+      {
+        "item": "armory_rpgs:scarlet_robe_legs",
+        "after": "armory_rpgs:scarlet_robe_chest"
+      },
+      {
+        "item": "armory_rpgs:scarlet_robe_feet",
+        "after": "armory_rpgs:scarlet_robe_legs"
+      },
+      {
+        "item": "armory_rpgs:glacier_robe_head",
+        "after": "armory_rpgs:scarlet_robe_feet"
+      },
+      {
+        "item": "armory_rpgs:glacier_robe_chest",
+        "after": "armory_rpgs:glacier_robe_head"
+      },
+      {
+        "item": "armory_rpgs:glacier_robe_legs",
+        "after": "armory_rpgs:glacier_robe_chest"
+      },
+      {
+        "item": "armory_rpgs:glacier_robe_feet",
+        "after": "armory_rpgs:glacier_robe_legs"
+      },
+      {
+        "item": "armory_rpgs:avatar_robe_head",
+        "after": "armory_rpgs:glacier_robe_feet"
+      },
+      {
+        "item": "armory_rpgs:avatar_robe_chest",
+        "after": "armory_rpgs:avatar_robe_head"
+      },
+      {
+        "item": "armory_rpgs:avatar_robe_legs",
+        "after": "armory_rpgs:avatar_robe_chest"
+      },
+      {
+        "item": "armory_rpgs:avatar_robe_feet",
+        "after": "armory_rpgs:avatar_robe_legs"
+      },
+      {
+        "item": "armory_rpgs:justicar_armor_head",
+        "after": "armory_rpgs:avatar_robe_feet"
+      },
+      {
+        "item": "armory_rpgs:justicar_armor_chest",
+        "after": "armory_rpgs:justicar_armor_head"
+      },
+      {
+        "item": "armory_rpgs:justicar_armor_legs",
+        "after": "armory_rpgs:justicar_armor_chest"
+      },
+      {
+        "item": "armory_rpgs:justicar_armor_feet",
+        "after": "armory_rpgs:justicar_armor_legs"
+      },
+      {
+        "item": "armory_rpgs:destroyer_armor_head",
+        "after": "armory_rpgs:justicar_armor_feet"
+      },
+      {
+        "item": "armory_rpgs:destroyer_armor_chest",
+        "after": "armory_rpgs:destroyer_armor_head"
+      },
+      {
+        "item": "armory_rpgs:destroyer_armor_legs",
+        "after": "armory_rpgs:destroyer_armor_chest"
+      },
+      {
+        "item": "armory_rpgs:destroyer_armor_feet",
+        "after": "armory_rpgs:destroyer_armor_legs"
+      },
+      {
+        "item": "armory_rpgs:deathmantle_armor_head",
+        "after": "armory_rpgs:destroyer_armor_feet"
+      },
+      {
+        "item": "armory_rpgs:deathmantle_armor_chest",
+        "after": "armory_rpgs:deathmantle_armor_head"
+      },
+      {
+        "item": "armory_rpgs:deathmantle_armor_legs",
+        "after": "armory_rpgs:deathmantle_armor_chest"
+      },
+      {
+        "item": "armory_rpgs:deathmantle_armor_feet",
+        "after": "armory_rpgs:deathmantle_armor_legs"
+      },
+      {
+        "item": "armory_rpgs:strider_armor_head",
+        "after": "armory_rpgs:deathmantle_armor_feet"
+      },
+      {
+        "item": "armory_rpgs:strider_armor_chest",
+        "after": "armory_rpgs:strider_armor_head"
+      },
+      {
+        "item": "armory_rpgs:strider_armor_legs",
+        "after": "armory_rpgs:strider_armor_chest"
+      },
+      {
+        "item": "armory_rpgs:strider_armor_feet",
+        "after": "armory_rpgs:strider_armor_legs"
+      },
+      {
+        "item": "armory_rpgs:tempest_robe_head",
+        "after": "armory_rpgs:strider_armor_feet"
+      },
+      {
+        "item": "armory_rpgs:tempest_robe_chest",
+        "after": "armory_rpgs:tempest_robe_head"
+      },
+      {
+        "item": "armory_rpgs:tempest_robe_legs",
+        "after": "armory_rpgs:tempest_robe_chest"
+      },
+      {
+        "item": "armory_rpgs:tempest_robe_feet",
+        "after": "armory_rpgs:tempest_robe_legs"
+      },
+      {
+        "item": "armory_rpgs:smouldering_robe_head",
+        "after": "armory_rpgs:tempest_robe_feet"
+      },
+      {
+        "item": "armory_rpgs:smouldering_robe_chest",
+        "after": "armory_rpgs:smouldering_robe_head"
+      },
+      {
+        "item": "armory_rpgs:smouldering_robe_legs",
+        "after": "armory_rpgs:smouldering_robe_chest"
+      },
+      {
+        "item": "armory_rpgs:smouldering_robe_feet",
+        "after": "armory_rpgs:smouldering_robe_legs"
+      },
+      {
+        "item": "armory_rpgs:rimeweave_robe_head",
+        "after": "armory_rpgs:smouldering_robe_feet"
+      },
+      {
+        "item": "armory_rpgs:rimeweave_robe_chest",
+        "after": "armory_rpgs:rimeweave_robe_head"
+      },
+      {
+        "item": "armory_rpgs:rimeweave_robe_legs",
+        "after": "armory_rpgs:rimeweave_robe_chest"
+      },
+      {
+        "item": "armory_rpgs:rimeweave_robe_feet",
+        "after": "armory_rpgs:rimeweave_robe_legs"
+      },
+      {
+        "item": "armory_rpgs:absolution_robe_head",
+        "after": "armory_rpgs:rimeweave_robe_feet"
+      },
+      {
+        "item": "armory_rpgs:absolution_robe_chest",
+        "after": "armory_rpgs:absolution_robe_head"
+      },
+      {
+        "item": "armory_rpgs:absolution_robe_legs",
+        "after": "armory_rpgs:absolution_robe_chest"
+      },
+      {
+        "item": "armory_rpgs:absolution_robe_feet",
+        "after": "armory_rpgs:absolution_robe_legs"
+      },
+      {
+        "item": "armory_rpgs:lightbringer_armor_head",
+        "after": "armory_rpgs:absolution_robe_feet"
+      },
+      {
+        "item": "armory_rpgs:lightbringer_armor_chest",
+        "after": "armory_rpgs:lightbringer_armor_head"
+      },
+      {
+        "item": "armory_rpgs:lightbringer_armor_legs",
+        "after": "armory_rpgs:lightbringer_armor_chest"
+      },
+      {
+        "item": "armory_rpgs:lightbringer_armor_feet",
+        "after": "armory_rpgs:lightbringer_armor_legs"
+      },
+      {
+        "item": "armory_rpgs:onslaught_armor_head",
+        "after": "armory_rpgs:lightbringer_armor_feet"
+      },
+      {
+        "item": "armory_rpgs:onslaught_armor_chest",
+        "after": "armory_rpgs:onslaught_armor_head"
+      },
+      {
+        "item": "armory_rpgs:onslaught_armor_legs",
+        "after": "armory_rpgs:onslaught_armor_chest"
+      },
+      {
+        "item": "armory_rpgs:onslaught_armor_feet",
+        "after": "armory_rpgs:onslaught_armor_legs"
+      },
+      {
+        "item": "armory_rpgs:slayer_armor_head",
+        "after": "armory_rpgs:onslaught_armor_feet"
+      },
+      {
+        "item": "armory_rpgs:slayer_armor_chest",
+        "after": "armory_rpgs:slayer_armor_head"
+      },
+      {
+        "item": "armory_rpgs:slayer_armor_legs",
+        "after": "armory_rpgs:slayer_armor_chest"
+      },
+      {
+        "item": "armory_rpgs:slayer_armor_feet",
+        "after": "armory_rpgs:slayer_armor_legs"
+      },
+      {
+        "item": "armory_rpgs:riftstalker_armor_head",
+        "after": "armory_rpgs:slayer_armor_feet"
+      },
+      {
+        "item": "armory_rpgs:riftstalker_armor_chest",
+        "after": "armory_rpgs:riftstalker_armor_head"
+      },
+      {
+        "item": "armory_rpgs:riftstalker_armor_legs",
+        "after": "armory_rpgs:riftstalker_armor_chest"
+      },
+      {
+        "item": "armory_rpgs:riftstalker_armor_feet",
+        "after": "armory_rpgs:riftstalker_armor_legs"
+      },
+      {
+        "item": "spell_engine:spell_book",
+        "after": "armory_rpgs:riftstalker_armor_feet",
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "archers:spell_book/archer"
+          },
+          "spell_engine:item_model": "archers:item/spell_book/archer",
+          "minecraft:item_name": "{\"translate\":\"item.archers.spell_book/archer\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_book",
+        "after": "spell_engine:spell_book",
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "paladins:spell_book/paladin"
+          },
+          "spell_engine:item_model": "paladins:item/spell_book/paladin",
+          "minecraft:item_name": "{\"translate\":\"item.paladins.spell_book/paladin\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_book",
+        "after": "spell_engine:spell_book",
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "paladins:spell_book/priest"
+          },
+          "spell_engine:item_model": "paladins:item/spell_book/priest",
+          "minecraft:item_name": "{\"translate\":\"item.paladins.spell_book/priest\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_book",
+        "after": "spell_engine:spell_book",
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "rogues:spell_book/rogue"
+          },
+          "spell_engine:item_model": "rogues:item/spell_book/rogue",
+          "minecraft:item_name": "{\"translate\":\"item.rogues.spell_book/rogue\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_book",
+        "after": "spell_engine:spell_book",
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "rogues:spell_book/warrior"
+          },
+          "spell_engine:item_model": "rogues:item/spell_book/warrior",
+          "minecraft:item_name": "{\"translate\":\"item.rogues.spell_book/warrior\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_book",
+        "after": "spell_engine:spell_book",
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "wizards:spell_book/arcane"
+          },
+          "spell_engine:item_model": "wizards:item/spell_book/arcane",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_book/arcane\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_book",
+        "after": "spell_engine:spell_book",
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "wizards:spell_book/fire"
+          },
+          "spell_engine:item_model": "wizards:item/spell_book/fire",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_book/fire\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_book",
+        "after": "spell_engine:spell_book",
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "wizards:spell_book/frost"
+          },
+          "spell_engine:item_model": "wizards:item/spell_book/frost",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_book/frost\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_book",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "archers:power_shot"
+            ]
+          },
+          "minecraft:rarity": "uncommon",
+          "spell_engine:item_model": "archers:item/spell_scroll/archer",
+          "minecraft:item_name": "{\"translate\":\"item.archers.spell_scroll/archer\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "archers:entangling_roots"
+            ]
+          },
+          "minecraft:rarity": "uncommon",
+          "spell_engine:item_model": "archers:item/spell_scroll/archer",
+          "minecraft:item_name": "{\"translate\":\"item.archers.spell_scroll/archer\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "archers:barrage"
+            ]
+          },
+          "minecraft:rarity": "rare",
+          "spell_engine:item_model": "archers:item/spell_scroll/archer",
+          "minecraft:item_name": "{\"translate\":\"item.archers.spell_scroll/archer\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "archers:spirit_wolf"
+            ]
+          },
+          "minecraft:rarity": "rare",
+          "spell_engine:item_model": "archers:item/spell_scroll/archer",
+          "minecraft:item_name": "{\"translate\":\"item.archers.spell_scroll/archer\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "archers:rain_of_arrows"
+            ]
+          },
+          "minecraft:rarity": "epic",
+          "spell_engine:item_model": "archers:item/spell_scroll/archer",
+          "minecraft:item_name": "{\"translate\":\"item.archers.spell_scroll/archer\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "archers:magic_arrow"
+            ]
+          },
+          "minecraft:rarity": "epic",
+          "spell_engine:item_model": "archers:item/spell_scroll/archer",
+          "minecraft:item_name": "{\"translate\":\"item.archers.spell_scroll/archer\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "paladins:flash_heal"
+            ]
+          },
+          "minecraft:rarity": "uncommon",
+          "spell_engine:item_model": "paladins:item/spell_scroll/paladin",
+          "minecraft:item_name": "{\"translate\":\"item.paladins.spell_scroll/paladin\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "paladins:blessed_strikes"
+            ]
+          },
+          "minecraft:rarity": "uncommon",
+          "spell_engine:item_model": "paladins:item/spell_scroll/paladin",
+          "minecraft:item_name": "{\"translate\":\"item.paladins.spell_scroll/paladin\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "paladins:divine_protection"
+            ]
+          },
+          "minecraft:rarity": "rare",
+          "spell_engine:item_model": "paladins:item/spell_scroll/paladin",
+          "minecraft:item_name": "{\"translate\":\"item.paladins.spell_scroll/paladin\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "paladins:judgement"
+            ]
+          },
+          "minecraft:rarity": "rare",
+          "spell_engine:item_model": "paladins:item/spell_scroll/paladin",
+          "minecraft:item_name": "{\"translate\":\"item.paladins.spell_scroll/paladin\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "paladins:battle_banner"
+            ]
+          },
+          "minecraft:rarity": "epic",
+          "spell_engine:item_model": "paladins:item/spell_scroll/paladin",
+          "minecraft:item_name": "{\"translate\":\"item.paladins.spell_scroll/paladin\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "paladins:immolation"
+            ]
+          },
+          "minecraft:rarity": "epic",
+          "spell_engine:item_model": "paladins:item/spell_scroll/paladin",
+          "minecraft:item_name": "{\"translate\":\"item.paladins.spell_scroll/paladin\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "paladins:levitate"
+            ]
+          },
+          "minecraft:rarity": "uncommon",
+          "spell_engine:item_model": "paladins:item/spell_scroll/priest",
+          "minecraft:item_name": "{\"translate\":\"item.paladins.spell_scroll/priest\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "paladins:holy_beam"
+            ]
+          },
+          "minecraft:rarity": "uncommon",
+          "spell_engine:item_model": "paladins:item/spell_scroll/priest",
+          "minecraft:item_name": "{\"translate\":\"item.paladins.spell_scroll/priest\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "paladins:penance"
+            ]
+          },
+          "minecraft:rarity": "rare",
+          "spell_engine:item_model": "paladins:item/spell_scroll/priest",
+          "minecraft:item_name": "{\"translate\":\"item.paladins.spell_scroll/priest\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "paladins:circle_of_healing"
+            ]
+          },
+          "minecraft:rarity": "rare",
+          "spell_engine:item_model": "paladins:item/spell_scroll/priest",
+          "minecraft:item_name": "{\"translate\":\"item.paladins.spell_scroll/priest\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "paladins:barrier"
+            ]
+          },
+          "minecraft:rarity": "epic",
+          "spell_engine:item_model": "paladins:item/spell_scroll/priest",
+          "minecraft:item_name": "{\"translate\":\"item.paladins.spell_scroll/priest\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "paladins:lightwell"
+            ]
+          },
+          "minecraft:rarity": "epic",
+          "spell_engine:item_model": "paladins:item/spell_scroll/priest",
+          "minecraft:item_name": "{\"translate\":\"item.paladins.spell_scroll/priest\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "rogues:slice_and_dice"
+            ]
+          },
+          "minecraft:rarity": "uncommon",
+          "spell_engine:item_model": "rogues:item/spell_scroll/rogue",
+          "minecraft:item_name": "{\"translate\":\"item.rogues.spell_scroll/rogue\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "rogues:shock_powder"
+            ]
+          },
+          "minecraft:rarity": "uncommon",
+          "spell_engine:item_model": "rogues:item/spell_scroll/rogue",
+          "minecraft:item_name": "{\"translate\":\"item.rogues.spell_scroll/rogue\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "rogues:bear_trap"
+            ]
+          },
+          "minecraft:rarity": "rare",
+          "spell_engine:item_model": "rogues:item/spell_scroll/rogue",
+          "minecraft:item_name": "{\"translate\":\"item.rogues.spell_scroll/rogue\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "rogues:shadow_step"
+            ]
+          },
+          "minecraft:rarity": "rare",
+          "spell_engine:item_model": "rogues:item/spell_scroll/rogue",
+          "minecraft:item_name": "{\"translate\":\"item.rogues.spell_scroll/rogue\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "rogues:mutilate"
+            ]
+          },
+          "minecraft:rarity": "epic",
+          "spell_engine:item_model": "rogues:item/spell_scroll/rogue",
+          "minecraft:item_name": "{\"translate\":\"item.rogues.spell_scroll/rogue\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "rogues:vanish"
+            ]
+          },
+          "minecraft:rarity": "epic",
+          "spell_engine:item_model": "rogues:item/spell_scroll/rogue",
+          "minecraft:item_name": "{\"translate\":\"item.rogues.spell_scroll/rogue\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "rogues:throw"
+            ]
+          },
+          "minecraft:rarity": "uncommon",
+          "spell_engine:item_model": "rogues:item/spell_scroll/warrior",
+          "minecraft:item_name": "{\"translate\":\"item.rogues.spell_scroll/warrior\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "rogues:throw_net"
+            ]
+          },
+          "minecraft:rarity": "uncommon",
+          "spell_engine:item_model": "rogues:item/spell_scroll/warrior",
+          "minecraft:item_name": "{\"translate\":\"item.rogues.spell_scroll/warrior\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "rogues:charge"
+            ]
+          },
+          "minecraft:rarity": "rare",
+          "spell_engine:item_model": "rogues:item/spell_scroll/warrior",
+          "minecraft:item_name": "{\"translate\":\"item.rogues.spell_scroll/warrior\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "rogues:shout"
+            ]
+          },
+          "minecraft:rarity": "rare",
+          "spell_engine:item_model": "rogues:item/spell_scroll/warrior",
+          "minecraft:item_name": "{\"translate\":\"item.rogues.spell_scroll/warrior\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "rogues:mortal_strike"
+            ]
+          },
+          "minecraft:rarity": "epic",
+          "spell_engine:item_model": "rogues:item/spell_scroll/warrior",
+          "minecraft:item_name": "{\"translate\":\"item.rogues.spell_scroll/warrior\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "rogues:last_stand"
+            ]
+          },
+          "minecraft:rarity": "epic",
+          "spell_engine:item_model": "rogues:item/spell_scroll/warrior",
+          "minecraft:item_name": "{\"translate\":\"item.rogues.spell_scroll/warrior\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "wizards:arcane_explosion"
+            ]
+          },
+          "minecraft:rarity": "uncommon",
+          "spell_engine:item_model": "wizards:item/spell_scroll/arcane",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/arcane\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "wizards:arcane_missile"
+            ]
+          },
+          "minecraft:rarity": "uncommon",
+          "spell_engine:item_model": "wizards:item/spell_scroll/arcane",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/arcane\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "wizards:arcane_barrage"
+            ]
+          },
+          "minecraft:rarity": "rare",
+          "spell_engine:item_model": "wizards:item/spell_scroll/arcane",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/arcane\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "wizards:arcane_beam"
+            ]
+          },
+          "minecraft:rarity": "rare",
+          "spell_engine:item_model": "wizards:item/spell_scroll/arcane",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/arcane\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "wizards:arcane_evocation"
+            ]
+          },
+          "minecraft:rarity": "epic",
+          "spell_engine:item_model": "wizards:item/spell_scroll/arcane",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/arcane\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "wizards:arcane_blink"
+            ]
+          },
+          "minecraft:rarity": "epic",
+          "spell_engine:item_model": "wizards:item/spell_scroll/arcane",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/arcane\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "wizards:fire_breath"
+            ]
+          },
+          "minecraft:rarity": "uncommon",
+          "spell_engine:item_model": "wizards:item/spell_scroll/fire",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/fire\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "wizards:fire_slash"
+            ]
+          },
+          "minecraft:rarity": "uncommon",
+          "spell_engine:item_model": "wizards:item/spell_scroll/fire",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/fire\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "wizards:fire_meteor"
+            ]
+          },
+          "minecraft:rarity": "rare",
+          "spell_engine:item_model": "wizards:item/spell_scroll/fire",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/fire\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "wizards:fire_storm"
+            ]
+          },
+          "minecraft:rarity": "rare",
+          "spell_engine:item_model": "wizards:item/spell_scroll/fire",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/fire\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "wizards:fire_wall"
+            ]
+          },
+          "minecraft:rarity": "epic",
+          "spell_engine:item_model": "wizards:item/spell_scroll/fire",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/fire\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "wizards:fire_hydra"
+            ]
+          },
+          "minecraft:rarity": "epic",
+          "spell_engine:item_model": "wizards:item/spell_scroll/fire",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/fire\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "wizards:frost_nova"
+            ]
+          },
+          "minecraft:rarity": "uncommon",
+          "spell_engine:item_model": "wizards:item/spell_scroll/frost",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/frost\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "wizards:frost_spikes"
+            ]
+          },
+          "minecraft:rarity": "uncommon",
+          "spell_engine:item_model": "wizards:item/spell_scroll/frost",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/frost\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "wizards:frost_shield"
+            ]
+          },
+          "minecraft:rarity": "rare",
+          "spell_engine:item_model": "wizards:item/spell_scroll/frost",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/frost\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "wizards:frost_lance"
+            ]
+          },
+          "minecraft:rarity": "rare",
+          "spell_engine:item_model": "wizards:item/spell_scroll/frost",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/frost\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "wizards:frost_blizzard"
+            ]
+          },
+          "minecraft:rarity": "epic",
+          "spell_engine:item_model": "wizards:item/spell_scroll/frost",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/frost\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_scroll",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "spell_ids": [
+              "wizards:frost_elemental"
+            ]
+          },
+          "minecraft:rarity": "epic",
+          "spell_engine:item_model": "wizards:item/spell_scroll/frost",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/frost\"}"
+        }
       }
     ],
     "order": []
   },
   {
     "action": "modify_tab",
-    "tab": ["plushie_buddies:plushie_tab"],
+    "tab": [
+      "plushie_buddies:plushie_tab"
+    ],
     "icon": "plushie_buddies:plushie_mooshroom",
     "remove_items": [],
     "add_items": [],
@@ -1708,7 +3671,9 @@
   },
   {
     "action": "modify_tab",
-    "tab": ["cropcritters:cropcritters_tab"],
+    "tab": [
+      "cropcritters:cropcritters_tab"
+    ],
     "remove_items": [],
     "add_items": [
       {
@@ -1740,7 +3705,9 @@
   },
   {
     "action": "modify_tab",
-    "tab": ["minecraft:redstone_blocks"],
+    "tab": [
+      "minecraft:redstone_blocks"
+    ],
     "remove_items": [
       "minecraft:white_wool",
       "minecraft:oak_chest_boat",
@@ -1796,7 +3763,9 @@
   },
   {
     "action": "modify_tab",
-    "tab": ["minecraft:building_blocks"],
+    "tab": [
+      "minecraft:building_blocks"
+    ],
     "icon": "minecraft:tuff_bricks",
     "remove_items": [
       "netherman:samsonit_bricks_wall",
@@ -1829,7 +3798,9 @@
   },
   {
     "action": "modify_tab",
-    "tab": ["selling_bin:selling_bin"],
+    "tab": [
+      "selling_bin:selling_bin"
+    ],
     "name": "Sellable Items",
     "remove_items": [],
     "add_items": [],
@@ -1837,7 +3808,9 @@
   },
   {
     "action": "modify_tab",
-    "tab": ["minecraft:spawn_eggs"],
+    "tab": [
+      "minecraft:spawn_eggs"
+    ],
     "remove_items": [],
     "add_items": [
       {
@@ -1991,13 +3964,151 @@
       {
         "item": "crittersandcompanions:weevil_spawn_egg",
         "after": "crittersandcompanions:stick_bug_spawn_egg"
+      },
+      {
+        "item": "kobolds:kobold_spawn_egg",
+        "after": "sporelight:sporelight_spawn_egg"
+      },
+      {
+        "item": "kobolds:kobold_zombie_spawn_egg",
+        "after": "kobolds:kobold_spawn_egg"
+      },
+      {
+        "item": "golemoverhaul:barrel_golem_spawn_egg",
+        "after": "kobolds:kobold_zombie_spawn_egg"
+      },
+      {
+        "item": "golemoverhaul:candle_golem_spawn_egg",
+        "after": "golemoverhaul:barrel_golem_spawn_egg"
+      },
+      {
+        "item": "golemoverhaul:coal_golem_spawn_egg",
+        "after": "golemoverhaul:candle_golem_spawn_egg"
+      },
+      {
+        "item": "golemoverhaul:hay_golem_spawn_egg",
+        "after": "golemoverhaul:coal_golem_spawn_egg"
+      },
+      {
+        "item": "golemoverhaul:honey_golem_spawn_egg",
+        "after": "golemoverhaul:hay_golem_spawn_egg"
+      },
+      {
+        "item": "golemoverhaul:kelp_golem_spawn_egg",
+        "after": "golemoverhaul:honey_golem_spawn_egg"
+      },
+      {
+        "item": "golemoverhaul:netherite_golem_spawn_egg",
+        "after": "golemoverhaul:kelp_golem_spawn_egg"
+      },
+      {
+        "item": "golemoverhaul:slime_golem_spawn_egg",
+        "after": "golemoverhaul:netherite_golem_spawn_egg"
+      },
+      {
+        "item": "golemoverhaul:terracotta_golem_spawn_egg",
+        "after": "golemoverhaul:slime_golem_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:monarch_spawn_egg",
+        "after": "golemoverhaul:terracotta_golem_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:black_swallowtail_spawn_egg",
+        "after": "luminous_butterflies:monarch_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:spring_azure_spawn_egg",
+        "after": "luminous_butterflies:black_swallowtail_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:yellow_swallowtail_spawn_egg",
+        "after": "luminous_butterflies:spring_azure_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:birdwing_spawn_egg",
+        "after": "luminous_butterflies:yellow_swallowtail_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:crimson_monarch_spawn_egg",
+        "after": "luminous_butterflies:birdwing_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:soul_monarch_spawn_egg",
+        "after": "luminous_butterflies:crimson_monarch_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:glowstone_morpho_spawn_egg",
+        "after": "luminous_butterflies:soul_monarch_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:buckeye_spawn_egg",
+        "after": "luminous_butterflies:glowstone_morpho_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:hairstreak_spawn_egg",
+        "after": "luminous_butterflies:buckeye_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:white_hairstreak_spawn_egg",
+        "after": "luminous_butterflies:hairstreak_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:blue_monarch_spawn_egg",
+        "after": "luminous_butterflies:white_hairstreak_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:emerald_swallowtail_spawn_egg",
+        "after": "luminous_butterflies:blue_monarch_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:rustypage_spawn_egg",
+        "after": "luminous_butterflies:emerald_swallowtail_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:little_wood_spawn_egg",
+        "after": "luminous_butterflies:rustypage_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:zebra_longwing_spawn_egg",
+        "after": "luminous_butterflies:little_wood_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:orangetip_spawn_egg",
+        "after": "luminous_butterflies:zebra_longwing_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:mourning_cloak_spawn_egg",
+        "after": "luminous_butterflies:orangetip_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:charaxes_spawn_egg",
+        "after": "luminous_butterflies:mourning_cloak_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:ringlet_spawn_egg",
+        "after": "luminous_butterflies:charaxes_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:cherry_rose_spawn_egg",
+        "after": "luminous_butterflies:ringlet_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:ender_eyespot_spawn_egg",
+        "after": "luminous_butterflies:cherry_rose_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:chorus_morpho_spawn_egg",
+        "after": "luminous_butterflies:ender_eyespot_spawn_egg"
       }
     ],
     "order": []
   },
   {
     "action": "modify_tab",
-    "tab": ["minecraft:natural_blocks"],
+    "tab": [
+      "minecraft:natural_blocks"
+    ],
     "remove_items": [],
     "add_items": [
       {
@@ -2247,6 +4358,116 @@
       {
         "item": "creeperoverhaul:tiny_cactus",
         "after": "minecraft:cactus"
+      }
+    ],
+    "order": []
+  },
+  {
+    "action": "modify_tab",
+    "tab": [
+      "luminous_butterflies:luminous_butterflies"
+    ],
+    "remove_items": [],
+    "add_items": [
+      {
+        "item": "luminous_butterflies:monarch_spawn_egg",
+        "after": "luminous_butterflies:butterfly_net"
+      },
+      {
+        "item": "luminous_butterflies:black_swallowtail_spawn_egg",
+        "after": "luminous_butterflies:monarch_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:spring_azure_spawn_egg",
+        "after": "luminous_butterflies:black_swallowtail_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:yellow_swallowtail_spawn_egg",
+        "after": "luminous_butterflies:spring_azure_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:birdwing_spawn_egg",
+        "after": "luminous_butterflies:yellow_swallowtail_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:crimson_monarch_spawn_egg",
+        "after": "luminous_butterflies:birdwing_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:soul_monarch_spawn_egg",
+        "after": "luminous_butterflies:crimson_monarch_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:glowstone_morpho_spawn_egg",
+        "after": "luminous_butterflies:soul_monarch_spawn_egg"
+      },
+      {
+        "item": "luminous_butterflies:jar",
+        "after": "luminous_butterflies:butterfly_encyclopedia"
+      },
+      {
+        "item": "luminous_butterflies:monarch_jar",
+        "after": "luminous_butterflies:jar"
+      },
+      {
+        "item": "luminous_butterflies:black_swallowtail_jar",
+        "after": "luminous_butterflies:monarch_jar"
+      },
+      {
+        "item": "luminous_butterflies:spring_azure_jar",
+        "after": "luminous_butterflies:black_swallowtail_jar"
+      },
+      {
+        "item": "luminous_butterflies:yellow_swallow_tail_jar",
+        "after": "luminous_butterflies:spring_azure_jar"
+      },
+      {
+        "item": "luminous_butterflies:buckeye_jar",
+        "after": "luminous_butterflies:yellow_swallow_tail_jar"
+      },
+      {
+        "item": "luminous_butterflies:hairstreak_jar",
+        "after": "luminous_butterflies:buckeye_jar"
+      },
+      {
+        "item": "luminous_butterflies:white_hairstreak_jar",
+        "after": "luminous_butterflies:hairstreak_jar"
+      },
+      {
+        "item": "luminous_butterflies:blue_monarch_jar",
+        "after": "luminous_butterflies:white_hairstreak_jar"
+      },
+      {
+        "item": "luminous_butterflies:ringlet_jar",
+        "after": "luminous_butterflies:blue_monarch_jar"
+      },
+      {
+        "item": "luminous_butterflies:cherry_rose_jar",
+        "after": "luminous_butterflies:ringlet_jar"
+      },
+      {
+        "item": "luminous_butterflies:birdwing_jar",
+        "after": "luminous_butterflies:cherry_rose_jar"
+      },
+      {
+        "item": "luminous_butterflies:crimson_monarch_jar",
+        "after": "luminous_butterflies:birdwing_jar"
+      },
+      {
+        "item": "luminous_butterflies:soul_monarch_jar",
+        "after": "luminous_butterflies:crimson_monarch_jar"
+      },
+      {
+        "item": "luminous_butterflies:glowstone_morpho_jar",
+        "after": "luminous_butterflies:soul_monarch_jar"
+      },
+      {
+        "item": "luminous_butterflies:ender_eyespot_jar",
+        "after": "luminous_butterflies:glowstone_morpho_jar"
+      },
+      {
+        "item": "luminous_butterflies:chorus_morpho_jar",
+        "after": "luminous_butterflies:ender_eyespot_jar"
       }
     ],
     "order": []
