@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["AAA", "AAA", "AAA"],
+  "key": {
+    "A": { "item": "deep_aether:goldenleaf_berries" }
+  },
+  "result": { "id": "ascended_quark:goldenleaf_berries_crate" }
+}

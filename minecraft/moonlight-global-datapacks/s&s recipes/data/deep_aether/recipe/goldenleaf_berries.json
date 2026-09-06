@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "show_notification": true,
+  "category": "misc",
+  "ingredients": [{ "item": "ascended_quark:goldenleaf_berries_crate" }],
+  "result": { "id": "deep_aether:goldenleaf_berries", "count": 9 }
+}
