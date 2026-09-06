@@ -313,7 +313,7 @@
 	"Ender Watcher" = false
 	"Feeding Trough" = false
 	Gravisand = false
-	"Iron Rod" = false
+	"Iron Rod" = true
 	"Metal Buttons" = false
 	"Obsidian Plate" = true
 	"Pistons Move Tile Entities" = false
@@ -342,7 +342,7 @@
 		"Look Chance" = 0.015
 
 	[automation.iron_rod]
-		"Use Pre End Recipe" = false
+		"Use Pre End Recipe" = true
 
 	[automation.metal_buttons]
 		"Enable Iron" = true
@@ -534,10 +534,10 @@
 
 [management]
 	"Automatic Tool Restock" = true
-	"Easy Transferring" = true
+	"Easy Transferring" = false
 	"Expanded Item Interactions" = true
 	"Hotbar Changer" = false
-	"Inventory Sorting" = true
+	"Inventory Sorting" = false
 	"Item Sharing" = true
 	"Quick Armor Swapping" = false
 
@@ -567,7 +567,7 @@
 		"Enable Shulker Box Interaction" = true
 		"Enable Lava Interaction" = false
 		"Allow Opening Shulker Boxes" = true
-		"Allow Rotating Bundles" = false
+		"Allow Rotating Bundles" = true
 
 	[management.hotbar_changer]
 		"Animation Time" = 7.0
@@ -589,7 +589,7 @@
 		"Swap Off Hand" = true
 
 [tools]
-	Abacus = false
+	Abacus = true
 	"Ambient Discs" = false
 	"Ancient Tomes" = false
 	"Beacon Redirection" = false

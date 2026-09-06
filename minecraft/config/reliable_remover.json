@@ -105,6 +105,8 @@
     "gateway_of_doom:portal_ward_2",
     "gateway_of_doom:portal_ward_3",
     "gateway_of_doom:portal_ward_4",
-    "gateway_of_doom:portal_ward_5"
+    "gateway_of_doom:portal_ward_5",
+    "curiouschests:bottomless_chest",
+    "curiouschests:infernal_chest"
   ]
 }
