@@ -1,0 +1,18 @@
+filename = 'curiouschests-1.0.0-neoforge-1.21.1.jar'
+name = 'Curious Chests'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0-neoforge-1.21.1'
+
+[download]
+hash = '126c0826caa0b81800e092c4a8859f3ed2e7c7049c8b442b420c142865c64eb4a35c6c5f0262d63697d9a8da3b5192c0f7bf288dc166abcf6cfa3fba38a33db2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/FBK8xgm9/versions/v1qkIkc1/curiouschests-1.0.0-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'FBK8xgm9'
+version = 'v1qkIkc1'
