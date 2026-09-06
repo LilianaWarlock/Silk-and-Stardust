@@ -1,0 +1,17 @@
+{
+  "id": "silkandstardust:skulls",
+  "type": "remi:group",
+  "contents": [
+    "#minecraft:skulls",
+    "rottencreatures:zap_head",
+    "rottencreatures:immortal_head",
+    "rottencreatures:dead_beard_head",
+    "rottencreatures:mummy_head",
+    "rottencreatures:undead_miner_head",
+    "rottencreatures:swampy_head",
+    "rottencreatures:frostbitten_head",
+    "rottencreatures:burned_head"
+  ],
+  "priority": 2,
+  "name": "Skulls"
+}

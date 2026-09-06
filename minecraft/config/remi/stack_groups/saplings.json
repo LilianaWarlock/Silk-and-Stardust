@@ -1,0 +1,12 @@
+{
+  "id": "silkandstardust:saplings",
+  "type": "remi:group",
+  "contents": [
+    "#minecraft:saplings",
+    "terrarianmight:yellow_willow_sapling",
+    "bountifulfares:coconut",
+    "enderscape:veiled_sapling"
+  ],
+  "priority": 2,
+  "name": "Saplings"
+}

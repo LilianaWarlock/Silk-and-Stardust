@@ -1,0 +1,11 @@
+{
+  "id": "silkandstardust:leaves",
+  "type": "remi:group",
+  "contents": [
+    "#minecraft:leaves",
+    "terrarianmight:yellow_willow_leaves",
+    "enderscape:veiled_leaves"
+  ],
+  "priority": 2,
+  "name": "Leaves"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:ocarinas",
+  "type": "remi:regex",
+  "priority": 2,
+  "regex": "friendsforlife:*ocarina",
+  "name": "Ocarinas"
+}

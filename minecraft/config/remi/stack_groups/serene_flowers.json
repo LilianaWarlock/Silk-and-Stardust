@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:serene_flowers",
+  "type": "remi:group",
+  "contents": ["#serene_shrubbery:every_flower"],
+  "priority": 2,
+  "name": "Serene Flowers"
+}

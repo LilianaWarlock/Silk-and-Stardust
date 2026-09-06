@@ -22,6 +22,8 @@
   "stackGroupsFavorites": false,
   "disabledStackGroups": [
     "minecraft:animal_armors",
+    "minecraft:leaves",
+    "minecraft:saplings",
     "minecraft:boats"
   ],
   "stackGroupItemOrder": {},

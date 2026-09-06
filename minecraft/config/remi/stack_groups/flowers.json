@@ -1,0 +1,11 @@
+{
+  "id": "silkandstardust:flowers",
+  "type": "remi:group",
+  "contents": [
+    "#minecraft:flowers",
+    "rosebackport:rose",
+    "rosebackport:cyan_rose"
+  ],
+  "priority": 2,
+  "name": "Flowers"
+}
