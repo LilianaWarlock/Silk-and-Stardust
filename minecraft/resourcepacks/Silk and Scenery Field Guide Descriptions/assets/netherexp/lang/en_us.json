@@ -12,5 +12,7 @@
   "fieldguide.entity.netherexp.banshee.description": "A Blaze possesed by an Apparition.",
   "fieldguide.entity.netherexp.ecto_slab.description": "A Magma Cube possesed by an Apparition.",
   "fieldguide.entity.netherexp.vessel.description": "A Skeleton possessed by an Apparition.",
-  "fieldguide.entity.netherexp.wisp.description": "Passive mobs released from Soul Sand or Apparitions. They can be transported in bottles, and have honeycomb or name tags used on them to bind them."
+  "fieldguide.entity.netherexp.wisp.description": "Passive mobs released from Soul Sand or Apparitions. They can be transported in bottles, and have honeycomb or name tags used on them to bind them.",
+"fieldguide.entity.netherexp.carcass.description": "Creatures bound with soul energy, found in Sanctums. When lit by fire, they will rampage against hostile mobs, never hurting players. It is unknown why this is.",
+  "fieldguide.entity.netherexp.stampede.description": "Stampedes are neutral mobs that appear when Apparitions possess Striders. They trample skeletons, eat bones to recover health, and can be saddled and ridden by players."
 }
