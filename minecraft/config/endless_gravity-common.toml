@@ -46,11 +46,11 @@
 	#Fall damage mode in The End: 0 = normal, 1 = disabled, 2 = velocity-based (default: 1).
 	# Default: 1
 	# Range: 0 ~ 2
-	fallDamageMode = 1
+	fallDamageMode = 2
 	#Damage per unit of velocity for velocity-based fall damage (default: 1.0). Higher = more damage.
 	# Default: 1.0
 	# Range: 0.1 ~ 10.0
-	fallDamageVelocityScale = 1.0
+	fallDamageVelocityScale = 0.5
 	#Minimum impact velocity before velocity-based damage applies (default: 0.6). Below this, no damage.
 	# Default: 0.6
 	# Range: 0.0 ~ 5.0
