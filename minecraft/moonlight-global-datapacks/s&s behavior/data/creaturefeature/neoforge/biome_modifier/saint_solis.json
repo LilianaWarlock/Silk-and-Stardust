@@ -1,0 +1,20 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "aether:skyroot_forest",
+    "aether:skyroot_woodland",
+    "deep_aether:aerglow_forest",
+    "deep_aether:aerlavender_fields",
+    "deep_aether:blue_aerglow_forest",
+    "deep_aether:golden_grove",
+    "deep_aether:golden_heights",
+    "deep_aether:luminescent_forest",
+    "deep_aether:mystic_aerglow_forest"
+  ],
+  "spawners": {
+    "type": "creaturefeature:saint_solis",
+    "weight": 15,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

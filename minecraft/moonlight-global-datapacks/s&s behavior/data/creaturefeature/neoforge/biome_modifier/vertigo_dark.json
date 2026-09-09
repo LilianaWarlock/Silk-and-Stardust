@@ -1,11 +1,6 @@
 {
-  "type": "neoforge:add_spawns",
-  "biomes": [
-    "enderscape:veiled_woodlands",
-    "enderscape:void_depths",
-    "enderscape:void_skies",
-    "enderscape:void_sky_islands"
-  ],
+  "type": "neoforge:none",
+  "biomes": [],
   "spawners": {
     "type": "creaturefeature:vertigo",
     "weight": 8,

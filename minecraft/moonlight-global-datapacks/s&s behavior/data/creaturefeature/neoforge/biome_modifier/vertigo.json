@@ -1,9 +1,9 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": "#c:is_outer_end_island",
+  "biomes": "deep_aether:yagroot_swamp",
   "spawners": {
     "type": "creaturefeature:vertigo",
-    "weight": 5,
+    "weight": 15,
     "minCount": 1,
     "maxCount": 2
   }
