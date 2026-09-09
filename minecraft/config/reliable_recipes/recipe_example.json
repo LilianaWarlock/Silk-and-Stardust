@@ -18,7 +18,8 @@
       "friendsandfoes:jungle_beehive",
       "friendsandfoes:mangrove_beehive",
       "friendsandfoes:spruce_beehive",
-      "friendsandfoes:warped_beehive"
+      "friendsandfoes:warped_beehive",
+      "skill_tree_rpgs:orb_of_oblivion"
     ]
   },
   {
@@ -30,5 +31,10 @@
     "action": "remove_from_tag",
     "tag": "minecraft:enchantable/mining",
     "id": "the_moth:moth_spear"
+  },
+  {
+    "action": "set_repair_material",
+    "target": "#c:basic_netherite",
+    "material": "minecraft:diamond_block"
   }
 ]
