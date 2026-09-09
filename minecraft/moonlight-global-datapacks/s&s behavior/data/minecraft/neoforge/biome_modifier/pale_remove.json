@@ -1,0 +1,19 @@
+{
+  "type": "neoforge:remove_spawns",
+  "biomes": "minecraft:pale_garden",
+  "entity_types": [
+    "apple_cows:apple_cow",
+    "golemoverhaul:honey_golem",
+    "crittersandcompanions:dragonfly",
+    "crittersandcompanions:ferret",
+    "crittersandcompanions:jumping_spider",
+    "crittersandcompanions:ladybug",
+    "crittersandcompanions:leaf_insect",
+    "crittersandcompanions:roly_poly",
+    "crittersandcompanions:snail",
+    "crittersandcompanions:stag_beetle",
+    "crittersandcompanions:stick_bug",
+    "crittersandcompanions:weevil",
+    "wan_ancient_beasts:toxlacanth"
+  ]
+}
