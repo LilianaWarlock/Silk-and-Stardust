@@ -18,16 +18,36 @@
           },
           "max_amplifier": 2
         },
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "flags": {
-              "is_on_ground": false,
-              "is_flying": false
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_on_ground": false,
+                "is_flying": false
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -3,
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:air"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:air"
+              }
             }
           }
-        }
+        ]
       }
     ]
   },
