@@ -3,4 +3,4 @@ endreamweaver = false
 #Weakens the rotation of Saint Solis' Stars
 pathogen = false
 #Gives Fiend a gun.
-ff_reloaded = true
+ff_reloaded = false
