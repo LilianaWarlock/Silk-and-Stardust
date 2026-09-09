@@ -31,5 +31,17 @@
       "value": 50,
       "operation": "BASE"
     }
+  ],
+  "creaturefeature:minedflayer": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:scale",
+      "value": 1,
+      "operation": "ADDITION"
+    }
   ]
 }

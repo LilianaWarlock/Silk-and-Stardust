@@ -8,9 +8,10 @@
     },
     {
       "attribute": "minecraft:generic.attack_speed",
-      "value": 1.6,
+      "value": 0.85,
       "operation": "ADDITION",
       "uuid": "905ce8af-0c98-4213-bc4d-1d4545cd4dc9"
     }
-  ]
+  ],
+  "fightsfrights:putrid_scythe_2": [{ "operation": "DURABILITY", "value": 400 }]
 }
