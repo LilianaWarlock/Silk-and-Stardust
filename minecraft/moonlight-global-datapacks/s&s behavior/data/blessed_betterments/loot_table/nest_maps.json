@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "locatormaps:locator_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "locatormaps:structure_key": "wan_ancient_beasts:dead_coral"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "locatormaps:locator_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "locatormaps:structure_key": "wan_ancient_beasts:ancient_nest"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "betterarcheology:iron_brush"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:bone"
+        }
+      ]
+    }
+  ]
+}

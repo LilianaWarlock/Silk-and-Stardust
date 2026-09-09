@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "entries": ["blessed_betterments:chestgoodies"]
+  "entries": [
+    "blessed_betterments:chestgoodies",
+    "blessed_betterments:digsitegoodies"
+  ]
 }

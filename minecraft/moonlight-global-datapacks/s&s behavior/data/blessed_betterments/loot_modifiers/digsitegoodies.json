@@ -1,0 +1,47 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "wan_ancient_beasts:chests/digsite_badlands"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "wan_ancient_beasts:chests/digsite_desert"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "wan_ancient_beasts:chests/digsite_icespikes"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "wan_ancient_beasts:chests/digsite_jungle"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "wan_ancient_beasts:chests/digsite_oldgrowthtaiga"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "wan_ancient_beasts:chests/digsite_peaks"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "wan_ancient_beasts:chests/digsite_plains"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "wan_ancient_beasts:chests/digsite_savanna"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "wan_ancient_beasts:chests/digsite_taiga"
+        }
+      ]
+    }
+  ],
+  "table": "blessed_betterments:nest_maps"
+}
