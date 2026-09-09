@@ -107,6 +107,8 @@
     "gateway_of_doom:portal_ward_4",
     "gateway_of_doom:portal_ward_5",
     "curiouschests:bottomless_chest",
-    "curiouschests:infernal_chest"
+    "curiouschests:infernal_chest",
+    "creaturefeature:thingamabob",
+    "creaturefeature:doohickey"
   ]
 }

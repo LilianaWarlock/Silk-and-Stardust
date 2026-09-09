@@ -8,7 +8,9 @@
     "bountifulfares:walnut_boat",
     "bountifulfares:walnut_chest_boat",
     "bountifulfares:hoary_boat",
-    "bountifulfares:hoary_chest_boat"
+    "bountifulfares:hoary_chest_boat",
+    "ghosts:haunted_boat",
+    "ghosts:haunted_chest_boat"
   ],
   "priority": 10
 }
