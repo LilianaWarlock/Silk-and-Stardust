@@ -4790,7 +4790,7 @@
       },
       {
         "item": "bountifulseals:sugar_crystal",
-        "after": "minecraft:amethyst_shard"
+        "after": "terrarianmight:life_shard"
       },
       {
         "item": "leafscopperbackport:copper_nugget",
@@ -6643,6 +6643,18 @@
     ],
     "add_items": [
       {
+        "item": "leafscopperbackport:copper_sword",
+        "after": "minecraft:stone_sword"
+      },
+      {
+        "item": "kobolds:kobold_iron_sword",
+        "after": "minecraft:iron_sword"
+      },
+      {
+        "item": "leafscopperbackport:copper_axe",
+        "after": "minecraft:stone_axe"
+      },
+      {
         "item": "archers:flint_spear",
         "after": "minecraft:netherite_axe"
       },
@@ -6667,8 +6679,268 @@
         "after": "archers:netherite_spear"
       },
       {
-        "item": "wardenhorn:warden_horn",
+        "item": "paladins:stone_claymore",
+        "after": "archers:aether_spear"
+      },
+      {
+        "item": "paladins:iron_claymore",
+        "after": "paladins:stone_claymore"
+      },
+      {
+        "item": "paladins:golden_claymore",
+        "after": "paladins:iron_claymore"
+      },
+      {
+        "item": "paladins:diamond_claymore",
+        "after": "paladins:golden_claymore"
+      },
+      {
+        "item": "paladins:netherite_claymore",
+        "after": "paladins:diamond_claymore"
+      },
+      {
+        "item": "paladins:aether_claymore",
+        "after": "paladins:netherite_claymore"
+      },
+      {
+        "item": "paladins:wooden_great_hammer",
+        "after": "paladins:aether_claymore"
+      },
+      {
+        "item": "paladins:stone_great_hammer",
+        "after": "paladins:wooden_great_hammer"
+      },
+      {
+        "item": "paladins:iron_great_hammer",
+        "after": "paladins:stone_great_hammer"
+      },
+      {
+        "item": "paladins:golden_great_hammer",
+        "after": "paladins:iron_great_hammer"
+      },
+      {
+        "item": "paladins:diamond_great_hammer",
+        "after": "paladins:golden_great_hammer"
+      },
+      {
+        "item": "paladins:netherite_great_hammer",
+        "after": "paladins:diamond_great_hammer"
+      },
+      {
+        "item": "paladins:aether_great_hammer",
+        "after": "paladins:netherite_great_hammer"
+      },
+      {
+        "item": "paladins:iron_mace",
+        "after": "paladins:aether_great_hammer"
+      },
+      {
+        "item": "paladins:golden_mace",
+        "after": "paladins:iron_mace"
+      },
+      {
+        "item": "paladins:diamond_mace",
+        "after": "paladins:golden_mace"
+      },
+      {
+        "item": "paladins:netherite_mace",
+        "after": "paladins:diamond_mace"
+      },
+      {
+        "item": "paladins:aether_mace",
+        "after": "paladins:netherite_mace"
+      },
+      {
+        "item": "rogues:flint_dagger",
+        "after": "paladins:aether_mace"
+      },
+      {
+        "item": "rogues:iron_dagger",
+        "after": "rogues:flint_dagger"
+      },
+      {
+        "item": "rogues:golden_dagger",
+        "after": "rogues:iron_dagger"
+      },
+      {
+        "item": "rogues:diamond_dagger",
+        "after": "rogues:golden_dagger"
+      },
+      {
+        "item": "rogues:netherite_dagger",
+        "after": "rogues:diamond_dagger"
+      },
+      {
+        "item": "rogues:aether_dagger",
+        "after": "rogues:netherite_dagger"
+      },
+      {
+        "item": "rogues:iron_sickle",
+        "after": "rogues:aether_dagger"
+      },
+      {
+        "item": "rogues:golden_sickle",
+        "after": "rogues:iron_sickle"
+      },
+      {
+        "item": "rogues:diamond_sickle",
+        "after": "rogues:golden_sickle"
+      },
+      {
+        "item": "rogues:netherite_sickle",
+        "after": "rogues:diamond_sickle"
+      },
+      {
+        "item": "rogues:aether_sickle",
+        "after": "rogues:netherite_sickle"
+      },
+      {
+        "item": "rogues:stone_double_axe",
+        "after": "rogues:aether_sickle"
+      },
+      {
+        "item": "rogues:iron_double_axe",
+        "after": "rogues:stone_double_axe"
+      },
+      {
+        "item": "rogues:golden_double_axe",
+        "after": "rogues:iron_double_axe"
+      },
+      {
+        "item": "rogues:diamond_double_axe",
+        "after": "rogues:golden_double_axe"
+      },
+      {
+        "item": "rogues:netherite_double_axe",
+        "after": "rogues:diamond_double_axe"
+      },
+      {
+        "item": "rogues:aether_double_axe",
+        "after": "rogues:netherite_double_axe"
+      },
+      {
+        "item": "rogues:iron_glaive",
+        "after": "rogues:aether_double_axe"
+      },
+      {
+        "item": "rogues:golden_glaive",
+        "after": "rogues:iron_glaive"
+      },
+      {
+        "item": "rogues:diamond_glaive",
+        "after": "rogues:golden_glaive"
+      },
+      {
+        "item": "rogues:netherite_glaive",
+        "after": "rogues:diamond_glaive"
+      },
+      {
+        "item": "rogues:aether_glaive",
+        "after": "rogues:netherite_glaive"
+      },
+      {
+        "item": "paladins:acolyte_wand",
+        "after": "rogues:aether_glaive"
+      },
+      {
+        "item": "paladins:holy_wand",
+        "after": "paladins:acolyte_wand"
+      },
+      {
+        "item": "paladins:diamond_holy_wand",
+        "after": "paladins:holy_wand"
+      },
+      {
+        "item": "paladins:netherite_holy_wand",
+        "after": "paladins:diamond_holy_wand"
+      },
+      {
+        "item": "paladins:holy_staff",
+        "after": "paladins:netherite_holy_wand"
+      },
+      {
+        "item": "paladins:diamond_holy_staff",
+        "after": "paladins:holy_staff"
+      },
+      {
+        "item": "paladins:netherite_holy_staff",
+        "after": "paladins:diamond_holy_staff"
+      },
+      {
+        "item": "paladins:aether_holy_staff",
+        "after": "paladins:netherite_holy_staff"
+      },
+      {
+        "item": "wizards:wand_novice",
+        "after": "paladins:aether_holy_staff"
+      },
+      {
+        "item": "wizards:wand_arcane",
+        "after": "wizards:wand_novice"
+      },
+      {
+        "item": "wizards:wand_fire",
+        "after": "wizards:wand_arcane"
+      },
+      {
+        "item": "wizards:wand_frost",
+        "after": "wizards:wand_fire"
+      },
+      {
+        "item": "wizards:wand_netherite_arcane",
+        "after": "wizards:wand_frost"
+      },
+      {
+        "item": "wizards:wand_netherite_fire",
+        "after": "wizards:wand_netherite_arcane"
+      },
+      {
+        "item": "wizards:wand_netherite_frost",
+        "after": "wizards:wand_netherite_fire"
+      },
+      {
+        "item": "wizards:staff_wizard",
+        "after": "wizards:wand_netherite_frost"
+      },
+      {
+        "item": "wizards:staff_arcane",
+        "after": "wizards:staff_wizard"
+      },
+      {
+        "item": "wizards:staff_fire",
+        "after": "wizards:staff_arcane"
+      },
+      {
+        "item": "wizards:staff_frost",
+        "after": "wizards:staff_fire"
+      },
+      {
+        "item": "wizards:staff_netherite_arcane",
+        "after": "wizards:staff_frost"
+      },
+      {
+        "item": "wizards:staff_netherite_fire",
+        "after": "wizards:staff_netherite_arcane"
+      },
+      {
+        "item": "wizards:staff_netherite_frost",
+        "after": "wizards:staff_netherite_fire"
+      },
+      {
+        "item": "wizards:aether_wizard_staff",
+        "after": "wizards:staff_netherite_frost"
+      },
+      {
+        "item": "kobolds:kobold_iron_spear_sword",
         "after": "wetland_whimsy:dagger"
+      },
+      {
+        "item": "fightsfrights:deadsteel_scimitar",
+        "after": "kobolds:kobold_iron_spear_sword"
+      },
+      {
+        "item": "wardenhorn:warden_horn",
+        "after": "fightsfrights:deadsteel_scimitar"
       },
       {
         "item": "fightsfrights:putrid_scythe_2",
@@ -6695,96 +6967,24 @@
         "after": "leafscopperbackport:copper_armor_leggings"
       },
       {
-        "item": "crittersandcompanions:iron_dragonfly_armor",
-        "after": "minecraft:diamond_horse_armor"
+        "item": "royalvariations:royal_knight_helmet",
+        "after": "minecraft:netherite_boots"
       },
       {
-        "item": "crittersandcompanions:gold_dragonfly_armor",
-        "after": "crittersandcompanions:iron_dragonfly_armor"
+        "item": "royalvariations:royal_knight_cuirass",
+        "after": "royalvariations:royal_knight_helmet"
       },
       {
-        "item": "crittersandcompanions:diamond_dragonfly_armor",
-        "after": "crittersandcompanions:gold_dragonfly_armor"
+        "item": "royalvariations:royal_knight_leggings",
+        "after": "royalvariations:royal_knight_cuirass"
       },
       {
-        "item": "crittersandcompanions:netherite_dragonfly_armor",
-        "after": "crittersandcompanions:diamond_dragonfly_armor"
-      },
-      {
-        "item": "archers:composite_longbow",
-        "after": "minecraft:crossbow"
-      },
-      {
-        "item": "archers:mechanic_shortbow",
-        "after": "archers:composite_longbow"
-      },
-      {
-        "item": "archers:royal_longbow",
-        "after": "archers:mechanic_shortbow"
-      },
-      {
-        "item": "archers:netherite_shortbow",
-        "after": "archers:royal_longbow"
-      },
-      {
-        "item": "archers:netherite_longbow",
-        "after": "archers:netherite_shortbow"
-      },
-      {
-        "item": "archers:rapid_crossbow",
-        "after": "archers:netherite_longbow"
-      },
-      {
-        "item": "archers:heavy_crossbow",
-        "after": "archers:rapid_crossbow"
-      },
-      {
-        "item": "archers:netherite_rapid_crossbow",
-        "after": "archers:heavy_crossbow"
-      },
-      {
-        "item": "archers:netherite_heavy_crossbow",
-        "after": "archers:netherite_rapid_crossbow"
-      },
-      {
-        "item": "archers:aether_longbow",
-        "after": "archers:netherite_heavy_crossbow"
-      },
-      {
-        "item": "archers:aether_rapid_crossbow",
-        "after": "archers:aether_longbow"
-      },
-      {
-        "item": "archers:aether_heavy_crossbow",
-        "after": "archers:aether_rapid_crossbow"
-      },
-      {
-        "item": "kobolds:kobold_iron_sword",
-        "after": "ascended_quark:ambrosium_torch_arrow"
-      },
-      {
-        "item": "kobolds:kobold_iron_spear_sword",
-        "after": "kobolds:kobold_iron_sword"
-      },
-      {
-        "item": "archers:auto_fire_hook",
-        "after": "kobolds:kobold_iron_spear_sword"
-      },
-      {
-        "item": "archers:small_quiver",
-        "after": "archers:auto_fire_hook"
-      },
-      {
-        "item": "archers:medium_quiver",
-        "after": "archers:small_quiver"
-      },
-      {
-        "item": "archers:large_quiver",
-        "after": "archers:medium_quiver"
+        "item": "royalvariations:royal_knight_boots",
+        "after": "royalvariations:royal_knight_leggings"
       },
       {
         "item": "archers:archer_armor_head",
-        "after": "archers:large_quiver"
+        "after": "royalvariations:royal_knight_boots"
       },
       {
         "item": "archers:archer_armor_chest",
@@ -6831,132 +7031,8 @@
         "after": "archers:netherite_ranger_armor_legs"
       },
       {
-        "item": "paladins:stone_claymore",
-        "after": "archers:netherite_ranger_armor_feet"
-      },
-      {
-        "item": "paladins:iron_claymore",
-        "after": "paladins:stone_claymore"
-      },
-      {
-        "item": "paladins:golden_claymore",
-        "after": "paladins:iron_claymore"
-      },
-      {
-        "item": "paladins:diamond_claymore",
-        "after": "paladins:golden_claymore"
-      },
-      {
-        "item": "paladins:netherite_claymore",
-        "after": "paladins:diamond_claymore"
-      },
-      {
-        "item": "paladins:wooden_great_hammer",
-        "after": "paladins:netherite_claymore"
-      },
-      {
-        "item": "paladins:stone_great_hammer",
-        "after": "paladins:wooden_great_hammer"
-      },
-      {
-        "item": "paladins:iron_great_hammer",
-        "after": "paladins:stone_great_hammer"
-      },
-      {
-        "item": "paladins:golden_great_hammer",
-        "after": "paladins:iron_great_hammer"
-      },
-      {
-        "item": "paladins:diamond_great_hammer",
-        "after": "paladins:golden_great_hammer"
-      },
-      {
-        "item": "paladins:netherite_great_hammer",
-        "after": "paladins:diamond_great_hammer"
-      },
-      {
-        "item": "paladins:iron_mace",
-        "after": "paladins:netherite_great_hammer"
-      },
-      {
-        "item": "paladins:golden_mace",
-        "after": "paladins:iron_mace"
-      },
-      {
-        "item": "paladins:diamond_mace",
-        "after": "paladins:golden_mace"
-      },
-      {
-        "item": "paladins:netherite_mace",
-        "after": "paladins:diamond_mace"
-      },
-      {
-        "item": "paladins:acolyte_wand",
-        "after": "paladins:netherite_mace"
-      },
-      {
-        "item": "paladins:holy_wand",
-        "after": "paladins:acolyte_wand"
-      },
-      {
-        "item": "paladins:diamond_holy_wand",
-        "after": "paladins:holy_wand"
-      },
-      {
-        "item": "paladins:netherite_holy_wand",
-        "after": "paladins:diamond_holy_wand"
-      },
-      {
-        "item": "paladins:holy_staff",
-        "after": "paladins:netherite_holy_wand"
-      },
-      {
-        "item": "paladins:diamond_holy_staff",
-        "after": "paladins:holy_staff"
-      },
-      {
-        "item": "paladins:netherite_holy_staff",
-        "after": "paladins:diamond_holy_staff"
-      },
-      {
-        "item": "paladins:aether_holy_staff",
-        "after": "paladins:netherite_holy_staff"
-      },
-      {
-        "item": "paladins:aether_claymore",
-        "after": "paladins:aether_holy_staff"
-      },
-      {
-        "item": "paladins:aether_great_hammer",
-        "after": "paladins:aether_claymore"
-      },
-      {
-        "item": "paladins:aether_mace",
-        "after": "paladins:aether_great_hammer"
-      },
-      {
-        "item": "paladins:iron_kite_shield",
-        "after": "paladins:aether_mace"
-      },
-      {
-        "item": "paladins:golden_kite_shield",
-        "after": "paladins:iron_kite_shield"
-      },
-      {
-        "item": "paladins:diamond_kite_shield",
-        "after": "paladins:golden_kite_shield"
-      },
-      {
-        "item": "paladins:netherite_kite_shield",
-        "after": "paladins:diamond_kite_shield"
-      },
-      {
-        "item": "paladins:aether_kite_shield",
-        "after": "paladins:netherite_kite_shield"
-      },
-      {
         "item": "paladins:paladin_armor_head",
-        "after": "paladins:aether_kite_shield"
+        "after": "archers:netherite_ranger_armor_feet"
       },
       {
         "item": "paladins:paladin_armor_chest",
@@ -7051,68 +7127,8 @@
         "after": "paladins:netherite_prior_robe_legs"
       },
       {
-        "item": "wizards:wand_novice",
-        "after": "paladins:netherite_prior_robe_feet"
-      },
-      {
-        "item": "wizards:wand_arcane",
-        "after": "wizards:wand_novice"
-      },
-      {
-        "item": "wizards:wand_fire",
-        "after": "wizards:wand_arcane"
-      },
-      {
-        "item": "wizards:wand_frost",
-        "after": "wizards:wand_fire"
-      },
-      {
-        "item": "wizards:wand_netherite_arcane",
-        "after": "wizards:wand_frost"
-      },
-      {
-        "item": "wizards:wand_netherite_fire",
-        "after": "wizards:wand_netherite_arcane"
-      },
-      {
-        "item": "wizards:wand_netherite_frost",
-        "after": "wizards:wand_netherite_fire"
-      },
-      {
-        "item": "wizards:staff_wizard",
-        "after": "wizards:wand_netherite_frost"
-      },
-      {
-        "item": "wizards:staff_arcane",
-        "after": "wizards:staff_wizard"
-      },
-      {
-        "item": "wizards:staff_fire",
-        "after": "wizards:staff_arcane"
-      },
-      {
-        "item": "wizards:staff_frost",
-        "after": "wizards:staff_fire"
-      },
-      {
-        "item": "wizards:staff_netherite_arcane",
-        "after": "wizards:staff_frost"
-      },
-      {
-        "item": "wizards:staff_netherite_fire",
-        "after": "wizards:staff_netherite_arcane"
-      },
-      {
-        "item": "wizards:staff_netherite_frost",
-        "after": "wizards:staff_netherite_fire"
-      },
-      {
-        "item": "wizards:aether_wizard_staff",
-        "after": "wizards:staff_netherite_frost"
-      },
-      {
         "item": "wizards:wizard_robe_head",
-        "after": "wizards:aether_wizard_staff"
+        "after": "paladins:netherite_prior_robe_feet"
       },
       {
         "item": "wizards:wizard_robe_chest",
@@ -7223,96 +7239,8 @@
         "after": "wizards:netherite_frost_robe_legs"
       },
       {
-        "item": "rogues:flint_dagger",
-        "after": "wizards:netherite_frost_robe_feet"
-      },
-      {
-        "item": "rogues:iron_dagger",
-        "after": "rogues:flint_dagger"
-      },
-      {
-        "item": "rogues:golden_dagger",
-        "after": "rogues:iron_dagger"
-      },
-      {
-        "item": "rogues:diamond_dagger",
-        "after": "rogues:golden_dagger"
-      },
-      {
-        "item": "rogues:netherite_dagger",
-        "after": "rogues:diamond_dagger"
-      },
-      {
-        "item": "rogues:iron_sickle",
-        "after": "rogues:netherite_dagger"
-      },
-      {
-        "item": "rogues:golden_sickle",
-        "after": "rogues:iron_sickle"
-      },
-      {
-        "item": "rogues:diamond_sickle",
-        "after": "rogues:golden_sickle"
-      },
-      {
-        "item": "rogues:netherite_sickle",
-        "after": "rogues:diamond_sickle"
-      },
-      {
-        "item": "rogues:stone_double_axe",
-        "after": "rogues:netherite_sickle"
-      },
-      {
-        "item": "rogues:iron_double_axe",
-        "after": "rogues:stone_double_axe"
-      },
-      {
-        "item": "rogues:golden_double_axe",
-        "after": "rogues:iron_double_axe"
-      },
-      {
-        "item": "rogues:diamond_double_axe",
-        "after": "rogues:golden_double_axe"
-      },
-      {
-        "item": "rogues:netherite_double_axe",
-        "after": "rogues:diamond_double_axe"
-      },
-      {
-        "item": "rogues:iron_glaive",
-        "after": "rogues:netherite_double_axe"
-      },
-      {
-        "item": "rogues:golden_glaive",
-        "after": "rogues:iron_glaive"
-      },
-      {
-        "item": "rogues:diamond_glaive",
-        "after": "rogues:golden_glaive"
-      },
-      {
-        "item": "rogues:netherite_glaive",
-        "after": "rogues:diamond_glaive"
-      },
-      {
-        "item": "rogues:aether_dagger",
-        "after": "rogues:netherite_glaive"
-      },
-      {
-        "item": "rogues:aether_sickle",
-        "after": "rogues:aether_dagger"
-      },
-      {
-        "item": "rogues:aether_double_axe",
-        "after": "rogues:aether_sickle"
-      },
-      {
-        "item": "rogues:aether_glaive",
-        "after": "rogues:aether_double_axe"
-      },
-      {
         "item": "rogues:rogue_armor_head",
-        "after": "rogues:aether_glaive"
+        "after": "wizards:netherite_frost_robe_feet"
       },
       {
         "item": "rogues:rogue_armor_chest",
@@ -7663,80 +7591,146 @@
         "after": "armory_rpgs:riftstalker_armor_legs"
       },
       {
+        "item": "crittersandcompanions:iron_dragonfly_armor",
+        "after": "minecraft:diamond_horse_armor"
+      },
+      {
+        "item": "crittersandcompanions:gold_dragonfly_armor",
+        "after": "crittersandcompanions:iron_dragonfly_armor"
+      },
+      {
+        "item": "crittersandcompanions:diamond_dragonfly_armor",
+        "after": "crittersandcompanions:gold_dragonfly_armor"
+      },
+      {
+        "item": "crittersandcompanions:netherite_dragonfly_armor",
+        "after": "crittersandcompanions:diamond_dragonfly_armor"
+      },
+      {
+        "item": "archers:composite_longbow",
+        "after": "minecraft:crossbow"
+      },
+      {
+        "item": "archers:mechanic_shortbow",
+        "after": "archers:composite_longbow"
+      },
+      {
+        "item": "archers:royal_longbow",
+        "after": "archers:mechanic_shortbow"
+      },
+      {
+        "item": "archers:netherite_shortbow",
+        "after": "archers:royal_longbow"
+      },
+      {
+        "item": "archers:netherite_longbow",
+        "after": "archers:netherite_shortbow"
+      },
+      {
+        "item": "archers:rapid_crossbow",
+        "after": "archers:netherite_longbow"
+      },
+      {
+        "item": "archers:heavy_crossbow",
+        "after": "archers:rapid_crossbow"
+      },
+      {
+        "item": "archers:netherite_rapid_crossbow",
+        "after": "archers:heavy_crossbow"
+      },
+      {
+        "item": "archers:netherite_heavy_crossbow",
+        "after": "archers:netherite_rapid_crossbow"
+      },
+      {
+        "item": "archers:aether_longbow",
+        "after": "archers:netherite_heavy_crossbow"
+      },
+      {
+        "item": "archers:aether_rapid_crossbow",
+        "after": "archers:aether_longbow"
+      },
+      {
+        "item": "archers:aether_heavy_crossbow",
+        "after": "archers:aether_rapid_crossbow"
+      },
+      {
+        "item": "royalvariations:royal_bow",
+        "after": "archers:aether_heavy_crossbow"
+      },
+      {
+        "item": "quark:torch_arrow",
+        "after": "minecraft:tipped_arrow"
+      },
+      {
+        "item": "ascended_quark:ambrosium_torch_arrow",
+        "after": "quark:torch_arrow"
+      },
+      {
+        "item": "netherman:crimson_arrow",
+        "after": "ascended_quark:ambrosium_torch_arrow"
+      },
+      {
+        "item": "royalvariations:royal_arrow",
+        "after": "netherman:crimson_arrow"
+      },
+      {
+        "item": "tolerable_creepers:mischief_arrow",
+        "after": "royalvariations:royal_arrow"
+      },
+      {
+        "item": "paladins:iron_kite_shield",
+        "after": "shieldexp:netherite_shield"
+      },
+      {
+        "item": "paladins:golden_kite_shield",
+        "after": "paladins:iron_kite_shield"
+      },
+      {
+        "item": "paladins:diamond_kite_shield",
+        "after": "paladins:golden_kite_shield"
+      },
+      {
+        "item": "paladins:netherite_kite_shield",
+        "after": "paladins:diamond_kite_shield"
+      },
+      {
+        "item": "paladins:aether_kite_shield",
+        "after": "paladins:netherite_kite_shield"
+      },
+      {
+        "item": "archers:small_quiver",
+        "after": "runes:large_rune_pouch"
+      },
+      {
+        "item": "archers:medium_quiver",
+        "after": "archers:small_quiver"
+      },
+      {
+        "item": "archers:large_quiver",
+        "after": "archers:medium_quiver"
+      },
+      {
+        "item": "archers:auto_fire_hook",
+        "after": "the_moth:moth_armor_helmet"
+      },
+      {
+        "item": "royalvariations:royal_staff",
+        "after": "archers:auto_fire_hook"
+      },
+      {
+        "item": "royalvariations:royal_bomb",
+        "after": "royalvariations:royal_staff"
+      },
+      {
         "item": "spell_engine:spell_book",
-        "after": "armory_rpgs:riftstalker_armor_feet",
+        "after": "royalvariations:royal_bomb",
         "components": {
           "spell_engine:spell_container": {
             "pool": "archers:spell_book/archer"
           },
           "spell_engine:item_model": "archers:item/spell_book/archer",
           "minecraft:item_name": "{\"translate\":\"item.archers.spell_book/archer\"}"
-        }
-      },
-      {
-        "item": "spell_engine:spell_book",
-        "after": "spell_engine:spell_book",
-        "components": {
-          "spell_engine:spell_container": {
-            "pool": "paladins:spell_book/paladin"
-          },
-          "spell_engine:item_model": "paladins:item/spell_book/paladin",
-          "minecraft:item_name": "{\"translate\":\"item.paladins.spell_book/paladin\"}"
-        }
-      },
-      {
-        "item": "spell_engine:spell_book",
-        "after": "spell_engine:spell_book",
-        "components": {
-          "spell_engine:spell_container": {
-            "pool": "paladins:spell_book/priest"
-          },
-          "spell_engine:item_model": "paladins:item/spell_book/priest",
-          "minecraft:item_name": "{\"translate\":\"item.paladins.spell_book/priest\"}"
-        }
-      },
-      {
-        "item": "spell_engine:spell_book",
-        "after": "spell_engine:spell_book",
-        "components": {
-          "spell_engine:spell_container": {
-            "pool": "rogues:spell_book/rogue"
-          },
-          "spell_engine:item_model": "rogues:item/spell_book/rogue",
-          "minecraft:item_name": "{\"translate\":\"item.rogues.spell_book/rogue\"}"
-        }
-      },
-      {
-        "item": "spell_engine:spell_book",
-        "after": "spell_engine:spell_book",
-        "components": {
-          "spell_engine:spell_container": {
-            "pool": "rogues:spell_book/warrior"
-          },
-          "spell_engine:item_model": "rogues:item/spell_book/warrior",
-          "minecraft:item_name": "{\"translate\":\"item.rogues.spell_book/warrior\"}"
-        }
-      },
-      {
-        "item": "spell_engine:spell_book",
-        "after": "spell_engine:spell_book",
-        "components": {
-          "spell_engine:spell_container": {
-            "pool": "wizards:spell_book/arcane"
-          },
-          "spell_engine:item_model": "wizards:item/spell_book/arcane",
-          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_book/arcane\"}"
-        }
-      },
-      {
-        "item": "spell_engine:spell_book",
-        "after": "spell_engine:spell_book",
-        "components": {
-          "spell_engine:spell_container": {
-            "pool": "wizards:spell_book/fire"
-          },
-          "spell_engine:item_model": "wizards:item/spell_book/fire",
-          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_book/fire\"}"
         }
       },
       {
@@ -7754,19 +7748,8 @@
         }
       },
       {
-        "item": "spell_engine:spell_book",
-        "after": "spell_engine:spell_scroll",
-        "components": {
-          "spell_engine:spell_container": {
-            "pool": "wizards:spell_book/frost"
-          },
-          "spell_engine:item_model": "wizards:item/spell_book/frost",
-          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_book/frost\"}"
-        }
-      },
-      {
         "item": "spell_engine:spell_scroll",
-        "after": "spell_engine:spell_book",
+        "after": "spell_engine:spell_scroll",
         "components": {
           "spell_engine:spell_container": {
             "spell_ids": [
@@ -8409,40 +8392,8 @@
         }
       },
       {
-        "item": "royalvariations:royal_staff",
-        "after": "spell_engine:spell_scroll"
-      },
-      {
-        "item": "royalvariations:royal_bomb",
-        "after": "royalvariations:royal_staff"
-      },
-      {
-        "item": "royalvariations:royal_bow",
-        "after": "royalvariations:royal_bomb"
-      },
-      {
-        "item": "royalvariations:royal_arrow",
-        "after": "royalvariations:royal_bow"
-      },
-      {
-        "item": "royalvariations:royal_knight_helmet",
-        "after": "royalvariations:royal_arrow"
-      },
-      {
-        "item": "royalvariations:royal_knight_cuirass",
-        "after": "royalvariations:royal_knight_helmet"
-      },
-      {
-        "item": "royalvariations:royal_knight_leggings",
-        "after": "royalvariations:royal_knight_cuirass"
-      },
-      {
-        "item": "royalvariations:royal_knight_boots",
-        "after": "royalvariations:royal_knight_leggings"
-      },
-      {
         "item": "spell_engine:spell_scroll",
-        "after": "royalvariations:royal_knight_boots",
+        "after": "spell_engine:spell_scroll",
         "components": {
           "spell_engine:spell_container": {
             "spell_ids": [
@@ -8455,8 +8406,85 @@
         }
       },
       {
+        "item": "spell_engine:spell_book",
+        "after": "spell_engine:spell_scroll",
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "paladins:spell_book/paladin"
+          },
+          "spell_engine:item_model": "paladins:item/spell_book/paladin",
+          "minecraft:item_name": "{\"translate\":\"item.paladins.spell_book/paladin\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_book",
+        "after": "spell_engine:spell_book",
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "paladins:spell_book/priest"
+          },
+          "spell_engine:item_model": "paladins:item/spell_book/priest",
+          "minecraft:item_name": "{\"translate\":\"item.paladins.spell_book/priest\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_book",
+        "after": "spell_engine:spell_book",
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "rogues:spell_book/rogue"
+          },
+          "spell_engine:item_model": "rogues:item/spell_book/rogue",
+          "minecraft:item_name": "{\"translate\":\"item.rogues.spell_book/rogue\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_book",
+        "after": "spell_engine:spell_book",
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "rogues:spell_book/warrior"
+          },
+          "spell_engine:item_model": "rogues:item/spell_book/warrior",
+          "minecraft:item_name": "{\"translate\":\"item.rogues.spell_book/warrior\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_book",
+        "after": "spell_engine:spell_book",
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "wizards:spell_book/arcane"
+          },
+          "spell_engine:item_model": "wizards:item/spell_book/arcane",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_book/arcane\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_book",
+        "after": "spell_engine:spell_book",
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "wizards:spell_book/fire"
+          },
+          "spell_engine:item_model": "wizards:item/spell_book/fire",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_book/fire\"}"
+        }
+      },
+      {
+        "item": "spell_engine:spell_book",
+        "after": "spell_engine:spell_book",
+        "components": {
+          "spell_engine:spell_container": {
+            "pool": "wizards:spell_book/frost"
+          },
+          "spell_engine:item_model": "wizards:item/spell_book/frost",
+          "minecraft:item_name": "{\"translate\":\"item.wizards.spell_book/frost\"}"
+        }
+      },
+      {
         "item": "crittersandcompanions:acorn_hat",
-        "after": "terrarianmight:optic_staff"
+        "after": "spell_engine:spell_book"
       }
     ],
     "order": []
@@ -9159,7 +9187,7 @@
       },
       {
         "item": "ribbits:ribbit_nitwit_spawn_egg",
-        "after": "sporelight:sporelight_spawn_egg"
+        "after": "ghosts:kodama_spawn_egg"
       },
       {
         "item": "ribbits:ribbit_fisherman_spawn_egg",
