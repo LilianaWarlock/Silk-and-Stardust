@@ -10,10 +10,12 @@
       "royalvariations:royalvariations",
       "rogues:generic",
       "eternal_starlight:combat",
+      "crittersandcompanions:main",
       "netherexp:nether_wastes",
       "aether:spawn_eggs",
       "wan_ancient_beasts:wan_ancient_beasts",
       "aether:natural_blocks",
+      "friendsandfoes:main_tab",
       "terrarianmight:terrarian_might",
       "eternal_starlight:misc",
       "enderscape:enderscape",
@@ -21,6 +23,7 @@
       "infernalexp:infernalexp",
       "ghosts:ghosts_creative_tab",
       "rpgbackpacks:backpacks_tab",
+      "waystones:waystones",
       "leafscopperbackport:leafs_copper_backport",
       "eternal_starlight:spawn_eggs",
       "wizards:generic",
@@ -28,6 +31,7 @@
       "wands:wands_tab",
       "spell_engine:generic",
       "kubejs:tab",
+      "gateway_of_doom:gateway_of_doom",
       "nightlights:night_lights",
       "archers:generic",
       "unusualend:unusual_end",
@@ -35,6 +39,7 @@
       "artifacts:main",
       "bountifulseals:seal_tab",
       "relics_rpgs:generic",
+      "fightsfrights:creative_tab",
       "eternal_starlight:ingredients",
       "society_trading:tab",
       "eternal_starlight:blocks",
@@ -42,6 +47,7 @@
       "unusualend:unusual_end_gloopstone_lands",
       "aether:food_and_drinks",
       "ore_creeper:ore_creeper",
+      "vanillabackport:vanilla_backport",
       "plushie_buddies:sw_plushie_tab",
       "bountifulfares:bountiful_fares_compatibility",
       "farmingforblockheads:farmingforblockheads",
@@ -56,6 +62,7 @@
       "items_displayed:display",
       "aether:equipment_and_utilities",
       "netherexp:mod_compat",
+      "ribbits:general",
       "nethers_exoticism:nethers_exoticism",
       "friendsforlife:friendsforlife",
       "vc_gliders:technology",
@@ -189,9 +196,9 @@
       "curiouschests:curiouschests",
       "bitsandbalance:bits_and_balance",
       "silkandstardust:nether",
+      "silkandstardust:eternalstarlight",
       "silkandstardust:end",
-      "silkandstardust:aether",
-      "silkandstardust:eternalstarlight"
+      "silkandstardust:aether"
     ]
   },
   {
@@ -3376,7 +3383,6 @@
       "eternal_starlight:malarite_sword",
       "eternal_starlight:malarite_axe",
       "eternal_starlight:malarite_spear",
-      "eternal_starlight:tear_bomb",
       "eternal_starlight:pungency_fruit_axe",
       "eternal_starlight:pungency_fruit_spear",
       "eternal_starlight:seeds_launcher",
@@ -3435,11 +3441,9 @@
       "eternal_starlight:doomeden_rapier",
       "eternal_starlight:jinglestem_crisp",
       "eternal_starlight:jinglestem_sandwich",
-      "eternal_starlight:lunar_berries",
       "eternal_starlight:bouldershroom_stew",
       "eternal_starlight:lunaris_cactus_fruit",
       "eternal_starlight:lunaris_cactus_gel",
-      "eternal_starlight:abyssal_fruit",
       "eternal_starlight:velvetumoss_ball",
       "eternal_starlight:crinoa_ball",
       "eternal_starlight:crinoa_porridge",
@@ -3467,7 +3471,6 @@
       "eternal_starlight:seeker_tentacle",
       "eternal_starlight:doomeden_carrion",
       "eternal_starlight:rotten_ham",
-      "eternal_starlight:ashen_snowball",
       "eternal_starlight:starcore",
       "eternal_starlight:cinder_brick",
       "eternal_starlight:flare_brick",
@@ -3492,10 +3495,7 @@
       "eternal_starlight:malarite",
       "eternal_starlight:pungency_fruit_upgrade_smithing_template",
       "eternal_starlight:starfire_bird_egg",
-      "eternal_starlight:starfire",
       "eternal_starlight:starfire_upgrade_smithing_template",
-      "eternal_starlight:raw_flowglaze",
-      "eternal_starlight:flowglaze",
       "eternal_starlight:flowglaze_upgrade_smithing_template",
       "eternal_starlight:saltpeter_powder",
       "eternal_starlight:raw_amaramber",
@@ -3808,46 +3808,36 @@
       "eternal_starlight:galactic_quiver",
       "eternal_starlight:aetherstrike_rocket",
       "eternal_starlight:thermal_springstone_pickaxe",
-      "eternal_starlight:thermal_springstone_axe",
       "eternal_starlight:thermal_springstone_hoe",
       "eternal_starlight:thermal_springstone_shovel",
       "eternal_starlight:glacite_pickaxe",
-      "eternal_starlight:glacite_axe",
       "eternal_starlight:glacite_hoe",
       "eternal_starlight:glacite_shovel",
       "eternal_starlight:starlit_diamond_pickaxe",
-      "eternal_starlight:starlit_diamond_axe",
       "eternal_starlight:starlit_diamond_hoe",
       "eternal_starlight:starlit_diamond_shovel",
       "eternal_starlight:deepsilver_pickaxe",
-      "eternal_starlight:deepsilver_axe",
       "eternal_starlight:deepsilver_hoe",
       "eternal_starlight:deepsilver_shovel",
       "eternal_starlight:deepsilver_sickle",
       "eternal_starlight:deepsilver_brush",
       "eternal_starlight:unrealium_pickaxe",
-      "eternal_starlight:unrealium_axe",
       "eternal_starlight:unrealium_hoe",
       "eternal_starlight:unrealium_shovel",
       "eternal_starlight:unrealium_sickle",
       "eternal_starlight:malarite_pickaxe",
-      "eternal_starlight:malarite_axe",
       "eternal_starlight:malarite_hoe",
       "eternal_starlight:malarite_shovel",
       "eternal_starlight:malarite_sickle",
       "eternal_starlight:tear_bomb_minecart",
-      "eternal_starlight:pungency_fruit_axe",
       "eternal_starlight:starfire_pickaxe",
-      "eternal_starlight:starfire_axe",
       "eternal_starlight:starfire_hoe",
       "eternal_starlight:starfire_shovel",
       "eternal_starlight:flowglaze_pickaxe",
-      "eternal_starlight:flowglaze_axe",
       "eternal_starlight:flowglaze_hoe",
       "eternal_starlight:flowglaze_shovel",
       "eternal_starlight:saltpeter_matchbox",
       "eternal_starlight:amaramber_pickaxe",
-      "eternal_starlight:amaramber_axe",
       "eternal_starlight:amaramber_hoe",
       "eternal_starlight:amaramber_shovel",
       "eternal_starlight:amaramber_sickle",
@@ -3857,7 +3847,6 @@
       "eternal_starlight:luminofish_bucket",
       "eternal_starlight:luminaris_bucket",
       "eternal_starlight:aurora_deer_antler",
-      "eternal_starlight:shadow_snail_shell_powder",
       "eternal_starlight:battleaxe_pendant",
       "eternal_starlight:warhammer_pendant",
       "eternal_starlight:butterfly_wings_amulet",
@@ -3865,12 +3854,10 @@
       "eternal_starlight:pearl_necklace",
       "eternal_starlight:crescent_pendant",
       "eternal_starlight:book",
-      "eternal_starlight:seeking_eye",
       "eternal_starlight:underminer",
       "eternal_starlight:soulit_spectator",
       "eternal_starlight:wand_of_teleportation",
       "eternal_starlight:gravity_pickaxe",
-      "eternal_starlight:flesh_grinder",
       "eternal_starlight:music_disc_whisper_of_the_stars",
       "eternal_starlight:music_disc_dusk_o_ereyesterday",
       "eternal_starlight:music_disc_tranquility",
@@ -3907,6 +3894,10 @@
       {
         "item": "aether:white_apple",
         "after": "additionaladditions:honeyed_apple"
+      },
+      {
+        "item": "crittersandcompanions:acorn",
+        "after": "bountifulfares:hoary_apple_block"
       },
       {
         "item": "terrarianmight:life_fruit",
@@ -3975,6 +3966,14 @@
       {
         "item": "deep_aether:cooked_aerglow_fish",
         "after": "deep_aether:raw_aerglow_fish"
+      },
+      {
+        "item": "crittersandcompanions:koi_fish",
+        "after": "minecraft:tropical_fish"
+      },
+      {
+        "item": "crittersandcompanions:clam",
+        "after": "minecraft:pufferfish"
       },
       {
         "item": "aether:gingerbread_man",
@@ -4131,16 +4130,16 @@
         "after": "creaturefeature:blighted_brain"
       },
       {
-        "item": "rottencreatures:magma_rotten_flesh",
+        "item": "rottencreatures:frozen_rotten_flesh",
         "after": "minecraft:rotten_flesh"
       },
       {
-        "item": "rottencreatures:frozen_rotten_flesh",
-        "after": "rottencreatures:magma_rotten_flesh"
+        "item": "rottencreatures:magma_rotten_flesh",
+        "after": "rottencreatures:frozen_rotten_flesh"
       },
       {
         "item": "additionaladditions:chicken_nugget",
-        "after": "rottencreatures:frozen_rotten_flesh"
+        "after": "rottencreatures:magma_rotten_flesh"
       },
       {
         "item": "bountifulfares:foul_flesh",
@@ -4203,6 +4202,18 @@
       "jewelry:gem_vein"
     ],
     "add_items": [
+      {
+        "item": "minecraft:totem_of_undying",
+        "after": "jewelry:copper_ring"
+      },
+      {
+        "item": "friendsandfoes:totem_of_freezing",
+        "after": "minecraft:totem_of_undying"
+      },
+      {
+        "item": "friendsandfoes:totem_of_illusion",
+        "after": "friendsandfoes:totem_of_freezing"
+      },
       {
         "item": "relics_rpgs:jewel_figurine_ruby",
         "after": "jewelry:unique_crit_necklace"
@@ -4778,6 +4789,10 @@
         "after": "minecraft:quartz"
       },
       {
+        "item": "bountifulseals:sugar_crystal",
+        "after": "minecraft:amethyst_shard"
+      },
+      {
         "item": "leafscopperbackport:copper_nugget",
         "after": "minecraft:iron_nugget"
       },
@@ -4796,6 +4811,14 @@
       {
         "item": "minecraft:wheat",
         "after": "waystones:dormant_shard"
+      },
+      {
+        "item": "crittersandcompanions:silk",
+        "after": "minecraft:string"
+      },
+      {
+        "item": "crittersandcompanions:dragonfly_wing",
+        "after": "minecraft:feather"
       },
       {
         "item": "deep_aether:quail_egg",
@@ -4842,8 +4865,20 @@
         "after": "vc_gliders:reinforced_paper_diamond"
       },
       {
+        "item": "crittersandcompanions:sea_bunny_slime_bottle",
+        "after": "creaturefeature:dream_silk"
+      },
+      {
+        "item": "crittersandcompanions:snail_slime_bottle",
+        "after": "crittersandcompanions:sea_bunny_slime_bottle"
+      },
+      {
         "item": "aether:ambrosium_shard",
         "after": "minecraft:phantom_membrane"
+      },
+      {
+        "item": "crittersandcompanions:pearl",
+        "after": "aether:ambrosium_shard"
       },
       {
         "item": "kobolds:banner_pattern_kobold",
@@ -4930,12 +4965,8 @@
         "after": "royalvariations:royal_armor_fragments"
       },
       {
-        "item": "bountifulseals:sugar_crystal",
-        "after": "bountifulseals:silliness_extract"
-      },
-      {
         "item": "nameless_trinkets:unknown_fragment",
-        "after": "bountifulseals:sugar_crystal"
+        "after": "bountifulseals:silliness_extract"
       },
       {
         "item": "nameless_trinkets:dubious_dust",
@@ -5000,6 +5031,10 @@
     ],
     "add_items": [
       {
+        "item": "ribbits:swamp_lantern",
+        "after": "enderscape:bulb_lantern"
+      },
+      {
         "item": "bitsandbalance:kiln",
         "after": "minecraft:blast_furnace"
       },
@@ -5014,6 +5049,158 @@
       {
         "item": "mob_repellent:terracotta_brazier",
         "after": "mob_repellent:stone_brazier"
+      },
+      {
+        "item": "waystones:waystone",
+        "after": "minecraft:painting"
+      },
+      {
+        "item": "waystones:mossy_waystone",
+        "after": "waystones:waystone"
+      },
+      {
+        "item": "waystones:sandy_waystone",
+        "after": "waystones:mossy_waystone"
+      },
+      {
+        "item": "waystones:deepslate_waystone",
+        "after": "waystones:sandy_waystone"
+      },
+      {
+        "item": "waystones:blackstone_waystone",
+        "after": "waystones:deepslate_waystone"
+      },
+      {
+        "item": "waystones:end_stone_waystone",
+        "after": "waystones:blackstone_waystone"
+      },
+      {
+        "item": "waystones:warp_plate",
+        "after": "waystones:end_stone_waystone"
+      },
+      {
+        "item": "waystones:white_portstone",
+        "after": "waystones:warp_plate"
+      },
+      {
+        "item": "waystones:orange_portstone",
+        "after": "waystones:white_portstone"
+      },
+      {
+        "item": "waystones:magenta_portstone",
+        "after": "waystones:orange_portstone"
+      },
+      {
+        "item": "waystones:light_blue_portstone",
+        "after": "waystones:magenta_portstone"
+      },
+      {
+        "item": "waystones:yellow_portstone",
+        "after": "waystones:light_blue_portstone"
+      },
+      {
+        "item": "waystones:lime_portstone",
+        "after": "waystones:yellow_portstone"
+      },
+      {
+        "item": "waystones:pink_portstone",
+        "after": "waystones:lime_portstone"
+      },
+      {
+        "item": "waystones:gray_portstone",
+        "after": "waystones:pink_portstone"
+      },
+      {
+        "item": "waystones:light_gray_portstone",
+        "after": "waystones:gray_portstone"
+      },
+      {
+        "item": "waystones:cyan_portstone",
+        "after": "waystones:light_gray_portstone"
+      },
+      {
+        "item": "waystones:purple_portstone",
+        "after": "waystones:cyan_portstone"
+      },
+      {
+        "item": "waystones:blue_portstone",
+        "after": "waystones:purple_portstone"
+      },
+      {
+        "item": "waystones:brown_portstone",
+        "after": "waystones:blue_portstone"
+      },
+      {
+        "item": "waystones:green_portstone",
+        "after": "waystones:brown_portstone"
+      },
+      {
+        "item": "waystones:red_portstone",
+        "after": "waystones:green_portstone"
+      },
+      {
+        "item": "waystones:black_portstone",
+        "after": "waystones:red_portstone"
+      },
+      {
+        "item": "waystones:orange_sharestone",
+        "after": "waystones:black_portstone"
+      },
+      {
+        "item": "waystones:magenta_sharestone",
+        "after": "waystones:orange_sharestone"
+      },
+      {
+        "item": "waystones:light_blue_sharestone",
+        "after": "waystones:magenta_sharestone"
+      },
+      {
+        "item": "waystones:yellow_sharestone",
+        "after": "waystones:light_blue_sharestone"
+      },
+      {
+        "item": "waystones:lime_sharestone",
+        "after": "waystones:yellow_sharestone"
+      },
+      {
+        "item": "waystones:pink_sharestone",
+        "after": "waystones:lime_sharestone"
+      },
+      {
+        "item": "waystones:gray_sharestone",
+        "after": "waystones:pink_sharestone"
+      },
+      {
+        "item": "waystones:light_gray_sharestone",
+        "after": "waystones:gray_sharestone"
+      },
+      {
+        "item": "waystones:cyan_sharestone",
+        "after": "waystones:light_gray_sharestone"
+      },
+      {
+        "item": "waystones:purple_sharestone",
+        "after": "waystones:cyan_sharestone"
+      },
+      {
+        "item": "waystones:blue_sharestone",
+        "after": "waystones:purple_sharestone"
+      },
+      {
+        "item": "waystones:brown_sharestone",
+        "after": "waystones:blue_sharestone"
+      },
+      {
+        "item": "waystones:green_sharestone",
+        "after": "waystones:brown_sharestone"
+      },
+      {
+        "item": "waystones:red_sharestone",
+        "after": "waystones:green_sharestone"
+      },
+      {
+        "item": "waystones:black_sharestone",
+        "after": "waystones:red_sharestone"
       },
       {
         "item": "ghosts:haunted_sign",
@@ -5145,8 +5332,12 @@
         "after": "kobolds:kobold_iron_axe"
       },
       {
-        "item": "yo_hooks:iron_grappling_hook",
+        "item": "yo_hooks:iron_hook_head",
         "after": "kobolds:kobold_iron_hoe"
+      },
+      {
+        "item": "yo_hooks:iron_grappling_hook",
+        "after": "yo_hooks:iron_hook_head"
       },
       {
         "item": "vc_gliders:paraglider_iron",
@@ -5157,8 +5348,12 @@
         "after": "vc_gliders:paraglider_iron"
       },
       {
-        "item": "yo_hooks:gold_grappling_hook",
+        "item": "yo_hooks:gold_hook_head",
         "after": "minecraft:golden_hoe"
+      },
+      {
+        "item": "yo_hooks:gold_grappling_hook",
+        "after": "yo_hooks:gold_hook_head"
       },
       {
         "item": "vc_gliders:paraglider_gold",
@@ -5169,8 +5364,12 @@
         "after": "vc_gliders:paraglider_gold"
       },
       {
-        "item": "yo_hooks:diamond_grappling_hook",
+        "item": "yo_hooks:diamond_hook_head",
         "after": "minecraft:diamond_hoe"
+      },
+      {
+        "item": "yo_hooks:diamond_grappling_hook",
+        "after": "yo_hooks:diamond_hook_head"
       },
       {
         "item": "vc_gliders:paraglider_diamond",
@@ -5181,8 +5380,12 @@
         "after": "vc_gliders:paraglider_diamond"
       },
       {
-        "item": "yo_hooks:netherite_grappling_hook",
+        "item": "yo_hooks:netherite_hook_head",
         "after": "minecraft:netherite_hoe"
+      },
+      {
+        "item": "yo_hooks:netherite_grappling_hook",
+        "after": "yo_hooks:netherite_hook_head"
       },
       {
         "item": "vc_gliders:paraglider_netherite",
@@ -5195,6 +5398,18 @@
       {
         "item": "bountifulseals:arctic_cod_bucket",
         "after": "minecraft:pufferfish_bucket"
+      },
+      {
+        "item": "crittersandcompanions:dumbo_octopus_bucket",
+        "after": "minecraft:sulfur_cube_bucket"
+      },
+      {
+        "item": "crittersandcompanions:koi_fish_bucket",
+        "after": "crittersandcompanions:dumbo_octopus_bucket"
+      },
+      {
+        "item": "crittersandcompanions:sea_bunny_bucket",
+        "after": "crittersandcompanions:koi_fish_bucket"
       },
       {
         "item": "wan_ancient_beasts:quick_sand_bucket",
@@ -5257,8 +5472,16 @@
         "after": "vc_gliders:copper_upgrade"
       },
       {
-        "item": "waystones:return_scroll",
+        "item": "crittersandcompanions:silk_lead",
         "after": "minecraft:lead"
+      },
+      {
+        "item": "crittersandcompanions:grappling_hook",
+        "after": "crittersandcompanions:silk_lead"
+      },
+      {
+        "item": "waystones:return_scroll",
+        "after": "crittersandcompanions:grappling_hook"
       },
       {
         "item": "waystones:blank_scroll",
@@ -5361,6 +5584,78 @@
         "after": "friendsforlife:red_ocarina"
       },
       {
+        "item": "ribbits:maraca",
+        "after": "friendsforlife:black_ocarina"
+      },
+      {
+        "item": "minecraft:bundle",
+        "after": "ribbits:maraca"
+      },
+      {
+        "item": "minecraft:white_bundle",
+        "after": "minecraft:bundle"
+      },
+      {
+        "item": "minecraft:light_gray_bundle",
+        "after": "minecraft:white_bundle"
+      },
+      {
+        "item": "minecraft:gray_bundle",
+        "after": "minecraft:light_gray_bundle"
+      },
+      {
+        "item": "minecraft:black_bundle",
+        "after": "minecraft:gray_bundle"
+      },
+      {
+        "item": "minecraft:brown_bundle",
+        "after": "minecraft:black_bundle"
+      },
+      {
+        "item": "minecraft:red_bundle",
+        "after": "minecraft:brown_bundle"
+      },
+      {
+        "item": "minecraft:orange_bundle",
+        "after": "minecraft:red_bundle"
+      },
+      {
+        "item": "minecraft:yellow_bundle",
+        "after": "minecraft:orange_bundle"
+      },
+      {
+        "item": "minecraft:lime_bundle",
+        "after": "minecraft:yellow_bundle"
+      },
+      {
+        "item": "minecraft:green_bundle",
+        "after": "minecraft:lime_bundle"
+      },
+      {
+        "item": "minecraft:cyan_bundle",
+        "after": "minecraft:green_bundle"
+      },
+      {
+        "item": "minecraft:light_blue_bundle",
+        "after": "minecraft:cyan_bundle"
+      },
+      {
+        "item": "minecraft:blue_bundle",
+        "after": "minecraft:light_blue_bundle"
+      },
+      {
+        "item": "minecraft:purple_bundle",
+        "after": "minecraft:blue_bundle"
+      },
+      {
+        "item": "minecraft:magenta_bundle",
+        "after": "minecraft:purple_bundle"
+      },
+      {
+        "item": "minecraft:pink_bundle",
+        "after": "minecraft:magenta_bundle"
+      },
+      {
         "item": "bitsandbalance:glow_goo",
         "after": "minecraft:ender_eye"
       },
@@ -5389,28 +5684,16 @@
         "after": "betterarcheology:music_disc_swings"
       },
       {
+        "item": "friendsandfoes:music_disc_around_the_corner",
+        "after": "kobolds:music_disc_kobblestone"
+      },
+      {
         "item": "fightsfrights:allbomb",
         "after": "wanderer_ribbit:umbrellaleaf"
       },
       {
-        "item": "yo_hooks:iron_hook_head",
-        "after": "baublemounts:mount_bauble"
-      },
-      {
-        "item": "yo_hooks:gold_hook_head",
-        "after": "yo_hooks:iron_hook_head"
-      },
-      {
-        "item": "yo_hooks:diamond_hook_head",
-        "after": "yo_hooks:gold_hook_head"
-      },
-      {
-        "item": "yo_hooks:netherite_hook_head",
-        "after": "yo_hooks:diamond_hook_head"
-      },
-      {
         "item": "luminous_butterflies:butterfly_net",
-        "after": "yo_hooks:netherite_hook_head"
+        "after": "baublemounts:mount_bauble"
       },
       {
         "item": "luminous_butterflies:butterfly_encyclopedia",
@@ -5454,6 +5737,10 @@
       "betterarcheology:music_disc_swings"
     ],
     "add_items": [
+      {
+        "item": "minecraft:brush",
+        "before": "betterarcheology:iron_brush"
+      },
       {
         "item": "wan_ancient_beasts:chisel",
         "after": "betterarcheology:netherite_brush"
@@ -6349,8 +6636,36 @@
       "minecraft:combat"
     ],
     "icon": "minecraft:stone_sword",
-    "remove_items": [],
+    "remove_items": [
+      "friendsandfoes:totem_of_illusion",
+      "friendsandfoes:totem_of_freezing",
+      "minecraft:totem_of_undying"
+    ],
     "add_items": [
+      {
+        "item": "archers:flint_spear",
+        "after": "minecraft:netherite_axe"
+      },
+      {
+        "item": "archers:iron_spear",
+        "after": "archers:flint_spear"
+      },
+      {
+        "item": "archers:golden_spear",
+        "after": "archers:iron_spear"
+      },
+      {
+        "item": "archers:diamond_spear",
+        "after": "archers:golden_spear"
+      },
+      {
+        "item": "archers:netherite_spear",
+        "after": "archers:diamond_spear"
+      },
+      {
+        "item": "archers:aether_spear",
+        "after": "archers:netherite_spear"
+      },
       {
         "item": "wardenhorn:warden_horn",
         "after": "wetland_whimsy:dagger"
@@ -6378,6 +6693,22 @@
       {
         "item": "leafscopperbackport:copper_armor_boots",
         "after": "leafscopperbackport:copper_armor_leggings"
+      },
+      {
+        "item": "crittersandcompanions:iron_dragonfly_armor",
+        "after": "minecraft:diamond_horse_armor"
+      },
+      {
+        "item": "crittersandcompanions:gold_dragonfly_armor",
+        "after": "crittersandcompanions:iron_dragonfly_armor"
+      },
+      {
+        "item": "crittersandcompanions:diamond_dragonfly_armor",
+        "after": "crittersandcompanions:gold_dragonfly_armor"
+      },
+      {
+        "item": "crittersandcompanions:netherite_dragonfly_armor",
+        "after": "crittersandcompanions:diamond_dragonfly_armor"
       },
       {
         "item": "archers:composite_longbow",
@@ -6452,32 +6783,8 @@
         "after": "archers:medium_quiver"
       },
       {
-        "item": "archers:flint_spear",
-        "after": "archers:large_quiver"
-      },
-      {
-        "item": "archers:iron_spear",
-        "after": "archers:flint_spear"
-      },
-      {
-        "item": "archers:golden_spear",
-        "after": "archers:iron_spear"
-      },
-      {
-        "item": "archers:diamond_spear",
-        "after": "archers:golden_spear"
-      },
-      {
-        "item": "archers:netherite_spear",
-        "after": "archers:diamond_spear"
-      },
-      {
-        "item": "archers:aether_spear",
-        "after": "archers:netherite_spear"
-      },
-      {
         "item": "archers:archer_armor_head",
-        "after": "archers:aether_spear"
+        "after": "archers:large_quiver"
       },
       {
         "item": "archers:archer_armor_chest",
@@ -8146,6 +8453,10 @@
           "spell_engine:item_model": "wizards:item/spell_scroll/frost",
           "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/frost\"}"
         }
+      },
+      {
+        "item": "crittersandcompanions:acorn_hat",
+        "after": "terrarianmight:optic_staff"
       }
     ],
     "order": []
@@ -8202,12 +8513,31 @@
     "remove_items": [
       "minecraft:white_wool",
       "minecraft:oak_chest_boat",
-      "minecraft:bamboo_chest_raft"
+      "minecraft:bamboo_chest_raft",
+      "friendsandfoes:waxed_oxidized_lightning_rod",
+      "friendsandfoes:waxed_weathered_lightning_rod",
+      "friendsandfoes:waxed_exposed_lightning_rod",
+      "friendsandfoes:waxed_lightning_rod",
+      "friendsandfoes:oxidized_lightning_rod",
+      "friendsandfoes:weathered_lightning_rod",
+      "friendsandfoes:exposed_lightning_rod",
+      "friendsandfoes:waxed_oxidized_copper_button",
+      "friendsandfoes:waxed_weathered_copper_button",
+      "friendsandfoes:waxed_exposed_copper_button",
+      "friendsandfoes:waxed_copper_button",
+      "friendsandfoes:oxidized_copper_button",
+      "friendsandfoes:weathered_copper_button",
+      "friendsandfoes:exposed_copper_button",
+      "friendsandfoes:copper_button"
     ],
     "add_items": [
       {
         "item": "minecraft:redstone_ore",
         "before": "minecraft:redstone"
+      },
+      {
+        "item": "crittersandcompanions:sea_bunny_slime_block",
+        "after": "minecraft:slime_block"
       },
       {
         "item": "aether:skyroot_button",
@@ -8276,6 +8606,14 @@
       {
         "item": "ghosts:calibrated_haunted_eye",
         "after": "quark:iron_rod"
+      },
+      {
+        "item": "ribbits:mossy_oak_planks_fence_gate",
+        "after": "ghosts:calibrated_haunted_eye"
+      },
+      {
+        "item": "ribbits:mossy_oak_door",
+        "after": "ribbits:mossy_oak_planks_fence_gate"
       }
     ],
     "order": []
@@ -8507,6 +8845,26 @@
       {
         "item": "ghosts:haunted_fence",
         "after": "ghosts:haunted_stairs"
+      },
+      {
+        "item": "ribbits:mossy_oak_planks",
+        "after": "ghosts:haunted_fence"
+      },
+      {
+        "item": "ribbits:mossy_oak_planks_stairs",
+        "after": "ribbits:mossy_oak_planks"
+      },
+      {
+        "item": "ribbits:mossy_oak_planks_slab",
+        "after": "ribbits:mossy_oak_planks_stairs"
+      },
+      {
+        "item": "bitsandbalance:vertical_mossy_oak_planks_slab",
+        "after": "ribbits:mossy_oak_planks_slab"
+      },
+      {
+        "item": "ribbits:mossy_oak_planks_fence",
+        "after": "bitsandbalance:vertical_mossy_oak_planks_slab"
       }
     ],
     "order": []
@@ -8526,7 +8884,18 @@
     "tab": [
       "minecraft:spawn_eggs"
     ],
-    "remove_items": [],
+    "remove_items": [
+      "friendsandfoes:wildfire_spawn_egg",
+      "friendsandfoes:tuff_golem_spawn_egg",
+      "friendsandfoes:rascal_spawn_egg",
+      "friendsandfoes:moobloom_spawn_egg",
+      "friendsandfoes:mauler_spawn_egg",
+      "friendsandfoes:illusioner_spawn_egg",
+      "friendsandfoes:iceologer_spawn_egg",
+      "friendsandfoes:glare_spawn_egg",
+      "friendsandfoes:crab_spawn_egg",
+      "friendsandfoes:copper_golem_spawn_egg"
+    ],
     "add_items": [
       {
         "item": "aether:aechor_plant_spawn_egg",
@@ -8617,72 +8986,8 @@
         "after": "deep_aether:gentle_wind_spawn_egg"
       },
       {
-        "item": "crittersandcompanions:dragonfly_spawn_egg",
-        "after": "aether:zephyr_spawn_egg"
-      },
-      {
-        "item": "crittersandcompanions:ferret_spawn_egg",
-        "after": "crittersandcompanions:dragonfly_spawn_egg"
-      },
-      {
-        "item": "crittersandcompanions:dumbo_octopus_spawn_egg",
-        "after": "crittersandcompanions:ferret_spawn_egg"
-      },
-      {
-        "item": "crittersandcompanions:jumping_spider_spawn_egg",
-        "after": "crittersandcompanions:dumbo_octopus_spawn_egg"
-      },
-      {
-        "item": "crittersandcompanions:koi_fish_spawn_egg",
-        "after": "crittersandcompanions:jumping_spider_spawn_egg"
-      },
-      {
-        "item": "crittersandcompanions:leaf_insect_spawn_egg",
-        "after": "crittersandcompanions:koi_fish_spawn_egg"
-      },
-      {
-        "item": "crittersandcompanions:otter_spawn_egg",
-        "after": "crittersandcompanions:leaf_insect_spawn_egg"
-      },
-      {
-        "item": "crittersandcompanions:red_panda_spawn_egg",
-        "after": "crittersandcompanions:otter_spawn_egg"
-      },
-      {
-        "item": "crittersandcompanions:sea_bunny_spawn_egg",
-        "after": "crittersandcompanions:red_panda_spawn_egg"
-      },
-      {
-        "item": "crittersandcompanions:shima_enaga_spawn_egg",
-        "after": "crittersandcompanions:sea_bunny_spawn_egg"
-      },
-      {
-        "item": "crittersandcompanions:ladybug_spawn_egg",
-        "after": "crittersandcompanions:shima_enaga_spawn_egg"
-      },
-      {
-        "item": "crittersandcompanions:stag_beetle_spawn_egg",
-        "after": "crittersandcompanions:ladybug_spawn_egg"
-      },
-      {
-        "item": "crittersandcompanions:roly_poly_spawn_egg",
-        "after": "crittersandcompanions:stag_beetle_spawn_egg"
-      },
-      {
-        "item": "crittersandcompanions:snail_spawn_egg",
-        "after": "crittersandcompanions:roly_poly_spawn_egg"
-      },
-      {
-        "item": "crittersandcompanions:stick_bug_spawn_egg",
-        "after": "crittersandcompanions:snail_spawn_egg"
-      },
-      {
-        "item": "crittersandcompanions:weevil_spawn_egg",
-        "after": "crittersandcompanions:stick_bug_spawn_egg"
-      },
-      {
         "item": "kobolds:kobold_spawn_egg",
-        "after": "crittersandcompanions:weevil_spawn_egg"
+        "after": "aether:zephyr_spawn_egg"
       },
       {
         "item": "kobolds:kobold_zombie_spawn_egg",
@@ -8853,8 +9158,28 @@
         "after": "ghosts:small_ghost_spawn_egg"
       },
       {
+        "item": "ribbits:ribbit_nitwit_spawn_egg",
+        "after": "sporelight:sporelight_spawn_egg"
+      },
+      {
+        "item": "ribbits:ribbit_fisherman_spawn_egg",
+        "after": "ribbits:ribbit_nitwit_spawn_egg"
+      },
+      {
+        "item": "ribbits:ribbit_gardener_spawn_egg",
+        "after": "ribbits:ribbit_fisherman_spawn_egg"
+      },
+      {
+        "item": "ribbits:ribbit_merchant_spawn_egg",
+        "after": "ribbits:ribbit_gardener_spawn_egg"
+      },
+      {
+        "item": "ribbits:ribbit_sorcerer_spawn_egg",
+        "after": "ribbits:ribbit_merchant_spawn_egg"
+      },
+      {
         "item": "artifacts:mimic_spawn_egg",
-        "after": "ghosts:kodama_spawn_egg"
+        "after": "ribbits:ribbit_sorcerer_spawn_egg"
       }
     ],
     "order": []
@@ -8864,8 +9189,14 @@
     "tab": [
       "minecraft:natural_blocks"
     ],
-    "remove_items": [],
+    "remove_items": [
+      "friendsandfoes:buttercup"
+    ],
     "add_items": [
+      {
+        "item": "crittersandcompanions:silk_cocoon",
+        "before": "minecraft:grass_block"
+      },
       {
         "item": "bitsandbalance:andesite_zinc_ore",
         "after": "enderscape:void_shale"
@@ -9109,6 +9440,34 @@
       {
         "item": "ghosts:haunted_leaves",
         "after": "bountifulfares:hoary_leaves"
+      },
+      {
+        "item": "ribbits:red_toadstool",
+        "after": "minecraft:red_mushroom_block"
+      },
+      {
+        "item": "ribbits:brown_toadstool",
+        "after": "ribbits:red_toadstool"
+      },
+      {
+        "item": "ribbits:toadstool_stem",
+        "after": "ribbits:brown_toadstool"
+      },
+      {
+        "item": "ribbits:giant_lilypad",
+        "after": "minecraft:red_mushroom"
+      },
+      {
+        "item": "ribbits:swamp_daisy",
+        "after": "ribbits:giant_lilypad"
+      },
+      {
+        "item": "ribbits:toadstool",
+        "after": "ribbits:swamp_daisy"
+      },
+      {
+        "item": "ribbits:umbrella_leaf",
+        "after": "ribbits:toadstool"
       },
       {
         "item": "serene_shrubbery:twinflower",
