@@ -1,0 +1,89 @@
+{
+  "shop_id": "daily_furniture",
+  "name": { "translate": "shop.society_trading.daily_furniture.name" },
+  "display_type": "thin",
+  "texture": "minecraft:textures/block/jungle_plank",
+  "jei_catalyst": { "id": "cozyhome:jungle_grandfather_clock" },
+  "selector_weight": 52,
+  
+
+
+
+  "hidden_from_selector": false,
+  "random_sets": [
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "minecraft:chiseled_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 2},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_chis_oak_bookshelf"},
+        {"offer": {"id": "minecraft:chiseled_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 2},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_chis_oak_bookshelf2"},
+        {"offer": {"id": "carved_wood:chiseled_acacia_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 2},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_chis_acacia_bookshelf"},
+        {"offer": {"id": "carved_wood:chiseled_birch_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 2},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_chis_birch_bookshelf"},
+        {"offer": {"id": "carved_wood:chiseled_cherry_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 2},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_chis_cherry_bookshelf"},
+
+        {"offer": {"id": "carved_wood:chiseled_bamboo_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 4},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_chis_bamboo_bookshelf","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "carved_wood:chiseled_dark_oak_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 4},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_chis_dark_oak_bookshelf","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "carved_wood:chiseled_jungle_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 4},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_chis_jungle_bookshelf","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "carved_wood:chiseled_mangrove_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 4},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_chis_mangrove_bookshelf","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "carved_wood:chiseled_spruce_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 4},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_chis_spruce_bookshelf","stage_required": "fieldguide_tree_hugger"},
+
+        {"offer": {"id": "carved_wood:chiseled_pale_oak_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 7},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_chis_pale_oak_bookshelf","stage_required": "fieldguide_dont_blink"},
+        {"offer": {"id": "carved_wood:chiseled_crimson_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_chis_crimson_bookshelf","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "carved_wood:chiseled_warped_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_chis_warped_bookshelf","stage_required": "nether_distract_piglin"}
+      ]
+    },
+    
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "minecraft:bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 22},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_oak_bookshelf"},
+        {"offer": {"id": "minecraft:bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 22},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_oak_bookshelf2"},
+        {"offer": {"id": "carved_wood:acacia_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 22},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_acacia_bookshelf"},
+        {"offer": {"id": "carved_wood:birch_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 22},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_birch_bookshelf"},
+        {"offer": {"id": "carved_wood:cherry_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 22},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_cherry_bookshelf"},
+
+        {"offer": {"id": "carved_wood:bamboo_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bamboo_bookshelf","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "carved_wood:dark_oak_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_dark_oak_bookshelf","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "carved_wood:jungle_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_jungle_bookshelf","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "carved_wood:mangrove_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mangrove_bookshelf","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "carved_wood:spruce_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_spruce_bookshelf","stage_required": "fieldguide_tree_hugger"},
+
+        {"offer": {"id": "carved_wood:pale_oak_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 27},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_pale_oak_bookshelf","stage_required": "fieldguide_dont_blink"},
+        {"offer": {"id": "carved_wood:crimson_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 28},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_crimson_bookshelf","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "carved_wood:warped_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 28},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_bookshelf","stage_required": "nether_distract_piglin"},
+
+        {"offer": {"id": "quark:blossom_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 26},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_blossom_bookshelf","stage_required": "quark_get_all_trumpets"},
+        {"offer": {"id": "aether:skyroot_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 32},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_skyroot_bookshelf","stage_required": "placeholder"},
+        {"offer": {"id": "darkerdepths:petrified_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 26},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_petrified_bookshelf","stage_required": "darker_depths_glowshroom"}
+      ]
+    },
+
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "carved_wood:acacia_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 5},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_acacia_lantern"},
+        {"offer": {"id": "carved_wood:birch_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 5},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_birch_lantern"},
+        {"offer": {"id": "carved_wood:cherry_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 5},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_cherry_lantern"},
+        {"offer": {"id": "carved_wood:oak_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 5},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_oak_lantern"},
+
+        {"offer": {"id": "minecraft:lantern","count": 1},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_lantern"},
+        {"offer": {"id": "quark:paper_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_paper_lantern"},
+
+        {"offer": {"id": "carved_wood:bamboo_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bamboo_lantern","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "carved_wood:dark_oak_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_dark_oak_lantern","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "carved_wood:jungle_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_jungle_lantern","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "carved_wood:mangrove_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mangrove_lantern","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "carved_wood:spruce_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_spruce_lantern","stage_required": "fieldguide_tree_hugger"},
+
+        {"offer": {"id": "carved_wood:pale_oak_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 9},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_pale_oak_lantern","stage_required": "fieldguide_dont_blink"},
+        {"offer": {"id": "carved_wood:crimson_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_crimson_lantern","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "carved_wood:warped_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_lantern","stage_required": "nether_distract_piglin"},
+
+        {"offer": {"id": "quark:paper_lantern_sakura","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_decorated_paper_lantern","stage_required": "fieldguide_dont_blink"}
+      ]
+    }
+
+  ]
+}

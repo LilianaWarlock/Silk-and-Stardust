@@ -1,18 +1,21 @@
-filename = 'society_trading-1.2.10-1.21.1.jar'
+filename = 'society_trading-1.2.11-1.21.1.jar'
 name = 'Society Trading'
 side = ''
-x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.2.10-1.21.1'
+x-prismlauncher-version-number = '1.2.11-1.21.1'
 
 [download]
-hash = '97563ef31c600d44285798ded0857d3045b54b5b918417db3e0851bcb9731d22f84685b5ec47b748bf1943d5ce91348948df5fa2df54f1e146b43dadee5cef6d'
+hash = 'a7923d04c15be27fe96c5e9d18daa85cd90a5d549a81da869f496e2e3b681a0eb23f52021024c618f03b9e9cf5ba70db22985fbf58c53f40026c3b3ad0d9e06e'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/rFRQxRZI/versions/sbyFhvbQ/society_trading-1.2.10-1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/rFRQxRZI/versions/3Gf6gyTx/society_trading-1.2.11-1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'rFRQxRZI'
-version = 'sbyFhvbQ'
+version = '3Gf6gyTx'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'tCkE8p2N'
+type = 'REQUIRED'
