@@ -26,6 +26,8 @@
   "tooltip.nameless_trinkets.creeper_sense_1": "Crouching will cause a non-destructive explosion.",
   "tooltip.nameless_trinkets.creeper_sense_2": "This WILL hurt.",
   "tooltip.nameless_trinkets.woundbearer_lore": "\"Let them feel every scar that they first dealt to me.\"",
+  "item.nameless_trinkets.reverse_card": "Butterfly Bauble",
+  "tooltip.nameless_trinkets.reverse_card_lore": "A single flap of the wing has dire consequences.",
 
   "item.nameless_trinkets.glowing_dust": "Soulbound Opal",
   "item.nameless_trinkets.ultimate_dust": "Soulbound Agate",

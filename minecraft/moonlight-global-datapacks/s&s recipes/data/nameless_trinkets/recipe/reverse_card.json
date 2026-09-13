@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "A": {
+      "item": "nameless_trinkets:ultimate_dust"
+    },
+    "C": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "S": {
+      "tag": "c:strings"
+    }
+  },
+  "pattern": ["C##", "SA#", " ##"],
+  "result": {
+    "count": 1,
+    "id": "nameless_trinkets:reverse_card"
+  }
+}

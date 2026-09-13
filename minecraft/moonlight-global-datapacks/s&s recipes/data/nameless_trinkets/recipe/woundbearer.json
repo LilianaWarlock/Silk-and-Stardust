@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "creaturefeature:blitz_rod"
+    },
+    "S": {
+      "item": "nameless_trinkets:ultimate_dust"
+    },
+    "X": {
+      "item": "creaturefeature:dream_silk"
+    }
+  },
+  "pattern": ["X#X", "# #", " S "],
+  "result": {
+    "count": 1,
+    "id": "nameless_trinkets:woundbearer"
+  }
+}
