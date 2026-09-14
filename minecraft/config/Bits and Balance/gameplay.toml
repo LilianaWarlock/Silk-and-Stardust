@@ -424,7 +424,7 @@
 		#Enable Chat Mentions: typing @username or username in chat highlights their name and sends them a ping sound.
 		enabled = true
 		#Trigger modes: AT_NAME (@username), PLAIN_NAME (username)
-		triggerModes = ["AT_NAME", "PLAIN_NAME"]
+		triggerModes = ["AT_NAME"]
 		#Make mention detection case-insensitive.
 		caseInsensitive = true
 		#Use word boundaries for mention detection (prevents 'jakub' matching 'hijakub').
@@ -449,7 +449,7 @@
 		#Style
 		[mechanics.chatMentions.style]
 			#Hex color for highlighting mentioned usernames (without #).
-			highlightColorHex = "FF3B30"
+			highlightColorHex = "3C30FF"
 			#Hover text shown when hovering over a mentioned username.
 			hoverText = "You were mentioned"
 
