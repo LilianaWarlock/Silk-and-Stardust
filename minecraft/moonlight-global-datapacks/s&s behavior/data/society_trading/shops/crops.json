@@ -3,7 +3,7 @@
   "name": { "translate": "shop.society_trading.crops.name" },
   "display_type": "thin",
   "texture": "minecraft:textures/block/farmland_top",
-  "jei_catalyst": { "id": "minecraft:wooden_hoe" },
+  "jei_catalyst": { "id": "bountifulfares:wild_beetroots" },
   "selector_weight": 2,
   
 
@@ -135,6 +135,34 @@
       "trade_id": "ST_elderberry_vine",
       "selector_weight": 8,
       "stage_required": "addadd_use_water_can"
+    },
+    {
+      "offer": {
+        "id": "minecraft:glow_berries",
+        "count": 2
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 12
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_glow_berries",
+      "selector_weight": 9,
+      "stage_required": "addadd_use_water_can"
+    },
+    {
+      "offer": {
+        "id": "minecraft:bamboo",
+        "count": 2
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 32
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_bamboo",
+      "selector_weight": 10,
+      "stage_required": "fieldguide:tree_hugger"
     },
     {
       "offer": {

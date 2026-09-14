@@ -9,7 +9,7 @@ treatMerchantsLikeBabies = false
 #The chance to get a bonus growth when using Red Fertilizer.
 fertilizerBonusGrowthChance = 1.0
 #List of names the merchant can have.
-merchantNames = ["Swap-O-Matic", "Emerald Muncher", "Weathered Salesperson"]
+merchantNames = ["Merchant", "Anna", "Mallow", "Morshu", "Iselda", "Pebb", "Jubilana", "Frey", "Salubra", "Beedle", "Patches", "Happy Mask Salesman", "Funky Kong", "Ravio", "The Duke", "Rodin", "Tom Nook", "Porkrind", "Kecleon", "Moogle", "Cid", "Eve Dispenser", "Circus of Values", "Clover", "Moneybags", "Lottie", "Ivor Bargain", "Bart", "Chet", "Neko", "tEMmie", "temMiE", "TemMIe", "TEmmiE", "TEMmie", "tEmMiE"]
 #The range at which the chicken nest picks up laid eggs.
 chickenNestRange = 8
 #The maximum amount of animals (per type) until the feeding trough stops feeding.

@@ -54,7 +54,7 @@
         {"offer": {"id": "carved_wood:warped_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 28},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_bookshelf","stage_required": "nether_distract_piglin"},
 
         {"offer": {"id": "quark:blossom_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 26},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_blossom_bookshelf","stage_required": "quark_get_all_trumpets"},
-        {"offer": {"id": "aether:skyroot_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 32},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_skyroot_bookshelf","stage_required": "placeholder"},
+        {"offer": {"id": "aether:skyroot_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 32},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_skyroot_bookshelf","stage_required": "PlACEHOLDER"},
         {"offer": {"id": "darkerdepths:petrified_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 26},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_petrified_bookshelf","stage_required": "darker_depths_glowshroom"}
       ]
     },
@@ -71,19 +71,119 @@
         {"offer": {"id": "minecraft:lantern","count": 1},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_lantern"},
         {"offer": {"id": "quark:paper_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_paper_lantern"},
 
-        {"offer": {"id": "carved_wood:bamboo_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bamboo_lantern","stage_required": "fieldguide_tree_hugger"},
-        {"offer": {"id": "carved_wood:dark_oak_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_dark_oak_lantern","stage_required": "fieldguide_tree_hugger"},
-        {"offer": {"id": "carved_wood:jungle_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_jungle_lantern","stage_required": "fieldguide_tree_hugger"},
-        {"offer": {"id": "carved_wood:mangrove_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mangrove_lantern","stage_required": "fieldguide_tree_hugger"},
-        {"offer": {"id": "carved_wood:spruce_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_spruce_lantern","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "carved_wood:bamboo_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bamboo_lantern","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "carved_wood:dark_oak_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_dark_oak_lantern","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "carved_wood:jungle_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_jungle_lantern","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "carved_wood:mangrove_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mangrove_lantern","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "carved_wood:spruce_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_spruce_lantern","stage_required": "fieldguide_tree_hugger"},
 
         {"offer": {"id": "carved_wood:pale_oak_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 9},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_pale_oak_lantern","stage_required": "fieldguide_dont_blink"},
         {"offer": {"id": "carved_wood:crimson_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_crimson_lantern","stage_required": "nether_distract_piglin"},
         {"offer": {"id": "carved_wood:warped_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_lantern","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "minecraft:soul_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_soul_lantern","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "infernalexp:glowlight_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_glowlight_lantern","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "netherexp:treacherous_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_treacherous_lantern","stage_required": "nether_distract_piglin"},
 
-        {"offer": {"id": "quark:paper_lantern_sakura","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_decorated_paper_lantern","stage_required": "fieldguide_dont_blink"}
+        {"offer": {"id": "darkerdepths:glowshroom_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_glowshroom_lantern","stage_required": "darker_depths_glowshroom"},
+        {"offer": {"id": "quark:paper_lantern_sakura","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_decorated_paper_lantern","stage_required": "quark_get_all_trumpets"},
+
+        {"offer": {"id": "terrarianmight:heart_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_heart_lantern","stage_required": "PLACEHOLDER"},
+        {"offer": {"id": "bountifulfares:feldspar_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_feldspar_lantern","stage_required": "PLACEHOLDER"},
+        {"offer": {"id": "ribbits:swamp_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_swamp_lantern","stage_required": "PLACEHOLDER"},
+
+        {"offer": {"id": "enderscape:bulb_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 64},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bulb_lantern","stage_required": "PLACEHOLDER"},
+        {"offer": {"id": "deep_aether:skyjade_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 45},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_skyjade_lantern","stage_required": "PLACEHOLDER"},
+        {"offer": {"id": "eternal_starlight:eternal_ice_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 45},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_eternal_ice_lantern","stage_required": "PLACEHOLDER"},
+        {"offer": {"id": "eternal_starlight:amaramber_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 45},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_amaramber_lantern","stage_required": "PLACEHOLDER"},
+
+        {"offer": {"id": "unusualend:healing_lantern","count": 1},"request": {"id": "minecraft:emerald_block","count": 9},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_healing_lantern","stage_required": "PLACEHOLDER"}
+      ]
+    },
+
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "carved_wood:acacia_lantern_block","count": 1},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_acacia_lantern_block"},
+        {"offer": {"id": "carved_wood:birch_lantern_block","count": 1},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_birch_lantern_block"},
+        {"offer": {"id": "carved_wood:cherry_lantern_block","count": 1},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_cherry_lantern_block"},
+        {"offer": {"id": "carved_wood:oak_lantern_block","count": 1},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_oak_lantern_block"},
+
+        {"offer": {"id": "carved_wood:bamboo_lantern_block","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bamboo_lantern_block","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "carved_wood:dark_oak_lantern_block","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_dark_oak_lantern_block","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "carved_wood:jungle_lantern_block","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_jungle_lantern_block","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "carved_wood:mangrove_lantern_block","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mangrove_lantern_block","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "carved_wood:spruce_lantern_block","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_spruce_lantern_block","stage_required": "fieldguide_tree_hugger"},
+
+        {"offer": {"id": "carved_wood:pale_oak_lantern_block","count": 1},"request": {"id": "minecraft:emerald","count": 18},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_pale_oak_lantern_block","stage_required": "fieldguide_dont_blink"},
+        {"offer": {"id": "carved_wood:crimson_lantern_block","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_crimson_lantern_block","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "carved_wood:warped_lantern_block","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_lantern_block","stage_required": "nether_distract_piglin"},
+
+        {"offer": {"id": "minecraft:sea_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 32},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_sea_lantern","stage_required": "PLACEHOLDER"},
+        {"offer": {"id": "quark:blaze_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 32},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_blaze_lantern","stage_required": "PLACEHOLDER"},
+
+        {"offer": {"id": "eternal_starlight:red_starlight_crystal_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 45},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_red_starlight_lantern","stage_required": "PLACEHOLDER"},
+        {"offer": {"id": "eternal_starlight:blue_starlight_crystal_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 45},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_blue_starlight_lantern","stage_required": "PLACEHOLDER"},
+        {"offer": {"id": "unusualend:polished_purpur_tiles_lantern","count": 1},"request": {"id": "minecraft:emerald_block","count": 64},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_purpur_lantern","stage_required": "PLACEHOLDER"},
+        {"offer": {"id": "unusualend:gloopstone_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 64},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_gloopstone_lantern","stage_required": "PLACEHOLDER"}
+      ]
+    },
+
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "cozyhome:acacia_couch","count": 1},"request": {"id": "minecraft:emerald","count": 18},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_acacia_couch"},
+        {"offer": {"id": "cozyhome:acacia_sofa","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_acacia_sofa"},
+        {"offer": {"id": "cozyhome:birch_couch","count": 1},"request": {"id": "minecraft:emerald","count": 18},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_birch_couch"},
+        {"offer": {"id": "cozyhome:birch_sofa","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_birch_sofa"},
+        {"offer": {"id": "cozyhome:cherry_couch","count": 1},"request": {"id": "minecraft:emerald","count": 18},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_cherry_couch"},
+        {"offer": {"id": "cozyhome:cherry_sofa","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_cherry_sofa"},
+        {"offer": {"id": "cozyhome:oak_couch","count": 1},"request": {"id": "minecraft:emerald","count": 18},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_oak_couch"},
+        {"offer": {"id": "cozyhome:oak_sofa","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_oak_sofa"},
+
+        {"offer": {"id": "cozyhome:bamboo_couch","count": 1},"request": {"id": "minecraft:emerald","count": 22},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bamboo_couch","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:bamboo_sofa","count": 1},"request": {"id": "minecraft:emerald","count": 28},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bamboo_sofa","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:dark_oak_couch","count": 1},"request": {"id": "minecraft:emerald","count": 22},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_dark_oak_couch","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:dark_oak_sofa","count": 1},"request": {"id": "minecraft:emerald","count": 28},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_dark_oak_sofa","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:jungle_couch","count": 1},"request": {"id": "minecraft:emerald","count": 22},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_jungle_couch","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:jungle_sofa","count": 1},"request": {"id": "minecraft:emerald","count": 28},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_jungle_sofa","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:mangrove_couch","count": 1},"request": {"id": "minecraft:emerald","count": 22},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mangrove_couch","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:mangrove_sofa","count": 1},"request": {"id": "minecraft:emerald","count": 28},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mangrove_sofa","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:spruce_couch","count": 1},"request": {"id": "minecraft:emerald","count": 22},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_spruce_couch","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:spruce_sofa","count": 1},"request": {"id": "minecraft:emerald","count": 28},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_spruce_sofa","stage_required": "fieldguide_tree_hugger"},
+
+        {"offer": {"id": "cozyhome:crimson_couch","count": 1},"request": {"id": "minecraft:emerald","count": 26},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_crimson_couch","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:crimson_sofa","count": 1},"request": {"id": "minecraft:emerald","count": 30},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_crimson_sofa","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:warped_couch","count": 1},"request": {"id": "minecraft:emerald","count": 26},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_couch","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:warped_sofa","count": 1},"request": {"id": "minecraft:emerald","count": 30},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_sofa","stage_required": "nether_distract_piglin"}
+      ]
+    },
+
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "cozyhome:acacia_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_acacia_lamp"},
+        {"offer": {"id": "cozyhome:birch_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_birch_lamp"},
+        {"offer": {"id": "cozyhome:cherry_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_cherry_lamp"},
+        {"offer": {"id": "cozyhome:oak_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_oak_lamp"},
+
+        {"offer": {"id": "cozyhome:bamboo_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bamboo_lamp","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:dark_oak_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_dark_oak_lamp","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:jungle_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_jungle_lamp","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:mangrove_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mangrove_lamp","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:spruce_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_spruce_lamp","stage_required": "fieldguide_tree_hugger"},
+
+        {"offer": {"id": "cozyhome:crimson_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_crimson_lamp","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:warped_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_lamp","stage_required": "nether_distract_piglin"},
+
+        {"offer": {"id": "cozyhome:iron_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 32},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_iron_lamp","stage_required": "PLACEHOLDER"},
+        {"offer": {"id": "cozyhome:glass_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 28},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_glass_lamp","stage_required": "PLACEHOLDER"},
+        {"offer": {"id": "cozyhome:undead_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_undead_lamp","stage_required": "fieldguide_monster_mash"},
+        {"offer": {"id": "cozyhome:ominous_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_ominous_lamp","stage_required": "fieldguide_monster_mash"},
+        {"offer": {"id": "companions:plasma_lamp_block","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_plasma_lamp","stage_required": "PLACEHOLDER"}
       ]
     }
-
   ]
 }

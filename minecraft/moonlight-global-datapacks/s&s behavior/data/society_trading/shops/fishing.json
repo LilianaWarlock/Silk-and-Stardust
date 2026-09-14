@@ -62,10 +62,124 @@
       "image": "kubejs:textures/image_shop/home",
       "trade_id": "ST_seeking_worm",
       "selector_weight": 4,
-      "stage_required": "bosses_kill_sandworm"
+      "stage_required": "bosses_sandworm"
+    },
+    {
+      "offer": {
+        "id": "starcatcher:cherry_bait",
+        "count": 4
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 5
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_cherry_bait",
+      "selector_weight": 5,
+      "stage_required": "fieldguide_tree_hugger"
+    },
+    {
+      "offer": {
+        "id": "starcatcher:lush_bait",
+        "count": 4
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 5
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_lush_bait",
+      "selector_weight": 5,
+      "stage_required": "tame_glare"
+    },
+    {
+      "offer": {
+        "id": "starcatcher:gunpowder_bait",
+        "count": 4
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 5
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_gunpowder_bait",
+      "selector_weight": 6,
+      "stage_required": "fieldguide_monster_mash"
+    },
+    {
+      "offer": {
+        "id": "starcatcher:murkwater_bait",
+        "count": 4
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 6
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_murkwater_bait",
+      "selector_weight": 7,
+      "stage_required": "fossil_found"
+    },
+    {
+      "offer": {
+        "id": "starcatcher:dripstone_bait",
+        "count": 4
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 6
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_dripstone_bait",
+      "selector_weight": 7,
+      "stage_required": "summon_iron_golem"
+    },
+    {
+      "offer": {
+        "id": "starcatcher:sculk_bait",
+        "count": 4
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 12
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_sculk_bait",
+      "selector_weight": 8,
+      "stage_required": "kill_near_sculk"
+    },
+    {
+      "offer": {
+        "id": "starcatcher:legendary_bait",
+        "count": 3
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 15
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_legendary_bait",
+      "selector_weight": 9,
+      "stage_required": "bosses_kraken"
+    },
+    {
+      "offer": {
+        "id": "starcatcher:meteorological_bait",
+        "count": 3
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 15
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_meteorogical_bait",
+      "selector_weight": 10,
+      "stage_required": "free_the_end"
     }
 
 
-  ]
 
+
+
+  ]
 }

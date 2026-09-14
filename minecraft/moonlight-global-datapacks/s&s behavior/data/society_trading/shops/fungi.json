@@ -52,6 +52,32 @@
     },
     {
       "offer": {
+        "id": "minecraft:nether_wart",
+        "count": 3
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 9
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_nether_wart",
+      "selector_weight": 2
+    },
+    {
+      "offer": {
+        "id": "netherexp:warped_wart",
+        "count": 3
+      },
+      "request": {
+        "id": "minecraft:emerald",
+        "count": 9
+      },
+      "image": "kubejs:textures/image_shop/home",
+      "trade_id": "ST_warped_wart",
+      "selector_weight": 2
+    },
+    {
+      "offer": {
         "id": "wetland_whimsy:aria_mushroom",
         "count": 2
       },
