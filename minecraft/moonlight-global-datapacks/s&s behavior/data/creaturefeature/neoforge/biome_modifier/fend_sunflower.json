@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": ["deep_aether:golden_grove", "deep_aether:golden_heights"],
+  "spawners": {
+    "type": "creaturefeature:fend",
+    "weight": 16,
+    "minCount": 3,
+    "maxCount": 3
+  }
+}

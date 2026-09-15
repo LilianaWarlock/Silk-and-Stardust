@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "aether:skyroot_forest",
+    "aether:skyroot_grove",
+    "aether:skyroot_meadow",
+    "aether:skyroot_woodland"
+  ],
+  "spawners": {
+    "type": "creaturefeature:fend",
+    "weight": 6,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}
