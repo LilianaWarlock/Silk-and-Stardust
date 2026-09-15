@@ -13,5 +13,19 @@
       "uuid": "905ce8af-0c98-4213-bc4d-1d4545cd4dc9"
     }
   ],
-  "fightsfrights:putrid_scythe_2": [{ "operation": "DURABILITY", "value": 400 }]
+  "fightsfrights:putrid_scythe_2": [
+    { "operation": "DURABILITY", "value": 400 }
+  ],
+  "hexerei:warhammer": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 1.1,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 12.0,
+      "operation": "BASE"
+    }
+  ]
 }

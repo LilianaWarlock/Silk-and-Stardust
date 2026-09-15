@@ -1,0 +1,24 @@
+{
+  "cropcritters:cooked_puffbomb_steak": [
+    {
+      "operation": "FOOD",
+      "nutrition": 4,
+      "saturation": 2,
+      "eat_seconds": 1.75
+    }
+  ],
+  "wan_ancient_beasts:raw_ancient_meat": [
+    {
+      "operation": "FOOD",
+      "nutrition": 6,
+      "saturation": 4
+    }
+  ],
+  "wan_ancient_beasts:cooked_ancient_meat": [
+    {
+      "operation": "FOOD",
+      "nutrition": 10,
+      "saturation": 10
+    }
+  ]
+}
