@@ -110,6 +110,8 @@
     "curiouschests:infernal_chest",
     "creaturefeature:thingamabob",
     "creaturefeature:doohickey",
-    "fightsfrights:bug_dust"
+    "fightsfrights:bug_dust",
+    "creaturefeature:ectoplasm",
+    "fightsfrights:pathogen"
   ]
 }

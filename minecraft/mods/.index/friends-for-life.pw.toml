@@ -1,18 +1,27 @@
-filename = 'friendsforlife-1.2.1.jar'
+filename = 'friendsforlife-1.3.0-1.21.1-neoforge.jar'
 name = 'Friends For Life'
-side = 'both'
-x-prismlauncher-dependencies = []
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.2.1'
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.3.0'
 
 [download]
-hash = '33e2ba555441ba0da80dd8d6c4f19cffb3026301ccc3683a08d19900c9a39dcaf16581579794bd2dc46d1cbc2b2bab1791b258acc233b6fdef37b8091a0dbc87'
+hash = 'f319030103e7ef3cf1600f00561defdf248f1e2419d008625e64349d92c757bca91aaa862cec4e91a8aeb33389b92c47f44952853afb9bdfc486cee4a00e4fe0'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/AlvqcCSq/versions/GzJEhPxm/friendsforlife-1.2.1.jar'
+url = 'https://cdn.modrinth.com/data/AlvqcCSq/versions/CJdQsEpa/friendsforlife-1.3.0-1.21.1-neoforge.jar'
 
 [update.modrinth]
 mod-id = 'AlvqcCSq'
-version = 'GzJEhPxm'
+version = 'CJdQsEpa'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ccKDOlHs'
+type = 'REQUIRED'
+version = 'aDarc4xa'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Aqlf1Shp'
+type = 'REQUIRED'
+version = 'V9WdDUTx'

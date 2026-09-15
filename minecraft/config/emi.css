@@ -24,7 +24,7 @@
 	/**
 	 * Which sidebar should be searched using the search bar.
 	 */
-	search-sidebar: none;
+	search-sidebar: right;
 
 	/**
 	 * Whether normal search queries should include the tooltip.
@@ -202,7 +202,7 @@
 	/**
 	 * The pages in the right sidebar
 	 */
-	right-sidebar-pages: none;
+	right-sidebar-pages: index;
 
 	/**
 	 * The subpanels in the right sidebar
