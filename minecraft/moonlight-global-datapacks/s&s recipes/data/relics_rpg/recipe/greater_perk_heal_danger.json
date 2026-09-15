@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["AA ", "BCA", "BBA"],
+  "key": {
+    "A": {
+      "item": "dragonscale:ender_dragon_scale"
+    },
+    "B": {
+      "item": "unusualend:citrine_chunk"
+    },
+    "C": {
+      "item": "nameless_trinkets:ultimate_dust"
+    }
+  },
+  "result": {
+    "id": "relics_rpgs:greater_perk_heal_danger",
+    "count": 1
+  }
+}

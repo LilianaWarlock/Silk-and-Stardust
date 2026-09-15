@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["AA ", "BCA", "BBA"],
+  "key": {
+    "A": {
+      "item": "dragonscale:ender_dragon_scale"
+    },
+    "B": {
+      "item": "unusualend:prismalite_gem"
+    },
+    "C": {
+      "item": "nameless_trinkets:ultimate_dust"
+    }
+  },
+  "result": {
+    "id": "relics_rpgs:greater_proc_spell_trance",
+    "count": 1
+  }
+}

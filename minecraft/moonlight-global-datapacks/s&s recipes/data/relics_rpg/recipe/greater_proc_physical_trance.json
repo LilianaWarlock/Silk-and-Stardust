@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" AA", "ACB", "ABB"],
+  "key": {
+    "A": {
+      "item": "dragonscale:ender_dragon_scale"
+    },
+    "B": {
+      "item": "minecraft:dragon_breath"
+    },
+    "C": {
+      "item": "nameless_trinkets:ultimate_dust"
+    }
+  },
+  "result": {
+    "id": "relics_rpgs:greater_proc_physical_trance",
+    "count": 1
+  }
+}
