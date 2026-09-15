@@ -1,9 +1,9 @@
 {
   "title": "The Clouds Part - Vol 2.",
   "sort_order": 2,
-  "description": "Now that you're oriented, it would be wise to acquire some Stone. Can I trust that you know how to get there?",
+  "description": "Now that you're oriented, it would be wise to acquire some materials.",
   "icon": {
-    "item": "minecraft:cobblestone"
+    "item": "minecraft:leather"
   },
   "requirements": [
     {
@@ -14,9 +14,15 @@
   "objectives": [
     {
       "type": "questlog:item_obtain",
-      "name": "Obtain 10 Cobblestone",
-      "required_amount": 10,
-      "item": "minecraft:cobblestone"
+      "name": "Obtain 8 leather",
+      "required_amount": 8,
+      "item": "minecraft:leather"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "name": "Obtain 6 paper",
+      "required_amount": 6,
+      "item": "minecraft:paper"
     }
   ]
 }

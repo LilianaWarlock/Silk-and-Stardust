@@ -1,9 +1,15 @@
 {
   "title": "Packs for Backs",
-  "description": "Make a Leather Backpack.",
+  "description": "Using the materials you've gathered, make a Leather Backpack.",
   "icon": {
     "item": "rpgbackpacks:leather_backpack"
   },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questmain2"
+    }
+  ],
   "chapter": "main",
   "sort_order": 25,
   "objectives": [
