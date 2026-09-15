@@ -1,0 +1,7 @@
+{
+  "type": "remi:tag",
+  "id": "quark:stools",
+  "tag": "quark:stools",
+  "registry": "minecraft:item",
+  "enabled": true
+}

@@ -22,6 +22,7 @@
   "stackGroupsFavorites": false,
   "disabledStackGroups": [
     "minecraft:animal_armors",
+    "c:music_discs",
     "minecraft:leaves",
     "minecraft:saplings",
     "minecraft:boats"
