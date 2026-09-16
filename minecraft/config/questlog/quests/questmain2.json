@@ -1,28 +1,36 @@
 {
   "title": "The Clouds Part - Vol 2.",
   "sort_order": 2,
-  "description": "Now that you're oriented, it would be wise to acquire some materials.",
+  "description": "Now that you're oriented, it would be wise to acquire some basic materials.",
   "icon": {
     "item": "minecraft:leather"
   },
-  "requirements": [
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Obtain 8 leather",
+      "icon": {
+        "item": "minecraft:leather"
+      },
+      "item": "minecraft:leather",
+      "required_amount": 8
+    },
+    {
+      "type": "questlog:item_obtain",
+      "name": "Obtain 6 paper",
+      "icon": {
+        "item": "minecraft:paper"
+      },
+      "item": "minecraft:paper",
+      "required_amount": 6
+    }
+  ],
+  "chapter": "main",
+  "prerequisites": [
     {
       "type": "questlog:quest_complete",
       "quest": "questlog:questmain1"
     }
   ],
-  "objectives": [
-    {
-      "type": "questlog:item_obtain",
-      "name": "Obtain 8 leather",
-      "required_amount": 8,
-      "item": "minecraft:leather"
-    },
-    {
-      "type": "questlog:item_obtain",
-      "name": "Obtain 6 paper",
-      "required_amount": 6,
-      "item": "minecraft:paper"
-    }
-  ]
+  "rewards": []
 }

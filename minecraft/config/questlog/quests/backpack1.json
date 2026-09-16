@@ -4,12 +4,6 @@
   "icon": {
     "item": "rpgbackpacks:leather_backpack"
   },
-  "requirements": [
-    {
-      "type": "questlog:quest_complete",
-      "quest": "questlog:questmain2"
-    }
-  ],
   "chapter": "main",
   "sort_order": 25,
   "objectives": [
@@ -17,8 +11,23 @@
       "type": "questlog:item_craft",
       "item": "rpgbackpacks:leather_backpack",
       "required_amount": 1
+    },
+    {
+      "type": "questlog:item_obtain",
+      "name": "Reinforced Paper",
+      "icon": {
+        "item": "vc_gliders:reinforced_paper"
+      },
+      "item": "vc_gliders:reinforced_paper",
+      "required_amount": 3
     }
   ],
-  "prerequisites": [],
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questmain2",
+      "required_amount": 1
+    }
+  ],
   "rewards": []
 }

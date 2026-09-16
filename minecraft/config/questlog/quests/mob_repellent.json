@@ -1,0 +1,51 @@
+{
+  "title": "Cleansing Smoke",
+  "description": "Burn sage in your apartment to make sure the ghosts are addressed!",
+  "icon": {
+    "item": "mob_repellent:wooden_brazier"
+  },
+  "chapter": "main",
+  "sort_order": 0,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": {
+        "item": "minecraft:stick"
+      },
+      "item": "minecraft:stick",
+      "required_amount": 6
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": {
+        "item": "minecraft:coal_block"
+      },
+      "item": "minecraft:coal_block",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "item": "minecraft:amethyst_shard",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_craft",
+      "icon": {
+        "item": "mob_repellent:wooden_brazier"
+      },
+      "item": "mob_repellent:wooden_brazier",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:questmain2",
+      "required_amount": 1
+    }
+  ],
+  "rewards": []
+}

@@ -1,6 +1,6 @@
 {
   "title": "They're Crrrrrrate!",
-  "description": "Craft an item crate, which can hold a large quantity of a single item!",
+  "description": "Craft an item crate with iron and stripped logs, which can hold a large quantity of a single item!",
   "icon": {
     "item": "bountifulseals:crate"
   },
