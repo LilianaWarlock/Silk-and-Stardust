@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:redstone_block"
+  },
+  "base": {
+    "item": "scannable:scanner"
+  },
+  "result": {
+    "components": { "scannable:energy": 750 },
+    "count": 1,
+    "id": "scannable:scanner"
+  },
+  "template": {
+    "item": "fightsfrights:chip"
+  }
+}
