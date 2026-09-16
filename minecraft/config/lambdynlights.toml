@@ -13,7 +13,7 @@ chunk_rebuild_scheduler = "culling"
 	# Enables dynamic lighting of firefly particles from Firefly Bushes.
 	firefly = true
 	# Enables dynamic lighting for entities that have the Glowing effect.
-	glowing_effect = true
+	glowing_effect = false
 	# Enable entities light source.
 	entities = true
 	# Enable first-person player light source.
