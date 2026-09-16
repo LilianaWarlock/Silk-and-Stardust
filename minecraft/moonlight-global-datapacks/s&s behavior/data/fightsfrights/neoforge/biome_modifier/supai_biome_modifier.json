@@ -1,5 +1,5 @@
 {
-  "type": "neoforge:add_spawns",
+  "type": "neoforge:none",
   "biomes": [
     "frozen_peaks",
     "jagged_peaks",

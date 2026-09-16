@@ -38,7 +38,8 @@
     "dark_forest",
     "lush_caves",
     "old_growth_birch_forest",
-    "old_growth_pine_taiga"
+    "old_growth_pine_taiga",
+    "darkerdepths:molten_cavern"
   ],
   "spawners": {
     "type": "fightsfrights:banshaa",

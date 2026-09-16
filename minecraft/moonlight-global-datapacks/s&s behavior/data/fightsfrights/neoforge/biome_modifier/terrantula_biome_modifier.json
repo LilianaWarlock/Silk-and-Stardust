@@ -3,11 +3,16 @@
   "biomes": [
     "darkerdepths:sandy_catacombs",
     "minecraft:sulfur_caves",
-    "minecraft:desert"
+    "minecraft:desert",
+    "badlands",
+    "eroded_badlands",
+    "wooded_badlands",
+    "savanna",
+    "savanna_plateau"
   ],
   "spawners": {
     "type": "fightsfrights:terrantula",
-    "weight": 20,
+    "weight": 25,
     "minCount": 1,
     "maxCount": 1
   }

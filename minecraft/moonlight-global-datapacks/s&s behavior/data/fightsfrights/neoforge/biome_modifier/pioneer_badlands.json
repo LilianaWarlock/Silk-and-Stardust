@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": ["badlands", "eroded_badlands", "wooded_badlands"],
+  "spawners": {
+    "type": "fightsfrights:pioneer",
+    "weight": 24,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

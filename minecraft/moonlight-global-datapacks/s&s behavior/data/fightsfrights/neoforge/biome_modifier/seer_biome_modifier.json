@@ -1,21 +1,17 @@
 {
   "type": "neoforge:add_spawns",
   "biomes": [
-    "beach",
     "dark_forest",
-    "dripstone_caves",
-    "grove",
+    "darkerdepths:glowshroom_forest",
     "ice_spikes",
     "jagged_peaks",
     "snowy_taiga",
     "snowy_plains",
     "snowy_slopes",
-    "meadow",
     "windswept_hills",
     "windswept_gravelly_hills",
     "stony_shore",
     "stony_peaks",
-    "sparse_jungle",
     "frozen_peaks"
   ],
   "spawners": {
