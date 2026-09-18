@@ -1,4 +1,4 @@
 {
-  "replace": true,
+  "replace": false,
   "values": ["deep_aether:golden_grove", "deep_aether:golden_heights"]
 }

@@ -43,5 +43,26 @@
       "value": 1,
       "operation": "ADDITION"
     }
+  ],
+  "fightsfrights:scowl": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "BASE"
+    }
+  ],
+  "fightsfrights:allman": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 60,
+      "operation": "BASE"
+    }
+  ],
+  "netherman:azazel": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 200,
+      "operation": "BASE"
+    }
   ]
 }

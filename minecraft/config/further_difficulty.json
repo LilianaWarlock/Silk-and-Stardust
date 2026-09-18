@@ -1,5 +1,5 @@
 {
-  "mode": "strict",
+  "mode": "unordered",
   "stages": [
     {
       "id": "nether_entry",
@@ -7,15 +7,25 @@
         "type": "dimension",
         "target": "minecraft:the_nether"
       },
-      "triggerMessage": "PLACEHOLDER NETHER DIFFICULTY INCREASE MESSAGE - PLEASE PRETTIFY IT SKY",
-      "blacklist": [],
+      "triggerMessage": "The ground shudders under your feet unnervingly. Things feels a little less safe now...",
+      "blacklist": [
+        "creaturefeature:beauty",
+        "creaturefeature:detritus",
+        "creaturefeature:pathogen",
+        "creaturefeature:mockingbird",
+        "creaturefeature:coat_of_arms",
+        "fightsfrights:scowl",
+        "fightsfrights:banshaa",
+        "fightsfrights:shackled",
+        "fightsfrights:allman"
+      ],
       "modifiers": {
         "healthMultiplier": 1.0,
-        "healthAddition": 0.0,
-        "armorMultiplier": 1.5,
+        "healthAddition": 2.0,
+        "armorMultiplier": 1.0,
         "armorAddition": 0.0,
         "toughnessMultiplier": 1.0,
-        "toughnessAddition": 5.0,
+        "toughnessAddition": 0.0,
         "attackMultiplier": 1.0,
         "attackAddition": 3.0
       }
@@ -26,16 +36,19 @@
         "type": "kill",
         "target": "minecraft:ender_dragon"
       },
-      "triggerMessage": "PLACEHOLDER END DIFFICULTY INCREASE MESSAGE - PLEASE PRETTIFY IT SKY",
-      "blacklist": [],
+      "triggerMessage": "The tyrantess of the End falls... and her latent magic dissipates through the lands.",
+      "blacklist": [
+        "apple_cows:enchanted_golden_apple_cow",
+        "apple_cows:golden_apple_cow"
+      ],
       "modifiers": {
-        "healthMultiplier": 2.0,
+        "healthMultiplier": 1.0,
         "healthAddition": 0.0,
-        "armorMultiplier": 2.0,
-        "armorAddition": 5.0,
-        "toughnessMultiplier": 2.0,
+        "armorMultiplier": 1.0,
+        "armorAddition": 2.0,
+        "toughnessMultiplier": 1.0,
         "toughnessAddition": 5.0,
-        "attackMultiplier": 2.0,
+        "attackMultiplier": 1.5,
         "attackAddition": 0.0
       }
     }
