@@ -1,6 +1,7 @@
 {
   "values": [
     "rottencreatures:glacial_hunter",
+    "rottencreatures:hunter_wolf",
     "block_factorys_bosses:cinematic_kraken",
     "unusualend:block_updater",
     "netherman:totemus_puzzle",
@@ -11,6 +12,9 @@
     "fightsfrights:effigy",
     "unusualend:enderblob_queen",
     "eternal_starlight:solar_creeper",
-    "fightsfrights:supai"
+    "fightsfrights:supai",
+    "quark:crab",
+    "quark:forgotten",
+    "quark:shiba"
   ]
 }
