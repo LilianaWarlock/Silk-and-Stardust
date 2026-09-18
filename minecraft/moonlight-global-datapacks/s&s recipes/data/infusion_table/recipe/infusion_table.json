@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "jewelry:ruby"
+    },
+    "B": {
+      "item": "minecraft:basalt"
+    },
+    "C": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "pattern": ["BBB", "RCR", "CGC"],
+  "result": {
+    "count": 1,
+    "id": "infusion_table:infusion_table"
+  }
+}

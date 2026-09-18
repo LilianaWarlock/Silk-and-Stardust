@@ -1,0 +1,21 @@
+filename = 'infusion_table-neoforge-1.2.2+1.21.jar'
+name = 'Infusion Table'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.2+1.21'
+
+[download]
+hash = '5b0dd13fc7207eb2d58e35e84098378c835c5ee7887c667549211bbcbcaa203671fa9ce2b2f236f91844576145919c8e893e09c8bfe557fb71253feb1f076934'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/W9CiRGYK/versions/W2NZYRNa/infusion_table-neoforge-1.2.2%2B1.21.jar'
+
+[update.modrinth]
+mod-id = 'W9CiRGYK'
+version = 'W2NZYRNa'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'
