@@ -1,4 +1,9 @@
 {
   "replace": false,
-  "values": ["creaturefeature:cannonball_crab"]
+  "values": [
+    "creaturefeature:cannonball_crab",
+    "the_moth:mini_moth",
+    "the_moth:moth",
+    "the_moth:moth_man"
+  ]
 }
