@@ -11,7 +11,7 @@ enable_mod = true
 	#Amount healed per second, to heal to full in n seconds: x = 20/n; to replicate vanilla behavior set to 0.25
 	# Default: 0.1
 	# Range: 0.0 ~ 1000.0
-	natural_healing_amount = 0.25
+	natural_healing_amount = 0.5
 	#Enable healing rate modifier with saturation. To replicate vanilla behavior set to true
 	enable_saturation_healing = true
 	#Multiplier to the saturation healing formula used by Minecraft. To replicate vanilla behavior set to 1.0
