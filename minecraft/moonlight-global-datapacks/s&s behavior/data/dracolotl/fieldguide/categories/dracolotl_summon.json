@@ -1,0 +1,15 @@
+{
+  "target_category": "fieldguide:animals",
+  "contents": [
+    {
+      "type": "virtual_entry",
+      "id": "dracolotl:dracolotl_summoning",
+      "virtual_type": "tutorial",
+      "icon": "dracolotl:textures/fieldguide/entries/dracolotl_summoning.png"
+    }
+  ],
+  "unlock": {
+    "triggers": ["obtain"],
+    "trigger_on": ["item:minecraft/dragon_egg"]
+  }
+}
