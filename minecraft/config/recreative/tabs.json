@@ -31,7 +31,6 @@
       "wands:wands_tab",
       "spell_engine:generic",
       "kubejs:tab",
-      "gateway_of_doom:gateway_of_doom",
       "nightlights:night_lights",
       "archers:generic",
       "unusualend:unusual_end",
@@ -1725,8 +1724,6 @@
       "bitsandbalance:vertical_rusty_cut_netherite_slab",
       "netherexp:rusty_cut_netherite_pillar",
       "minecraft:lava_bucket",
-      "minecraft:red_mushroom",
-      "minecraft:brown_mushroom",
       "minecraft:gold_ingot",
       "minecraft:ghast_tear",
       "minecraft:blaze_rod",
@@ -4279,8 +4276,32 @@
         "after": "relics_rpgs:superior_use_zone_spell_power"
       },
       {
-        "item": "artifacts:umbrella",
+        "item": "runes:small_rune_pouch",
         "after": "relics_rpgs:superior_use_zone_healing_taken"
+      },
+      {
+        "item": "runes:medium_rune_pouch",
+        "after": "runes:small_rune_pouch"
+      },
+      {
+        "item": "runes:large_rune_pouch",
+        "after": "runes:medium_rune_pouch"
+      },
+      {
+        "item": "archers:small_quiver",
+        "after": "runes:large_rune_pouch"
+      },
+      {
+        "item": "archers:medium_quiver",
+        "after": "archers:small_quiver"
+      },
+      {
+        "item": "archers:large_quiver",
+        "after": "archers:medium_quiver"
+      },
+      {
+        "item": "artifacts:umbrella",
+        "after": "archers:large_quiver"
       },
       {
         "item": "artifacts:plastic_drinking_hat",
@@ -4755,20 +4776,8 @@
         "after": "deep_aether:slider_eye"
       },
       {
-        "item": "deep_aether:sun_core",
-        "after": "deep_aether:medal_of_honor"
-      },
-      {
-        "item": "deep_aether:afterburner",
-        "after": "deep_aether:sun_core"
-      },
-      {
-        "item": "deep_aether:aerwhale_saddle",
-        "after": "deep_aether:afterburner"
-      },
-      {
         "item": "deep_aether:aercloud_necklace",
-        "after": "deep_aether:aerwhale_saddle"
+        "after": "deep_aether:medal_of_honor"
       },
       {
         "item": "deep_aether:wind_shield",
@@ -5299,6 +5308,10 @@
       {
         "item": "curiouschests:ender_dispatch_chest",
         "after": "carved_wood:warped_barrel"
+      },
+      {
+        "item": "infusion_table:infusion_table",
+        "after": "village_taverns:barrel"
       },
       {
         "item": "spell_engine:spell_binding",
@@ -10838,6 +10851,10 @@
         "before": "minecraft:grass_block"
       },
       {
+        "item": "bountifulseals:snow_clumps",
+        "after": "minecraft:snow"
+      },
+      {
         "item": "bitsandbalance:andesite_zinc_ore",
         "after": "enderscape:void_shale"
       },
@@ -11102,20 +11119,24 @@
         "after": "bountifulfares:walnut_sapling"
       },
       {
+        "item": "ghosts:haunted_sapling",
+        "after": "terrarianmight:yellow_willow_sapling"
+      },
+      {
         "item": "ribbits:giant_lilypad",
         "after": "minecraft:red_mushroom"
       },
       {
-        "item": "ribbits:swamp_daisy",
+        "item": "ribbits:umbrella_leaf",
         "after": "ribbits:giant_lilypad"
+      },
+      {
+        "item": "ribbits:swamp_daisy",
+        "after": "ribbits:umbrella_leaf"
       },
       {
         "item": "ribbits:toadstool",
         "after": "ribbits:swamp_daisy"
-      },
-      {
-        "item": "ribbits:umbrella_leaf",
-        "after": "ribbits:toadstool"
       },
       {
         "item": "serene_shrubbery:twinflower",
@@ -11288,14 +11309,6 @@
       {
         "item": "creeperoverhaul:tiny_cactus",
         "after": "minecraft:cactus"
-      },
-      {
-        "item": "bountifulseals:snow_clumps",
-        "after": "quark:myalite_crystal"
-      },
-      {
-        "item": "ghosts:haunted_sapling",
-        "after": "bountifulseals:snow_clumps"
       }
     ],
     "order": []
