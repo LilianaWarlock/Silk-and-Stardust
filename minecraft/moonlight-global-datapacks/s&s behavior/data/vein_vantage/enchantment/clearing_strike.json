@@ -21,6 +21,18 @@
           "max_amplifier": 0
         }
       }
+    ],
+    "minecraft:item_damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1,
+            "per_level_above_first": 0
+          }
+        }
+      }
     ]
   },
   "supported_items": "#minecraft:enchantable/mining",
