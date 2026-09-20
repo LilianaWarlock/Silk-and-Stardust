@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["BJB", "BCB", "SSS"],
+  "key": {
+    "B": {
+      "item": "minecraft:cobblestone"
+    },
+    "C": {
+      "item": "minecraft:coal_block"
+    },
+    "J": {
+      "item": "jewelry:citrine"
+    },
+    "S": {
+      "item": "minecraft:smooth_stone_slab"
+    }
+  },
+  "result": {
+    "id": "mob_repellent:stone_brazier"
+  }
+}
