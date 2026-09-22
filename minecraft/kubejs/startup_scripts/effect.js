@@ -8,7 +8,7 @@ StartupEvents.registry("mob_effect", (event) => {
     .modifyAttribute(
       "air_drag_modifier", // The attribute to scale
       "ea9a4c23-07b1-45cf-aa0d-5fd7232fc875", //Some random UUID which serves as the effect's unique instance
-      -0.1, // The amount to increase/decrease by
+      -0.13, // The amount to increase/decrease by
       "add_value", // The operation to perform
     );
 });
