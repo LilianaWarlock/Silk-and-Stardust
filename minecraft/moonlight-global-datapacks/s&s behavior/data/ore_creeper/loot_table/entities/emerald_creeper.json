@@ -58,7 +58,7 @@
               }
             }
           ],
-          "name": "minecraft:emerald_ore"
+          "name": "denseores:dense_emerald_ore"
         }
       ]
     }
