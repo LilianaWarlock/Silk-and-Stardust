@@ -8,7 +8,7 @@ units = "METRIC"
 #Allowed Values: ALPHABETICAL_UP, ALPHABETICAL_DOWN, MOD_UP, MOD_DOWN, RARITY_UP, RARITY_DOWN, CAUGHT_UP, CAUGHT_DOWN, CAUGHT_GOLDEN_UP, CAUGHT_GOLDEN_DOWN
 sort = "ALPHABETICAL_DOWN"
 #Should play the hit sound
-enable_miss_sound = true
+enable_miss_sound = false
 #Shows a bunch of extra text info during the minigame for debugging
 debug = false
 #How many MS to wait before refreshing starcatcher's ui overlays (not in minigame)
@@ -18,7 +18,7 @@ overlay_update_frequency = 1000
 #Should sweet-spots play the hit sounds
 enable_hit_sounds = true
 #Controls whether villager sounds for winning and losing the minigame should play. Does not affect tackle skins with custom sounds.
-enable_villager_sound = false
+enable_villager_sound = true
 
 [ui_settings]
 	# Default: 0.0
