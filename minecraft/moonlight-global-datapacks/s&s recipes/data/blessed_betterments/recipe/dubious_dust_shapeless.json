@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "jewelry:sapphire"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "jewelry:jade"
+    },
+    {
+      "item": "jewelry:tanzanite"
+    },
+    {
+      "item": "nameless_trinkets:glowing_dust"
+    },
+    {
+      "item": "jewelry:citrine"
+    },
+    {
+      "item": "enderscape:nebulite"
+    },
+    {
+      "item": "jewelry:ruby"
+    },
+    {
+      "item": "jewelry:topaz"
+    }
+  ],
+  "result": {
+    "id": "nameless_trinkets:dubious_dust",
+    "count": 1
+  }
+}
