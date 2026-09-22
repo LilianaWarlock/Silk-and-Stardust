@@ -1,18 +1,18 @@
-filename = 'bitsandbalance-neoforge-1.21.1-2.3.4.jar'
+filename = 'bitsandbalance-neoforge-1.21.1-2.3.6.jar'
 name = 'Bits and Balance'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.3.4'
+x-prismlauncher-version-number = '2.3.6'
 
 [download]
-hash = '8eef5b03da7a6be29a0432b059eebd1fd63e925f3087e78f7650d31bfa5769fcee4e883f0beb835a52f2389282e9a0715768b18c5f634508a18b73ceff0369f1'
+hash = '6c84e80dbe48d8828ab7b7544aba454794dc6045c6e48a2934afb1a1140d8b3697a180f72e5be0adade782f70222e83842ddce468a67589745473fce31f9dd56'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/77x98dqG/versions/jXcse8AT/bitsandbalance-neoforge-1.21.1-2.3.4.jar'
+url = 'https://cdn.modrinth.com/data/77x98dqG/versions/ghadUmHT/bitsandbalance-neoforge-1.21.1-2.3.6.jar'
 
 [update.modrinth]
 mod-id = '77x98dqG'
-version = 'jXcse8AT'
+version = 'ghadUmHT'

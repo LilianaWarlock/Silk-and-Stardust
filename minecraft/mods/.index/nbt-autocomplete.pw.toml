@@ -1,18 +1,18 @@
-filename = 'NBTac-NEOFORGE-1.21.1-2.0.1.jar'
+filename = 'NBTac-NEOFORGE-1.21.1-2.1.jar'
 name = 'NBT Autocomplete'
-side = ''
+side = 'client'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.0.1-neoforge-1.21.1'
+x-prismlauncher-version-number = '2.1-neoforge-1.21.1'
 
 [download]
-hash = 'aeb144d7fa51811b8ba7d96bdfa239a1a49302995e6a525cacfa230e77373460aeddcdd3e3bda0eb2ad4d6fb1baa15cf50ba82de7d6c1efd2f6768f015cac780'
+hash = 'b66f78a521a0923534315f4859531877aff3c0c870e207312caed47890f7ca33521ec89ba8668f941062509f7c9bf04cbaf5e25fab71d34f5a125dab85dd1beb'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/UR0ocuEt/versions/ai4hfx1q/NBTac-NEOFORGE-1.21.1-2.0.1.jar'
+url = 'https://cdn.modrinth.com/data/UR0ocuEt/versions/2Qvhsbeo/NBTac-NEOFORGE-1.21.1-2.1.jar'
 
 [update.modrinth]
 mod-id = 'UR0ocuEt'
-version = 'ai4hfx1q'
+version = '2Qvhsbeo'

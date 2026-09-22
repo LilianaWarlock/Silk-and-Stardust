@@ -1,18 +1,18 @@
-filename = 'gatewayofdoom-neoforge-1.21.1-2.2.0.jar'
+filename = 'gatewayofdoom-neoforge-1.21.1-2.2.1.jar'
 name = 'Gateway of Doom'
 side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.2.0'
+x-prismlauncher-version-number = '2.2.1'
 
 [download]
-hash = '0eaf91aa351116a4eb4cc260483b469a8737c0b24894bb6211a974eda7a4b88410e42c647e3531313c618dd3de5e070cfaa8d9d4c7edb5f5e21da0947f1b8eb8'
+hash = '2e1166b651ba2b5de42b0efad7dac3e8522caa78a585025816ff1974ca96718c7f41e875dfb9aa30a5500a94df0699d5166bc6d91e943800521a68caa582e0b7'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/Z7xAH01M/versions/ZMIJ4gQy/gatewayofdoom-neoforge-1.21.1-2.2.0.jar'
+url = 'https://cdn.modrinth.com/data/Z7xAH01M/versions/IEhLbObv/gatewayofdoom-neoforge-1.21.1-2.2.1.jar'
 
 [update.modrinth]
 mod-id = 'Z7xAH01M'
-version = 'ZMIJ4gQy'
+version = 'IEhLbObv'
