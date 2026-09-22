@@ -23,7 +23,7 @@
       "optional_equipment_slots": ["MAINHAND", "OFFHAND"]
     },
     {
-      "type": "ranged_weapon:pull_time",
+      "type": "ranged_weapon:haste",
       "modifier": {
         "name": "tieredneo:rare_ranged_3",
         "operation": "ADD_MULTIPLIED_TOTAL",
