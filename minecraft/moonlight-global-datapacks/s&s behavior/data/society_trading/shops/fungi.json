@@ -61,7 +61,8 @@
       },
       "image": "kubejs:textures/image_shop/home",
       "trade_id": "ST_nether_wart",
-      "selector_weight": 2
+      "selector_weight": 2,
+      "stage_required": "nether_distract_piglin"
     },
     {
       "offer": {
@@ -74,7 +75,8 @@
       },
       "image": "kubejs:textures/image_shop/home",
       "trade_id": "ST_warped_wart",
-      "selector_weight": 2
+      "selector_weight": 2,
+      "stage_required": "nether_distract_piglin"
     },
     {
       "offer": {
