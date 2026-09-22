@@ -1,6 +1,6 @@
 {
 	// Applied as multiplier on top of spell.cast.movement_speed. Default value of 1.0 means no change.
-	"movement_multiplier_speed_while_casting": 1.0,
+	"movement_multiplier_speed_while_casting": 1.2999999523162842,
 	// Allow spells to bypass invulnerability frames. This is required in order for high attack frequency spells (such as beams) to work.
 	"bypass_iframes": true,
 	// Spell haste reduces the cooldown time of abilities
