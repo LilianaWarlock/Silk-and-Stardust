@@ -4,6 +4,7 @@ enableEffectDiscovery = true
 filterIndex = true
 displayCraftableInIndex = true
 requireWorkstationForCraftable = true
+hideEmptyRemiTabs = true
 displayWithUnknownWorkstation = true
 exemptInventoryCrafting = true
 requireCatalystsKnown = true

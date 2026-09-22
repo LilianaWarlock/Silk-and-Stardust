@@ -2,7 +2,7 @@
   "enableCreativeModeTabs": true,
   "creativeTabSidebarTarget": "INDEX",
   "creativeTabTheme": "VERTICAL",
-  "tabAlignment": "STRETCH",
+  "tabAlignment": "START",
   "verticalTabsWidth": 28,
   "verticalTabsHeight": 24,
   "horizontalTabsWidth": 22,
