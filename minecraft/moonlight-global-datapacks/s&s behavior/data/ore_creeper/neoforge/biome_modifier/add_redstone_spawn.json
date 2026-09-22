@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#ore_creeper:spawnable_biomes",
+  "spawners": {
+    "type": "ore_creeper:redstone_creeper",
+    "weight": 3,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

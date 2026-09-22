@@ -11,7 +11,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 9.0,
-                "max": 18.0,
+                "max": 14.0,
                 "type": "minecraft:uniform"
               }
             },
@@ -32,7 +32,7 @@
             {
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4,
+                "max": 8,
                 "min": 0
               },
               "enchantment": "minecraft:looting",
@@ -52,13 +52,32 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3.0,
-                "max": 5.0,
+                "min": 1.0,
+                "max": 4.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
           "name": "minecraft:raw_iron_block"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0.0,
+                "max": 6.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "denseores:dense_iron_ore"
         }
       ]
     }

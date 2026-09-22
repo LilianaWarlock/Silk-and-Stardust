@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
+                "min": 6.0,
                 "max": 16.0,
                 "type": "minecraft:uniform"
               }
@@ -59,6 +59,25 @@
             }
           ],
           "name": "minecraft:coal_block"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "denseores:dense_coal_ore"
         }
       ]
     }

@@ -32,7 +32,7 @@
             {
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2,
+                "max": 3,
                 "min": 0
               },
               "enchantment": "minecraft:looting",
@@ -52,13 +52,13 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 4.0,
-                "max": 7.0,
+                "min": 3.0,
+                "max": 6.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "name": "minecraft:diamond_ore"
+          "name": "denseores:dense_diamond_ore"
         }
       ]
     }

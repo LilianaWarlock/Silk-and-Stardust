@@ -58,7 +58,7 @@
               }
             }
           ],
-          "name": "minecraft:nether_quartz_ore"
+          "name": "denseores:dense_nether_quartz_ore"
         }
       ]
     }

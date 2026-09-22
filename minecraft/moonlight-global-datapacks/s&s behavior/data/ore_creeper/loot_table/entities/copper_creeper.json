@@ -52,13 +52,32 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2.0,
+                "min": 0.0,
                 "max": 4.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
           "name": "minecraft:raw_copper_block"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "denseores:dense_deepslate_copper_ore"
         }
       ]
     }

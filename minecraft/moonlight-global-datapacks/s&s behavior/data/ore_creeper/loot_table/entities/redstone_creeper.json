@@ -58,7 +58,7 @@
               }
             }
           ],
-          "name": "minecraft:redstone_ore"
+          "name": "denseores:dense_redstone_ore"
         }
       ]
     }
