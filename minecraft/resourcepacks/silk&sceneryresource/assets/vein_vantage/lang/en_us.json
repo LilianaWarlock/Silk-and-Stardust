@@ -1,5 +1,6 @@
 {
-  "lore.vein_vantage.vein_sweep": "Crouch and mine ore to break multiple connected blocks. Exclusive with Efficiency.",
+  "enchantment.vein_vantage.vein_sweep": "Stone Sweep",
+  "lore.vein_vantage.vein_sweep": "Crouch and mine to break multiple connected blocks. Exclusive with Efficiency.",
   "lore.vein_vantage.ore_blessing": "Mining ore may give a positive effect.",
   "lore.vein_vantage.clearing_strike": "Breaking a block destroys more than one. Exclusive with Efficiency."
 }
