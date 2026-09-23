@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["ABC", "DEF", "GHI"],
+  "key": {
+    "A": {
+      "item": "jewelry:sapphire"
+    },
+    "B": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "jewelry:jade"
+    },
+    "D": {
+      "item": "jewelry:tanzanite"
+    },
+    "E": {
+      "item": "nameless_trinkets:glowing_dust"
+    },
+    "F": {
+      "item": "jewelry:citrine"
+    },
+    "G": {
+      "item": "enderscape:nebulite"
+    },
+    "H": {
+      "item": "jewelry:ruby"
+    },
+    "I": {
+      "item": "jewelry:topaz"
+    }
+  },
+  "result": {
+    "id": "nameless_trinkets:dubious_dust",
+    "count": 1
+  }
+}
