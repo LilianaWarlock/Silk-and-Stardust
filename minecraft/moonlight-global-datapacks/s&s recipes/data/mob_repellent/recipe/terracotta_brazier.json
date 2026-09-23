@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" E ", "TCT", "TTT"],
+  "key": {
+    "T": {
+      "tag": "minecraft:terracotta"
+    },
+    "C": {
+      "item": "minecraft:coal_block"
+    },
+    "E": {
+      "item": "nameless_trinkets:dubious_dust"
+    }
+  },
+  "result": {
+    "id": "mob_repellent:terracotta_brazier"
+  }
+}
