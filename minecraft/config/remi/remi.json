@@ -25,7 +25,10 @@
     "c:music_discs",
     "minecraft:leaves",
     "minecraft:saplings",
-    "minecraft:boats"
+    "minecraft:potions",
+    "minecraft:splash_potions",
+    "minecraft:boats",
+    "minecraft:lingering_potions"
   ],
   "stackGroupItemOrder": {},
   "emiOnlyInRecipeBook": false,

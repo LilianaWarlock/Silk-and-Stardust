@@ -9,7 +9,6 @@
       "nameless_trinkets:nameless_trinkets",
       "royalvariations:royalvariations",
       "rogues:generic",
-      "eternal_starlight:combat",
       "crittersandcompanions:main",
       "netherexp:nether_wastes",
       "aether:spawn_eggs",
@@ -17,7 +16,6 @@
       "aether:natural_blocks",
       "friendsandfoes:main_tab",
       "terrarianmight:terrarian_might",
-      "eternal_starlight:misc",
       "enderscape:enderscape",
       "aether:dungeon_blocks",
       "infernalexp:infernalexp",
@@ -25,7 +23,6 @@
       "rpgbackpacks:backpacks_tab",
       "waystones:waystones",
       "leafscopperbackport:leafs_copper_backport",
-      "eternal_starlight:spawn_eggs",
       "wizards:generic",
       "netherexp:soul_sand_valley",
       "wands:wands_tab",
@@ -40,9 +37,7 @@
       "bountifulseals:seal_tab",
       "relics_rpgs:generic",
       "fightsfrights:creative_tab",
-      "eternal_starlight:ingredients",
       "society_trading:tab",
-      "eternal_starlight:blocks",
       "aether:armor_and_accessories",
       "unusualend:unusual_end_gloopstone_lands",
       "aether:food_and_drinks",
@@ -67,13 +62,11 @@
       "friendsforlife:friendsforlife",
       "vc_gliders:technology",
       "scannable:common",
-      "eternal_starlight:food_and_drinks",
       "netherman:netherman_tab",
       "aether:ingredients",
       "netherexp:crimson_forest",
       "aether:functional_blocks",
       "serene_shrubbery:serene_shrubbery",
-      "eternal_starlight:tools",
       "rottencreatures:rotten_creatures",
       "aether:redstone_blocks",
       "netherexp:warped_forest",
@@ -143,13 +136,6 @@
       "crittersandcompanions:main",
       "denseores:dense_ores",
       "enderscape:enderscape",
-      "eternal_starlight:blocks",
-      "eternal_starlight:combat",
-      "eternal_starlight:food_and_drinks",
-      "eternal_starlight:ingredients",
-      "eternal_starlight:misc",
-      "eternal_starlight:spawn_eggs",
-      "eternal_starlight:tools",
       "farmingforblockheads:farmingforblockheads",
       "fightsfrights:creative_tab",
       "friendsandfoes:main_tab",
@@ -198,14 +184,13 @@
       "wizards:generic",
       "yo_hooks:grappling_hooks",
       "curiouschests:curiouschests",
-      "bitsandbalance:bits_and_balance"
+      "bitsandbalance:bits_and_balance",
+      "eternal_starlight:main"
     ]
   },
   {
     "action": "custom_tab",
-    "tab": [
-      "silkandstardust:aether"
-    ],
+    "tab": ["silkandstardust:aether"],
     "name": "The Aether",
     "icon": "minecraft:glowstone",
     "remove_items": [],
@@ -844,9 +829,7 @@
   },
   {
     "action": "custom_tab",
-    "tab": [
-      "silkandstardust:end"
-    ],
+    "tab": ["silkandstardust:end"],
     "name": "The End",
     "icon": "minecraft:end_portal_frame",
     "remove_items": [],
@@ -1509,9 +1492,7 @@
   },
   {
     "action": "custom_tab",
-    "tab": [
-      "silkandstardust:nether"
-    ],
+    "tab": ["silkandstardust:nether"],
     "name": "The Nether",
     "icon": "minecraft:obsidian",
     "remove_items": [],
@@ -2498,9 +2479,7 @@
   },
   {
     "action": "custom_tab",
-    "tab": [
-      "silkandstardust:eternalstarlight"
-    ],
+    "tab": ["silkandstardust:eternalstarlight"],
     "name": "The Eternal Starlight",
     "icon": "eternal_starlight:chiseled_voidstone",
     "remove_items": [],
@@ -3802,19 +3781,17 @@
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "minecraft:food_and_drinks"
-    ],
-    "remove_items": [
-      "minecraft:lingering_potion",
-      "minecraft:splash_potion",
-      "minecraft:potion",
-      "fightsfrights:chip"
-    ],
+    "tab": ["minecraft:food_and_drinks"],
+    "remove_items": ["fightsfrights:chip"],
     "add_items": [
       {
-        "item": "aether:white_apple",
-        "after": "additionaladditions:honeyed_apple"
+        "item": "minecraft:potion",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "eternal_starlight:painting",
+            "variant": "eternal_starlight:cold_anomaly"
+          }
+        }
       },
       {
         "item": "crittersandcompanions:acorn",
@@ -3823,6 +3800,10 @@
       {
         "item": "terrarianmight:life_fruit",
         "after": "bountifulfares:coconut_half"
+      },
+      {
+        "item": "aether:white_apple",
+        "after": "additionaladditions:honeyed_apple"
       },
       {
         "item": "deep_aether:blue_squash_slice",
@@ -4011,15 +3992,25 @@
       {
         "item": "minecraft:spider_eye",
         "after": "creaturefeature:vertigo_chunk"
+      },
+      {
+        "item": "minecraft:potion",
+        "after": "bountifulfares:pink_shulker_tiffin"
+      },
+      {
+        "item": "minecraft:lingering_potion",
+        "after": "minecraft:potion"
+      },
+      {
+        "item": "minecraft:splash_potion",
+        "after": "minecraft:lingering_potion"
       }
     ],
     "order": []
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "hexerei:hexerei_tab"
-    ],
+    "tab": ["hexerei:hexerei_tab"],
     "name": "Witchcraft",
     "remove_items": [],
     "add_items": [],
@@ -4027,9 +4018,7 @@
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "starcatcher:starcatcher"
-    ],
+    "tab": ["starcatcher:starcatcher"],
     "name": "Fishing",
     "remove_items": [],
     "add_items": [],
@@ -4037,9 +4026,7 @@
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "ghosts:ghosts_creative_tab"
-    ],
+    "tab": ["ghosts:ghosts_creative_tab"],
     "remove_items": [],
     "add_items": [
       {
@@ -4055,9 +4042,7 @@
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "jewelry:generic"
-    ],
+    "tab": ["jewelry:generic"],
     "name": "Accessories",
     "icon": "jewelry:diamond_ring",
     "remove_items": [
@@ -4793,9 +4778,7 @@
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "minecraft:ingredients"
-    ],
+    "tab": ["minecraft:ingredients"],
     "remove_items": [],
     "add_items": [
       {
@@ -5047,9 +5030,7 @@
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "minecraft:functional_blocks"
-    ],
+    "tab": ["minecraft:functional_blocks"],
     "icon": "minecraft:birch_hanging_sign",
     "remove_items": [
       "minecraft:glow_lichen",
@@ -5347,9 +5328,7 @@
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "minecraft:tools_and_utilities"
-    ],
+    "tab": ["minecraft:tools_and_utilities"],
     "icon": "leafscopperbackport:copper_pickaxe",
     "remove_items": [
       "wardenhorn:warden_horn",
@@ -5823,14 +5802,10 @@
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "betterarcheology:betterarcheology"
-    ],
+    "tab": ["betterarcheology:betterarcheology"],
     "name": "Archeology",
     "icon": "betterarcheology:iron_brush",
-    "remove_items": [
-      "betterarcheology:music_disc_swings"
-    ],
+    "remove_items": ["betterarcheology:music_disc_swings"],
     "add_items": [
       {
         "item": "minecraft:brush",
@@ -6017,9 +5992,7 @@
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "cozyhome:cozyhome"
-    ],
+    "tab": ["cozyhome:cozyhome"],
     "name": "Decoration",
     "remove_items": [],
     "add_items": [
@@ -6740,9 +6713,7 @@
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "minecraft:colored_blocks"
-    ],
+    "tab": ["minecraft:colored_blocks"],
     "icon": "minecraft:purple_wool",
     "remove_items": [
       "quark:white_stool",
@@ -6808,9 +6779,7 @@
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "minecraft:combat"
-    ],
+    "tab": ["minecraft:combat"],
     "icon": "minecraft:stone_sword",
     "remove_items": [
       "friendsandfoes:totem_of_illusion",
@@ -8055,9 +8024,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "archers:power_shot"
-            ]
+            "spell_ids": ["archers:power_shot"]
           },
           "minecraft:rarity": "uncommon",
           "spell_engine:item_model": "archers:item/spell_scroll/archer",
@@ -8070,9 +8037,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "archers:power_shot"
-              ]
+              "spell_ids": ["archers:power_shot"]
             },
             "minecraft:rarity": "uncommon",
             "spell_engine:item_model": "archers:item/spell_scroll/archer",
@@ -8101,9 +8066,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "wizards:frost_elemental"
-            ]
+            "spell_ids": ["wizards:frost_elemental"]
           },
           "minecraft:rarity": "epic",
           "spell_engine:item_model": "wizards:item/spell_scroll/frost",
@@ -8116,9 +8079,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "wizards:frost_elemental"
-              ]
+              "spell_ids": ["wizards:frost_elemental"]
             },
             "minecraft:rarity": "epic",
             "spell_engine:item_model": "wizards:item/spell_scroll/frost",
@@ -8127,9 +8088,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "wizards:frost_blizzard"
-            ]
+            "spell_ids": ["wizards:frost_blizzard"]
           },
           "minecraft:rarity": "epic",
           "spell_engine:item_model": "wizards:item/spell_scroll/frost",
@@ -8142,9 +8101,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "wizards:frost_blizzard"
-              ]
+              "spell_ids": ["wizards:frost_blizzard"]
             },
             "minecraft:rarity": "epic",
             "spell_engine:item_model": "wizards:item/spell_scroll/frost",
@@ -8153,9 +8110,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "wizards:frost_lance"
-            ]
+            "spell_ids": ["wizards:frost_lance"]
           },
           "minecraft:rarity": "rare",
           "spell_engine:item_model": "wizards:item/spell_scroll/frost",
@@ -8168,9 +8123,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "wizards:frost_lance"
-              ]
+              "spell_ids": ["wizards:frost_lance"]
             },
             "minecraft:rarity": "rare",
             "spell_engine:item_model": "wizards:item/spell_scroll/frost",
@@ -8179,9 +8132,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "wizards:frost_shield"
-            ]
+            "spell_ids": ["wizards:frost_shield"]
           },
           "minecraft:rarity": "rare",
           "spell_engine:item_model": "wizards:item/spell_scroll/frost",
@@ -8194,9 +8145,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "wizards:frost_shield"
-              ]
+              "spell_ids": ["wizards:frost_shield"]
             },
             "minecraft:rarity": "rare",
             "spell_engine:item_model": "wizards:item/spell_scroll/frost",
@@ -8205,9 +8154,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "wizards:frost_spikes"
-            ]
+            "spell_ids": ["wizards:frost_spikes"]
           },
           "minecraft:rarity": "uncommon",
           "spell_engine:item_model": "wizards:item/spell_scroll/frost",
@@ -8220,9 +8167,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "wizards:frost_spikes"
-              ]
+              "spell_ids": ["wizards:frost_spikes"]
             },
             "minecraft:rarity": "uncommon",
             "spell_engine:item_model": "wizards:item/spell_scroll/frost",
@@ -8231,9 +8176,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "wizards:frost_nova"
-            ]
+            "spell_ids": ["wizards:frost_nova"]
           },
           "minecraft:rarity": "uncommon",
           "spell_engine:item_model": "wizards:item/spell_scroll/frost",
@@ -8246,9 +8189,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "wizards:frost_nova"
-              ]
+              "spell_ids": ["wizards:frost_nova"]
             },
             "minecraft:rarity": "uncommon",
             "spell_engine:item_model": "wizards:item/spell_scroll/frost",
@@ -8257,9 +8198,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "wizards:fire_hydra"
-            ]
+            "spell_ids": ["wizards:fire_hydra"]
           },
           "minecraft:rarity": "epic",
           "spell_engine:item_model": "wizards:item/spell_scroll/fire",
@@ -8272,9 +8211,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "wizards:fire_hydra"
-              ]
+              "spell_ids": ["wizards:fire_hydra"]
             },
             "minecraft:rarity": "epic",
             "spell_engine:item_model": "wizards:item/spell_scroll/fire",
@@ -8283,9 +8220,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "wizards:fire_wall"
-            ]
+            "spell_ids": ["wizards:fire_wall"]
           },
           "minecraft:rarity": "epic",
           "spell_engine:item_model": "wizards:item/spell_scroll/fire",
@@ -8298,9 +8233,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "wizards:fire_wall"
-              ]
+              "spell_ids": ["wizards:fire_wall"]
             },
             "minecraft:rarity": "epic",
             "spell_engine:item_model": "wizards:item/spell_scroll/fire",
@@ -8309,9 +8242,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "wizards:fire_storm"
-            ]
+            "spell_ids": ["wizards:fire_storm"]
           },
           "minecraft:rarity": "rare",
           "spell_engine:item_model": "wizards:item/spell_scroll/fire",
@@ -8324,9 +8255,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "wizards:fire_storm"
-              ]
+              "spell_ids": ["wizards:fire_storm"]
             },
             "minecraft:rarity": "rare",
             "spell_engine:item_model": "wizards:item/spell_scroll/fire",
@@ -8335,9 +8264,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "wizards:fire_meteor"
-            ]
+            "spell_ids": ["wizards:fire_meteor"]
           },
           "minecraft:rarity": "rare",
           "spell_engine:item_model": "wizards:item/spell_scroll/fire",
@@ -8350,9 +8277,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "wizards:fire_meteor"
-              ]
+              "spell_ids": ["wizards:fire_meteor"]
             },
             "minecraft:rarity": "rare",
             "spell_engine:item_model": "wizards:item/spell_scroll/fire",
@@ -8361,9 +8286,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "wizards:fire_slash"
-            ]
+            "spell_ids": ["wizards:fire_slash"]
           },
           "minecraft:rarity": "uncommon",
           "spell_engine:item_model": "wizards:item/spell_scroll/fire",
@@ -8376,9 +8299,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "wizards:fire_slash"
-              ]
+              "spell_ids": ["wizards:fire_slash"]
             },
             "minecraft:rarity": "uncommon",
             "spell_engine:item_model": "wizards:item/spell_scroll/fire",
@@ -8387,9 +8308,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "wizards:fire_breath"
-            ]
+            "spell_ids": ["wizards:fire_breath"]
           },
           "minecraft:rarity": "uncommon",
           "spell_engine:item_model": "wizards:item/spell_scroll/fire",
@@ -8402,9 +8321,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "wizards:fire_breath"
-              ]
+              "spell_ids": ["wizards:fire_breath"]
             },
             "minecraft:rarity": "uncommon",
             "spell_engine:item_model": "wizards:item/spell_scroll/fire",
@@ -8413,9 +8330,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "wizards:arcane_blink"
-            ]
+            "spell_ids": ["wizards:arcane_blink"]
           },
           "minecraft:rarity": "epic",
           "spell_engine:item_model": "wizards:item/spell_scroll/arcane",
@@ -8428,9 +8343,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "wizards:arcane_blink"
-              ]
+              "spell_ids": ["wizards:arcane_blink"]
             },
             "minecraft:rarity": "epic",
             "spell_engine:item_model": "wizards:item/spell_scroll/arcane",
@@ -8439,9 +8352,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "wizards:arcane_evocation"
-            ]
+            "spell_ids": ["wizards:arcane_evocation"]
           },
           "minecraft:rarity": "epic",
           "spell_engine:item_model": "wizards:item/spell_scroll/arcane",
@@ -8454,9 +8365,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "wizards:arcane_evocation"
-              ]
+              "spell_ids": ["wizards:arcane_evocation"]
             },
             "minecraft:rarity": "epic",
             "spell_engine:item_model": "wizards:item/spell_scroll/arcane",
@@ -8465,9 +8374,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "wizards:arcane_beam"
-            ]
+            "spell_ids": ["wizards:arcane_beam"]
           },
           "minecraft:rarity": "rare",
           "spell_engine:item_model": "wizards:item/spell_scroll/arcane",
@@ -8480,9 +8387,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "wizards:arcane_beam"
-              ]
+              "spell_ids": ["wizards:arcane_beam"]
             },
             "minecraft:rarity": "rare",
             "spell_engine:item_model": "wizards:item/spell_scroll/arcane",
@@ -8491,9 +8396,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "wizards:arcane_barrage"
-            ]
+            "spell_ids": ["wizards:arcane_barrage"]
           },
           "minecraft:rarity": "rare",
           "spell_engine:item_model": "wizards:item/spell_scroll/arcane",
@@ -8506,9 +8409,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "wizards:arcane_barrage"
-              ]
+              "spell_ids": ["wizards:arcane_barrage"]
             },
             "minecraft:rarity": "rare",
             "spell_engine:item_model": "wizards:item/spell_scroll/arcane",
@@ -8517,9 +8418,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "wizards:arcane_missile"
-            ]
+            "spell_ids": ["wizards:arcane_missile"]
           },
           "minecraft:rarity": "uncommon",
           "spell_engine:item_model": "wizards:item/spell_scroll/arcane",
@@ -8532,9 +8431,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "wizards:arcane_missile"
-              ]
+              "spell_ids": ["wizards:arcane_missile"]
             },
             "minecraft:rarity": "uncommon",
             "spell_engine:item_model": "wizards:item/spell_scroll/arcane",
@@ -8543,9 +8440,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "wizards:arcane_explosion"
-            ]
+            "spell_ids": ["wizards:arcane_explosion"]
           },
           "minecraft:rarity": "uncommon",
           "spell_engine:item_model": "wizards:item/spell_scroll/arcane",
@@ -8558,9 +8453,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "wizards:arcane_explosion"
-              ]
+              "spell_ids": ["wizards:arcane_explosion"]
             },
             "minecraft:rarity": "uncommon",
             "spell_engine:item_model": "wizards:item/spell_scroll/arcane",
@@ -8569,9 +8462,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "rogues:last_stand"
-            ]
+            "spell_ids": ["rogues:last_stand"]
           },
           "minecraft:rarity": "epic",
           "spell_engine:item_model": "rogues:item/spell_scroll/warrior",
@@ -8584,9 +8475,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "rogues:last_stand"
-              ]
+              "spell_ids": ["rogues:last_stand"]
             },
             "minecraft:rarity": "epic",
             "spell_engine:item_model": "rogues:item/spell_scroll/warrior",
@@ -8595,9 +8484,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "rogues:mortal_strike"
-            ]
+            "spell_ids": ["rogues:mortal_strike"]
           },
           "minecraft:rarity": "epic",
           "spell_engine:item_model": "rogues:item/spell_scroll/warrior",
@@ -8610,9 +8497,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "rogues:mortal_strike"
-              ]
+              "spell_ids": ["rogues:mortal_strike"]
             },
             "minecraft:rarity": "epic",
             "spell_engine:item_model": "rogues:item/spell_scroll/warrior",
@@ -8621,9 +8506,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "rogues:shout"
-            ]
+            "spell_ids": ["rogues:shout"]
           },
           "minecraft:rarity": "rare",
           "spell_engine:item_model": "rogues:item/spell_scroll/warrior",
@@ -8636,9 +8519,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "rogues:shout"
-              ]
+              "spell_ids": ["rogues:shout"]
             },
             "minecraft:rarity": "rare",
             "spell_engine:item_model": "rogues:item/spell_scroll/warrior",
@@ -8647,9 +8528,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "rogues:charge"
-            ]
+            "spell_ids": ["rogues:charge"]
           },
           "minecraft:rarity": "rare",
           "spell_engine:item_model": "rogues:item/spell_scroll/warrior",
@@ -8662,9 +8541,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "rogues:charge"
-              ]
+              "spell_ids": ["rogues:charge"]
             },
             "minecraft:rarity": "rare",
             "spell_engine:item_model": "rogues:item/spell_scroll/warrior",
@@ -8673,9 +8550,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "rogues:throw_net"
-            ]
+            "spell_ids": ["rogues:throw_net"]
           },
           "minecraft:rarity": "uncommon",
           "spell_engine:item_model": "rogues:item/spell_scroll/warrior",
@@ -8688,9 +8563,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "rogues:throw_net"
-              ]
+              "spell_ids": ["rogues:throw_net"]
             },
             "minecraft:rarity": "uncommon",
             "spell_engine:item_model": "rogues:item/spell_scroll/warrior",
@@ -8699,9 +8572,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "rogues:throw"
-            ]
+            "spell_ids": ["rogues:throw"]
           },
           "minecraft:rarity": "uncommon",
           "spell_engine:item_model": "rogues:item/spell_scroll/warrior",
@@ -8714,9 +8585,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "rogues:throw"
-              ]
+              "spell_ids": ["rogues:throw"]
             },
             "minecraft:rarity": "uncommon",
             "spell_engine:item_model": "rogues:item/spell_scroll/warrior",
@@ -8725,9 +8594,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "rogues:vanish"
-            ]
+            "spell_ids": ["rogues:vanish"]
           },
           "minecraft:rarity": "epic",
           "spell_engine:item_model": "rogues:item/spell_scroll/rogue",
@@ -8740,9 +8607,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "rogues:vanish"
-              ]
+              "spell_ids": ["rogues:vanish"]
             },
             "minecraft:rarity": "epic",
             "spell_engine:item_model": "rogues:item/spell_scroll/rogue",
@@ -8751,9 +8616,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "rogues:mutilate"
-            ]
+            "spell_ids": ["rogues:mutilate"]
           },
           "minecraft:rarity": "epic",
           "spell_engine:item_model": "rogues:item/spell_scroll/rogue",
@@ -8766,9 +8629,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "rogues:mutilate"
-              ]
+              "spell_ids": ["rogues:mutilate"]
             },
             "minecraft:rarity": "epic",
             "spell_engine:item_model": "rogues:item/spell_scroll/rogue",
@@ -8777,9 +8638,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "rogues:shadow_step"
-            ]
+            "spell_ids": ["rogues:shadow_step"]
           },
           "minecraft:rarity": "rare",
           "spell_engine:item_model": "rogues:item/spell_scroll/rogue",
@@ -8792,9 +8651,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "rogues:shadow_step"
-              ]
+              "spell_ids": ["rogues:shadow_step"]
             },
             "minecraft:rarity": "rare",
             "spell_engine:item_model": "rogues:item/spell_scroll/rogue",
@@ -8803,9 +8660,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "rogues:bear_trap"
-            ]
+            "spell_ids": ["rogues:bear_trap"]
           },
           "minecraft:rarity": "rare",
           "spell_engine:item_model": "rogues:item/spell_scroll/rogue",
@@ -8818,9 +8673,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "rogues:bear_trap"
-              ]
+              "spell_ids": ["rogues:bear_trap"]
             },
             "minecraft:rarity": "rare",
             "spell_engine:item_model": "rogues:item/spell_scroll/rogue",
@@ -8829,9 +8682,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "rogues:shock_powder"
-            ]
+            "spell_ids": ["rogues:shock_powder"]
           },
           "minecraft:rarity": "uncommon",
           "spell_engine:item_model": "rogues:item/spell_scroll/rogue",
@@ -8844,9 +8695,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "rogues:shock_powder"
-              ]
+              "spell_ids": ["rogues:shock_powder"]
             },
             "minecraft:rarity": "uncommon",
             "spell_engine:item_model": "rogues:item/spell_scroll/rogue",
@@ -8855,9 +8704,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "rogues:slice_and_dice"
-            ]
+            "spell_ids": ["rogues:slice_and_dice"]
           },
           "minecraft:rarity": "uncommon",
           "spell_engine:item_model": "rogues:item/spell_scroll/rogue",
@@ -8870,9 +8717,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "rogues:slice_and_dice"
-              ]
+              "spell_ids": ["rogues:slice_and_dice"]
             },
             "minecraft:rarity": "uncommon",
             "spell_engine:item_model": "rogues:item/spell_scroll/rogue",
@@ -8881,9 +8726,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "paladins:lightwell"
-            ]
+            "spell_ids": ["paladins:lightwell"]
           },
           "minecraft:rarity": "epic",
           "spell_engine:item_model": "paladins:item/spell_scroll/priest",
@@ -8896,9 +8739,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "paladins:lightwell"
-              ]
+              "spell_ids": ["paladins:lightwell"]
             },
             "minecraft:rarity": "epic",
             "spell_engine:item_model": "paladins:item/spell_scroll/priest",
@@ -8907,9 +8748,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "paladins:barrier"
-            ]
+            "spell_ids": ["paladins:barrier"]
           },
           "minecraft:rarity": "epic",
           "spell_engine:item_model": "paladins:item/spell_scroll/priest",
@@ -8922,9 +8761,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "paladins:barrier"
-              ]
+              "spell_ids": ["paladins:barrier"]
             },
             "minecraft:rarity": "epic",
             "spell_engine:item_model": "paladins:item/spell_scroll/priest",
@@ -8933,9 +8770,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "paladins:circle_of_healing"
-            ]
+            "spell_ids": ["paladins:circle_of_healing"]
           },
           "minecraft:rarity": "rare",
           "spell_engine:item_model": "paladins:item/spell_scroll/priest",
@@ -8948,9 +8783,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "paladins:circle_of_healing"
-              ]
+              "spell_ids": ["paladins:circle_of_healing"]
             },
             "minecraft:rarity": "rare",
             "spell_engine:item_model": "paladins:item/spell_scroll/priest",
@@ -8959,9 +8792,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "paladins:penance"
-            ]
+            "spell_ids": ["paladins:penance"]
           },
           "minecraft:rarity": "rare",
           "spell_engine:item_model": "paladins:item/spell_scroll/priest",
@@ -8974,9 +8805,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "paladins:penance"
-              ]
+              "spell_ids": ["paladins:penance"]
             },
             "minecraft:rarity": "rare",
             "spell_engine:item_model": "paladins:item/spell_scroll/priest",
@@ -8985,9 +8814,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "paladins:holy_beam"
-            ]
+            "spell_ids": ["paladins:holy_beam"]
           },
           "minecraft:rarity": "uncommon",
           "spell_engine:item_model": "paladins:item/spell_scroll/priest",
@@ -9000,9 +8827,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "paladins:holy_beam"
-              ]
+              "spell_ids": ["paladins:holy_beam"]
             },
             "minecraft:rarity": "uncommon",
             "spell_engine:item_model": "paladins:item/spell_scroll/priest",
@@ -9011,9 +8836,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "paladins:levitate"
-            ]
+            "spell_ids": ["paladins:levitate"]
           },
           "minecraft:rarity": "uncommon",
           "spell_engine:item_model": "paladins:item/spell_scroll/priest",
@@ -9026,9 +8849,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "paladins:levitate"
-              ]
+              "spell_ids": ["paladins:levitate"]
             },
             "minecraft:rarity": "uncommon",
             "spell_engine:item_model": "paladins:item/spell_scroll/priest",
@@ -9037,9 +8858,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "paladins:immolation"
-            ]
+            "spell_ids": ["paladins:immolation"]
           },
           "minecraft:rarity": "epic",
           "spell_engine:item_model": "paladins:item/spell_scroll/paladin",
@@ -9052,9 +8871,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "paladins:immolation"
-              ]
+              "spell_ids": ["paladins:immolation"]
             },
             "minecraft:rarity": "epic",
             "spell_engine:item_model": "paladins:item/spell_scroll/paladin",
@@ -9063,9 +8880,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "paladins:battle_banner"
-            ]
+            "spell_ids": ["paladins:battle_banner"]
           },
           "minecraft:rarity": "epic",
           "spell_engine:item_model": "paladins:item/spell_scroll/paladin",
@@ -9078,9 +8893,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "paladins:battle_banner"
-              ]
+              "spell_ids": ["paladins:battle_banner"]
             },
             "minecraft:rarity": "epic",
             "spell_engine:item_model": "paladins:item/spell_scroll/paladin",
@@ -9089,9 +8902,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "paladins:judgement"
-            ]
+            "spell_ids": ["paladins:judgement"]
           },
           "minecraft:rarity": "rare",
           "spell_engine:item_model": "paladins:item/spell_scroll/paladin",
@@ -9104,9 +8915,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "paladins:judgement"
-              ]
+              "spell_ids": ["paladins:judgement"]
             },
             "minecraft:rarity": "rare",
             "spell_engine:item_model": "paladins:item/spell_scroll/paladin",
@@ -9115,9 +8924,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "paladins:divine_protection"
-            ]
+            "spell_ids": ["paladins:divine_protection"]
           },
           "minecraft:rarity": "rare",
           "spell_engine:item_model": "paladins:item/spell_scroll/paladin",
@@ -9130,9 +8937,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "paladins:divine_protection"
-              ]
+              "spell_ids": ["paladins:divine_protection"]
             },
             "minecraft:rarity": "rare",
             "spell_engine:item_model": "paladins:item/spell_scroll/paladin",
@@ -9141,9 +8946,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "paladins:blessed_strikes"
-            ]
+            "spell_ids": ["paladins:blessed_strikes"]
           },
           "minecraft:rarity": "uncommon",
           "spell_engine:item_model": "paladins:item/spell_scroll/paladin",
@@ -9156,9 +8959,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "paladins:blessed_strikes"
-              ]
+              "spell_ids": ["paladins:blessed_strikes"]
             },
             "minecraft:rarity": "uncommon",
             "spell_engine:item_model": "paladins:item/spell_scroll/paladin",
@@ -9167,9 +8968,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "paladins:flash_heal"
-            ]
+            "spell_ids": ["paladins:flash_heal"]
           },
           "minecraft:rarity": "uncommon",
           "spell_engine:item_model": "paladins:item/spell_scroll/paladin",
@@ -9182,9 +8981,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "paladins:flash_heal"
-              ]
+              "spell_ids": ["paladins:flash_heal"]
             },
             "minecraft:rarity": "uncommon",
             "spell_engine:item_model": "paladins:item/spell_scroll/paladin",
@@ -9193,9 +8990,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "archers:magic_arrow"
-            ]
+            "spell_ids": ["archers:magic_arrow"]
           },
           "minecraft:rarity": "epic",
           "spell_engine:item_model": "archers:item/spell_scroll/archer",
@@ -9208,9 +9003,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "archers:magic_arrow"
-              ]
+              "spell_ids": ["archers:magic_arrow"]
             },
             "minecraft:rarity": "epic",
             "spell_engine:item_model": "archers:item/spell_scroll/archer",
@@ -9219,9 +9012,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "archers:rain_of_arrows"
-            ]
+            "spell_ids": ["archers:rain_of_arrows"]
           },
           "minecraft:rarity": "epic",
           "spell_engine:item_model": "archers:item/spell_scroll/archer",
@@ -9234,9 +9025,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "archers:rain_of_arrows"
-              ]
+              "spell_ids": ["archers:rain_of_arrows"]
             },
             "minecraft:rarity": "epic",
             "spell_engine:item_model": "archers:item/spell_scroll/archer",
@@ -9245,9 +9034,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "archers:spirit_wolf"
-            ]
+            "spell_ids": ["archers:spirit_wolf"]
           },
           "minecraft:rarity": "rare",
           "spell_engine:item_model": "archers:item/spell_scroll/archer",
@@ -9260,9 +9047,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "archers:spirit_wolf"
-              ]
+              "spell_ids": ["archers:spirit_wolf"]
             },
             "minecraft:rarity": "rare",
             "spell_engine:item_model": "archers:item/spell_scroll/archer",
@@ -9271,9 +9056,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "archers:barrage"
-            ]
+            "spell_ids": ["archers:barrage"]
           },
           "minecraft:rarity": "rare",
           "spell_engine:item_model": "archers:item/spell_scroll/archer",
@@ -9286,9 +9069,7 @@
           "item": "spell_engine:spell_scroll",
           "components": {
             "spell_engine:spell_container": {
-              "spell_ids": [
-                "archers:barrage"
-              ]
+              "spell_ids": ["archers:barrage"]
             },
             "minecraft:rarity": "rare",
             "spell_engine:item_model": "archers:item/spell_scroll/archer",
@@ -9297,9 +9078,7 @@
         },
         "components": {
           "spell_engine:spell_container": {
-            "spell_ids": [
-              "archers:entangling_roots"
-            ]
+            "spell_ids": ["archers:entangling_roots"]
           },
           "minecraft:rarity": "uncommon",
           "spell_engine:item_model": "archers:item/spell_scroll/archer",
@@ -9311,9 +9090,7 @@
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "plushie_buddies:plushie_tab"
-    ],
+    "tab": ["plushie_buddies:plushie_tab"],
     "name": "Collectables",
     "icon": "plushie_buddies:plushie_mooshroom",
     "remove_items": [],
@@ -9619,12 +9396,8 @@
         "after": "eternal_starlight:music_disc_fake_light"
       },
       {
-        "item": "eternal_starlight:music_disc_atlantis",
-        "after": "eternal_starlight:music_disc_tranquility_ii"
-      },
-      {
         "item": "eternal_starlight:music_disc_sacred_desert",
-        "after": "eternal_starlight:music_disc_atlantis"
+        "after": "eternal_starlight:music_disc_tranquility_ii"
       },
       {
         "item": "eternal_starlight:music_disc_spirit",
@@ -9691,9 +9464,7 @@
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "cropcritters:cropcritters_tab"
-    ],
+    "tab": ["cropcritters:cropcritters_tab"],
     "name": "Farming",
     "icon": "cropcritters:seed_ball",
     "remove_items": [],
@@ -10135,9 +9906,7 @@
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "minecraft:redstone_blocks"
-    ],
+    "tab": ["minecraft:redstone_blocks"],
     "remove_items": [
       "minecraft:white_wool",
       "minecraft:oak_chest_boat",
@@ -10248,9 +10017,7 @@
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "aquamirae:aquamirae"
-    ],
+    "tab": ["aquamirae:aquamirae"],
     "remove_items": [
       "aquamirae:music_disc_forsaken_drownage",
       "aquamirae:music_disc_horizon"
@@ -10260,9 +10027,7 @@
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "minecraft:building_blocks"
-    ],
+    "tab": ["minecraft:building_blocks"],
     "icon": "minecraft:tuff_bricks",
     "remove_items": [
       "netherman:samsonit_bricks_wall",
@@ -10513,9 +10278,7 @@
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "selling_bin:selling_bin"
-    ],
+    "tab": ["selling_bin:selling_bin"],
     "name": "Sellable Items",
     "remove_items": [],
     "add_items": [],
@@ -10523,9 +10286,7 @@
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "minecraft:spawn_eggs"
-    ],
+    "tab": ["minecraft:spawn_eggs"],
     "remove_items": [
       "friendsandfoes:wildfire_spawn_egg",
       "friendsandfoes:tuff_golem_spawn_egg",
@@ -10829,23 +10590,15 @@
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "companions:companions_tab"
-    ],
-    "remove_items": [
-      "companions:saint_klimt_music_disc"
-    ],
+    "tab": ["companions:companions_tab"],
+    "remove_items": ["companions:saint_klimt_music_disc"],
     "add_items": [],
     "order": []
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "minecraft:natural_blocks"
-    ],
-    "remove_items": [
-      "friendsandfoes:buttercup"
-    ],
+    "tab": ["minecraft:natural_blocks"],
+    "remove_items": ["friendsandfoes:buttercup"],
     "add_items": [
       {
         "item": "crittersandcompanions:silk_cocoon",
@@ -11316,9 +11069,7 @@
   },
   {
     "action": "modify_tab",
-    "tab": [
-      "luminous_butterflies:luminous_butterflies"
-    ],
+    "tab": ["luminous_butterflies:luminous_butterflies"],
     "remove_items": [],
     "add_items": [
       {

@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:potions",
+  "type": "remi:group",
+  "contents": ["minecraft:potion"],
+  "priority": 2,
+  "name": "Potions"
+}

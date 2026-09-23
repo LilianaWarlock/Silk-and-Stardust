@@ -1,0 +1,7 @@
+{
+  "id": "silkandstardust:lingering_potions",
+  "type": "remi:group",
+  "contents": ["minecraft:lingering_potion"],
+  "priority": 2,
+  "name": "Lingering Potions"
+}
