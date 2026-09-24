@@ -36,7 +36,7 @@ chatLinksPrompt:true
 discrete_mouse_scroll:false
 invertYMouse:false
 realmsNotifications:false
-showSubtitles:true
+showSubtitles:false
 directionalAudio:false
 touchscreen:false
 bobView:true
@@ -279,11 +279,11 @@ key_quark.keybind.narrator_full_readout:key.keyboard.unknown
 key_quark.keybind.variant_selector:key.keyboard.unknown
 key_key.wan_ancient_beasts.special_ability:key.keyboard.x
 key_key.entityculling.toggle:key.keyboard.unknown
-soundCategory_master:0.4061810154525387
-soundCategory_music:0.0
+soundCategory_master:0.5
+soundCategory_music:0.5
 soundCategory_record:1.0
 soundCategory_weather:1.0
-soundCategory_block:0.5023474178403754
+soundCategory_block:0.5
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0
 soundCategory_player:1.0
