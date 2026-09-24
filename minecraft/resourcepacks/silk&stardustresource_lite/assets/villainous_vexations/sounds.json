@@ -1,0 +1,34 @@
+{
+  "entity.player.fart": {
+    "sounds": ["artifacts:fart1", "artifacts:fart2"],
+    "subtitle": "artifacts.subtitles.item.whoopee_cushion.fart"
+  },
+  "entity.player.paranoia": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "ambient.cave"
+      },
+      {
+        "type": "event",
+        "name": "block.stone.place"
+      },
+      {
+        "type": "event",
+        "name": "block.gravel.place"
+      },
+      {
+        "type": "event",
+        "name": "entity.creeper.primed"
+      },
+      {
+        "type": "event",
+        "name": "entity.player.splash"
+      },
+      {
+        "type": "event",
+        "name": "entity.player.hurt"
+      }
+    ]
+  }
+}

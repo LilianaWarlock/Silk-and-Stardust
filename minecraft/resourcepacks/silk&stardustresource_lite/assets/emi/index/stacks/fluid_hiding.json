@@ -1,0 +1,17 @@
+{
+  "removed": [
+    "fluid:deep_aether:poison_fluid",
+    "fluid:eternal_starlight:ether",
+    "fluid:hexerei:blood_fluid",
+    "fluid:hexerei:potion_fluid",
+    "fluid:hexerei:quicksilver_fluid",
+    "fluid:hexerei:tallow_fluid",
+    "fluid:minecraft:empty",
+    "fluid:minecraft:lava",
+    "fluid:minecraft:milk",
+    "fluid:minecraft:water",
+    "fluid:netherexp:ectoplasm",
+    "fluid:nethers_exoticism:jaboticaba_juice",
+    "fluid:hexerei:potion"
+  ]
+}

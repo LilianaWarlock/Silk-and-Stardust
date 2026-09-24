@@ -1,0 +1,57 @@
+{
+  "block.quark.water_pink_petals": "Floating Pink Petals",
+
+  "item.quark.abacus.description": "Use this on a block and it'll count the distance between the block you're looking at and the one you clicked, up to 48 blocks.",
+  "item.quark.ambience_discs.description": "Ambience Discs can be gotten when a Skeleton kills a Spider. Unlike Music Discs, these loop infinitely.",
+  "item.quark.ancient_fruit.description": "Falls from Ashen Trees when they're chopped down. Gives you a small amount of XP when eaten.",
+  "item.quark.blackstone_furnace.description": "If the block under this furnace produces Soul Fire when lit, the furnace will too.",
+
+  "item.quark.blue_blossom_sapling.description": "Strange thing...",
+
+  "item.quark.chorus_weeds.description": "Uncommon spawns in the barrens of the outer end. Will randomly teleport and reproduce over time or if forced via trampling, bone meal, or adjacent water. May also spawn Endermites when trampled.",
+  "item.quark.chute.description": "Drops any items fed into it by a Hopper/Dropper into the world directly below.",
+
+  "item.quark.diamond_heart.description": "The core of a Stoneling. Using the Heart on raw stone will construct a new body out of it, and make it friendly to you.",
+
+  "item.quark.gold_button.description": "Emits a very short, 2 redstone tick, pulse.",
+  "item.quark.golden_apple_crate.description": "Very valuable. Can be used as a Beacon base.",
+  "item.quark.grate.description": "Animals that aren't leashed will not walk on this, and items will fall through.",
+
+  "item.quark.iron_button.description": "Emits a very long, 5 second, pulse.",
+  "item.quark.iron_rod.description": "Will break any blocks in front of it when pushed with a piston.",
+
+  "item.quark.lavender_blossom_sapling.description": "Can be found in temperate rainforests.",
+
+  "item.quark.music_disc_endermosh.description": "Can be found in End City chests.",
+  "item.quark.myalite.description": "Can be found in big clusters in the outer end highlands. It reacts to an invisible field in the world, changing color depending on where it's placed with the field's intensity.",
+  "item.quark.orange_blossom_sapling.description": "Strange thing...",
+
+  "item.quark.pathfinders_quill.description": "Can be used to find the biome inscribed in it. Trade for it from Cartographers or Wandering Traders.",
+
+  "item.quark.permafrost.description": "Can be found towards the top of Frozen Peaks.",
+
+  "item.quark.pipe.description": "Moves items put in with a Hopper/Dropper. Items going into a full container will turn back. Disableable with a Redstone signal, and readable with a Comparator. Pipes with over 16 items will break.",
+
+  "item.quark.red_blossom_sapling.description": "Can be found in autumnal areas.",
+  "item.quark.redstone_randomizer.description": "Randomly repeats the given signal either left or right.",
+
+  "item.quark.seed_pouch.description": "Can hold a bunch of any one seed or sapling, simply right click them in and out. The pouch can also automatically pick up seeds if you're holding it, or place 3x3 areas by using it on a block.",
+  "item.quark.sign_editing.description": "Signs can be edited by right clicking on them.",
+
+  "item.quark.slime_in_a_bucket.description": "Starts jumping in it's bucket when you're inside a slime chunk.",
+
+  "item.quark.soul_bead.description": "Drops from Wraiths in Soul Sand Valleys. Will fly towards the nearest Nether Fortress when used.",
+  "item.quark.soul_fire_candles.description": "When placed on any block that can produce Soul Fire when lit, it'll do so as well.",
+  "item.quark.stools.description": "Can be sat on, and stay sat on when moved by a piston. Placing a block on top will change the stool to a table.",
+  "item.quark.sturdy_stone.description": "Can not be moved by pistons.",
+  "item.quark.tiny_potato.description": "It believes in you!",
+  "item.quark.torch_arrow.description": "Will try to place a torch wherever it lands.",
+  "item.quark.trowel.description": "Randomly places a block from your hotbar when used. You can have the same block in multiple slots to increase its odds.",
+  "item.quark.yellow_blossom_sapling.description": "Strange thing...",
+
+  "quark.jei.hint.blue_blossom_sapling": "Strange thing...",
+  "quark.jei.hint.lavender_blossom_sapling": "Can be found in temperate rainforests.",
+  "quark.jei.hint.orange_blossom_sapling": "Strange thing...",
+  "quark.jei.hint.red_blossom_sapling": "Can be found in autumnal areas.",
+  "quark.jei.hint.yellow_blossom_sapling": "Strange thing..."
+}
