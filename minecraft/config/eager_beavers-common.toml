@@ -1,0 +1,12 @@
+#Weight for beaver spawning (higher = more common)
+# Default: 10
+# Range: 1 ~ 100
+beaverSpawnWeight = 6
+#Minimum group size for beaver spawns
+# Default: 1
+# Range: 1 ~ 10
+beaverMinGroupSize = 1
+#Maximum group size for beaver spawns
+# Default: 3
+# Range: 1 ~ 10
+beaverMaxGroupSize = 3
