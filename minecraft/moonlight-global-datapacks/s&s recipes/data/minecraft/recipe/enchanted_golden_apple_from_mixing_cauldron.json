@@ -1,0 +1,44 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "fluid": {
+    "amount": 750,
+    "components": {
+      "hexerei:potion_bottle_type": {
+        "Bottle": "REGULAR"
+      },
+      "minecraft:potion_contents": {
+        "potion": "minecraft:strong_regeneration"
+      }
+    },
+    "id": "hexerei:potion"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:gold_block"
+    }
+  ],
+  "output": {
+    "id": "minecraft:enchanted_golden_apple"
+  }
+}
