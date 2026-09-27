@@ -224,6 +224,8 @@
 		enableStairRecipeOverride = false
 		#Add compact 2x2 stair recipes for ALL stair types (3 blocks in corner = 4 stairs). Works with any mod!
 		enableCompactStairRecipe = false
+		#Replace the Enchanting Table recipe diamonds with diamond blocks.
+		enableEnchantingTableDiamondBlocksRecipe = false
 
 	#Fuel Tweaks
 	[recipes.fuelTweaks]
@@ -553,12 +555,12 @@
 	#Maximum total ores at Cascading I, including the first ore.
 	# Default: 8
 	# Range: 1 ~ 64
-	levelOneMaxOres = 3
+	levelOneMaxOres = 2
 	#Maximum total ores at Cascading II, including the first ore.
 	# Default: 16
 	# Range: 1 ~ 64
-	levelTwoMaxOres = 9
+	levelTwoMaxOres = 4
 	#Maximum total ores at Cascading III, including the first ore.
 	# Default: 24
 	# Range: 1 ~ 64
-	levelThreeMaxOres = 6
+	levelThreeMaxOres = 8
