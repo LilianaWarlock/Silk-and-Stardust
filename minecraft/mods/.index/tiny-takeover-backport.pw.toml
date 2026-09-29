@@ -1,20 +1,20 @@
-filename = 'tiny_takeover_backport-neoforge-1.21.1-1.3.2.jar'
+filename = 'tiny_takeover_backport-neoforge-1.21.1-1.5.0.jar'
 name = 'Tiny Takeover Backport'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.3.2-1.21.1-neoforge'
+x-prismlauncher-version-number = '1.5.0-1.21.1-neoforge'
 
 [download]
-hash = 'f8a5da66c55f88f7d9328ff05e82febe79d1b279e2cc571d2e8fa173f7c6388a13f03ea17c50b0650d21d3ccfa286a9888aa18e540abb87fa7002d1f1c5c9f61'
+hash = '86b930023710e2bcf9368d2312dff7da653bb40a2fc43bf6b747f93dd1cb75261f403bce223b9e943aa09978e0daa928fdb636ed62a7a0139ea0eca1019af6ed'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/F4TmfqsY/versions/CPRcW1Sj/tiny_takeover_backport-neoforge-1.21.1-1.3.2.jar'
+url = 'https://cdn.modrinth.com/data/F4TmfqsY/versions/pga6F1GA/tiny_takeover_backport-neoforge-1.21.1-1.5.0.jar'
 
 [update.modrinth]
 mod-id = 'F4TmfqsY'
-version = 'CPRcW1Sj'
+version = 'pga6F1GA'
 
 [[x-prismlauncher-dependencies]]
 addonId = '1eAoo2KR'
