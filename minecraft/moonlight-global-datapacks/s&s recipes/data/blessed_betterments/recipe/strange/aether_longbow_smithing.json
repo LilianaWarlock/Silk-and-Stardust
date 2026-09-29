@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "aether_treasure_reforging:valkyrum_ingot"
+  },
+  "base": {
+    "item": "archers:netherite_longbow"
+  },
+  "result": {
+    "count": 1,
+    "id": "archers:aether_longbow"
+  },
+  "template": {
+    "item": "kubejs:rpg_aether_upgrade_smithing_template"
+  }
+}

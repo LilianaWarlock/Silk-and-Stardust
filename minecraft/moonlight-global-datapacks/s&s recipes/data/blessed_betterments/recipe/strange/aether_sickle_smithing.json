@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "aether_treasure_reforging:valkyrum_ingot"
+  },
+  "base": {
+    "item": "rogues:netherite_sickle"
+  },
+  "result": {
+    "count": 1,
+    "id": "rogues:aether_sickle"
+  },
+  "template": {
+    "item": "kubejs:rpg_aether_upgrade_smithing_template"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["ABA", "CDC", "ACA"],
+  "key": {
+    "A": {
+      "item": "aether:ambrosium_block"
+    },
+    "B": {
+      "item": "kubejs:rpg_aether_upgrade_smithing_template"
+    },
+    "C": {
+      "item": "aether:victory_medal"
+    },
+    "D": {
+      "item": "aether_treasure_reforging:valkyrum_ingot"
+    }
+  },
+  "result": {
+    "id": "kubejs:rpg_aether_upgrade_smithing_template",
+    "count": 2
+  }
+}
