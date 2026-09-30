@@ -1,4 +1,10 @@
 {
+  "behavior": {
+    "class_affiliation_enabled": true,
+    "class_affiliation_extra_weight": 1.5,
+    "class_affiliation_weight_operation": "MULTIPLY",
+    "class_affiliation_include_team": true
+  },
   "injectors": {
     "aether:chests/dungeon/gold/gold_dungeon_reward": {
       "rolls": 2.0,
@@ -3083,8 +3089,10 @@
   },
   "fallback": {
     "rolls_multiplier": 1.0,
+    "max_rolls": 1.0,
     "tables": "~:chests/",
     "blacklist": [],
+    "skip_tables_with_rpg_loot": true,
     "entries": [
       {
         "reference": "#rpg_series:loot_reference/golden_weapons",

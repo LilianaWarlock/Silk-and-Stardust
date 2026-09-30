@@ -1,18 +1,18 @@
-filename = 'LocatorBar-neoforge-1.2.2+1.21.1.jar'
+filename = 'LocatorBar-neoforge-1.2.4+1.21.1.jar'
 name = 'Locator Bar'
 side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.2.2+1.21.1-neoforge'
+x-prismlauncher-version-number = '1.2.4+1.21.1-neoforge'
 
 [download]
-hash = '28cb6cacb16c3217ce93ab0d548fcdddefe878cefc9eff6c165f2b3d392b3af87d2c2ba80f4c4b70c92517fb78b6aa3361bc96b2db8c4f4f188ddf2792d4a691'
+hash = 'e8230a0948cd351a34a60177453d8ca714d78c7b52a8771434e6190e63806c67ae935a5e75049cf9db1f405d4112d4b433d1b5b0562ab0d2a0ce09809caac8d8'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/BD7N7OcY/versions/Yi2Vr03m/LocatorBar-neoforge-1.2.2%2B1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/BD7N7OcY/versions/T99P6QRt/LocatorBar-neoforge-1.2.4%2B1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'BD7N7OcY'
-version = 'Yi2Vr03m'
+version = 'T99P6QRt'
