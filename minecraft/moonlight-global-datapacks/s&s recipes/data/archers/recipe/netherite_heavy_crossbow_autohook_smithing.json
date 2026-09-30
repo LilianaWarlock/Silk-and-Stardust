@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:string"
+  },
+  "base": {
+    "item": "archers:netherite_heavy_crossbow"
+  },
+  "result": {
+    "components": { "archers:afh": true },
+    "count": 1,
+    "id": "archers:netherite_heavy_crossbow"
+  },
+  "template": {
+    "item": "archers:auto_fire_hook"
+  }
+}

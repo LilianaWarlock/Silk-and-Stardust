@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:string"
+  },
+  "base": {
+    "item": "archers:netherite_shortbow"
+  },
+  "result": {
+    "components": { "archers:afh": true },
+    "count": 1,
+    "id": "archers:netherite_shortbow"
+  },
+  "template": {
+    "item": "archers:auto_fire_hook"
+  }
+}

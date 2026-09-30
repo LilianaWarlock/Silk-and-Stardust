@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing_transform",
+  "category": "equipment",
+  "addition": {
+    "item": "minecraft:string"
+  },
+  "base": {
+    "item": "archers:heavy_crossbow"
+  },
+  "template": {
+    "item": "archers:auto_fire_hook"
+  },
+  "result": {
+    "components": { "archers:afh": true },
+    "count": 1,
+    "id": "archers:heavy_crossbow"
+  }
+}

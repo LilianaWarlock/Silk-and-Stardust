@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:smithing_transform",
+  "category": "equipment",
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": ["betterend"]
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "betterend"
+    }
+  ],
+  "addition": {
+    "item": "minecraft:string"
+  },
+  "base": {
+    "item": "archers:crystal_longbow"
+  },
+  "template": {
+    "item": "archers:auto_fire_hook"
+  },
+  "result": {
+    "components": { "archers:afh": true },
+    "id": "archers:crystal_longbow"
+  },
+  "show_notification": true
+}
