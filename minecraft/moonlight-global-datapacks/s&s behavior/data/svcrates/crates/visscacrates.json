@@ -1,0 +1,102 @@
+{
+  "rotten": [
+    "svcrates:crates/rotten_crate",
+    ["*"],
+    ["wooden_crate_side", "wooden_crate_top"],
+    13,
+    ["minecraft:overworld"]
+  ],
+  "copper": [
+    "svcrates:crates/copper_crate",
+    ["*"],
+    ["copper_crate", "copper_crate"],
+    7,
+    ["minecraft:overworld"]
+  ],
+  "iron": [
+    "svcrates:crates/iron_crate",
+    ["*"],
+    ["iron_crate_side", "iron_crate_top"],
+    3,
+    ["minecraft:overworld"]
+  ],
+  "diamond": [
+    "svcrates:crates/diamond_crate",
+    ["*"],
+    ["diamond_crate", "diamond_crate"],
+    1,
+    ["minecraft:overworld"]
+  ],
+  "frozen": [
+    "svcrates:crates/frozen_crate",
+    [
+      "#minecraft:spawns_snow_foxes",
+      "minecraft:frozen_river",
+      "#c:is_frozen",
+      "#forge:is_frozen",
+      "minecraft:frozen_peaks",
+      "minecraft:frozen_ocean",
+      "minecraft:deep_frozen_ocean"
+    ],
+    ["frozen_crate", "frozen_crate"],
+    5,
+    ["*"]
+  ],
+  "desert": [
+    "svcrates:crates/desert_crate",
+    ["#c:is_desert", "#forge:is_desert"],
+    ["desert_crate_side", "desert_crate_top"],
+    5,
+    ["*"]
+  ],
+  "swamp": [
+    "svcrates:crates/swamp_crate",
+    ["#c:is_swamp"],
+    ["jungle_crate", "jungle_crate"],
+    5,
+    ["*"]
+  ],
+  "ocean": [
+    "svcrates:crates/ocean_crate",
+    ["#minecraft:is_ocean", "#c:is_ocean", "#forge:is_ocean"],
+    ["ocean_crate_side", "ocean_crate_top"],
+    3,
+    ["*"]
+  ],
+
+  "molten": [
+    "svcrates:crates/molten_crate",
+    ["*"],
+    ["nether_crate", "nether_crate"],
+    4,
+    ["minecraft:nether_wastes"]
+  ],
+  "netherite": [
+    "svcrates:crates/netherite_crate",
+    ["*"],
+    ["netherite_crate", "netherite_crate"],
+    1,
+    ["minecraft:nether_wastes"]
+  ],
+  "purpur": [
+    "svcrates:crates/purpur_crate",
+    ["*"],
+    ["purpur_crate", "purpur_crate"],
+    13,
+    ["minecraft:the_end"]
+  ],
+  "ender": [
+    "svcrates:crates/ender_crate",
+    ["*"],
+    [
+      "ender_crate_bottom",
+      "ender_crate_top",
+      "ender_crate_side",
+      "ender_crate_side",
+      "ender_crate_side",
+      "ender_crate_side"
+    ],
+    2,
+    ["minecraft:the_end"]
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "jewelry:unique_attack_ring",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jewelry:unique_dex_ring",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jewelry:unique_tank_ring",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jewelry:unique_archer_ring",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jewelry:unique_arcane_ring",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jewelry:unique_fire_ring",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jewelry:unique_frost_ring",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jewelry:unique_healing_ring",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jewelry:unique_crit_ring",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:glowing_dust",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:ultimate_dust",
+          "weight": 100
+        },
+        {
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ],
+          "type": "minecraft:item",
+          "name": "enderscape:nebulite",
+          "weight": 100
+        },
+        {
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ],
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_shell",
+          "weight": 100
+        },
+        {
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ],
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_block",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "weight": 100
+        },
+        {
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 10
+              }
+            }
+          ],
+          "type": "minecraft:item",
+          "name": "unusualend:shiny_crystal",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:harmonic_core",
+          "weight": 100
+        },
+        {
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 12
+              }
+            }
+          ],
+          "type": "minecraft:item",
+          "name": "creaturefeature:dream_silk",
+          "weight": 100
+        }
+      ]
+    }
+  ]
+}

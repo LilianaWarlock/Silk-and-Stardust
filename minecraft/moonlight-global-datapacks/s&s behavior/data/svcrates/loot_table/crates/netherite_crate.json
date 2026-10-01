@@ -1,0 +1,198 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "jewelry:netherite_ruby_necklace",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jewelry:netherite_topaz_necklace",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jewelry:netherite_citrine_necklace",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jewelry:netherite_jade_necklace",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jewelry:netherite_sapphire_necklace",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jewelry:netherite_tanzanite_necklace",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:glowing_dust",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ],
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "weight": 100
+        },
+        {
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ],
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_tear",
+          "weight": 100
+        },
+        {
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            }
+          ],
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_rod",
+          "weight": 100
+        },
+        {
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 24
+              }
+            }
+          ],
+          "type": "minecraft:item",
+          "name": "netherexp:cooked_hogham",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "royalvariations:royal_bomb",
+          "weight": 100
+        },
+        {
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            }
+          ],
+          "type": "minecraft:item",
+          "name": "netherexp:warped_wart",
+          "weight": 100
+        },
+        {
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            }
+          ],
+          "type": "minecraft:item",
+          "name": "minecraft:nether_wart",
+          "weight": 100
+        },
+        {
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 32
+              }
+            }
+          ],
+          "type": "minecraft:item",
+          "name": "minecraft:obsidian",
+          "weight": 100
+        },
+        {
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ],
+          "type": "minecraft:item",
+          "name": "minecraft:gold_block",
+          "weight": 100
+        },
+        {
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "type": "minecraft:item",
+          "name": "minecraft:ancient_debris",
+          "weight": 100
+        },
+        {
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "type": "minecraft:item",
+          "name": "knightlib:great_essence",
+          "weight": 100
+        }
+      ]
+    }
+  ]
+}
