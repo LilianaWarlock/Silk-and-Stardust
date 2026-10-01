@@ -33,7 +33,7 @@ save_data_to_items = true
 #How many ticks should the bobber bobble for before being allowed to catch a fish (excluding modifiers)
 # Default: 100
 # Range: 0 ~ 999999
-base_min_ticks = 100
+base_min_ticks = 60
 #How many ticks at the maximum should the bobber bob for (excluding modifiers)
 # Default: 300
 # Range: 0 ~ 999999

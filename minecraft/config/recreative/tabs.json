@@ -185,7 +185,9 @@
       "yo_hooks:grappling_hooks",
       "curiouschests:curiouschests",
       "bitsandbalance:bits_and_balance",
-      "eternal_starlight:main"
+      "eternal_starlight:main",
+      "svcrates:crate_items_tab",
+      "eager_beavers:beaver_tab"
     ]
   },
   {
@@ -10298,7 +10300,8 @@
       "friendsandfoes:glare_spawn_egg",
       "friendsandfoes:crab_spawn_egg",
       "friendsandfoes:copper_golem_spawn_egg",
-      "minecraft:creaking_heart"
+      "minecraft:creaking_heart",
+      "the_moth:moth_egg"
     ],
     "add_items": [
       {
@@ -10606,7 +10609,7 @@
       },
       {
         "item": "bountifulseals:snow_clumps",
-        "after": "minecraft:snow"
+        "after": "gipples_galore:gelatin_layer"
       },
       {
         "item": "bitsandbalance:andesite_zinc_ore",
@@ -10873,10 +10876,6 @@
         "after": "bountifulfares:walnut_sapling"
       },
       {
-        "item": "ghosts:haunted_sapling",
-        "after": "terrarianmight:yellow_willow_sapling"
-      },
-      {
         "item": "ribbits:giant_lilypad",
         "after": "minecraft:red_mushroom"
       },
@@ -11063,6 +11062,14 @@
       {
         "item": "creeperoverhaul:tiny_cactus",
         "after": "minecraft:cactus"
+      },
+      {
+        "item": "ghosts:haunted_sapling",
+        "after": "quark:myalite_crystal"
+      },
+      {
+        "item": "the_moth:moth_egg",
+        "after": "ghosts:haunted_sapling"
       }
     ],
     "order": []

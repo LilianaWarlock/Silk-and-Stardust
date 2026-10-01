@@ -18,7 +18,7 @@ overlay_update_frequency = 1000
 #Should sweet-spots play the hit sounds
 enable_hit_sounds = true
 #Controls whether villager sounds for winning and losing the minigame should play. Does not affect tackle skins with custom sounds.
-enable_villager_sound = true
+enable_villager_sound = false
 
 [ui_settings]
 	# Default: 0.0
