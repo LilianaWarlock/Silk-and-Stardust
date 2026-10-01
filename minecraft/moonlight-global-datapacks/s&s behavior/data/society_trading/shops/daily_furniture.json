@@ -54,7 +54,7 @@
         {"offer": {"id": "carved_wood:warped_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 28},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_bookshelf","stage_required": "nether_distract_piglin"},
 
         {"offer": {"id": "quark:blossom_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 26},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_blossom_bookshelf","stage_required": "quark_get_all_trumpets"},
-        {"offer": {"id": "aether:skyroot_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 32},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_skyroot_bookshelf","stage_required": "PlACEHOLDER"},
+        {"offer": {"id": "aether:skyroot_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 32},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_skyroot_bookshelf","stage_required": "aether_craft_altar"},
         {"offer": {"id": "darkerdepths:petrified_bookshelf","count": 1},"request": {"id": "minecraft:emerald","count": 26},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_petrified_bookshelf","stage_required": "darker_depths_glowshroom"}
       ]
     },
@@ -87,16 +87,16 @@
         {"offer": {"id": "darkerdepths:glowshroom_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_glowshroom_lantern","stage_required": "darker_depths_glowshroom"},
         {"offer": {"id": "quark:paper_lantern_sakura","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_decorated_paper_lantern","stage_required": "quark_get_all_trumpets"},
 
-        {"offer": {"id": "terrarianmight:heart_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_heart_lantern","stage_required": "PLACEHOLDER"},
+        {"offer": {"id": "terrarianmight:heart_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 42},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_heart_lantern","stage_required": "PLACEHOLDER"},
         {"offer": {"id": "bountifulfares:feldspar_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_feldspar_lantern","stage_required": "PLACEHOLDER"},
         {"offer": {"id": "ribbits:swamp_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_swamp_lantern","stage_required": "PLACEHOLDER"},
 
-        {"offer": {"id": "enderscape:bulb_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 64},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bulb_lantern","stage_required": "PLACEHOLDER"},
-        {"offer": {"id": "deep_aether:skyjade_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 45},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_skyjade_lantern","stage_required": "PLACEHOLDER"},
+        {"offer": {"id": "enderscape:bulb_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 64},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bulb_lantern","stage_required": "end_find_end_city"},
+        {"offer": {"id": "deep_aether:skyjade_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 45},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_skyjade_lantern","stage_required": "aether_craft_altar"},
         {"offer": {"id": "eternal_starlight:eternal_ice_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 45},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_eternal_ice_lantern","stage_required": "PLACEHOLDER"},
         {"offer": {"id": "eternal_starlight:amaramber_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 45},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_amaramber_lantern","stage_required": "PLACEHOLDER"},
 
-        {"offer": {"id": "unusualend:healing_lantern","count": 1},"request": {"id": "minecraft:emerald_block","count": 9},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_healing_lantern","stage_required": "PLACEHOLDER"}
+        {"offer": {"id": "unusualend:healing_lantern","count": 1},"request": {"id": "minecraft:emerald_block","count": 9},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_healing_lantern","stage_required": "end_find_end_city"}
       ]
     },
 
@@ -119,8 +119,8 @@
         {"offer": {"id": "carved_wood:crimson_lantern_block","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_crimson_lantern_block","stage_required": "nether_distract_piglin"},
         {"offer": {"id": "carved_wood:warped_lantern_block","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_lantern_block","stage_required": "nether_distract_piglin"},
 
-        {"offer": {"id": "minecraft:sea_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 32},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_sea_lantern","stage_required": "PLACEHOLDER"},
-        {"offer": {"id": "quark:blaze_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 32},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_blaze_lantern","stage_required": "PLACEHOLDER"},
+        {"offer": {"id": "minecraft:sea_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 32},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_sea_lantern","stage_required": "bosses_kraken"},
+        {"offer": {"id": "quark:blaze_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 32},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_blaze_lantern","stage_required": "bosses_ashlord"},
 
         {"offer": {"id": "eternal_starlight:red_starlight_crystal_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 45},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_red_starlight_lantern","stage_required": "PLACEHOLDER"},
         {"offer": {"id": "eternal_starlight:blue_starlight_crystal_lantern","count": 1},"request": {"id": "minecraft:emerald","count": 45},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_blue_starlight_lantern","stage_required": "PLACEHOLDER"},
@@ -178,11 +178,395 @@
         {"offer": {"id": "cozyhome:crimson_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_crimson_lamp","stage_required": "nether_distract_piglin"},
         {"offer": {"id": "cozyhome:warped_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_lamp","stage_required": "nether_distract_piglin"},
 
-        {"offer": {"id": "cozyhome:iron_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 32},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_iron_lamp","stage_required": "PLACEHOLDER"},
+        {"offer": {"id": "cozyhome:iron_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 32},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_iron_lamp","stage_required": "summon_iron_golem"},
         {"offer": {"id": "cozyhome:glass_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 28},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_glass_lamp","stage_required": "PLACEHOLDER"},
         {"offer": {"id": "cozyhome:undead_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_undead_lamp","stage_required": "fieldguide_monster_mash"},
         {"offer": {"id": "cozyhome:ominous_lamp","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_ominous_lamp","stage_required": "fieldguide_monster_mash"},
         {"offer": {"id": "companions:plasma_lamp_block","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_plasma_lamp","stage_required": "PLACEHOLDER"}
+      ]
+    },
+
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "cozyhome:acacia_chair","count": 2},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_acacia_chair"},
+        {"offer": {"id": "cozyhome:birch_chair","count": 2},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_birch_chair"},
+        {"offer": {"id": "cozyhome:cherry_chair","count": 2},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_cherry_chair"},
+        {"offer": {"id": "cozyhome:oak_chair","count": 2},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_oak_chair"},
+
+        {"offer": {"id": "cozyhome:bamboo_chair","count": 2},"request": {"id": "minecraft:emerald","count": 14},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bamboo_chair","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:dark_oak_chair","count": 2},"request": {"id": "minecraft:emerald","count": 14},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_dark_oak_chair","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:jungle_chair","count": 2},"request": {"id": "minecraft:emerald","count": 14},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_jungle_chair","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:mangrove_chair","count": 2},"request": {"id": "minecraft:emerald","count": 14},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mangrove_chair","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:spruce_chair","count": 2},"request": {"id": "minecraft:emerald","count": 14},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_spruce_chair","stage_required": "fieldguide_tree_hugger"},
+
+        {"offer": {"id": "cozyhome:crimson_chair","count": 2},"request": {"id": "minecraft:emerald","count": 18},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_crimson_chair","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:warped_chair","count": 2},"request": {"id": "minecraft:emerald","count": 18},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_chair","stage_required": "nether_distract_piglin"},
+
+        {"offer": {"id": "cozyhome:iron_chair","count": 2},"request": {"id": "minecraft:emerald","count": 32},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_iron_chair","stage_required": "summon_iron_golem"},
+        {"offer": {"id": "cozyhome:glass_chair","count": 2},"request": {"id": "minecraft:emerald","count": 28},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_glass_chair","stage_required": "PLACEHOLDER"},
+        {"offer": {"id": "cozyhome:undead_chair","count": 2},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_undead_chair","stage_required": "fieldguide_monster_mash"},
+        {"offer": {"id": "cozyhome:ominous_chair","count": 2},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_ominous_chair","stage_required": "fieldguide_monster_mash"}
+      ]
+    },
+
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "cozyhome:acacia_desk","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_acacia_desk"},
+        {"offer": {"id": "cozyhome:birch_desk","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_birch_desk"},
+        {"offer": {"id": "cozyhome:cherry_desk","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_cherry_desk"},
+        {"offer": {"id": "cozyhome:oak_desk","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_oak_desk"},
+
+        {"offer": {"id": "cozyhome:bamboo_desk","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bamboo_desk","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:dark_oak_desk","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_dark_oak_desk","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:jungle_desk","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_jungle_desk","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:mangrove_desk","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mangrove_desk","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:spruce_desk","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_spruce_desk","stage_required": "fieldguide_tree_hugger"},
+
+        {"offer": {"id": "cozyhome:crimson_desk","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_crimson_desk","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:warped_desk","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_desk","stage_required": "nether_distract_piglin"}
+      ]
+    },
+
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "cozyhome:acacia_drawer","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_acacia_drawer"},
+        {"offer": {"id": "cozyhome:birch_drawer","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_birch_drawer"},
+        {"offer": {"id": "cozyhome:cherry_drawer","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_cherry_drawer"},
+        {"offer": {"id": "cozyhome:oak_drawer","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_oak_drawer"},
+
+        {"offer": {"id": "cozyhome:bamboo_drawer","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bamboo_drawer","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:dark_oak_drawer","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_dark_oak_drawer","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:jungle_drawer","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_jungle_drawer","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:mangrove_drawer","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mangrove_drawer","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:spruce_drawer","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_spruce_drawer","stage_required": "fieldguide_tree_hugger"},
+
+        {"offer": {"id": "cozyhome:crimson_drawer","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_crimson_drawer","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:warped_drawer","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_drawer","stage_required": "nether_distract_piglin"}
+      ]
+    },
+
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "cozyhome:acacia_table","count": 1},"request": {"id": "minecraft:emerald","count": 14},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_acacia_table"},
+        {"offer": {"id": "cozyhome:birch_table","count": 1},"request": {"id": "minecraft:emerald","count": 14},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_birch_table"},
+        {"offer": {"id": "cozyhome:cherry_table","count": 1},"request": {"id": "minecraft:emerald","count": 14},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_cherry_table"},
+        {"offer": {"id": "cozyhome:oak_table","count": 1},"request": {"id": "minecraft:emerald","count": 14},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_oak_table"},
+
+        {"offer": {"id": "cozyhome:bamboo_table","count": 1},"request": {"id": "minecraft:emerald","count": 18},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bamboo_table","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:dark_oak_table","count": 1},"request": {"id": "minecraft:emerald","count": 18},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_dark_oak_table","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:jungle_table","count": 1},"request": {"id": "minecraft:emerald","count": 18},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_jungle_table","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:mangrove_table","count": 1},"request": {"id": "minecraft:emerald","count": 18},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mangrove_table","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:spruce_table","count": 1},"request": {"id": "minecraft:emerald","count": 18},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_spruce_table","stage_required": "fieldguide_tree_hugger"},
+
+        {"offer": {"id": "cozyhome:crimson_table","count": 1},"request": {"id": "minecraft:emerald","count": 22},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_crimson_table","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:warped_table","count": 1},"request": {"id": "minecraft:emerald","count": 22},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_table","stage_required": "nether_distract_piglin"},
+
+        {"offer": {"id": "cozyhome:iron_table","count": 1},"request": {"id": "minecraft:emerald","count": 36},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_iron_table","stage_required": "summon_iron_golem"},
+        {"offer": {"id": "cozyhome:glass_table","count": 1},"request": {"id": "minecraft:emerald","count": 34},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_glass_table","stage_required": "PLACEHOLDER"},
+        {"offer": {"id": "cozyhome:undead_table","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_undead_table","stage_required": "fieldguide_monster_mash"},
+        {"offer": {"id": "cozyhome:ominous_table","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_ominous_table","stage_required": "fieldguide_monster_mash"}
+      ]
+    },
+
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "cozyhome:acacia_counter","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_acacia_counter"},
+        {"offer": {"id": "cozyhome:birch_counter","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_birch_counter"},
+        {"offer": {"id": "cozyhome:cherry_counter","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_cherry_counter"},
+        {"offer": {"id": "cozyhome:oak_counter","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_oak_counter"},
+
+        {"offer": {"id": "cozyhome:bamboo_counter","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bamboo_counter","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:dark_oak_counter","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_dark_oak_counter","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:jungle_counter","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_jungle_counter","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:mangrove_counter","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mangrove_counter","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:spruce_counter","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_spruce_counter","stage_required": "fieldguide_tree_hugger"},
+
+        {"offer": {"id": "cozyhome:crimson_counter","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_crimson_counter","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:warped_counter","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_counter","stage_required": "nether_distract_piglin"}
+      ]
+    },
+
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "cozyhome:acacia_storage_counter","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_acacia_storage_counter"},
+        {"offer": {"id": "cozyhome:birch_storage_counter","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_birch_storage_counter"},
+        {"offer": {"id": "cozyhome:cherry_storage_counter","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_cherry_storage_counter"},
+        {"offer": {"id": "cozyhome:oak_storage_counter","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_oak_storage_counter"},
+
+        {"offer": {"id": "cozyhome:bamboo_storage_counter","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bamboo_storage_counter","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:dark_oak_storage_counter","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_dark_oak_storage_counter","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:jungle_storage_counter","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_jungle_storage_counter","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:mangrove_storage_counter","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mangrove_storage_counter","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:spruce_storage_counter","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_spruce_storage_counter","stage_required": "fieldguide_tree_hugger"},
+
+        {"offer": {"id": "cozyhome:crimson_storage_counter","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_crimson_storage_counter","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:warped_storage_counter","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_storage_counter","stage_required": "nether_distract_piglin"}
+      ]
+    },
+
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "cozyhome:stone_brick_sink","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_stone_brick_sink"},
+        {"offer": {"id": "cozyhome:mossy_stone_brick_sink","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mossy_stone_brick_sink"},
+        {"offer": {"id": "cozyhome:granite_sink","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_granite_sink"},
+        {"offer": {"id": "cozyhome:diorite_sink","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_diorite_sink"},
+        {"offer": {"id": "cozyhome:andesite_sink","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_andesite_sink"},
+        {"offer": {"id": "cozyhome:deepslate_sink","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_deepslate_sink"},
+        {"offer": {"id": "cozyhome:calcite_sink","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_calcite_sink"},
+        {"offer": {"id": "cozyhome:tuff_sink","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_tuff_sink"},
+        {"offer": {"id": "cozyhome:brick_sink","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_brick_sink"},
+        {"offer": {"id": "cozyhome:blackstone_sink","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_blackstone_sink"},
+
+        {"offer": {"id": "cozyhome:mud_sink","count": 1},"request": {"id": "minecraft:emerald","count": 15},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mud_sink","stage_required": "addadd_use_water_can"},
+        {"offer": {"id": "cozyhome:sandstone_sink","count": 1},"request": {"id": "minecraft:emerald","count": 18},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_sandstone_sink","stage_required": "bosses_sandworm"},
+        {"offer": {"id": "cozyhome:red_sandstone_sink","count": 1},"request": {"id": "minecraft:emerald","count": 18},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_red_sandstone_sink","stage_required": "bosses_sandworm"},
+        {"offer": {"id": "cozyhome:prismarine_sink","count": 1},"request": {"id": "minecraft:emerald","count": 18},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_prismarine_sink","stage_required": "bosses_kraken"},
+
+        {"offer": {"id": "cozyhome:nether_brick_sink","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_nether_brick_sink","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:red_nether_brick_sink","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_red_nether_brick_sink","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:endstone_sink","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_endstone_sink","stage_required": "free_the_end"},
+        {"offer": {"id": "cozyhome:purpur_sink","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_purpur_sink","stage_required": "end_find_end_city"},
+
+        {"offer": {"id": "cozyhome:iron_sink","count": 1},"request": {"id": "minecraft:emerald","count": 18},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_iron_sink","stage_required": "summon_iron_golem"},
+        {"offer": {"id": "cozyhome:gold_sink","count": 1},"request": {"id": "minecraft:emerald","count": 18},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_gold_sink","stage_required": "bosses_ashlord"}
+      ]
+    },
+
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "cozyhome:acacia_sink_counter","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_acacia_sink_counter"},
+        {"offer": {"id": "cozyhome:birch_sink_counter","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_birch_sink_counter"},
+        {"offer": {"id": "cozyhome:cherry_sink_counter","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_cherry_sink_counter"},
+        {"offer": {"id": "cozyhome:oak_sink_counter","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_oak_sink_counter"},
+
+        {"offer": {"id": "cozyhome:bamboo_sink_counter","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bamboo_sink_counter","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:dark_oak_sink_counter","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_dark_oak_sink_counter","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:jungle_sink_counter","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_jungle_sink_counter","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:mangrove_sink_counter","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mangrove_sink_counter","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:spruce_sink_counter","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_spruce_sink_counter","stage_required": "fieldguide_tree_hugger"},
+
+        {"offer": {"id": "cozyhome:crimson_sink_counter","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_crimson_sink_counter","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:warped_sink_counter","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_sink_counter","stage_required": "nether_distract_piglin"}
+      ]
+    },
+
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "cozyhome:stone_brick_bathtub","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_stone_brick_bathtub"},
+        {"offer": {"id": "cozyhome:mossy_stone_brick_bathtub","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mossy_stone_brick_bathtub"},
+        {"offer": {"id": "cozyhome:granite_bathtub","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_granite_bathtub"},
+        {"offer": {"id": "cozyhome:diorite_bathtub","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_diorite_bathtub"},
+        {"offer": {"id": "cozyhome:andesite_bathtub","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_andesite_bathtub"},
+        {"offer": {"id": "cozyhome:deepslate_bathtub","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_deepslate_bathtub"},
+        {"offer": {"id": "cozyhome:calcite_bathtub","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_calcite_bathtub"},
+        {"offer": {"id": "cozyhome:tuff_bathtub","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_tuff_bathtub"},
+        {"offer": {"id": "cozyhome:brick_bathtub","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_brick_bathtub"},
+        {"offer": {"id": "cozyhome:blackstone_bathtub","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_blackstone_bathtub"},
+
+        {"offer": {"id": "cozyhome:mud_bathtub","count": 1},"request": {"id": "minecraft:emerald","count": 30},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mud_bathtub","stage_required": "addadd_use_water_can"},
+        {"offer": {"id": "cozyhome:sandstone_bathtub","count": 1},"request": {"id": "minecraft:emerald","count": 36},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_sandstone_bathtub","stage_required": "bosses_sandworm"},
+        {"offer": {"id": "cozyhome:red_sandstone_bathtub","count": 1},"request": {"id": "minecraft:emerald","count": 36},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_red_sandstone_bathtub","stage_required": "bosses_sandworm"},
+        {"offer": {"id": "cozyhome:prismarine_bathtub","count": 1},"request": {"id": "minecraft:emerald","count": 36},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_prismarine_bathtub","stage_required": "bosses_kraken"},
+
+        {"offer": {"id": "cozyhome:nether_brick_bathtub","count": 1},"request": {"id": "minecraft:emerald","count": 40},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_nether_brick_bathtub","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:red_nether_brick_bathtub","count": 1},"request": {"id": "minecraft:emerald","count": 40},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_red_nether_brick_bathtub","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:endstone_bathtub","count": 1},"request": {"id": "minecraft:emerald","count": 40},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_endstone_bathtub","stage_required": "free_the_end"},
+        {"offer": {"id": "cozyhome:purpur_bathtub","count": 1},"request": {"id": "minecraft:emerald","count": 40},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_purpur_bathtub","stage_required": "end_find_end_city"},
+
+        {"offer": {"id": "cozyhome:iron_bathtub","count": 1},"request": {"id": "minecraft:emerald","count": 36},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_iron_bathtub","stage_required": "summon_iron_golem"},
+        {"offer": {"id": "cozyhome:gold_bathtub","count": 1},"request": {"id": "minecraft:emerald","count": 36},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_gold_bathtub","stage_required": "bosses_ashlord"}
+      ]
+    },
+
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "cozyhome:acacia_wall_clock","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_acacia_wall_clock"},
+        {"offer": {"id": "cozyhome:birch_wall_clock","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_birch_wall_clock"},
+        {"offer": {"id": "cozyhome:cherry_wall_clock","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_cherry_wall_clock"},
+        {"offer": {"id": "cozyhome:oak_wall_clock","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_oak_wall_clock"},
+
+        {"offer": {"id": "cozyhome:bamboo_wall_clock","count": 1},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bamboo_wall_clock","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:dark_oak_wall_clock","count": 1},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_dark_oak_wall_clock","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:jungle_wall_clock","count": 1},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_jungle_wall_clock","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:mangrove_wall_clock","count": 1},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mangrove_wall_clock","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:spruce_wall_clock","count": 1},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_spruce_wall_clock","stage_required": "fieldguide_tree_hugger"},
+
+        {"offer": {"id": "cozyhome:crimson_wall_clock","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_crimson_wall_clock","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:warped_wall_clock","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_wall_clock","stage_required": "nether_distract_piglin"},
+
+        {"offer": {"id": "cozyhome:iron_wall_clock","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_iron_wall_clock","stage_required": "summon_iron_golem"},
+        {"offer": {"id": "cozyhome:glass_wall_clock","count": 1},"request": {"id": "minecraft:emerald","count": 14},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_glass_wall_clock","stage_required": "PLACEHOLDER"},
+        {"offer": {"id": "cozyhome:undead_wall_clock","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_undead_wall_clock","stage_required": "fieldguide_monster_mash"},
+        {"offer": {"id": "cozyhome:ominous_wall_clock","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_ominous_wall_clock","stage_required": "fieldguide_monster_mash"}
+      ]
+    },
+
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "cozyhome:acacia_grandfather_clock","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_acacia_grandfather_clock"},
+        {"offer": {"id": "cozyhome:birch_grandfather_clock","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_birch_grandfather_clock"},
+        {"offer": {"id": "cozyhome:cherry_grandfather_clock","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_cherry_grandfather_clock"},
+        {"offer": {"id": "cozyhome:oak_grandfather_clock","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_oak_grandfather_clock"},
+
+        {"offer": {"id": "cozyhome:bamboo_grandfather_clock","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bamboo_grandfather_clock","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:dark_oak_grandfather_clock","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_dark_oak_grandfather_clock","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:jungle_grandfather_clock","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_jungle_grandfather_clock","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:mangrove_grandfather_clock","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mangrove_grandfather_clock","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:spruce_grandfather_clock","count": 1},"request": {"id": "minecraft:emerald","count": 20},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_spruce_grandfather_clock","stage_required": "fieldguide_tree_hugger"},
+
+        {"offer": {"id": "cozyhome:crimson_grandfather_clock","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_crimson_grandfather_clock","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:warped_grandfather_clock","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_grandfather_clock","stage_required": "nether_distract_piglin"},
+
+        {"offer": {"id": "cozyhome:iron_grandfather_clock","count": 1},"request": {"id": "minecraft:emerald","count": 32},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_iron_grandfather_clock","stage_required": "summon_iron_golem"},
+        {"offer": {"id": "cozyhome:glass_grandfather_clock","count": 1},"request": {"id": "minecraft:emerald","count": 28},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_glass_grandfather_clock","stage_required": "PLACEHOLDER"},
+        {"offer": {"id": "cozyhome:undead_grandfather_clock","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_undead_grandfather_clock","stage_required": "fieldguide_monster_mash"},
+        {"offer": {"id": "cozyhome:ominous_grandfather_clock","count": 1},"request": {"id": "minecraft:emerald","count": 16},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_ominous_grandfather_clock","stage_required": "fieldguide_monster_mash"}
+      ]
+    },
+
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "cozyhome:acacia_wall_mirror","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_acacia_wall_mirror"},
+        {"offer": {"id": "cozyhome:birch_wall_mirror","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_birch_wall_mirror"},
+        {"offer": {"id": "cozyhome:cherry_wall_mirror","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_cherry_wall_mirror"},
+        {"offer": {"id": "cozyhome:oak_wall_mirror","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_oak_wall_mirror"},
+
+        {"offer": {"id": "cozyhome:bamboo_wall_mirror","count": 1},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bamboo_wall_mirror","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:dark_oak_wall_mirror","count": 1},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_dark_oak_wall_mirror","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:jungle_wall_mirror","count": 1},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_jungle_wall_mirror","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:mangrove_wall_mirror","count": 1},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mangrove_wall_mirror","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:spruce_wall_mirror","count": 1},"request": {"id": "minecraft:emerald","count": 10},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_spruce_wall_mirror","stage_required": "fieldguide_tree_hugger"},
+
+        {"offer": {"id": "cozyhome:crimson_wall_mirror","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_crimson_wall_mirror","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:warped_wall_mirror","count": 1},"request": {"id": "minecraft:emerald","count": 12},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_wall_mirror","stage_required": "nether_distract_piglin"}
+      ]
+    },
+
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "cozyhome:acacia_large_stump","count": 3},"request": {"id": "minecraft:emerald","count": 5},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_acacia_large_stump"},
+        {"offer": {"id": "cozyhome:birch_large_stump","count": 3},"request": {"id": "minecraft:emerald","count": 5},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_birch_large_stump"},
+        {"offer": {"id": "cozyhome:cherry_large_stump","count": 3},"request": {"id": "minecraft:emerald","count": 5},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_cherry_large_stump"},
+        {"offer": {"id": "cozyhome:oak_large_stump","count": 3},"request": {"id": "minecraft:emerald","count": 5},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_oak_large_stump"},
+
+        {"offer": {"id": "cozyhome:bamboo_large_stump","count": 3},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_bamboo_large_stump","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:dark_oak_large_stump","count":3},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_dark_oak_large_stump","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:jungle_large_stump","count": 3},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_jungle_large_stump","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:mangrove_large_stump","count": 3},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mangrove_large_stump","stage_required": "fieldguide_tree_hugger"},
+        {"offer": {"id": "cozyhome:spruce_large_stump","count": 3},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_spruce_large_stump","stage_required": "fieldguide_tree_hugger"},
+
+        {"offer": {"id": "cozyhome:crimson_large_stump","count": 3},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_crimson_large_stump","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:warped_large_stump","count": 3},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_warped_large_stump","stage_required": "nether_distract_piglin"}
+      ]
+    },
+
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "cozyhome:stone_brick_fountain","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_stone_brick_fountain"},
+        {"offer": {"id": "cozyhome:mossy_stone_brick_fountain","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mossy_stone_brick_fountain"},
+        {"offer": {"id": "cozyhome:granite_fountain","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_granite_fountain"},
+        {"offer": {"id": "cozyhome:diorite_fountain","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_diorite_fountain"},
+        {"offer": {"id": "cozyhome:andesite_fountain","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_andesite_fountain"},
+        {"offer": {"id": "cozyhome:deepslate_fountain","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_deepslate_fountain"},
+        {"offer": {"id": "cozyhome:calcite_fountain","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_calcite_fountain"},
+        {"offer": {"id": "cozyhome:tuff_fountain","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_tuff_fountain"},
+        {"offer": {"id": "cozyhome:brick_fountain","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_brick_fountain"},
+        {"offer": {"id": "cozyhome:blackstone_fountain","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_blackstone_fountain"},
+
+        {"offer": {"id": "cozyhome:mud_fountain","count": 1},"request": {"id": "minecraft:emerald","count": 30},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mud_fountain","stage_required": "addadd_use_water_can"},
+        {"offer": {"id": "cozyhome:sandstone_fountain","count": 1},"request": {"id": "minecraft:emerald","count": 36},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_sandstone_fountain","stage_required": "bosses_sandworm"},
+        {"offer": {"id": "cozyhome:red_sandstone_fountain","count": 1},"request": {"id": "minecraft:emerald","count": 36},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_red_sandstone_fountain","stage_required": "bosses_sandworm"},
+        {"offer": {"id": "cozyhome:prismarine_fountain","count": 1},"request": {"id": "minecraft:emerald","count": 36},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_prismarine_fountain","stage_required": "bosses_kraken"},
+
+        {"offer": {"id": "cozyhome:nether_brick_fountain","count": 1},"request": {"id": "minecraft:emerald","count": 40},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_nether_brick_fountain","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:red_nether_brick_fountain","count": 1},"request": {"id": "minecraft:emerald","count": 40},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_red_nether_brick_fountain","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:endstone_fountain","count": 1},"request": {"id": "minecraft:emerald","count": 40},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_endstone_fountain","stage_required": "free_the_end"},
+        {"offer": {"id": "cozyhome:purpur_fountain","count": 1},"request": {"id": "minecraft:emerald","count": 40},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_purpur_fountain","stage_required": "end_find_end_city"}
+      ]
+    },
+
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "cozyhome:stone_brick_fountain_spout","count": 1},"request": {"id": "minecraft:emerald","count": 4},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_stone_brick_fountain_spout"},
+        {"offer": {"id": "cozyhome:mossy_stone_brick_fountain_spout","count": 1},"request": {"id": "minecraft:emerald","count": 4},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mossy_stone_brick_fountain_spout"},
+        {"offer": {"id": "cozyhome:granite_fountain_spout","count": 1},"request": {"id": "minecraft:emerald","count": 4},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_granite_fountain_spout"},
+        {"offer": {"id": "cozyhome:diorite_fountain_spout","count": 1},"request": {"id": "minecraft:emerald","count": 4},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_diorite_fountain_spout"},
+        {"offer": {"id": "cozyhome:andesite_fountain_spout","count": 1},"request": {"id": "minecraft:emerald","count": 4},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_andesite_fountain_spout"},
+        {"offer": {"id": "cozyhome:deepslate_fountain_spout","count": 1},"request": {"id": "minecraft:emerald","count": 4},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_deepslate_fountain_spout"},
+        {"offer": {"id": "cozyhome:calcite_fountain_spout","count": 1},"request": {"id": "minecraft:emerald","count": 4},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_calcite_fountain_spout"},
+        {"offer": {"id": "cozyhome:tuff_fountain_spout","count": 1},"request": {"id": "minecraft:emerald","count": 4},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_tuff_fountain_spout"},
+        {"offer": {"id": "cozyhome:brick_fountain_spout","count": 1},"request": {"id": "minecraft:emerald","count": 4},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_brick_fountain_spout"},
+        {"offer": {"id": "cozyhome:blackstone_fountain_spout","count": 1},"request": {"id": "minecraft:emerald","count": 4},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_blackstone_fountain_spout"},
+
+        {"offer": {"id": "cozyhome:mud_fountain_spout","count": 1},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mud_fountain_spout","stage_required": "addadd_use_water_can"},
+        {"offer": {"id": "cozyhome:sandstone_fountain_spout","count": 1},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_sandstone_fountain_spout","stage_required": "bosses_sandworm"},
+        {"offer": {"id": "cozyhome:red_sandstone_fountain_spout","count": 1},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_red_sandstone_fountain_spout","stage_required": "bosses_sandworm"},
+        {"offer": {"id": "cozyhome:prismarine_fountain_spout","count": 1},"request": {"id": "minecraft:emerald","count": 6},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_prismarine_fountain_spout","stage_required": "bosses_kraken"},
+
+        {"offer": {"id": "cozyhome:nether_brick_fountain_spout","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_nether_brick_fountain_spout","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:red_nether_brick_fountain_spout","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_red_nether_brick_fountain_spout","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:endstone_fountain_spout","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_endstone_fountain_spout","stage_required": "free_the_end"},
+        {"offer": {"id": "cozyhome:purpur_fountain_spout","count": 1},"request": {"id": "minecraft:emerald","count": 8},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_purpur_fountain_spout","stage_required": "end_find_end_city"}
+      ]
+    },
+
+    {
+      "random_style": "per_day",
+      "rolled_count": 1,
+      "trades": [
+        {"offer": {"id": "cozyhome:stone_brick_chimney","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_stone_brick_chimney"},
+        {"offer": {"id": "cozyhome:mossy_stone_brick_chimney","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mossy_stone_brick_chimney"},
+        {"offer": {"id": "cozyhome:granite_chimney","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_granite_chimney"},
+        {"offer": {"id": "cozyhome:diorite_chimney","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_diorite_chimney"},
+        {"offer": {"id": "cozyhome:andesite_chimney","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_andesite_chimney"},
+        {"offer": {"id": "cozyhome:deepslate_chimney","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_deepslate_chimney"},
+        {"offer": {"id": "cozyhome:calcite_chimney","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_calcite_chimney"},
+        {"offer": {"id": "cozyhome:tuff_chimney","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_tuff_chimney"},
+        {"offer": {"id": "cozyhome:brick_chimney","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_brick_chimney"},
+        {"offer": {"id": "cozyhome:blackstone_chimney","count": 1},"request": {"id": "minecraft:emerald","count": 24},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_blackstone_chimney"},
+
+        {"offer": {"id": "cozyhome:mud_chimney","count": 1},"request": {"id": "minecraft:emerald","count": 30},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_mud_chimney","stage_required": "addadd_use_water_can"},
+        {"offer": {"id": "cozyhome:sandstone_chimney","count": 1},"request": {"id": "minecraft:emerald","count": 36},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_sandstone_chimney","stage_required": "bosses_sandworm"},
+        {"offer": {"id": "cozyhome:red_sandstone_chimney","count": 1},"request": {"id": "minecraft:emerald","count": 36},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_red_sandstone_chimney","stage_required": "bosses_sandworm"},
+        {"offer": {"id": "cozyhome:prismarine_chimney","count": 1},"request": {"id": "minecraft:emerald","count": 36},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_prismarine_chimney","stage_required": "bosses_kraken"},
+
+        {"offer": {"id": "cozyhome:nether_brick_chimney","count": 1},"request": {"id": "minecraft:emerald","count": 40},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_nether_brick_chimney","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:red_nether_brick_chimney","count": 1},"request": {"id": "minecraft:emerald","count": 40},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_red_nether_brick_chimney","stage_required": "nether_distract_piglin"},
+        {"offer": {"id": "cozyhome:endstone_chimney","count": 1},"request": {"id": "minecraft:emerald","count": 40},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_endstone_chimney","stage_required": "free_the_end"},
+        {"offer": {"id": "cozyhome:purpur_chimney","count": 1},"request": {"id": "minecraft:emerald","count": 40},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_purpur_chimney","stage_required": "end_find_end_city"},
+
+        {"offer": {"id": "cozyhome:iron_chimney","count": 1},"request": {"id": "minecraft:emerald","count": 36},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_iron_chimney","stage_required": "summon_iron_golem"},
+        {"offer": {"id": "cozyhome:gold_chimney","count": 1},"request": {"id": "minecraft:emerald","count": 36},"image": "kubejs:textures/image_shop/home","trade_id": "ST_DF_gold_chimney","stage_required": "bosses_ashlord"}
       ]
     }
   ]
