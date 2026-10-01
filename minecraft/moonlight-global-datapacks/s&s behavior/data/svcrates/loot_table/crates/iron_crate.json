@@ -10,32 +10,32 @@
         {
           "type": "minecraft:item",
           "name": "relics_rpgs:jewel_figurine_ruby",
-          "weight": 100
+          "weight": 20
         },
         {
           "type": "minecraft:item",
           "name": "relics_rpgs:jewel_figurine_topaz",
-          "weight": 100
+          "weight": 20
         },
         {
           "type": "minecraft:item",
           "name": "relics_rpgs:jewel_figurine_citrine",
-          "weight": 100
+          "weight": 20
         },
         {
           "type": "minecraft:item",
           "name": "relics_rpgs:jewel_figurine_jade",
-          "weight": 100
+          "weight": 20
         },
         {
           "type": "minecraft:item",
           "name": "relics_rpgs:jewel_figurine_sapphire",
-          "weight": 100
+          "weight": 20
         },
         {
           "type": "minecraft:item",
           "name": "relics_rpgs:jewel_figurine_tanzanite",
-          "weight": 100
+          "weight": 20
         }
       ]
     },
@@ -54,147 +54,147 @@
           ],
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 100
+          "weight": 5
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 2,
                 "max": 4
               }
             }
           ],
           "type": "minecraft:item",
           "name": "jewelry:ruby",
-          "weight": 100
+          "weight": 5
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 2,
                 "max": 4
               }
             }
           ],
           "type": "minecraft:item",
           "name": "jewelry:topaz",
-          "weight": 100
+          "weight": 5
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 2,
                 "max": 4
               }
             }
           ],
           "type": "minecraft:item",
           "name": "jewelry:citrine",
-          "weight": 100
+          "weight": 5
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 2,
                 "max": 4
               }
             }
           ],
           "type": "minecraft:item",
           "name": "jewelry:jade",
-          "weight": 100
+          "weight": 5
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 2,
                 "max": 4
               }
             }
           ],
           "type": "minecraft:item",
           "name": "jewelry:sapphire",
-          "weight": 100
+          "weight": 5
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 2,
                 "max": 4
               }
             }
           ],
           "type": "minecraft:item",
           "name": "jewelry:tanzanite",
-          "weight": 100
+          "weight": 5
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 12,
                 "max": 24
               }
             }
           ],
           "type": "minecraft:item",
           "name": "minecraft:raw_iron",
-          "weight": 100
+          "weight": 15
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 12,
                 "max": 24
               }
             }
           ],
           "type": "minecraft:item",
           "name": "minecraft:raw_gold",
-          "weight": 100
+          "weight": 10
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 8,
                 "max": 16
               }
             }
           ],
           "type": "minecraft:item",
           "name": "starcatcher:worm",
-          "weight": 100
+          "weight": 10
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 6,
                 "max": 12
               }
             }
           ],
           "type": "minecraft:item",
           "name": "minecraft:emerald",
-          "weight": 100
+          "weight": 10
         },
         {
           "functions": [
@@ -208,35 +208,35 @@
           ],
           "type": "minecraft:item",
           "name": "knightlib:small_essence",
-          "weight": 100
+          "weight": 5
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 2,
                 "max": 4
               }
             }
           ],
           "type": "minecraft:item",
           "name": "minecraft:amethyst_shard",
-          "weight": 100
+          "weight": 10
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 2,
                 "max": 5
               }
             }
           ],
           "type": "minecraft:item",
           "name": "minecraft:ender_pearl",
-          "weight": 100
+          "weight": 5
         }
       ]
     }

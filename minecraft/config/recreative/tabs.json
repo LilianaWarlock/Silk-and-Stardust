@@ -8,6 +8,7 @@
       "curiouschests:curiouschests",
       "nameless_trinkets:nameless_trinkets",
       "royalvariations:royalvariations",
+      "svcrates:crate_items_tab",
       "rogues:generic",
       "crittersandcompanions:main",
       "netherexp:nether_wastes",
@@ -31,10 +32,12 @@
       "gateway_of_doom:gateway_of_doom",
       "nightlights:night_lights",
       "archers:generic",
+      "eternal_starlight:main",
       "unusualend:unusual_end",
       "paladins:generic",
       "artifacts:main",
       "bountifulseals:seal_tab",
+      "eager_beavers:beaver_tab",
       "relics_rpgs:generic",
       "fightsfrights:creative_tab",
       "society_trading:tab",
@@ -92,7 +95,6 @@
       "minecraft:tools_and_utilities",
       "minecraft:food_and_drinks",
       "minecraft:ingredients",
-      "minecraft:spawn_eggs",
       "minecraft:hotbar",
       "minecraft:inventory",
       "minecraft:op_blocks",
@@ -112,9 +114,10 @@
       "block_factorys_bosses:blockfactorysbossestab",
       "aquamirae:aquamirae",
       "silkandstardust:nether",
-      "silkandstardust:eternalstarlight",
       "silkandstardust:end",
       "silkandstardust:aether",
+      "silkandstardust:eternalstarlight",
+      "minecraft:spawn_eggs",
       "relics_rpgs:generic",
       "nameless_trinkets:nameless_trinkets",
       "aether:armor_and_accessories",
@@ -4022,8 +4025,175 @@
     "action": "modify_tab",
     "tab": ["starcatcher:starcatcher"],
     "name": "Fishing",
-    "remove_items": [],
-    "add_items": [],
+    "remove_items": [
+      "minecraft:wither_skeleton_skull",
+      "minecraft:bucket",
+      "aether:skyroot_bucket"
+    ],
+    "add_items": [
+      {
+        "item": "svcrates:crate_block",
+        "after": "starcatcher:cooked_starcaught_fish",
+        "components": {
+          "svcrates:crate_id": "rotten",
+          "svcrates:crate_loot_id": "svcrates:crates/rotten_crate"
+        }
+      },
+      {
+        "item": "svcrates:crate_block",
+        "after": {
+          "item": "svcrates:crate_block",
+          "components": {
+            "svcrates:crate_id": "rotten",
+            "svcrates:crate_loot_id": "svcrates:crates/rotten_crate"
+          }
+        },
+        "components": {
+          "svcrates:crate_id": "copper",
+          "svcrates:crate_loot_id": "svcrates:crates/copper_crate"
+        }
+      },
+      {
+        "item": "svcrates:crate_block",
+        "after": {
+          "item": "svcrates:crate_block",
+          "components": {
+            "svcrates:crate_id": "copper",
+            "svcrates:crate_loot_id": "svcrates:crates/copper_crate"
+          }
+        },
+        "components": {
+          "svcrates:crate_id": "iron",
+          "svcrates:crate_loot_id": "svcrates:crates/iron_crate"
+        }
+      },
+      {
+        "item": "svcrates:crate_block",
+        "after": {
+          "item": "svcrates:crate_block",
+          "components": {
+            "svcrates:crate_id": "iron",
+            "svcrates:crate_loot_id": "svcrates:crates/iron_crate"
+          }
+        },
+        "components": {
+          "svcrates:crate_id": "diamond",
+          "svcrates:crate_loot_id": "svcrates:crates/diamond_crate"
+        }
+      },
+      {
+        "item": "svcrates:crate_block",
+        "after": {
+          "item": "svcrates:crate_block",
+          "components": {
+            "svcrates:crate_id": "diamond",
+            "svcrates:crate_loot_id": "svcrates:crates/diamond_crate"
+          }
+        },
+        "components": {
+          "svcrates:crate_id": "frozen",
+          "svcrates:crate_loot_id": "svcrates:crates/frozen_crate"
+        }
+      },
+      {
+        "item": "svcrates:crate_block",
+        "after": {
+          "item": "svcrates:crate_block",
+          "components": {
+            "svcrates:crate_id": "frozen",
+            "svcrates:crate_loot_id": "svcrates:crates/frozen_crate"
+          }
+        },
+        "components": {
+          "svcrates:crate_id": "desert",
+          "svcrates:crate_loot_id": "svcrates:crates/desert_crate"
+        }
+      },
+      {
+        "item": "svcrates:crate_block",
+        "after": {
+          "item": "svcrates:crate_block",
+          "components": {
+            "svcrates:crate_id": "desert",
+            "svcrates:crate_loot_id": "svcrates:crates/desert_crate"
+          }
+        },
+        "components": {
+          "svcrates:crate_id": "swamp",
+          "svcrates:crate_loot_id": "svcrates:crates/swamp_crate"
+        }
+      },
+      {
+        "item": "svcrates:crate_block",
+        "after": {
+          "item": "svcrates:crate_block",
+          "components": {
+            "svcrates:crate_id": "swamp",
+            "svcrates:crate_loot_id": "svcrates:crates/swamp_crate"
+          }
+        },
+        "components": {
+          "svcrates:crate_id": "ocean",
+          "svcrates:crate_loot_id": "svcrates:crates/ocean_crate"
+        }
+      },
+      {
+        "item": "svcrates:crate_block",
+        "after": {
+          "item": "svcrates:crate_block",
+          "components": {
+            "svcrates:crate_id": "ocean",
+            "svcrates:crate_loot_id": "svcrates:crates/ocean_crate"
+          }
+        },
+        "components": {
+          "svcrates:crate_id": "molten",
+          "svcrates:crate_loot_id": "svcrates:crates/molten_crate"
+        }
+      },
+      {
+        "item": "svcrates:crate_block",
+        "after": {
+          "item": "svcrates:crate_block",
+          "components": {
+            "svcrates:crate_id": "molten",
+            "svcrates:crate_loot_id": "svcrates:crates/molten_crate"
+          }
+        },
+        "components": {
+          "svcrates:crate_id": "netherite",
+          "svcrates:crate_loot_id": "svcrates:crates/netherite_crate"
+        }
+      },
+      {
+        "item": "svcrates:crate_block",
+        "after": {
+          "item": "svcrates:crate_block",
+          "components": {
+            "svcrates:crate_id": "netherite",
+            "svcrates:crate_loot_id": "svcrates:crates/netherite_crate"
+          }
+        },
+        "components": {
+          "svcrates:crate_id": "purpur",
+          "svcrates:crate_loot_id": "svcrates:crates/purpur_crate"
+        }
+      },
+      {
+        "item": "svcrates:crate_block",
+        "after": {
+          "item": "svcrates:crate_block",
+          "components": {
+            "svcrates:crate_id": "purpur",
+            "svcrates:crate_loot_id": "svcrates:crates/purpur_crate"
+          }
+        },
+        "components": {
+          "svcrates:crate_id": "ender",
+          "svcrates:crate_loot_id": "svcrates:crates/ender_crate"
+        }
+      }
+    ],
     "order": []
   },
   {

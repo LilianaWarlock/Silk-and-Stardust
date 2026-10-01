@@ -10,27 +10,27 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:totem_of_undying",
-          "weight": 100
+          "weight": 20
         },
         {
           "type": "minecraft:item",
           "name": "friendsandfoes:totem_of_freezing",
-          "weight": 100
+          "weight": 20
         },
         {
           "type": "minecraft:item",
           "name": "friendsandfoes:totem_of_illusion",
-          "weight": 100
+          "weight": 20
         },
         {
           "type": "minecraft:item",
           "name": "relics_rpgs:lesser_melee_crit_chance",
-          "weight": 100
+          "weight": 20
         },
         {
           "type": "minecraft:item",
           "name": "relics_rpgs:lesser_melee_crit_damage",
-          "weight": 100
+          "weight": 20
         }
       ]
     },
@@ -42,84 +42,84 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 4,
+                "min": 8,
                 "max": 16
               }
             }
           ],
           "type": "minecraft:item",
           "name": "jewelry:ruby",
-          "weight": 100
+          "weight": 10
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 4,
+                "min": 8,
                 "max": 16
               }
             }
           ],
           "type": "minecraft:item",
           "name": "jewelry:citrine",
-          "weight": 100
+          "weight": 10
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 4,
+                "min": 8,
                 "max": 16
               }
             }
           ],
           "type": "minecraft:item",
           "name": "jewelry:topaz",
-          "weight": 100
+          "weight": 10
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 4,
+                "min": 8,
                 "max": 16
               }
             }
           ],
           "type": "minecraft:item",
           "name": "jewelry:jade",
-          "weight": 100
+          "weight": 10
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 4,
+                "min": 8,
                 "max": 16
               }
             }
           ],
           "type": "minecraft:item",
           "name": "jewelry:sapphire",
-          "weight": 100
+          "weight": 10
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 4,
+                "min": 8,
                 "max": 16
               }
             }
           ],
           "type": "minecraft:item",
           "name": "jewelry:tanzanite",
-          "weight": 100
+          "weight": 10
         },
         {
           "functions": [
@@ -133,49 +133,49 @@
           ],
           "type": "minecraft:item",
           "name": "terrarianmight:life_crystal",
-          "weight": 100
+          "weight": 5
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 24,
+                "min": 32,
                 "max": 64
               }
             }
           ],
           "type": "minecraft:item",
           "name": "minecraft:emerald",
-          "weight": 100
+          "weight": 10
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 5,
+                "min": 6,
                 "max": 16
               }
             }
           ],
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 100
+          "weight": 10
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 4,
-                "max": 8
+                "min": 2,
+                "max": 6
               }
             }
           ],
           "type": "minecraft:item",
           "name": "knightlib:great_essence",
-          "weight": 100
+          "weight": 5
         },
         {
           "functions": [
@@ -189,7 +189,7 @@
           ],
           "type": "minecraft:item",
           "name": "minecraft:obsidian",
-          "weight": 100
+          "weight": 5
         },
         {
           "functions": [
@@ -203,7 +203,7 @@
           ],
           "type": "minecraft:item",
           "name": "royalvariations:royal_armor_fragments",
-          "weight": 100
+          "weight": 5
         }
       ]
     }

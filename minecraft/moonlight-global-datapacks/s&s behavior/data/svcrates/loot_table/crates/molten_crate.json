@@ -1,114 +1,110 @@
 {
   "pools": [
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 0,
-        "max": 1
-      },
+      "rolls": 1,
       "entries": [
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 12
+                "min": 8,
+                "max": 24
               }
             }
           ],
           "type": "minecraft:item",
           "name": "minecraft:nether_brick",
-          "weight": 100
+          "weight": 15
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 3,
                 "max": 6
               }
             }
           ],
           "type": "minecraft:item",
           "name": "minecraft:nether_wart",
-          "weight": 100
+          "weight": 5
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 6,
                 "max": 12
               }
             }
           ],
           "type": "minecraft:item",
           "name": "netherexp:hogham",
-          "weight": 100
+          "weight": 10
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 4
+                "min": 4,
+                "max": 8
               }
             }
           ],
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
-          "weight": 100
+          "weight": 10
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 4,
                 "max": 8
               }
             }
           ],
           "type": "minecraft:item",
           "name": "minecraft:blaze_powder",
-          "weight": 100
+          "weight": 5
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 16,
                 "max": 32
               }
             }
           ],
           "type": "minecraft:item",
           "name": "minecraft:quartz",
-          "weight": 100
+          "weight": 10
         },
         {
           "type": "minecraft:item",
           "name": "nethers_exoticism:moloch_in_a_bucket",
-          "weight": 100
+          "weight": 5
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 3,
                 "max": 6
               }
             }
           ],
           "type": "minecraft:item",
           "name": "netherexp:warped_wart",
-          "weight": 100
+          "weight": 5
         },
         {
           "functions": [
@@ -122,91 +118,91 @@
           ],
           "type": "minecraft:item",
           "name": "minecraft:ghast_tear",
-          "weight": 100
+          "weight": 5
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 2,
                 "max": 4
               }
             }
           ],
           "type": "minecraft:item",
           "name": "minecraft:magma_cream",
-          "weight": 100
+          "weight": 5
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 4,
                 "max": 9
               }
             }
           ],
           "type": "minecraft:item",
           "name": "nethers_exoticism:jaboticaba",
-          "weight": 100
+          "weight": 5
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 4,
                 "max": 9
               }
             }
           ],
           "type": "minecraft:item",
           "name": "nethers_exoticism:kiwano",
-          "weight": 100
+          "weight": 5
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 4,
                 "max": 9
               }
             }
           ],
           "type": "minecraft:item",
           "name": "nethers_exoticism:pitaya",
-          "weight": 100
+          "weight": 5
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 4,
                 "max": 9
               }
             }
           ],
           "type": "minecraft:item",
           "name": "nethers_exoticism:ramboutan",
-          "weight": 100
+          "weight": 5
         },
         {
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 4,
                 "max": 9
               }
             }
           ],
           "type": "minecraft:item",
           "name": "nethers_exoticism:bouddha_s_hand",
-          "weight": 100
+          "weight": 5
         }
       ]
     }
