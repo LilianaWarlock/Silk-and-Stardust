@@ -1,5 +1,5 @@
 {
-  "base_chance": 5,
+  "base_chance": 7,
   "catch_info": {
     "item": {
       "data_components_patch": {
@@ -10,9 +10,9 @@
     }
   },
   "difficulty": {
-    "decay": 1.0,
-    "hp": 150,
-    "missPenalty": 13,
+    "decay": 2,
+    "hp": 200,
+    "missPenalty": 15,
     "modifiers": [
       {
         "type": "starcatcher:burn_on_miss",
@@ -27,30 +27,30 @@
         "color_as_int": -15732736,
         "hitbox_size_in_pixels": 22,
         "is_flip": false,
-        "moving_rate": 0.0,
+        "moving_rate": 7.0,
         "reward": 15,
         "sweetspot_type": "starcatcher:normal",
-        "texture_path": "starcatcher:textures/gui/minigame/spots/normal.png",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/nether_crab_claw.png",
         "vanishing_rate": 0.0
       },
       {
         "color_as_int": -15732736,
         "hitbox_size_in_pixels": 22,
         "is_flip": false,
-        "moving_rate": 0.0,
+        "moving_rate": -6.0,
         "reward": 15,
         "sweetspot_type": "starcatcher:normal",
-        "texture_path": "starcatcher:textures/gui/minigame/spots/normal.png",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/nether_crab_claw.png",
         "vanishing_rate": 0.0
       },
       {
         "color_as_int": -15732736,
-        "hitbox_size_in_pixels": 15,
+        "hitbox_size_in_pixels": 10,
         "is_flip": false,
         "moving_rate": 0.0,
-        "reward": 20,
+        "reward": 50,
         "sweetspot_type": "starcatcher:normal",
-        "texture_path": "starcatcher:textures/gui/minigame/spots/thin.png",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/nether_crab_leg.png",
         "vanishing_rate": 0.0
       }
     ]
@@ -58,11 +58,7 @@
   "has_guide_entry": false,
   "rarity": "uncommon",
   "restrictions": [
-    {
-      "type": "starcatcher:dimension",
-      "dimension_entry": "the_nether",
-      "translation_override": "dimension.minecraft.the_nether"
-    },
+    
     {
       "type": "starcatcher:fluid",
       "fluids": ["minecraft:lava"],
@@ -70,11 +66,11 @@
     }
   ],
   "size_and_weight": {
-    "average_size_cm": 120.0,
-    "average_weight_grams": 3700.0,
-    "deviation_size_cm": 40.0,
-    "deviation_weight_grams": 900.0,
-    "golden_chance": 0.02
+    "average_size_cm": 0,
+    "average_weight_grams": 0,
+    "deviation_size_cm": 0,
+    "deviation_weight_grams": 0,
+    "golden_chance": 0
   },
   "skips_minigame": false,
   "textures": {

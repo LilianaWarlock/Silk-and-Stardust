@@ -1,5 +1,5 @@
 {
-  "base_chance": 5,
+  "base_chance": 6,
   "catch_info": {
     "item": {
       "data_components_patch": {
@@ -10,46 +10,96 @@
     }
   },
   "difficulty": {
-    "decay": 1.0,
-    "hp": 150,
-    "missPenalty": 13,
+    "decay": 3.0,
+    "hp": 200,
+    "missPenalty": 25,
     "modifiers": [],
     "speed": 7,
     "sweetspots": [
       {
         "color_as_int": -15732736,
-        "hitbox_size_in_pixels": 22,
+        "hitbox_size_in_pixels": 24,
         "is_flip": false,
-        "moving_rate": 0.0,
-        "reward": 15,
-        "sweetspot_type": "starcatcher:normal",
-        "texture_path": "starcatcher:textures/gui/minigame/spots/normal.png",
-        "vanishing_rate": 0.0
-      },
-      {
-        "color_as_int": -15732736,
-        "hitbox_size_in_pixels": 22,
-        "is_flip": false,
-        "moving_rate": 0.0,
-        "reward": 15,
-        "sweetspot_type": "starcatcher:normal",
-        "texture_path": "starcatcher:textures/gui/minigame/spots/normal.png",
-        "vanishing_rate": 0.0
-      },
-      {
-        "color_as_int": -15732736,
-        "hitbox_size_in_pixels": 15,
-        "is_flip": false,
-        "moving_rate": 0.0,
+        "moving_rate": 1.0,
         "reward": 20,
         "sweetspot_type": "starcatcher:normal",
-        "texture_path": "starcatcher:textures/gui/minigame/spots/thin.png",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/king_of_the_frost_1.png",
+        "vanishing_rate": 0.0
+      },
+      {
+        "color_as_int": -15732736,
+        "hitbox_size_in_pixels": 24,
+        "is_flip": true,
+        "moving_rate": 3.0,
+        "reward": 25,
+        "sweetspot_type": "starcatcher:normal",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/king_of_the_frost_2.png",
+        "vanishing_rate": 0.0
+      },
+      {
+        "color_as_int": -15732736,
+        "hitbox_size_in_pixels": 24,
+        "is_flip": false,
+        "moving_rate": -1.0,
+        "reward": 20,
+        "sweetspot_type": "starcatcher:normal",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/king_of_the_frost_3.png",
+        "vanishing_rate": 0.0
+      },
+      {
+        "color_as_int": -15732736,
+        "hitbox_size_in_pixels": 24,
+        "is_flip": true,
+        "moving_rate": -3.0,
+        "reward": 25,
+        "sweetspot_type": "starcatcher:normal",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/king_of_the_frost_4.png",
+        "vanishing_rate": 0.0
+      },
+      {
+        "color_as_int": -15732736,
+        "hitbox_size_in_pixels": 1,
+        "is_flip": false,
+        "moving_rate": 0.3,
+        "reward": 20,
+        "sweetspot_type": "starcatcher:mirage",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/cloud_1.png",
+        "vanishing_rate": 0.0
+      },
+      {
+        "color_as_int": -15732736,
+        "hitbox_size_in_pixels": 1,
+        "is_flip": false,
+        "moving_rate": -0.3,
+        "reward": 20,
+        "sweetspot_type": "starcatcher:mirage",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/cloud_2.png",
+        "vanishing_rate": 0.0
+      },
+      {
+        "color_as_int": -15732736,
+        "hitbox_size_in_pixels": 1,
+        "is_flip": false,
+        "moving_rate": 0.3,
+        "reward": 20,
+        "sweetspot_type": "starcatcher:mirage",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/cloud_3.png",
+        "vanishing_rate": 0.0
+      },
+      {
+        "color_as_int": -15732736,
+        "hitbox_size_in_pixels": 1,
+        "is_flip": false,
+        "moving_rate": -0.3,
+        "reward": 20,
+        "sweetspot_type": "starcatcher:mirage",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/cloud_4.png",
         "vanishing_rate": 0.0
       }
     ]
   },
   "has_guide_entry": false,
-  "rarity": "uncommon",
+  "rarity": "rare",
   "restrictions": [
     {
       "type": "starcatcher:dimension",
@@ -64,7 +114,7 @@
     {
       "type": "starcatcher:elevation_restriction",
       "max_y": 2147483647,
-      "min_y": 50,
+      "min_y": 30,
       "translation_override": "gui.guide.elevation.surface"
     },
     {
@@ -74,18 +124,18 @@
     }
   ],
   "size_and_weight": {
-    "average_size_cm": 70.0,
-    "average_weight_grams": 10000.0,
-    "deviation_size_cm": 20.0,
-    "deviation_weight_grams": 3000.0,
-    "golden_chance": 0.02
+    "average_size_cm": 0,
+    "average_weight_grams": 0,
+    "deviation_size_cm": 0,
+    "deviation_weight_grams": 0,
+    "golden_chance": 0
   },
   "skips_minigame": false,
   "textures": {
     "buttons": "starcatcher:textures/gui/minigame/buttons.png",
     "handle": "starcatcher:textures/gui/minigame/handle.png",
     "rod": "starcatcher:textures/gui/minigame/rod.png",
-    "tank": "starcatcher:textures/gui/minigame/tanks/surface.png",
+    "tank": "starcatcher:textures/gui/minigame/tanks/deep_dark.png",
     "treasure": "starcatcher:textures/gui/minigame/treasure.png",
     "wheels": "starcatcher:textures/gui/minigame/wheels.png"
   }

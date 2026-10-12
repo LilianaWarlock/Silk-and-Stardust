@@ -1,5 +1,5 @@
 {
-  "base_chance": 5,
+  "base_chance": 2,
   "catch_info": {
     "item": {
       "data_components_patch": {
@@ -10,9 +10,9 @@
     }
   },
   "difficulty": {
-    "decay": 1.0,
-    "hp": 150,
-    "missPenalty": 13,
+    "decay": 3.5,
+    "hp":250,
+    "missPenalty": 30,
     "modifiers": [
       {
         "type": "starcatcher:teleport"
@@ -22,38 +22,58 @@
     "sweetspots": [
       {
         "color_as_int": -15732736,
-        "hitbox_size_in_pixels": 22,
+        "hitbox_size_in_pixels": 24,
         "is_flip": false,
         "moving_rate": 0.0,
         "reward": 15,
         "sweetspot_type": "starcatcher:normal",
-        "texture_path": "starcatcher:textures/gui/minigame/spots/normal.png",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/sculk.png",
         "vanishing_rate": 0.0
       },
       {
         "color_as_int": -15732736,
         "hitbox_size_in_pixels": 15,
-        "is_flip": false,
-        "moving_rate": 0.0,
-        "reward": 20,
+        "is_flip": true,
+        "moving_rate": 5.0,
+        "reward": 30,
         "sweetspot_type": "starcatcher:normal",
-        "texture_path": "starcatcher:textures/gui/minigame/spots/thin.png",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/end_crab_leg.png",
         "vanishing_rate": 0.0
       },
       {
         "color_as_int": -15732736,
         "hitbox_size_in_pixels": 15,
-        "is_flip": false,
-        "moving_rate": 0.0,
-        "reward": 20,
+        "is_flip": true,
+        "moving_rate": -5.0,
+        "reward": 30,
         "sweetspot_type": "starcatcher:normal",
-        "texture_path": "starcatcher:textures/gui/minigame/spots/thin.png",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/end_crab_leg.png",
+        "vanishing_rate": 0.0
+      },
+      {
+        "color_as_int": -15732736,
+        "hitbox_size_in_pixels": 15,
+        "is_flip": true,
+        "moving_rate": 5.0,
+        "reward": 30,
+        "sweetspot_type": "starcatcher:mirage",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/end_crab_leg.png",
+        "vanishing_rate": 0.0
+      },
+      {
+        "color_as_int": -15732736,
+        "hitbox_size_in_pixels": 15,
+        "is_flip": true,
+        "moving_rate": -5.0,
+        "reward": 30,
+        "sweetspot_type": "starcatcher:mirage",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/end_crab_leg.png",
         "vanishing_rate": 0.0
       }
     ]
   },
   "has_guide_entry": false,
-  "rarity": "uncommon",
+  "rarity": "legendary",
   "restrictions": [
     {
       "type": "starcatcher:dimension",
@@ -73,18 +93,18 @@
     }
   ],
   "size_and_weight": {
-    "average_size_cm": 250.0,
-    "average_weight_grams": 6000.0,
-    "deviation_size_cm": 60.0,
-    "deviation_weight_grams": 2200.0,
-    "golden_chance": 0.02
+    "average_size_cm": 0,
+    "average_weight_grams": 0,
+    "deviation_size_cm": 0,
+    "deviation_weight_grams": 0,
+    "golden_chance": 0
   },
   "skips_minigame": false,
   "textures": {
     "buttons": "starcatcher:textures/gui/minigame/buttons.png",
     "handle": "starcatcher:textures/gui/minigame/handle.png",
     "rod": "starcatcher:textures/gui/minigame/rod.png",
-    "tank": "starcatcher:textures/gui/minigame/tanks/end_void.png",
+    "tank": "starcatcher:textures/gui/minigame/tanks/end.png",
     "treasure": "starcatcher:textures/gui/minigame/treasure.png",
     "wheels": "starcatcher:textures/gui/minigame/wheels.png"
   }

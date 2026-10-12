@@ -4,6 +4,10 @@
     {
       "id": "simple_ender_backpack:ender_backpack",
       "required": false
+    },
+    {
+      "id": "minecraft:spyglass",
+      "required": false
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "base_chance": 5,
+  "base_chance": 6,
   "catch_info": {
     "item": {
       "data_components_patch": {
@@ -10,38 +10,38 @@
     }
   },
   "difficulty": {
-    "decay": 1.0,
-    "hp": 150,
-    "missPenalty": 13,
+    "decay": 3,
+    "hp": 200,
+    "missPenalty": 15,
     "modifiers": [],
     "speed": 7,
     "sweetspots": [
       {
         "color_as_int": -15732736,
-        "hitbox_size_in_pixels": 22,
+        "hitbox_size_in_pixels": 33,
         "is_flip": false,
         "moving_rate": 0.0,
-        "reward": 15,
-        "sweetspot_type": "starcatcher:normal",
-        "texture_path": "starcatcher:textures/gui/minigame/spots/normal.png",
+        "reward": 10,
+        "sweetspot_type": "starcatcher:freeze",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/frozen.png",
         "vanishing_rate": 0.0
       },
       {
         "color_as_int": -15732736,
-        "hitbox_size_in_pixels": 22,
+        "hitbox_size_in_pixels": 33,
         "is_flip": false,
         "moving_rate": 0.0,
-        "reward": 15,
-        "sweetspot_type": "starcatcher:normal",
-        "texture_path": "starcatcher:textures/gui/minigame/spots/normal.png",
+        "reward": 10,
+        "sweetspot_type": "starcatcher:freeze",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/frozen.png",
         "vanishing_rate": 0.0
       },
       {
         "color_as_int": -15732736,
         "hitbox_size_in_pixels": 15,
         "is_flip": false,
-        "moving_rate": 0.0,
-        "reward": 20,
+        "moving_rate": -6.0,
+        "reward": 50,
         "sweetspot_type": "starcatcher:normal",
         "texture_path": "starcatcher:textures/gui/minigame/spots/thin.png",
         "vanishing_rate": 0.0
@@ -49,7 +49,7 @@
     ]
   },
   "has_guide_entry": false,
-  "rarity": "uncommon",
+  "rarity": "rare",
   "restrictions": [
     {
       "type": "starcatcher:dimension",
@@ -74,18 +74,18 @@
     }
   ],
   "size_and_weight": {
-    "average_size_cm": 6.0,
-    "average_weight_grams": 5.0,
-    "deviation_size_cm": 4.0,
-    "deviation_weight_grams": 3.0,
-    "golden_chance": 0.02
+    "average_size_cm": 0,
+    "average_weight_grams": 0,
+    "deviation_size_cm": 0,
+    "deviation_weight_grams": 0,
+    "golden_chance": 0
   },
   "skips_minigame": false,
   "textures": {
     "buttons": "starcatcher:textures/gui/minigame/buttons.png",
     "handle": "starcatcher:textures/gui/minigame/handle.png",
     "rod": "starcatcher:textures/gui/minigame/rod.png",
-    "tank": "starcatcher:textures/gui/minigame/tanks/surface.png",
+    "tank": "starcatcher:textures/gui/minigame/tanks/icy.png",
     "treasure": "starcatcher:textures/gui/minigame/treasure.png",
     "wheels": "starcatcher:textures/gui/minigame/wheels.png"
   }

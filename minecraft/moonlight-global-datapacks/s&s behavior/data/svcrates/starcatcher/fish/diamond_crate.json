@@ -10,46 +10,46 @@
     }
   },
   "difficulty": {
-    "decay": 1.0,
-    "hp": 180,
-    "missPenalty": 15,
+    "decay": 4.0,
+    "hp": 400,
+    "missPenalty": 40,
     "modifiers": [],
     "speed": 7,
     "sweetspots": [
       {
         "color_as_int": -15732736,
-        "hitbox_size_in_pixels": 22,
-        "is_flip": false,
-        "moving_rate": 0.0,
-        "reward": 15,
+        "hitbox_size_in_pixels": 24,
+        "is_flip": true,
+        "moving_rate": 4.0,
+        "reward": 5,
         "sweetspot_type": "starcatcher:normal",
-        "texture_path": "starcatcher:textures/gui/minigame/spots/normal.png",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/stone.png",
         "vanishing_rate": 0.0
       },
       {
         "color_as_int": -15732736,
-        "hitbox_size_in_pixels": 22,
-        "is_flip": false,
-        "moving_rate": 0.0,
-        "reward": 15,
+        "hitbox_size_in_pixels": 24,
+        "is_flip": true,
+        "moving_rate": 3.0,
+        "reward": 5,
         "sweetspot_type": "starcatcher:normal",
-        "texture_path": "starcatcher:textures/gui/minigame/spots/normal.png",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/stone.png",
         "vanishing_rate": 0.0
       },
       {
         "color_as_int": -15732736,
         "hitbox_size_in_pixels": 15,
         "is_flip": false,
-        "moving_rate": 0.0,
-        "reward": 20,
+        "moving_rate": 2.0,
+        "reward": 30,
         "sweetspot_type": "starcatcher:normal",
-        "texture_path": "starcatcher:textures/gui/minigame/spots/thin.png",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/thin_steady.png",
         "vanishing_rate": 0.0
       }
     ]
   },
   "has_guide_entry": false,
-  "rarity": "rare",
+  "rarity": "legendary",
   "restrictions": [
     {
       "type": "starcatcher:dimension",
@@ -59,29 +59,25 @@
     {
       "type": "starcatcher:biome",
       "biomes": [],
-      "blacklist": [
-        "#starcatcher:is_ocean",
-        "#starcatcher:is_river",
-        "#starcatcher:is_mushroom_fields",
-        "#starcatcher:is_cold_lake",
-        "#starcatcher:is_warm_lake",
-        "#starcatcher:is_cherry_grove"
-      ],
+      "blacklist": [],
       "hover_translation": "gui.guide.lakes.hover",
       "translation_override": "gui.guide.lakes"
     },
     {
       "type": "starcatcher:fluid",
-      "fluids": ["minecraft:water"],
+      "fluids": [
+        "minecraft:water",
+        "minecraft:lava"
+      ],
       "translation_override": "fluid.starcatcher.water"
     }
   ],
   "size_and_weight": {
-    "average_size_cm": 16.0,
-    "average_weight_grams": 167.0,
-    "deviation_size_cm": 3.0,
-    "deviation_weight_grams": 70.0,
-    "golden_chance": 0.02
+    "average_size_cm": 0,
+    "average_weight_grams": 0,
+    "deviation_size_cm": 0,
+    "deviation_weight_grams": 0,
+    "golden_chance": 0
   },
   "skips_minigame": false,
   "textures": {
