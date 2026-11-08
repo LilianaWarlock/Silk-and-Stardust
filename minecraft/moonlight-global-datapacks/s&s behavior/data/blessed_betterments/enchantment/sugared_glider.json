@@ -40,6 +40,15 @@
           },
           {
             "condition": "minecraft:location_check",
+            "offsetY": -2,
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:air"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
             "offsetY": -1,
             "predicate": {
               "block": {
@@ -61,6 +70,7 @@
     "per_level_above_first": 10
   },
   "slots": ["any"],
-  "supported_items": "#vc_gliders:gliders",
+  "supported_items": "#minecraft:gliders",
+  "primary_items": "#minecraft:gliders",
   "weight": 2
 }
