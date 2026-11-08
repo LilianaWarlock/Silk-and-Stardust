@@ -112,7 +112,7 @@
 
 [misc]
 	#Gives a special animation to torches when held in hand
-	torch_item_holding = true
+	torch_item_holding = false
 	#Size lanterns when held in hand
 	# Default: 1.0
 	# Range: 0.0 ~ 2.0

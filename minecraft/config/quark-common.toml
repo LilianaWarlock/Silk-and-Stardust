@@ -762,7 +762,7 @@
 
 [world]
 	#(Ashen Trees)
-	"Ancient Wood" = false
+	"Ancient Wood" = true
 	"Azalea Wood" = false
 	"Big Stone Clusters" = false
 	#(Trumpet Trees)
@@ -784,15 +784,15 @@
 	[world.ancient_wood]
 		"Ancient Fruit Gives Exp" = true
 		#Allowed values: [1,)
-		"Ancient Fruit Exp Value" = 10
+		"Ancient Fruit Exp Value" = 20
 		#Set to a value other than 0 to enable Ancient City loot chest generation (8 recommended if you do)
 		#Allowed values: [0,)
-		"Ancient City Loot Weight" = 0
+		"Ancient City Loot Weight" = 4
 		#Allowed values: [0,)
 		"Ancient City Loot Quality" = 1
 		#Set to 0 to disable sniffer sniffing. The vanilla loot table has every entry at weight 1, so without editing it, it's impossible to make the sapling more rare
 		#Allowed values: [0,)
-		"Sniffing Loot Weight" = 1
+		"Sniffing Loot Weight" = 0
 		#Allowed values: [0,)
 		"Sniffing Loot Quality" = 0
 
