@@ -12,7 +12,7 @@
       "item": "minecraft:crying_obsidian"
     },
     "T": {
-      "item": "netherexp:spark_of_treachery"
+      "item": "minecraft:nether_star"
     }
   },
   "pattern": ["BBB", "RCR", "CTC"],

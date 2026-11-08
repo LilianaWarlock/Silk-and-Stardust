@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "minecraft:medium_amethyst_bud"
+  },
+  "result": {
+    "id": "minecraft:small_amethyst_bud"
+  }
+}

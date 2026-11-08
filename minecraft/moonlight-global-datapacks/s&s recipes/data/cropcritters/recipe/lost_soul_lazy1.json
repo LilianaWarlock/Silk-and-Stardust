@@ -5,7 +5,7 @@
   "pattern": [" A ", "ABA", " A "],
   "key": {
     "A": { "item": "minecraft:soul_sand" },
-    "B": { "item": "knightlib:great_essence" }
+    "B": { "item": "knightlib:small_essence" }
   },
-  "result": { "id": "cropcritters:lost_soul", "count": 7 }
+  "result": { "id": "cropcritters:lost_soul", "count": 4 }
 }
