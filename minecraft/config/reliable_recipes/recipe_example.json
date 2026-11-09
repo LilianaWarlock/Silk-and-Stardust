@@ -34,6 +34,26 @@
   },
   {
     "action": "set_repair_material",
+    "target": "vc_gliders:paraglider_wood",
+    "material": "vc_gliders:reinforced_paper"
+  },
+  {
+    "action": "set_repair_material",
+    "target": "vc_gliders:paraglider_iron",
+    "material": "minecraft:iron_ingot"
+  },
+  {
+    "action": "set_repair_material",
+    "target": "vc_gliders:paraglider_gold",
+    "material": "minecraft:gold_ingot"
+  },
+  {
+    "action": "set_repair_material",
+    "target": "vc_gliders:paraglider_diamond",
+    "material": "minecraft:diamond"
+  },
+  {
+    "action": "set_repair_material",
     "target": "#c:basic_netherite",
     "material": "minecraft:diamond_block"
   }
