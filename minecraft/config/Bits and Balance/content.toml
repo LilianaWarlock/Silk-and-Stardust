@@ -24,6 +24,12 @@
 	# Default: 14
 	# Range: 0 ~ 15
 	bioluminescenceLightLevel = 14
+	#If true, newly placed Glow Goo Splatter disappears after the configured lifetime. Disabled by default.
+	splatterDecayEnabled = false
+	#How long newly placed Glow Goo Splatter lasts when decay is enabled, in seconds.
+	# Default: 300
+	# Range: 1 ~ 604800
+	splatterDecayTimeSeconds = 300
 
 #Potions
 [potions]
@@ -39,7 +45,7 @@
 	[potions.resurfacing]
 		#Enable the Resurfacing potion effect (teleports player to surface).
 		#Recipe: Currently no brewing recipe - obtained via creative mode or commands.
-		enableResurfacingPotion = true
+		enableResurfacingPotion = false
 
 	#Displacement Potion
 	[potions.displacement]
@@ -80,6 +86,13 @@
 		#Recipe: Glowing Potion + Glow Goo = Bioluminescence Potion
 		#Upgrades: Glowstone for Bioluminescence II; Redstone extends Bioluminescence II to 4 minutes; Long Glowing Potion + Glow Goo brews the 8-minute base variant
 		enableBioluminescencePotion = true
+
+	#Blindness Potion
+	[potions.blindness]
+		#Enable Blindness potions and limit blinded mobs to 3-block sight and aggro range.
+		#Recipe: Awkward Potion + Ink Sac = Blindness Potion
+		#Upgrades: Redstone for an extended variant
+		enableBlindnessPotion = true
 
 #Enhanced Slab Behavior
 #Hang items below slabs, enable KneeSlab-like mining, and mixed double slabs.
@@ -236,6 +249,55 @@
 		# Range: 0 ~ 10000
 		torchBurnTime = 400
 
+	#Ore Smelting XP
+	[recipes.oreSmeltingXp]
+		#Enable configurable experience for smelting or blasting vanilla ore blocks.
+		enabled = false
+		#XP for Coal Ore and Deepslate Coal Ore.
+		# Default: 0.5
+		# Range: 0.0 ~ 1000.0
+		coal = 0.5
+		#XP for Lapis Ore and Deepslate Lapis Ore.
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		lapis = 1.0
+		#XP for Nether Quartz Ore.
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		netherQuartz = 1.0
+		#XP for Iron Ore and Deepslate Iron Ore.
+		# Default: 3.5
+		# Range: 0.0 ~ 1000.0
+		iron = 3.5
+		#XP for Copper Ore and Deepslate Copper Ore.
+		# Default: 3.5
+		# Range: 0.0 ~ 1000.0
+		copper = 3.5
+		#XP for Redstone Ore and Deepslate Redstone Ore.
+		# Default: 3.5
+		# Range: 0.0 ~ 1000.0
+		redstone = 3.5
+		#XP for Gold Ore and Deepslate Gold Ore.
+		# Default: 5.0
+		# Range: 0.0 ~ 1000.0
+		gold = 5.0
+		#XP for Nether Gold Ore.
+		# Default: 5.0
+		# Range: 0.0 ~ 1000.0
+		netherGold = 5.0
+		#XP for Diamond Ore and Deepslate Diamond Ore.
+		# Default: 5.0
+		# Range: 0.0 ~ 1000.0
+		diamond = 5.0
+		#XP for Emerald Ore and Deepslate Emerald Ore.
+		# Default: 5.0
+		# Range: 0.0 ~ 1000.0
+		emerald = 5.0
+		#XP for Ancient Debris.
+		# Default: 10.0
+		# Range: 0.0 ~ 1000.0
+		ancientDebris = 10.0
+
 #Loot Tables Configuration
 [lootTables]
 	#Enable custom loot table modifications (master toggle).
@@ -254,7 +316,7 @@
 	#Mineshaft Loot
 	[lootTables.mineshaftLoot]
 		#Enable custom loot additions to abandoned mineshaft chests.
-		enableMineshaftLoot = true
+		enableMineshaftLoot = false
 
 		#Resurfacing Potion
 		[lootTables.mineshaftLoot.resurfacingPotion]
@@ -276,7 +338,7 @@
 		#Returning Potion
 		[lootTables.mineshaftLoot.returningPotion]
 			#Add Returning Potion to mineshaft loot tables.
-			enableReturningPotion = true
+			enableReturningPotion = false
 			#Weight for Returning Potion in mineshaft loot (higher = more common).
 			# Default: 1
 			# Range: 1 ~ 100
@@ -349,7 +411,7 @@
 		#Returning Potion
 		[lootTables.strongholdLoot.returningPotion]
 			#Add Returning Potion to stronghold loot tables.
-			enableReturningPotion = true
+			enableReturningPotion = false
 			#Weight for Returning Potion in stronghold loot (higher = more common).
 			# Default: 3
 			# Range: 1 ~ 100
@@ -371,7 +433,7 @@
 		#Resurfacing Potion
 		[lootTables.ancientCityLoot.resurfacingPotion]
 			#Add Resurfacing Potion to ancient city loot tables.
-			enableResurfacingPotion = true
+			enableResurfacingPotion = false
 			#Weight for Resurfacing Potion in ancient city loot (higher = more common).
 			# Default: 1
 			# Range: 1 ~ 100
@@ -388,7 +450,7 @@
 		#Returning Potion
 		[lootTables.ancientCityLoot.returningPotion]
 			#Add Returning Potion to ancient city loot tables.
-			enableReturningPotion = false
+			enableReturningPotion = true
 			#Weight for Returning Potion in ancient city loot (higher = more common).
 			# Default: 3
 			# Range: 1 ~ 100
@@ -410,7 +472,7 @@
 		#Returning Potion
 		[lootTables.endCityLoot.returningPotion]
 			#Add Returning Potion to end city loot tables.
-			enableReturningPotion = true
+			enableReturningPotion = false
 			#Weight for Returning Potion in end city loot (higher = more common).
 			# Default: 5
 			# Range: 1 ~ 100
@@ -432,7 +494,7 @@
 		#Resurfacing Potion
 		[lootTables.simpleDungeonLoot.resurfacingPotion]
 			#Add Resurfacing Potion to simple dungeon loot tables.
-			enableResurfacingPotion = true
+			enableResurfacingPotion = false
 			#Weight for Resurfacing Potion in simple dungeon loot (higher = more common).
 			# Default: 3
 			# Range: 1 ~ 100
@@ -449,7 +511,7 @@
 		#Returning Potion
 		[lootTables.simpleDungeonLoot.returningPotion]
 			#Add Returning Potion to simple dungeon loot tables.
-			enableReturningPotion = true
+			enableReturningPotion = false
 			#Weight for Returning Potion in simple dungeon loot (higher = more common).
 			# Default: 6
 			# Range: 1 ~ 100
@@ -474,7 +536,7 @@
 			#Resurfacing Potion
 			[lootTables.trialChamberLoot.common.resurfacingPotion]
 				#Add Resurfacing Potion to trial chamber common loot tables.
-				enableResurfacingPotion = true
+				enableResurfacingPotion = false
 				#Weight for Resurfacing Potion in trial chamber common loot (higher = more common).
 				# Default: 2
 				# Range: 1 ~ 100
@@ -494,7 +556,7 @@
 			#Resurfacing Potion
 			[lootTables.trialChamberLoot.rare.resurfacingPotion]
 				#Add Resurfacing Potion to trial chamber rare loot tables.
-				enableResurfacingPotion = true
+				enableResurfacingPotion = false
 				#Weight for Resurfacing Potion in trial chamber rare loot (higher = more common).
 				# Default: 5
 				# Range: 1 ~ 100
@@ -511,7 +573,7 @@
 			#Returning Potion
 			[lootTables.trialChamberLoot.rare.returningPotion]
 				#Add Returning Potion to trial chamber rare loot tables.
-				enableReturningPotion = true
+				enableReturningPotion = false
 				#Weight for Returning Potion in trial chamber rare loot (higher = more common).
 				# Default: 2
 				# Range: 1 ~ 100
@@ -531,7 +593,7 @@
 			#Returning Potion
 			[lootTables.trialChamberLoot.unique.returningPotion]
 				#Add Returning Potion to trial chamber unique loot tables.
-				enableReturningPotion = true
+				enableReturningPotion = false
 				#Weight for Returning Potion in trial chamber unique loot (higher = more common).
 				# Default: 5
 				# Range: 1 ~ 100
@@ -544,6 +606,36 @@
 				# Default: 1
 				# Range: 1 ~ 8
 				returningPotionMaxCount = 1
+
+	#Brushing Loot
+	[lootTables.brushingLoot]
+		#Improve ordinary archaeology finds while preserving artifact and Sniffer Egg odds. Also requires enableCustomLootTables.
+		enabled = true
+
+		#Desert Wells
+		[lootTables.brushingLoot.desertWell]
+			#Enable ordinary-find replacements at Desert Wells.
+			enabled = true
+
+		#Desert Pyramids
+		[lootTables.brushingLoot.desertPyramid]
+			#Enable ordinary-find replacements at Desert Pyramids.
+			enabled = true
+
+		#Trail Ruins
+		[lootTables.brushingLoot.trailRuins]
+			#Enable ordinary-find replacements at Trail Ruins.
+			enabled = true
+
+		#Cold Ocean Ruins
+		[lootTables.brushingLoot.coldOceanRuins]
+			#Enable ordinary-find replacements at Cold Ocean Ruins.
+			enabled = true
+
+		#Warm Ocean Ruins
+		[lootTables.brushingLoot.warmOceanRuins]
+			#Enable ordinary-find replacements at Warm Ocean Ruins.
+			enabled = true
 
 [cascading]
 	#Enable the experimental Cascading ore mining enchantment. Crouching always bypasses it.
@@ -564,3 +656,14 @@
 	# Default: 24
 	# Range: 1 ~ 64
 	levelThreeMaxOres = 8
+
+[fortuneBrush]
+	#Enable Fortune brushing drop and XP bonuses: +50% XP per level, common drops up to triple, rare finds capped at two. Fortune remains applicable through an anvil when disabled; rewards are datapack controlled.
+	enabled = true
+	#Item IDs excluded from Fortune brushing quantity bonuses, e.g. minecraft:diamond. Keeps the normal reward and XP bonus. Applies when loot is first revealed; already revealed rewards keep their saved count.
+	blacklist = []
+
+#Wood Stonecutting
+[woodStonecutting]
+	#Enable Bits and Balance wood stonecutting recipes. Disable when another mod or modpack handles wood processing. Reopen the world/server after changing.
+	enabled = false

@@ -1,0 +1,32 @@
+{
+  "minecraft:story/enter_the_nether": {
+    "priority": 50,
+    "with": {
+      "include": {
+        "entities": [
+          "creaturefeature:beauty",
+          "creaturefeature:detritus",
+          "creaturefeature:pathogen",
+          "creaturefeature:mockingbird",
+          "creaturefeature:coat_of_arms",
+          "fightsfrights:scowl",
+          "fightsfrights:banshaa",
+          "fightsfrights:shackled",
+          "fightsfrights:allman"
+        ],
+        "types": ["NATURAL"]
+      },
+      "exclude": {
+        "entities": ["minecraft:creeper", "minecraft:zombie"],
+        "types": ["CHUNK_GENERATION"]
+      }
+    },
+    "without": {
+      "include": ["minecraft:spider"],
+      "exclude": {
+        "entities": ["minecraft:skeleton"],
+        "types": ["SPAWNER"]
+      }
+    }
+  }
+}

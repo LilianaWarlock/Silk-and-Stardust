@@ -8,17 +8,7 @@
         "target": "minecraft:the_nether"
       },
       "triggerMessage": "The ground shudders under your feet unnervingly. Things feels a little less safe now...",
-      "blacklist": [
-        "creaturefeature:beauty",
-        "creaturefeature:detritus",
-        "creaturefeature:pathogen",
-        "creaturefeature:mockingbird",
-        "creaturefeature:coat_of_arms",
-        "fightsfrights:scowl",
-        "fightsfrights:banshaa",
-        "fightsfrights:shackled",
-        "fightsfrights:allman"
-      ],
+      "blacklist": [],
       "modifiers": {
         "healthMultiplier": 1.0,
         "healthAddition": 2.0,
